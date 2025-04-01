@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::RollingAverage::*)()>(&::GlobalNamespace::RollingAverage::get_currentAverage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e8bfc;
+  constexpr static std::size_t addrs = 0x22e0d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RollingAverage*>::get(), "get_currentAverage",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::RollingAverage::*)()>(&::GlobalNamespace::RollingAverage::get_hasValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e8c04;
+  constexpr static std::size_t addrs = 0x22e0d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RollingAverage*>::get(), "get_hasValue",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RollingAverage::*)(int32_t)>(&::GlobalNamespace::RollingAverage::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22e8c14;
+  constexpr static std::size_t addrs = 0x22e0da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RollingAverage::*)(float_t)>(&::GlobalNamespace::RollingAverage::Update)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x22e8c7c;
+  constexpr static std::size_t addrs = 0x22e0e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RollingAverage::*)()>(&::GlobalNamespace::RollingAverage::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e8d9c;
+  constexpr static std::size_t addrs = 0x22e0f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RollingAverage*>::get(), "Reset",

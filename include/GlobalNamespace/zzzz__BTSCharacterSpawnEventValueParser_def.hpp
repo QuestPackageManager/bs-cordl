@@ -19,16 +19,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BTSCharacterSpawnEventValueParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAnimationId, addr 0x2268844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAnimationId, addr 0x22609d4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetAnimationId(int32_t value);
 
-  /// @brief Method GetIsAlternativeMaterial, addr 0x2268c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIsAlternativeMaterial, addr 0x2260e14, size 0x8, virtual false, abstract: false, final false
   static inline bool GetIsAlternativeMaterial(int32_t value);
 
-  /// @brief Method GetPrefabId, addr 0x226883c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabId, addr 0x22609cc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetPrefabId(int32_t value);
 
-  /// @brief Method MergeValuesIntoOneInt, addr 0x2268db8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MergeValuesIntoOneInt, addr 0x2260f48, size 0x18, virtual false, abstract: false, final false
   static inline int32_t MergeValuesIntoOneInt(int32_t prefabId, int32_t animationId, bool isAlternativeMaterial);
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3be95fc;
+  constexpr static std::size_t addrs = 0x3bd70ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3be964c;
+  constexpr static std::size_t addrs = 0x3bd713c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)(bool)>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be459c;
+  constexpr static std::size_t addrs = 0x3bd208c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3be9650;
+  constexpr static std::size_t addrs = 0x3bd7140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be98d8;
+  constexpr static std::size_t addrs = 0x3bd73c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

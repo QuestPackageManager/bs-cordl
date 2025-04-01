@@ -28,7 +28,7 @@ public:
   constexpr TagAttribute(int32_t startIndex, int32_t length, int32_t hashCode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14445 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)(::System::IntPtr, bool)>(
     &::System::Runtime::InteropServices::SafeHandle::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3d22600;
+  constexpr static std::size_t addrs = 0x3d100fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d22698;
+  constexpr static std::size_t addrs = 0x3d10194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)(::System::IntPtr)>(
     &::System::Runtime::InteropServices::SafeHandle::SetHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d22738;
+  constexpr static std::size_t addrs = 0x3d10234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::DangerousGetHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d22740;
+  constexpr static std::size_t addrs = 0x3d1023c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::get_IsClosed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d22748;
+  constexpr static std::size_t addrs = 0x3d10244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)()>(&::System::Runtime::InteropServices::SafeHandle::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d22754;
+  constexpr static std::size_t addrs = 0x3d10250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(), "Close",
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d22764;
+  constexpr static std::size_t addrs = 0x3d10260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)(bool)>(
     &::System::Runtime::InteropServices::SafeHandle::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d22774;
+  constexpr static std::size_t addrs = 0x3d10270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::SetHandleAsInvalid)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3d22844;
+  constexpr static std::size_t addrs = 0x3d10340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)(::ByRef<bool>)>(
     &::System::Runtime::InteropServices::SafeHandle::DangerousAddRef)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3d21df0;
+  constexpr static std::size_t addrs = 0x3d0f8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::DangerousRelease)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d21f5c;
+  constexpr static std::size_t addrs = 0x3d0fa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::InternalDispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d22790;
+  constexpr static std::size_t addrs = 0x3d1028c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)()>(
     &::System::Runtime::InteropServices::SafeHandle::InternalFinalize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d22830;
+  constexpr static std::size_t addrs = 0x3d1032c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeHandle*>::get(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeHandle::*)(bool)>(
     &::System::Runtime::InteropServices::SafeHandle::DangerousReleaseInternal)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3d228c8;
+  constexpr static std::size_t addrs = 0x3d103c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

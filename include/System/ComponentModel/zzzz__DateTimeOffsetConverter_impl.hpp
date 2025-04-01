@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DateTimeOffsetConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::DateTimeOffsetConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x446ae3c;
+  constexpr static std::size_t addrs = 0x44589fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DateTimeOffsetConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::DateTimeOffsetConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x446af04;
+  constexpr static std::size_t addrs = 0x4458ac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::DateTimeOffsetConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::DateTimeOffsetConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x446afcc;
+  constexpr static std::size_t addrs = 0x4458b8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::DateTimeOffsetConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::DateTimeOffsetConverter::ConvertTo)> {
   constexpr static std::size_t size = 0xb80;
-  constexpr static std::size_t addrs = 0x446b364;
+  constexpr static std::size_t addrs = 0x4458f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DateTimeOffsetConverter::*)()>(
     &::System::ComponentModel::DateTimeOffsetConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446bee4;
+  constexpr static std::size_t addrs = 0x4459aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DateTimeOffsetConverter*>::get(),

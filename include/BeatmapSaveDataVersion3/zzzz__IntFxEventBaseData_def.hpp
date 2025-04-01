@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_v(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270de5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27064a0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t value);
 
-  /// @brief Method get_beat, addr 0x270de3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x2706480, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x270de44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x2706488, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x270de54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2706498, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -82,7 +82,7 @@ public:
   IntFxEventBaseData(IntFxEventBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13406 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

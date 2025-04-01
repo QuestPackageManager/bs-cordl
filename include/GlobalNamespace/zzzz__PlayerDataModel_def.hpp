@@ -47,10 +47,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26fcd98, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26f53dc, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26fcfc0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26f5604, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -68,7 +68,7 @@ public:
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13231 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -121,27 +121,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlayerDataModel"
   constexpr operator ::GlobalNamespace::IPlayerDataModel*() noexcept;
 
-  /// @brief Method Inject, addr 0x26fcbb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x26f51fc, size 0x28, virtual false, abstract: false, final false
   inline void Inject(::StringW playerDataJsonString, ::GlobalNamespace::PlayerDataFileModel* playerDataFileModel);
 
   static inline ::GlobalNamespace::PlayerDataModel* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x26fcbe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x26f5224, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDisable, addr 0x26fcc0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26f5250, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method ResetData, addr 0x26fcc8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetData, addr 0x26f52d0, size 0x24, virtual false, abstract: false, final false
   inline void ResetData();
 
-  /// @brief Method Save, addr 0x26fcbec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x26f5230, size 0x20, virtual false, abstract: false, final false
   inline void Save();
 
-  /// @brief Method SaveAsync, addr 0x26fcd70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x26f53b4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method UndoUnsavedChangesAsync, addr 0x26fccb0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UndoUnsavedChangesAsync, addr 0x26f52f4, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UndoUnsavedChangesAsync();
 
   constexpr ::GlobalNamespace::PlayerData* const& __cordl_internal_get__playerData() const;
@@ -156,13 +156,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataFileModel(::GlobalNamespace::PlayerDataFileModel* value);
 
-  /// @brief Method .ctor, addr 0x26fcd90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f53d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerData, addr 0x26fcbb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_playerData, addr 0x26f51f4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PlayerData* get_playerData();
 
-  /// @brief Method get_playerDataFileModel, addr 0x26fcba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerDataFileModel, addr 0x26f51ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerDataFileModel* get_playerDataFileModel();
 
   /// @brief Convert to "::GlobalNamespace::IPlayerDataModel"
@@ -183,7 +183,7 @@ public:
   PlayerDataModel(PlayerDataModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13232 };
 
   /// @brief Field kPlayerDataSaveInjectID offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayerDataSaveInjectID{ u"SavedPlayerData" };

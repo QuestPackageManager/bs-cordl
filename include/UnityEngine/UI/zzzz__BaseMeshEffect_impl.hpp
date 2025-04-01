@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::UI::BaseMeshEffect::*)()>(
     &::UnityEngine::UI::BaseMeshEffect::get_graphic)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4adf0bc;
+  constexpr static std::size_t addrs = 0x4accc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::BaseMeshEffect*>::get(), "get_graphic",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4adf150;
+  constexpr static std::size_t addrs = 0x4accd30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnDisable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4adf1f8;
+  constexpr static std::size_t addrs = 0x4accdd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4adf294;
+  constexpr static std::size_t addrs = 0x4acce74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)(::UnityEngine::Mesh*)>(&::UnityEngine::UI::BaseMeshEffect::ModifyMesh)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4adf330;
+  constexpr static std::size_t addrs = 0x4accf10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adf4e0;
+  constexpr static std::size_t addrs = 0x4acd0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::BaseMeshEffect*>::get(), ".ctor",

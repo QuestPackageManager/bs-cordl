@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent___c::*)()>(
     &::UnityEngine::UIElements::PointerMoveEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3f470;
+  constexpr static std::size_t addrs = 0x4a2d050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerMoveEvent___c*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PointerMoveEvent* (::UnityEngine::UIElements::PointerMoveEvent___c::*)()>(
     &::UnityEngine::UIElements::PointerMoveEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a3f478;
+  constexpr static std::size_t addrs = 0x4a2d058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerMoveEvent___c*>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PointerMoveEvent::*)()>(
     &::UnityEngine::UIElements::PointerMoveEvent::get_isHandledByDraggable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3ebb4;
+  constexpr static std::size_t addrs = 0x4a2c794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerMoveEvent*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)(bool)>(
     &::UnityEngine::UIElements::PointerMoveEvent::set_isHandledByDraggable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a3ebbc;
+  constexpr static std::size_t addrs = 0x4a2c79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a3ebc8;
+  constexpr static std::size_t addrs = 0x4a2c7a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::LocalInit)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4a3ec18;
+  constexpr static std::size_t addrs = 0x4a2c7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerMoveEvent*>::get(), "LocalInit",
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a3ed24;
+  constexpr static std::size_t addrs = 0x4a2c904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerMoveEvent*>::get(), ".ctor",
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerMoveEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0x4a3ed74;
+  constexpr static std::size_t addrs = 0x4a2c954;
 
   inline static ::MethodInfo const* methodInfo() {
 

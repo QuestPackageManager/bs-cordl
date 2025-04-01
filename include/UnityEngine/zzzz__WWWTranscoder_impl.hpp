@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::UnityEngine::WWWTranscoder::Hex2Byte)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4af0f14;
+  constexpr static std::size_t addrs = 0x4adeaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<uint8_t>, ::ByRef<uint8_t>)>(
     &::UnityEngine::WWWTranscoder::Byte2Hex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4af0fc0;
+  constexpr static std::size_t addrs = 0x4adeba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::UnityEngine::WWWTranscoder::URLEncode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4af1014;
+  constexpr static std::size_t addrs = 0x4adebf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(&::UnityEngine::WWWTranscoder::Encode)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x4af1080;
+  constexpr static std::size_t addrs = 0x4adec60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t)>(&::UnityEngine::WWWTranscoder::ByteArrayContains)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4af145c;
+  constexpr static std::size_t addrs = 0x4adf03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::UnityEngine::WWWTranscoder::URLDecode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4af0be0;
+  constexpr static std::size_t addrs = 0x4ade7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::UnityEngine::WWWTranscoder::ByteSubArrayEquals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4af17dc;
+  constexpr static std::size_t addrs = 0x4adf3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::UnityEngine::WWWTranscoder::Decode)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x4af14c4;
+  constexpr static std::size_t addrs = 0x4adf0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

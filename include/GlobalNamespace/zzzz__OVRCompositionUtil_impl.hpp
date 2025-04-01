@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::OVRCompositionUtil::SafeDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3fa5480;
+  constexpr static std::size_t addrs = 0x3f93038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::GameObject*>)>(&::GlobalNamespace::OVRCompositionUtil::SafeDestroy)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3fa551c;
+  constexpr static std::size_t addrs = 0x3f930d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::OVRCompositionUtil::GetWorldPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3fa5590;
+  constexpr static std::size_t addrs = 0x3f93148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRCompositionUtil::GetWorldPosition)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3fa55cc;
+  constexpr static std::size_t addrs = 0x3f93184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Camera*, ::GlobalNamespace::OVRBoundary_BoundaryType)>(
     &::GlobalNamespace::OVRCompositionUtil::GetMaximumBoundaryDistance)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3fa5660;
+  constexpr static std::size_t addrs = 0x3f93218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (*)(::GlobalNamespace::OVRBoundary_BoundaryType, float_t, float_t)>(
     &::GlobalNamespace::OVRCompositionUtil::BuildBoundaryMesh)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x3fa5c7c;
+  constexpr static std::size_t addrs = 0x3f93834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCompositionUtil::*)()>(&::GlobalNamespace::OVRCompositionUtil::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa6100;
+  constexpr static std::size_t addrs = 0x3f93cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCompositionUtil*>::get(), ".ctor",

@@ -33,16 +33,16 @@ public:
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method GetNextScanValue, addr 0x3f44650, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetNextScanValue, addr 0x3f32208, size 0x98, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetNextScanValue(::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
                                                                    ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method GetTokenIndex, addr 0x3f3eab0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method GetTokenIndex, addr 0x3f2c668, size 0x2c4, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f3e40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2bfc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

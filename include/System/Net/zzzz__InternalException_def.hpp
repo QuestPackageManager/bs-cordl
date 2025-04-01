@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Net::InternalException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44a8de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44969a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

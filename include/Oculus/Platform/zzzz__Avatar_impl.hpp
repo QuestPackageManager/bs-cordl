@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* (*)(::Oculus::Platform::AvatarEditorOptions*)>(&::Oculus::Platform::Avatar::LaunchAvatarEditor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3f96a20;
+  constexpr static std::size_t addrs = 0x3f845d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

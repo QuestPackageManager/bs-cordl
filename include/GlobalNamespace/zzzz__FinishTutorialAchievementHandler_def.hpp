@@ -37,15 +37,15 @@ public:
   /// @brief Field _tutorialFinishedSignal, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal)) ::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
-  /// @brief Method HandleTutorialFinished, addr 0x26a8590, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialFinished, addr 0x26a0720, size 0x20, virtual false, abstract: false, final false
   inline void HandleTutorialFinished();
 
   static inline ::GlobalNamespace::FinishTutorialAchievementHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26a8500, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26a0690, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26a8470, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26a0600, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get__achievementsModel() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x26a85b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

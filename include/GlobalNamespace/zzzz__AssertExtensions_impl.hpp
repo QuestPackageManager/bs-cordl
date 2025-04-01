@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, ::StringW)>(&::GlobalNamespace::AssertExtensions::LessThan)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b65b8;
+  constexpr static std::size_t addrs = 0x22ae748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, ::StringW)>(&::GlobalNamespace::AssertExtensions::GreaterOrEqual)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b65bc;
+  constexpr static std::size_t addrs = 0x22ae74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

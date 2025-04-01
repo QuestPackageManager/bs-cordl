@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e6a58;
+  constexpr static std::size_t addrs = 0x48d4638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIContent*>::get(), "get_text",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::set_text)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48e6a60;
+  constexpr static std::size_t addrs = 0x48d4640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIContent::*)(::UnityEngine::Texture*)>(&::UnityEngine::GUIContent::set_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e6ab8;
+  constexpr static std::size_t addrs = 0x48d4698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::get_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e5614;
+  constexpr static std::size_t addrs = 0x48d31f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIContent*>::get(), "get_tooltip",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::set_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e6ac0;
+  constexpr static std::size_t addrs = 0x48d46a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e6ac8;
+  constexpr static std::size_t addrs = 0x48d46a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIContent*>::get(), ".ctor",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48e6b24;
+  constexpr static std::size_t addrs = 0x48d4704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW, ::UnityEngine::Texture*, ::StringW)>(
     &::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48e6b88;
+  constexpr static std::size_t addrs = 0x48d4768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIContent::*)(::UnityEngine::GUIContent*)>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48e6c14;
+  constexpr static std::size_t addrs = 0x48d47f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIContent* (*)(::StringW)>(&::UnityEngine::GUIContent::Temp)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48e4dd4;
+  constexpr static std::size_t addrs = 0x48d29b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::GUIContent::ClearStaticCache)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48e6ca4;
+  constexpr static std::size_t addrs = 0x48d4884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIContent*>::get(), "ClearStaticCache",
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48e6d44;
+  constexpr static std::size_t addrs = 0x48d4924;
 
   inline static ::MethodInfo const* methodInfo() {
 

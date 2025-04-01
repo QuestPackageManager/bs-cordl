@@ -38,12 +38,12 @@ public:
   /// @brief Method CreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method Initialize, addr 0x4b321e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4b1fdd8, size 0x9c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Zenject::RunnableContext* New_ctor();
 
-  /// @brief Method Run, addr 0x4b34fc4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4b22bb8, size 0x70, virtual true, abstract: false, final false
   inline void Run();
 
   /// @brief Method RunInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -61,20 +61,20 @@ public:
 
   constexpr void __cordl_internal_set__autoRun(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b35080, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b22c74, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b32b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b20738, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__staticAutoRun();
 
-  /// @brief Method get_Initialized, addr 0x4b34fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initialized, addr 0x4b22ba4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Initialized();
 
   static inline void setStaticF__staticAutoRun(bool value);
 
-  /// @brief Method set_Initialized, addr 0x4b34fb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Initialized, addr 0x4b22bac, size 0xc, virtual false, abstract: false, final false
   inline void set_Initialized(bool value);
 
 protected:

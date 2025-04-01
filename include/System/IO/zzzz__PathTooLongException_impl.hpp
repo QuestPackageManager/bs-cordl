@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PathTooLongException::*)()>(&::System::IO::PathTooLongException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d48b00;
+  constexpr static std::size_t addrs = 0x3d365fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::PathTooLongException*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PathTooLongException::*)(::StringW)>(&::System::IO::PathTooLongException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d48b5c;
+  constexpr static std::size_t addrs = 0x3d36658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PathTooLongException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::IO::PathTooLongException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d48b80;
+  constexpr static std::size_t addrs = 0x3d3667c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

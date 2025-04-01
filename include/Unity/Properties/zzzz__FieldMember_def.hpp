@@ -41,19 +41,19 @@ public:
   /// @brief Convert operator to "::Unity::Properties::IMemberInfo"
   constexpr operator ::Unity::Properties::IMemberInfo*();
 
-  /// @brief Method GetCustomAttributes, addr 0x491fd80, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetCustomAttributes, addr 0x490d960, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes();
 
-  /// @brief Method .ctor, addr 0x491fc10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490d7f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* fieldInfo);
 
-  /// @brief Method get_IsReadOnly, addr 0x491fd40, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x490d920, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x491fd38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x490d918, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_ValueType, addr 0x491fd5c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_ValueType, addr 0x490d93c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Unity::Properties::IMemberInfo"

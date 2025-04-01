@@ -25,7 +25,7 @@ namespace UnityEngine::InputSystem::UI {
 struct CORDL_TYPE NavigationModel {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x45ffe70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x45eda50, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []

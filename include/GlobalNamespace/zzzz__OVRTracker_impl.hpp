@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTracker::*)()>(&::GlobalNamespace::OVRTracker::get_isPresent)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x402e728;
+  constexpr static std::size_t addrs = 0x401c2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTracker*>::get(), "get_isPresent",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTracker::*)()>(&::GlobalNamespace::OVRTracker::get_isPositionTracked)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x402e7b8;
+  constexpr static std::size_t addrs = 0x401c370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTracker*>::get(), "get_isPositionTracked",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTracker::*)()>(&::GlobalNamespace::OVRTracker::get_isEnabled)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x402e808;
+  constexpr static std::size_t addrs = 0x401c3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTracker*>::get(), "get_isEnabled",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTracker::*)(bool)>(&::GlobalNamespace::OVRTracker::set_isEnabled)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x402e898;
+  constexpr static std::size_t addrs = 0x401c450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRTracker::*)()>(&::GlobalNamespace::OVRTracker::get_count)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x402e92c;
+  constexpr static std::size_t addrs = 0x401c4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTracker*>::get(), "get_count",
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTracker_Frustum (::GlobalNamespace::OVRTracker::*)(int32_t)>(
     &::GlobalNamespace::OVRTracker::GetFrustum)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x402ea84;
+  constexpr static std::size_t addrs = 0x401c63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRTracker::*)(int32_t)>(&::GlobalNamespace::OVRTracker::GetPose)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x402eb28;
+  constexpr static std::size_t addrs = 0x401c6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTracker::*)(int32_t)>(&::GlobalNamespace::OVRTracker::GetPoseValid)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x402edd8;
+  constexpr static std::size_t addrs = 0x401c990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTracker::*)(int32_t)>(&::GlobalNamespace::OVRTracker::GetPresent)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x402e968;
+  constexpr static std::size_t addrs = 0x401c520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTracker::*)()>(&::GlobalNamespace::OVRTracker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x402eef4;
+  constexpr static std::size_t addrs = 0x401caac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTracker*>::get(), ".ctor",

@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConverterCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e891d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e76d90, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

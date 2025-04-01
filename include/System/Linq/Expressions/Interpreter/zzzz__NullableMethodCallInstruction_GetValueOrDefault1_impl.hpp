@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::*)()>(
     &::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41062a8;
+  constexpr static std::size_t addrs = 0x40f3e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::Run)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x41062b0;
+  constexpr static std::size_t addrs = 0x40f3e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::*)()>(
     &::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4106108;
+  constexpr static std::size_t addrs = 0x40f3cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

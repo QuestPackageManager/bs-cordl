@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method .ctor, addr 0x42263dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4213f9c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method get_ContentLength, addr 0x4223f7c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x4211b3c, size 0x128, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_ContentLength();
 
-  /// @brief Method get_ContentType, addr 0x4227044, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x4214c04, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
 
-  /// @brief Method set_ContentType, addr 0x42285c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x4216188, size 0x74, virtual false, abstract: false, final false
   inline void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value);
 
 protected:

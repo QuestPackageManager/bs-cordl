@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::*)(
     ::UnityEngine::Vector3, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::Process)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4614894;
+  constexpr static std::size_t addrs = 0x4602474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46148b0;
+  constexpr static std::size_t addrs = 0x4602490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -47,10 +47,10 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4923210, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4910df0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49232e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4910ec8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -87,10 +87,10 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4923258, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4910e38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4923328, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4910f08, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -127,10 +127,10 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49232a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4910e80, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4923368, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4910f48, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -171,7 +171,7 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector3IntPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49222ec, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490fecc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

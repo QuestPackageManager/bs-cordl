@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a5750;
+  constexpr static std::size_t addrs = 0x4793330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::SerializedType>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_ClassName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a5758;
+  constexpr static std::size_t addrs = 0x4793338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::SerializedType>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47a5760;
+  constexpr static std::size_t addrs = 0x4793340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_Value)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x47a5810;
+  constexpr static std::size_t addrs = 0x47933f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::SerializedType>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::SerializedType::*)(::System::Type*)>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::set_Value)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47a5a04;
+  constexpr static std::size_t addrs = 0x47935e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_ValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a5ac4;
+  constexpr static std::size_t addrs = 0x47936a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::SerializedType>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::SerializedType::*)(bool)>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::set_ValueChanged)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47a5acc;
+  constexpr static std::size_t addrs = 0x47936ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -34,37 +34,37 @@ public:
 
   __declspec(property(get = get_vertexAttributeCount, put = set_vertexAttributeCount)) int32_t vertexAttributeCount;
 
-  /// @brief Method getElementCountByAttributeOwner, addr 0x3a56528, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method getElementCountByAttributeOwner, addr 0x3a435fc, size 0x4c, virtual false, abstract: false, final false
   inline int32_t getElementCountByAttributeOwner(::HoudiniEngineUnity::HAPI_AttributeOwner owner);
 
-  /// @brief Method getElementCountByGroupType, addr 0x3a56574, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method getElementCountByGroupType, addr 0x3a43648, size 0x28, virtual false, abstract: false, final false
   inline int32_t getElementCountByGroupType(::HoudiniEngineUnity::HAPI_GroupType type);
 
-  /// @brief Method get_detailAttributeCount, addr 0x3a566f0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_detailAttributeCount, addr 0x3a437c4, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_detailAttributeCount();
 
-  /// @brief Method get_pointAttributeCount, addr 0x3a5659c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_pointAttributeCount, addr 0x3a43670, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_pointAttributeCount();
 
-  /// @brief Method get_primitiveAttributeCount, addr 0x3a56610, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_primitiveAttributeCount, addr 0x3a436e4, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_primitiveAttributeCount();
 
-  /// @brief Method get_vertexAttributeCount, addr 0x3a56684, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_vertexAttributeCount, addr 0x3a43758, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_vertexAttributeCount();
 
-  /// @brief Method init, addr 0x3a4b69c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method init, addr 0x3a38770, size 0x58, virtual false, abstract: false, final false
   inline void init();
 
-  /// @brief Method set_detailAttributeCount, addr 0x3a56724, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_detailAttributeCount, addr 0x3a437f8, size 0x40, virtual false, abstract: false, final false
   inline void set_detailAttributeCount(int32_t value);
 
-  /// @brief Method set_pointAttributeCount, addr 0x3a565d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_pointAttributeCount, addr 0x3a436a4, size 0x40, virtual false, abstract: false, final false
   inline void set_pointAttributeCount(int32_t value);
 
-  /// @brief Method set_primitiveAttributeCount, addr 0x3a56644, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_primitiveAttributeCount, addr 0x3a43718, size 0x40, virtual false, abstract: false, final false
   inline void set_primitiveAttributeCount(int32_t value);
 
-  /// @brief Method set_vertexAttributeCount, addr 0x3a566b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_vertexAttributeCount, addr 0x3a43788, size 0x3c, virtual false, abstract: false, final false
   inline void set_vertexAttributeCount(int32_t value);
 
   // Ctor Parameters []

@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
 
-  /// @brief Method .ctor, addr 0x43af1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439cd70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

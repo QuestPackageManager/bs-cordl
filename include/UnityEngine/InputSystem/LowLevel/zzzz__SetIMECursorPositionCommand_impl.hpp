@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4615cac;
+  constexpr static std::size_t addrs = 0x460388c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand::get_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4615cdc;
+  constexpr static std::size_t addrs = 0x46038bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4615ce4;
+  constexpr static std::size_t addrs = 0x46038c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand (*)(::UnityEngine::Vector2)>(
     &::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand::Create)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4615d14;
+  constexpr static std::size_t addrs = 0x46038f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

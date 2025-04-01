@@ -35,15 +35,15 @@ public:
   /// @brief Field stop, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_stop, put = __cordl_internal_set_stop)) bool stop;
 
-  /// @brief Method DoGenerateSeed, addr 0x23d0af0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method DoGenerateSeed, addr 0x23c8c80, size 0x200, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoGenerateSeed(int32_t numBytes, bool fast);
 
-  /// @brief Method GenerateSeed, addr 0x23d099c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x23c8b2c, size 0x108, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes, bool fast);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator* New_ctor();
 
-  /// @brief Method Run, addr 0x23d0aac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x23c8c3c, size 0x44, virtual false, abstract: false, final false
   inline void Run(::System::Object* ignored);
 
   constexpr int32_t const& __cordl_internal_get_counter() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_stop(bool value);
 
-  /// @brief Method .ctor, addr 0x23d0974, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c8b04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,12 +103,12 @@ public:
   // Declarations
   using SeedGenerator = ::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator;
 
-  /// @brief Method GenerateSeed, addr 0x23d08f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x23c8a84, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes, bool fast);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d0aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c8c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

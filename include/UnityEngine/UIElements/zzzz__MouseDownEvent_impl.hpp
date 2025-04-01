@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseDownEvent___c::*)()>(&::UnityEngine::UIElements::MouseDownEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3937c;
+  constexpr static std::size_t addrs = 0x4a26f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseDownEvent___c*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseDownEvent* (::UnityEngine::UIElements::MouseDownEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseDownEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a39384;
+  constexpr static std::size_t addrs = 0x4a26f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseDownEvent___c*>::get(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseDownEvent::*)()>(&::UnityEngine::UIElements::MouseDownEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a38f5c;
+  constexpr static std::size_t addrs = 0x4a26b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseDownEvent::*)()>(&::UnityEngine::UIElements::MouseDownEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a38fb0;
+  constexpr static std::size_t addrs = 0x4a26b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseDownEvent*>::get(), "LocalInit",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseDownEvent::*)()>(&::UnityEngine::UIElements::MouseDownEvent::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a38fbc;
+  constexpr static std::size_t addrs = 0x4a26b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseDownEvent*>::get(), ".ctor",
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseDownEvent* (*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::MouseDownEvent::MakeFromPointerEvent)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x4a39010;
+  constexpr static std::size_t addrs = 0x4a26bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseDownEvent* (*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::MouseDownEvent::GetPooled)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a39278;
+  constexpr static std::size_t addrs = 0x4a26e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseDownEvent* (*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::MouseDownEvent::GetPooled)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a392cc;
+  constexpr static std::size_t addrs = 0x4a26eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

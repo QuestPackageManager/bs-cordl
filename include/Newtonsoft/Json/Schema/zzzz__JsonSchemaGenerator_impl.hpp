@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f16c38;
+  constexpr static std::size_t addrs = 0x3f047f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::get_Schema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f16c40;
+  constexpr static std::size_t addrs = 0x3f047f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::*)(
     ::System::Type*, ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f16460;
+  constexpr static std::size_t addrs = 0x3f04018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f16380;
+  constexpr static std::size_t addrs = 0x3f03f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::*)(
     ::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::_GenerateInternal_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3f16c48;
+  constexpr static std::size_t addrs = 0x3f04800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::get_UndefinedSchemaIdHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f14ec4;
+  constexpr static std::size_t addrs = 0x3f02a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>::get(),
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::set_UndefinedSchemaIdHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f14ecc;
+  constexpr static std::size_t addrs = 0x3f02a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::IContractResolver* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::get_ContractResolver)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f14ed4;
+  constexpr static std::size_t addrs = 0x3f02a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>::get(),
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::Newtonsoft::Json::Serialization::IContractResolver*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::set_ContractResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f14f68;
+  constexpr static std::size_t addrs = 0x3f02b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::get_CurrentSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f14f70;
+  constexpr static std::size_t addrs = 0x3f02b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>::get(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::Push)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3f14f78;
+  constexpr static std::size_t addrs = 0x3f02b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::Pop)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3f150b8;
+  constexpr static std::size_t addrs = 0x3f02c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>::get(), "Pop",
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f152d8;
+  constexpr static std::size_t addrs = 0x3f02e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (
     ::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Schema::JsonSchemaResolver*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f153f0;
+  constexpr static std::size_t addrs = 0x3f02fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, bool)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3f153f8;
+  constexpr static std::size_t addrs = 0x3f02fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (
     ::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Schema::JsonSchemaResolver*, bool)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f15344;
+  constexpr static std::size_t addrs = 0x3f02efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetTitle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f160d0;
+  constexpr static std::size_t addrs = 0x3f03c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetDescription)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3f16180;
+  constexpr static std::size_t addrs = 0x3f03d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, bool)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetTypeId)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3f1627c;
+  constexpr static std::size_t addrs = 0x3f03e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (
     ::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Required, bool)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::GenerateInternal)> {
   constexpr static std::size_t size = 0xc68;
-  constexpr static std::size_t addrs = 0x3f15468;
+  constexpr static std::size_t addrs = 0x3f03020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaType (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(
     ::Newtonsoft::Json::Schema::JsonSchemaType, ::Newtonsoft::Json::Required)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::AddNullType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3f164fc;
+  constexpr static std::size_t addrs = 0x3f040b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(
     ::Newtonsoft::Json::DefaultValueHandling, ::Newtonsoft::Json::DefaultValueHandling)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::HasFlag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f16bb0;
+  constexpr static std::size_t addrs = 0x3f04768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(
     ::System::Type*, ::Newtonsoft::Json::Serialization::JsonObjectContract*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::GenerateObjectSchema)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x3f1650c;
+  constexpr static std::size_t addrs = 0x3f040c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(
     ::System::Type*, ::Newtonsoft::Json::Serialization::JsonISerializableContract*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::GenerateISerializableContract)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f16b90;
+  constexpr static std::size_t addrs = 0x3f04748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType>, ::Newtonsoft::Json::Schema::JsonSchemaType)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::HasFlag)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3f16388;
+  constexpr static std::size_t addrs = 0x3f03f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaType (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(
     ::System::Type*, ::Newtonsoft::Json::Required)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetJsonSchemaType)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3f169d0;
+  constexpr static std::size_t addrs = 0x3f04588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f16bbc;
+  constexpr static std::size_t addrs = 0x3f04774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>::get(), ".ctor",

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2fa78;
+  constexpr static std::size_t addrs = 0x3d1d574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::MemberInfo*>::get(), ".ctor",
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Reflection::MemberInfo::*)()>(
     &::System::Reflection::MemberInfo::get_Module)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d31178;
+  constexpr static std::size_t addrs = 0x3d1ec74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::get_MetadataToken)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3124c;
+  constexpr static std::size_t addrs = 0x3d1ed48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::MemberInfo::*)(::System::Object*)>(&::System::Reflection::MemberInfo::Equals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2fbe0;
+  constexpr static std::size_t addrs = 0x3d1d6dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2fbf0;
+  constexpr static std::size_t addrs = 0x3d1d6ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*)>(
     &::System::Reflection::MemberInfo::op_Equality)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x3d31284;
+  constexpr static std::size_t addrs = 0x3d1ed80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*)>(
     &::System::Reflection::MemberInfo::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d31814;
+  constexpr static std::size_t addrs = 0x3d1f310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

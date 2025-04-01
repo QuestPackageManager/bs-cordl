@@ -25,18 +25,18 @@ public:
   /// @brief Field _energyCounter, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__energyCounter, put = __cordl_internal_set__energyCounter)) ::UnityW<::GlobalNamespace::GameEnergyCounter> _energyCounter;
 
-  /// @brief Method CheckAndUpdateStatus, addr 0x3bc06f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x3bae370, size 0xc4, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
-  /// @brief Method HandleEnergyDidChange, addr 0x3bc0684, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnergyDidChange, addr 0x3bae304, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x3bc07b4, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bae434, size 0x130, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EnergyMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bc05b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bae238, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
-  /// @brief Method .ctor, addr 0x3bc08e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

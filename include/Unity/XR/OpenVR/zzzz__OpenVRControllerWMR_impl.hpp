@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454922c;
+  constexpr static std::size_t addrs = 0x4536e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549234;
+  constexpr static std::size_t addrs = 0x4536e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454923c;
+  constexpr static std::size_t addrs = 0x4536e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549244;
+  constexpr static std::size_t addrs = 0x4536e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_touchpadClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454924c;
+  constexpr static std::size_t addrs = 0x4536e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_touchpadClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549254;
+  constexpr static std::size_t addrs = 0x4536e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_touchpadTouch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454925c;
+  constexpr static std::size_t addrs = 0x4536e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_touchpadTouch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549264;
+  constexpr static std::size_t addrs = 0x4536e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454926c;
+  constexpr static std::size_t addrs = 0x4536e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549274;
+  constexpr static std::size_t addrs = 0x4536e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454927c;
+  constexpr static std::size_t addrs = 0x4536e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549284;
+  constexpr static std::size_t addrs = 0x4536e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454928c;
+  constexpr static std::size_t addrs = 0x4536e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(), "get_menu",
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549294;
+  constexpr static std::size_t addrs = 0x4536e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454929c;
+  constexpr static std::size_t addrs = 0x4536e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(), "get_trigger",
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45492a4;
+  constexpr static std::size_t addrs = 0x4536e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45492ac;
+  constexpr static std::size_t addrs = 0x4536e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(), "get_grip",
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45492b4;
+  constexpr static std::size_t addrs = 0x4536e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45492bc;
+  constexpr static std::size_t addrs = 0x4536e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(), "get_touchpad",
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45492c4;
+  constexpr static std::size_t addrs = 0x4536ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::get_joystick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45492cc;
+  constexpr static std::size_t addrs = 0x4536eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(), "get_joystick",
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::OpenVR::OpenVRControllerWMR::set_joystick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45492d4;
+  constexpr static std::size_t addrs = 0x4536eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(&::Unity::XR::OpenVR::OpenVRControllerWMR::FinishSetup)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x45492dc;
+  constexpr static std::size_t addrs = 0x4536ebc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRControllerWMR::*)()>(&::Unity::XR::OpenVR::OpenVRControllerWMR::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x454953c;
+  constexpr static std::size_t addrs = 0x453711c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRControllerWMR*>::get(), ".ctor",

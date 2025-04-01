@@ -31,12 +31,12 @@ public:
   /// @brief Method Lookup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x24547a8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x244c938, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractECLookupTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24543d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244c564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Size, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

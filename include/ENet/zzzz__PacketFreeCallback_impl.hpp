@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::PacketFreeCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::PacketFreeCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3ab0a08;
+  constexpr static std::size_t addrs = 0x3a9dadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::PacketFreeCallback::*)(::ENet::Packet)>(&::ENet::PacketFreeCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ab0a94;
+  constexpr static std::size_t addrs = 0x3a9db68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::ENet::PacketFreeCallback::*)(::ENet::Packet, ::System::AsyncCallback*, ::System::Object*)>(
     &::ENet::PacketFreeCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ab0aa8;
+  constexpr static std::size_t addrs = 0x3a9db7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::PacketFreeCallback::*)(::System::IAsyncResult*)>(&::ENet::PacketFreeCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab0b2c;
+  constexpr static std::size_t addrs = 0x3a9dc00;
 
   inline static ::MethodInfo const* methodInfo() {
 

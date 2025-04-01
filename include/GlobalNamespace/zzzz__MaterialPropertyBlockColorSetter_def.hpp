@@ -61,21 +61,21 @@ public:
   __declspec(property(get = get_materialPropertyBlockController, put = set_materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       materialPropertyBlockController;
 
-  /// @brief Method AddNecessaryComponents, addr 0x39f3edc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x39e0f2c, size 0xf0, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
-  /// @brief Method Awake, addr 0x39f3d98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39e0de8, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x39f3dc8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x39e0e18, size 0x30, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x39f3e60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e0eb0, size 0x7c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColor, addr 0x39f23b4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x39df220, size 0xe0, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr bool const& __cordl_internal_get__disableOnZeroAlpha() const;
@@ -132,16 +132,16 @@ public:
 
   constexpr void __cordl_internal_set__useTestColor(bool value);
 
-  /// @brief Method .ctor, addr 0x39f3fcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e101c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39f3d5c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e0dac, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x39f3d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x39e0dd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
-  /// @brief Method set_materialPropertyBlockController, addr 0x39f3d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialPropertyBlockController, addr 0x39e0de0, size 0x8, virtual false, abstract: false, final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
 protected:

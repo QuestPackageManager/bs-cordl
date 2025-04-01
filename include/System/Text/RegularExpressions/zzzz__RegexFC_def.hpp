@@ -36,10 +36,10 @@ public:
   /// @brief Field _nullable, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__nullable, put = __cordl_internal_set__nullable)) bool _nullable;
 
-  /// @brief Method AddFC, addr 0x442c6fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddFC, addr 0x441a2bc, size 0xac, virtual false, abstract: false, final false
   inline bool AddFC(::System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
 
-  /// @brief Method GetFirstChars, addr 0x442ba90, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstChars, addr 0x4419650, size 0x38, virtual false, abstract: false, final false
   inline ::StringW GetFirstChars(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set__nullable(bool value);
 
-  /// @brief Method .ctor, addr 0x442c7a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441a368, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x442c8a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441a460, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x442c684, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441a244, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool nullable);
 
-  /// @brief Method get_CaseInsensitive, addr 0x442c938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x441a4f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method set_CaseInsensitive, addr 0x442c940, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CaseInsensitive, addr 0x441a500, size 0xc, virtual false, abstract: false, final false
   inline void set_CaseInsensitive(bool value);
 
 protected:

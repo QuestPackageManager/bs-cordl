@@ -71,21 +71,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39d2800, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39bf698, size 0x180, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::VFXController__MainCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39d2980, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39bf818, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39d2988, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39bf820, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39d29c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39bf858, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39d27fc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39bf694, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method .ctor, addr 0x39d27cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf664, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -202,15 +202,15 @@ public:
 
   __declspec(property(get = get_particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> particleSystems;
 
-  /// @brief Method Awake, addr 0x39d2614, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39bf4ac, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method MainCoroutine, addr 0x39d2748, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MainCoroutine, addr 0x39bf5e0, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float_t duration);
 
   static inline ::GlobalNamespace::VFXController* New_ctor();
 
-  /// @brief Method Play, addr 0x39d2638, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x39bf4d0, size 0x110, virtual false, abstract: false, final false
   inline void Play();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -231,13 +231,13 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  /// @brief Method .ctor, addr 0x39d27f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf68c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animation, addr 0x39d2604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animation, addr 0x39bf49c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animation> get_animation();
 
-  /// @brief Method get_particleSystems, addr 0x39d260c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_particleSystems, addr 0x39bf4a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> get_particleSystems();
 
 protected:

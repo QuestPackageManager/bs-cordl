@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__targets(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* value);
 
-  /// @brief Method .ctor, addr 0x3b9b0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b88b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isTriggerOnly, addr 0x3b9b0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTriggerOnly, addr 0x3b88b58, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTriggerOnly();
 
-  /// @brief Method get_targets, addr 0x3b9b0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targets, addr 0x3b88b60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* get_targets();
 
 protected:

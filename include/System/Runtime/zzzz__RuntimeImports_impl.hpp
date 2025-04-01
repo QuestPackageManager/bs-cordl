@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint8_t>, uint64_t)>(&::System::Runtime::RuntimeImports::RhZeroMemory)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cd4574;
+  constexpr static std::size_t addrs = 0x3cc2070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint32_t)>(&::System::Runtime::RuntimeImports::ZeroMemory)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cd4578;
+  constexpr static std::size_t addrs = 0x3cc2074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>, uint32_t)>(
     &::System::Runtime::RuntimeImports::Memmove)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cd457c;
+  constexpr static std::size_t addrs = 0x3cc2078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>, uint32_t, ::System::IntPtr)>(
     &::System::Runtime::RuntimeImports::Memmove_wbarrier)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cd4580;
+  constexpr static std::size_t addrs = 0x3cc207c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

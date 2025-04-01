@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::get_useScriptableObjectColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2292970;
+  constexpr static std::size_t addrs = 0x228ab00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedTextMeshPro*>::get(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(bool)>(&::HMUI::CurvedTextMeshPro::set_useScriptableObjectColors)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2292978;
+  constexpr static std::size_t addrs = 0x228ab08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::get_color)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2292984;
+  constexpr static std::size_t addrs = 0x228ab14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(::UnityEngine::Color)>(&::HMUI::CurvedTextMeshPro::set_color)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2292a18;
+  constexpr static std::size_t addrs = 0x228aba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::OnEnable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2292a20;
+  constexpr static std::size_t addrs = 0x228abb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::GenerateTextMesh)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x2292a48;
+  constexpr static std::size_t addrs = 0x228abd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::__Refresh)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2292dd4;
+  constexpr static std::size_t addrs = 0x228af64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedTextMeshPro*>::get(), "__Refresh",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(::UnityEngine::Mesh*, int32_t, ::UnityEngine::Vector2, ::UnityEngine::Color32)>(
     &::HMUI::CurvedTextMeshPro::UpdateMesh)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2292d24;
+  constexpr static std::size_t addrs = 0x228aeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> (::HMUI::CurvedTextMeshPro::*)(int32_t, int32_t, ::UnityEngine::Vector2)>(&::HMUI::CurvedTextMeshPro::FillUV3s)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2292de4;
+  constexpr static std::size_t addrs = 0x228af74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> (::HMUI::CurvedTextMeshPro::*)(int32_t, ::UnityEngine::Color32)>(&::HMUI::CurvedTextMeshPro::FillColors)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2292ebc;
+  constexpr static std::size_t addrs = 0x228b04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2292f30;
+  constexpr static std::size_t addrs = 0x228b0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedTextMeshPro*>::get(), ".ctor",

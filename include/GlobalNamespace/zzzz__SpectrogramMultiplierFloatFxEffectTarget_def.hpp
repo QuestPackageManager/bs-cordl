@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b9c22c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b89cb0, size 0x84, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b9c2b0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b89d34, size 0x84, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> const& __cordl_internal_get__spectrogram() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__spectrogram(::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> value);
 
-  /// @brief Method .ctor, addr 0x3b9c334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b89db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

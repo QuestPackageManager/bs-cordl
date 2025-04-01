@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)()>(&::System::IO::StringWriter::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3d87a8c;
+  constexpr static std::size_t addrs = 0x3d75588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StringWriter*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)(::System::IFormatProvider*)>(&::System::IO::StringWriter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d87c04;
+  constexpr static std::size_t addrs = 0x3d75700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)(::System::Text::StringBuilder*)>(&::System::IO::StringWriter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d87c70;
+  constexpr static std::size_t addrs = 0x3d7576c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)(::System::Text::StringBuilder*, ::System::IFormatProvider*)>(
     &::System::IO::StringWriter::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3d87b20;
+  constexpr static std::size_t addrs = 0x3d7561c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)()>(&::System::IO::StringWriter::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d87ce0;
+  constexpr static std::size_t addrs = 0x3d757dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)(bool)>(&::System::IO::StringWriter::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d87cf0;
+  constexpr static std::size_t addrs = 0x3d757ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::IO::StringWriter::*)()>(&::System::IO::StringWriter::get_Encoding)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3d87d00;
+  constexpr static std::size_t addrs = 0x3d757fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)(char16_t)>(&::System::IO::StringWriter::Write)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d87da4;
+  constexpr static std::size_t addrs = 0x3d758a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::IO::StringWriter::Write)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3d87dcc;
+  constexpr static std::size_t addrs = 0x3d758c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringWriter::*)(::StringW)>(&::System::IO::StringWriter::Write)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3d87f40;
+  constexpr static std::size_t addrs = 0x3d75a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::StringWriter::*)(char16_t)>(
     &::System::IO::StringWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d87f74;
+  constexpr static std::size_t addrs = 0x3d75a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::StringWriter::*)(::StringW)>(
     &::System::IO::StringWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d88024;
+  constexpr static std::size_t addrs = 0x3d75b20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::System::IO::StringWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::IO::StringWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d880d4;
+  constexpr static std::size_t addrs = 0x3d75bd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::StringWriter::*)()>(&::System::IO::StringWriter::FlushAsync)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d8819c;
+  constexpr static std::size_t addrs = 0x3d75c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::StringWriter::*)()>(&::System::IO::StringWriter::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d88224;
+  constexpr static std::size_t addrs = 0x3d75d20;
 
   inline static ::MethodInfo const* methodInfo() {
 

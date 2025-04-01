@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ModuloInstruction_ModuloDouble* New_ctor();
 
-  /// @brief Method Run, addr 0x40f9c80, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40e7840, size 0x14c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f9230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e6df0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   ModuloInstruction_ModuloDouble(ModuloInstruction_ModuloDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

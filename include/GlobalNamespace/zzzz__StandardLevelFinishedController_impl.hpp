@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(
     &::GlobalNamespace::StandardLevelFinishedController::Start)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3bbfc44;
+  constexpr static std::size_t addrs = 0x3bad8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelFinishedController*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(
     &::GlobalNamespace::StandardLevelFinishedController::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3bbfd34;
+  constexpr static std::size_t addrs = 0x3bad9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelFinishedController*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(
     &::GlobalNamespace::StandardLevelFinishedController::HandleLevelFinished)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bbfe34;
+  constexpr static std::size_t addrs = 0x3badab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelFinishedController*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(
     &::GlobalNamespace::StandardLevelFinishedController::StartLevelFinished)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bbfe38;
+  constexpr static std::size_t addrs = 0x3badab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelFinishedController*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(
     &::GlobalNamespace::StandardLevelFinishedController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbfe78;
+  constexpr static std::size_t addrs = 0x3badaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelFinishedController*>::get(),

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Mono::Security::X509::X509StoreManager::get_CurrentUserPath)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3c4eadc;
+  constexpr static std::size_t addrs = 0x3c3c5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509StoreManager*>::get(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Mono::Security::X509::X509StoreManager::get_LocalMachinePath)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3c4ebd4;
+  constexpr static std::size_t addrs = 0x3c3c6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509StoreManager*>::get(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Stores* (*)()>(&::Mono::Security::X509::X509StoreManager::get_CurrentUser)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c4ecb4;
+  constexpr static std::size_t addrs = 0x3c3c7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509StoreManager*>::get(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Stores* (*)()>(&::Mono::Security::X509::X509StoreManager::get_LocalMachine)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c4ed7c;
+  constexpr static std::size_t addrs = 0x3c3c878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509StoreManager*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509CertificateCollection* (*)()>(
     &::Mono::Security::X509::X509StoreManager::get_TrustedRootCertificates)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3c4ccc0;
+  constexpr static std::size_t addrs = 0x3c3a7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509StoreManager*>::get(),

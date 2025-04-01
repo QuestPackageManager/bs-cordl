@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c2ab24;
+  constexpr static std::size_t addrs = 0x3c18620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::*)(
     int32_t, ::GlobalNamespace::ObjectiveListItem*)>(&::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_RefreshContent_b__0)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3c2ab5c;
+  constexpr static std::size_t addrs = 0x3c18658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::*)(
     int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(&::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_RefreshContent_b__1)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c2ad34;
+  constexpr static std::size_t addrs = 0x3c18830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*)>(&::GlobalNamespace::MissionLevelDetailViewController::add_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c2a6cc;
+  constexpr static std::size_t addrs = 0x3c181c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*)>(&::GlobalNamespace::MissionLevelDetailViewController::remove_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c2a77c;
+  constexpr static std::size_t addrs = 0x3c18278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MissionNode> (::GlobalNamespace::MissionLevelDetailViewController::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController::get_missionNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c2a82c;
+  constexpr static std::size_t addrs = 0x3c18328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelDetailViewController*>::get(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(::GlobalNamespace::MissionNode*)>(
     &::GlobalNamespace::MissionLevelDetailViewController::Setup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c2a834;
+  constexpr static std::size_t addrs = 0x3c18330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionLevelDetailViewController::DidActivate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c2aa7c;
+  constexpr static std::size_t addrs = 0x3c18578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController::RefreshContent)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3c2a860;
+  constexpr static std::size_t addrs = 0x3c1835c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelDetailViewController*>::get(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController::PlayButtonPressed)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c2ab2c;
+  constexpr static std::size_t addrs = 0x3c18628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelDetailViewController*>::get(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c2ab54;
+  constexpr static std::size_t addrs = 0x3c18650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelDetailViewController*>::get(),

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContent::get_IsMixed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42c8d88;
+  constexpr static std::size_t addrs = 0x42b6948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaComplexContent*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)(bool)>(
     &::System::Xml::Schema::XmlSchemaComplexContent::set_IsMixed)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42c8d90;
+  constexpr static std::size_t addrs = 0x42b6950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaContent* (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContent::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42c8da4;
+  constexpr static std::size_t addrs = 0x42b6964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)(::System::Xml::Schema::XmlSchemaContent*)>(
     &::System::Xml::Schema::XmlSchemaComplexContent::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42c8dac;
+  constexpr static std::size_t addrs = 0x42b696c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContent::get_HasMixedAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42c8db4;
+  constexpr static std::size_t addrs = 0x42b6974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaComplexContent*>::get(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(&::System::Xml::Schema::XmlSchemaComplexContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42c8dbc;
+  constexpr static std::size_t addrs = 0x42b697c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ".ctor",

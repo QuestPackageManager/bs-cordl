@@ -68,34 +68,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginConnect, addr 0x440e5ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BeginConnect, addr 0x43fc1ac, size 0x6c, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginConnect(::StringW host, int32_t port, ::System::AsyncCallback* requestCallback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x440e944, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x43fc504, size 0xa4, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Connect, addr 0x440de5c, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x43fba1c, size 0x690, virtual false, abstract: false, final false
   inline void Connect(::StringW hostname, int32_t port);
 
-  /// @brief Method Connect, addr 0x440e4ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x43fc0ac, size 0x100, virtual false, abstract: false, final false
   inline void Connect(::System::Net::IPEndPoint* remoteEP);
 
-  /// @brief Method ConnectAsync, addr 0x440e6a0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ConnectAsync, addr 0x43fc260, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ConnectAsync(::StringW host, int32_t port);
 
-  /// @brief Method Dispose, addr 0x440eb7c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x43fc73c, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x440e9e8, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x43fc5a8, size 0x194, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndConnect, addr 0x440e658, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method EndConnect, addr 0x43fc218, size 0x48, virtual false, abstract: false, final false
   inline void EndConnect(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Finalize, addr 0x440eb8c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x43fc74c, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetStream, addr 0x440e80c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetStream, addr 0x43fc3cc, size 0x138, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::NetworkStream* GetStream();
 
   static inline ::System::Net::Sockets::TcpClient* New_ctor();
@@ -134,28 +134,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Family(::System::Net::Sockets::AddressFamily value);
 
-  /// @brief Method .ctor, addr 0x440dc54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fb814, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x440ddec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fb9ac, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* acceptedSocket);
 
-  /// @brief Method .ctor, addr 0x440dc74, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fb834, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::AddressFamily family);
 
-  /// @brief Method get_Client, addr 0x440de30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Client, addr 0x43fb9f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_Client();
 
-  /// @brief Method get_Connected, addr 0x440de40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Connected, addr 0x43fba00, size 0x1c, virtual false, abstract: false, final false
   inline bool get_Connected();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method initialize, addr 0x440dd80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method initialize, addr 0x43fb940, size 0x6c, virtual false, abstract: false, final false
   inline void initialize();
 
-  /// @brief Method set_Client, addr 0x440de38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Client, addr 0x43fb9f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Client(::System::Net::Sockets::Socket* value);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainAudioEffects::*)()>(&::GlobalNamespace::MainAudioEffects::Start)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3adf4e0;
+  constexpr static std::size_t addrs = 0x3acce64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainAudioEffects*>::get(), "Start",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainAudioEffects::*)()>(&::GlobalNamespace::MainAudioEffects::LateUpdate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3adf514;
+  constexpr static std::size_t addrs = 0x3acce98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainAudioEffects*>::get(), "LateUpdate",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainAudioEffects::*)()>(&::GlobalNamespace::MainAudioEffects::ResumeNormalSound)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3adf5d0;
+  constexpr static std::size_t addrs = 0x3accf54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainAudioEffects*>::get(), "ResumeNormalSound",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainAudioEffects::*)()>(&::GlobalNamespace::MainAudioEffects::TriggerLowPass)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3adf5f8;
+  constexpr static std::size_t addrs = 0x3accf7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainAudioEffects*>::get(), "TriggerLowPass",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainAudioEffects::*)()>(&::GlobalNamespace::MainAudioEffects::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3adf634;
+  constexpr static std::size_t addrs = 0x3accfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainAudioEffects*>::get(), ".ctor",

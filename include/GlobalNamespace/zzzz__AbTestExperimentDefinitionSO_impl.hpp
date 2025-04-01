@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::get_test1GroupSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15aa4;
+  constexpr static std::size_t addrs = 0x3b02ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AbTestExperimentDefinitionSO*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::get_test2GroupSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15aac;
+  constexpr static std::size_t addrs = 0x3b02ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AbTestExperimentDefinitionSO*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::get_experimentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15ab4;
+  constexpr static std::size_t addrs = 0x3b02ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AbTestExperimentDefinitionSO*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AbTestExperimentDefinitionSO_Group (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::get_currentUserTreatmentGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15abc;
+  constexpr static std::size_t addrs = 0x3b02ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AbTestExperimentDefinitionSO*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::OnValidate)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b15ac4;
+  constexpr static std::size_t addrs = 0x3b02af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AbTestExperimentDefinitionSO*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)(::StringW)>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::ComputeCurrentUserTreatment)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b15af0;
+  constexpr static std::size_t addrs = 0x3b02b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)(::GlobalNamespace::AbTestExperimentDefinitionSO_Group)>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::ForceSetTreatmentGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15d60;
+  constexpr static std::size_t addrs = 0x3b02d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::AbTestExperimentDefinitionSO_Group (::GlobalNamespace::AbTestExperimentDefinitionSO::*)(::StringW)>(&::GlobalNamespace::AbTestExperimentDefinitionSO::AbSplit)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x3b15b08;
+  constexpr static std::size_t addrs = 0x3b02b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b15d68;
+  constexpr static std::size_t addrs = 0x3b02d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AbTestExperimentDefinitionSO*>::get(), ".ctor",

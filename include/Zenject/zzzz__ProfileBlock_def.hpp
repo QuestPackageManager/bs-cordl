@@ -32,34 +32,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4b60960, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4b4e554, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName);
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName, bool rootBlock);
 
-  /// @brief Method Start, addr 0x4b60940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b4e534, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start();
 
-  /// @brief Method Start, addr 0x4b60958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b4e54c, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleName);
 
-  /// @brief Method Start, addr 0x4b60950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b4e544, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj);
 
-  /// @brief Method Start, addr 0x4b60948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b4e53c, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method .ctor, addr 0x4b608a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4e498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName);
 
-  /// @brief Method .ctor, addr 0x4b6089c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4e490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName, bool rootBlock);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF__ProfilePattern_k__BackingField();
 
-  /// @brief Method get_ProfilePattern, addr 0x4b608ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_ProfilePattern, addr 0x4b4e4a0, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_ProfilePattern();
 
   /// @brief Convert to "::System::IDisposable"
@@ -67,7 +67,7 @@ public:
 
   static inline void setStaticF__ProfilePattern_k__BackingField(::System::Text::RegularExpressions::Regex* value);
 
-  /// @brief Method set_ProfilePattern, addr 0x4b608f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_ProfilePattern, addr 0x4b4e4e8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_ProfilePattern(::System::Text::RegularExpressions::Regex* value);
 
 protected:

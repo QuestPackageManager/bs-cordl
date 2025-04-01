@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::UIElements::StyleSheet*, ::UnityEngine::UIElements::StyleValueHandle)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions::ReadAsString)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x49e8d80;
+  constexpr static std::size_t addrs = 0x49d6960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleValueHandle)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions::IsVarFunction)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49e9064;
+  constexpr static std::size_t addrs = 0x49d6c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

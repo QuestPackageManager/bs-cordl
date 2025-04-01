@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(&::OVR::OpenVR::OpenVR_COpenVRContext::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x40851a0;
+  constexpr static std::size_t addrs = 0x4072d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), ".ctor",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(&::OVR::OpenVR::OpenVR_COpenVRContext::Clear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085e1c;
+  constexpr static std::size_t addrs = 0x40739d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "Clear",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(&::OVR::OpenVR::OpenVR_COpenVRContext::CheckClear)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4085e40;
+  constexpr static std::size_t addrs = 0x40739f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "CheckClear",
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSystem* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRSystem)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40851e4;
+  constexpr static std::size_t addrs = 0x4072d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRSystem",
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRChaperone* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRChaperone)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40852b8;
+  constexpr static std::size_t addrs = 0x4072e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRChaperone",
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRChaperoneSetup* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRChaperoneSetup)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x408538c;
+  constexpr static std::size_t addrs = 0x4072f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRChaperoneSetup",
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRCompositor* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRCompositor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085460;
+  constexpr static std::size_t addrs = 0x4073018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRCompositor",
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVROverlay* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VROverlay)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085534;
+  constexpr static std::size_t addrs = 0x40730ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VROverlay",
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRRenderModels* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRRenderModels)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085608;
+  constexpr static std::size_t addrs = 0x40731c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRRenderModels",
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRExtendedDisplay* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRExtendedDisplay)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40856dc;
+  constexpr static std::size_t addrs = 0x4073294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSettings* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRSettings)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40857b0;
+  constexpr static std::size_t addrs = 0x4073368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRSettings",
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRApplications* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRApplications)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085884;
+  constexpr static std::size_t addrs = 0x407343c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRApplications",
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRScreenshots* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRScreenshots)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085958;
+  constexpr static std::size_t addrs = 0x4073510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRScreenshots",
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRTrackedCamera* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRTrackedCamera)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085a2c;
+  constexpr static std::size_t addrs = 0x40735e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRTrackedCamera",
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRInput* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRInput)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085b00;
+  constexpr static std::size_t addrs = 0x40736b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRInput",
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSpatialAnchors* (::OVR::OpenVR::OpenVR_COpenVRContext::*)()>(
     &::OVR::OpenVR::OpenVR_COpenVRContext::VRSpatialAnchors)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4085bd4;
+  constexpr static std::size_t addrs = 0x407378c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR_COpenVRContext*>::get(), "VRSpatialAnchors",
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ByRef<::OVR::OpenVR::EVRInitError>, ::OVR::OpenVR::EVRApplicationType)>(
     &::OVR::OpenVR::OpenVR::InitInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4084fec;
+  constexpr static std::size_t addrs = 0x4072ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ByRef<::OVR::OpenVR::EVRInitError>, ::OVR::OpenVR::EVRApplicationType, ::StringW)>(
     &::OVR::OpenVR::OpenVR::InitInternal2)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4084ff0;
+  constexpr static std::size_t addrs = 0x4072ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::OVR::OpenVR::OpenVR::ShutdownInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4084ff4;
+  constexpr static std::size_t addrs = 0x4072bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "ShutdownInternal",
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::OVR::OpenVR::OpenVR::IsHmdPresent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4084ff8;
+  constexpr static std::size_t addrs = 0x4072bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "IsHmdPresent",
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::OVR::OpenVR::OpenVR::IsRuntimeInstalled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4084ffc;
+  constexpr static std::size_t addrs = 0x4072bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "IsRuntimeInstalled",
@@ -558,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::OVR::OpenVR::EVRInitError)>(&::OVR::OpenVR::OpenVR::GetStringForHmdError)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4085000;
+  constexpr static std::size_t addrs = 0x4072bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -572,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW, ::ByRef<::OVR::OpenVR::EVRInitError>)>(&::OVR::OpenVR::OpenVR::GetGenericInterface)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4085068;
+  constexpr static std::size_t addrs = 0x4072c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::OVR::OpenVR::OpenVR::IsInterfaceVersionValid)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x408506c;
+  constexpr static std::size_t addrs = 0x4072c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::OVR::OpenVR::OpenVR::GetInitToken)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4085070;
+  constexpr static std::size_t addrs = 0x4072c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "GetInitToken",
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::OVR::OpenVR::OpenVR::get_VRToken)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4085074;
+  constexpr static std::size_t addrs = 0x4072c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_VRToken",
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t)>(&::OVR::OpenVR::OpenVR::set_VRToken)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x40850bc;
+  constexpr static std::size_t addrs = 0x4072c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -641,7 +641,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::OpenVR_COpenVRContext* (*)()>(&::OVR::OpenVR::OpenVR::get_OpenVRInternal_ModuleContext)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4085108;
+  constexpr static std::size_t addrs = 0x4072cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -655,7 +655,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSystem* (*)()>(&::OVR::OpenVR::OpenVR::get_System)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40851cc;
+  constexpr static std::size_t addrs = 0x4072d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_System",
@@ -668,7 +668,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRChaperone* (*)()>(&::OVR::OpenVR::OpenVR::get_Chaperone)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40852a0;
+  constexpr static std::size_t addrs = 0x4072e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_Chaperone",
@@ -681,7 +681,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRChaperoneSetup* (*)()>(&::OVR::OpenVR::OpenVR::get_ChaperoneSetup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085374;
+  constexpr static std::size_t addrs = 0x4072f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_ChaperoneSetup",
@@ -694,7 +694,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRCompositor* (*)()>(&::OVR::OpenVR::OpenVR::get_Compositor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085448;
+  constexpr static std::size_t addrs = 0x4073000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_Compositor",
@@ -707,7 +707,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVROverlay* (*)()>(&::OVR::OpenVR::OpenVR::get_Overlay)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x408551c;
+  constexpr static std::size_t addrs = 0x40730d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_Overlay",
@@ -720,7 +720,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRRenderModels* (*)()>(&::OVR::OpenVR::OpenVR::get_RenderModels)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40855f0;
+  constexpr static std::size_t addrs = 0x40731a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_RenderModels",
@@ -733,7 +733,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRExtendedDisplay* (*)()>(&::OVR::OpenVR::OpenVR::get_ExtendedDisplay)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40856c4;
+  constexpr static std::size_t addrs = 0x407327c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_ExtendedDisplay",
@@ -746,7 +746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSettings* (*)()>(&::OVR::OpenVR::OpenVR::get_Settings)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085798;
+  constexpr static std::size_t addrs = 0x4073350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_Settings",
@@ -759,7 +759,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRApplications* (*)()>(&::OVR::OpenVR::OpenVR::get_Applications)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x408586c;
+  constexpr static std::size_t addrs = 0x4073424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_Applications",
@@ -772,7 +772,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRScreenshots* (*)()>(&::OVR::OpenVR::OpenVR::get_Screenshots)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085940;
+  constexpr static std::size_t addrs = 0x40734f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_Screenshots",
@@ -785,7 +785,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRTrackedCamera* (*)()>(&::OVR::OpenVR::OpenVR::get_TrackedCamera)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085a14;
+  constexpr static std::size_t addrs = 0x40735cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_TrackedCamera",
@@ -798,7 +798,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRInput* (*)()>(&::OVR::OpenVR::OpenVR::get_Input)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085ae8;
+  constexpr static std::size_t addrs = 0x40736a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_Input",
@@ -811,7 +811,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSpatialAnchors* (*)()>(&::OVR::OpenVR::OpenVR::get_SpatialAnchors)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4085bbc;
+  constexpr static std::size_t addrs = 0x4073774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "get_SpatialAnchors",
@@ -825,7 +825,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSystem* (*)(::ByRef<::OVR::OpenVR::EVRInitError>, ::OVR::OpenVR::EVRApplicationType, ::StringW)>(
     &::OVR::OpenVR::OpenVR::Init)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x4085c90;
+  constexpr static std::size_t addrs = 0x4073848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -841,7 +841,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::OVR::OpenVR::OpenVR::Shutdown)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4085e34;
+  constexpr static std::size_t addrs = 0x40739ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), "Shutdown",
@@ -854,7 +854,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::OpenVR::*)()>(&::OVR::OpenVR::OpenVR::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4085e38;
+  constexpr static std::size_t addrs = 0x40739f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::OpenVR*>::get(), ".ctor",

@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IMockBeatmapDataProvider*, ::GlobalNamespace::MockPlayerLobbyPoseGenerator*, ::GlobalNamespace::MockPlayerGamePoseGenerator*)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c3807c;
+  constexpr static std::size_t addrs = 0x3c25b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c38084;
+  constexpr static std::size_t addrs = 0x3c25b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_saberAColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c38098;
+  constexpr static std::size_t addrs = 0x3c25b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_saberBColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c3809c;
+  constexpr static std::size_t addrs = 0x3c25b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_saberBColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380b0;
+  constexpr static std::size_t addrs = 0x3c25bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_obstaclesColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c380b4;
+  constexpr static std::size_t addrs = 0x3c25bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_obstaclesColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380c8;
+  constexpr static std::size_t addrs = 0x3c25bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_leftHanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c380cc;
+  constexpr static std::size_t addrs = 0x3c25bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_leftHanded)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380d4;
+  constexpr static std::size_t addrs = 0x3c25bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_inactiveByDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c380d8;
+  constexpr static std::size_t addrs = 0x3c25bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_inactiveByDefault)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380e0;
+  constexpr static std::size_t addrs = 0x3c25bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockPlayerGamePoseGenerator* (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_gamePoseGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c380e4;
+  constexpr static std::size_t addrs = 0x3c25be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::Tick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380ec;
+  constexpr static std::size_t addrs = 0x3c25be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(), "Tick",
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380f0;
+  constexpr static std::size_t addrs = 0x3c25bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerFiniteStateMachine*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::SetIsReady)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380f4;
+  constexpr static std::size_t addrs = 0x3c25bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::GlobalNamespace::BeatmapDifficulty, ::StringW)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::RecommendBeatmap)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c380f8;
+  constexpr static std::size_t addrs = 0x3c25bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

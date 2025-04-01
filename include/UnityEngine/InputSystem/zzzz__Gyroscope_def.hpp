@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_angularVelocity, put = set_angularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* angularVelocity;
 
-  /// @brief Method FinishSetup, addr 0x45d4ea4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x45c2a84, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x45d4dcc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x45c29ac, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Gyroscope* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x45d4e20, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x45c2a00, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__angularVelocity_k__BackingField() const;
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__angularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x45d4f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45c2afc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Gyroscope* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_angularVelocity, addr 0x45d4d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x45c2908, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_angularVelocity();
 
-  /// @brief Method get_current, addr 0x45d4d38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x45c2918, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Gyroscope* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Gyroscope* value);
 
-  /// @brief Method set_angularVelocity, addr 0x45d4d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angularVelocity, addr 0x45c2910, size 0x8, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_current, addr 0x45d4d80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x45c2960, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Gyroscope* value);
 
 protected:

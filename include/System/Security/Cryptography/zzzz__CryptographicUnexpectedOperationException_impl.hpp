@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::CryptographicUnexpectedOperationException::*)()>(
     &::System::Security::Cryptography::CryptographicUnexpectedOperationException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cac650;
+  constexpr static std::size_t addrs = 0x3c9a14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::CryptographicUnexpectedOperationException::*)(::StringW)>(
     &::System::Security::Cryptography::CryptographicUnexpectedOperationException::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3cab718;
+  constexpr static std::size_t addrs = 0x3c99214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::CryptographicUnexpectedOperationException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Cryptography::CryptographicUnexpectedOperationException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cac674;
+  constexpr static std::size_t addrs = 0x3c9a170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

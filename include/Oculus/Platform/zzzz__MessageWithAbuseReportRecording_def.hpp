@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAbuseReportRecording : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AbuseReportRecording*> {
 public:
   // Declarations
-  /// @brief Method GetAbuseReportRecording, addr 0x3f8af50, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAbuseReportRecording, addr 0x3f78b08, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f8af8c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f78b44, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAbuseReportRecording* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f8aef8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f78ab0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithAbuseReportRecording(MessageWithAbuseReportRecording const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

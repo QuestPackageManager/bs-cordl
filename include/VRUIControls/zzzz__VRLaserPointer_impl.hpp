@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)(::UnityEngine::Vector3)>(
     &::VRUIControls::VRLaserPointer::SetLocalPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4afdd74;
+  constexpr static std::size_t addrs = 0x4aeb968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)(::UnityEngine::Vector3)>(&::VRUIControls::VRLaserPointer::SetLocalScale)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4afddbc;
+  constexpr static std::size_t addrs = 0x4aeb9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)(float_t)>(&::VRUIControls::VRLaserPointer::SetFadeDistance)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4afde04;
+  constexpr static std::size_t addrs = 0x4aeb9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)()>(&::VRUIControls::VRLaserPointer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afdefc;
+  constexpr static std::size_t addrs = 0x4aebaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(), ".ctor",

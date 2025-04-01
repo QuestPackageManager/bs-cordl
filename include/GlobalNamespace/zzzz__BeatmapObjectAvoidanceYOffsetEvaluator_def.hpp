@@ -37,7 +37,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BeatmapObjectAvoidanceYOffsetEvaluator_BufferData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22644d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225c664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t songTime, float_t yOffset);
 
   // Ctor Parameters []
@@ -96,10 +96,10 @@ public:
                                                                                ::Array<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>*>
       _yJumpOffsetBuffer;
 
-  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x2264650, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x225c7e0, size 0x314, virtual false, abstract: false, final false
   inline float_t GetJumpOffsetYAtJumpStartSongTime(float_t lastDeltaTime);
 
-  /// @brief Method ManualUpdate, addr 0x22644dc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x225c66c, size 0x174, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider,
@@ -138,7 +138,7 @@ public:
   constexpr void __cordl_internal_set__yJumpOffsetBuffer(
       ::ArrayW<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData, ::Array<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>*> value);
 
-  /// @brief Method .ctor, addr 0x2264318, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225c4a8, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider,
                     ::GlobalNamespace::IVariableMovementDataProvider* variableMovementDataProvider, float_t moveToPlayerHeadTParam);
 

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::MarshalByRefObject* (::System::Runtime::Remoting::Proxies::ProxyAttribute::*)(::System::Type*)>(
     &::System::Runtime::Remoting::Proxies::ProxyAttribute::CreateInstance)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3ce54b4;
+  constexpr static std::size_t addrs = 0x3cd2fb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Proxies::ProxyAttribute::*)(::System::Runtime::Remoting::ObjRef*, ::System::Type*, ::System::Object*, ::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::Proxies::ProxyAttribute::CreateProxy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ce55ac;
+  constexpr static std::size_t addrs = 0x3cd30a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Proxies::ProxyAttribute::*)(
     ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Proxies::ProxyAttribute::GetPropertiesForNewContext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ce5600;
+  constexpr static std::size_t addrs = 0x3cd30fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Proxies::ProxyAttribute::*)(
     ::System::Runtime::Remoting::Contexts::Context*, ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Proxies::ProxyAttribute::IsContextOK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce5604;
+  constexpr static std::size_t addrs = 0x3cd3100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

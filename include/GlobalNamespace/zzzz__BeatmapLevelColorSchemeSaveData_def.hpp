@@ -27,7 +27,7 @@ public:
   /// @brief Field useOverride, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_useOverride, put = __cordl_internal_set_useOverride)) bool useOverride;
 
-  /// @brief Method IsDefault, addr 0x270270c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method IsDefault, addr 0x26fad50, size 0x15c, virtual false, abstract: false, final false
   inline bool IsDefault();
 
   static inline ::GlobalNamespace::BeatmapLevelColorSchemeSaveData* New_ctor();
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_useOverride(bool value);
 
-  /// @brief Method .ctor, addr 0x2702868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26faeac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   BeatmapLevelColorSchemeSaveData(BeatmapLevelColorSchemeSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13261 };
 
   /// @brief Field useOverride, offset: 0x10, size: 0x1, def value: None
   bool ___useOverride;

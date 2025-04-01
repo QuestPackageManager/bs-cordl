@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4afff0c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aedb00, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method get_ControlType, addr 0x4afff48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControlType, addr 0x4aedb3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
-  /// @brief Method get_TagName, addr 0x4afff38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagName, addr 0x4aedb2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TagName();
 
-  /// @brief Method set_ControlType, addr 0x4afff50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ControlType, addr 0x4aedb44, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
-  /// @brief Method set_TagName, addr 0x4afff40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TagName, addr 0x4aedb34, size 0x8, virtual false, abstract: false, final false
   inline void set_TagName(::StringW value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   AspChildControlTypeAttribute(AspChildControlTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
 
   /// @brief Field <TagName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TagName_k__BackingField;

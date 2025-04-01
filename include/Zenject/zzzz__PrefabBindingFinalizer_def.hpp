@@ -94,7 +94,7 @@ public:
 
   static inline ::Zenject::PrefabBindingFinalizer___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x4b26e30, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x4b14a24, size 0x110, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::PrefabBindingFinalizer* const& __cordl_internal_get___4__this() const;
@@ -115,13 +115,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4b26f40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b14b34, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b26f94, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b14b88, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b26418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b1400c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -177,7 +177,7 @@ public:
 
   static inline ::Zenject::PrefabBindingFinalizer___c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__1, addr 0x4b2714c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__1, addr 0x4b14d40, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__1(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::PrefabBindingFinalizer___c__DisplayClass5_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -192,13 +192,13 @@ public:
 
   constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  /// @brief Method __zenCreate, addr 0x4b27190, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b14d84, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b271e4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b14dd8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b26c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b147f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -249,7 +249,7 @@ public:
 
   static inline ::Zenject::PrefabBindingFinalizer___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x4b2739c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x4b14f90, size 0x114, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::PrefabBindingFinalizer* const& __cordl_internal_get___4__this() const;
@@ -264,13 +264,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4b274b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b150a4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b27504, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b150f8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b26c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b14800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -321,7 +321,7 @@ public:
 
   static inline ::Zenject::PrefabBindingFinalizer___c__DisplayClass6_1* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__1, addr 0x4b276bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__1, addr 0x4b152b0, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__1(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::PrefabBindingFinalizer___c__DisplayClass6_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -336,13 +336,13 @@ public:
 
   constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  /// @brief Method __zenCreate, addr 0x4b27700, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b152f4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b27754, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b15348, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b26e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b14a1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -403,16 +403,16 @@ public:
   __declspec(property(get = __cordl_internal_get__providerFactory,
                       put = __cordl_internal_set__providerFactory)) ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* _providerFactory;
 
-  /// @brief Method FinalizeBindingConcrete, addr 0x4b260f8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingConcrete, addr 0x4b13cec, size 0x320, virtual false, abstract: false, final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf, addr 0x4b25ddc, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingSelf, addr 0x4b139d0, size 0x31c, virtual false, abstract: false, final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   static inline ::Zenject::PrefabBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::UnityEngine::Object* prefab,
                                                             ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x4b25d58, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x4b1394c, size 0x84, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters* const& __cordl_internal_get__gameObjectBindInfo() const;
@@ -433,7 +433,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x4b25cf0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b138e4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::UnityEngine::Object* prefab,
                     ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 

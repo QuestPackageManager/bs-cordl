@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Users::InputUserAccountHandle::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserAccountHandle::get_apiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45faf28;
+  constexpr static std::size_t addrs = 0x45e8b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserAccountHandle>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::InputSystem::Users::InputUserAccountHandle::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserAccountHandle::get_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45faf30;
+  constexpr static std::size_t addrs = 0x45e8b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserAccountHandle>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserAccountHandle::*)(::StringW, uint64_t)>(
     &::UnityEngine::InputSystem::Users::InputUserAccountHandle::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x45faf38;
+  constexpr static std::size_t addrs = 0x45e8b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Users::InputUserAccountHandle::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserAccountHandle::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x45fafb4;
+  constexpr static std::size_t addrs = 0x45e8b94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserAccountHandle::*)(
     ::UnityEngine::InputSystem::Users::InputUserAccountHandle)>(&::UnityEngine::InputSystem::Users::InputUserAccountHandle::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x45fb078;
+  constexpr static std::size_t addrs = 0x45e8c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserAccountHandle::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Users::InputUserAccountHandle::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45fb128;
+  constexpr static std::size_t addrs = 0x45e8d08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Users::InputUserAccountHandle, ::UnityEngine::InputSystem::Users::InputUserAccountHandle)>(&::UnityEngine::InputSystem::Users::InputUserAccountHandle::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x45fae1c;
+  constexpr static std::size_t addrs = 0x45e89fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Users::InputUserAccountHandle, ::UnityEngine::InputSystem::Users::InputUserAccountHandle)>(&::UnityEngine::InputSystem::Users::InputUserAccountHandle::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45fb1a0;
+  constexpr static std::size_t addrs = 0x45e8d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Users::InputUserAccountHandle::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserAccountHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45fb1d0;
+  constexpr static std::size_t addrs = 0x45e8db0;
 
   inline static ::MethodInfo const* methodInfo() {
 

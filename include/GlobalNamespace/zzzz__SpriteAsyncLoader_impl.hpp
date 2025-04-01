@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::*)()>(
     &::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3c32818;
+  constexpr static std::size_t addrs = 0x3c20314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c32aa0;
+  constexpr static std::size_t addrs = 0x3c2059c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::*)()>(
     &::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x3c32aac;
+  constexpr static std::size_t addrs = 0x3c205a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c32ee0;
+  constexpr static std::size_t addrs = 0x3c209dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*, ::System::Action_1<::UnityW<::UnityEngine::Sprite>>*,
     int32_t)>(&::GlobalNamespace::SpriteAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3c31fe8;
+  constexpr static std::size_t addrs = 0x3c1fae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (::GlobalNamespace::SpriteAsyncLoader::*)(::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::LoadSpriteAsync)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3c32140;
+  constexpr static std::size_t addrs = 0x3c1fc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::UnloadSprite)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c322ac;
+  constexpr static std::size_t addrs = 0x3c1fda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)()>(&::GlobalNamespace::SpriteAsyncLoader::ClearCache)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x3c32360;
+  constexpr static std::size_t addrs = 0x3c1fe5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), "ClearCache",
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::SpriteAsyncLoader::HandleItemWillBeRemovedFromCache)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c32758;
+  constexpr static std::size_t addrs = 0x3c20254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(
     ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*, ::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::UnloadSprite)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c322bc;
+  constexpr static std::size_t addrs = 0x3c1fdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*)>(
     &::GlobalNamespace::SpriteAsyncLoader::DestroySpriteTask)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c326c0;
+  constexpr static std::size_t addrs = 0x3c201bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Sprite*)>(&::GlobalNamespace::SpriteAsyncLoader::DestroySprite)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c32768;
+  constexpr static std::size_t addrs = 0x3c20264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

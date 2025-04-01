@@ -23,10 +23,10 @@ public:
 
   __declspec(property(get = get_vertexCount)) uint32_t vertexCount;
 
-  /// @brief Method get_firstVertex, addr 0x4899d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstVertex, addr 0x4887930, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_firstVertex();
 
-  /// @brief Method get_vertexCount, addr 0x4899d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount, addr 0x4887940, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_vertexCount();
 
   // Ctor Parameters []

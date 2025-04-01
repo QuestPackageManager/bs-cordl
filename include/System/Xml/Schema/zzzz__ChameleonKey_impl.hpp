@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ChameleonKey::*)(::StringW, ::System::Xml::Schema::XmlSchema*)>(
     &::System::Xml::Schema::ChameleonKey::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43a5d44;
+  constexpr static std::size_t addrs = 0x4393904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::ChameleonKey::*)()>(&::System::Xml::Schema::ChameleonKey::GetHashCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43a5d9c;
+  constexpr static std::size_t addrs = 0x439395c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ChameleonKey::*)(::System::Object*)>(&::System::Xml::Schema::ChameleonKey::Equals)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43a5e1c;
+  constexpr static std::size_t addrs = 0x43939dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadBeatmapLevelDataResult::*)(bool, ::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::LoadBeatmapLevelDataResult::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d9a58;
+  constexpr static std::size_t addrs = 0x26d1be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LoadBeatmapLevelDataResult (*)(::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::LoadBeatmapLevelDataResult::Success)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26d9a68;
+  constexpr static std::size_t addrs = 0x26d1bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LoadBeatmapLevelDataResult (*)(::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::LoadBeatmapLevelDataResult::FromValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d9a74;
+  constexpr static std::size_t addrs = 0x26d1c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

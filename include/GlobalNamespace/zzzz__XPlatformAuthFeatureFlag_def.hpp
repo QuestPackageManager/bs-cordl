@@ -31,13 +31,13 @@ public:
 
   constexpr void __cordl_internal_set__UseXPlatformAuth_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x22f163c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e97cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseXPlatformAuth, addr 0x22f1628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseXPlatformAuth, addr 0x22e97b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseXPlatformAuth();
 
-  /// @brief Method set_UseXPlatformAuth, addr 0x22f1630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseXPlatformAuth, addr 0x22e97c0, size 0xc, virtual false, abstract: false, final false
   inline void set_UseXPlatformAuth(bool value);
 
 protected:
@@ -55,7 +55,7 @@ public:
   XPlatformAuthFeatureFlag(XPlatformAuthFeatureFlag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15005 };
 
   /// @brief Field <UseXPlatformAuth>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____UseXPlatformAuth_k__BackingField;

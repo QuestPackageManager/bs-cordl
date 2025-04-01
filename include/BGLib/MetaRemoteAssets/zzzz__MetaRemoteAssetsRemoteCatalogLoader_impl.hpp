@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22af364;
+  constexpr static std::size_t addrs = 0x22a74f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c::*)(
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c::_LoadRemoteCatalogAsync_b__0_0)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x22af36c;
+  constexpr static std::size_t addrs = 0x22a74fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x22af444;
+  constexpr static std::size_t addrs = 0x22a75d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22af908;
+  constexpr static std::size_t addrs = 0x22a7a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader::*)(::System::Threading::CancellationToken)>(
         &::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader::LoadRemoteCatalogAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x22af21c;
+  constexpr static std::size_t addrs = 0x22a73ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22af300;
+  constexpr static std::size_t addrs = 0x22a7490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

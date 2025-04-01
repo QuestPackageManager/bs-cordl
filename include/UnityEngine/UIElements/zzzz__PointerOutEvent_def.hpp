@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a40fd4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2ebb4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a40fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2ebac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerOutEvent___c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a40f28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2eb08, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

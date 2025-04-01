@@ -31,20 +31,20 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE LazyAsn1InputStream : public ::Org::BouncyCastle::Asn1::Asn1InputStream {
 public:
   // Declarations
-  /// @brief Method CreateDerSequence, addr 0x2641754, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSequence, addr 0x26398e4, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
-  /// @brief Method CreateDerSet, addr 0x264182c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSet, addr 0x26399bc, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSet* CreateDerSet(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x2641720, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26398b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method .ctor, addr 0x2641724, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26398b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:

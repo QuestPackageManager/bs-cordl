@@ -33,12 +33,12 @@ public:
   __declspec(property(get = __cordl_internal_get__variables,
                       put = __cordl_internal_set__variables)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* _variables;
 
-  /// @brief Method GetOrMakeVariables, addr 0x40bb4c0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeVariables, addr 0x40a9080, size 0x48, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* GetOrMakeVariables();
 
   static inline ::System::Linq::Expressions::ScopeExpression* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables);
 
-  /// @brief Method ReuseOrValidateVariables, addr 0x40bb510, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ReuseOrValidateVariables, addr 0x40a90d0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*
   ReuseOrValidateVariables(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables);
 
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__variables(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* value);
 
-  /// @brief Method .ctor, addr 0x40bb49c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a905c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables);
 
-  /// @brief Method get_VariablesList, addr 0x40bb508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VariablesList, addr 0x40a90c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* get_VariablesList();
 
 protected:
@@ -69,7 +69,7 @@ public:
   ScopeExpression(ScopeExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13651 };
 
   /// @brief Field _variables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* ____variables;

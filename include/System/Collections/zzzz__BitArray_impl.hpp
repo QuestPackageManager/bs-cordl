@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray_BitArrayEnumeratorSimple::*)(::System::Collections::BitArray*)>(
     &::System::Collections::BitArray_BitArrayEnumeratorSimple::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3dce7e4;
+  constexpr static std::size_t addrs = 0x3dbc2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::BitArray_BitArrayEnumeratorSimple::*)()>(
     &::System::Collections::BitArray_BitArrayEnumeratorSimple::Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dce824;
+  constexpr static std::size_t addrs = 0x3dbc320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray_BitArrayEnumeratorSimple*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::BitArray_BitArrayEnumeratorSimple::*)()>(
     &::System::Collections::BitArray_BitArrayEnumeratorSimple::MoveNext)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3dce82c;
+  constexpr static std::size_t addrs = 0x3dbc328;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::BitArray_BitArrayEnumeratorSimple::*)()>(
     &::System::Collections::BitArray_BitArrayEnumeratorSimple::get_Current)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3dce9d0;
+  constexpr static std::size_t addrs = 0x3dbc4cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray_BitArrayEnumeratorSimple::*)()>(
     &::System::Collections::BitArray_BitArrayEnumeratorSimple::Reset)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3dceb24;
+  constexpr static std::size_t addrs = 0x3dbc620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray_BitArrayEnumeratorSimple*>::get(),
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray::*)(int32_t)>(&::System::Collections::BitArray::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dcdb90;
+  constexpr static std::size_t addrs = 0x3dbb68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray::*)(int32_t, bool)>(&::System::Collections::BitArray::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3dcdb98;
+  constexpr static std::size_t addrs = 0x3dbb694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray::*)(::System::Collections::BitArray*)>(
     &::System::Collections::BitArray::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3dcdd0c;
+  constexpr static std::size_t addrs = 0x3dbb808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::BitArray::*)(int32_t)>(&::System::Collections::BitArray::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dcde04;
+  constexpr static std::size_t addrs = 0x3dbb900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray::*)(int32_t, bool)>(&::System::Collections::BitArray::set_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dcdee0;
+  constexpr static std::size_t addrs = 0x3dbb9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::BitArray::*)(int32_t)>(&::System::Collections::BitArray::Get)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3dcde08;
+  constexpr static std::size_t addrs = 0x3dbb904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray::*)(int32_t, bool)>(&::System::Collections::BitArray::Set)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3dcdee8;
+  constexpr static std::size_t addrs = 0x3dbb9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::BitArray::*)()>(&::System::Collections::BitArray::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dcdfe0;
+  constexpr static std::size_t addrs = 0x3dbbadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray*>::get(), "get_Length",
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray::*)(int32_t)>(&::System::Collections::BitArray::set_Length)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3dcdfe8;
+  constexpr static std::size_t addrs = 0x3dbbae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::BitArray::*)(::System::Array*, int32_t)>(&::System::Collections::BitArray::CopyTo)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x3dce1b0;
+  constexpr static std::size_t addrs = 0x3dbbcac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::BitArray::*)()>(&::System::Collections::BitArray::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dce6b4;
+  constexpr static std::size_t addrs = 0x3dbc1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray*>::get(), "get_Count",
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::BitArray::*)()>(&::System::Collections::BitArray::get_SyncRoot)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3dce6bc;
+  constexpr static std::size_t addrs = 0x3dbc1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray*>::get(), "get_SyncRoot",
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::BitArray::*)()>(&::System::Collections::BitArray::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dce72c;
+  constexpr static std::size_t addrs = 0x3dbc228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray*>::get(), "get_IsSynchronized",
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::BitArray::*)()>(&::System::Collections::BitArray::Clone)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dce734;
+  constexpr static std::size_t addrs = 0x3dbc230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray*>::get(), "Clone",
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::BitArray::*)()>(
     &::System::Collections::BitArray::GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dce78c;
+  constexpr static std::size_t addrs = 0x3dbc288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::BitArray*>::get(), "GetEnumerator",
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Collections::BitArray::GetArrayLength)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3dcdcf0;
+  constexpr static std::size_t addrs = 0x3dbb7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

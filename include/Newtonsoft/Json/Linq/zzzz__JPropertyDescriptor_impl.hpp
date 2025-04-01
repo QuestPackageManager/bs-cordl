@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)(::StringW)>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f27fe8;
+  constexpr static std::size_t addrs = 0x3f15ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::System::Object*)>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::CastInstance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f2afa8;
+  constexpr static std::size_t addrs = 0x3f18b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)(::System::Object*)>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f2b024;
+  constexpr static std::size_t addrs = 0x3f18bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)(::System::Object*)>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f2b02c;
+  constexpr static std::size_t addrs = 0x3f18be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)(::System::Object*)>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f2b0c8;
+  constexpr static std::size_t addrs = 0x3f18c80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3f2b0cc;
+  constexpr static std::size_t addrs = 0x3f18c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)(::System::Object*)>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f2b1f8;
+  constexpr static std::size_t addrs = 0x3f18db0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f2b200;
+  constexpr static std::size_t addrs = 0x3f18db8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f2b26c;
+  constexpr static std::size_t addrs = 0x3f18e24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f2b274;
+  constexpr static std::size_t addrs = 0x3f18e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyDescriptor::get_NameHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f2b2e0;
+  constexpr static std::size_t addrs = 0x3f18e98;
 
   inline static ::MethodInfo const* methodInfo() {
 

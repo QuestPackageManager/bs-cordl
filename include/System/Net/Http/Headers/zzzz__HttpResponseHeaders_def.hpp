@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Net::Http::Headers::HttpResponseHeaders* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4227dbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421597c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22e175c;
+  constexpr static std::size_t addrs = 0x22d98ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(
     ::ByRef<::GlobalNamespace::NetworkStatisticsState>)>(&::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22e17f8;
+  constexpr static std::size_t addrs = 0x22d9988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::ByRef<::GlobalNamespace::NetworkStatisticsState>, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22e180c;
+  constexpr static std::size_t addrs = 0x22d999c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(
     ::ByRef<::GlobalNamespace::NetworkStatisticsState>, ::System::IAsyncResult*)>(&::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22e1898;
+  constexpr static std::size_t addrs = 0x22d9a28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkStatisticsState::*)(
     int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t)>(&::GlobalNamespace::NetworkStatisticsState::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22e16bc;
+  constexpr static std::size_t addrs = 0x22d984c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NetworkStatisticsDelta (*)(
     ::ByRef<::GlobalNamespace::NetworkStatisticsState>, ::ByRef<::GlobalNamespace::NetworkStatisticsState>)>(&::GlobalNamespace::NetworkStatisticsState::op_Subtraction)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22e16e4;
+  constexpr static std::size_t addrs = 0x22d9874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

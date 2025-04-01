@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Random*, float_t, float_t)>(&::GlobalNamespace::RandomExtensions::GetRange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22a3500;
+  constexpr static std::size_t addrs = 0x229b690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Random*)>(&::GlobalNamespace::RandomExtensions::GetBool)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22a3548;
+  constexpr static std::size_t addrs = 0x229b6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -38,31 +38,31 @@ namespace UnityEngine {
 class CORDL_TYPE AssetBundle : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method GetAllAssetNames, addr 0x486586c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAllAssetNames, addr 0x485344c, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllAssetNames();
 
-  /// @brief Method GetAllLoadedAssetBundles, addr 0x4864f64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllLoadedAssetBundles, addr 0x4852b44, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AssetBundle>>* GetAllLoadedAssetBundles();
 
-  /// @brief Method GetAllLoadedAssetBundles_Native, addr 0x4864f3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllLoadedAssetBundles_Native, addr 0x4852b1c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::AssetBundle>, ::Array<::UnityW<::UnityEngine::AssetBundle>>*> GetAllLoadedAssetBundles_Native();
 
-  /// @brief Method GetAllScenePaths, addr 0x48658a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAllScenePaths, addr 0x4853488, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllScenePaths();
 
-  /// @brief Method LoadAllAssetsAsync, addr 0x4865664, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadAllAssetsAsync, addr 0x4853244, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAllAssetsAsync();
 
   /// @brief Method LoadAllAssetsAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::UnityEngine::AssetBundleRequest* LoadAllAssetsAsync();
 
-  /// @brief Method LoadAllAssetsAsync, addr 0x48656e8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadAllAssetsAsync, addr 0x48532c8, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAllAssetsAsync(::System::Type* type);
 
-  /// @brief Method LoadAsset, addr 0x4865104, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LoadAsset, addr 0x4852ce4, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> LoadAsset(::StringW name);
 
-  /// @brief Method LoadAsset, addr 0x4865190, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method LoadAsset, addr 0x4852d70, size 0x148, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> LoadAsset(::StringW name, ::System::Type* type);
 
   /// @brief Method LoadAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,45 +71,45 @@ public:
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name);
 
-  /// @brief Method LoadAssetAsync, addr 0x486532c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetAsync, addr 0x4852f0c, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name, ::System::Type* type);
 
-  /// @brief Method LoadAssetAsync_Internal, addr 0x4865474, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetAsync_Internal, addr 0x4853054, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetAsync_Internal(::StringW name, ::System::Type* type);
 
-  /// @brief Method LoadAssetWithSubAssetsAsync, addr 0x48654c8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetWithSubAssetsAsync, addr 0x48530a8, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync(::StringW name, ::System::Type* type);
 
-  /// @brief Method LoadAssetWithSubAssetsAsync_Internal, addr 0x4865610, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetWithSubAssetsAsync_Internal, addr 0x48531f0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync_Internal(::StringW name, ::System::Type* type);
 
-  /// @brief Method LoadAsset_Internal, addr 0x48652d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadAsset_Internal, addr 0x4852eb8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> LoadAsset_Internal(::StringW name, ::System::Type* type);
 
-  /// @brief Method LoadFromFile, addr 0x48650c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadFromFile, addr 0x4852ca0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AssetBundle> LoadFromFile(::StringW path);
 
-  /// @brief Method LoadFromFileAsync, addr 0x4864fe0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadFromFileAsync, addr 0x4852bc0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path);
 
-  /// @brief Method LoadFromFileAsync, addr 0x4865024, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method LoadFromFileAsync, addr 0x4852c04, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path, uint32_t crc);
 
-  /// @brief Method LoadFromFileAsync_Internal, addr 0x4864f8c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadFromFileAsync_Internal, addr 0x4852b6c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::StringW path, uint32_t crc, uint64_t offset);
 
-  /// @brief Method LoadFromFile_Internal, addr 0x486506c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadFromFile_Internal, addr 0x4852c4c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AssetBundle> LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset);
 
   static inline ::UnityEngine::AssetBundle* New_ctor();
 
-  /// @brief Method Unload, addr 0x48657e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x48533c4, size 0x44, virtual false, abstract: false, final false
   inline void Unload(bool unloadAllLoadedObjects);
 
-  /// @brief Method UnloadAsync, addr 0x4865828, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsync, addr 0x4853408, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleUnloadOperation* UnloadAsync(bool unloadAllLoadedObjects);
 
-  /// @brief Method .ctor, addr 0x4864ee4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4852ac4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   AssetBundle(AssetBundle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -59,7 +59,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Encode, addr 0x264d1f8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2645388, size 0x174, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -103,22 +103,22 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2649724, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26418b4, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x264d178, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2645308, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested);
 
-  /// @brief Method get_HashAlgorithm, addr 0x264d1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x2645378, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x264d1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x2645370, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
 
-  /// @brief Method get_KeyId, addr 0x264d1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x2645380, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_SignatureType, addr 0x264d1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureType, addr 0x2645368, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SignatureType();
 
 protected:

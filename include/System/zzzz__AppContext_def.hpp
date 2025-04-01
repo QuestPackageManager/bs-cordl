@@ -102,10 +102,10 @@ public:
   /// @brief Field s_switchMap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_switchMap, put = setStaticF_s_switchMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::AppContext_SwitchValueState>* s_switchMap;
 
-  /// @brief Method InitializeDefaultSwitchValues, addr 0x3e212e4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InitializeDefaultSwitchValues, addr 0x3e0ede0, size 0x174, virtual false, abstract: false, final false
   static inline void InitializeDefaultSwitchValues();
 
-  /// @brief Method TryGetSwitch, addr 0x3e21458, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method TryGetSwitch, addr 0x3e0ef54, size 0x408, virtual false, abstract: false, final false
   static inline bool TryGetSwitch(::StringW switchName, ::ByRef<bool> isEnabled);
 
   static inline bool getStaticF_s_defaultsInitialized();

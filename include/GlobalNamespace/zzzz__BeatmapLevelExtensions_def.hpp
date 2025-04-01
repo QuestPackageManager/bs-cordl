@@ -56,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelExtensions___c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__1_0, addr 0x26ced28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ToRuntime>b__1_0, addr 0x26c6eb8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _ToRuntime_b__1_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x26ced20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapLevelExtensions___c* getStaticF___9();
@@ -102,13 +102,13 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::BeatmapLevelExtensions___c;
 
-  /// @brief Method CreateColorScheme, addr 0x26cea2c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method CreateColorScheme, addr 0x26c6bbc, size 0x290, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* CreateColorScheme(int32_t idx, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelSO_ColorScheme*>* colorSchemes);
 
-  /// @brief Method ToCensoredRuntime, addr 0x26cd29c, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method ToCensoredRuntime, addr 0x26c542c, size 0x930, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
 
-  /// @brief Method ToRuntime, addr 0x26cdbf8, size 0xd04, virtual false, abstract: false, final false
+  /// @brief Method ToRuntime, addr 0x26c5d88, size 0xd04, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
 protected:

@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_player(::Oculus::Haptics::HapticClipPlayer* value);
 
-  /// @brief Method .ctor, addr 0x39d5c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c2b30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,27 +166,27 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x39d5d50, size 0x1f0, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x39c2be8, size 0x1f0, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method Dispose, addr 0x39d60c8, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x39c2f60, size 0x20c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetHapticClip, addr 0x39d5ca0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHapticClip, addr 0x39c2b38, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::Oculus::Haptics::HapticClip> GetHapticClip(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method HandleApplicationQuitting, addr 0x39d6514, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x39c33ac, size 0x68, virtual false, abstract: false, final false
   inline void HandleApplicationQuitting();
 
-  /// @brief Method Initialize, addr 0x39d6024, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x39c2ebc, size 0xa4, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x39d59f0, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x39c2888, size 0x2a8, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method Tick, addr 0x39d62d4, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x39c316c, size 0x1c4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
@@ -231,7 +231,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39d657c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c3414, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"

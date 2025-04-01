@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetColorScale)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x484316c;
+  constexpr static std::size_t addrs = 0x4830d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetColorOffset)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4843204;
+  constexpr static std::size_t addrs = 0x4830de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetIsSupportedDevice)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4843298;
+  constexpr static std::size_t addrs = 0x4830e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Unity::XR::Oculus::NativeMethods_Internal::LoadOVRPlugin)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4843308;
+  constexpr static std::size_t addrs = 0x4830ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::UnloadOVRPlugin)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4843398;
+  constexpr static std::size_t addrs = 0x4830f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::XR::Oculus::NativeMethods_UserDefinedSettings)>(
     &::Unity::XR::Oculus::NativeMethods_Internal::SetUserDefinedSettings)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48433fc;
+  constexpr static std::size_t addrs = 0x4830fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetCPULevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4843488;
+  constexpr static std::size_t addrs = 0x4831068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetGPULevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4843504;
+  constexpr static std::size_t addrs = 0x48310e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Unity::XR::Oculus::NativeMethods_Internal::GetOVRPVersion)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4843580;
+  constexpr static std::size_t addrs = 0x4831160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods_Internal::EnablePerfMetrics)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4843600;
+  constexpr static std::size_t addrs = 0x48311e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods_Internal::EnableAppMetrics)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x484367c;
+  constexpr static std::size_t addrs = 0x483125c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetDeveloperModeStrict)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48436f8;
+  constexpr static std::size_t addrs = 0x48312d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetAppHasInputFocus)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x484377c;
+  constexpr static std::size_t addrs = 0x483135c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetBoundaryConfigured)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x48437ec;
+  constexpr static std::size_t addrs = 0x48313cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::XR::Oculus::Boundary_BoundaryType, ::ByRef<::UnityEngine::Vector3>)>(
     &::Unity::XR::Oculus::NativeMethods_Internal::GetBoundaryDimensions)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x484385c;
+  constexpr static std::size_t addrs = 0x483143c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetBoundaryVisible)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x48438e8;
+  constexpr static std::size_t addrs = 0x48314c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetBoundaryVisible)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4843958;
+  constexpr static std::size_t addrs = 0x4831538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetAppShouldQuit)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x48439d8;
+  constexpr static std::size_t addrs = 0x48315b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::ByRef<int32_t>)>(
     &::Unity::XR::Oculus::NativeMethods_Internal::GetDisplayAvailableFrequencies)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4843a48;
+  constexpr static std::size_t addrs = 0x4831628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetDisplayFrequency)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4843ad4;
+  constexpr static std::size_t addrs = 0x48316b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<float_t>)>(&::Unity::XR::Oculus::NativeMethods_Internal::GetDisplayFrequency)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4843b58;
+  constexpr static std::size_t addrs = 0x4831738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::XR::Oculus::SystemHeadset (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetSystemHeadsetType)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4843bdc;
+  constexpr static std::size_t addrs = 0x48317bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetTiledMultiResSupported)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4843c44;
+  constexpr static std::size_t addrs = 0x4831824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetTiledMultiResLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4843cb4;
+  constexpr static std::size_t addrs = 0x4831894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetTiledMultiResLevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4843d30;
+  constexpr static std::size_t addrs = 0x4831910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetTiledMultiResDynamic)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4843d98;
+  constexpr static std::size_t addrs = 0x4831978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetEyeTrackedFoveatedRenderingSupported)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4843e14;
+  constexpr static std::size_t addrs = 0x48319f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetEyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4843e84;
+  constexpr static std::size_t addrs = 0x4831a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods_Internal::SetEyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4843ef4;
+  constexpr static std::size_t addrs = 0x4831ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods_Internal::GetShouldRestartSession)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4843f74;
+  constexpr static std::size_t addrs = 0x4831b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods_Internal*>::get(),
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::Unity::XR::Oculus::NativeMethods::SetColorScale)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4840124;
+  constexpr static std::size_t addrs = 0x482dd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -651,7 +651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::Unity::XR::Oculus::NativeMethods::SetColorOffset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4840128;
+  constexpr static std::size_t addrs = 0x482dd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetIsSupportedDevice)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4840fa8;
+  constexpr static std::size_t addrs = 0x482eb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(),
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Unity::XR::Oculus::NativeMethods::LoadOVRPlugin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4841b98;
+  constexpr static std::size_t addrs = 0x482f778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -693,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::XR::Oculus::NativeMethods::UnloadOVRPlugin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4843394;
+  constexpr static std::size_t addrs = 0x4830f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(), "UnloadOVRPlugin",
@@ -707,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::XR::Oculus::NativeMethods_UserDefinedSettings)>(
     &::Unity::XR::Oculus::NativeMethods::SetUserDefinedSettings)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4841714;
+  constexpr static std::size_t addrs = 0x482f2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -721,7 +721,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Unity::XR::Oculus::NativeMethods::SetCPULevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4841ce0;
+  constexpr static std::size_t addrs = 0x482f8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -735,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Unity::XR::Oculus::NativeMethods::SetGPULevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4841cfc;
+  constexpr static std::size_t addrs = 0x482f8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Unity::XR::Oculus::NativeMethods::GetOVRPVersion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4841ffc;
+  constexpr static std::size_t addrs = 0x482fbdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods::EnablePerfMetrics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4842df0;
+  constexpr static std::size_t addrs = 0x48309d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -777,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods::EnableAppMetrics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4843164;
+  constexpr static std::size_t addrs = 0x4830d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::Unity::XR::Oculus::NativeMethods::SetDeveloperModeStrict)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4840b1c;
+  constexpr static std::size_t addrs = 0x482e6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -805,7 +805,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetHasInputFocus)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484091c;
+  constexpr static std::size_t addrs = 0x482e4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(), "GetHasInputFocus",
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetBoundaryConfigured)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48409cc;
+  constexpr static std::size_t addrs = 0x482e5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(),
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::XR::Oculus::Boundary_BoundaryType, ::ByRef<::UnityEngine::Vector3>)>(
     &::Unity::XR::Oculus::NativeMethods::GetBoundaryDimensions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48409d4;
+  constexpr static std::size_t addrs = 0x482e5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -847,7 +847,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetBoundaryVisible)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48409dc;
+  constexpr static std::size_t addrs = 0x482e5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(), "GetBoundaryVisible",
@@ -860,7 +860,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods::SetBoundaryVisible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48409e8;
+  constexpr static std::size_t addrs = 0x482e5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -874,7 +874,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetAppShouldQuit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48439d4;
+  constexpr static std::size_t addrs = 0x48315b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(), "GetAppShouldQuit",
@@ -887,7 +887,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::ByRef<int32_t>)>(&::Unity::XR::Oculus::NativeMethods::GetDisplayAvailableFrequencies)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4841e9c;
+  constexpr static std::size_t addrs = 0x482fa7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(),
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::Unity::XR::Oculus::NativeMethods::SetDisplayFrequency)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4841ea4;
+  constexpr static std::size_t addrs = 0x482fa84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -916,7 +916,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<float_t>)>(&::Unity::XR::Oculus::NativeMethods::GetDisplayFrequency)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4841eac;
+  constexpr static std::size_t addrs = 0x482fa8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -930,7 +930,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::XR::Oculus::SystemHeadset (*)()>(&::Unity::XR::Oculus::NativeMethods::GetSystemHeadsetType)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4840130;
+  constexpr static std::size_t addrs = 0x482dd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(),
@@ -943,7 +943,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetTiledMultiResSupported)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48401e8;
+  constexpr static std::size_t addrs = 0x482ddc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(),
@@ -956,7 +956,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::Unity::XR::Oculus::NativeMethods::SetTiledMultiResLevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4840368;
+  constexpr static std::size_t addrs = 0x482df48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -970,7 +970,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Unity::XR::Oculus::NativeMethods::GetTiledMultiResLevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48402e8;
+  constexpr static std::size_t addrs = 0x482dec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(),
@@ -983,7 +983,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods::SetTiledMultiResDynamic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4840268;
+  constexpr static std::size_t addrs = 0x482de48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -997,7 +997,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetEyeTrackedFoveatedRenderingSupported)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4840370;
+  constexpr static std::size_t addrs = 0x482df50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1011,7 +1011,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetEyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4840394;
+  constexpr static std::size_t addrs = 0x482df74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1025,7 +1025,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::NativeMethods::SetEyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4840198;
+  constexpr static std::size_t addrs = 0x482dd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1039,7 +1039,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::NativeMethods::GetShouldRestartSession)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4843f70;
+  constexpr static std::size_t addrs = 0x4831b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::NativeMethods*>::get(),

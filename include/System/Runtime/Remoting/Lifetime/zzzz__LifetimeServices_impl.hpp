@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)()>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::get_LeaseManagerPollTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cea768;
+  constexpr static std::size_t addrs = 0x3cd8264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LifetimeServices*>::get(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TimeSpan)>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::set_LeaseManagerPollTime)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cea7c0;
+  constexpr static std::size_t addrs = 0x3cd82bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)()>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::get_LeaseTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cea834;
+  constexpr static std::size_t addrs = 0x3cd8330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LifetimeServices*>::get(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TimeSpan)>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::set_LeaseTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cea88c;
+  constexpr static std::size_t addrs = 0x3cd8388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)()>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::get_RenewOnCallTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cea8e8;
+  constexpr static std::size_t addrs = 0x3cd83e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LifetimeServices*>::get(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TimeSpan)>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::set_RenewOnCallTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cea940;
+  constexpr static std::size_t addrs = 0x3cd843c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)()>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::get_SponsorshipTimeout)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cea99c;
+  constexpr static std::size_t addrs = 0x3cd8498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LifetimeServices*>::get(),
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TimeSpan)>(&::System::Runtime::Remoting::Lifetime::LifetimeServices::set_SponsorshipTimeout)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cea9f4;
+  constexpr static std::size_t addrs = 0x3cd84f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ServerIdentity*)>(
     &::System::Runtime::Remoting::Lifetime::LifetimeServices::TrackLifetime)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ce24c4;
+  constexpr static std::size_t addrs = 0x3ccffc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

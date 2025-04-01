@@ -104,21 +104,21 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method LazyInitializeMaterials, addr 0x4090bcc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeMaterials, addr 0x407e78c, size 0x124, virtual false, abstract: false, final false
   inline void LazyInitializeMaterials();
 
   static inline ::GlobalNamespace::PyramidBloomMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4090cf0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x407e8b0, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4090bb0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x407e770, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PreRender, addr 0x4090d20, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x407e8e0, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x4090d84, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x407e944, size 0x27c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
   constexpr float_t const& __cordl_internal_get__alphaWeights() const;
@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
-  /// @brief Method .ctor, addr 0x4091000, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407ebc0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomIntensityID();
@@ -244,7 +244,7 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x4090ba8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x407e768, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
   static inline void setStaticF__bloomIntensityID(int32_t value);
@@ -268,7 +268,7 @@ public:
   PyramidBloomMainEffectSO(PyramidBloomMainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17879 };
 
   /// @brief Field _bloomRenderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> ____bloomRenderer;

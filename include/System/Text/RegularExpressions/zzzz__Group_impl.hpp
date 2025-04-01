@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::RegularExpressions::Group::*)(::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, ::StringW)>(&::System::Text::RegularExpressions::Group::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x441e17c;
+  constexpr static std::size_t addrs = 0x440bd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Group::*)()>(&::System::Text::RegularExpressions::Group::get_Success)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x441e218;
+  constexpr static std::size_t addrs = 0x440bdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Group*>::get(), "get_Success",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Group::*)()>(&::System::Text::RegularExpressions::Group::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x441e32c;
+  constexpr static std::size_t addrs = 0x440beec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Group*>::get(), ".ctor",

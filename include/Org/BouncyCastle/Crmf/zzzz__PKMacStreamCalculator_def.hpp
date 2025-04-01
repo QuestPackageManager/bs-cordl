@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
 
-  /// @brief Method GetResult, addr 0x268a724, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0x26828b4, size 0x80, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   static inline ::Org::BouncyCastle::Crmf::PKMacStreamCalculator* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__stream(::Org::BouncyCastle::Crypto::IO::MacSink* value);
 
-  /// @brief Method .ctor, addr 0x268a6a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2682838, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method get_Stream, addr 0x268a71c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x26828ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"

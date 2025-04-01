@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)(int32_t)>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47cabd4;
+  constexpr static std::size_t addrs = 0x47b87b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47d1854;
+  constexpr static std::size_t addrs = 0x47bf434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::MoveNext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x47d1858;
+  constexpr static std::size_t addrs = 0x47bf438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d1910;
+  constexpr static std::size_t addrs = 0x47bf4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d1918;
+  constexpr static std::size_t addrs = 0x47bf4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d1950;
+  constexpr static std::size_t addrs = 0x47bf530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)(int32_t)>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47cac5c;
+  constexpr static std::size_t addrs = 0x47b883c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47d1958;
+  constexpr static std::size_t addrs = 0x47bf538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19*>::get(),
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::MoveNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47d195c;
+  constexpr static std::size_t addrs = 0x47bf53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19*>::get(),
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d1a1c;
+  constexpr static std::size_t addrs = 0x47bf5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d1a24;
+  constexpr static std::size_t addrs = 0x47bf604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d1a5c;
+  constexpr static std::size_t addrs = 0x47bf63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TextMeshProUGUI::*)()>(
     &::TMPro::TextMeshProUGUI::get_materialForRendering)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47ca6c4;
+  constexpr static std::size_t addrs = 0x47b82a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_autoSizeTextContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47ca724;
+  constexpr static std::size_t addrs = 0x47b8304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(bool)>(&::TMPro::TextMeshProUGUI::set_autoSizeTextContainer)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47ca72c;
+  constexpr static std::size_t addrs = 0x47b830c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47ca7cc;
+  constexpr static std::size_t addrs = 0x47b83ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::CanvasRenderer> (::TMPro::TextMeshProUGUI::*)()>(
     &::TMPro::TextMeshProUGUI::get_canvasRenderer)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47ca7d4;
+  constexpr static std::size_t addrs = 0x47b83b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "get_canvasRenderer",
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47ca868;
+  constexpr static std::size_t addrs = 0x47b8448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(),
@@ -496,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47ca86c;
+  constexpr static std::size_t addrs = 0x47b844c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "CalculateLayoutInputVertical",
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetVerticesDirty)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x47ca870;
+  constexpr static std::size_t addrs = 0x47b8450;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetLayoutDirty)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47ca954;
+  constexpr static std::size_t addrs = 0x47b8534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetMaterialDirty)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x47caa44;
+  constexpr static std::size_t addrs = 0x47b8624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetAllDirty)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47cab30;
+  constexpr static std::size_t addrs = 0x47b8710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::TMPro::TextMeshProUGUI::*)()>(
     &::TMPro::TextMeshProUGUI::DelayedGraphicRebuild)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47cab74;
+  constexpr static std::size_t addrs = 0x47b8754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "DelayedGraphicRebuild",
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::TMPro::TextMeshProUGUI::*)()>(
     &::TMPro::TextMeshProUGUI::DelayedMaterialRebuild)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47cabfc;
+  constexpr static std::size_t addrs = 0x47b87dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "DelayedMaterialRebuild",
@@ -593,7 +593,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::UI::CanvasUpdate)>(&::TMPro::TextMeshProUGUI::Rebuild)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x47cac84;
+  constexpr static std::size_t addrs = 0x47b8864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -607,7 +607,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateSubObjectPivot)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47cafe0;
+  constexpr static std::size_t addrs = 0x47b8bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "UpdateSubObjectPivot",
@@ -621,7 +621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(
     &::TMPro::TextMeshProUGUI::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x47cb0b4;
+  constexpr static std::size_t addrs = 0x47b8c94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -635,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateMaterial)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x47cb1b4;
+  constexpr static std::size_t addrs = 0x47b8d94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -649,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_maskOffset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47cb2a0;
+  constexpr static std::size_t addrs = 0x47b8e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "get_maskOffset",
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Vector4)>(&::TMPro::TextMeshProUGUI::set_maskOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47cb2b4;
+  constexpr static std::size_t addrs = 0x47b8e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::RecalculateClipping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cb5f8;
+  constexpr static std::size_t addrs = 0x47b91d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -690,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Rect, bool)>(&::TMPro::TextMeshProUGUI::Cull)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x47cb600;
+  constexpr static std::size_t addrs = 0x47b91e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateCulling)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x47cb87c;
+  constexpr static std::size_t addrs = 0x47b945c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateMeshPadding)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x47cba98;
+  constexpr static std::size_t addrs = 0x47b9678;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -733,7 +733,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Color, float_t, bool, bool)>(
     &::TMPro::TextMeshProUGUI::InternalCrossFadeColor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x47cbb98;
+  constexpr static std::size_t addrs = 0x47b9778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -747,7 +747,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(float_t, float_t, bool)>(&::TMPro::TextMeshProUGUI::InternalCrossFadeAlpha)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x47cbc64;
+  constexpr static std::size_t addrs = 0x47b9844;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -761,7 +761,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(bool, bool)>(&::TMPro::TextMeshProUGUI::ForceMeshUpdate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47cbd00;
+  constexpr static std::size_t addrs = 0x47b98e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -775,7 +775,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_TextInfo* (::TMPro::TextMeshProUGUI::*)(::StringW)>(&::TMPro::TextMeshProUGUI::GetTextInfo)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x47cbda8;
+  constexpr static std::size_t addrs = 0x47b9988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -789,7 +789,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::ClearMesh)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47cbe90;
+  constexpr static std::size_t addrs = 0x47b9a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -804,7 +804,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::System::Action_1<::TMPro::TMP_TextInfo*>*)>(
     &::TMPro::TextMeshProUGUI::add_OnPreRenderText)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47cbf80;
+  constexpr static std::size_t addrs = 0x47b9b60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -819,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::System::Action_1<::TMPro::TMP_TextInfo*>*)>(
     &::TMPro::TextMeshProUGUI::remove_OnPreRenderText)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47cc034;
+  constexpr static std::size_t addrs = 0x47b9c14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -833,7 +833,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Mesh*, int32_t)>(&::TMPro::TextMeshProUGUI::UpdateGeometry)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x47cc0e8;
+  constexpr static std::size_t addrs = 0x47b9cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -848,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::TMPro::TMP_VertexDataUpdateFlags)>(
     &::TMPro::TextMeshProUGUI::UpdateVertexData)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x47cc160;
+  constexpr static std::size_t addrs = 0x47b9d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -862,7 +862,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateVertexData)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x47cc344;
+  constexpr static std::size_t addrs = 0x47b9f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -876,7 +876,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateFontAsset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47cc558;
+  constexpr static std::size_t addrs = 0x47ba138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "UpdateFontAsset",
@@ -889,7 +889,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::Awake)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x47cc568;
+  constexpr static std::size_t addrs = 0x47ba148;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -903,7 +903,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnEnable)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x47cc8e8;
+  constexpr static std::size_t addrs = 0x47ba4c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -917,7 +917,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnDisable)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x47ccb7c;
+  constexpr static std::size_t addrs = 0x47ba75c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -931,7 +931,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnDestroy)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x47ccd20;
+  constexpr static std::size_t addrs = 0x47ba900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -945,7 +945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::LoadFontAsset)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x47cce7c;
+  constexpr static std::size_t addrs = 0x47baa5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -959,7 +959,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Canvas> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetCanvas)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x47cca18;
+  constexpr static std::size_t addrs = 0x47ba5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "GetCanvas",
@@ -972,7 +972,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateEnvMapMatrix)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x47cd3ac;
+  constexpr static std::size_t addrs = 0x47baf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "UpdateEnvMapMatrix",
@@ -985,7 +985,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::EnableMasking)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x47cd620;
+  constexpr static std::size_t addrs = 0x47bb200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "EnableMasking",
@@ -998,7 +998,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::DisableMasking)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47cd7c4;
+  constexpr static std::size_t addrs = 0x47bb3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "DisableMasking",
@@ -1011,7 +1011,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateMask)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x47cb2e0;
+  constexpr static std::size_t addrs = 0x47b8ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "UpdateMask",
@@ -1025,7 +1025,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(
     &::TMPro::TextMeshProUGUI::GetMaterial)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x47cd7c8;
+  constexpr static std::size_t addrs = 0x47bb3a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1040,7 +1040,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> (
     ::TMPro::TextMeshProUGUI::*)(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>)>(&::TMPro::TextMeshProUGUI::GetMaterials)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x47cd90c;
+  constexpr static std::size_t addrs = 0x47bb4ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1054,7 +1054,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&::TMPro::TextMeshProUGUI::SetSharedMaterial)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47cdabc;
+  constexpr static std::size_t addrs = 0x47bb69c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1069,7 +1069,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetSharedMaterials)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x47cdaf4;
+  constexpr static std::size_t addrs = 0x47bb6d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1084,7 +1084,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>)>(
     &::TMPro::TextMeshProUGUI::SetSharedMaterials)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x47cdc84;
+  constexpr static std::size_t addrs = 0x47bb864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1098,7 +1098,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(float_t)>(&::TMPro::TextMeshProUGUI::SetOutlineThickness)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x47ce030;
+  constexpr static std::size_t addrs = 0x47bbc10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1112,7 +1112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Color32)>(&::TMPro::TextMeshProUGUI::SetFaceColor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x47ce1f0;
+  constexpr static std::size_t addrs = 0x47bbdd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1126,7 +1126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Color32)>(&::TMPro::TextMeshProUGUI::SetOutlineColor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x47ce320;
+  constexpr static std::size_t addrs = 0x47bbf00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1140,7 +1140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetShaderDepth)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x47ce450;
+  constexpr static std::size_t addrs = 0x47bc030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1154,7 +1154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetCulling)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x47ce57c;
+  constexpr static std::size_t addrs = 0x47bc15c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1168,7 +1168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetPerspectiveCorrection)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47ce844;
+  constexpr static std::size_t addrs = 0x47bc424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "SetPerspectiveCorrection",
@@ -1181,7 +1181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(int32_t)>(&::TMPro::TextMeshProUGUI::SetMeshArrays)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x47ce8c8;
+  constexpr static std::size_t addrs = 0x47bc4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1196,7 +1196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::TMPro::TextMeshProUGUI::*)(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>)>(&::TMPro::TextMeshProUGUI::SetArraySizes)> {
   constexpr static std::size_t size = 0x1c4c;
-  constexpr static std::size_t addrs = 0x47ce974;
+  constexpr static std::size_t addrs = 0x47bc554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1210,7 +1210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::ComputeMarginSize)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x47d05c0;
+  constexpr static std::size_t addrs = 0x47be1a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1224,7 +1224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d069c;
+  constexpr static std::size_t addrs = 0x47be27c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1238,7 +1238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnCanvasHierarchyChanged)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x47d06d4;
+  constexpr static std::size_t addrs = 0x47be2b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1252,7 +1252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47d07f4;
+  constexpr static std::size_t addrs = 0x47be3d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1266,7 +1266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x47d0838;
+  constexpr static std::size_t addrs = 0x47be418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1280,7 +1280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::InternalUpdate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x47d0a08;
+  constexpr static std::size_t addrs = 0x47be5e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1294,7 +1294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnPreRenderCanvas)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x47cad6c;
+  constexpr static std::size_t addrs = 0x47b894c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), "OnPreRenderCanvas",
@@ -1307,7 +1307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GenerateTextMesh)> {
   constexpr static std::size_t size = 0x7550;
-  constexpr static std::size_t addrs = 0x47bae50;
+  constexpr static std::size_t addrs = 0x47a8a30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1322,7 +1322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::TMPro::TextMeshProUGUI::*)()>(
     &::TMPro::TextMeshProUGUI::GetTextContainerLocalCorners)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x47d0cac;
+  constexpr static std::size_t addrs = 0x47be88c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1336,7 +1336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(bool)>(&::TMPro::TextMeshProUGUI::SetActiveSubMeshes)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x47d0d44;
+  constexpr static std::size_t addrs = 0x47be924;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1350,7 +1350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::DestroySubMeshObjects)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x47d0e54;
+  constexpr static std::size_t addrs = 0x47bea34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1364,7 +1364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetCompoundBounds)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x47d0f30;
+  constexpr static std::size_t addrs = 0x47beb10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1378,7 +1378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetCanvasSpaceClippingRect)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x47d1120;
+  constexpr static std::size_t addrs = 0x47bed00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1392,7 +1392,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)(float_t)>(&::TMPro::TextMeshProUGUI::UpdateSDFScale)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x47d0aa4;
+  constexpr static std::size_t addrs = 0x47be684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1406,7 +1406,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x47d12e0;
+  constexpr static std::size_t addrs = 0x47beec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextMeshProUGUI*>::get(), ".ctor",

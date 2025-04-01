@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::AddressablesInternalBridge::Runtime::Extensions___c::*)()>(
     &::AddressablesInternalBridge::Runtime::Extensions___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ea684;
+  constexpr static std::size_t addrs = 0x44d8264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::AddressablesInternalBridge::Runtime::Extensions___c::*)(
     ::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(&::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44ea68c;
+  constexpr static std::size_t addrs = 0x44d826c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (::AddressablesInternalBridge::Runtime::Extensions___c::*)(::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(
         &::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_1)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x44ea844;
+  constexpr static std::size_t addrs = 0x44d8424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (*)(::StringW)>(
     &::AddressablesInternalBridge::Runtime::Extensions::GetCatalogLocationData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x44ea0e4;
+  constexpr static std::size_t addrs = 0x44d7cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>* (*)()>(
     &::AddressablesInternalBridge::Runtime::Extensions::GetUpdateableCatalogLocationDatas)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x44ea44c;
+  constexpr static std::size_t addrs = 0x44d802c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

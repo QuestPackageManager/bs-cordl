@@ -29,34 +29,34 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelPackHeaderTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _backgroundImage, offset 0x70, size 0x8
+  /// @brief Field _backgroundImage, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage)) ::UnityW<::UnityEngine::UI::Image> _backgroundImage;
 
-  /// @brief Field _highlightBackgroundColor, offset 0x78, size 0x10
+  /// @brief Field _highlightBackgroundColor, offset 0x88, size 0x10
   __declspec(property(get = __cordl_internal_get__highlightBackgroundColor, put = __cordl_internal_set__highlightBackgroundColor)) ::UnityEngine::Color _highlightBackgroundColor;
 
-  /// @brief Field _nameText, offset 0x68, size 0x8
+  /// @brief Field _nameText, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText)) ::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-  /// @brief Field _selectedAndHighlightedBackgroundColor, offset 0x98, size 0x10
+  /// @brief Field _selectedAndHighlightedBackgroundColor, offset 0xa8, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedAndHighlightedBackgroundColor,
                       put = __cordl_internal_set__selectedAndHighlightedBackgroundColor)) ::UnityEngine::Color _selectedAndHighlightedBackgroundColor;
 
-  /// @brief Field _selectedBackgroundColor, offset 0x88, size 0x10
+  /// @brief Field _selectedBackgroundColor, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor)) ::UnityEngine::Color _selectedBackgroundColor;
 
-  /// @brief Method HighlightDidChange, addr 0x3c0ce48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3bfa944, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::LevelPackHeaderTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3c0cdac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3bfa8a8, size 0x9c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3c0cda8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3bfa8a4, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x3c0cd84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3bfa880, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::StringW headerText);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedBackgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3c0ce4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfa948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,35 +109,35 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4761 };
 
-  /// @brief Field _nameText, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _nameText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
-  /// @brief Field _backgroundImage, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _backgroundImage, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
-  /// @brief Field _highlightBackgroundColor, offset: 0x78, size: 0x10, def value: None
+  /// @brief Field _highlightBackgroundColor, offset: 0x88, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightBackgroundColor;
 
-  /// @brief Field _selectedBackgroundColor, offset: 0x88, size: 0x10, def value: None
+  /// @brief Field _selectedBackgroundColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedBackgroundColor;
 
-  /// @brief Field _selectedAndHighlightedBackgroundColor, offset: 0x98, size: 0x10, def value: None
+  /// @brief Field _selectedAndHighlightedBackgroundColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedAndHighlightedBackgroundColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____nameText) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____nameText) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____backgroundImage) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____backgroundImage) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____highlightBackgroundColor) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____highlightBackgroundColor) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____selectedBackgroundColor) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____selectedBackgroundColor) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____selectedAndHighlightedBackgroundColor) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackHeaderTableCell, ____selectedAndHighlightedBackgroundColor) == 0xa8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelPackHeaderTableCell, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelPackHeaderTableCell, 0xb8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelPackHeaderTableCell);

@@ -50,25 +50,25 @@ public:
 
   constexpr void __cordl_internal_set__startControlPointDelta(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x22bc730, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b48c0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endControlPoint, addr 0x22bc6b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_endControlPoint, addr 0x22b4844, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endControlPoint();
 
   /// @brief Method get_endPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_startControlPoint, addr 0x22bc638, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_startControlPoint, addr 0x22b47c8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startControlPoint();
 
   /// @brief Method get_startPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
-  /// @brief Method set_endControlPoint, addr 0x22bc6e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_endControlPoint, addr 0x22b4874, size 0x4c, virtual false, abstract: false, final false
   inline void set_endControlPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startControlPoint, addr 0x22bc668, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startControlPoint, addr 0x22b47f8, size 0x4c, virtual false, abstract: false, final false
   inline void set_startControlPoint(::UnityEngine::Vector3 value);
 
 protected:

@@ -168,21 +168,21 @@ public:
   /// @brief Field shortPressHandler, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_shortPressHandler, put = __cordl_internal_set_shortPressHandler)) ::GlobalNamespace::OVRPlatformMenu_eHandler shortPressHandler;
 
-  /// @brief Method Awake, addr 0x3fea570, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fd8128, size 0x170, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBackButtonState, addr 0x3fea508, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleBackButtonState, addr 0x3fd80c0, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlatformMenu_eBackButtonAction HandleBackButtonState();
 
   static inline ::GlobalNamespace::OVRPlatformMenu* New_ctor();
 
-  /// @brief Method RetreatOneLevel, addr 0x3fea7b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RetreatOneLevel, addr 0x3fd836c, size 0xf4, virtual false, abstract: false, final false
   static inline bool RetreatOneLevel();
 
-  /// @brief Method ShowConfirmQuitMenu, addr 0x3fea6e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ShowConfirmQuitMenu, addr 0x3fd8298, size 0xd4, virtual false, abstract: false, final false
   inline void ShowConfirmQuitMenu();
 
-  /// @brief Method Update, addr 0x3fea8a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd8460, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Func_1<bool>* const& __cordl_internal_get_OnShortPress() const;
@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set_shortPressHandler(::GlobalNamespace::OVRPlatformMenu_eHandler value);
 
-  /// @brief Method .ctor, addr 0x3fea8e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd84a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Stack_1<::StringW>* getStaticF_sceneStack();

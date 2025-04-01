@@ -24,7 +24,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE EventDebugger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogPropagationPaths, addr 0x4a2ff4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogPropagationPaths, addr 0x4a1db2c, size 0x4, virtual false, abstract: false, final false
   static inline void LogPropagationPaths(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPaths* paths);
 
 protected:

@@ -124,30 +124,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Contains, addr 0x4456bec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x44447ac, size 0x60, virtual false, abstract: false, final false
   inline bool Contains(::System::Attribute* attribute);
 
-  /// @brief Method CopyTo, addr 0x4456ca8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x4444868, size 0x6c, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetDefaultAttribute, addr 0x445667c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultAttribute, addr 0x444423c, size 0x570, virtual false, abstract: false, final false
   inline ::System::Attribute* GetDefaultAttribute(::System::Type* attributeType);
 
-  /// @brief Method GetEnumerator, addr 0x4456c4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x444480c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::ComponentModel::AttributeCollection* New_ctor(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x4456c80, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x4444840, size 0x24, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4456c70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4444830, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x4456c78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x4444838, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4456ca4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4444864, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __cordl_internal_get__attributes() const;
@@ -170,7 +170,7 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4456048, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4443c08, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
   static inline ::System::ComponentModel::AttributeCollection* getStaticF_Empty();
@@ -179,13 +179,13 @@ public:
 
   static inline ::System::Object* getStaticF_s_internalSyncObject();
 
-  /// @brief Method get_Attributes, addr 0x4456178, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x4443d38, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> get_Attributes();
 
-  /// @brief Method get_Count, addr 0x4456180, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4443d40, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x44561a4, size 0x4d8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4443d64, size 0x4d8, virtual true, abstract: false, final false
   inline ::System::Attribute* get_Item(::System::Type* attributeType);
 
   /// @brief Convert to "::System::Collections::ICollection"

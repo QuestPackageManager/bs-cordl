@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncHandshakeRequest::*)(::Mono::Net::Security::MobileAuthenticatedStream*, bool)>(
     &::Mono::Net::Security::AsyncHandshakeRequest::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411f57c;
+  constexpr static std::size_t addrs = 0x410d13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::AsyncOperationStatus (::Mono::Net::Security::AsyncHandshakeRequest::*)(
     ::Mono::Net::Security::AsyncOperationStatus)>(&::Mono::Net::Security::AsyncHandshakeRequest::Run)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x411f584;
+  constexpr static std::size_t addrs = 0x410d144;
 
   inline static ::MethodInfo const* methodInfo() {
 

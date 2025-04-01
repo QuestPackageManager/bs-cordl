@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_ShowExpandWarning(bool value);
 
-  /// @brief Method __zenCreate, addr 0x4b2c428, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b1a01c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2c494, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b1a088, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b2c340, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b19f34, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4b2c370, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b19f64, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
 
   static inline ::Zenject::MemoryPoolSettings* getStaticF_Default();

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c32fb4;
+  constexpr static std::size_t addrs = 0x3c20ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c33068;
+  constexpr static std::size_t addrs = 0x3c20b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c3311c;
+  constexpr static std::size_t addrs = 0x3c20c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c331ac;
+  constexpr static std::size_t addrs = 0x3c20ca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::UpdateVisuals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c3323c;
+  constexpr static std::size_t addrs = 0x3c20d38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(::HMUI::CircleSlider*, float_t)>(
     &::GlobalNamespace::ColorHueSlider::HandleNormalizedValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c332e4;
+  constexpr static std::size_t addrs = 0x3c20de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::ColorHueSlider::OnPointerUp)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3c33308;
+  constexpr static std::size_t addrs = 0x3c20e04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33348;
+  constexpr static std::size_t addrs = 0x3c20e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(), ".ctor",

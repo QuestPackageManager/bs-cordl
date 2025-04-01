@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect_InitData::*)(::GlobalNamespace::ArcVisibilityType, bool)>(
     &::GlobalNamespace::SliderIntensityEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b87f08;
+  constexpr static std::size_t addrs = 0x3b7593c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect_FadeElement::*)(
     ::GlobalNamespace::EaseType, float_t, float_t, ::System::Action*)>(&::GlobalNamespace::SliderIntensityEffect_FadeElement::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b87ddc;
+  constexpr static std::size_t addrs = 0x3b75810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b87f80;
+  constexpr static std::size_t addrs = 0x3b759b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::*)(float_t, float_t)>(
     &::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b8800c;
+  constexpr static std::size_t addrs = 0x3b75a40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,7 +203,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::*)(float_t, float_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b88020;
+  constexpr static std::size_t addrs = 0x3b75a54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b880bc;
+  constexpr static std::size_t addrs = 0x3b75af0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::*)(int32_t)>(
     &::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b87e8c;
+  constexpr static std::size_t addrs = 0x3b758c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::*)()>(
     &::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b880e4;
+  constexpr static std::size_t addrs = 0x3b75b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::*)()>(
     &::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x3b88100;
+  constexpr static std::size_t addrs = 0x3b75b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::*)()>(
     &::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b88488;
+  constexpr static std::size_t addrs = 0x3b75ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::*)()>(
     &::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b88538;
+  constexpr static std::size_t addrs = 0x3b75f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::*)()>(
     &::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b88540;
+  constexpr static std::size_t addrs = 0x3b75f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::*)()>(
     &::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b88578;
+  constexpr static std::size_t addrs = 0x3b75fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)(::System::Action*)>(
     &::GlobalNamespace::SliderIntensityEffect::add_fadeInDidStartEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b855fc;
+  constexpr static std::size_t addrs = 0x3b73030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)(::System::Action*)>(
     &::GlobalNamespace::SliderIntensityEffect::remove_fadeInDidStartEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b85afc;
+  constexpr static std::size_t addrs = 0x3b73530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SliderIntensityEffect::*)()>(&::GlobalNamespace::SliderIntensityEffect::get_intensity)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b840c0;
+  constexpr static std::size_t addrs = 0x3b71af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(),
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SliderIntensityEffect::*)()>(
     &::GlobalNamespace::SliderIntensityEffect::get_colorIntensity)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b87b60;
+  constexpr static std::size_t addrs = 0x3b75594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(),
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)()>(&::GlobalNamespace::SliderIntensityEffect::Awake)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3b87b88;
+  constexpr static std::size_t addrs = 0x3b755bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(), "Awake",
@@ -604,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)(float_t, float_t, bool)>(
     &::GlobalNamespace::SliderIntensityEffect::Init)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b846c8;
+  constexpr static std::size_t addrs = 0x3b720fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)(float_t, float_t)>(
     &::GlobalNamespace::SliderIntensityEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b86208;
+  constexpr static std::size_t addrs = 0x3b73c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,7 +636,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::SliderIntensityEffect::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect_FadeElement*>*)>(
     &::GlobalNamespace::SliderIntensityEffect::ProcessEffectCoroutine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b87e20;
+  constexpr static std::size_t addrs = 0x3b75854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)()>(
     &::GlobalNamespace::SliderIntensityEffect::StartIntensityDipEffect)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b86eb8;
+  constexpr static std::size_t addrs = 0x3b748ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(),
@@ -666,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)()>(
     &::GlobalNamespace::SliderIntensityEffect::StartIntensityFadeInEffect)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b86c6c;
+  constexpr static std::size_t addrs = 0x3b746a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(),
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)()>(&::GlobalNamespace::SliderIntensityEffect::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b87eb4;
+  constexpr static std::size_t addrs = 0x3b758e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(), ".ctor",
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)()>(&::GlobalNamespace::SliderIntensityEffect::_Awake_b__24_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b87ed0;
+  constexpr static std::size_t addrs = 0x3b75904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(),
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderIntensityEffect::*)()>(&::GlobalNamespace::SliderIntensityEffect::_Awake_b__24_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b87eec;
+  constexpr static std::size_t addrs = 0x3b75920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderIntensityEffect*>::get(),

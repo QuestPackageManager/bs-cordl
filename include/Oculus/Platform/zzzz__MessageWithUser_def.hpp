@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUser : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f8e294, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7be4c, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::User* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUser, addr 0x3f8e258, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUser, addr 0x3f7be10, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::User* GetUser();
 
   static inline ::Oculus::Platform::MessageWithUser* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f8a198, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f77d50, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithUser(MessageWithUser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

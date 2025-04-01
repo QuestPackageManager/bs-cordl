@@ -50,30 +50,30 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::UI::GraphicRegistry* s_Instance;
 
-  /// @brief Method DisableGraphicForCanvas, addr 0x496fcf4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method DisableGraphicForCanvas, addr 0x495d8d4, size 0x180, virtual false, abstract: false, final false
   static inline void DisableGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method DisableRaycastGraphicForCanvas, addr 0x497337c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method DisableRaycastGraphicForCanvas, addr 0x4960f5c, size 0x180, virtual false, abstract: false, final false
   static inline void DisableRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method GetGraphicsForCanvas, addr 0x49734fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsForCanvas, addr 0x49610dc, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* GetGraphicsForCanvas(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetRaycastableGraphicsForCanvas, addr 0x4972910, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRaycastableGraphicsForCanvas, addr 0x49604f0, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* GetRaycastableGraphicsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::UnityEngine::UI::GraphicRegistry* New_ctor();
 
-  /// @brief Method RegisterGraphicForCanvas, addr 0x496f45c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterGraphicForCanvas, addr 0x495d03c, size 0x1ec, virtual false, abstract: false, final false
   static inline void RegisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method RegisterRaycastGraphicForCanvas, addr 0x496e910, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterRaycastGraphicForCanvas, addr 0x495c4f0, size 0x1ec, virtual false, abstract: false, final false
   static inline void RegisterRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method UnregisterGraphicForCanvas, addr 0x496f094, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterGraphicForCanvas, addr 0x495cc74, size 0x1a4, virtual false, abstract: false, final false
   static inline void UnregisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method UnregisterRaycastGraphicForCanvas, addr 0x496e794, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterRaycastGraphicForCanvas, addr 0x495c374, size 0x17c, virtual false, abstract: false, final false
   static inline void UnregisterRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityW<::UnityEngine::UI::Graphic>>*>* const&
@@ -94,14 +94,14 @@ public:
   constexpr void __cordl_internal_set_m_RaycastableGraphics(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityW<::UnityEngine::UI::Graphic>>*>* value);
 
-  /// @brief Method .ctor, addr 0x4973134, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4960d14, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* getStaticF_s_EmptyList();
 
   static inline ::UnityEngine::UI::GraphicRegistry* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x49732dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x4960ebc, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::GraphicRegistry* get_instance();
 
   static inline void setStaticF_s_EmptyList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* value);
@@ -123,7 +123,7 @@ public:
   GraphicRegistry(GraphicRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15060 };
 
   /// @brief Field m_Graphics, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityW<::UnityEngine::UI::Graphic>>*>* ___m_Graphics;

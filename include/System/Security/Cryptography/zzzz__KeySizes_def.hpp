@@ -34,10 +34,10 @@ public:
   /// @brief Field m_skipSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_skipSize, put = __cordl_internal_set_m_skipSize)) int32_t m_skipSize;
 
-  /// @brief Method IsLegal, addr 0x3cac444, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsLegal, addr 0x3c99f40, size 0x4c, virtual false, abstract: false, final false
   inline bool IsLegal(int32_t keySize);
 
-  /// @brief Method IsLegalKeySize, addr 0x3cac490, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x3c99f8c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_m_skipSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3cac1f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c99cec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method get_MaxSize, addr 0x3cac434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x3c99f30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_MinSize, addr 0x3cac42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinSize, addr 0x3c99f28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinSize();
 
-  /// @brief Method get_SkipSize, addr 0x3cac43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkipSize, addr 0x3c99f38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkipSize();
 
 protected:

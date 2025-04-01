@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ModuloInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ModuloInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f8e38;
+  constexpr static std::size_t addrs = 0x40e69f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ModuloInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ModuloInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f8e40;
+  constexpr static std::size_t addrs = 0x40e6a00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ModuloInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ModuloInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40f8e48;
+  constexpr static std::size_t addrs = 0x40e6a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ModuloInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ModuloInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f8e88;
+  constexpr static std::size_t addrs = 0x40e6a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::ModuloInstruction::Create)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x40f8e90;
+  constexpr static std::size_t addrs = 0x40e6a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

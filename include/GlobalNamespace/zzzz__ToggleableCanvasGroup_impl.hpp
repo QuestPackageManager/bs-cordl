@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)()>(&::GlobalNamespace::ToggleableCanvasGroup::OnEnable)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x39f5ef0;
+  constexpr static std::size_t addrs = 0x39e2f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ToggleableCanvasGroup*>::get(), "OnEnable",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)()>(&::GlobalNamespace::ToggleableCanvasGroup::OnDisable)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39f5fd8;
+  constexpr static std::size_t addrs = 0x39e3028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ToggleableCanvasGroup*>::get(), "OnDisable",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)(bool)>(
     &::GlobalNamespace::ToggleableCanvasGroup::HandleToggleValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f607c;
+  constexpr static std::size_t addrs = 0x39e30cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)(bool)>(
     &::GlobalNamespace::ToggleableCanvasGroup::SetCanvasGroupData)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39f5fa8;
+  constexpr static std::size_t addrs = 0x39e2ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)()>(&::GlobalNamespace::ToggleableCanvasGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6084;
+  constexpr static std::size_t addrs = 0x39e30d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ToggleableCanvasGroup*>::get(), ".ctor",

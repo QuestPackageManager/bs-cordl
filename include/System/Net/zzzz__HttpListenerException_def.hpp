@@ -35,16 +35,16 @@ public:
   static inline ::System::Net::HttpListenerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x44ac4e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449a0a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44ac54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449a10c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x44ac554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449a114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x44ac55c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x449a11c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:

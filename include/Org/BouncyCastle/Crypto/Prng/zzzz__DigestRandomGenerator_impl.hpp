@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x23cddb0;
+  constexpr static std::size_t addrs = 0x23c5f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x23cdf18;
+  constexpr static std::size_t addrs = 0x23c60a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x23ce14c;
+  constexpr static std::size_t addrs = 0x23c62dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23ce30c;
+  constexpr static std::size_t addrs = 0x23c649c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x23ce328;
+  constexpr static std::size_t addrs = 0x23c64b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::CycleSeed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x23ce508;
+  constexpr static std::size_t addrs = 0x23c6698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::GenerateState)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x23ce490;
+  constexpr static std::size_t addrs = 0x23c6620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestAddCounter)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x23ce214;
+  constexpr static std::size_t addrs = 0x23c63a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestUpdate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x23cdfe0;
+  constexpr static std::size_t addrs = 0x23c6170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestDoFinal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x23ce09c;
+  constexpr static std::size_t addrs = 0x23c622c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

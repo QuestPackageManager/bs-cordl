@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549a88;
+  constexpr static std::size_t addrs = 0x4537668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549a90;
+  constexpr static std::size_t addrs = 0x4537670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549a98;
+  constexpr static std::size_t addrs = 0x4537678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549aa0;
+  constexpr static std::size_t addrs = 0x4537680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549aa8;
+  constexpr static std::size_t addrs = 0x4537688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ab0;
+  constexpr static std::size_t addrs = 0x4537690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ab8;
+  constexpr static std::size_t addrs = 0x4537698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ac0;
+  constexpr static std::size_t addrs = 0x45376a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ac8;
+  constexpr static std::size_t addrs = 0x45376a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ad0;
+  constexpr static std::size_t addrs = 0x45376b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ad8;
+  constexpr static std::size_t addrs = 0x45376b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ae0;
+  constexpr static std::size_t addrs = 0x45376c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549ae8;
+  constexpr static std::size_t addrs = 0x45376c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549af0;
+  constexpr static std::size_t addrs = 0x45376d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549af8;
+  constexpr static std::size_t addrs = 0x45376d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549b00;
+  constexpr static std::size_t addrs = 0x45376e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549b08;
+  constexpr static std::size_t addrs = 0x45376e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549b10;
+  constexpr static std::size_t addrs = 0x45376f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549b18;
+  constexpr static std::size_t addrs = 0x45376f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549b20;
+  constexpr static std::size_t addrs = 0x4537700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549b28;
+  constexpr static std::size_t addrs = 0x4537708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549b30;
+  constexpr static std::size_t addrs = 0x4537710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::FinishSetup)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x4549b38;
+  constexpr static std::size_t addrs = 0x4537718;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVROculusTouchController::*)()>(
     &::Unity::XR::OpenVR::OpenVROculusTouchController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549d98;
+  constexpr static std::size_t addrs = 0x4537978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVROculusTouchController*>::get(),

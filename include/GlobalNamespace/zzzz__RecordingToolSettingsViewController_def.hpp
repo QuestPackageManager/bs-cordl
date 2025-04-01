@@ -42,12 +42,12 @@ public:
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3b04630, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af1644, size 0x11c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::RecordingToolSettingsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x3b04754, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x3af1768, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -74,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b0474c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af1760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b044f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3af150c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b04594, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3af15a8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:

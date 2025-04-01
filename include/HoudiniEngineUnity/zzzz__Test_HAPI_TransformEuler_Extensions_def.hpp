@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_HAPI_TransformEuler_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x3aa558c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a92660, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_TransformEuler* ToTestObject(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
 protected:

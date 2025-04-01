@@ -39,12 +39,12 @@ public:
   /// @brief Field ItemList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ItemList, put = setStaticF_ItemList)) ::System::Xml::Schema::XmlValueConverter* ItemList;
 
-  /// @brief Method ChangeType, addr 0x42fdb3c, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42eb6fc, size 0x250, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   static inline ::System::Xml::Schema::XmlAnyListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
-  /// @brief Method .ctor, addr 0x42fdac8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42eb688, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
   static inline ::System::Xml::Schema::XmlValueConverter* getStaticF_AnyAtomicList();

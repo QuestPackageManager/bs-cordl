@@ -59,10 +59,10 @@ public:
 
   static inline ::BGLib::Polyglot::LocalizationAsyncInstaller___c* New_ctor();
 
-  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0x22b36ec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0x22ab87c, size 0x60, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationAsset* _LocalizationContentToAsset_b__6_0(::UnityEngine::TextAsset* localizationTextAsset);
 
-  /// @brief Method .ctor, addr 0x22b36e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ab874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::Polyglot::LocalizationAsyncInstaller___c* getStaticF___9();
@@ -88,7 +88,7 @@ public:
   LocalizationAsyncInstaller___c(LocalizationAsyncInstaller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,17 +113,17 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x22b3498, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22ab628, size 0x14c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadLocalizationAssetsSync, addr 0x22b35e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadLocalizationAssetsSync, addr 0x22ab774, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* LoadLocalizationAssetsSync();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x22b3368, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x22ab4f8, size 0x1c, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>* assets,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
-  /// @brief Method LocalizationContentToAsset, addr 0x22b3384, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method LocalizationContentToAsset, addr 0x22ab514, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*
   LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>* content);
 
@@ -141,10 +141,10 @@ public:
 
   constexpr void __cordl_internal_set__mainPolyglotAsset(::UnityW<::BGLib::Polyglot::Localization> value);
 
-  /// @brief Method .ctor, addr 0x22b3640, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ab7d0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x22b3328, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x22ab4b8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -162,7 +162,7 @@ public:
   LocalizationAsyncInstaller(LocalizationAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18058 };
 
   /// @brief Field kLocalizationContentLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kLocalizationContentLabel{ u"LocalizationContent" };

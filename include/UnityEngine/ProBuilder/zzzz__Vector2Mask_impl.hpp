@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::Vector2Mask::*)()>(&::UnityEngine::ProBuilder::Vector2Mask::get_x)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4753708;
+  constexpr static std::size_t addrs = 0x47412e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Vector2Mask>::get(), "get_x",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::Vector2Mask::*)()>(&::UnityEngine::ProBuilder::Vector2Mask::get_y)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4753720;
+  constexpr static std::size_t addrs = 0x4741300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Vector2Mask>::get(), "get_y",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Vector2Mask::*)(::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::ProBuilder::Vector2Mask::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4753738;
+  constexpr static std::size_t addrs = 0x4741318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Vector2Mask::*)(uint8_t)>(&::UnityEngine::ProBuilder::Vector2Mask::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x475375c;
+  constexpr static std::size_t addrs = 0x474133c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::ProBuilder::Vector2Mask)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_Implicit___UnityEngine__Vector2)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4753764;
+  constexpr static std::size_t addrs = 0x4741344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_Implicit___UnityEngine__ProBuilder__Vector2Mask)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47537cc;
+  constexpr static std::size_t addrs = 0x47413ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::ProBuilder::Vector2Mask, ::UnityEngine::ProBuilder::Vector2Mask)>(&::UnityEngine::ProBuilder::Vector2Mask::op_BitwiseOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47537f4;
+  constexpr static std::size_t addrs = 0x47413d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::ProBuilder::Vector2Mask, ::UnityEngine::ProBuilder::Vector2Mask)>(&::UnityEngine::ProBuilder::Vector2Mask::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4753800;
+  constexpr static std::size_t addrs = 0x47413e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::ProBuilder::Vector2Mask, ::UnityEngine::ProBuilder::Vector2Mask)>(&::UnityEngine::ProBuilder::Vector2Mask::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x475380c;
+  constexpr static std::size_t addrs = 0x47413ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::ProBuilder::Vector2Mask, float_t)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_Multiply)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4753818;
+  constexpr static std::size_t addrs = 0x47413f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

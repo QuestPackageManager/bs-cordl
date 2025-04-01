@@ -24,7 +24,7 @@ public:
   /// @brief Field _installer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installer, put = __cordl_internal_set__installer)) ::UnityW<::Zenject::ScriptableObjectInstaller> _installer;
 
-  /// @brief Method InstallBindings, addr 0x4b1eecc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4b0cac0, size 0x9c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::NullableScriptableObjectInstaller* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__installer(::UnityW<::Zenject::ScriptableObjectInstaller> value);
 
-  /// @brief Method .ctor, addr 0x4b1ef68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0cb5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   NullableScriptableObjectInstaller(NullableScriptableObjectInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19269 };
 
   /// @brief Field _installer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Zenject::ScriptableObjectInstaller> ____installer;

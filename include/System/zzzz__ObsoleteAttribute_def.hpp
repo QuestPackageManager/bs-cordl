@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set__message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e07b8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df5688, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e07bac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df56a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e07bd8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df56d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, bool error);
 
-  /// @brief Method get_IsError, addr 0x3e07c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsError, addr 0x3df570c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsError();
 
-  /// @brief Method get_Message, addr 0x3e07c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3df5704, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

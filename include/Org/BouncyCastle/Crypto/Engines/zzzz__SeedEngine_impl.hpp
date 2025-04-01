@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::Init)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2371108;
+  constexpr static std::size_t addrs = 0x2369298;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x237133c;
+  constexpr static std::size_t addrs = 0x23694cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::get_IsPartialBlockOkay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x237137c;
+  constexpr static std::size_t addrs = 0x236950c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::GetBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2371384;
+  constexpr static std::size_t addrs = 0x2369514;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::SeedEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x237138c;
+  constexpr static std::size_t addrs = 0x236951c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x237168c;
+  constexpr static std::size_t addrs = 0x236981c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::SeedEngine::createWorkingKey)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x23711b8;
+  constexpr static std::size_t addrs = 0x2369348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::extractW1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2371698;
+  constexpr static std::size_t addrs = 0x2369828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::extractW0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2371690;
+  constexpr static std::size_t addrs = 0x2369820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::rotateLeft8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2371794;
+  constexpr static std::size_t addrs = 0x2369924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::rotateRight8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x237178c;
+  constexpr static std::size_t addrs = 0x236991c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::bytesToLong)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2371578;
+  constexpr static std::size_t addrs = 0x2369708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int64_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::longToBytes)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2371638;
+  constexpr static std::size_t addrs = 0x23697c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::G)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x23716a0;
+  constexpr static std::size_t addrs = 0x2369830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int32_t, int32_t, int64_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::F)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23715d4;
+  constexpr static std::size_t addrs = 0x2369764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::phaseCalc1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23717dc;
+  constexpr static std::size_t addrs = 0x236996c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::phaseCalc2)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x237179c;
+  constexpr static std::size_t addrs = 0x236992c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SeedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SeedEngine::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2371990;
+  constexpr static std::size_t addrs = 0x2369b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::SeedEngine*>::get(),

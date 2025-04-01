@@ -64,15 +64,15 @@ public:
 
   __declspec(property(get = get_lightGroups)) ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* lightGroups;
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b9e840, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b8c2c4, size 0x15c, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9e6e4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8c168, size 0x15c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b9e450, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8bed4, size 0x294, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -105,10 +105,10 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b9e99c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8c420, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightGroups, addr 0x3b9e448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x3b8becc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* get_lightGroups();
 
 protected:

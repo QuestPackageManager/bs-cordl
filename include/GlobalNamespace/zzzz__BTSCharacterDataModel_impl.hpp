@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2266414;
+  constexpr static std::size_t addrs = 0x225e5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::get_prefabAssetReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226641c;
+  constexpr static std::size_t addrs = 0x225e5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2266424;
+  constexpr static std::size_t addrs = 0x225e5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226642c;
+  constexpr static std::size_t addrs = 0x225e5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (
     ::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::*)()>(&::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::get_animationClipAssetReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2266434;
+  constexpr static std::size_t addrs = 0x225e5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226643c;
+  constexpr static std::size_t addrs = 0x225e5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*, ::Array<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>*> (::GlobalNamespace::BTSCharacterDataModel::*)()>(
         &::GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22663fc;
+  constexpr static std::size_t addrs = 0x225e58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterDataModel*>::get(),
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*, ::Array<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*>*> (::GlobalNamespace::BTSCharacterDataModel::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2266404;
+  constexpr static std::size_t addrs = 0x225e594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterDataModel*>::get(),
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterDataModel::*)()>(&::GlobalNamespace::BTSCharacterDataModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226640c;
+  constexpr static std::size_t addrs = 0x225e59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterDataModel*>::get(), ".ctor",

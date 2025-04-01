@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::EntryPointNotFoundException::*)()>(&::System::EntryPointNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3de2424;
+  constexpr static std::size_t addrs = 0x3dcff20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::EntryPointNotFoundException*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::EntryPointNotFoundException::*)(::StringW)>(&::System::EntryPointNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3de2480;
+  constexpr static std::size_t addrs = 0x3dcff7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::EntryPointNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::EntryPointNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3de24a4;
+  constexpr static std::size_t addrs = 0x3dcffa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

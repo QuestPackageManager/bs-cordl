@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::Caching::set_compressionEnabled)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4871754;
+  constexpr static std::size_t addrs = 0x485f334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Caching::get_ready)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4871790;
+  constexpr static std::size_t addrs = 0x485f370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Caching*>::get(), "get_ready",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::UnityEngine::Hash128)>(&::UnityEngine::Caching::ClearCachedVersion)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48717b8;
+  constexpr static std::size_t addrs = 0x485f398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::UnityEngine::Hash128)>(&::UnityEngine::Caching::ClearCachedVersionInternal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4871838;
+  constexpr static std::size_t addrs = 0x485f418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::UnityEngine::Hash128)>(&::UnityEngine::Caching::ClearOtherCachedVersions)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48718d0;
+  constexpr static std::size_t addrs = 0x485f4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::Caching::ClearAllCachedVersions)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48719b0;
+  constexpr static std::size_t addrs = 0x485f590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::UnityEngine::Hash128, bool)>(&::UnityEngine::Caching::ClearCachedVersions)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4871954;
+  constexpr static std::size_t addrs = 0x485f534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::CachedAssetBundle)>(&::UnityEngine::Caching::IsVersionCached)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4871a78;
+  constexpr static std::size_t addrs = 0x485f658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::UnityEngine::Hash128)>(&::UnityEngine::Caching::IsVersionCached)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4871b1c;
+  constexpr static std::size_t addrs = 0x485f6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Cache (*)(::StringW)>(&::UnityEngine::Caching::AddCache)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x4871bcc;
+  constexpr static std::size_t addrs = 0x485f7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Cache (*)(::StringW, bool)>(&::UnityEngine::Caching::AddCache)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4871eb4;
+  constexpr static std::size_t addrs = 0x485fa94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Cache (*)(::StringW)>(&::UnityEngine::Caching::GetCacheByPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4871e68;
+  constexpr static std::size_t addrs = 0x485fa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Cache (*)()>(&::UnityEngine::Caching::get_defaultCache)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4871fa8;
+  constexpr static std::size_t addrs = 0x485fb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Caching*>::get(), "get_defaultCache",
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Cache (*)()>(&::UnityEngine::Caching::get_currentCacheForWriting)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4872028;
+  constexpr static std::size_t addrs = 0x485fc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Caching*>::get(), "get_currentCacheForWriting",
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Cache)>(&::UnityEngine::Caching::set_currentCacheForWriting)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48720a8;
+  constexpr static std::size_t addrs = 0x485fc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::UnityEngine::Hash128>)>(&::UnityEngine::Caching::ClearCachedVersionInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x487188c;
+  constexpr static std::size_t addrs = 0x485f46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::UnityEngine::Hash128>, bool)>(&::UnityEngine::Caching::ClearCachedVersions_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4871a24;
+  constexpr static std::size_t addrs = 0x485f604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<::UnityEngine::Hash128>)>(&::UnityEngine::Caching::IsVersionCached_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4871b78;
+  constexpr static std::size_t addrs = 0x485f758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, ::ByRef<::UnityEngine::Cache>)>(&::UnityEngine::Caching::AddCache_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4871f10;
+  constexpr static std::size_t addrs = 0x485faf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::UnityEngine::Cache>)>(&::UnityEngine::Caching::GetCacheByPath_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4871f64;
+  constexpr static std::size_t addrs = 0x485fb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Cache>)>(&::UnityEngine::Caching::get_defaultCache_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4871fec;
+  constexpr static std::size_t addrs = 0x485fbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Cache>)>(&::UnityEngine::Caching::get_currentCacheForWriting_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487206c;
+  constexpr static std::size_t addrs = 0x485fc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Cache>)>(&::UnityEngine::Caching::set_currentCacheForWriting_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48720e8;
+  constexpr static std::size_t addrs = 0x485fcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

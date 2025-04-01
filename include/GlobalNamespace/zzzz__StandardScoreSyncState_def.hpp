@@ -83,7 +83,7 @@ public:
   static ::GlobalNamespace::StandardScoreSyncState_Score const Multiplier;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14986 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,38 +117,38 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method ApplyDelta, addr 0x22eed8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0x22e6f1c, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::StandardScoreSyncState ApplyDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
 
-  /// @brief Method Deserialize, addr 0x22eee6c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x22e6ffc, size 0x6c, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x22eeed8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x22e7068, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::ByRef<::GlobalNamespace::StandardScoreSyncState> other);
 
-  /// @brief Method GetDelta, addr 0x22eed68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDelta, addr 0x22e6ef8, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::StandardScoreSyncState GetDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
-  /// @brief Method GetSize, addr 0x22eef34, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetSize, addr 0x22e70c4, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetSize();
 
-  /// @brief Method GetState, addr 0x22eedb0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetState, addr 0x22e6f40, size 0x50, virtual true, abstract: false, final true
   inline int32_t GetState(::GlobalNamespace::StandardScoreSyncState_Score s);
 
-  /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0x22ef008, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0x22e7198, size 0x4, virtual true, abstract: false, final true
   inline bool IEquatableByReference_StandardScoreSyncState__Equals(::ByRef<::GlobalNamespace::StandardScoreSyncState> other);
 
-  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0x22eefe4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0x22e7174, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
 
-  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0x22eefc0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0x22e7150, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState
   IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
-  /// @brief Method Serialize, addr 0x22eee00, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22e6f90, size 0x6c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetState, addr 0x22eed20, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x22e6eb0, size 0x48, virtual true, abstract: false, final true
   inline void SetState(::GlobalNamespace::StandardScoreSyncState_Score s, int32_t value);
 
   /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>"
@@ -171,7 +171,7 @@ public:
   constexpr StandardScoreSyncState(int32_t _modifiedScore, int32_t _multipliedScore, int32_t _immediateMaxPossibleMultipliedScore, int32_t _combo, int32_t _multiplier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14987 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

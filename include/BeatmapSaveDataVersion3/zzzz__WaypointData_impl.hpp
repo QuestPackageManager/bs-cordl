@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::WaypointData::*)()>(&::BeatmapSaveDataVersion3::WaypointData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270e798;
+  constexpr static std::size_t addrs = 0x2706ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::WaypointData*>::get(), "get_line",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::WaypointData::*)()>(&::BeatmapSaveDataVersion3::WaypointData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270e7a0;
+  constexpr static std::size_t addrs = 0x2706de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::WaypointData*>::get(), "get_layer",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::OffsetDirection (::BeatmapSaveDataVersion3::WaypointData::*)()>(
     &::BeatmapSaveDataVersion3::WaypointData::get_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270e7a8;
+  constexpr static std::size_t addrs = 0x2706dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::WaypointData*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::BeatmapSaveDataVersion3::WaypointData::*)(float_t, int32_t, int32_t, ::BeatmapSaveDataCommon::OffsetDirection)>(&::BeatmapSaveDataVersion3::WaypointData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x270e7b0;
+  constexpr static std::size_t addrs = 0x2706df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

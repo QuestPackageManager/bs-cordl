@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* (
     ::GlobalNamespace::LightColorGroupEffectManager::*)()>(&::GlobalNamespace::LightColorGroupEffectManager::get_lightGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9e448;
+  constexpr static std::size_t addrs = 0x3b8becc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorGroupEffectManager*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorGroupEffectManager::*)()>(
     &::GlobalNamespace::LightColorGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x3b9e450;
+  constexpr static std::size_t addrs = 0x3b8bed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorGroupEffectManager*>::get(), "Start",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorGroupEffectManager::*)()>(
     &::GlobalNamespace::LightColorGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3b9e6e4;
+  constexpr static std::size_t addrs = 0x3b8c168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorGroupEffectManager*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorGroupEffectManager::*)(::GlobalNamespace::ColorBoostBeatmapEventData*)>(
     &::GlobalNamespace::LightColorGroupEffectManager::HandleColorBoostBeatmapEvent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3b9e840;
+  constexpr static std::size_t addrs = 0x3b8c2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorGroupEffectManager::*)()>(
     &::GlobalNamespace::LightColorGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b9e99c;
+  constexpr static std::size_t addrs = 0x3b8c420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorGroupEffectManager*>::get(), ".ctor",

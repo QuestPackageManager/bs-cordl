@@ -82,26 +82,26 @@ public:
   /// @brief Field none, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_none, put = setStaticF_none)) ::UnityEngine::UIElements::StyleVariableContext* none;
 
-  /// @brief Method Add, addr 0x4a9b638, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4a89218, size 0x310, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleVariable sv);
 
-  /// @brief Method AddInitialRange, addr 0x4a9b958, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddInitialRange, addr 0x4a89538, size 0x10c, virtual false, abstract: false, final false
   inline void AddInitialRange(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method Clear, addr 0x4a9ba64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4a89644, size 0xb0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetVariableHash, addr 0x4a9bdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVariableHash, addr 0x4a899d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetVariableHash();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method TryFindVariable, addr 0x4a9bd04, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryFindVariable, addr 0x4a898e4, size 0xec, virtual false, abstract: false, final false
   inline bool TryFindVariable(::StringW name, ::ByRef<::UnityEngine::UIElements::StyleVariable> v);
 
-  /// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x4a9b948, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x4a89528, size 0x10, virtual false, abstract: false, final false
   static inline int32_t _Add_g__ComputeOrderSensitiveHash_7_0(int32_t index, ::ByRef<::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_SortedHash() const;
@@ -128,10 +128,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* value);
 
-  /// @brief Method .ctor, addr 0x4a9bb14, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a896f4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a9bbf8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a897d8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* getStaticF_none();

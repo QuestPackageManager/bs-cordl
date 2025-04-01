@@ -89,23 +89,23 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteDebrisDidFinishEvent"
   constexpr operator ::GlobalNamespace::INoteDebrisDidFinishEvent*() noexcept;
 
-  /// @brief Method DespawnNoteDebris, addr 0x3b98930, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DespawnNoteDebris, addr 0x3b863b4, size 0xa4, virtual false, abstract: false, final false
   inline void DespawnNoteDebris(::GlobalNamespace::NoteDebris* noteDebris);
 
-  /// @brief Method HandleNoteDebrisDidFinish, addr 0x3b98874, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteDebrisDidFinish, addr 0x3b862f8, size 0xbc, virtual true, abstract: false, final true
   inline void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
 
   static inline ::GlobalNamespace::NoteDebrisSpawner* New_ctor();
 
-  /// @brief Method SpawnDebris, addr 0x3b97e8c, size 0x8dc, virtual false, abstract: false, final false
+  /// @brief Method SpawnDebris, addr 0x3b85518, size 0x8dc, virtual false, abstract: false, final false
   inline void SpawnDebris(::GlobalNamespace::NoteData_GameplayType noteGameplayType, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t saberSpeed,
                           ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
                           ::GlobalNamespace::ColorType colorType, float_t timeToNextColorNote, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method SpawnNoteDebris, addr 0x3b98768, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteDebris, addr 0x3b861ec, size 0x10c, virtual false, abstract: false, final false
   inline void SpawnNoteDebris(::GlobalNamespace::NoteData_GameplayType noteGameplayType, ::ByRef<::GlobalNamespace::NoteDebris*> debris0, ::ByRef<::GlobalNamespace::NoteDebris*> debris1);
 
-  /// @brief Method Start, addr 0x3b97dc0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b86120, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::NoteDebris_Pool* const& __cordl_internal_get__burstSliderElementNotesDebrisPool() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set__rotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b989d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86458, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteDebrisDidFinishEvent"

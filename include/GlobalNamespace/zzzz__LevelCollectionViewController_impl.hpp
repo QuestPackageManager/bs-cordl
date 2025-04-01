@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::*)()>(
     &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6d344;
+  constexpr static std::size_t addrs = 0x3b5a3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::*)()>(
     &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::_SongPlayerCrossfadeToLevelAsync_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b6d34c;
+  constexpr static std::size_t addrs = 0x3b5a3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::*)()>(
     &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x3b6d36c;
+  constexpr static std::size_t addrs = 0x3b5a404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b6d600;
+  constexpr static std::size_t addrs = 0x3b5a698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::*)()>(
     &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x3b6d60c;
+  constexpr static std::size_t addrs = 0x3b5a6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b6d9e8;
+  constexpr static std::size_t addrs = 0x3b5aa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(&::GlobalNamespace::LevelCollectionViewController::add_didSelectLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6bc00;
+  constexpr static std::size_t addrs = 0x3b58c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,7 +264,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(
         &::GlobalNamespace::LevelCollectionViewController::remove_didSelectLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6c07c;
+  constexpr static std::size_t addrs = 0x3b59114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*)>(&::GlobalNamespace::LevelCollectionViewController::add_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6bcb0;
+  constexpr static std::size_t addrs = 0x3b58d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*)>(&::GlobalNamespace::LevelCollectionViewController::remove_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6c12c;
+  constexpr static std::size_t addrs = 0x3b591c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +311,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>, ::StringW, ::UnityEngine::Sprite*, bool, bool, ::UnityEngine::GameObject*)>(
     &::GlobalNamespace::LevelCollectionViewController::SetData)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x3b6c1dc;
+  constexpr static std::size_t addrs = 0x3b59274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::SelectLevel)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b6b548;
+  constexpr static std::size_t addrs = 0x3b585e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::RefreshFavorites)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b6ca40;
+  constexpr static std::size_t addrs = 0x3b59ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LevelCollectionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3b6cb5c;
+  constexpr static std::size_t addrs = 0x3b59bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(bool, bool)>(
     &::GlobalNamespace::LevelCollectionViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3b6cd60;
+  constexpr static std::size_t addrs = 0x3b59df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::LevelCollectionViewController::HandleLevelCollectionTableViewDidSelectLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b6cf34;
+  constexpr static std::size_t addrs = 0x3b59fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::SongPlayerCrossfadeToLevel)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b6cf84;
+  constexpr static std::size_t addrs = 0x3b5a01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -424,7 +424,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::LevelCollectionViewController::SongPlayerCrossfadeToLevelAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b6d01c;
+  constexpr static std::size_t addrs = 0x3b5a0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::OnEnable)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b6d0f4;
+  constexpr static std::size_t addrs = 0x3b5a18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::OnDisable)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3b6d1c4;
+  constexpr static std::size_t addrs = 0x3b5a25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::LateUpdate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b6d218;
+  constexpr static std::size_t addrs = 0x3b5a2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::UnloadPreviewAudioClip)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b6d268;
+  constexpr static std::size_t addrs = 0x3b5a300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::LevelCollectionTableView*)>(
     &::GlobalNamespace::LevelCollectionViewController::HandleLevelCollectionTableViewDidSelectPack)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b6d2d4;
+  constexpr static std::size_t addrs = 0x3b5a36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b6d318;
+  constexpr static std::size_t addrs = 0x3b5a3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b6d334;
+  constexpr static std::size_t addrs = 0x3b5a3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),

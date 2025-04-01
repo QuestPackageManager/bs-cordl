@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x436e450;
+  constexpr static std::size_t addrs = 0x435c010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Xml::XmlException::GetObjectData)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x436ea54;
+  constexpr static std::size_t addrs = 0x435c614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)()>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x436ebc4;
+  constexpr static std::size_t addrs = 0x435c784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlException*>::get(), ".ctor",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x436ebdc;
+  constexpr static std::size_t addrs = 0x435c79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::System::Exception*)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x436ebf8;
+  constexpr static std::size_t addrs = 0x435c7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::System::Exception*, int32_t, int32_t)>(
     &::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436ebf0;
+  constexpr static std::size_t addrs = 0x435c7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::System::Exception*, int32_t, int32_t, ::StringW)>(
     &::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x436ec08;
+  constexpr static std::size_t addrs = 0x435c7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43635cc;
+  constexpr static std::size_t addrs = 0x435118c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::StringW)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43633ec;
+  constexpr static std::size_t addrs = 0x4350fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x436ee68;
+  constexpr static std::size_t addrs = 0x435ca28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::StringW, ::System::Xml::IXmlLineInfo*)>(
     &::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x436ef28;
+  constexpr static std::size_t addrs = 0x435cae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Xml::IXmlLineInfo*)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436f160;
+  constexpr static std::size_t addrs = 0x435cd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Xml::IXmlLineInfo*, ::StringW)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x436efbc;
+  constexpr static std::size_t addrs = 0x435cb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::StringW, int32_t, int32_t)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x436ab84;
+  constexpr static std::size_t addrs = 0x4358744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::StringW, int32_t, int32_t, ::StringW)>(
     &::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x436f168;
+  constexpr static std::size_t addrs = 0x435cd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t, int32_t)>(
     &::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x436adf0;
+  constexpr static std::size_t addrs = 0x43589b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t, int32_t, ::StringW)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x436f23c;
+  constexpr static std::size_t addrs = 0x435cdfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Exception*, int32_t, int32_t)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x436f2b8;
+  constexpr static std::size_t addrs = 0x435ce78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Exception*, int32_t, int32_t, ::StringW)>(&::System::Xml::XmlException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x436ede8;
+  constexpr static std::size_t addrs = 0x435c9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t, int32_t)>(&::System::Xml::XmlException::FormatUserMessage)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x436ed14;
+  constexpr static std::size_t addrs = 0x435c8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t, int32_t)>(
     &::System::Xml::XmlException::CreateMessage)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x436e828;
+  constexpr static std::size_t addrs = 0x435c3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::StringW, int32_t)>(
     &::System::Xml::XmlException::BuildCharExceptionArgs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4363570;
+  constexpr static std::size_t addrs = 0x4351130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlException::BuildCharExceptionArgs)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x436f334;
+  constexpr static std::size_t addrs = 0x435cef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(char16_t, char16_t)>(
     &::System::Xml::XmlException::BuildCharExceptionArgs)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x4363930;
+  constexpr static std::size_t addrs = 0x43514f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlException::*)()>(&::System::Xml::XmlException::get_LineNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436f388;
+  constexpr static std::size_t addrs = 0x435cf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlException*>::get(), "get_LineNumber",
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlException::*)()>(&::System::Xml::XmlException::get_LinePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436f390;
+  constexpr static std::size_t addrs = 0x435cf50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlException*>::get(), "get_LinePosition",
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlException::*)()>(&::System::Xml::XmlException::get_Message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x436f398;
+  constexpr static std::size_t addrs = 0x435cf58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlException::*)()>(&::System::Xml::XmlException::get_ResString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436f3b0;
+  constexpr static std::size_t addrs = 0x435cf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlException*>::get(), "get_ResString",

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(
     ::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t)>(&::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460d25c;
+  constexpr static std::size_t addrs = 0x45fae3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(
     ::UnityEngine::InputSystem::HID::HID_GenericDesktop)>(&::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x460d3ac;
+  constexpr static std::size_t addrs = 0x45faf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> (*)()>(&::UnityEngine::InputSystem::HID::HIDSupport::get_supportedHIDUsages)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x460cfd0;
+  constexpr static std::size_t addrs = 0x45fabb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>)>(&::UnityEngine::InputSystem::HID::HIDSupport::set_supportedHIDUsages)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x460d030;
+  constexpr static std::size_t addrs = 0x45fac10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::HID::HIDSupport::Initialize)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x460d264;
+  constexpr static std::size_t addrs = 0x45fae44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),

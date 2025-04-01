@@ -22,10 +22,10 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE LogHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogBuildOnly, addr 0x22bb7ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LogBuildOnly, addr 0x22b393c, size 0x58, virtual false, abstract: false, final false
   static inline void LogBuildOnly(::StringW message);
 
-  /// @brief Method LogBuildOnly, addr 0x22bb804, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogBuildOnly, addr 0x22b3994, size 0x68, virtual false, abstract: false, final false
   static inline void LogBuildOnly(::StringW message, ::UnityEngine::Object* context);
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::LazyDerSet::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x264189c;
+  constexpr static std::size_t addrs = 0x2639a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::Parse)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2641bb8;
+  constexpr static std::size_t addrs = 0x2639d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(), "Parse",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::LazyDerSet::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::LazyDerSet::get_Item)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2641d30;
+  constexpr static std::size_t addrs = 0x2639ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(
     &::Org::BouncyCastle::Asn1::LazyDerSet::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2641d58;
+  constexpr static std::size_t addrs = 0x2639ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2641d7c;
+  constexpr static std::size_t addrs = 0x2639f0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::LazyDerSet::Encode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2641da0;
+  constexpr static std::size_t addrs = 0x2639f30;
 
   inline static ::MethodInfo const* methodInfo() {
 

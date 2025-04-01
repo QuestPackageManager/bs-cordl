@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlInt64::*)(bool)>(&::System::Data::SqlTypes::SqlInt64::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x41dcb00;
+  constexpr static std::size_t addrs = 0x41ca6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlInt64::*)(int64_t)>(&::System::Data::SqlTypes::SqlInt64::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41dcb0c;
+  constexpr static std::size_t addrs = 0x41ca6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlInt64::*)()>(&::System::Data::SqlTypes::SqlInt64::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41d5b9c;
+  constexpr static std::size_t addrs = 0x41c375c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlInt64>::get(), "get_IsNull",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::SqlTypes::SqlInt64::*)()>(&::System::Data::SqlTypes::SqlInt64::get_Value)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41d5bac;
+  constexpr static std::size_t addrs = 0x41c376c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlInt64>::get(), "get_Value",
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(int64_t)>(
     &::System::Data::SqlTypes::SqlInt64::op_Implicit___System__Data__SqlTypes__SqlInt64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x41dcb1c;
+  constexpr static std::size_t addrs = 0x41ca6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SqlTypes::SqlInt64::*)()>(&::System::Data::SqlTypes::SqlInt64::ToString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41dcb28;
+  constexpr static std::size_t addrs = 0x41ca6e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_UnaryNegation)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x41dcb9c;
+  constexpr static std::size_t addrs = 0x41ca75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_Addition)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x41dcc38;
+  constexpr static std::size_t addrs = 0x41ca7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_Subtraction)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x41dcd84;
+  constexpr static std::size_t addrs = 0x41ca944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_Multiply)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x41dcec0;
+  constexpr static std::size_t addrs = 0x41caa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_Division)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x41dd048;
+  constexpr static std::size_t addrs = 0x41cac08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_Modulus)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x41dd198;
+  constexpr static std::size_t addrs = 0x41cad58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlByte)>(
     &::System::Data::SqlTypes::SqlInt64::op_Implicit___System__Data__SqlTypes__SqlInt64)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x41dd2ec;
+  constexpr static std::size_t addrs = 0x41caeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt16)>(
     &::System::Data::SqlTypes::SqlInt64::op_Implicit___System__Data__SqlTypes__SqlInt64)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x41dad2c;
+  constexpr static std::size_t addrs = 0x41c88ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt64::op_Implicit___System__Data__SqlTypes__SqlInt64)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x41dc2bc;
+  constexpr static std::size_t addrs = 0x41c9e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::System::Data::SqlTypes::SqlDecimal)>(
     &::System::Data::SqlTypes::SqlInt64::op_Explicit___System__Data__SqlTypes__SqlInt64)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x41d6b98;
+  constexpr static std::size_t addrs = 0x41c4758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, int64_t)>(&::System::Data::SqlTypes::SqlInt64::SameSignLong)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41dcd74;
+  constexpr static std::size_t addrs = 0x41ca934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_Equality)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x41dd3b4;
+  constexpr static std::size_t addrs = 0x41caf74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_LessThan)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x41dd498;
+  constexpr static std::size_t addrs = 0x41cb058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::op_GreaterThan)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x41dd57c;
+  constexpr static std::size_t addrs = 0x41cb13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::LessThan)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x41dd660;
+  constexpr static std::size_t addrs = 0x41cb220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt64, ::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::GreaterThan)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x41dd6e4;
+  constexpr static std::size_t addrs = 0x41cb2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlByte (::System::Data::SqlTypes::SqlInt64::*)()>(
     &::System::Data::SqlTypes::SqlInt64::ToSqlByte)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x41dd768;
+  constexpr static std::size_t addrs = 0x41cb328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlInt64>::get(), "ToSqlByte",
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDouble (::System::Data::SqlTypes::SqlInt64::*)()>(
     &::System::Data::SqlTypes::SqlInt64::ToSqlDouble)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x41dd7d0;
+  constexpr static std::size_t addrs = 0x41cb390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlInt64>::get(), "ToSqlDouble",
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt16 (::System::Data::SqlTypes::SqlInt64::*)()>(
     &::System::Data::SqlTypes::SqlInt64::ToSqlInt16)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x41dd82c;
+  constexpr static std::size_t addrs = 0x41cb3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlInt64>::get(), "ToSqlInt16",
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt32 (::System::Data::SqlTypes::SqlInt64::*)()>(
     &::System::Data::SqlTypes::SqlInt64::ToSqlInt32)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x41dd890;
+  constexpr static std::size_t addrs = 0x41cb450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlInt64>::get(), "ToSqlInt32",
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (::System::Data::SqlTypes::SqlInt64::*)()>(
     &::System::Data::SqlTypes::SqlInt64::ToSqlDecimal)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x41dd8ec;
+  constexpr static std::size_t addrs = 0x41cb4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlInt64>::get(), "ToSqlDecimal",
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlInt64::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlInt64::CompareTo)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x41dd974;
+  constexpr static std::size_t addrs = 0x41cb534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlInt64::*)(::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt64::CompareTo)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x41dda7c;
+  constexpr static std::size_t addrs = 0x41cb63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlInt64::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlInt64::Equals)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x41ddbe4;
+  constexpr static std::size_t addrs = 0x41cb7a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlInt64::*)()>(&::System::Data::SqlTypes::SqlInt64::GetHashCode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41ddd28;
+  constexpr static std::size_t addrs = 0x41cb8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Data::SqlTypes::SqlInt64::*)()>(
     &::System::Data::SqlTypes::SqlInt64::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41dddb8;
+  constexpr static std::size_t addrs = 0x41cb978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlInt64::*)(::System::Xml::XmlReader*)>(
     &::System::Data::SqlTypes::SqlInt64::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x41dddc0;
+  constexpr static std::size_t addrs = 0x41cb980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlInt64::*)(::System::Xml::XmlWriter*)>(
     &::System::Data::SqlTypes::SqlInt64::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x41ddee0;
+  constexpr static std::size_t addrs = 0x41cbaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(
     &::System::Data::SqlTypes::SqlInt64::GetXsdType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x41de010;
+  constexpr static std::size_t addrs = 0x41cbbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

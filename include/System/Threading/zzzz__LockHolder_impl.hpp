@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::LockHolder (*)(::System::Threading::Lock*)>(&::System::Threading::LockHolder::Hold)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e5f13c;
+  constexpr static std::size_t addrs = 0x3e4cc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::LockHolder::*)()>(&::System::Threading::LockHolder::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e5f168;
+  constexpr static std::size_t addrs = 0x3e4cc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::LockHolder>::get(), "Dispose",

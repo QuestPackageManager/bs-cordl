@@ -40,12 +40,12 @@ public:
   /// @brief Field _notBefore, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__notBefore, put = __cordl_internal_set__notBefore)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notBefore;
 
-  /// @brief Method GetInstance, addr 0x261200c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x260a19c, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x26124f8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x260a688, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get__notAfter() const;
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set__notBefore(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x26121d4, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260a364, size 0x314, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotAfter, addr 0x26124f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0x260a680, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0x26124e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotBefore, addr 0x260a678, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBefore();
 
 protected:

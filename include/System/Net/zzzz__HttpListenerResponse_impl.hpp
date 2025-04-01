@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(::System::Net::HttpListenerContext*)>(
     &::System::Net::HttpListenerResponse::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x43d4c94;
+  constexpr static std::size_t addrs = 0x43c2854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::get_ForceCloseChunked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d4d9c;
+  constexpr static std::size_t addrs = 0x43c295c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerResponse*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Net::HttpListenerResponse::*)()>(
     &::System::Net::HttpListenerResponse::get_ContentEncoding)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x43d4da4;
+  constexpr static std::size_t addrs = 0x43c2964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerResponse*>::get(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(int64_t)>(&::System::Net::HttpListenerResponse::set_ContentLength64)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x43d4dc4;
+  constexpr static std::size_t addrs = 0x43c2984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(::StringW)>(&::System::Net::HttpListenerResponse::set_ContentType)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x43d4ee4;
+  constexpr static std::size_t addrs = 0x43c2aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::HttpListenerResponse::*)()>(
     &::System::Net::HttpListenerResponse::get_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d4fb0;
+  constexpr static std::size_t addrs = 0x43c2b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerResponse*>::get(), "get_Headers",
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::HttpListenerResponse::*)()>(
     &::System::Net::HttpListenerResponse::get_OutputStream)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43d4fb8;
+  constexpr static std::size_t addrs = 0x43c2b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerResponse*>::get(), "get_OutputStream",
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::get_SendChunked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d4ff0;
+  constexpr static std::size_t addrs = 0x43c2bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerResponse*>::get(), "get_SendChunked",
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(bool)>(&::System::Net::HttpListenerResponse::set_SendChunked)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43d4ff8;
+  constexpr static std::size_t addrs = 0x43c2bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(int32_t)>(&::System::Net::HttpListenerResponse::set_StatusCode)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x43d50c8;
+  constexpr static std::size_t addrs = 0x43c2c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d51ec;
+  constexpr static std::size_t addrs = 0x43c2dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerResponse*>::get(),
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(bool)>(&::System::Net::HttpListenerResponse::Close)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43d51f4;
+  constexpr static std::size_t addrs = 0x43c2db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::Close)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43d5224;
+  constexpr static std::size_t addrs = 0x43c2de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerResponse*>::get(), "Close",
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::System::Net::HttpListenerResponse::Close)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x43d5238;
+  constexpr static std::size_t addrs = 0x43c2df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerResponse::*)(bool, ::System::IO::MemoryStream*)>(
     &::System::Net::HttpListenerResponse::SendHeaders)> {
   constexpr static std::size_t size = 0x9b8;
-  constexpr static std::size_t addrs = 0x43d52f0;
+  constexpr static std::size_t addrs = 0x43c2eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::WebHeaderCollection*)>(&::System::Net::HttpListenerResponse::FormatHeaders)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x43d5f50;
+  constexpr static std::size_t addrs = 0x43c3b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::Cookie*)>(&::System::Net::HttpListenerResponse::CookieToClientString)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x43d5ca8;
+  constexpr static std::size_t addrs = 0x43c3868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::Cookie*, ::StringW)>(&::System::Net::HttpListenerResponse::QuotedString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43d61ac;
+  constexpr static std::size_t addrs = 0x43c3d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::HttpListenerResponse::IsToken)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43d627c;
+  constexpr static std::size_t addrs = 0x43c3e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

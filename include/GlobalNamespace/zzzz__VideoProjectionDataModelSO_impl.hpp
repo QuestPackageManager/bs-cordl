@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
     &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8578;
+  constexpr static std::size_t addrs = 0x3b96074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (
     ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_videoAssetReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8580;
+  constexpr static std::size_t addrs = 0x3b9607c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
     &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8588;
+  constexpr static std::size_t addrs = 0x3b96084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*, ::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*> (
         ::GlobalNamespace::VideoProjectionDataModelSO::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO::get_videoClipWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8568;
+  constexpr static std::size_t addrs = 0x3b96064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO*>::get(),
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8570;
+  constexpr static std::size_t addrs = 0x3b9606c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO*>::get(), ".ctor",

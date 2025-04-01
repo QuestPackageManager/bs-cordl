@@ -31,37 +31,37 @@ public:
 
   static inline ::UnityEngine::SpringJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4918c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4906878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_damper, addr 0x4918a78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x4906658, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_maxDistance, addr 0x4918b88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x4906768, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
-  /// @brief Method get_minDistance, addr 0x4918b00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance, addr 0x49066e0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_minDistance();
 
-  /// @brief Method get_spring, addr 0x49189f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x49065d0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method get_tolerance, addr 0x4918c10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_tolerance, addr 0x49067f0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_tolerance();
 
-  /// @brief Method set_damper, addr 0x4918ab4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x4906694, size 0x4c, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_maxDistance, addr 0x4918bc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x49067a4, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
-  /// @brief Method set_minDistance, addr 0x4918b3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance, addr 0x490671c, size 0x4c, virtual false, abstract: false, final false
   inline void set_minDistance(float_t value);
 
-  /// @brief Method set_spring, addr 0x4918a2c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x490660c, size 0x4c, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
-  /// @brief Method set_tolerance, addr 0x4918c4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_tolerance, addr 0x490682c, size 0x4c, virtual false, abstract: false, final false
   inline void set_tolerance(float_t value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   SpringJoint(SpringJoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

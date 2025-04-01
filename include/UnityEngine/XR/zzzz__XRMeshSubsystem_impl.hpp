@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRMeshSubsystem_MeshTransformList::*)()>(
     &::UnityEngine::XR::XRMeshSubsystem_MeshTransformList::Dispose)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4af8f60;
+  constexpr static std::size_t addrs = 0x4ae6b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRMeshSubsystem_MeshTransformList>::get(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::XRMeshSubsystem_MeshTransformList::Dispose)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4af8f9c;
+  constexpr static std::size_t addrs = 0x4ae6b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRMeshSubsystem::*)(
     ::UnityEngine::XR::MeshGenerationResult, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>*)>(&::UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4af8ec0;
+  constexpr static std::size_t addrs = 0x4ae6aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRMeshSubsystem::*)()>(&::UnityEngine::XR::XRMeshSubsystem::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4af8f18;
+  constexpr static std::size_t addrs = 0x4ae6af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRMeshSubsystem*>::get(), ".ctor",

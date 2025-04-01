@@ -31,14 +31,14 @@ public:
   // Declarations
   static inline ::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method TryParse, addr 0x4236254, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4223e14, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x4236304, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x4223ec4, size 0x144, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*> parsedValue,
                                      ::ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x423624c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4223e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

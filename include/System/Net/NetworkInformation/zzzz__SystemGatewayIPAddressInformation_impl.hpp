@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::SystemGatewayIPAddressInformation::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::SystemGatewayIPAddressInformation::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f72a0;
+  constexpr static std::size_t addrs = 0x43e4e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (*)(::System::Net::NetworkInformation::IPAddressCollection*)>(
         &::System::Net::NetworkInformation::SystemGatewayIPAddressInformation::ToGatewayIpAddressInformationCollection)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x43f72c8;
+  constexpr static std::size_t addrs = 0x43e4e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

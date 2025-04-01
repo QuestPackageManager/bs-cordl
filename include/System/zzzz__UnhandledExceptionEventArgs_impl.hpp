@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::UnhandledExceptionEventArgs::*)(::System::Object*, bool)>(
     &::System::UnhandledExceptionEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3e176ac;
+  constexpr static std::size_t addrs = 0x3e051a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::UnhandledExceptionEventArgs::*)()>(
     &::System::UnhandledExceptionEventArgs::get_ExceptionObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e17724;
+  constexpr static std::size_t addrs = 0x3e05220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::UnhandledExceptionEventArgs*>::get(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::UnhandledExceptionEventArgs::*)()>(&::System::UnhandledExceptionEventArgs::get_IsTerminating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e1772c;
+  constexpr static std::size_t addrs = 0x3e05228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::UnhandledExceptionEventArgs*>::get(),

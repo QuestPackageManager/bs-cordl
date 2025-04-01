@@ -44,13 +44,13 @@ public:
   /// @brief Field usePreviousValue, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousValue, put = __cordl_internal_set_usePreviousValue)) bool usePreviousValue;
 
-  /// @brief Method ChangeRelativeNoteJumpSpeed, addr 0x22484e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChangeRelativeNoteJumpSpeed, addr 0x2240678, size 0x8, virtual false, abstract: false, final false
   inline void ChangeRelativeNoteJumpSpeed(float_t value);
 
-  /// @brief Method GetCopy, addr 0x22484f0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x2240680, size 0x9c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x224858c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x224071c, size 0x58, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::NoteJumpSpeedEventData* New_ctor(float_t time, float_t relativeNoteJumpSpeed, ::GlobalNamespace::EaseType easeType, bool usePreviousValue);
@@ -73,17 +73,17 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousValue(bool value);
 
-  /// @brief Method .ctor, addr 0x224848c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224061c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t relativeNoteJumpSpeed, ::GlobalNamespace::EaseType easeType, bool usePreviousValue);
 
   static inline ::GlobalNamespace::NoteJumpSpeedEventData* getStaticF__default();
 
-  /// @brief Method get_relativeNoteJumpSpeed, addr 0x224847c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeNoteJumpSpeed, addr 0x224060c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeNoteJumpSpeed();
 
   static inline void setStaticF__default(::GlobalNamespace::NoteJumpSpeedEventData* value);
 
-  /// @brief Method set_relativeNoteJumpSpeed, addr 0x2248484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_relativeNoteJumpSpeed, addr 0x2240614, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeNoteJumpSpeed(float_t value);
 
 protected:

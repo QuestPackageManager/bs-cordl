@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner_InitData::*)(bool)>(
     &::GlobalNamespace::BeatEffectSpawner_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b964c0;
+  constexpr static std::size_t addrs = 0x3b83d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)(::GlobalNamespace::BeatEffect_Pool*)>(
     &::GlobalNamespace::BeatEffectSpawner::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b95df4;
+  constexpr static std::size_t addrs = 0x3b83640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b95e70;
+  constexpr static std::size_t addrs = 0x3b836bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffectSpawner*>::get(), "Start",
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b95f00;
+  constexpr static std::size_t addrs = 0x3b8374c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffectSpawner*>::get(), "OnDestroy",
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::Update)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3b95f90;
+  constexpr static std::size_t addrs = 0x3b837dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffectSpawner*>::get(), "Update",
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatEffectSpawner::HandleNoteDidStartJump)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3b96110;
+  constexpr static std::size_t addrs = 0x3b8395c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)(::GlobalNamespace::BeatEffect*)>(
     &::GlobalNamespace::BeatEffectSpawner::HandleBeatEffectDidFinish)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b963cc;
+  constexpr static std::size_t addrs = 0x3b83c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b964a4;
+  constexpr static std::size_t addrs = 0x3b83cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffectSpawner*>::get(), ".ctor",

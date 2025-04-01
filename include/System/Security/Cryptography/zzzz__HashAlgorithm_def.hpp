@@ -53,28 +53,28 @@ public:
   /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
   constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
 
-  /// @brief Method CaptureHashCodeAndReinitialize, addr 0x3cab804, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CaptureHashCodeAndReinitialize, addr 0x3c99300, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CaptureHashCodeAndReinitialize();
 
-  /// @brief Method Clear, addr 0x3cabc80, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3c9977c, size 0x94, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeHash, addr 0x3cab760, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x3c9925c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputeHash(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method ComputeHash, addr 0x3cab8ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x3c993a8, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputeHash(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ComputeHash, addr 0x3caba0c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x3c99508, size 0x208, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputeHash(::System::IO::Stream* inputStream);
 
-  /// @brief Method Create, addr 0x3cab5a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c990a0, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HashAlgorithm* Create(::StringW hashName);
 
-  /// @brief Method Dispose, addr 0x3cabc14, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c99710, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3cabd14, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c99810, size 0x10, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method HashCore, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -88,13 +88,13 @@ public:
 
   static inline ::System::Security::Cryptography::HashAlgorithm* New_ctor();
 
-  /// @brief Method TransformBlock, addr 0x3cabd3c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method TransformBlock, addr 0x3c99838, size 0x9c, virtual true, abstract: false, final true
   inline int32_t TransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method TransformFinalBlock, addr 0x3cabf1c, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method TransformFinalBlock, addr 0x3c99a18, size 0x134, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method ValidateTransformBlock, addr 0x3cabdd8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ValidateTransformBlock, addr 0x3c998d4, size 0x144, virtual false, abstract: false, final false
   inline void ValidateTransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr int32_t const& __cordl_internal_get_HashSizeValue() const;
@@ -121,22 +121,22 @@ public:
 
   constexpr void __cordl_internal_set__disposed(bool value);
 
-  /// @brief Method .ctor, addr 0x3cab59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c99098, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanTransformMultipleBlocks, addr 0x3cabd34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanTransformMultipleBlocks, addr 0x3c99830, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanTransformMultipleBlocks();
 
-  /// @brief Method get_Hash, addr 0x3cab62c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x3c99128, size 0xec, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Hash();
 
-  /// @brief Method get_HashSize, addr 0x3cab624, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HashSize, addr 0x3c99120, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_HashSize();
 
-  /// @brief Method get_InputBlockSize, addr 0x3cabd24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InputBlockSize, addr 0x3c99820, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_InputBlockSize();
 
-  /// @brief Method get_OutputBlockSize, addr 0x3cabd2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OutputBlockSize, addr 0x3c99828, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_OutputBlockSize();
 
   /// @brief Convert to "::System::IDisposable"

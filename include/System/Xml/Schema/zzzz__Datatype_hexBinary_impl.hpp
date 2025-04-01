@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (
     ::System::Xml::Schema::Datatype_hexBinary::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_hexBinary::CreateValueConverter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43b9964;
+  constexpr static std::size_t addrs = 0x43a7524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43b9970;
+  constexpr static std::size_t addrs = 0x43a7530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43b99c8;
+  constexpr static std::size_t addrs = 0x43a7588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43b99d0;
+  constexpr static std::size_t addrs = 0x43a7590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43b9a28;
+  constexpr static std::size_t addrs = 0x43a75e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43b9a80;
+  constexpr static std::size_t addrs = 0x43a7640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_ValidRestrictionFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43b9a88;
+  constexpr static std::size_t addrs = 0x43a7648;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_hexBinary::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_hexBinary::Compare)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x43b9a90;
+  constexpr static std::size_t addrs = 0x43a7650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_hexBinary::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_hexBinary::TryParseValue)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x43b9b38;
+  constexpr static std::size_t addrs = 0x43a76f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_hexBinary::*)()>(&::System::Xml::Schema::Datatype_hexBinary::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43b2ec4;
+  constexpr static std::size_t addrs = 0x43a0a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_hexBinary*>::get(), ".ctor",

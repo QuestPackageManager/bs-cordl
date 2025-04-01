@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) ::System::Xml::Serialization::XmlArrayItemAttribute* Item[];
 
-  /// @brief Method Add, addr 0x437c330, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4369ef0, size 0xb8, virtual false, abstract: false, final false
   inline int32_t Add(::System::Xml::Serialization::XmlArrayItemAttribute* attribute);
 
-  /// @brief Method AddKeyHash, addr 0x437c3e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x4369fa8, size 0xcc, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlArrayItemAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x437c4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436a074, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x437c230, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4369df0, size 0x100, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlArrayItemAttribute* get_Item(int32_t index);
 
 protected:

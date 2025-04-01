@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(
     &::GlobalNamespace::ConditionalSpriteSwitcher::get_falseSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3c508;
+  constexpr static std::size_t addrs = 0x3b29534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalSpriteSwitcher*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)(::UnityEngine::Sprite*)>(
     &::GlobalNamespace::ConditionalSpriteSwitcher::set_falseSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3c510;
+  constexpr static std::size_t addrs = 0x3b2953c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(
     &::GlobalNamespace::ConditionalSpriteSwitcher::get_trueSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3c518;
+  constexpr static std::size_t addrs = 0x3b29544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalSpriteSwitcher*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)(::UnityEngine::Sprite*)>(
     &::GlobalNamespace::ConditionalSpriteSwitcher::set_trueSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3c520;
+  constexpr static std::size_t addrs = 0x3b2954c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&::GlobalNamespace::ConditionalSpriteSwitcher::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b3c528;
+  constexpr static std::size_t addrs = 0x3b29554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalSpriteSwitcher*>::get(), "Awake",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&::GlobalNamespace::ConditionalSpriteSwitcher::Apply)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b3c52c;
+  constexpr static std::size_t addrs = 0x3b29558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalSpriteSwitcher*>::get(), "Apply",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&::GlobalNamespace::ConditionalSpriteSwitcher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3c5d0;
+  constexpr static std::size_t addrs = 0x3b295fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalSpriteSwitcher*>::get(), ".ctor",

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(::Org::BouncyCastle::Crypto::IBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x23ad6e4;
+  constexpr static std::size_t addrs = 0x23a5874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::GetUnderlyingCipher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ad964;
+  constexpr static std::size_t addrs = 0x23a5af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::Init)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x23ad96c;
+  constexpr static std::size_t addrs = 0x23a5afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x23adbf8;
+  constexpr static std::size_t addrs = 0x23a5d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::get_IsPartialBlockOkay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23adcb8;
+  constexpr static std::size_t addrs = 0x23a5e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::GetBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23adcc0;
+  constexpr static std::size_t addrs = 0x23a5e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::ProcessBlock)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x23adcc8;
+  constexpr static std::size_t addrs = 0x23a5e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::Reset)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x23adb34;
+  constexpr static std::size_t addrs = 0x23a5cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::bytesToint)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x23ae008;
+  constexpr static std::size_t addrs = 0x23a6198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(
     int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::intTobytes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x23ae07c;
+  constexpr static std::size_t addrs = 0x23a620c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

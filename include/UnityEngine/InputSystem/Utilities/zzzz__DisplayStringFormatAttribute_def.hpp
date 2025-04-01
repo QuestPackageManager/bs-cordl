@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__formatString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4575b7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456375c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatString);
 
-  /// @brief Method get_formatString, addr 0x4575b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_formatString, addr 0x456374c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
-  /// @brief Method set_formatString, addr 0x4575b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_formatString, addr 0x4563754, size 0x8, virtual false, abstract: false, final false
   inline void set_formatString(::StringW value);
 
 protected:

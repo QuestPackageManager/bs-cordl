@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_p8(::cordl_internals::Ptr<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x48a76d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48952b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<uint16_t> p8);
 
   // Ctor Parameters []
@@ -160,39 +160,39 @@ public:
   /// @brief Field AllowUnalignedRead, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_AllowUnalignedRead, put = setStaticF_AllowUnalignedRead)) bool AllowUnalignedRead;
 
-  /// @brief Method AttemptDetectAllowUnalignedRead, addr 0x48a72b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AttemptDetectAllowUnalignedRead, addr 0x4894e98, size 0x88, virtual false, abstract: false, final false
   static inline bool AttemptDetectAllowUnalignedRead();
 
-  /// @brief Method End, addr 0x48a7bfc, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x48957dc, size 0x26c, virtual false, abstract: false, final false
   static inline void End(::cordl_internals::Ptr<uint64_t> data, ::ByRef<uint64_t> h0, ::ByRef<uint64_t> h1, ::ByRef<uint64_t> h2, ::ByRef<uint64_t> h3, ::ByRef<uint64_t> h4, ::ByRef<uint64_t> h5,
                          ::ByRef<uint64_t> h6, ::ByRef<uint64_t> h7, ::ByRef<uint64_t> h8, ::ByRef<uint64_t> h9, ::ByRef<uint64_t> h10, ::ByRef<uint64_t> h11);
 
-  /// @brief Method EndPartial, addr 0x48a7e68, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method EndPartial, addr 0x4895a48, size 0x298, virtual false, abstract: false, final false
   static inline void EndPartial(::ByRef<uint64_t> h0, ::ByRef<uint64_t> h1, ::ByRef<uint64_t> h2, ::ByRef<uint64_t> h3, ::ByRef<uint64_t> h4, ::ByRef<uint64_t> h5, ::ByRef<uint64_t> h6,
                                 ::ByRef<uint64_t> h7, ::ByRef<uint64_t> h8, ::ByRef<uint64_t> h9, ::ByRef<uint64_t> h10, ::ByRef<uint64_t> h11);
 
-  /// @brief Method Hash, addr 0x48a6f70, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x4894b50, size 0x308, virtual false, abstract: false, final false
   static inline void Hash(::cordl_internals::Ptr<void> message, uint64_t length, ::cordl_internals::Ptr<uint64_t> hash1, ::cordl_internals::Ptr<uint64_t> hash2);
 
-  /// @brief Method Mix, addr 0x48a76d8, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x48952b8, size 0x44c, virtual false, abstract: false, final false
   static inline void Mix(::cordl_internals::Ptr<uint64_t> data, ::ByRef<uint64_t> s0, ::ByRef<uint64_t> s1, ::ByRef<uint64_t> s2, ::ByRef<uint64_t> s3, ::ByRef<uint64_t> s4, ::ByRef<uint64_t> s5,
                          ::ByRef<uint64_t> s6, ::ByRef<uint64_t> s7, ::ByRef<uint64_t> s8, ::ByRef<uint64_t> s9, ::ByRef<uint64_t> s10, ::ByRef<uint64_t> s11);
 
-  /// @brief Method Rot64, addr 0x48a8100, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Rot64, addr 0x4895ce0, size 0x14, virtual false, abstract: false, final false
   static inline void Rot64(::ByRef<uint64_t> x, int32_t k);
 
-  /// @brief Method Short, addr 0x48a7340, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method Short, addr 0x4894f20, size 0x390, virtual false, abstract: false, final false
   static inline void Short(::cordl_internals::Ptr<void> message, uint64_t length, ::cordl_internals::Ptr<uint64_t> hash1, ::cordl_internals::Ptr<uint64_t> hash2);
 
-  /// @brief Method ShortEnd, addr 0x48a8330, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ShortEnd, addr 0x4895f10, size 0x1fc, virtual false, abstract: false, final false
   static inline void ShortEnd(::ByRef<uint64_t> h0, ::ByRef<uint64_t> h1, ::ByRef<uint64_t> h2, ::ByRef<uint64_t> h3);
 
-  /// @brief Method ShortMix, addr 0x48a8114, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method ShortMix, addr 0x4895cf4, size 0x21c, virtual false, abstract: false, final false
   static inline void ShortMix(::ByRef<uint64_t> h0, ::ByRef<uint64_t> h1, ::ByRef<uint64_t> h2, ::ByRef<uint64_t> h3);
 
   static inline bool getStaticF_AllowUnalignedRead();
 
-  /// @brief Method memset, addr 0x48a7b24, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method memset, addr 0x4895704, size 0xd8, virtual false, abstract: false, final false
   static inline void memset(::cordl_internals::Ptr<void> dst, int32_t value, uint64_t numberOfBytes);
 
   static inline void setStaticF_AllowUnalignedRead(bool value);

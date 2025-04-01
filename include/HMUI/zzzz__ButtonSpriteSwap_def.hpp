@@ -51,24 +51,24 @@ public:
   /// @brief Field _pressedStateSprite, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__pressedStateSprite, put = __cordl_internal_set__pressedStateSprite)) ::UnityW<::UnityEngine::Sprite> _pressedStateSprite;
 
-  /// @brief Method Awake, addr 0x3a02454, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39ef4b4, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x3a02760, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x39ef7c0, size 0xcc, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwap* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a025f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39ef650, size 0xbc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x3a025cc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39ef62c, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshVisualState, addr 0x3a025a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisualState, addr 0x39ef608, size 0x24, virtual false, abstract: false, final false
   inline void RefreshVisualState();
 
-  /// @brief Method Start, addr 0x3a0257c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39ef5dc, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__pressedStateSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x3a0282c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ef88c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,7 +131,7 @@ public:
   ButtonSpriteSwap(ButtonSpriteSwap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16071 };
 
   /// @brief Field _normalStateSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____normalStateSprite;

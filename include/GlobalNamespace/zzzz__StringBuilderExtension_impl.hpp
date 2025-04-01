@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, int32_t)>(&::GlobalNamespace::StringBuilderExtension::Swap)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x22a3ecc;
+  constexpr static std::size_t addrs = 0x229c05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t)>(&::GlobalNamespace::StringBuilderExtension::AppendNumber)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22a40ec;
+  constexpr static std::size_t addrs = 0x229c27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, uint32_t, bool)>(&::GlobalNamespace::StringBuilderExtension::AppendNumber)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22a4118;
+  constexpr static std::size_t addrs = 0x229c2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

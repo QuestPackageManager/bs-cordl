@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::TubeLightIntensityBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x3b441e0;
+  constexpr static std::size_t addrs = 0x3b3120c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(bool)>(
     &::GlobalNamespace::TubeLightIntensityBehaviour::EnableObjects)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3b4455c;
+  constexpr static std::size_t addrs = 0x3b31588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::TubeLightIntensityBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3b44630;
+  constexpr static std::size_t addrs = 0x3b3165c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)()>(&::GlobalNamespace::TubeLightIntensityBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b44704;
+  constexpr static std::size_t addrs = 0x3b31730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityBehaviour*>::get(), ".ctor",

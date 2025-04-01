@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)()>(&::UnityEngine::Events::UnityEventBase::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48cbd50;
+  constexpr static std::size_t addrs = 0x48b9930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEventBase*>::get(), ".ctor",
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)()>(
     &::UnityEngine::Events::UnityEventBase::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48cbde8;
+  constexpr static std::size_t addrs = 0x48b99c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)()>(
     &::UnityEngine::Events::UnityEventBase::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48cbe14;
+  constexpr static std::size_t addrs = 0x48b99f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::UnityEngine::Events::UnityEventBase::*)(::UnityEngine::Events::PersistentCall*)>(
     &::UnityEngine::Events::UnityEventBase::FindMethod)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x48cadbc;
+  constexpr static std::size_t addrs = 0x48b899c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (
     ::UnityEngine::Events::UnityEventBase::*)(::StringW, ::System::Type*, ::UnityEngine::Events::PersistentListenerMode, ::System::Type*)>(&::UnityEngine::Events::UnityEventBase::FindMethod)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x48cbe18;
+  constexpr static std::size_t addrs = 0x48b99f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Events::UnityEventBase::*)()>(
     &::UnityEngine::Events::UnityEventBase::GetPersistentEventCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48cc2cc;
+  constexpr static std::size_t addrs = 0x48b9eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEventBase*>::get(),
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)()>(&::UnityEngine::Events::UnityEventBase::DirtyPersistentCalls)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48cbdec;
+  constexpr static std::size_t addrs = 0x48b99cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEventBase*>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)()>(
     &::UnityEngine::Events::UnityEventBase::RebuildPersistentCallsIfNeeded)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x48cc2e4;
+  constexpr static std::size_t addrs = 0x48b9ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEventBase*>::get(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)(::UnityEngine::Events::BaseInvokableCall*)>(
     &::UnityEngine::Events::UnityEventBase::AddCall)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48cc318;
+  constexpr static std::size_t addrs = 0x48b9ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)(::System::Object*, ::System::Reflection::MethodInfo*)>(
     &::UnityEngine::Events::UnityEventBase::RemoveListener)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48cc330;
+  constexpr static std::size_t addrs = 0x48b9f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEventBase::*)()>(&::UnityEngine::Events::UnityEventBase::RemoveAllListeners)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48cc348;
+  constexpr static std::size_t addrs = 0x48b9f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEventBase*>::get(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* (
     ::UnityEngine::Events::UnityEventBase::*)()>(&::UnityEngine::Events::UnityEventBase::PrepareInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48cc360;
+  constexpr static std::size_t addrs = 0x48b9f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEventBase*>::get(), "PrepareInvoke",
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Events::UnityEventBase::*)()>(&::UnityEngine::Events::UnityEventBase::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48cc380;
+  constexpr static std::size_t addrs = 0x48b9f60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::Events::UnityEventBase::GetValidMethodInfo)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x48cc0e4;
+  constexpr static std::size_t addrs = 0x48b9cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

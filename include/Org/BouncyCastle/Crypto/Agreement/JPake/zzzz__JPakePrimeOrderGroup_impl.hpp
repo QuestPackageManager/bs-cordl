@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268db00;
+  constexpr static std::size_t addrs = 0x2685c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, bool)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x268db08;
+  constexpr static std::size_t addrs = 0x2685c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_P)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268de24;
+  constexpr static std::size_t addrs = 0x2685fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_Q)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268de2c;
+  constexpr static std::size_t addrs = 0x2685fbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_G)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268de34;
+  constexpr static std::size_t addrs = 0x2685fc4;
 
   inline static ::MethodInfo const* methodInfo() {
 

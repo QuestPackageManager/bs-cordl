@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_fontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4811044;
+  constexpr static std::size_t addrs = 0x47fec24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_fontAsset",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_SubMesh::set_fontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x481104c;
+  constexpr static std::size_t addrs = 0x47fec2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_spriteAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4811054;
+  constexpr static std::size_t addrs = 0x47fec34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_spriteAsset",
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::TMPro::TMP_SpriteAsset*)>(&::TMPro::TMP_SubMesh::set_spriteAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x481105c;
+  constexpr static std::size_t addrs = 0x47fec3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4811064;
+  constexpr static std::size_t addrs = 0x47fec44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_material",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMesh::set_material)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4811194;
+  constexpr static std::size_t addrs = 0x47fed74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_sharedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4811330;
+  constexpr static std::size_t addrs = 0x47fef10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_sharedMaterial",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMesh::set_sharedMaterial)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4811338;
+  constexpr static std::size_t addrs = 0x47fef18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_fallbackMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4811378;
+  constexpr static std::size_t addrs = 0x47fef58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_fallbackMaterial",
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMesh::set_fallbackMaterial)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4811380;
+  constexpr static std::size_t addrs = 0x47fef60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_fallbackSourceMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48114b8;
+  constexpr static std::size_t addrs = 0x47ff098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_fallbackSourceMaterial",
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMesh::set_fallbackSourceMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48114c0;
+  constexpr static std::size_t addrs = 0x47ff0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_isDefaultMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48114c8;
+  constexpr static std::size_t addrs = 0x47ff0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_isDefaultMaterial",
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(bool)>(&::TMPro::TMP_SubMesh::set_isDefaultMaterial)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48114d0;
+  constexpr static std::size_t addrs = 0x47ff0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_padding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48114dc;
+  constexpr static std::size_t addrs = 0x47ff0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_padding",
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(float_t)>(&::TMPro::TMP_SubMesh::set_padding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48114e4;
+  constexpr static std::size_t addrs = 0x47ff0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_renderer)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48114ec;
+  constexpr static std::size_t addrs = 0x47ff0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_renderer",
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MeshFilter> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_meshFilter)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4811580;
+  constexpr static std::size_t addrs = 0x47ff160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_meshFilter",
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_mesh)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x481167c;
+  constexpr static std::size_t addrs = 0x47ff25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_mesh",
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::UnityEngine::Mesh*)>(&::TMPro::TMP_SubMesh::set_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x481172c;
+  constexpr static std::size_t addrs = 0x47ff30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::get_textComponent)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4811734;
+  constexpr static std::size_t addrs = 0x47ff314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "get_textComponent",
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SubMesh> (*)(::TMPro::TextMeshPro*, ::TMPro::MaterialReference)>(
     &::TMPro::TMP_SubMesh::AddSubTextObject)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x48117c8;
+  constexpr static std::size_t addrs = 0x47ff3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::OnEnable)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4811b8c;
+  constexpr static std::size_t addrs = 0x47ff76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "OnEnable",
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::OnDisable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4811cb8;
+  constexpr static std::size_t addrs = 0x47ff898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "OnDisable",
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::OnDestroy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4811d6c;
+  constexpr static std::size_t addrs = 0x47ff94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "OnDestroy",
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::DestroySelf)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4811eb4;
+  constexpr static std::size_t addrs = 0x47ffa94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "DestroySelf",
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(
     &::TMPro::TMP_SubMesh::GetMaterial)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x481106c;
+  constexpr static std::size_t addrs = 0x47fec4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(
     &::TMPro::TMP_SubMesh::CreateMaterialInstance)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4811f24;
+  constexpr static std::size_t addrs = 0x47ffb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::GetSharedMaterial)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4811fe4;
+  constexpr static std::size_t addrs = 0x47ffbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "GetSharedMaterial",
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMesh::SetSharedMaterial)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4811358;
+  constexpr static std::size_t addrs = 0x47fef38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::GetPaddingForMaterial)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4811208;
+  constexpr static std::size_t addrs = 0x47fede8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "GetPaddingForMaterial",
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)(bool, bool)>(&::TMPro::TMP_SubMesh::UpdateMeshPadding)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4812084;
+  constexpr static std::size_t addrs = 0x47ffc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::SetVerticesDirty)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x481127c;
+  constexpr static std::size_t addrs = 0x47fee5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "SetVerticesDirty",
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::SetMaterialDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x481132c;
+  constexpr static std::size_t addrs = 0x47fef0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "SetMaterialDirty",
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::UpdateMaterial)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x48120f8;
+  constexpr static std::size_t addrs = 0x47ffcd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), "UpdateMaterial",
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SubMesh::*)()>(&::TMPro::TMP_SubMesh::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4812268;
+  constexpr static std::size_t addrs = 0x47ffe48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMesh*>::get(), ".ctor",

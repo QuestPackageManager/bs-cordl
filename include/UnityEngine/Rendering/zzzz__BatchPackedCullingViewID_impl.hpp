@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BatchPackedCullingViewID::*)()>(
     &::UnityEngine::Rendering::BatchPackedCullingViewID::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48d72d8;
+  constexpr static std::size_t addrs = 0x48c4eb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchPackedCullingViewID::*)(::UnityEngine::Rendering::BatchPackedCullingViewID)>(
     &::UnityEngine::Rendering::BatchPackedCullingViewID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48d72e0;
+  constexpr static std::size_t addrs = 0x48c4ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchPackedCullingViewID::*)(::System::Object*)>(
     &::UnityEngine::Rendering::BatchPackedCullingViewID::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48d72f0;
+  constexpr static std::size_t addrs = 0x48c4ed0;
 
   inline static ::MethodInfo const* methodInfo() {
 

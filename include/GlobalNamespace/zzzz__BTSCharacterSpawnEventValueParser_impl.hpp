@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::GetPrefabId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226883c;
+  constexpr static std::size_t addrs = 0x22609cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::GetAnimationId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2268844;
+  constexpr static std::size_t addrs = 0x22609d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::GetIsAlternativeMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2268c84;
+  constexpr static std::size_t addrs = 0x2260e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, bool)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::MergeValuesIntoOneInt)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2268db8;
+  constexpr static std::size_t addrs = 0x2260f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

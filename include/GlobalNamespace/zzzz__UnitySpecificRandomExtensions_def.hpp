@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnitySpecificRandomExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsideUnitSphere, addr 0x22ba38c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InsideUnitSphere, addr 0x22b251c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InsideUnitSphere(::System::Random* random);
 
-  /// @brief Method OnUnitSphere, addr 0x22ba434, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method OnUnitSphere, addr 0x22b25c4, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 OnUnitSphere(::System::Random* random);
 
 protected:

@@ -56,7 +56,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x3f0ee48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x3efca00, size 0x8, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr bool const& __cordl_internal_get_valid() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(bool value);
 
-  /// @brief Method .ctor, addr 0x3f0e968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efc520, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x3f0ee50, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x3efca08, size 0xc8, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr ::System::Collections::Generic::IList_1<::StringW>* const& __cordl_internal_get_errors() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_errors(::System::Collections::Generic::IList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3f0ee38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efc9f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,16 +159,16 @@ public:
 
   using __c__DisplayClass1_0 = ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0;
 
-  /// @brief Method IsValid, addr 0x3f0e8a4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3efc45c, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method IsValid, addr 0x3f0ecb4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3efc86c, size 0x184, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::ByRef<::System::Collections::Generic::IList_1<::StringW>*> errorMessages);
 
-  /// @brief Method Validate, addr 0x3f0ee40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x3efc9f8, size 0x8, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method Validate, addr 0x3f0ea74, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x3efc62c, size 0x240, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::Newtonsoft::Json::Schema::ValidationEventHandler* validationEventHandler);
 
 protected:

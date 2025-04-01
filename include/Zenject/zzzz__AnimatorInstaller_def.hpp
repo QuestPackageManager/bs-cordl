@@ -30,7 +30,7 @@ public:
   /// @brief Field _animator, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Method InstallBindings, addr 0x4b50dfc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4b3e9f0, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::AnimatorInstaller* New_ctor(::UnityEngine::Animator* animator);
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method __zenCreate, addr 0x4b50eb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b3eaa8, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b50f74, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b3eb68, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b50da0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3e994, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animator* animator);
 
 protected:

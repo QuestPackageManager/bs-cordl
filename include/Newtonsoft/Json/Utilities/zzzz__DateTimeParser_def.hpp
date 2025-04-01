@@ -62,28 +62,28 @@ public:
   /// @brief Field Power10, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10)) ::ArrayW<int32_t, ::Array<int32_t>*> Power10;
 
-  /// @brief Method Parse, addr 0x3ed24dc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3ec0094, size 0xf0, virtual false, abstract: false, final false
   inline bool Parse(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
-  /// @brief Method Parse2Digit, addr 0x3ed294c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Parse2Digit, addr 0x3ec0504, size 0x9c, virtual false, abstract: false, final false
   inline bool Parse2Digit(int32_t start, ::ByRef<int32_t> num);
 
-  /// @brief Method Parse4Digit, addr 0x3ed285c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Parse4Digit, addr 0x3ec0414, size 0xf0, virtual false, abstract: false, final false
   inline bool Parse4Digit(int32_t start, ::ByRef<int32_t> num);
 
-  /// @brief Method ParseChar, addr 0x3ed2774, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ParseChar, addr 0x3ec032c, size 0x4c, virtual false, abstract: false, final false
   inline bool ParseChar(int32_t start, char16_t ch);
 
-  /// @brief Method ParseDate, addr 0x3ed25cc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ParseDate, addr 0x3ec0184, size 0x1a8, virtual false, abstract: false, final false
   inline bool ParseDate(int32_t start);
 
-  /// @brief Method ParseTime, addr 0x3ed29e8, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x3ec05a0, size 0x2dc, virtual false, abstract: false, final false
   inline bool ParseTime(::ByRef<int32_t> start);
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x3ed27c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x3ec0378, size 0x9c, virtual false, abstract: false, final false
   inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
 
-  /// @brief Method ParseZone, addr 0x3ed2cc4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ParseZone, addr 0x3ec087c, size 0x208, virtual false, abstract: false, final false
   inline bool ParseZone(int32_t start);
 
   static inline int32_t getStaticF_LzHH();

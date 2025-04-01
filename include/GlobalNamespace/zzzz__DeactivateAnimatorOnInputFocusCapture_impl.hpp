@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::Start)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x39cc92c;
+  constexpr static std::size_t addrs = 0x39b97c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::OnDestroy)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x39ccb80;
+  constexpr static std::size_t addrs = 0x39b9a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleInputFocusCaptured)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ccb40;
+  constexpr static std::size_t addrs = 0x39b99d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleInputFocusReleased)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39ccd28;
+  constexpr static std::size_t addrs = 0x39b9bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ccd4c;
+  constexpr static std::size_t addrs = 0x39b9be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>::get(),

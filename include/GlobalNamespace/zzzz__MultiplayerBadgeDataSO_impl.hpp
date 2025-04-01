@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::MultiplayerBadgeDataSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataSO::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26deecc;
+  constexpr static std::size_t addrs = 0x26d705c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataSO*>::get(), "get_icon",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeDataSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataSO::get_titleLocalizationKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26deed4;
+  constexpr static std::size_t addrs = 0x26d7064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataSO*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeDataSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataSO::get_subtitleLocalizationKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26deedc;
+  constexpr static std::size_t addrs = 0x26d706c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataSO*>::get(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataSO::*)()>(&::GlobalNamespace::MultiplayerBadgeDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd1f8;
+  constexpr static std::size_t addrs = 0x26d5388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataSO*>::get(), ".ctor",

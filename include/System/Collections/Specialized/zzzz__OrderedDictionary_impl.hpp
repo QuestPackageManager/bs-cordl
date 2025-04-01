@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::*)(
     ::System::Collections::ArrayList*, int32_t)>(&::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4490214;
+  constexpr static std::size_t addrs = 0x447ddd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4490860;
+  constexpr static std::size_t addrs = 0x447e420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (
     ::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::*)()>(&::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4490a24;
+  constexpr static std::size_t addrs = 0x447e5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::get_Key)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4490bb8;
+  constexpr static std::size_t addrs = 0x447e778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::get_Value)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4490c9c;
+  constexpr static std::size_t addrs = 0x447e85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4490d80;
+  constexpr static std::size_t addrs = 0x447e940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4490e20;
+  constexpr static std::size_t addrs = 0x447e9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::*)(
     ::System::Collections::ArrayList*, bool)>(&::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x448f9d0;
+  constexpr static std::size_t addrs = 0x447d590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::*)(
     ::System::Array*, int32_t)>(&::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x4490ec4;
+  constexpr static std::size_t addrs = 0x447ea84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44912b8;
+  constexpr static std::size_t addrs = 0x447ee78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44912dc;
+  constexpr static std::size_t addrs = 0x447ee9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::*)()>(
     &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44912e4;
+  constexpr static std::size_t addrs = 0x447eea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +303,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::*)()>(
         &::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4491308;
+  constexpr static std::size_t addrs = 0x447eec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x448f810;
+  constexpr static std::size_t addrs = 0x447d3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(int32_t)>(
     &::System::Collections::Specialized::OrderedDictionary::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x448f830;
+  constexpr static std::size_t addrs = 0x447d3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(int32_t, ::System::Collections::IEqualityComparer*)>(
     &::System::Collections::Specialized::OrderedDictionary::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x448f85c;
+  constexpr static std::size_t addrs = 0x447d41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Specialized::OrderedDictionary::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x448f88c;
+  constexpr static std::size_t addrs = 0x447d44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -464,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x448f8b4;
+  constexpr static std::size_t addrs = 0x447d474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::System_Collections_IDictionary_get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448f944;
+  constexpr static std::size_t addrs = 0x447d504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448f94c;
+  constexpr static std::size_t addrs = 0x447d50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448f954;
+  constexpr static std::size_t addrs = 0x447d514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::get_Keys)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x448f95c;
+  constexpr static std::size_t addrs = 0x447d51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::get_objectsArray)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x448f8d8;
+  constexpr static std::size_t addrs = 0x447d498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::get_objectsTable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x448fa00;
+  constexpr static std::size_t addrs = 0x447d5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x448fa7c;
+  constexpr static std::size_t addrs = 0x447d63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::get_Item)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x448faf0;
+  constexpr static std::size_t addrs = 0x447d6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::set_Item)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x448fb1c;
+  constexpr static std::size_t addrs = 0x447d6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::get_Values)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x448ff3c;
+  constexpr static std::size_t addrs = 0x447dafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::Add)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x448fe18;
+  constexpr static std::size_t addrs = 0x447d9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -640,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::Clear)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x448ffac;
+  constexpr static std::size_t addrs = 0x447db6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::Contains)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4490040;
+  constexpr static std::size_t addrs = 0x447dc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -669,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(::System::Array*, int32_t)>(
     &::System::Collections::Specialized::OrderedDictionary::CopyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x449006c;
+  constexpr static std::size_t addrs = 0x447dc2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::IndexOfKey)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x448fc98;
+  constexpr static std::size_t addrs = 0x447d858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::Remove)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x44900a8;
+  constexpr static std::size_t addrs = 0x447dc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -714,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44901a8;
+  constexpr static std::size_t addrs = 0x447dd68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -730,7 +730,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::OrderedDictionary::*)()>(
     &::System::Collections::Specialized::OrderedDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4490260;
+  constexpr static std::size_t addrs = 0x447de20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Specialized::OrderedDictionary::GetObjectData)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x44902cc;
+  constexpr static std::size_t addrs = 0x447de8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -761,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44904a0;
+  constexpr static std::size_t addrs = 0x447e060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::OrderedDictionary*>::get(),
@@ -776,7 +776,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::OrderedDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::OrderedDictionary::OnDeserialization)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x44904b0;
+  constexpr static std::size_t addrs = 0x447e070;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3f60810, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f4e3c8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method get_Type, addr 0x3f60848, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3f4e400, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Value, addr 0x3f60840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3f4e3f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

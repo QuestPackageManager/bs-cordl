@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationToken (::UnityEngine::MonoBehaviour::*)()>(
     &::UnityEngine::MonoBehaviour::get_destroyCancellationToken)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48ba3f4;
+  constexpr static std::size_t addrs = 0x48a7fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::RaiseCancellation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x48ba4c8;
+  constexpr static std::size_t addrs = 0x48a80a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(), "RaiseCancellation",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::IsInvoking)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ba4dc;
+  constexpr static std::size_t addrs = 0x48a80bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(), "IsInvoking",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::CancelInvoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ba554;
+  constexpr static std::size_t addrs = 0x48a8134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(), "CancelInvoke",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::StringW, float_t)>(&::UnityEngine::MonoBehaviour::Invoke)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48ba5cc;
+  constexpr static std::size_t addrs = 0x48a81ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::StringW, float_t, float_t)>(
     &::UnityEngine::MonoBehaviour::InvokeRepeating)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x48ba680;
+  constexpr static std::size_t addrs = 0x48a8260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::StringW)>(&::UnityEngine::MonoBehaviour::CancelInvoke)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ba7b0;
+  constexpr static std::size_t addrs = 0x48a8390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::MonoBehaviour::*)(::StringW)>(&::UnityEngine::MonoBehaviour::IsInvoking)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ba838;
+  constexpr static std::size_t addrs = 0x48a8418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (::UnityEngine::MonoBehaviour::*)(::StringW)>(
     &::UnityEngine::MonoBehaviour::StartCoroutine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ba8c0;
+  constexpr static std::size_t addrs = 0x48a84a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (::UnityEngine::MonoBehaviour::*)(::StringW, ::System::Object*)>(
     &::UnityEngine::MonoBehaviour::StartCoroutine)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x48ba8c8;
+  constexpr static std::size_t addrs = 0x48a84a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (::UnityEngine::MonoBehaviour::*)(::System::Collections::IEnumerator*)>(
     &::UnityEngine::MonoBehaviour::StartCoroutine)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48baa64;
+  constexpr static std::size_t addrs = 0x48a8644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (::UnityEngine::MonoBehaviour::*)(::System::Collections::IEnumerator*)>(
     &::UnityEngine::MonoBehaviour::StartCoroutine_Auto)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48bab98;
+  constexpr static std::size_t addrs = 0x48a8778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::System::Collections::IEnumerator*)>(
     &::UnityEngine::MonoBehaviour::StopCoroutine)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48bab9c;
+  constexpr static std::size_t addrs = 0x48a877c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::UnityEngine::Coroutine*)>(&::UnityEngine::MonoBehaviour::StopCoroutine)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48bacd0;
+  constexpr static std::size_t addrs = 0x48a88b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::StringW)>(&::UnityEngine::MonoBehaviour::StopCoroutine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48bae04;
+  constexpr static std::size_t addrs = 0x48a89e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::StopAllCoroutines)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48bae48;
+  constexpr static std::size_t addrs = 0x48a8a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(), "StopAllCoroutines",
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::get_useGUILayout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48bae84;
+  constexpr static std::size_t addrs = 0x48a8a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(), "get_useGUILayout",
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(bool)>(&::UnityEngine::MonoBehaviour::set_useGUILayout)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48baec0;
+  constexpr static std::size_t addrs = 0x48a8aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::UnityEngine::MonoBehaviour::print)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48baf04;
+  constexpr static std::size_t addrs = 0x48a8ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MonoBehaviour*)>(&::UnityEngine::MonoBehaviour::Internal_CancelInvokeAll)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ba590;
+  constexpr static std::size_t addrs = 0x48a8170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::MonoBehaviour*)>(&::UnityEngine::MonoBehaviour::Internal_IsInvokingAll)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ba518;
+  constexpr static std::size_t addrs = 0x48a80f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MonoBehaviour*, ::StringW, float_t, float_t)>(&::UnityEngine::MonoBehaviour::InvokeDelayed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48ba624;
+  constexpr static std::size_t addrs = 0x48a8204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MonoBehaviour*, ::StringW)>(&::UnityEngine::MonoBehaviour::CancelInvoke)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ba7f4;
+  constexpr static std::size_t addrs = 0x48a83d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::MonoBehaviour*, ::StringW)>(&::UnityEngine::MonoBehaviour::IsInvoking)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ba87c;
+  constexpr static std::size_t addrs = 0x48a845c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&::UnityEngine::MonoBehaviour::IsObjectMonoBehaviour)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ba9d4;
+  constexpr static std::size_t addrs = 0x48a85b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (::UnityEngine::MonoBehaviour::*)(::StringW, ::System::Object*)>(
     &::UnityEngine::MonoBehaviour::StartCoroutineManaged)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48baa10;
+  constexpr static std::size_t addrs = 0x48a85f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (::UnityEngine::MonoBehaviour::*)(::System::Collections::IEnumerator*)>(
     &::UnityEngine::MonoBehaviour::StartCoroutineManaged2)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48bab54;
+  constexpr static std::size_t addrs = 0x48a8734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::UnityEngine::Coroutine*)>(
     &::UnityEngine::MonoBehaviour::StopCoroutineManaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48badc0;
+  constexpr static std::size_t addrs = 0x48a89a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)(::System::Collections::IEnumerator*)>(
     &::UnityEngine::MonoBehaviour::StopCoroutineFromEnumeratorManaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48bac8c;
+  constexpr static std::size_t addrs = 0x48a886c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::GetScriptClassName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48baf5c;
+  constexpr static std::size_t addrs = 0x48a8b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(), "GetScriptClassName",
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::OnCancellationTokenCreated)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ba48c;
+  constexpr static std::size_t addrs = 0x48a806c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(),
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MonoBehaviour::*)()>(&::UnityEngine::MonoBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48baf98;
+  constexpr static std::size_t addrs = 0x48a8b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MonoBehaviour*>::get(), ".ctor",

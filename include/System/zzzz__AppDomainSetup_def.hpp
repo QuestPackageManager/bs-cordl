@@ -260,7 +260,7 @@ public:
 
   constexpr void __cordl_internal_set_shadow_copy_files(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e40070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2db6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

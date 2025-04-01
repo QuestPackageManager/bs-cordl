@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Xml::XmlResolver::*)(::System::Uri*, ::StringW)>(&::System::Xml::XmlResolver::ResolveUri)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x4370c7c;
+  constexpr static std::size_t addrs = 0x435e83c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlResolver::*)(::System::Uri*, ::System::Type*)>(&::System::Xml::XmlResolver::SupportsType)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4370e48;
+  constexpr static std::size_t addrs = 0x435ea08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (::System::Xml::XmlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(&::System::Xml::XmlResolver::GetEntityAsync)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4370f8c;
+  constexpr static std::size_t addrs = 0x435eb4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlResolver::*)()>(&::System::Xml::XmlResolver::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4370fc4;
+  constexpr static std::size_t addrs = 0x435eb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlResolver*>::get(), ".ctor",

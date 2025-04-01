@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_menuDestination(::GlobalNamespace::SelectSubMenuDestination_Destination value);
 
-  /// @brief Method .ctor, addr 0x26b3604, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ab794, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SelectSubMenuDestination_Destination menuDestination);
 
 protected:

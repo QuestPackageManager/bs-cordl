@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Positions::*)(int32_t, ::System::Object*)>(&::System::Xml::Schema::Positions::Add)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x43a926c;
+  constexpr static std::size_t addrs = 0x4396e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::Position (::System::Xml::Schema::Positions::*)(int32_t)>(
     &::System::Xml::Schema::Positions::get_Item)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x43a92fc;
+  constexpr static std::size_t addrs = 0x4396ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Positions::*)()>(&::System::Xml::Schema::Positions::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43a938c;
+  constexpr static std::size_t addrs = 0x4396f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Positions*>::get(), "get_Count",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Positions::*)()>(&::System::Xml::Schema::Positions::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43a93b0;
+  constexpr static std::size_t addrs = 0x4396f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Positions*>::get(), ".ctor",

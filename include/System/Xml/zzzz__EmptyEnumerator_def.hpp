@@ -29,16 +29,16 @@ public:
 
   static inline ::System::Xml::EmptyEnumerator* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x4357d34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x43458f4, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4357d3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x43458fc, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4357d40, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4345900, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x4357d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4345958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEnumerator"

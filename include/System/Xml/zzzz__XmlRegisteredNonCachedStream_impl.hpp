@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)(::System::IO::Stream*, ::System::Xml::XmlDownloadManager*, ::StringW)>(&::System::Xml::XmlRegisteredNonCachedStream::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x436b904;
+  constexpr static std::size_t addrs = 0x43594c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)()>(&::System::Xml::XmlRegisteredNonCachedStream::Finalize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x436c76c;
+  constexpr static std::size_t addrs = 0x435a32c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)(bool)>(&::System::Xml::XmlRegisteredNonCachedStream::Dispose)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x436c810;
+  constexpr static std::size_t addrs = 0x435a3d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::Xml::XmlRegisteredNonCachedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::Xml::XmlRegisteredNonCachedStream::BeginRead)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436c948;
+  constexpr static std::size_t addrs = 0x435a508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::Xml::XmlRegisteredNonCachedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::Xml::XmlRegisteredNonCachedStream::BeginWrite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436c96c;
+  constexpr static std::size_t addrs = 0x435a52c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlRegisteredNonCachedStream::*)(::System::IAsyncResult*)>(
     &::System::Xml::XmlRegisteredNonCachedStream::EndRead)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436c990;
+  constexpr static std::size_t addrs = 0x435a550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)(::System::IAsyncResult*)>(
     &::System::Xml::XmlRegisteredNonCachedStream::EndWrite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436c9b4;
+  constexpr static std::size_t addrs = 0x435a574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)()>(&::System::Xml::XmlRegisteredNonCachedStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436c9d8;
+  constexpr static std::size_t addrs = 0x435a598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlRegisteredNonCachedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlRegisteredNonCachedStream::Read)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436c9fc;
+  constexpr static std::size_t addrs = 0x435a5bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlRegisteredNonCachedStream::*)()>(&::System::Xml::XmlRegisteredNonCachedStream::ReadByte)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436ca20;
+  constexpr static std::size_t addrs = 0x435a5e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::XmlRegisteredNonCachedStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::System::Xml::XmlRegisteredNonCachedStream::Seek)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436ca44;
+  constexpr static std::size_t addrs = 0x435a604;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)(int64_t)>(
     &::System::Xml::XmlRegisteredNonCachedStream::SetLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436ca68;
+  constexpr static std::size_t addrs = 0x435a628;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlRegisteredNonCachedStream::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436ca8c;
+  constexpr static std::size_t addrs = 0x435a64c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)(uint8_t)>(
     &::System::Xml::XmlRegisteredNonCachedStream::WriteByte)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436cab0;
+  constexpr static std::size_t addrs = 0x435a670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlRegisteredNonCachedStream::*)()>(&::System::Xml::XmlRegisteredNonCachedStream::get_CanRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x436cad4;
+  constexpr static std::size_t addrs = 0x435a694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlRegisteredNonCachedStream::*)()>(&::System::Xml::XmlRegisteredNonCachedStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x436caf4;
+  constexpr static std::size_t addrs = 0x435a6b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlRegisteredNonCachedStream::*)()>(
     &::System::Xml::XmlRegisteredNonCachedStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x436cb14;
+  constexpr static std::size_t addrs = 0x435a6d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::XmlRegisteredNonCachedStream::*)()>(
     &::System::Xml::XmlRegisteredNonCachedStream::get_Length)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x436cb34;
+  constexpr static std::size_t addrs = 0x435a6f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::XmlRegisteredNonCachedStream::*)()>(
     &::System::Xml::XmlRegisteredNonCachedStream::get_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436cb54;
+  constexpr static std::size_t addrs = 0x435a714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRegisteredNonCachedStream::*)(int64_t)>(
     &::System::Xml::XmlRegisteredNonCachedStream::set_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436cb78;
+  constexpr static std::size_t addrs = 0x435a738;
 
   inline static ::MethodInfo const* methodInfo() {
 

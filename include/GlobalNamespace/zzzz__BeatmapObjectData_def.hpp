@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__rotation_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2249690, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2241820, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t beat, int32_t rotation, int32_t subtypeIdentifier);
 
-  /// @brief Method get_beat, addr 0x2249678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x2241808, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_rotation, addr 0x2249680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x2241810, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rotation();
 
-  /// @brief Method set_rotation, addr 0x2249688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x2241818, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(int32_t value);
 
 protected:

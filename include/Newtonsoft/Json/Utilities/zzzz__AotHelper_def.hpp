@@ -207,7 +207,7 @@ public:
   /// @brief Field s_alwaysFalse, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_s_alwaysFalse, put = setStaticF_s_alwaysFalse)) bool s_alwaysFalse;
 
-  /// @brief Method Ensure, addr 0x3ecb0dc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Ensure, addr 0x3eb8c94, size 0x164, virtual false, abstract: false, final false
   static inline void Ensure(::System::Action* action);
 
   /// @brief Method EnsureDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -219,7 +219,7 @@ public:
   /// @brief Method EnsureType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void EnsureType();
 
-  /// @brief Method IsFalse, addr 0x3ecb240, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x3eb8df8, size 0x58, virtual false, abstract: false, final false
   static inline bool IsFalse();
 
   static inline bool getStaticF_s_alwaysFalse();

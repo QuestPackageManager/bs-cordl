@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlStringStorage::*)(::System::Data::DataColumn*)>(
     &::System::Data::Common::SqlStringStorage::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4211e5c;
+  constexpr static std::size_t addrs = 0x41ffa1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Data::Common::SqlStringStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::SqlStringStorage::Aggregate)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x4211f9c;
+  constexpr static std::size_t addrs = 0x41ffb5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlStringStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::SqlStringStorage::Compare)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42123b8;
+  constexpr static std::size_t addrs = 0x41fff78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Data::Common::SqlStringStorage::*)(::System::Data::SqlTypes::SqlString, ::System::Data::SqlTypes::SqlString)>(&::System::Data::Common::SqlStringStorage::Compare)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4212428;
+  constexpr static std::size_t addrs = 0x41fffe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlStringStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::SqlStringStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4212564;
+  constexpr static std::size_t addrs = 0x4200124;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlStringStorage::*)(::System::Object*)>(
     &::System::Data::Common::SqlStringStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4212628;
+  constexpr static std::size_t addrs = 0x42001e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlStringStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::SqlStringStorage::Copy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42126a8;
+  constexpr static std::size_t addrs = 0x4200268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlStringStorage::*)(int32_t)>(
     &::System::Data::Common::SqlStringStorage::Get)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4212700;
+  constexpr static std::size_t addrs = 0x42002c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlStringStorage::*)(int32_t)>(
     &::System::Data::Common::SqlStringStorage::GetStringLength)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4212784;
+  constexpr static std::size_t addrs = 0x4200344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Common::SqlStringStorage::*)(int32_t)>(&::System::Data::Common::SqlStringStorage::IsNull)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4212850;
+  constexpr static std::size_t addrs = 0x4200410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlStringStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::SqlStringStorage::Set)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x42128d0;
+  constexpr static std::size_t addrs = 0x4200490;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlStringStorage::*)(int32_t)>(
     &::System::Data::Common::SqlStringStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x421293c;
+  constexpr static std::size_t addrs = 0x42004fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlStringStorage::*)(::StringW)>(
     &::System::Data::Common::SqlStringStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x42129f4;
+  constexpr static std::size_t addrs = 0x42005b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::SqlStringStorage::*)(::System::Object*)>(
     &::System::Data::Common::SqlStringStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x4212ce0;
+  constexpr static std::size_t addrs = 0x42008a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlStringStorage::*)(int32_t)>(
     &::System::Data::Common::SqlStringStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4212f80;
+  constexpr static std::size_t addrs = 0x4200b40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::Common::SqlStringStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::SqlStringStorage::CopyValue)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4212fc8;
+  constexpr static std::size_t addrs = 0x4200b88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlStringStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::SqlStringStorage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42130e0;
+  constexpr static std::size_t addrs = 0x4200ca0;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -51,21 +51,21 @@ public:
   /// @brief Field _targetRotation, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) float_t _targetRotation;
 
-  /// @brief Method FixedUpdate, addr 0x3baad70, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b9886c, size 0x8c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3baacd0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b987cc, size 0xa0, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data);
 
-  /// @brief Method LateUpdate, addr 0x3baadfc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b988f8, size 0xc0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3baacb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b987b0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3baab74, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b98670, size 0x140, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3baaebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b989b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

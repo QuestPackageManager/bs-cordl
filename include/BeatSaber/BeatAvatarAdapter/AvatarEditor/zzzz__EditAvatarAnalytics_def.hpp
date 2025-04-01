@@ -57,25 +57,25 @@ public:
   /// @brief Field _lastEditMode, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__lastEditMode, put = __cordl_internal_set__lastEditMode)) ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode _lastEditMode;
 
-  /// @brief Method Awake, addr 0x225c948, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2254ad8, size 0x148, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateEditAvatarEventData, addr 0x225ccf0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateEditAvatarEventData, addr 0x2254e80, size 0x278, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x225cf68, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x22550f8, size 0xf8, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata,
                                                          ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidSetup, addr 0x225cc18, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidSetup, addr 0x2254da8, size 0xd8, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidSetup(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode editMode);
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed, addr 0x225d060, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed, addr 0x22551f0, size 0xd0, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x225ca90, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2254c20, size 0x188, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__lastEditMode(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode value);
 
-  /// @brief Method .ctor, addr 0x225d130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22552c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

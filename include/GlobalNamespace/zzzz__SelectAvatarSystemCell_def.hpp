@@ -55,10 +55,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b14c74, size 0x590, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b01ca0, size 0x590, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b15204, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b02230, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -123,10 +123,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b15210, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b0223c, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b154c0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b024ec, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -192,65 +192,65 @@ public:
 
   using _ReloadIsCreated_d__17 = ::GlobalNamespace::SelectAvatarSystemCell__ReloadIsCreated_d__17;
 
-  /// @brief Field _activateViewOnEnable, offset 0xa0, size 0x1
+  /// @brief Field _activateViewOnEnable, offset 0xb0, size 0x1
   __declspec(property(get = __cordl_internal_get__activateViewOnEnable, put = __cordl_internal_set__activateViewOnEnable)) bool _activateViewOnEnable;
 
-  /// @brief Field _avatarSystemCollection, offset 0x68, size 0x8
+  /// @brief Field _avatarSystemCollection, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
-  /// @brief Field _loadedAvatarSystemMetadata, offset 0x88, size 0x8
+  /// @brief Field _loadedAvatarSystemMetadata, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__loadedAvatarSystemMetadata,
                       put = __cordl_internal_set__loadedAvatarSystemMetadata)) ::BeatSaber::AvatarCore::IAvatarSystemMetadata* _loadedAvatarSystemMetadata;
 
-  /// @brief Field _loadedSelectionView, offset 0x98, size 0x8
+  /// @brief Field _loadedSelectionView, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__loadedSelectionView, put = __cordl_internal_set__loadedSelectionView)) ::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> _loadedSelectionView;
 
-  /// @brief Field _selectedAvatarSystemMetadata, offset 0x90, size 0x8
+  /// @brief Field _selectedAvatarSystemMetadata, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedAvatarSystemMetadata,
                       put = __cordl_internal_set__selectedAvatarSystemMetadata)) ::BeatSaber::AvatarCore::IAvatarSystemMetadata* _selectedAvatarSystemMetadata;
 
-  /// @brief Field didRequestCreationOfAvatarEvent, offset 0x80, size 0x8
+  /// @brief Field didRequestCreationOfAvatarEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didRequestCreationOfAvatarEvent,
                       put = __cordl_internal_set_didRequestCreationOfAvatarEvent)) ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didRequestCreationOfAvatarEvent;
 
-  /// @brief Field didRequestEditOfAvatarEvent, offset 0x78, size 0x8
+  /// @brief Field didRequestEditOfAvatarEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didRequestEditOfAvatarEvent,
                       put = __cordl_internal_set_didRequestEditOfAvatarEvent)) ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didRequestEditOfAvatarEvent;
 
-  /// @brief Field didSetAvatarSystemPreferredEvent, offset 0x70, size 0x8
+  /// @brief Field didSetAvatarSystemPreferredEvent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_didSetAvatarSystemPreferredEvent,
                       put = __cordl_internal_set_didSetAvatarSystemPreferredEvent)) ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didSetAvatarSystemPreferredEvent;
 
-  /// @brief Method Activate, addr 0x3b05c40, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x3af2c54, size 0xac, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x3b05cec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x3af2d00, size 0x88, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x3b14c4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x3b01c78, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressCreateButton();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x3b14c2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x3b01c58, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressEditButton();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x3b14c0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x3b01c38, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressPreferredButton();
 
-  /// @brief Method Load, addr 0x3b062c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3af32d8, size 0x98, virtual false, abstract: false, final false
   inline void Load(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata);
 
   static inline ::GlobalNamespace::SelectAvatarSystemCell* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3b14b74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b01b88, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ReloadIsCreated, addr 0x3b05bb4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ReloadIsCreated, addr 0x3af2bc8, size 0x8c, virtual false, abstract: false, final false
   inline void ReloadIsCreated();
 
-  /// @brief Method SetSelectedAvatarSystem, addr 0x3b05b0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedAvatarSystem, addr 0x3af2b20, size 0xa8, virtual false, abstract: false, final false
   inline void SetSelectedAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method TryActivateOnEnable, addr 0x3b14b78, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryActivateOnEnable, addr 0x3b01ba4, size 0x94, virtual false, abstract: false, final false
   inline void TryActivateOnEnable();
 
   constexpr bool const& __cordl_internal_get__activateViewOnEnable() const;
@@ -301,25 +301,25 @@ public:
 
   constexpr void __cordl_internal_set_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method .ctor, addr 0x3b14c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b01c98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x3b060b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x3af30c8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x3b06164, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x3af3178, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x3b06214, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x3af3228, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x3b14ac4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x3b01ad8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x3b14a14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x3b01a28, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x3b14964, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x3b01978, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
 protected:
@@ -339,50 +339,50 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5006 };
 
-  /// @brief Field _avatarSystemCollection, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _avatarSystemCollection, offset: 0x78, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::AvatarSystemCollection* ____avatarSystemCollection;
 
-  /// @brief Field didSetAvatarSystemPreferredEvent, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field didSetAvatarSystemPreferredEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* ___didSetAvatarSystemPreferredEvent;
 
-  /// @brief Field didRequestEditOfAvatarEvent, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field didRequestEditOfAvatarEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* ___didRequestEditOfAvatarEvent;
 
-  /// @brief Field didRequestCreationOfAvatarEvent, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field didRequestCreationOfAvatarEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* ___didRequestCreationOfAvatarEvent;
 
-  /// @brief Field _loadedAvatarSystemMetadata, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _loadedAvatarSystemMetadata, offset: 0x98, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarSystemMetadata* ____loadedAvatarSystemMetadata;
 
-  /// @brief Field _selectedAvatarSystemMetadata, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _selectedAvatarSystemMetadata, offset: 0xa0, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarSystemMetadata* ____selectedAvatarSystemMetadata;
 
-  /// @brief Field _loadedSelectionView, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _loadedSelectionView, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> ____loadedSelectionView;
 
-  /// @brief Field _activateViewOnEnable, offset: 0xa0, size: 0x1, def value: None
+  /// @brief Field _activateViewOnEnable, offset: 0xb0, size: 0x1, def value: None
   bool ____activateViewOnEnable;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____avatarSystemCollection) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____avatarSystemCollection) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ___didSetAvatarSystemPreferredEvent) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ___didSetAvatarSystemPreferredEvent) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ___didRequestEditOfAvatarEvent) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ___didRequestEditOfAvatarEvent) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ___didRequestCreationOfAvatarEvent) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ___didRequestCreationOfAvatarEvent) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____loadedAvatarSystemMetadata) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____loadedAvatarSystemMetadata) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____selectedAvatarSystemMetadata) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____selectedAvatarSystemMetadata) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____loadedSelectionView) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____loadedSelectionView) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____activateViewOnEnable) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemCell, ____activateViewOnEnable) == 0xb0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectAvatarSystemCell, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectAvatarSystemCell, 0xb8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectAvatarSystemCell);

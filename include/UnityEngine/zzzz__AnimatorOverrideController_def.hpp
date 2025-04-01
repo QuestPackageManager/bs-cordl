@@ -44,12 +44,12 @@ namespace UnityEngine {
 class CORDL_TYPE AnimatorOverrideController_OnOverrideControllerDirtyCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48613dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x484efbc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4861354, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484ef34, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -88,22 +88,22 @@ public:
   __declspec(property(get = __cordl_internal_get_OnOverrideControllerDirty,
                       put = __cordl_internal_set_OnOverrideControllerDirty)) ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
 
-  /// @brief Method ApplyOverrides, addr 0x48610c8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ApplyOverrides, addr 0x484eca8, size 0x25c, virtual false, abstract: false, final false
   inline void
   ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>, ::UnityW<::UnityEngine::AnimationClip>>>* overrides);
 
-  /// @brief Method Internal_Create, addr 0x4860fec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x484ebcc, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller);
 
   static inline ::UnityEngine::AnimatorOverrideController* New_ctor(::UnityEngine::RuntimeAnimatorController* controller);
 
-  /// @brief Method OnInvalidateOverrideController, addr 0x4861324, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnInvalidateOverrideController, addr 0x484ef04, size 0x30, virtual false, abstract: false, final false
   static inline void OnInvalidateOverrideController(::UnityEngine::AnimatorOverrideController* controller);
 
-  /// @brief Method SendNotification, addr 0x486108c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SendNotification, addr 0x484ec6c, size 0x3c, virtual false, abstract: false, final false
   inline void SendNotification();
 
-  /// @brief Method SetClip, addr 0x4861030, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetClip, addr 0x484ec10, size 0x5c, virtual false, abstract: false, final false
   inline void SetClip(::UnityEngine::AnimationClip* originalClip, ::UnityEngine::AnimationClip* overrideClip, bool notify);
 
   constexpr ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* const& __cordl_internal_get_OnOverrideControllerDirty() const;
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_OnOverrideControllerDirty(::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* value);
 
-  /// @brief Method .ctor, addr 0x4860f44, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484eb24, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RuntimeAnimatorController* controller);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(float_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesPerSecond)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b13784;
+  constexpr static std::size_t addrs = 0x3b00798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b13804;
+  constexpr static std::size_t addrs = 0x3b00818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_obstaclesCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b1384c;
+  constexpr static std::size_t addrs = 0x3b00860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_bombsCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b13894;
+  constexpr static std::size_t addrs = 0x3b008a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)()>(&::GlobalNamespace::LevelParamsPanel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b138dc;
+  constexpr static std::size_t addrs = 0x3b008f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(), ".ctor",

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::BeatmapData*)>(
     &::GlobalNamespace::DefaultEnvironmentEventsFactory::InsertDefaultEvents)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x26bedb8;
+  constexpr static std::size_t addrs = 0x26b6f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

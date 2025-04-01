@@ -53,19 +53,19 @@ namespace LiteNetLib {
 class CORDL_TYPE EventBasedNatPunchListener_OnNatIntroductionRequest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3abbe44, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3aa92b8, size 0x2c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3abbe70, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3aa92e4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3abbe30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3aa92a4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
 
   static inline ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3abbd2c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa91a0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -98,19 +98,19 @@ namespace LiteNetLib {
 class CORDL_TYPE EventBasedNatPunchListener_OnNatIntroductionSuccess : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3abbf94, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3aa9408, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3abc02c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3aa94a0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3abbf80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3aa93f4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token);
 
   static inline ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3abbe7c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa92f0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -158,10 +158,10 @@ public:
   /// @brief Convert operator to "::LiteNetLib::INatPunchListener"
   constexpr operator ::LiteNetLib::INatPunchListener*() noexcept;
 
-  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionRequest, addr 0x3abbcec, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionRequest, addr 0x3aa9160, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
 
-  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess, addr 0x3abbd08, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess, addr 0x3aa917c, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token);
 
   static inline ::LiteNetLib::EventBasedNatPunchListener* New_ctor();
@@ -178,22 +178,22 @@ public:
 
   constexpr void __cordl_internal_set_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
-  /// @brief Method .ctor, addr 0x3abbd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa9198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_NatIntroductionRequest, addr 0x3abba7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_NatIntroductionRequest, addr 0x3aa8ef0, size 0x9c, virtual false, abstract: false, final false
   inline void add_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value);
 
-  /// @brief Method add_NatIntroductionSuccess, addr 0x3abbbb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_NatIntroductionSuccess, addr 0x3aa9028, size 0x9c, virtual false, abstract: false, final false
   inline void add_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
   /// @brief Convert to "::LiteNetLib::INatPunchListener"
   constexpr ::LiteNetLib::INatPunchListener* i___LiteNetLib__INatPunchListener() noexcept;
 
-  /// @brief Method remove_NatIntroductionRequest, addr 0x3abbb18, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_NatIntroductionRequest, addr 0x3aa8f8c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value);
 
-  /// @brief Method remove_NatIntroductionSuccess, addr 0x3abbc50, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_NatIntroductionSuccess, addr 0x3aa90c4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
 protected:

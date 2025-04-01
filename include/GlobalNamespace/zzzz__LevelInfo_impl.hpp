@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LevelInfo::*)()>(&::GlobalNamespace::LevelInfo::get_levelID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1480;
+  constexpr static std::size_t addrs = 0x22d9610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelInfo*>::get(), "get_levelID",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelInfo::*)(::StringW)>(&::GlobalNamespace::LevelInfo::set_levelID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1488;
+  constexpr static std::size_t addrs = 0x22d9618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> (::GlobalNamespace::LevelInfo::*)()>(&::GlobalNamespace::LevelInfo::get_beatmaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1490;
+  constexpr static std::size_t addrs = 0x22d9620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelInfo*>::get(), "get_beatmaps",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelInfo::*)(::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*>)>(&::GlobalNamespace::LevelInfo::set_beatmaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1498;
+  constexpr static std::size_t addrs = 0x22d9628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelInfo::*)()>(&::GlobalNamespace::LevelInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e14a0;
+  constexpr static std::size_t addrs = 0x22d9630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelInfo*>::get(), ".ctor",

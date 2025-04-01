@@ -24,13 +24,13 @@ public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43f9098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e6c58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method freeifaddrs, addr 0x43f97e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method freeifaddrs, addr 0x43e73a8, size 0x7c, virtual false, abstract: false, final false
   static inline void freeifaddrs(::System::IntPtr ifap);
 
-  /// @brief Method getifaddrs, addr 0x43f9868, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method getifaddrs, addr 0x43e7428, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t getifaddrs(::ByRef<::System::IntPtr> ifap);
 
 protected:

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* (::GlobalNamespace::OVRCustomSkeleton::*)()>(&::GlobalNamespace::OVRCustomSkeleton::get_CustomBones)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403e230;
+  constexpr static std::size_t addrs = 0x402bde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCustomSkeleton*>::get(), "get_CustomBones",
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCustomSkeleton::*)(::GlobalNamespace::OVRSkeleton_BoneId)>(
     &::GlobalNamespace::OVRCustomSkeleton::GetBoneTransform)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x403e238;
+  constexpr static std::size_t addrs = 0x402bdf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCustomSkeleton::*)()>(
     &::GlobalNamespace::OVRCustomSkeleton::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x403e290;
+  constexpr static std::size_t addrs = 0x402be48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCustomSkeleton::*)()>(
     &::GlobalNamespace::OVRCustomSkeleton::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x403e294;
+  constexpr static std::size_t addrs = 0x402be4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCustomSkeleton::*)()>(&::GlobalNamespace::OVRCustomSkeleton::AllocateBones)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x403e298;
+  constexpr static std::size_t addrs = 0x402be50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCustomSkeleton*>::get(), "AllocateBones",
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCustomSkeleton::*)(::GlobalNamespace::OVRSkeleton_SkeletonType)>(
     &::GlobalNamespace::OVRCustomSkeleton::SetSkeletonType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x403e35c;
+  constexpr static std::size_t addrs = 0x402bf14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCustomSkeleton::*)()>(&::GlobalNamespace::OVRCustomSkeleton::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403e3dc;
+  constexpr static std::size_t addrs = 0x402bf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCustomSkeleton*>::get(), ".ctor",

@@ -41,40 +41,40 @@ public:
 
   __declspec(property(put = set_uniqueID)) uint64_t uniqueID;
 
-  /// @brief Method TryGet, addr 0x4af75b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x4ae5194, size 0x70, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Quaternion inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::ByRef<::UnityEngine::Quaternion> outValue);
 
-  /// @brief Method TryGet, addr 0x4af7530, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x4ae5110, size 0x70, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Vector3 inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::ByRef<::UnityEngine::Vector3> outValue);
 
-  /// @brief Method TryGetAcceleration, addr 0x4af764c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAcceleration, addr 0x4ae522c, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAcceleration(::ByRef<::UnityEngine::Vector3> acceleration);
 
-  /// @brief Method TryGetAngularAcceleration, addr 0x4af7660, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAngularAcceleration, addr 0x4ae5240, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularAcceleration(::ByRef<::UnityEngine::Vector3> angularAcceleration);
 
-  /// @brief Method TryGetAngularVelocity, addr 0x4af7638, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAngularVelocity, addr 0x4ae5218, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularVelocity(::ByRef<::UnityEngine::Vector3> angularVelocity);
 
-  /// @brief Method TryGetPosition, addr 0x4af751c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetPosition, addr 0x4ae50fc, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetPosition(::ByRef<::UnityEngine::Vector3> position);
 
-  /// @brief Method TryGetRotation, addr 0x4af75a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetRotation, addr 0x4ae5180, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetRotation(::ByRef<::UnityEngine::Quaternion> rotation);
 
-  /// @brief Method TryGetVelocity, addr 0x4af7624, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetVelocity, addr 0x4ae5204, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetVelocity(::ByRef<::UnityEngine::Vector3> velocity);
 
-  /// @brief Method get_nodeType, addr 0x4af7514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nodeType, addr 0x4ae50f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRNode get_nodeType();
 
-  /// @brief Method set_nodeType, addr 0x4af73d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nodeType, addr 0x4ae4fb4, size 0x8, virtual false, abstract: false, final false
   inline void set_nodeType(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method set_tracked, addr 0x4af73dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tracked, addr 0x4ae4fbc, size 0xc, virtual false, abstract: false, final false
   inline void set_tracked(bool value);
 
-  /// @brief Method set_uniqueID, addr 0x4af73cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uniqueID, addr 0x4ae4fac, size 0x8, virtual false, abstract: false, final false
   inline void set_uniqueID(uint64_t value);
 
   // Ctor Parameters []
@@ -92,7 +92,7 @@ public:
                         int32_t m_Tracked, uint64_t m_UniqueID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18273 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

@@ -181,126 +181,126 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
-  /// @brief Method CacheCanvas, addr 0x496f2ec, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CacheCanvas, addr 0x495cecc, size 0x170, virtual false, abstract: false, final false
   inline void CacheCanvas();
 
-  /// @brief Method CreateColorFromAlpha, addr 0x49716c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateColorFromAlpha, addr 0x495f2a0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color CreateColorFromAlpha(float_t alpha);
 
-  /// @brief Method CrossFadeAlpha, addr 0x49716d4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeAlpha, addr 0x495f2b4, size 0x9c, virtual true, abstract: false, final false
   inline void CrossFadeAlpha(float_t alpha, float_t duration, bool ignoreTimeScale);
 
-  /// @brief Method CrossFadeColor, addr 0x4971418, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeColor, addr 0x495eff8, size 0x1c, virtual true, abstract: false, final false
   inline void CrossFadeColor(::UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha);
 
-  /// @brief Method CrossFadeColor, addr 0x4971434, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeColor, addr 0x495f014, size 0x28c, virtual true, abstract: false, final false
   inline void CrossFadeColor(::UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha, bool useRGB);
 
-  /// @brief Method DoLegacyMeshGeneration, addr 0x49702f0, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method DoLegacyMeshGeneration, addr 0x495ded0, size 0x368, virtual false, abstract: false, final false
   inline void DoLegacyMeshGeneration();
 
-  /// @brief Method DoMeshGeneration, addr 0x4970658, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method DoMeshGeneration, addr 0x495e238, size 0x39c, virtual false, abstract: false, final false
   inline void DoMeshGeneration();
 
-  /// @brief Method GetPixelAdjustedRect, addr 0x4970d0c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetPixelAdjustedRect, addr 0x495e8ec, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetPixelAdjustedRect();
 
-  /// @brief Method GraphicUpdateComplete, addr 0x4970224, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x495de04, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method LayoutComplete, addr 0x4970220, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x495de00, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
   static inline ::UnityEngine::UI::Graphic* New_ctor();
 
-  /// @brief Method OnBeforeTransformParentChanged, addr 0x496efec, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeTransformParentChanged, addr 0x495cbcc, size 0xa8, virtual true, abstract: false, final false
   inline void OnBeforeTransformParentChanged();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x496ff78, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x495db58, size 0x138, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnCullingChanged, addr 0x49700b0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnCullingChanged, addr 0x495dc90, size 0x8c, virtual true, abstract: false, final false
   inline void OnCullingChanged();
 
-  /// @brief Method OnDestroy, addr 0x496fe74, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x495da54, size 0x104, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x4970e38, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x495ea18, size 0x10, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x496fbac, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x495d78c, size 0x148, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x496fa7c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x495d65c, size 0x130, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnFillVBO, addr 0x4970b14, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnFillVBO, addr 0x495e6f4, size 0x4, virtual true, abstract: false, final false
   inline void OnFillVBO(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vbo);
 
-  /// @brief Method OnPopulateMesh, addr 0x4970b18, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x495e6f8, size 0x98, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::Mesh* m);
 
-  /// @brief Method OnPopulateMesh, addr 0x4970bb0, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x495e790, size 0x15c, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x496ef40, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x495cb20, size 0xac, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformParentChanged, addr 0x496f238, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x495ce18, size 0xb4, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method PixelAdjustPoint, addr 0x49712d8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustPoint, addr 0x495eeb8, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 PixelAdjustPoint(::UnityEngine::Vector2 point);
 
-  /// @brief Method Raycast, addr 0x4970e4c, size 0x48c, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x495ea2c, size 0x48c, virtual true, abstract: false, final false
   inline bool Raycast(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method Rebuild, addr 0x497013c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x495dd1c, size 0xe4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method RegisterDirtyLayoutCallback, addr 0x4971770, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RegisterDirtyLayoutCallback, addr 0x495f350, size 0x80, virtual false, abstract: false, final false
   inline void RegisterDirtyLayoutCallback(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method RegisterDirtyMaterialCallback, addr 0x4971970, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RegisterDirtyMaterialCallback, addr 0x495f550, size 0x80, virtual false, abstract: false, final false
   inline void RegisterDirtyMaterialCallback(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method RegisterDirtyVerticesCallback, addr 0x4971870, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RegisterDirtyVerticesCallback, addr 0x495f450, size 0x80, virtual false, abstract: false, final false
   inline void RegisterDirtyVerticesCallback(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method SetAllDirty, addr 0x496ebd8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method SetAllDirty, addr 0x495c7b8, size 0x70, virtual true, abstract: false, final false
   inline void SetAllDirty();
 
-  /// @brief Method SetLayoutDirty, addr 0x496ed20, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutDirty, addr 0x495c900, size 0xa0, virtual true, abstract: false, final false
   inline void SetLayoutDirty();
 
-  /// @brief Method SetMaterialDirty, addr 0x496eeac, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetMaterialDirty, addr 0x495ca8c, size 0x94, virtual true, abstract: false, final false
   inline void SetMaterialDirty();
 
-  /// @brief Method SetNativeSize, addr 0x4970e48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetNativeSize, addr 0x495ea28, size 0x4, virtual true, abstract: false, final false
   inline void SetNativeSize();
 
-  /// @brief Method SetRaycastDirty, addr 0x496ec48, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetRaycastDirty, addr 0x495c828, size 0xd8, virtual false, abstract: false, final false
   inline void SetRaycastDirty();
 
-  /// @brief Method SetVerticesDirty, addr 0x496ee18, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetVerticesDirty, addr 0x495c9f8, size 0x94, virtual true, abstract: false, final false
   inline void SetVerticesDirty();
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x4971af8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x495f6d8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
-  /// @brief Method UnregisterDirtyLayoutCallback, addr 0x49717f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDirtyLayoutCallback, addr 0x495f3d0, size 0x80, virtual false, abstract: false, final false
   inline void UnregisterDirtyLayoutCallback(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method UnregisterDirtyMaterialCallback, addr 0x49719f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDirtyMaterialCallback, addr 0x495f5d0, size 0x80, virtual false, abstract: false, final false
   inline void UnregisterDirtyMaterialCallback(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method UnregisterDirtyVerticesCallback, addr 0x49718f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDirtyVerticesCallback, addr 0x495f4d0, size 0x80, virtual false, abstract: false, final false
   inline void UnregisterDirtyVerticesCallback(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method UpdateGeometry, addr 0x49702e0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x495dec0, size 0x10, virtual true, abstract: false, final false
   inline void UpdateGeometry();
 
-  /// @brief Method UpdateMaterial, addr 0x4970228, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method UpdateMaterial, addr 0x495de08, size 0xb8, virtual true, abstract: false, final false
   inline void UpdateMaterial();
 
   constexpr bool const& __cordl_internal_get__useLegacyMeshGeneration_k__BackingField() const;
@@ -417,7 +417,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsDirty(bool value);
 
-  /// @brief Method .ctor, addr 0x496eb28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x495c708, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_s_DefaultUI();
@@ -428,46 +428,46 @@ public:
 
   static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_s_WhiteTexture();
 
-  /// @brief Method get_canvas, addr 0x496e720, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x495c300, size 0x74, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_canvasRenderer, addr 0x496f664, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_canvasRenderer, addr 0x495d244, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CanvasRenderer> get_canvasRenderer();
 
-  /// @brief Method get_color, addr 0x496e5f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x495c1d8, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_defaultGraphicMaterial, addr 0x496e51c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultGraphicMaterial, addr 0x495c0fc, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_defaultGraphicMaterial();
 
-  /// @brief Method get_defaultMaterial, addr 0x496f6f4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x495d2d4, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
-  /// @brief Method get_depth, addr 0x496f648, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_depth, addr 0x495d228, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_mainTexture, addr 0x496fa24, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_mainTexture, addr 0x495d604, size 0x58, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
-  /// @brief Method get_material, addr 0x496f740, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_material, addr 0x495d320, size 0x88, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_materialForRendering, addr 0x496f860, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method get_materialForRendering, addr 0x495d440, size 0x1c4, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_materialForRendering();
 
-  /// @brief Method get_raycastPadding, addr 0x496eafc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_raycastPadding, addr 0x495c6dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_raycastPadding();
 
-  /// @brief Method get_raycastTarget, addr 0x496e63c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_raycastTarget, addr 0x495c21c, size 0x8, virtual true, abstract: false, final false
   inline bool get_raycastTarget();
 
-  /// @brief Method get_rectTransform, addr 0x496edc0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_rectTransform, addr 0x495c9a0, size 0x58, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_useLegacyMeshGeneration, addr 0x496eb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useLegacyMeshGeneration, addr 0x495c6f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useLegacyMeshGeneration();
 
-  /// @brief Method get_workerMesh, addr 0x49709f4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_workerMesh, addr 0x495e5d4, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> get_workerMesh();
 
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
@@ -481,19 +481,19 @@ public:
 
   static inline void setStaticF_s_WhiteTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method set_color, addr 0x496e604, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_color, addr 0x495c1e4, size 0x38, virtual true, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_material, addr 0x496f7c8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method set_material, addr 0x495d3a8, size 0x98, virtual true, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_raycastPadding, addr 0x496eb08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_raycastPadding, addr 0x495c6e8, size 0xc, virtual false, abstract: false, final false
   inline void set_raycastPadding(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_raycastTarget, addr 0x496e644, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method set_raycastTarget, addr 0x495c224, size 0xdc, virtual true, abstract: false, final false
   inline void set_raycastTarget(bool value);
 
-  /// @brief Method set_useLegacyMeshGeneration, addr 0x496eb1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useLegacyMeshGeneration, addr 0x495c6fc, size 0xc, virtual false, abstract: false, final false
   inline void set_useLegacyMeshGeneration(bool value);
 
 protected:
@@ -511,7 +511,7 @@ public:
   Graphic(Graphic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15056 };
 
   /// @brief Field m_Material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_Material;

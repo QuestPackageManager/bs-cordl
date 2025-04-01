@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetParticleSystemSeed::*)()>(&::GlobalNamespace::SetParticleSystemSeed::Awake)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3b95458;
+  constexpr static std::size_t addrs = 0x3b82e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetParticleSystemSeed*>::get(), "Awake",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetParticleSystemSeed::*)()>(&::GlobalNamespace::SetParticleSystemSeed::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b955a0;
+  constexpr static std::size_t addrs = 0x3b82fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetParticleSystemSeed*>::get(), ".ctor",

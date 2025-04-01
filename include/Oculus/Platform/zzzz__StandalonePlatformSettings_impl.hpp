@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserEmail)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3f9af2c;
+  constexpr static std::size_t addrs = 0x3f88ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserEmail)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f9af74;
+  constexpr static std::size_t addrs = 0x3f88b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserPassword)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3f9af78;
+  constexpr static std::size_t addrs = 0x3f88b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserPassword)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f9afc0;
+  constexpr static std::size_t addrs = 0x3f88b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserAccessToken)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3f9afc4;
+  constexpr static std::size_t addrs = 0x3f88b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserAccessToken)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f9b00c;
+  constexpr static std::size_t addrs = 0x3f88bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::StandalonePlatformSettings::*)()>(&::Oculus::Platform::StandalonePlatformSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f9b010;
+  constexpr static std::size_t addrs = 0x3f88bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::StandalonePlatformSettings*>::get(), ".ctor",

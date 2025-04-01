@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector4, ::UnityEngine::Vector4)>(&::Unity::XR::Oculus::Utils::SetColorScaleAndOffset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48400e4;
+  constexpr static std::size_t addrs = 0x482dcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::XR::Oculus::SystemHeadset (*)()>(&::Unity::XR::Oculus::Utils::GetSystemHeadsetType)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484012c;
+  constexpr static std::size_t addrs = 0x482dd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Utils*>::get(), "GetSystemHeadsetType",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Unity::XR::Oculus::Utils::PermissionGrantedCallback)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4840134;
+  constexpr static std::size_t addrs = 0x482dd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::Utils::IsEyeTrackingPermissionGranted)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48401a0;
+  constexpr static std::size_t addrs = 0x482dd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Utils*>::get(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::Utils::get_useDynamicFoveatedRendering)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48401e4;
+  constexpr static std::size_t addrs = 0x482ddc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::Utils::set_useDynamicFoveatedRendering)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48401ec;
+  constexpr static std::size_t addrs = 0x482ddcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Unity::XR::Oculus::Utils::get_foveatedRenderingLevel)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4840270;
+  constexpr static std::size_t addrs = 0x482de50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Utils*>::get(), "get_foveatedRenderingLevel",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::Unity::XR::Oculus::Utils::set_foveatedRenderingLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48402ec;
+  constexpr static std::size_t addrs = 0x482decc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::Utils::get_eyeTrackedFoveatedRenderingSupported)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484036c;
+  constexpr static std::size_t addrs = 0x482df4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::Utils::get_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4840374;
+  constexpr static std::size_t addrs = 0x482df54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::Utils::set_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4840398;
+  constexpr static std::size_t addrs = 0x482df78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Unity::XR::Oculus::Utils::SetFoveationLevel)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48404a0;
+  constexpr static std::size_t addrs = 0x482e080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::Unity::XR::Oculus::Utils::EnableDynamicFFR)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x484052c;
+  constexpr static std::size_t addrs = 0x482e10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Unity::XR::Oculus::Utils::GetFoveationLevel)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48405b8;
+  constexpr static std::size_t addrs = 0x482e198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Utils*>::get(), "GetFoveationLevel",

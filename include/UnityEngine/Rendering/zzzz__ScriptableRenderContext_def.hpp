@@ -43,25 +43,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*();
 
-  /// @brief Method Equals, addr 0x48d62a0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48c3e80, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48d6230, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48c3e10, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
 
-  /// @brief Method GetCameras, addr 0x48d5ea8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCameras, addr 0x48c3a88, size 0xb8, virtual false, abstract: false, final false
   inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
 
-  /// @brief Method GetCameras_Internal, addr 0x48d6150, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal, addr 0x48c3d30, size 0x8c, virtual false, abstract: false, final false
   inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetCameras_Internal_Injected, addr 0x48d61dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal_Injected, addr 0x48c3dbc, size 0x54, virtual false, abstract: false, final false
   static inline void GetCameras_Internal_Injected(::ByRef<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetHashCode, addr 0x48d6348, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48c3f28, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x48d5ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c3a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();

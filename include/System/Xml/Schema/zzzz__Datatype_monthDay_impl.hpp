@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_monthDay::*)()>(
     &::System::Xml::Schema::Datatype_monthDay::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43b994c;
+  constexpr static std::size_t addrs = 0x43a750c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_monthDay::*)()>(&::System::Xml::Schema::Datatype_monthDay::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43b3028;
+  constexpr static std::size_t addrs = 0x43a0be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_monthDay*>::get(), ".ctor",

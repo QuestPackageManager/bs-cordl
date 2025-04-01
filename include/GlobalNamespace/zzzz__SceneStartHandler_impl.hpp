@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartHandler::add_sceneSetupDidFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e8dac;
+  constexpr static std::size_t addrs = 0x22e0f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartHandler::remove_sceneSetupDidFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e8e5c;
+  constexpr static std::size_t addrs = 0x22e0fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartHandler::add_sceneSetupDidReceiveTooLateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e8f0c;
+  constexpr static std::size_t addrs = 0x22e109c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartHandler::remove_sceneSetupDidReceiveTooLateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e8fbc;
+  constexpr static std::size_t addrs = 0x22e114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(
     &::GlobalNamespace::SceneStartHandler::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x22e906c;
+  constexpr static std::size_t addrs = 0x22e11fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)()>(&::GlobalNamespace::SceneStartHandler::Dispose)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x22e9150;
+  constexpr static std::size_t addrs = 0x22e12e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneStartHandler*>::get(), "Dispose",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)()>(&::GlobalNamespace::SceneStartHandler::GetSceneLoadStatus)> {
   constexpr static std::size_t size = 0x6e8;
-  constexpr static std::size_t addrs = 0x22e94ac;
+  constexpr static std::size_t addrs = 0x22e163c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneStartHandler*>::get(),
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)()>(&::GlobalNamespace::SceneStartHandler::ForceStart)> {
   constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x22e9f04;
+  constexpr static std::size_t addrs = 0x22e2094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneStartHandler*>::get(), "ForceStart",
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(
     &::GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneReady)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x22ea5f8;
+  constexpr static std::size_t addrs = 0x22e2788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(::StringW)>(
     &::GlobalNamespace::SceneStartHandler::HandleGetGameplaySceneReady)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22ea9c0;
+  constexpr static std::size_t addrs = 0x22e2b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(
     ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&::GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneSyncFinished)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22eaa74;
+  constexpr static std::size_t addrs = 0x22e2c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(
     ::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&::GlobalNamespace::SceneStartHandler::HandleSetPlayerDidConnectLate)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x22eaadc;
+  constexpr static std::size_t addrs = 0x22e2c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartHandler::*)(::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(
     &::GlobalNamespace::SceneStartHandler::AddPlayerSpecificSettingsToDictionary)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22e9b94;
+  constexpr static std::size_t addrs = 0x22e1d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* (::GlobalNamespace::SceneStartHandler::*)()>(
     &::GlobalNamespace::SceneStartHandler::CreatePlayersSpecificSettingsAtGameStartData)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x22e9c00;
+  constexpr static std::size_t addrs = 0x22e1d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

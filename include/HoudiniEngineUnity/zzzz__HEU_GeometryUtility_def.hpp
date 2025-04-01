@@ -33,20 +33,20 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_GeometryUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateMeshTangents, addr 0x3a82294, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CalculateMeshTangents, addr 0x3a6f368, size 0x4dc, virtual false, abstract: false, final false
   static inline void CalculateMeshTangents(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GenerateCubeMeshFromPoints, addr 0x3a88430, size 0xb08, virtual false, abstract: false, final false
+  /// @brief Method GenerateCubeMeshFromPoints, addr 0x3a75504, size 0xb08, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
                                                                          ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size);
 
-  /// @brief Method GeneratePerTriangle, addr 0x3a8334c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GeneratePerTriangle, addr 0x3a70420, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GeneratePerTriangle(::UnityEngine::Mesh* meshSrc);
 
-  /// @brief Method GenerateSecondaryUVSet, addr 0x3a883ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GenerateSecondaryUVSet, addr 0x3a754c0, size 0x44, virtual false, abstract: false, final false
   static inline void GenerateSecondaryUVSet(::UnityEngine::Mesh* meshsrc);
 
-  /// @brief Method GetInstanceOutputName, addr 0x3a88f38, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceOutputName, addr 0x3a7600c, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW, ::Array<::StringW>*> userPrefix, int32_t index);
 
 protected:

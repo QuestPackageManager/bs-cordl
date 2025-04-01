@@ -127,61 +127,61 @@ public:
 
   constexpr void __cordl_internal_set__disableSafetyChecks(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x4510c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fe854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4510c7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fe85c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::FloatPrecision floatPrecision, ::Unity::Burst::FloatMode floatMode);
 
-  /// @brief Method .ctor, addr 0x4510ca8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fe888, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> options);
 
-  /// @brief Method get_CompileSynchronously, addr 0x4510904, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_CompileSynchronously, addr 0x44fe4e4, size 0x6c, virtual false, abstract: false, final false
   inline bool get_CompileSynchronously();
 
-  /// @brief Method get_Debug, addr 0x45109d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Debug, addr 0x44fe5b8, size 0x6c, virtual false, abstract: false, final false
   inline bool get_Debug();
 
-  /// @brief Method get_DisableDirectCall, addr 0x4510b80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_DisableDirectCall, addr 0x44fe760, size 0x6c, virtual false, abstract: false, final false
   inline bool get_DisableDirectCall();
 
-  /// @brief Method get_DisableSafetyChecks, addr 0x4510aac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_DisableSafetyChecks, addr 0x44fe68c, size 0x6c, virtual false, abstract: false, final false
   inline bool get_DisableSafetyChecks();
 
-  /// @brief Method get_FloatMode, addr 0x45108e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMode, addr 0x44fe4c4, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::FloatMode get_FloatMode();
 
-  /// @brief Method get_FloatPrecision, addr 0x45108f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatPrecision, addr 0x44fe4d4, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::FloatPrecision get_FloatPrecision();
 
-  /// @brief Method get_OptimizeFor, addr 0x4510c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OptimizeFor, addr 0x44fe834, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::OptimizeFor get_OptimizeFor();
 
-  /// @brief Method get_Options, addr 0x4510c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x44fe844, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Options();
 
-  /// @brief Method set_CompileSynchronously, addr 0x4510970, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_CompileSynchronously, addr 0x44fe550, size 0x68, virtual false, abstract: false, final false
   inline void set_CompileSynchronously(bool value);
 
-  /// @brief Method set_Debug, addr 0x4510a44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Debug, addr 0x44fe624, size 0x68, virtual false, abstract: false, final false
   inline void set_Debug(bool value);
 
-  /// @brief Method set_DisableDirectCall, addr 0x4510bec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DisableDirectCall, addr 0x44fe7cc, size 0x68, virtual false, abstract: false, final false
   inline void set_DisableDirectCall(bool value);
 
-  /// @brief Method set_DisableSafetyChecks, addr 0x4510b18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DisableSafetyChecks, addr 0x44fe6f8, size 0x68, virtual false, abstract: false, final false
   inline void set_DisableSafetyChecks(bool value);
 
-  /// @brief Method set_FloatMode, addr 0x45108ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FloatMode, addr 0x44fe4cc, size 0x8, virtual false, abstract: false, final false
   inline void set_FloatMode(::Unity::Burst::FloatMode value);
 
-  /// @brief Method set_FloatPrecision, addr 0x45108fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FloatPrecision, addr 0x44fe4dc, size 0x8, virtual false, abstract: false, final false
   inline void set_FloatPrecision(::Unity::Burst::FloatPrecision value);
 
-  /// @brief Method set_OptimizeFor, addr 0x4510c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OptimizeFor, addr 0x44fe83c, size 0x8, virtual false, abstract: false, final false
   inline void set_OptimizeFor(::Unity::Burst::OptimizeFor value);
 
-  /// @brief Method set_Options, addr 0x4510c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Options, addr 0x44fe84c, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
 protected:
@@ -199,7 +199,7 @@ public:
   BurstCompileAttribute(BurstCompileAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14599 };
 
   /// @brief Field <FloatMode>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Unity::Burst::FloatMode ____FloatMode_k__BackingField;

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_UpdateManager* (*)()>(&::TMPro::TMP_UpdateManager::get_instance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4817bfc;
+  constexpr static std::size_t addrs = 0x48057dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_UpdateManager*>::get(), "get_instance",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)()>(&::TMPro::TMP_UpdateManager::_ctor)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x4817c9c;
+  constexpr static std::size_t addrs = 0x480587c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_UpdateManager*>::get(), ".ctor",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4817e48;
+  constexpr static std::size_t addrs = 0x4805a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(
     &::TMPro::TMP_UpdateManager::InternalRegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4817ea8;
+  constexpr static std::size_t addrs = 0x4805a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4817fb8;
+  constexpr static std::size_t addrs = 0x4805b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(
     &::TMPro::TMP_UpdateManager::InternalRegisterTextElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4818018;
+  constexpr static std::size_t addrs = 0x4805bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4818128;
+  constexpr static std::size_t addrs = 0x4805d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(
     &::TMPro::TMP_UpdateManager::InternalRegisterTextElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4818188;
+  constexpr static std::size_t addrs = 0x4805d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextElementForCullingUpdate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4818298;
+  constexpr static std::size_t addrs = 0x4805e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(
     &::TMPro::TMP_UpdateManager::InternalRegisterTextElementForCullingUpdate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x48182f8;
+  constexpr static std::size_t addrs = 0x4805ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)()>(&::TMPro::TMP_UpdateManager::OnCameraPreCull)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4818408;
+  constexpr static std::size_t addrs = 0x4805fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_UpdateManager*>::get(), "OnCameraPreCull",
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)()>(&::TMPro::TMP_UpdateManager::DoRebuilds)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x481840c;
+  constexpr static std::size_t addrs = 0x4805fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_UpdateManager*>::get(), "DoRebuilds",
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::UnRegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4818660;
+  constexpr static std::size_t addrs = 0x4806240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::UnRegisterTextElementForRebuild)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4818758;
+  constexpr static std::size_t addrs = 0x4806338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(
     &::TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48187d8;
+  constexpr static std::size_t addrs = 0x48063b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(
     &::TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4818870;
+  constexpr static std::size_t addrs = 0x4806450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(
     &::TMPro::TMP_UpdateManager::InternalUnRegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48186c0;
+  constexpr static std::size_t addrs = 0x48062a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::get_isPaused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb9090;
+  constexpr static std::size_t addrs = 0x3ba6b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPause*>::get(), "get_isPaused",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::add_didPauseEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb9098;
+  constexpr static std::size_t addrs = 0x3ba6b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::remove_didPauseEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb9134;
+  constexpr static std::size_t addrs = 0x3ba6c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::add_willResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb91d0;
+  constexpr static std::size_t addrs = 0x3ba6ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::remove_willResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb926c;
+  constexpr static std::size_t addrs = 0x3ba6d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::add_didResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb9308;
+  constexpr static std::size_t addrs = 0x3ba6e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::remove_didResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb93a4;
+  constexpr static std::size_t addrs = 0x3ba6ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::Pause)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bb9440;
+  constexpr static std::size_t addrs = 0x3ba6f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPause*>::get(), "Pause",
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::WillResume)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bb9478;
+  constexpr static std::size_t addrs = 0x3ba6f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPause*>::get(), "WillResume",
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::Resume)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bb94b0;
+  constexpr static std::size_t addrs = 0x3ba6fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPause*>::get(), "Resume",
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb94e8;
+  constexpr static std::size_t addrs = 0x3ba6fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPause*>::get(), ".ctor",

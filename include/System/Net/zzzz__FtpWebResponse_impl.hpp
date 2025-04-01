@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse_EmptyStream::*)()>(&::System::Net::FtpWebResponse_EmptyStream::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44ab7ac;
+  constexpr static std::size_t addrs = 0x449936c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpWebResponse_EmptyStream*>::get(), ".ctor",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)(
     ::System::IO::Stream*, int64_t, ::System::Uri*, ::System::Net::FtpStatusCode, ::StringW, ::System::DateTime, ::StringW, ::StringW, ::StringW)>(&::System::Net::FtpWebResponse::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x44aafb0;
+  constexpr static std::size_t addrs = 0x4498b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)(::System::Net::FtpStatusCode, ::StringW, ::StringW)>(
     &::System::Net::FtpWebResponse::UpdateStatus)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44a98b0;
+  constexpr static std::size_t addrs = 0x4497470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::GetResponseStream)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x44ab74c;
+  constexpr static std::size_t addrs = 0x449930c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)(::System::IO::Stream*)>(&::System::Net::FtpWebResponse::SetResponseStream)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x44aaf1c;
+  constexpr static std::size_t addrs = 0x4498adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::Close)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x44ab848;
+  constexpr static std::size_t addrs = 0x4499408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::FtpWebResponse::*)()>(
     &::System::Net::FtpWebResponse::get_Headers)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x44ab93c;
+  constexpr static std::size_t addrs = 0x44994fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::get_ResponseUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44aba48;
+  constexpr static std::size_t addrs = 0x4499608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::FtpStatusCode (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44aba50;
+  constexpr static std::size_t addrs = 0x4499610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpWebResponse*>::get(), "get_StatusCode",

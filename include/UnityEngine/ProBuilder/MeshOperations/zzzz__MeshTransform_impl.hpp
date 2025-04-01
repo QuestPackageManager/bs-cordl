@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::PivotLocation)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshTransform::SetPivot)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x478bfc8;
+  constexpr static std::size_t addrs = 0x4779ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x47878c0;
+  constexpr static std::size_t addrs = 0x47754a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshTransform::SetPivot)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x478c060;
+  constexpr static std::size_t addrs = 0x4779c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshTransform::FreezeScaleTransform)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x478c1f4;
+  constexpr static std::size_t addrs = 0x4779dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

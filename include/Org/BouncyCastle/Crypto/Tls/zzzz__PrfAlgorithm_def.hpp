@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::PrfAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x241c26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24143fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

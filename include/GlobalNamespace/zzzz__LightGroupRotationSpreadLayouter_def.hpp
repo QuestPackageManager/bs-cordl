@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__startFromCenter(bool value);
 
-  /// @brief Method .ctor, addr 0x3b9f044, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8cac8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

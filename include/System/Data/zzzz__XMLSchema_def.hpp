@@ -40,24 +40,24 @@ namespace System::Data {
 class CORDL_TYPE XMLSchema : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FEqualIdentity, addr 0x4199a84, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FEqualIdentity, addr 0x4187644, size 0x74, virtual false, abstract: false, final false
   static inline bool FEqualIdentity(::System::Xml::XmlNode* node, ::StringW name, ::StringW ns);
 
-  /// @brief Method GenUniqueColumnName, addr 0x419b828, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GenUniqueColumnName, addr 0x41893e8, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW GenUniqueColumnName(::StringW proposedName, ::System::Data::DataTable* table);
 
-  /// @brief Method GetBooleanAttribute, addr 0x419f818, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetBooleanAttribute, addr 0x418d3d8, size 0x150, virtual false, abstract: false, final false
   static inline bool GetBooleanAttribute(::System::Xml::XmlElement* element, ::StringW attrName, ::StringW attrNS, bool defVal);
 
-  /// @brief Method GetConverter, addr 0x419f7c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x418d380, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
 
   static inline ::System::Data::XMLSchema* New_ctor();
 
-  /// @brief Method SetProperties, addr 0x419bc84, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method SetProperties, addr 0x4189844, size 0x44c, virtual false, abstract: false, final false
   static inline void SetProperties(::System::Object* instance, ::System::Xml::XmlAttributeCollection* attrs);
 
-  /// @brief Method .ctor, addr 0x4199870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4187430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

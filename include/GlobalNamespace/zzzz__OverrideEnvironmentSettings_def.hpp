@@ -42,12 +42,12 @@ public:
 
   __declspec(property(get = get_overrideEnvironments, put = set_overrideEnvironments)) bool overrideEnvironments;
 
-  /// @brief Method GetOverrideEnvironmentInfoForType, addr 0x26f627c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOverrideEnvironmentInfoForType, addr 0x26ee8c0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType);
 
   static inline ::GlobalNamespace::OverrideEnvironmentSettings* New_ctor();
 
-  /// @brief Method SetEnvironmentInfoForType, addr 0x26f61ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetEnvironmentInfoForType, addr 0x26ee830, size 0x90, virtual false, abstract: false, final false
   inline void SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const& __cordl_internal_get__data() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_didChangeOverrideSettingsEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26f62f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ee938, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeOverrideSettingsEvent, addr 0x26f60b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeOverrideSettingsEvent, addr 0x26ee6f8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeOverrideSettingsEvent(::System::Action* value);
 
-  /// @brief Method get_overrideEnvironments, addr 0x26f6088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideEnvironments, addr 0x26ee6cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideEnvironments();
 
-  /// @brief Method remove_didChangeOverrideSettingsEvent, addr 0x26f6150, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeOverrideSettingsEvent, addr 0x26ee794, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeOverrideSettingsEvent(::System::Action* value);
 
-  /// @brief Method set_overrideEnvironments, addr 0x26f6090, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_overrideEnvironments, addr 0x26ee6d4, size 0x24, virtual false, abstract: false, final false
   inline void set_overrideEnvironments(bool value);
 
 protected:
@@ -98,7 +98,7 @@ public:
   OverrideEnvironmentSettings(OverrideEnvironmentSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13223 };
 
   /// @brief Field didChangeOverrideSettingsEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didChangeOverrideSettingsEvent;

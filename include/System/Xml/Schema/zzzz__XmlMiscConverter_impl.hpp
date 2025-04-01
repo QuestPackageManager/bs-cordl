@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlMiscConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlMiscConverter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x42f155c;
+  constexpr static std::size_t addrs = 0x42df11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlMiscConverter::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42f15c4;
+  constexpr static std::size_t addrs = 0x42df184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlMiscConverter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlMiscConverter::ToString)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x42f161c;
+  constexpr static std::size_t addrs = 0x42df1dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlMiscConverter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlMiscConverter::ChangeType)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x42f1c94;
+  constexpr static std::size_t addrs = 0x42df854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlMiscConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlMiscConverter::ChangeType)> {
   constexpr static std::size_t size = 0xd2c;
-  constexpr static std::size_t addrs = 0x42f22fc;
+  constexpr static std::size_t addrs = 0x42dfebc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlMiscConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlMiscConverter::ChangeTypeWildcardDestination)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x42f1b58;
+  constexpr static std::size_t addrs = 0x42df718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlMiscConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlMiscConverter::ChangeTypeWildcardSource)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x42f2198;
+  constexpr static std::size_t addrs = 0x42dfd58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

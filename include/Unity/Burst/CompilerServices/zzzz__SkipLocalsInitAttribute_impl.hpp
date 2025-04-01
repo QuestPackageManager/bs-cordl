@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::CompilerServices::SkipLocalsInitAttribute::*)()>(
     &::Unity::Burst::CompilerServices::SkipLocalsInitAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4548eb0;
+  constexpr static std::size_t addrs = 0x4536a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

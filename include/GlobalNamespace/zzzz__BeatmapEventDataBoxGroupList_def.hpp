@@ -73,19 +73,19 @@ public:
   /// @brief Field updateBeatmapDataOnInsert, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_updateBeatmapDataOnInsert, put = __cordl_internal_set_updateBeatmapDataOnInsert)) bool updateBeatmapDataOnInsert;
 
-  /// @brief Method Insert, addr 0x26c0a38, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x26b8bc8, size 0x37c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                                                                           ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
-  /// @brief Method NoDomainReloadInit, addr 0x26c0868, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x26b89f8, size 0x78, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method Remove, addr 0x26c0e04, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x26b8f94, size 0x374, virtual false, abstract: false, final false
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method SyncWithBeatmapData, addr 0x26c1178, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SyncWithBeatmapData, addr 0x26b9308, size 0x17c, virtual false, abstract: false, final false
   inline void SyncWithBeatmapData();
 
   constexpr ::GlobalNamespace::IBeatToTimeConverter* const& __cordl_internal_get__beatToTimeConverter() const;
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_updateBeatmapDataOnInsert(bool value);
 
-  /// @brief Method .ctor, addr 0x26c08e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b8a70, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                     ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 

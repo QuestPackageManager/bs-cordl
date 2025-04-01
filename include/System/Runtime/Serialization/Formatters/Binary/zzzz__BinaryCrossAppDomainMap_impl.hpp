@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d0e9c4;
+  constexpr static std::size_t addrs = 0x3cfc4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::Read)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d0e9cc;
+  constexpr static std::size_t addrs = 0x3cfc4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d0e9f4;
+  constexpr static std::size_t addrs = 0x3cfc4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

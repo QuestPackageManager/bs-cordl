@@ -43,28 +43,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*();
 
-  /// @brief Method Equals, addr 0x4a917f4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a7f3d4, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a91778, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a7f358, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleBackgroundSize other);
 
-  /// @brief Method GetHashCode, addr 0x4a91884, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a7f464, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4a918ac, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a7f48c, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a916e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7f2c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x4a916f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7f2d4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundSize v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x4a916e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x4a7f2c0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x4a916a0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x4a7f280, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundSize get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
@@ -73,10 +73,10 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundSize_();
 
-  /// @brief Method op_Equality, addr 0x4a9170c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a7f2ec, size 0x60, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleBackgroundSize lhs, ::UnityEngine::UIElements::StyleBackgroundSize rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a9176c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a7f34c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleBackgroundSize op_Implicit___UnityEngine__UIElements__StyleBackgroundSize(::UnityEngine::UIElements::StyleKeyword keyword);
 
   // Ctor Parameters []

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4615d64;
+  constexpr static std::size_t addrs = 0x4603944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4615d94;
+  constexpr static std::size_t addrs = 0x4603974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand (*)(float_t)>(
     &::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::Create)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4615dc4;
+  constexpr static std::size_t addrs = 0x46039a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

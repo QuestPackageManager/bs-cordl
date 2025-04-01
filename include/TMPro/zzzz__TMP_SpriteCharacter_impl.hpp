@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4810408;
+  constexpr static std::size_t addrs = 0x47fdfe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), "get_name",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(::StringW)>(&::TMPro::TMP_SpriteCharacter::set_name)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4810238;
+  constexpr static std::size_t addrs = 0x47fde18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::get_hashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x481047c;
+  constexpr static std::size_t addrs = 0x47fe05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), "get_hashCode",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4810218;
+  constexpr static std::size_t addrs = 0x47fddf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), ".ctor",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, ::TMPro::TMP_SpriteGlyph*)>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x481048c;
+  constexpr static std::size_t addrs = 0x47fe06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, ::TMPro::TMP_SpriteAsset*, ::TMPro::TMP_SpriteGlyph*)>(
     &::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48104e0;
+  constexpr static std::size_t addrs = 0x47fe0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, uint32_t)>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4810540;
+  constexpr static std::size_t addrs = 0x47fe120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

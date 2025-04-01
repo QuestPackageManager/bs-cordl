@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings___c::*)()>(&::GlobalNamespace::ColorSchemesSettings___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f6068;
+  constexpr static std::size_t addrs = 0x26ee6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings___c*>::get(), ".ctor",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings___c::*)(::GlobalNamespace::ColorSchemeSO*)>(
     &::GlobalNamespace::ColorSchemesSettings___c::__ctor_b__19_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26f6070;
+  constexpr static std::size_t addrs = 0x26ee6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::get_overrideDefaultColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f57c4;
+  constexpr static std::size_t addrs = 0x26ede08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(bool)>(
     &::GlobalNamespace::ColorSchemesSettings::set_overrideDefaultColors)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26f57cc;
+  constexpr static std::size_t addrs = 0x26ede10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::StringW)>(
     &::GlobalNamespace::ColorSchemesSettings::set_selectedColorSchemeId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26f57f0;
+  constexpr static std::size_t addrs = 0x26ede34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::get_selectedColorSchemeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f5810;
+  constexpr static std::size_t addrs = 0x26ede54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorSchemesSettings_ColorOverrideType (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::get_colorOverrideType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f5818;
+  constexpr static std::size_t addrs = 0x26ede5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType)>(
     &::GlobalNamespace::ColorSchemesSettings::set_colorOverrideType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f5820;
+  constexpr static std::size_t addrs = 0x26ede64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::System::Action*)>(
     &::GlobalNamespace::ColorSchemesSettings::add_didChangeOverrideSettingsEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f5828;
+  constexpr static std::size_t addrs = 0x26ede6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::System::Action*)>(
     &::GlobalNamespace::ColorSchemesSettings::remove_didChangeOverrideSettingsEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f58c4;
+  constexpr static std::size_t addrs = 0x26edf08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>*)>(&::GlobalNamespace::ColorSchemesSettings::_ctor)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x26f5960;
+  constexpr static std::size_t addrs = 0x26edfa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*)>(&::GlobalNamespace::ColorSchemesSettings::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x26f5bbc;
+  constexpr static std::size_t addrs = 0x26ee200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::GetNumberOfColorSchemes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26f5cc4;
+  constexpr static std::size_t addrs = 0x26ee308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)(int32_t)>(
     &::GlobalNamespace::ColorSchemesSettings::GetColorSchemeForIdx)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26f5d0c;
+  constexpr static std::size_t addrs = 0x26ee350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)(::StringW)>(
     &::GlobalNamespace::ColorSchemesSettings::GetColorSchemeForId)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26f5d64;
+  constexpr static std::size_t addrs = 0x26ee3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorSchemesSettings::SetColorSchemeForId)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x26f5dbc;
+  constexpr static std::size_t addrs = 0x26ee400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::GetSelectedColorScheme)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26f5ee4;
+  constexpr static std::size_t addrs = 0x26ee528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::GetSelectedColorSchemeIdx)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x26f5f38;
+  constexpr static std::size_t addrs = 0x26ee57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::GetOverrideColorScheme)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26f5fd8;
+  constexpr static std::size_t addrs = 0x26ee61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::ShouldOverrideLightshowColors)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26f5fec;
+  constexpr static std::size_t addrs = 0x26ee630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(),

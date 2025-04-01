@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::get_X)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421f248;
+  constexpr static std::size_t addrs = 0x420ce08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::PointF>::get(), "get_X",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::get_Y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421f250;
+  constexpr static std::size_t addrs = 0x420ce10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::PointF>::get(), "get_Y",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Drawing::PointF, ::System::Drawing::PointF)>(&::System::Drawing::PointF::op_Equality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x421f258;
+  constexpr static std::size_t addrs = 0x420ce18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::PointF::*)(::System::Object*)>(&::System::Drawing::PointF::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x421f270;
+  constexpr static std::size_t addrs = 0x420ce30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::PointF::*)(::System::Drawing::PointF)>(&::System::Drawing::PointF::Equals)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x421f2f4;
+  constexpr static std::size_t addrs = 0x420ceb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::GetHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x421f310;
+  constexpr static std::size_t addrs = 0x420ced0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::ToString)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x421f3a8;
+  constexpr static std::size_t addrs = 0x420cf68;
 
   inline static ::MethodInfo const* methodInfo() {
 

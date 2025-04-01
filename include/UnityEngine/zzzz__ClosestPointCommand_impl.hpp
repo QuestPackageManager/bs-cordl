@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(
     ::UnityEngine::Vector3, int32_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::UnityEngine::ClosestPointCommand::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x491ebf8;
+  constexpr static std::size_t addrs = 0x490c7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Collider*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::UnityEngine::ClosestPointCommand::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x491ec28;
+  constexpr static std::size_t addrs = 0x490c808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ecb4;
+  constexpr static std::size_t addrs = 0x490c894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ClosestPointCommand>::get(), "get_point",
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ClosestPointCommand::set_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ecc0;
+  constexpr static std::size_t addrs = 0x490c8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_colliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491eccc;
+  constexpr static std::size_t addrs = 0x490c8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ClosestPointCommand>::get(),
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(int32_t)>(&::UnityEngine::ClosestPointCommand::set_colliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491ecd4;
+  constexpr static std::size_t addrs = 0x490c8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ClosestPointCommand::*)()>(
     &::UnityEngine::ClosestPointCommand::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ecdc;
+  constexpr static std::size_t addrs = 0x490c8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ClosestPointCommand>::get(), "get_position",
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ClosestPointCommand::set_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ece8;
+  constexpr static std::size_t addrs = 0x490c8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::ClosestPointCommand::*)()>(
     &::UnityEngine::ClosestPointCommand::get_rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ecf4;
+  constexpr static std::size_t addrs = 0x490c8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ClosestPointCommand>::get(), "get_rotation",
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::ClosestPointCommand::set_rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ed00;
+  constexpr static std::size_t addrs = 0x490c8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_scale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ed0c;
+  constexpr static std::size_t addrs = 0x490c8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ClosestPointCommand>::get(), "get_scale",
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ClosestPointCommand::set_scale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491ed18;
+  constexpr static std::size_t addrs = 0x490c8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeArray_1<::UnityEngine::ClosestPointCommand>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::ClosestPointCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x491ed24;
+  constexpr static std::size_t addrs = 0x490c904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +213,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                                ::cordl_internals::Ptr<void>, int32_t, ::cordl_internals::Ptr<void>, int32_t, int32_t)>(
     &::UnityEngine::ClosestPointCommand::ScheduleClosestPointCommandBatch)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x491ee74;
+  constexpr static std::size_t addrs = 0x490ca54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            int32_t, ::cordl_internals::Ptr<void>, int32_t, int32_t, ::ByRef<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::ClosestPointCommand::ScheduleClosestPointCommandBatch_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x491ef00;
+  constexpr static std::size_t addrs = 0x490cae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

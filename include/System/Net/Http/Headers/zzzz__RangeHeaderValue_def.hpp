@@ -46,23 +46,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x4234210, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4221dd0, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x42342d8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4221e98, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x42341b8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x4221d78, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x42349e8, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42225a8, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x4234354, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4221f14, size 0x548, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::RangeHeaderValue*> parsedValue);
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* const& __cordl_internal_get_ranges() const;
@@ -77,16 +77,16 @@ public:
 
   constexpr void __cordl_internal_set_unit(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4233f0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4221acc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4233f60, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4221b20, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method get_Ranges, addr 0x4234138, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Ranges, addr 0x4221cf8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();
 
-  /// @brief Method get_Unit, addr 0x42341b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x4221d70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Unit();
 
   /// @brief Convert to "::System::ICloneable"

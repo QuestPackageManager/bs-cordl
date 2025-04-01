@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x470702c;
+  constexpr static std::size_t addrs = 0x46f4c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::AddNode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x470705c;
+  constexpr static std::size_t addrs = 0x46f4c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::RemoveNode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4707060;
+  constexpr static std::size_t addrs = 0x46f4c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::ToString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4707064;
+  constexpr static std::size_t addrs = 0x46f4c44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)(double_t)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::FindSearchNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4707150;
+  constexpr static std::size_t addrs = 0x46f4d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::LocateNode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4707158;
+  constexpr static std::size_t addrs = 0x46f4d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)(double_t)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::LocateNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4707170;
+  constexpr static std::size_t addrs = 0x46f4d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::LocatePoint)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47071cc;
+  constexpr static std::size_t addrs = 0x46f4dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

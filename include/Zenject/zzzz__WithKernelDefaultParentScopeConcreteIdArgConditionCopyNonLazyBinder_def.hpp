@@ -29,13 +29,13 @@ public:
   // Declarations
   static inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel, addr 0x4b22738, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithKernel, addr 0x4b1032c, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKernel> inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
-  /// @brief Method .ctor, addr 0x4b1f7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0d398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
 protected:

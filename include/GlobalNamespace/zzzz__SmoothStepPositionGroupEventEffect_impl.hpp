@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothStepPositionGroupEventEffect::*)()>(
     &::GlobalNamespace::SmoothStepPositionGroupEventEffect::Awake)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3ba7918;
+  constexpr static std::size_t addrs = 0x3b95414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothStepPositionGroupEventEffect*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothStepPositionGroupEventEffect::*)()>(
     &::GlobalNamespace::SmoothStepPositionGroupEventEffect::Start)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3ba7a2c;
+  constexpr static std::size_t addrs = 0x3b95528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothStepPositionGroupEventEffect*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothStepPositionGroupEventEffect::*)()>(
     &::GlobalNamespace::SmoothStepPositionGroupEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba7b54;
+  constexpr static std::size_t addrs = 0x3b95650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothStepPositionGroupEventEffect*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothStepPositionGroupEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::SmoothStepPositionGroupEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ba7bf0;
+  constexpr static std::size_t addrs = 0x3b956ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SmoothStepPositionGroupEventEffect::*)(int32_t)>(
     &::GlobalNamespace::SmoothStepPositionGroupEventEffect::GetPositionForValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ba7cd0;
+  constexpr static std::size_t addrs = 0x3b957cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothStepPositionGroupEventEffect::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::SmoothStepPositionGroupEventEffect::SetPosition)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3ba7d28;
+  constexpr static std::size_t addrs = 0x3b95824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothStepPositionGroupEventEffect::*)()>(
     &::GlobalNamespace::SmoothStepPositionGroupEventEffect::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ba7db4;
+  constexpr static std::size_t addrs = 0x3b958b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothStepPositionGroupEventEffect*>::get(),

@@ -83,30 +83,30 @@ public:
   /// @brief Field _wasFirst, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__wasFirst, put = __cordl_internal_set__wasFirst)) bool _wasFirst;
 
-  /// @brief Method ChangeColor, addr 0x3bed780, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ChangeColor, addr 0x3bdb270, size 0x7c, virtual false, abstract: false, final false
   inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x3bedb48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x3bdb638, size 0xb0, virtual false, abstract: false, final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* obj);
 
-  /// @brief Method HandlePlayerFailed, addr 0x3beda50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerFailed, addr 0x3bdb540, size 0x18, virtual false, abstract: false, final false
   inline void HandlePlayerFailed();
 
   static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bed6a4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bdb194, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bed56c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bdb05c, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3bed7fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bdb2ec, size 0x4c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateColors, addr 0x3bed848, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x3bdb338, size 0x98, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePosition, addr 0x3bed8e0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method UpdatePosition, addr 0x3bdb3d0, size 0x170, virtual false, abstract: false, final false
   inline void UpdatePosition();
 
   constexpr float_t const& __cordl_internal_get__colorAnimationStartDuration() const;
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set__wasFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x3bedbf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdb6e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

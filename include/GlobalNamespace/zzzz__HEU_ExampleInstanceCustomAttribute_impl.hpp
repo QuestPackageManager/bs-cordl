@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::*)()>(
     &::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::InstancerCallback)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x3a125cc;
+  constexpr static std::size_t addrs = 0x39ff6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_OutputAttribute*)>(
     &::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::LogAttr)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3a12974;
+  constexpr static std::size_t addrs = 0x39ffa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::*)()>(
     &::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12ac8;
+  constexpr static std::size_t addrs = 0x39ffb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute*>::get(),

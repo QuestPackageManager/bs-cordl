@@ -21,7 +21,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE RuntimeEventDispatcher : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x4a46ea8, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4a34a88, size 0x418, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* Create();
 
 protected:

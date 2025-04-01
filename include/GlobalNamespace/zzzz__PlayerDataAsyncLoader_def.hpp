@@ -46,10 +46,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x27204a4, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2718ae8, size 0x2e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2720784, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2718dc8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -116,13 +116,13 @@ public:
   /// @brief Field _playerDataContent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataContent, put = __cordl_internal_set__playerDataContent)) ::StringW _playerDataContent;
 
-  /// @brief Method InstallBindings, addr 0x27203e4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2718a28, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2720290, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x27188d4, size 0x80, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2720310, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2718954, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::PlayerDataAsyncLoader* New_ctor();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataContent(::StringW value);
 
-  /// @brief Method .ctor, addr 0x272049c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718ae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

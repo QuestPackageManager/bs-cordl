@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::EventType, ::UnityEngine::Vector3, ::UnityEngine::Vector2, int32_t, int32_t, ::UnityEngine::EventModifiers)>(
         &::UnityEngine::UIElements::PointerEventHelper::GetPooled)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4a3e36c;
+  constexpr static std::size_t addrs = 0x4a2bf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

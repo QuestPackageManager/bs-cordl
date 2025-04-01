@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_Completed(bool value);
 
-  /// @brief Method .ctor, addr 0x3f9d750, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8b308, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -87,7 +87,7 @@ public:
   AssetFileDownloadUpdate(AssetFileDownloadUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15511 };
 
   /// @brief Field AssetFileId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetFileId;

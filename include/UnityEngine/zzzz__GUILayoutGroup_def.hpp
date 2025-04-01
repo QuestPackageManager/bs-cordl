@@ -104,36 +104,36 @@ public:
   /// @brief Field windowID, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_windowID, put = __cordl_internal_set_windowID)) int32_t windowID;
 
-  /// @brief Method Add, addr 0x48e97a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x48d7380, size 0xa4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::GUILayoutEntry* e);
 
-  /// @brief Method ApplyOptions, addr 0x48ef41c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ApplyOptions, addr 0x48dcffc, size 0x120, virtual true, abstract: false, final false
   inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method ApplyStyleSettings, addr 0x48ef53c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x48dd11c, size 0x74, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method CalcHeight, addr 0x48f0498, size 0x5fc, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x48de078, size 0x5fc, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x48ef5b0, size 0x6ac, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x48dd190, size 0x6ac, virtual true, abstract: false, final false
   inline void CalcWidth();
 
-  /// @brief Method GetNext, addr 0x48e9844, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x48d7424, size 0x2e4, virtual false, abstract: false, final false
   inline ::UnityEngine::GUILayoutEntry* GetNext();
 
   static inline ::UnityEngine::GUILayoutGroup* New_ctor();
 
-  /// @brief Method ResetCursor, addr 0x48e964c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetCursor, addr 0x48d722c, size 0x8, virtual false, abstract: false, final false
   inline void ResetCursor();
 
-  /// @brief Method SetHorizontal, addr 0x48efc5c, size 0x83c, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x48dd83c, size 0x83c, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x48f0a94, size 0x848, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x48de674, size 0x848, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
-  /// @brief Method ToString, addr 0x48f12dc, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48deebc, size 0x38c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* const& __cordl_internal_get_entries() const;
@@ -256,21 +256,21 @@ public:
 
   constexpr void __cordl_internal_set_windowID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48e8ce0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d68c0, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::GUILayoutEntry* getStaticF_none();
 
-  /// @brief Method get_marginBottom, addr 0x48ef414, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginBottom, addr 0x48dcff4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginBottom();
 
-  /// @brief Method get_marginLeft, addr 0x48ef3fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginLeft, addr 0x48dcfdc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginLeft();
 
-  /// @brief Method get_marginRight, addr 0x48ef404, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginRight, addr 0x48dcfe4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginRight();
 
-  /// @brief Method get_marginTop, addr 0x48ef40c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginTop, addr 0x48dcfec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginTop();
 
   static inline void setStaticF_none(::UnityEngine::GUILayoutEntry* value);

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NetworkPlayerTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerTableCell::get_showSeparator)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c1f624;
+  constexpr static std::size_t addrs = 0x3c0d120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(bool)>(
     &::GlobalNamespace::NetworkPlayerTableCell::set_showSeparator)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c1ea34;
+  constexpr static std::size_t addrs = 0x3c0c530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(::StringW, bool, bool, bool, bool)>(
     &::GlobalNamespace::NetworkPlayerTableCell::SetData)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c1e998;
+  constexpr static std::size_t addrs = 0x3c0c494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,12 +60,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::NetworkPlayerTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c1f854;
+  constexpr static std::size_t addrs = 0x3c0d350;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 11));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 22));
     return ___internal_method;
   }
 };
@@ -75,12 +75,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::NetworkPlayerTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c1f858;
+  constexpr static std::size_t addrs = 0x3c0d354;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 23));
     return ___internal_method;
   }
 };
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)()>(&::GlobalNamespace::NetworkPlayerTableCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3c1f640;
+  constexpr static std::size_t addrs = 0x3c0d13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::NetworkPlayerTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerTableCell::get_activeColor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c1f85c;
+  constexpr static std::size_t addrs = 0x3c0d358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)()>(&::GlobalNamespace::NetworkPlayerTableCell::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c1f8b8;
+  constexpr static std::size_t addrs = 0x3c0d3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), ".ctor",
@@ -277,12 +277,12 @@ inline void GlobalNamespace::NetworkPlayerTableCell::SetData(::StringW userName,
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 11)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transitionType);
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transitionType);
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::RefreshVisuals() {

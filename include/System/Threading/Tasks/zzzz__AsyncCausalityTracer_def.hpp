@@ -29,19 +29,19 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TraceOperationCompletion, addr 0x3e79690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x3e6718c, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
-  /// @brief Method TraceOperationCreation, addr 0x3e7968c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x3e67188, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x3e762c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x3e63dc0, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x3e79694, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkStart, addr 0x3e67190, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method get_LoggingOn, addr 0x3e762bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoggingOn, addr 0x3e63db8, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
 protected:

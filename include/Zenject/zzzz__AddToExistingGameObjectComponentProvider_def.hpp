@@ -47,7 +47,7 @@ public:
   /// @brief Field _gameObject, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject)) ::UnityW<::UnityEngine::GameObject> _gameObject;
 
-  /// @brief Method GetGameObject, addr 0x4b48c90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetGameObject, addr 0x4b36884, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   static inline ::Zenject::AddToExistingGameObjectComponentProvider* New_ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
@@ -61,12 +61,12 @@ public:
 
   constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x4b48b70, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b36764, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive, addr 0x4b48c88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x4b3687c, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
 protected:

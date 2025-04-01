@@ -63,7 +63,7 @@ public:
   static ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType const Store;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13243 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -145,25 +145,25 @@ public:
 
   constexpr void __cordl_internal_set__minNumberOfNotOwnedPacks(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26fdcf4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f6338, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customDlcPromoBanner, addr 0x26fdcdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customDlcPromoBanner, addr 0x26f6320, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_customDlcPromoBanner();
 
-  /// @brief Method get_cutOffTest, addr 0x26fdcc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutOffTest, addr 0x26f6308, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cutOffTest();
 
-  /// @brief Method get_defaultPromoInfoId, addr 0x26fdce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPromoInfoId, addr 0x26f6328, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultPromoInfoId();
 
-  /// @brief Method get_dlcPromoPanelType, addr 0x26fdcd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dlcPromoPanelType, addr 0x26f6318, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType get_dlcPromoPanelType();
 
-  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x26fdccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x26f6310, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minNumberOfNotOwnedPacks();
 
-  /// @brief Method set_defaultPromoInfoId, addr 0x26fdcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultPromoInfoId, addr 0x26f6330, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultPromoInfoId(::StringW value);
 
 protected:
@@ -181,7 +181,7 @@ public:
   DlcPromoPanelDataSO(DlcPromoPanelDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13244 };
 
   /// @brief Field _cutOffTest, offset: 0x18, size: 0x4, def value: None
   int32_t ____cutOffTest;

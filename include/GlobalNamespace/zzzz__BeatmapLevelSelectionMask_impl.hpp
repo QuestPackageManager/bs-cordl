@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelSelectionMask::*)(
     ::GlobalNamespace::BeatmapDifficultyMask, ::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::BeatmapLevelSelectionMask::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22be098;
+  constexpr static std::size_t addrs = 0x22b6228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::System::Object*)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22be0b0;
+  constexpr static std::size_t addrs = 0x22b6240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Equals)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22be140;
+  constexpr static std::size_t addrs = 0x22b62d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapLevelSelectionMask::*)()>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22be254;
+  constexpr static std::size_t addrs = 0x22b63e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::LiteNetLib::Utils::NetDataWriter*, uint32_t)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Serialize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22be280;
+  constexpr static std::size_t addrs = 0x22b6410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (*)(::LiteNetLib::Utils::NetDataReader*, uint32_t)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Deserialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22be2d0;
+  constexpr static std::size_t addrs = 0x22b6460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::op_Equality)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22be350;
+  constexpr static std::size_t addrs = 0x22b64e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::op_Inequality)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22be3d8;
+  constexpr static std::size_t addrs = 0x22b6568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

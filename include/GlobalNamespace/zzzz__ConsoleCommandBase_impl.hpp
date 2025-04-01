@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConsoleCommandBase___c::*)()>(&::GlobalNamespace::ConsoleCommandBase___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b192c4;
+  constexpr static std::size_t addrs = 0x3b062f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConsoleCommandBase___c*>::get(), ".ctor",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConsoleCommandBase___c::*)(::StringW)>(
     &::GlobalNamespace::ConsoleCommandBase___c::_ParseUnmatchedArguments_b__11_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3b192cc;
+  constexpr static std::size_t addrs = 0x3b062f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConsoleCommandBase___c__DisplayClass11_0::*)()>(
     &::GlobalNamespace::ConsoleCommandBase___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b190e4;
+  constexpr static std::size_t addrs = 0x3b06110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConsoleCommandBase___c__DisplayClass11_0::*)(::GlobalNamespace::ArgumentBase*)>(
     &::GlobalNamespace::ConsoleCommandBase___c__DisplayClass11_0::_ParseUnmatchedArguments_b__1)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b19320;
+  constexpr static std::size_t addrs = 0x3b0634c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConsoleCommandBase::*)()>(&::GlobalNamespace::ConsoleCommandBase::Initialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b17bf4;
+  constexpr static std::size_t addrs = 0x3b04c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConsoleCommandBase*>::get(), "Initialize",
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> (
     ::GlobalNamespace::ConsoleCommandBase::*)()>(&::GlobalNamespace::ConsoleCommandBase::GetArguments)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x3b17c0c;
+  constexpr static std::size_t addrs = 0x3b04c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConsoleCommandBase*>::get(), "GetArguments",
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DebugConsoleController_ConsoleMessage (::GlobalNamespace::ConsoleCommandBase::*)()>(
     &::GlobalNamespace::ConsoleCommandBase::GetArgumentsText)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3b17e70;
+  constexpr static std::size_t addrs = 0x3b04e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConsoleCommandBase*>::get(),
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ConsoleCommandBase::*)(::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>*)>(
     &::GlobalNamespace::ConsoleCommandBase::ExecuteAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b180d4;
+  constexpr static std::size_t addrs = 0x3b05100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +254,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>*)>(
     &::GlobalNamespace::ConsoleCommandBase::AreArgumentsValid)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b181a4;
+  constexpr static std::size_t addrs = 0x3b051d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,7 +273,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                               ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>*)>(
     &::GlobalNamespace::ConsoleCommandBase::ParseUnmatchedArguments)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x3b187b0;
+  constexpr static std::size_t addrs = 0x3b057dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ConsoleCommandBase::*)(::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>*)>(
     &::GlobalNamespace::ConsoleCommandBase::ParseMatchedArguments)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x3b1825c;
+  constexpr static std::size_t addrs = 0x3b05288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConsoleCommandBase::*)()>(&::GlobalNamespace::ConsoleCommandBase::Reset)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b191a8;
+  constexpr static std::size_t addrs = 0x3b061d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -324,7 +324,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ArgumentBase*>*, ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>*)>(
     &::GlobalNamespace::ConsoleCommandBase::GetInvalidArgumentMessage)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x3b18c08;
+  constexpr static std::size_t addrs = 0x3b05c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ConsoleCommandBase::*)(::GlobalNamespace::ConsoleCommandBase*)>(
     &::GlobalNamespace::ConsoleCommandBase::CompareTo)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3b1920c;
+  constexpr static std::size_t addrs = 0x3b06238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConsoleCommandBase::*)()>(&::GlobalNamespace::ConsoleCommandBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b19260;
+  constexpr static std::size_t addrs = 0x3b0628c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConsoleCommandBase*>::get(), ".ctor",

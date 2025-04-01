@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__pricePerBundle(float_t value);
 
-  /// @brief Method .ctor, addr 0x26f0740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e8d7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelsCount, addr 0x26f0738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsCount, addr 0x26e8d74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelsCount();
 
-  /// @brief Method get_pricePerBundle, addr 0x26f0730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pricePerBundle, addr 0x26e8d6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pricePerBundle();
 
 protected:
@@ -76,7 +76,7 @@ public:
   SonyLevelPacksPriceModel_PricePerBundlePair(SonyLevelPacksPriceModel_PricePerBundlePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13185 };
 
   /// @brief Field _pricePerBundle, offset: 0x10, size: 0x4, def value: None
   float_t ____pricePerBundle;
@@ -118,7 +118,7 @@ public:
 
   __declspec(property(get = get_pricePerLevel)) float_t pricePerLevel;
 
-  /// @brief Method GetPricePerBundlePair, addr 0x26f0670, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetPricePerBundlePair, addr 0x26e8cac, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair* GetPricePerBundlePair(int32_t levelsCount);
 
   static inline ::GlobalNamespace::SonyLevelPacksPriceModel* New_ctor();
@@ -138,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set__pricePerLevel(float_t value);
 
-  /// @brief Method .ctor, addr 0x26f06cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e8d08, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pricePairBundlePairs, addr 0x26f0668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pricePairBundlePairs, addr 0x26e8ca4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair*, ::Array<::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair*>*> get_pricePairBundlePairs();
 
-  /// @brief Method get_pricePerLevel, addr 0x26f0660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pricePerLevel, addr 0x26e8c9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pricePerLevel();
 
 protected:
@@ -162,7 +162,7 @@ public:
   SonyLevelPacksPriceModel(SonyLevelPacksPriceModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13186 };
 
   /// @brief Field _pricePerLevel, offset: 0x18, size: 0x4, def value: None
   float_t ____pricePerLevel;

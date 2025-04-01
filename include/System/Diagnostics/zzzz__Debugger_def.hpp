@@ -23,16 +23,16 @@ public:
   /// @brief Field DefaultCategory, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_DefaultCategory, put = setStaticF_DefaultCategory)) ::StringW DefaultCategory;
 
-  /// @brief Method IsLogging, addr 0x3dc3ef4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsLogging, addr 0x3db19f0, size 0x4, virtual false, abstract: false, final false
   static inline bool IsLogging();
 
-  /// @brief Method Log, addr 0x3dc3efc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x3db19f8, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(int32_t level, ::StringW category, ::StringW message);
 
-  /// @brief Method Log_icall, addr 0x3dc3ef8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Log_icall, addr 0x3db19f4, size 0x4, virtual false, abstract: false, final false
   static inline void Log_icall(int32_t level, ::ByRef<::StringW> category, ::ByRef<::StringW> message);
 
-  /// @brief Method NotifyOfCrossThreadDependency, addr 0x3dc3f68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfCrossThreadDependency, addr 0x3db1a64, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyOfCrossThreadDependency();
 
   static inline ::StringW getStaticF_DefaultCategory();

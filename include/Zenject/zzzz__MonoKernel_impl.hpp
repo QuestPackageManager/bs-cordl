@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::get_IsDestroyed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57b88;
+  constexpr static std::size_t addrs = 0x4b4577c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MonoKernel*>::get(), "get_IsDestroyed",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b57b90;
+  constexpr static std::size_t addrs = 0x4b45784;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::Initialize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4b57b94;
+  constexpr static std::size_t addrs = 0x4b45788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MonoKernel*>::get(), "Initialize",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::Update)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4b57bc8;
+  constexpr static std::size_t addrs = 0x4b457bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::FixedUpdate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4b57bd8;
+  constexpr static std::size_t addrs = 0x4b457cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::LateUpdate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4b57be8;
+  constexpr static std::size_t addrs = 0x4b457dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::OnDestroy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b57bf8;
+  constexpr static std::size_t addrs = 0x4b457ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MonoKernel::*)()>(&::Zenject::MonoKernel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b56f48;
+  constexpr static std::size_t addrs = 0x4b44b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MonoKernel*>::get(), ".ctor",
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::MonoKernel::__zenFieldSetter0)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4b57c4c;
+  constexpr static std::size_t addrs = 0x4b45840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::MonoKernel::__zenFieldSetter1)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4b57d80;
+  constexpr static std::size_t addrs = 0x4b45974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::MonoKernel::__zenFieldSetter2)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4b57eb4;
+  constexpr static std::size_t addrs = 0x4b45aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::MonoKernel::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x4b57fe8;
+  constexpr static std::size_t addrs = 0x4b45bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MonoKernel*>::get(), "__zenCreateInjectTypeInfo",

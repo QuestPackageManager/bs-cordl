@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25597b4;
+  constexpr static std::size_t addrs = 0x2551944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::System::Collections::Hashtable*)>(&::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2559828;
+  constexpr static std::size_t addrs = 0x25519b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2559850;
+  constexpr static std::size_t addrs = 0x25519e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::*)()>(
     &::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2559878;
+  constexpr static std::size_t addrs = 0x2551a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*>::get(), "get_Key",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::*)(::System::Object*)>(
     &::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2559880;
+  constexpr static std::size_t addrs = 0x2551a10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::*)()>(
     &::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2559924;
+  constexpr static std::size_t addrs = 0x2551ab4;
 
   inline static ::MethodInfo const* methodInfo() {
 

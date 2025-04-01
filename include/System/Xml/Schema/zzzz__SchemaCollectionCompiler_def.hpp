@@ -142,203 +142,203 @@ public:
   /// @brief Field schema, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_schema, put = __cordl_internal_set_schema)) ::System::Xml::Schema::XmlSchema* schema;
 
-  /// @brief Method BuildParticleContentModel, addr 0x4296348, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method BuildParticleContentModel, addr 0x4283f08, size 0x4f4, virtual false, abstract: false, final false
   inline void BuildParticleContentModel(::System::Xml::Schema::ParticleContentValidator* contentValidator, ::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method CalculateEffectiveTotalRange, addr 0x429548c, size 0x7d8, virtual false, abstract: false, final false
+  /// @brief Method CalculateEffectiveTotalRange, addr 0x428304c, size 0x7d8, virtual false, abstract: false, final false
   inline void CalculateEffectiveTotalRange(::System::Xml::Schema::XmlSchemaParticle* particle, ::ByRef<::System::Decimal> minOccurs, ::ByRef<::System::Decimal> maxOccurs);
 
-  /// @brief Method CalculateSequenceRange, addr 0x4295e40, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method CalculateSequenceRange, addr 0x4283a00, size 0x3bc, virtual false, abstract: false, final false
   inline void CalculateSequenceRange(::System::Xml::Schema::XmlSchemaSequence* sequence, ::ByRef<::System::Decimal> minOccurs, ::ByRef<::System::Decimal> maxOccurs);
 
-  /// @brief Method CannonicalizeAll, addr 0x42936a4, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method CannonicalizeAll, addr 0x4281264, size 0x494, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* CannonicalizeAll(::System::Xml::Schema::XmlSchemaAll* all, bool root, bool substitution);
 
-  /// @brief Method CannonicalizeChoice, addr 0x4293b38, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method CannonicalizeChoice, addr 0x42816f8, size 0x500, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* CannonicalizeChoice(::System::Xml::Schema::XmlSchemaChoice* choice, bool root, bool substitution);
 
-  /// @brief Method CannonicalizeElement, addr 0x429300c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CannonicalizeElement, addr 0x4280bcc, size 0x150, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* CannonicalizeElement(::System::Xml::Schema::XmlSchemaElement* element, bool substitution);
 
-  /// @brief Method CannonicalizeGroupRef, addr 0x429315c, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method CannonicalizeGroupRef, addr 0x4280d1c, size 0x548, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* CannonicalizeGroupRef(::System::Xml::Schema::XmlSchemaGroupRef* groupRef, bool root, bool substitution);
 
-  /// @brief Method CannonicalizeParticle, addr 0x428f1e4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CannonicalizeParticle, addr 0x427cda4, size 0x24c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* CannonicalizeParticle(::System::Xml::Schema::XmlSchemaParticle* particle, bool root, bool substitution);
 
-  /// @brief Method CannonicalizeSequence, addr 0x4294038, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method CannonicalizeSequence, addr 0x4281bf8, size 0x4a0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* CannonicalizeSequence(::System::Xml::Schema::XmlSchemaSequence* sequence, bool root, bool substitution);
 
-  /// @brief Method CheckParticleDerivation, addr 0x428ecbc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CheckParticleDerivation, addr 0x427c87c, size 0x12c, virtual false, abstract: false, final false
   inline void CheckParticleDerivation(::System::Xml::Schema::XmlSchemaComplexType* complexType);
 
-  /// @brief Method CheckSubstitutionGroup, addr 0x428ede8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CheckSubstitutionGroup, addr 0x427c9a8, size 0x1d4, virtual false, abstract: false, final false
   inline void CheckSubstitutionGroup(::System::Xml::Schema::XmlSchemaSubstitutionGroup* substitutionGroup);
 
-  /// @brief Method CheckUnionType, addr 0x428f91c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CheckUnionType, addr 0x427d4dc, size 0x118, virtual false, abstract: false, final false
   inline void CheckUnionType(::System::Xml::Schema::XmlSchemaSimpleType* unionMember, ::System::Collections::ArrayList* memberTypeDefinitions, ::System::Xml::Schema::XmlSchemaSimpleType* parentType);
 
-  /// @brief Method Cleanup, addr 0x428634c, size 0xefc, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x4273f0c, size 0xefc, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Cleanup, addr 0x428a7fc, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x42783bc, size 0x610, virtual false, abstract: false, final false
   static inline void Cleanup(::System::Xml::Schema::XmlSchema* schema);
 
-  /// @brief Method CleanupAttribute, addr 0x428a7cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CleanupAttribute, addr 0x427838c, size 0x30, virtual false, abstract: false, final false
   static inline void CleanupAttribute(::System::Xml::Schema::XmlSchemaAttribute* attribute);
 
-  /// @brief Method CleanupAttributeGroup, addr 0x428a2e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CleanupAttributeGroup, addr 0x4277ea0, size 0x3c, virtual false, abstract: false, final false
   static inline void CleanupAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup);
 
-  /// @brief Method CleanupAttributes, addr 0x428efbc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CleanupAttributes, addr 0x427cb7c, size 0xc4, virtual false, abstract: false, final false
   static inline void CleanupAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* attributes);
 
-  /// @brief Method CleanupComplexType, addr 0x428a31c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CleanupComplexType, addr 0x4277edc, size 0x324, virtual false, abstract: false, final false
   static inline void CleanupComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType);
 
-  /// @brief Method CleanupElement, addr 0x428a658, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CleanupElement, addr 0x4278218, size 0x174, virtual false, abstract: false, final false
   static inline void CleanupElement(::System::Xml::Schema::XmlSchemaElement* element);
 
-  /// @brief Method CleanupGroup, addr 0x428a2bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CleanupGroup, addr 0x4277e7c, size 0x24, virtual false, abstract: false, final false
   static inline void CleanupGroup(::System::Xml::Schema::XmlSchemaGroup* group);
 
-  /// @brief Method CleanupParticle, addr 0x428f080, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CleanupParticle, addr 0x427cc40, size 0x164, virtual false, abstract: false, final false
   static inline void CleanupParticle(::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method CleanupSimpleType, addr 0x428a640, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CleanupSimpleType, addr 0x4278200, size 0x18, virtual false, abstract: false, final false
   static inline void CleanupSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* simpleType);
 
-  /// @brief Method Compile, addr 0x4287248, size 0x2058, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x4274e08, size 0x2058, virtual false, abstract: false, final false
   inline void Compile();
 
-  /// @brief Method CompileAnyAttributeIntersection, addr 0x4296220, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CompileAnyAttributeIntersection, addr 0x4283de0, size 0x94, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* CompileAnyAttributeIntersection(::System::Xml::Schema::XmlSchemaAnyAttribute* a, ::System::Xml::Schema::XmlSchemaAnyAttribute* b);
 
-  /// @brief Method CompileAnyAttributeUnion, addr 0x42962b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CompileAnyAttributeUnion, addr 0x4283e74, size 0x94, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* CompileAnyAttributeUnion(::System::Xml::Schema::XmlSchemaAnyAttribute* a, ::System::Xml::Schema::XmlSchemaAnyAttribute* b);
 
-  /// @brief Method CompileAttribute, addr 0x428dc44, size 0x92c, virtual false, abstract: false, final false
+  /// @brief Method CompileAttribute, addr 0x427b804, size 0x92c, virtual false, abstract: false, final false
   inline void CompileAttribute(::System::Xml::Schema::XmlSchemaAttribute* xa);
 
-  /// @brief Method CompileAttributeGroup, addr 0x428b358, size 0x74c, virtual false, abstract: false, final false
+  /// @brief Method CompileAttributeGroup, addr 0x4278f18, size 0x74c, virtual false, abstract: false, final false
   inline void CompileAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup);
 
-  /// @brief Method CompileBaseMemberTypes, addr 0x428f57c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CompileBaseMemberTypes, addr 0x427d13c, size 0x3a0, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> CompileBaseMemberTypes(::System::Xml::Schema::XmlSchemaSimpleType* simpleType);
 
-  /// @brief Method CompileCompexTypeElements, addr 0x428ebe8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CompileCompexTypeElements, addr 0x427c7a8, size 0xd4, virtual false, abstract: false, final false
   inline void CompileCompexTypeElements(::System::Xml::Schema::XmlSchemaComplexType* complexType);
 
-  /// @brief Method CompileComplexContent, addr 0x4291e00, size 0xa2c, virtual false, abstract: false, final false
+  /// @brief Method CompileComplexContent, addr 0x427f9c0, size 0xa2c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ContentValidator* CompileComplexContent(::System::Xml::Schema::XmlSchemaComplexType* complexType);
 
-  /// @brief Method CompileComplexContentExtension, addr 0x4290098, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method CompileComplexContentExtension, addr 0x427dc58, size 0x3c8, virtual false, abstract: false, final false
   inline void CompileComplexContentExtension(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaComplexContent* complexContent,
                                              ::System::Xml::Schema::XmlSchemaComplexContentExtension* complexExtension);
 
-  /// @brief Method CompileComplexContentRestriction, addr 0x4290460, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CompileComplexContentRestriction, addr 0x427e020, size 0x2d8, virtual false, abstract: false, final false
   inline void CompileComplexContentRestriction(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaComplexContent* complexContent,
                                                ::System::Xml::Schema::XmlSchemaComplexContentRestriction* complexRestriction);
 
-  /// @brief Method CompileComplexType, addr 0x428baa4, size 0xcd0, virtual false, abstract: false, final false
+  /// @brief Method CompileComplexType, addr 0x4279664, size 0xcd0, virtual false, abstract: false, final false
   inline void CompileComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType);
 
-  /// @brief Method CompileContentTypeParticle, addr 0x4291c2c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CompileContentTypeParticle, addr 0x427f7ec, size 0x164, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* CompileContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* particle, bool substitution);
 
-  /// @brief Method CompileElement, addr 0x428d030, size 0xc14, virtual false, abstract: false, final false
+  /// @brief Method CompileElement, addr 0x427abf0, size 0xc14, virtual false, abstract: false, final false
   inline void CompileElement(::System::Xml::Schema::XmlSchemaElement* xe);
 
-  /// @brief Method CompileGroup, addr 0x428b28c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CompileGroup, addr 0x4278e4c, size 0xcc, virtual false, abstract: false, final false
   inline void CompileGroup(::System::Xml::Schema::XmlSchemaGroup* group);
 
-  /// @brief Method CompileIdentityConstraint, addr 0x428e570, size 0x678, virtual false, abstract: false, final false
+  /// @brief Method CompileIdentityConstraint, addr 0x427c130, size 0x678, virtual false, abstract: false, final false
   inline void CompileIdentityConstraint(::System::Xml::Schema::XmlSchemaIdentityConstraint* xi);
 
-  /// @brief Method CompileLocalAttributes, addr 0x4290738, size 0x14f4, virtual false, abstract: false, final false
+  /// @brief Method CompileLocalAttributes, addr 0x427e2f8, size 0x14f4, virtual false, abstract: false, final false
   inline void CompileLocalAttributes(::System::Xml::Schema::XmlSchemaComplexType* baseType, ::System::Xml::Schema::XmlSchemaComplexType* derivedType,
                                      ::System::Xml::Schema::XmlSchemaObjectCollection* attributes, ::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute,
                                      ::System::Xml::Schema::XmlSchemaDerivationMethod derivedBy);
 
-  /// @brief Method CompileParticleElements, addr 0x429683c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CompileParticleElements, addr 0x42843fc, size 0x254, virtual false, abstract: false, final false
   inline void CompileParticleElements(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method CompileSimpleContentExtension, addr 0x428fa34, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method CompileSimpleContentExtension, addr 0x427d5f4, size 0x240, virtual false, abstract: false, final false
   inline void CompileSimpleContentExtension(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaSimpleContentExtension* simpleExtension);
 
-  /// @brief Method CompileSimpleContentRestriction, addr 0x428fc74, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method CompileSimpleContentRestriction, addr 0x427d834, size 0x424, virtual false, abstract: false, final false
   inline void CompileSimpleContentRestriction(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaSimpleContentRestriction* simpleRestriction);
 
-  /// @brief Method CompileSimpleType, addr 0x428c774, size 0x8bc, virtual false, abstract: false, final false
+  /// @brief Method CompileSimpleType, addr 0x427a334, size 0x8bc, virtual false, abstract: false, final false
   inline void CompileSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* simpleType);
 
-  /// @brief Method CompileSubstitutionGroup, addr 0x428ae0c, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method CompileSubstitutionGroup, addr 0x42789cc, size 0x480, virtual false, abstract: false, final false
   inline void CompileSubstitutionGroup(::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat* substitutionGroup);
 
-  /// @brief Method Execute, addr 0x4285e68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x4273a28, size 0x6c, virtual false, abstract: false, final false
   inline bool Execute(::System::Xml::Schema::XmlSchema* schema, ::System::Xml::Schema::SchemaInfo* schemaInfo, bool compileContentModel);
 
-  /// @brief Method GetAnySchemaType, addr 0x429282c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetAnySchemaType, addr 0x42803ec, size 0x164, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* GetAnySchemaType(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetComplexType, addr 0x4292990, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetComplexType, addr 0x4280550, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaComplexType* GetComplexType(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetMappingParticle, addr 0x4295d4c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetMappingParticle, addr 0x428390c, size 0xf4, virtual false, abstract: false, final false
   inline int32_t GetMappingParticle(::System::Xml::Schema::XmlSchemaParticle* particle, ::System::Xml::Schema::XmlSchemaObjectCollection* collection);
 
-  /// @brief Method GetSchemaContentType, addr 0x4291d90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaContentType, addr 0x427f950, size 0x70, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentType GetSchemaContentType(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaComplexContent* complexContent,
                                                                           ::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method GetSimpleType, addr 0x428f430, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleType, addr 0x427cff0, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* GetSimpleType(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method IsAnyFromAny, addr 0x429470c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsAnyFromAny, addr 0x42822cc, size 0x4c, virtual false, abstract: false, final false
   inline bool IsAnyFromAny(::System::Xml::Schema::XmlSchemaAny* derivedAny, ::System::Xml::Schema::XmlSchemaAny* baseAny);
 
-  /// @brief Method IsElementFromAny, addr 0x42946b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsElementFromAny, addr 0x4282270, size 0x5c, virtual false, abstract: false, final false
   inline bool IsElementFromAny(::System::Xml::Schema::XmlSchemaElement* derivedElement, ::System::Xml::Schema::XmlSchemaAny* baseAny);
 
-  /// @brief Method IsElementFromElement, addr 0x429459c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsElementFromElement, addr 0x428215c, size 0x114, virtual false, abstract: false, final false
   inline bool IsElementFromElement(::System::Xml::Schema::XmlSchemaElement* derivedElement, ::System::Xml::Schema::XmlSchemaElement* baseElement);
 
-  /// @brief Method IsElementFromGroupBase, addr 0x4294960, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method IsElementFromGroupBase, addr 0x4282520, size 0x368, virtual false, abstract: false, final false
   inline bool IsElementFromGroupBase(::System::Xml::Schema::XmlSchemaElement* derivedElement, ::System::Xml::Schema::XmlSchemaGroupBase* baseGroupBase, bool skipEmptableOnly);
 
-  /// @brief Method IsGroupBaseFromAny, addr 0x4294758, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method IsGroupBaseFromAny, addr 0x4282318, size 0x208, virtual false, abstract: false, final false
   inline bool IsGroupBaseFromAny(::System::Xml::Schema::XmlSchemaGroupBase* derivedGroupBase, ::System::Xml::Schema::XmlSchemaAny* baseAny);
 
-  /// @brief Method IsGroupBaseFromGroupBase, addr 0x4294cc8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method IsGroupBaseFromGroupBase, addr 0x4282888, size 0x274, virtual false, abstract: false, final false
   inline bool IsGroupBaseFromGroupBase(::System::Xml::Schema::XmlSchemaGroupBase* derivedGroupBase, ::System::Xml::Schema::XmlSchemaGroupBase* baseGroupBase, bool skipEmptableOnly);
 
-  /// @brief Method IsParticleEmptiable, addr 0x42944d8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsParticleEmptiable, addr 0x4282098, size 0xc4, virtual false, abstract: false, final false
   inline bool IsParticleEmptiable(::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method IsSequenceFromAll, addr 0x4294f3c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method IsSequenceFromAll, addr 0x4282afc, size 0x30c, virtual false, abstract: false, final false
   inline bool IsSequenceFromAll(::System::Xml::Schema::XmlSchemaSequence* derivedSequence, ::System::Xml::Schema::XmlSchemaAll* baseAll);
 
-  /// @brief Method IsSequenceFromChoice, addr 0x4295248, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method IsSequenceFromChoice, addr 0x4282e08, size 0x200, virtual false, abstract: false, final false
   inline bool IsSequenceFromChoice(::System::Xml::Schema::XmlSchemaSequence* derivedSequence, ::System::Xml::Schema::XmlSchemaChoice* baseChoice);
 
-  /// @brief Method IsValidOccurrenceRangeRestriction, addr 0x4295448, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsValidOccurrenceRangeRestriction, addr 0x4283008, size 0x44, virtual false, abstract: false, final false
   inline bool IsValidOccurrenceRangeRestriction(::System::Xml::Schema::XmlSchemaParticle* derivedParticle, ::System::Xml::Schema::XmlSchemaParticle* baseParticle);
 
-  /// @brief Method IsValidOccurrenceRangeRestriction, addr 0x4295c64, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsValidOccurrenceRangeRestriction, addr 0x4283824, size 0xe8, virtual false, abstract: false, final false
   inline bool IsValidOccurrenceRangeRestriction(::System::Decimal minOccurs, ::System::Decimal maxOccurs, ::System::Decimal baseMinOccurs, ::System::Decimal baseMaxOccurs);
 
-  /// @brief Method IsValidRestriction, addr 0x4292a44, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method IsValidRestriction, addr 0x4280604, size 0x5c8, virtual false, abstract: false, final false
   inline bool IsValidRestriction(::System::Xml::Schema::XmlSchemaParticle* derivedParticle, ::System::Xml::Schema::XmlSchemaParticle* baseParticle);
 
   static inline ::System::Xml::Schema::SchemaCollectionCompiler* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method Output, addr 0x42892a0, size 0x101c, virtual false, abstract: false, final false
+  /// @brief Method Output, addr 0x4276e60, size 0x101c, virtual false, abstract: false, final false
   inline void Output(::System::Xml::Schema::SchemaInfo* schemaInfo);
 
-  /// @brief Method Prepare, addr 0x4285ed4, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method Prepare, addr 0x4273a94, size 0x478, virtual false, abstract: false, final false
   inline void Prepare();
 
-  /// @brief Method PushComplexType, addr 0x42961fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PushComplexType, addr 0x4283dbc, size 0x24, virtual false, abstract: false, final false
   inline void PushComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType);
 
   constexpr bool const& __cordl_internal_get_compileContentModel() const;
@@ -365,7 +365,7 @@ public:
 
   constexpr void __cordl_internal_set_schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method .ctor, addr 0x4285db8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4273978, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
 protected:

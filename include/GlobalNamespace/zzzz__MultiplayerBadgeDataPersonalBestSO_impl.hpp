@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::GlobalNamespace::PlayerDataModel*,
                                                               ::ByRef<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::CalculateBadgeData)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x26de8dc;
+  constexpr static std::size_t addrs = 0x26d6a6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26dee34;
+  constexpr static std::size_t addrs = 0x26d6fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO*>::get(),

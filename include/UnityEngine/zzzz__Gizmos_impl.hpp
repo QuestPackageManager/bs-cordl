@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Gizmos::DrawLine)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x48804a8;
+  constexpr static std::size_t addrs = 0x486e088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, float_t)>(&::UnityEngine::Gizmos::DrawWireSphere)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x488053c;
+  constexpr static std::size_t addrs = 0x486e11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, float_t)>(&::UnityEngine::Gizmos::DrawSphere)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48805dc;
+  constexpr static std::size_t addrs = 0x486e1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Gizmos::DrawWireCube)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x488067c;
+  constexpr static std::size_t addrs = 0x486e25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Gizmos::DrawCube)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4880710;
+  constexpr static std::size_t addrs = 0x486e2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Color)>(&::UnityEngine::Gizmos::set_color)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48807a4;
+  constexpr static std::size_t addrs = 0x486e384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Matrix4x4)>(&::UnityEngine::Gizmos::set_matrix)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4880824;
+  constexpr static std::size_t addrs = 0x486e404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Gizmos::DrawRay)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x488089c;
+  constexpr static std::size_t addrs = 0x486e47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::Gizmos::DrawLine_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48804f8;
+  constexpr static std::size_t addrs = 0x486e0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector3>, float_t)>(&::UnityEngine::Gizmos::DrawWireSphere_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4880590;
+  constexpr static std::size_t addrs = 0x486e170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector3>, float_t)>(&::UnityEngine::Gizmos::DrawSphere_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4880630;
+  constexpr static std::size_t addrs = 0x486e210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::Gizmos::DrawWireCube_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48806cc;
+  constexpr static std::size_t addrs = 0x486e2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::Gizmos::DrawCube_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4880760;
+  constexpr static std::size_t addrs = 0x486e340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Color>)>(&::UnityEngine::Gizmos::set_color_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48807e8;
+  constexpr static std::size_t addrs = 0x486e3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Gizmos::set_matrix_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4880860;
+  constexpr static std::size_t addrs = 0x486e440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetIV, addr 0x23c504c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x23bd1dc, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
 
-  /// @brief Method .ctor, addr 0x23c4f4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bd0dc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0x23c4f68, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bd0f8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t ivOff, int32_t ivLen);
 
-  /// @brief Method get_Parameters, addr 0x23c50c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x23bd254, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

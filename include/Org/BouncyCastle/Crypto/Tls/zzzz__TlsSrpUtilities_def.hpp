@@ -28,30 +28,30 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsSrpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddSrpExtension, addr 0x24419fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddSrpExtension, addr 0x2439b8c, size 0xf0, virtual false, abstract: false, final false
   static inline void AddSrpExtension(::System::Collections::IDictionary* extensions, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-  /// @brief Method CreateSrpExtension, addr 0x2441aec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateSrpExtension, addr 0x2439c7c, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateSrpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-  /// @brief Method GetSrpExtension, addr 0x2441b78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSrpExtension, addr 0x2439d08, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSrpExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method IsSrpCipherSuite, addr 0x2441d5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSrpCipherSuite, addr 0x2439eec, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSrpCipherSuite(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities* New_ctor();
 
-  /// @brief Method ReadSrpExtension, addr 0x2441be4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReadSrpExtension, addr 0x2439d74, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadSrpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method ReadSrpParameter, addr 0x2441634, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReadSrpParameter, addr 0x24397c4, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ReadSrpParameter(::System::IO::Stream* input);
 
-  /// @brief Method WriteSrpParameter, addr 0x24413f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WriteSrpParameter, addr 0x2439580, size 0x78, virtual false, abstract: false, final false
   static inline void WriteSrpParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x2441d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2439f00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

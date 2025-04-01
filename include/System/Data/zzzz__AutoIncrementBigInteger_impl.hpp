@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::AutoIncrementBigInteger::*)()>(
     &::System::Data::AutoIncrementBigInteger::get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x414b034;
+  constexpr static std::size_t addrs = 0x4138bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementBigInteger::*)(::System::Object*)>(
     &::System::Data::AutoIncrementBigInteger::set_Current)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x414b090;
+  constexpr static std::size_t addrs = 0x4138c50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::AutoIncrementBigInteger::*)()>(
     &::System::Data::AutoIncrementBigInteger::get_DataType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x414b108;
+  constexpr static std::size_t addrs = 0x4138cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::AutoIncrementBigInteger::*)()>(&::System::Data::AutoIncrementBigInteger::get_Seed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x414b174;
+  constexpr static std::size_t addrs = 0x4138d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementBigInteger::*)(int64_t)>(&::System::Data::AutoIncrementBigInteger::set_Seed)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x414b17c;
+  constexpr static std::size_t addrs = 0x4138d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::AutoIncrementBigInteger::*)()>(&::System::Data::AutoIncrementBigInteger::get_Step)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x414b384;
+  constexpr static std::size_t addrs = 0x4138f44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementBigInteger::*)(int64_t)>(&::System::Data::AutoIncrementBigInteger::set_Step)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x414b3e4;
+  constexpr static std::size_t addrs = 0x4138fa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementBigInteger::*)()>(&::System::Data::AutoIncrementBigInteger::MoveAfter)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x414b54c;
+  constexpr static std::size_t addrs = 0x413910c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementBigInteger::*)(::System::Object*, ::System::IFormatProvider*)>(
     &::System::Data::AutoIncrementBigInteger::SetCurrent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x414b5c8;
+  constexpr static std::size_t addrs = 0x4139188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementBigInteger::*)(::System::Object*)>(
     &::System::Data::AutoIncrementBigInteger::SetCurrentAndIncrement)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x414b5ec;
+  constexpr static std::size_t addrs = 0x41391ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AutoIncrementBigInteger::*)(::System::Numerics::BigInteger)>(
     &::System::Data::AutoIncrementBigInteger::BoundaryCheck)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x414b25c;
+  constexpr static std::size_t addrs = 0x4138e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementBigInteger::*)()>(&::System::Data::AutoIncrementBigInteger::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4145d60;
+  constexpr static std::size_t addrs = 0x4133920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::AutoIncrementBigInteger*>::get(), ".ctor",

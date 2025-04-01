@@ -40,10 +40,10 @@ public:
 
   static inline ::GlobalNamespace::LongRollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method Reset, addr 0x22d7934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x22cfac4, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x22d7840, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22cf9d0, size 0xf4, virtual false, abstract: false, final false
   inline void Update(int64_t value);
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__buffer() const;
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22d77d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cf968, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method get_currentAverage, addr 0x22d77c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0x22cf950, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0x22d77c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0x22cf958, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
 protected:
@@ -100,7 +100,7 @@ public:
   LongRollingAverage(LongRollingAverage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14837 };
 
   /// @brief Field _currentTotal, offset: 0x10, size: 0x8, def value: None
   int64_t ____currentTotal;

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabGameObjectProvider::*)(::Zenject::IPrefabInstantiator*)>(
     &::Zenject::PrefabGameObjectProvider::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4b4a034;
+  constexpr static std::size_t addrs = 0x4b37c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::PrefabGameObjectProvider::*)()>(&::Zenject::PrefabGameObjectProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b4a05c;
+  constexpr static std::size_t addrs = 0x4b37c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "get_IsCached",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::PrefabGameObjectProvider::*)()>(
     &::Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b4a064;
+  constexpr static std::size_t addrs = 0x4b37c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::PrefabGameObjectProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::PrefabGameObjectProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4b4a06c;
+  constexpr static std::size_t addrs = 0x4b37c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4b4a0d8;
+  constexpr static std::size_t addrs = 0x4b37ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

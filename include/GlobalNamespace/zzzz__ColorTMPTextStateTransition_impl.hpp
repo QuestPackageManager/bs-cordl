@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorTMPTextStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e43b8;
+  constexpr static std::size_t addrs = 0x44d1f78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorTMPTextStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e45d8;
+  constexpr static std::size_t addrs = 0x44d2198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorTMPTextStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e4610;
+  constexpr static std::size_t addrs = 0x44d21d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorTMPTextStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e4648;
+  constexpr static std::size_t addrs = 0x44d2208;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorTMPTextStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e4680;
+  constexpr static std::size_t addrs = 0x44d2240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorTMPTextStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e46b8;
+  constexpr static std::size_t addrs = 0x44d2278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44e46f0;
+  constexpr static std::size_t addrs = 0x44d22b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e4780;
+  constexpr static std::size_t addrs = 0x44d2340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e47b8;
+  constexpr static std::size_t addrs = 0x44d2378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e47f0;
+  constexpr static std::size_t addrs = 0x44d23b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e4828;
+  constexpr static std::size_t addrs = 0x44d23e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e4860;
+  constexpr static std::size_t addrs = 0x44d2420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44e4898;
+  constexpr static std::size_t addrs = 0x44d2458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::UnityEngine::Color, ::GlobalNamespace::TransitionTimingSO*)>(&::GlobalNamespace::ColorTMPTextStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x44e43f0;
+  constexpr static std::size_t addrs = 0x44d1fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(&::GlobalNamespace::ColorTMPTextStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44e48d0;
+  constexpr static std::size_t addrs = 0x44d2490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTMPTextStateTransition*>::get(), ".ctor",
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorTMPTextStateTransition::_StartTween_b__14_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44e4918;
+  constexpr static std::size_t addrs = 0x44d24d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorTMPTextStateTransition::*)()>(
     &::GlobalNamespace::ColorTMPTextStateTransition::_StartTween_b__14_1)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x44e493c;
+  constexpr static std::size_t addrs = 0x44d24fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTMPTextStateTransition*>::get(),

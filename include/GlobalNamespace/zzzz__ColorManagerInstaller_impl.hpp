@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorManagerInstaller::*)()>(&::GlobalNamespace::ColorManagerInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3c0127c;
+  constexpr static std::size_t addrs = 0x3beed6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorManagerInstaller::*)()>(&::GlobalNamespace::ColorManagerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c01334;
+  constexpr static std::size_t addrs = 0x3beee24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManagerInstaller*>::get(), ".ctor",

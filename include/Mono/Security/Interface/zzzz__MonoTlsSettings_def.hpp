@@ -152,13 +152,13 @@ public:
   /// @brief Field useServicePointManagerCallback, offset 0x73, size 0x2
   __declspec(property(get = __cordl_internal_get_useServicePointManagerCallback, put = __cordl_internal_set_useServicePointManagerCallback)) ::System::Nullable_1<bool> useServicePointManagerCallback;
 
-  /// @brief Method Clone, addr 0x3c53bec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x3c416e8, size 0x58, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* Clone();
 
-  /// @brief Method CloneWithValidator, addr 0x3c53c4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CloneWithValidator, addr 0x3c41748, size 0x80, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* CloneWithValidator(::Mono::Security::Interface::ICertificateValidator* validator);
 
-  /// @brief Method CopyDefaultSettings, addr 0x3c53bd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CopyDefaultSettings, addr 0x3c416d0, size 0x18, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoTlsSettings* CopyDefaultSettings();
 
   static inline ::Mono::Security::Interface::MonoTlsSettings* New_ctor();
@@ -273,95 +273,95 @@ public:
 
   constexpr void __cordl_internal_set_useServicePointManagerCallback(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x3c53b34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c41630, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c53ccc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c417c8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::MonoTlsSettings* other);
 
   static inline ::Mono::Security::Interface::MonoTlsSettings* getStaticF_defaultSettings();
 
-  /// @brief Method get_CallbackNeedsCertificateChain, addr 0x3c53a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CallbackNeedsCertificateChain, addr 0x3c4158c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CallbackNeedsCertificateChain();
 
-  /// @brief Method get_CertificateSearchPaths, addr 0x3c53acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateSearchPaths, addr 0x3c415c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_CertificateSearchPaths();
 
-  /// @brief Method get_CertificateValidationTime, addr 0x3c53a98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateValidationTime, addr 0x3c41594, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> get_CertificateValidationTime();
 
-  /// @brief Method get_CertificateValidator, addr 0x3c53c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateValidator, addr 0x3c41740, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::ICertificateValidator* get_CertificateValidator();
 
-  /// @brief Method get_ClientCertificateIssuers, addr 0x3c53af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificateIssuers, addr 0x3c415ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ClientCertificateIssuers();
 
-  /// @brief Method get_ClientCertificateSelectionCallback, addr 0x3c53a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificateSelectionCallback, addr 0x3c4156c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* get_ClientCertificateSelectionCallback();
 
-  /// @brief Method get_DefaultSettings, addr 0x3c53b48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultSettings, addr 0x3c41644, size 0x8c, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoTlsSettings* get_DefaultSettings();
 
-  /// @brief Method get_DisallowUnauthenticatedCertificateRequest, addr 0x3c53b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisallowUnauthenticatedCertificateRequest, addr 0x3c415fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_DisallowUnauthenticatedCertificateRequest();
 
-  /// @brief Method get_EnabledCiphers, addr 0x3c53b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnabledCiphers, addr 0x3c41620, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> get_EnabledCiphers();
 
-  /// @brief Method get_EnabledProtocols, addr 0x3c53b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnabledProtocols, addr 0x3c41610, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> get_EnabledProtocols();
 
-  /// @brief Method get_RemoteCertificateValidationCallback, addr 0x3c53a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteCertificateValidationCallback, addr 0x3c4155c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* get_RemoteCertificateValidationCallback();
 
-  /// @brief Method get_SendCloseNotify, addr 0x3c53adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SendCloseNotify, addr 0x3c415d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_SendCloseNotify();
 
-  /// @brief Method get_TrustAnchors, addr 0x3c53aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchors, addr 0x3c415a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_TrustAnchors();
 
-  /// @brief Method get_UseServicePointManagerCallback, addr 0x3c53a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseServicePointManagerCallback, addr 0x3c4157c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_UseServicePointManagerCallback();
 
-  /// @brief Method get_UserSettings, addr 0x3c53abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserSettings, addr 0x3c415b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_UserSettings();
 
   static inline void setStaticF_defaultSettings(::Mono::Security::Interface::MonoTlsSettings* value);
 
-  /// @brief Method set_CertificateSearchPaths, addr 0x3c53ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateSearchPaths, addr 0x3c415d0, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificateSearchPaths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_CertificateValidationTime, addr 0x3c53aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateValidationTime, addr 0x3c415a0, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificateValidationTime(::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method set_ClientCertificateIssuers, addr 0x3c53af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificateIssuers, addr 0x3c415f4, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificateIssuers(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_ClientCertificateSelectionCallback, addr 0x3c53a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificateSelectionCallback, addr 0x3c41574, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificateSelectionCallback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
 
-  /// @brief Method set_DisallowUnauthenticatedCertificateRequest, addr 0x3c53b08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DisallowUnauthenticatedCertificateRequest, addr 0x3c41604, size 0xc, virtual false, abstract: false, final false
   inline void set_DisallowUnauthenticatedCertificateRequest(bool value);
 
-  /// @brief Method set_EnabledCiphers, addr 0x3c53b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EnabledCiphers, addr 0x3c41628, size 0x8, virtual false, abstract: false, final false
   inline void set_EnabledCiphers(::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> value);
 
-  /// @brief Method set_EnabledProtocols, addr 0x3c53b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EnabledProtocols, addr 0x3c41618, size 0x8, virtual false, abstract: false, final false
   inline void set_EnabledProtocols(::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> value);
 
-  /// @brief Method set_RemoteCertificateValidationCallback, addr 0x3c53a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RemoteCertificateValidationCallback, addr 0x3c41564, size 0x8, virtual false, abstract: false, final false
   inline void set_RemoteCertificateValidationCallback(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* value);
 
-  /// @brief Method set_SendCloseNotify, addr 0x3c53ae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SendCloseNotify, addr 0x3c415e0, size 0xc, virtual false, abstract: false, final false
   inline void set_SendCloseNotify(bool value);
 
-  /// @brief Method set_TrustAnchors, addr 0x3c53ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TrustAnchors, addr 0x3c415b0, size 0x8, virtual false, abstract: false, final false
   inline void set_TrustAnchors(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_UseServicePointManagerCallback, addr 0x3c53a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UseServicePointManagerCallback, addr 0x3c41584, size 0x8, virtual false, abstract: false, final false
   inline void set_UseServicePointManagerCallback(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_UserSettings, addr 0x3c53ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UserSettings, addr 0x3c415c0, size 0x8, virtual false, abstract: false, final false
   inline void set_UserSettings(::System::Object* value);
 
 protected:
@@ -379,7 +379,7 @@ public:
   MonoTlsSettings(MonoTlsSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15962 };
 
   /// @brief Field <RemoteCertificateValidationCallback>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* ____RemoteCertificateValidationCallback_k__BackingField;

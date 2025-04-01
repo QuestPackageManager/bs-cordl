@@ -38,13 +38,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_dayTimeDuration* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x43b90a4, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x43a6c64, size 0x1c8, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x43b36a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a1260, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x43b926c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43a6e2c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

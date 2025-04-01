@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::Newtonsoft::Json::Serialization::SerializationCallback::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ee96b0;
+  constexpr static std::size_t addrs = 0x3ed7268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::SerializationCallback*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationCallback::*)(
     ::System::Object*, ::System::Runtime::Serialization::StreamingContext)>(&::Newtonsoft::Json::Serialization::SerializationCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ef31bc;
+  constexpr static std::size_t addrs = 0x3ee0d74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Serialization::SerializationCallback::*)(::System::Object*, ::System::Runtime::Serialization::StreamingContext, ::System::AsyncCallback*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::SerializationCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ef31d0;
+  constexpr static std::size_t addrs = 0x3ee0d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationCallback::*)(::System::IAsyncResult*)>(
     &::Newtonsoft::Json::Serialization::SerializationCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ef3264;
+  constexpr static std::size_t addrs = 0x3ee0e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 

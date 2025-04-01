@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil___c::*)()>(&::ModestTree::Util::UnityUtil___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b05110;
+  constexpr static std::size_t addrs = 0x4af2d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil___c*>::get(), ".ctor",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::Util::UnityUtil___c::*)(::UnityEngine::SceneManagement::Scene)>(
     &::ModestTree::Util::UnityUtil___c::_get_AllLoadedScenes_b__3_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4b05118;
+  constexpr static std::size_t addrs = 0x4af2d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::ModestTree::Util::UnityUtil___c::*)(::UnityEngine::Transform*)>(
     &::ModestTree::Util::UnityUtil___c::_GetRootParentOrSelf_b__15_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b05138;
+  constexpr static std::size_t addrs = 0x4af2d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ModestTree::Util::UnityUtil___c::*)(::UnityEngine::Component*)>(
     &::ModestTree::Util::UnityUtil___c::_GetComponentsInChildrenTopDown_b__18_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4b05150;
+  constexpr static std::size_t addrs = 0x4af2d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ModestTree::Util::UnityUtil___c::*)(::UnityEngine::Component*)>(
     &::ModestTree::Util::UnityUtil___c::_GetComponentsInChildrenBottomUp_b__19_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4b051d8;
+  constexpr static std::size_t addrs = 0x4af2dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::ModestTree::Util::UnityUtil___c::*)(::UnityEngine::Transform*)>(
     &::ModestTree::Util::UnityUtil___c::_GetAllGameObjects_b__22_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b05260;
+  constexpr static std::size_t addrs = 0x4af2e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::Util::UnityUtil___c::*)(::UnityEngine::GameObject*)>(
     &::ModestTree::Util::UnityUtil___c::_GetAllRootGameObjects_b__23_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4b05278;
+  constexpr static std::size_t addrs = 0x4af2e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)(int32_t)>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4b04e28;
+  constexpr static std::size_t addrs = 0x4af2a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b052fc;
+  constexpr static std::size_t addrs = 0x4af2ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>::get(),
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4b05318;
+  constexpr static std::size_t addrs = 0x4af2f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>::get(),
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::__m__Finally1)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4b055a4;
+  constexpr static std::size_t addrs = 0x4af3198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>::get(),
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b05660;
+  constexpr static std::size_t addrs = 0x4af3254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>::get(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4b05668;
+  constexpr static std::size_t addrs = 0x4af325c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b056a0;
+  constexpr static std::size_t addrs = 0x4af3294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
         &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b056a8;
+  constexpr static std::size_t addrs = 0x4af329c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>::get(),
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildren_d__21::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b05744;
+  constexpr static std::size_t addrs = 0x4af3338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)(int32_t)>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4b04d84;
+  constexpr static std::size_t addrs = 0x4af2978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b05748;
+  constexpr static std::size_t addrs = 0x4af333c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x4b05764;
+  constexpr static std::size_t addrs = 0x4af3358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::__m__Finally1)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4b05a0c;
+  constexpr static std::size_t addrs = 0x4af3600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b05ac8;
+  constexpr static std::size_t addrs = 0x4af36bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4b05ad0;
+  constexpr static std::size_t addrs = 0x4af36c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b05b08;
+  constexpr static std::size_t addrs = 0x4af36fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -645,7 +645,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
         &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b05b10;
+  constexpr static std::size_t addrs = 0x4af3704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::*)()>(
     &::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b05bac;
+  constexpr static std::size_t addrs = 0x4af37a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParents_d__16::*)(int32_t)>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4b04a54;
+  constexpr static std::size_t addrs = 0x4af2648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b05bb0;
+  constexpr static std::size_t addrs = 0x4af37a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParents_d__16*>::get(),
@@ -878,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4b05bcc;
+  constexpr static std::size_t addrs = 0x4af37c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParents_d__16*>::get(),
@@ -892,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4b05ec4;
+  constexpr static std::size_t addrs = 0x4af3ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParents_d__16*>::get(),
@@ -906,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b05f74;
+  constexpr static std::size_t addrs = 0x4af3b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -921,7 +921,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4b05f7c;
+  constexpr static std::size_t addrs = 0x4af3b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -936,7 +936,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b05fb4;
+  constexpr static std::size_t addrs = 0x4af3ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -951,7 +951,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* (
     ::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(&::ModestTree::Util::UnityUtil__GetParents_d__16::System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b05fbc;
+  constexpr static std::size_t addrs = 0x4af3bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParents_d__16*>::get(),
@@ -966,7 +966,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::ModestTree::Util::UnityUtil__GetParents_d__16::*)()>(
     &::ModestTree::Util::UnityUtil__GetParents_d__16::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b06058;
+  constexpr static std::size_t addrs = 0x4af3c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1152,7 +1152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)(int32_t)>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4b04a88;
+  constexpr static std::size_t addrs = 0x4af267c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1167,7 +1167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b0605c;
+  constexpr static std::size_t addrs = 0x4af3c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*>::get(),
@@ -1181,7 +1181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x4b06078;
+  constexpr static std::size_t addrs = 0x4af3c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*>::get(),
@@ -1195,7 +1195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4b06394;
+  constexpr static std::size_t addrs = 0x4af3f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*>::get(),
@@ -1209,7 +1209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b06444;
+  constexpr static std::size_t addrs = 0x4af4038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1224,7 +1224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4b0644c;
+  constexpr static std::size_t addrs = 0x4af4040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1239,7 +1239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b06484;
+  constexpr static std::size_t addrs = 0x4af4078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1255,7 +1255,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
         &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b0648c;
+  constexpr static std::size_t addrs = 0x4af4080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*>::get(),
@@ -1270,7 +1270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::*)()>(
     &::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b06528;
+  constexpr static std::size_t addrs = 0x4af411c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1456,7 +1456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)(int32_t)>(
     &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4b0458c;
+  constexpr static std::size_t addrs = 0x4af2180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1471,7 +1471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)()>(
     &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b0652c;
+  constexpr static std::size_t addrs = 0x4af4120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__get_AllScenes_d__1*>::get(),
@@ -1485,7 +1485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)()>(
     &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::MoveNext)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4b06530;
+  constexpr static std::size_t addrs = 0x4af4124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__get_AllScenes_d__1*>::get(),
@@ -1499,7 +1499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::Scene (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)()>(
     &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::System_Collections_Generic_IEnumerator_UnityEngine_SceneManagement_Scene__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b065fc;
+  constexpr static std::size_t addrs = 0x4af41f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__get_AllScenes_d__1*>::get(),
@@ -1514,7 +1514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)()>(
     &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4b06604;
+  constexpr static std::size_t addrs = 0x4af41f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1529,7 +1529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)()>(
     &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b0663c;
+  constexpr static std::size_t addrs = 0x4af4230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1545,7 +1545,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)()>(
         &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::System_Collections_Generic_IEnumerable_UnityEngine_SceneManagement_Scene__GetEnumerator)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4b06698;
+  constexpr static std::size_t addrs = 0x4af428c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil__get_AllScenes_d__1*>::get(),
@@ -1560,7 +1560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::ModestTree::Util::UnityUtil__get_AllScenes_d__1::*)()>(
     &::ModestTree::Util::UnityUtil__get_AllScenes_d__1::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b06728;
+  constexpr static std::size_t addrs = 0x4af431c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1717,7 +1717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* (*)()>(
     &::ModestTree::Util::UnityUtil::get_AllScenes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4b04524;
+  constexpr static std::size_t addrs = 0x4af2118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(), "get_AllScenes",
@@ -1731,7 +1731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* (*)()>(
     &::ModestTree::Util::UnityUtil::get_AllLoadedScenes)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4b045c0;
+  constexpr static std::size_t addrs = 0x4af21b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(), "get_AllLoadedScenes",
@@ -1744,7 +1744,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::ModestTree::Util::UnityUtil::get_IsAltKeyDown)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4b046bc;
+  constexpr static std::size_t addrs = 0x4af22b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(), "get_IsAltKeyDown",
@@ -1757,7 +1757,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::ModestTree::Util::UnityUtil::get_IsControlKeyDown)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4b046ec;
+  constexpr static std::size_t addrs = 0x4af22e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(), "get_IsControlKeyDown",
@@ -1770,7 +1770,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::ModestTree::Util::UnityUtil::get_IsShiftKeyDown)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4b0471c;
+  constexpr static std::size_t addrs = 0x4af2310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(), "get_IsShiftKeyDown",
@@ -1783,7 +1783,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::ModestTree::Util::UnityUtil::get_WasShiftKeyJustPressed)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4b0474c;
+  constexpr static std::size_t addrs = 0x4af2340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(),
@@ -1796,7 +1796,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::ModestTree::Util::UnityUtil::get_WasAltKeyJustPressed)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4b0477c;
+  constexpr static std::size_t addrs = 0x4af2370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(),
@@ -1809,7 +1809,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Transform*)>(&::ModestTree::Util::UnityUtil::GetDepthLevel)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4b047ac;
+  constexpr static std::size_t addrs = 0x4af23a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1824,7 +1824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::GameObject*)>(
     &::ModestTree::Util::UnityUtil::GetRootParentOrSelf)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4b0483c;
+  constexpr static std::size_t addrs = 0x4af2430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1839,7 +1839,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* (*)(::UnityEngine::Transform*)>(
     &::ModestTree::Util::UnityUtil::GetParents)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4b049e4;
+  constexpr static std::size_t addrs = 0x4af25d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1854,7 +1854,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* (*)(::UnityEngine::Transform*)>(
     &::ModestTree::Util::UnityUtil::GetParentsAndSelf)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4b04974;
+  constexpr static std::size_t addrs = 0x4af2568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1869,7 +1869,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Component>>* (*)(::UnityEngine::GameObject*, bool)>(&::ModestTree::Util::UnityUtil::GetComponentsInChildrenTopDown)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4b04abc;
+  constexpr static std::size_t addrs = 0x4af26b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1885,7 +1885,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Component>>* (*)(::UnityEngine::GameObject*, bool)>(&::ModestTree::Util::UnityUtil::GetComponentsInChildrenBottomUp)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4b04be8;
+  constexpr static std::size_t addrs = 0x4af27dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1901,7 +1901,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (*)(::UnityEngine::GameObject*)>(
     &::ModestTree::Util::UnityUtil::GetDirectChildrenAndSelf)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4b04d14;
+  constexpr static std::size_t addrs = 0x4af2908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1916,7 +1916,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (*)(::UnityEngine::GameObject*)>(
     &::ModestTree::Util::UnityUtil::GetDirectChildren)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4b04db8;
+  constexpr static std::size_t addrs = 0x4af29ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1931,7 +1931,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (*)()>(
     &::ModestTree::Util::UnityUtil::GetAllGameObjects)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4b04e5c;
+  constexpr static std::size_t addrs = 0x4af2a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(), "GetAllGameObjects",
@@ -1945,7 +1945,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* (*)()>(
     &::ModestTree::Util::UnityUtil::GetAllRootGameObjects)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4b04f94;
+  constexpr static std::size_t addrs = 0x4af2b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::UnityUtil*>::get(), "GetAllRootGameObjects",

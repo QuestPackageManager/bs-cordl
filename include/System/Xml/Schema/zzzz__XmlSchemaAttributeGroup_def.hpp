@@ -79,12 +79,12 @@ public:
   /// @brief Field selfReferenceCount, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_selfReferenceCount, put = __cordl_internal_set_selfReferenceCount)) int32_t selfReferenceCount;
 
-  /// @brief Method Clone, addr 0x42c7ba8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42b5768, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaAttributeGroup* New_ctor();
 
-  /// @brief Method SetQualifiedName, addr 0x42c7ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x42b5760, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& __cordl_internal_get_anyAttribute() const;
@@ -135,55 +135,55 @@ public:
 
   constexpr void __cordl_internal_set_selfReferenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x42c8028, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b5be8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnyAttribute, addr 0x42c7adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnyAttribute, addr 0x42b569c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
 
-  /// @brief Method get_AttributeUses, addr 0x42c7af4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeUses, addr 0x42b56b4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeUses();
 
-  /// @brief Method get_AttributeWildcard, addr 0x42c7b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeWildcard, addr 0x42b5718, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AttributeWildcard();
 
-  /// @brief Method get_Attributes, addr 0x42c7ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x42b5694, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes();
 
-  /// @brief Method get_Name, addr 0x42c7ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42b5684, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x42c7b90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x42b5750, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_QualifiedName, addr 0x42c7aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x42b56ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_Redefined, addr 0x42c7b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x42b5730, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttributeGroup* get_Redefined();
 
-  /// @brief Method get_RedefinedAttributeGroup, addr 0x42c7b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedefinedAttributeGroup, addr 0x42b5728, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttributeGroup* get_RedefinedAttributeGroup();
 
-  /// @brief Method get_SelfReferenceCount, addr 0x42c7b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SelfReferenceCount, addr 0x42b5740, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SelfReferenceCount();
 
-  /// @brief Method set_AnyAttribute, addr 0x42c7ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnyAttribute, addr 0x42b56a4, size 0x8, virtual false, abstract: false, final false
   inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_AttributeWildcard, addr 0x42c7b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeWildcard, addr 0x42b5720, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_Name, addr 0x42c7acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x42b568c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x42c7b98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x42b5758, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Redefined, addr 0x42c7b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x42b5738, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaAttributeGroup* value);
 
-  /// @brief Method set_SelfReferenceCount, addr 0x42c7b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SelfReferenceCount, addr 0x42b5748, size 0x8, virtual false, abstract: false, final false
   inline void set_SelfReferenceCount(int32_t value);
 
 protected:

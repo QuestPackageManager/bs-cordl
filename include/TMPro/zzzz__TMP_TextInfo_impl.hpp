@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x48139ec;
+  constexpr static std::size_t addrs = 0x48015cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextInfo*>::get(), ".ctor",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)(int32_t)>(&::TMPro::TMP_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4813b14;
+  constexpr static std::size_t addrs = 0x48016f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4813c40;
+  constexpr static std::size_t addrs = 0x4801820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::Clear)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4813dac;
+  constexpr static std::size_t addrs = 0x480198c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextInfo*>::get(), "Clear",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearAllData)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4813e08;
+  constexpr static std::size_t addrs = 0x48019e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextInfo*>::get(), "ClearAllData",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)(bool)>(&::TMPro::TMP_TextInfo::ClearMeshInfo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4813f34;
+  constexpr static std::size_t addrs = 0x4801b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearAllMeshInfo)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4813fec;
+  constexpr static std::size_t addrs = 0x4801bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextInfo*>::get(), "ClearAllMeshInfo",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)(bool)>(&::TMPro::TMP_TextInfo::ResetVertexLayout)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x481409c;
+  constexpr static std::size_t addrs = 0x4801c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>)>(
     &::TMPro::TMP_TextInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4814158;
+  constexpr static std::size_t addrs = 0x4801d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearLineInfo)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4814208;
+  constexpr static std::size_t addrs = 0x4801de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextInfo*>::get(), "ClearLineInfo",
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearPageInfo)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4814388;
+  constexpr static std::size_t addrs = 0x4801f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextInfo*>::get(), "ClearPageInfo",
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> (::TMPro::TMP_TextInfo::*)()>(
     &::TMPro::TMP_TextInfo::CopyMeshInfoVertexData)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x4814420;
+  constexpr static std::size_t addrs = 0x4802000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextInfo*>::get(), "CopyMeshInfoVertexData",

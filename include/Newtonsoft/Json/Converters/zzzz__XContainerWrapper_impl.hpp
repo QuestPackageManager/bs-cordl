@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XContainer* (::Newtonsoft::Json::Converters::XContainerWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XContainerWrapper::get_Container)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f5396c;
+  constexpr static std::size_t addrs = 0x3f41524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XContainerWrapper*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XContainerWrapper::*)(::System::Xml::Linq::XContainer*)>(
     &::Newtonsoft::Json::Converters::XContainerWrapper::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3f52264;
+  constexpr static std::size_t addrs = 0x3f3fe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* (
     ::Newtonsoft::Json::Converters::XContainerWrapper::*)()>(&::Newtonsoft::Json::Converters::XContainerWrapper::get_ChildNodes)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x3f523fc;
+  constexpr static std::size_t addrs = 0x3f3ffb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::XContainerWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XContainerWrapper::get_HasChildNodes)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3f5283c;
+  constexpr static std::size_t addrs = 0x3f403f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XContainerWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XContainerWrapper::get_ParentNode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3f539e4;
+  constexpr static std::size_t addrs = 0x3f4159c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (*)(::System::Xml::Linq::XObject*)>(
     &::Newtonsoft::Json::Converters::XContainerWrapper::WrapNode)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x3f533dc;
+  constexpr static std::size_t addrs = 0x3f40f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (
     ::Newtonsoft::Json::Converters::XContainerWrapper::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&::Newtonsoft::Json::Converters::XContainerWrapper::AppendChild)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3f531a0;
+  constexpr static std::size_t addrs = 0x3f40d58;
 
   inline static ::MethodInfo const* methodInfo() {
 

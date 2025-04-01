@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager___c::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e12f0;
+  constexpr static std::size_t addrs = 0x22d9480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager___c*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerSessionManager___c::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager___c::_TryUpdateConnectedPlayer_b__104_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22e12f8;
+  constexpr static std::size_t addrs = 0x22d9488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager___c__DisplayClass98_0::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager___c__DisplayClass98_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e0e94;
+  constexpr static std::size_t addrs = 0x22d9024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager___c__DisplayClass98_0::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager___c__DisplayClass98_0::_GetPlayerByUserId_b__0)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e1398;
+  constexpr static std::size_t addrs = 0x22d9528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_connectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22de3a0;
+  constexpr static std::size_t addrs = 0x22d6530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_connectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22de43c;
+  constexpr static std::size_t addrs = 0x22d65cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::MultiplayerSessionManager::add_connectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de4d8;
+  constexpr static std::size_t addrs = 0x22d6668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::MultiplayerSessionManager::remove_connectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de588;
+  constexpr static std::size_t addrs = 0x22d6718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_playerConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de638;
+  constexpr static std::size_t addrs = 0x22d67c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_playerConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de6e8;
+  constexpr static std::size_t addrs = 0x22d6878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_playerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de798;
+  constexpr static std::size_t addrs = 0x22d6928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_playerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de848;
+  constexpr static std::size_t addrs = 0x22d69d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_playerAvatarChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de8f8;
+  constexpr static std::size_t addrs = 0x22d6a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_playerAvatarChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22de9a8;
+  constexpr static std::size_t addrs = 0x22d6b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_playerStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dea58;
+  constexpr static std::size_t addrs = 0x22d6be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_playerStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22deb08;
+  constexpr static std::size_t addrs = 0x22d6c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_connectionOwnerStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22debb8;
+  constexpr static std::size_t addrs = 0x22d6d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_connectionOwnerStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dec68;
+  constexpr static std::size_t addrs = 0x22d6df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_disconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ded18;
+  constexpr static std::size_t addrs = 0x22d6ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_disconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dedc8;
+  constexpr static std::size_t addrs = 0x22d6f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerSessionManager::add_pollUpdateEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22dee78;
+  constexpr static std::size_t addrs = 0x22d7008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerSessionManager::remove_pollUpdateEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22def14;
+  constexpr static std::size_t addrs = 0x22d70a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22defb0;
+  constexpr static std::size_t addrs = 0x22d7140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_connectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22defc8;
+  constexpr static std::size_t addrs = 0x22d7158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager::set_connectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22defd0;
+  constexpr static std::size_t addrs = 0x22d7160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_isSpectating)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x22defd8;
+  constexpr static std::size_t addrs = 0x22d7168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_isConnectingOrConnected)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22df0e8;
+  constexpr static std::size_t addrs = 0x22d7278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22df10c;
+  constexpr static std::size_t addrs = 0x22d729c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22df0fc;
+  constexpr static std::size_t addrs = 0x22d728c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22df11c;
+  constexpr static std::size_t addrs = 0x22d72ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* (
     ::GlobalNamespace::MultiplayerSessionManager::*)()>(&::GlobalNamespace::MultiplayerSessionManager::get_connectedPlayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22df12c;
+  constexpr static std::size_t addrs = 0x22d72bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22df134;
+  constexpr static std::size_t addrs = 0x22d72c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_syncTime)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22df17c;
+  constexpr static std::size_t addrs = 0x22d730c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_isSyncTimeInitialized)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22df190;
+  constexpr static std::size_t addrs = 0x22d7320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -621,7 +621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_localPlayer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22df1a4;
+  constexpr static std::size_t addrs = 0x22d7334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager* (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22df1bc;
+  constexpr static std::size_t addrs = 0x22d734c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::get_maxPlayerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22df1c4;
+  constexpr static std::size_t addrs = 0x22d7354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(&::GlobalNamespace::MultiplayerSessionManager::Start)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22df1cc;
+  constexpr static std::size_t addrs = 0x22d735c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(&::GlobalNamespace::MultiplayerSessionManager::Update)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22df2cc;
+  constexpr static std::size_t addrs = 0x22d745c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::LateUpdate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22df32c;
+  constexpr static std::size_t addrs = 0x22d74bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(&::GlobalNamespace::MultiplayerSessionManager::OnDestroy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22df340;
+  constexpr static std::size_t addrs = 0x22d74d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(bool)>(
     &::GlobalNamespace::MultiplayerSessionManager::OnApplicationPause)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dfbd0;
+  constexpr static std::size_t addrs = 0x22d7d60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -735,7 +735,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerSessionManager_MessageType, ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::RegisterSerializer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22dfc28;
+  constexpr static std::size_t addrs = 0x22d7db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -752,7 +752,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerSessionManager_MessageType, ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerSessionManager::UnregisterSerializer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22dfc90;
+  constexpr static std::size_t addrs = 0x22d7e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -768,7 +768,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(
     ::GlobalNamespace::MultiplayerSessionManager_SessionType, ::GlobalNamespace::ConnectedPlayerManager*)>(&::GlobalNamespace::MultiplayerSessionManager::StartSession)> {
   constexpr static std::size_t size = 0x5bc;
-  constexpr static std::size_t addrs = 0x22dfcf8;
+  constexpr static std::size_t addrs = 0x22d7e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -784,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerSessionManager::SetMaxPlayerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e02b4;
+  constexpr static std::size_t addrs = 0x22d8444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -799,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::EndSession)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x22df72c;
+  constexpr static std::size_t addrs = 0x22d78bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -813,7 +813,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::Disconnect)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e02bc;
+  constexpr static std::size_t addrs = 0x22d844c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -827,7 +827,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::HandleInitialized)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e02cc;
+  constexpr static std::size_t addrs = 0x22d845c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -841,7 +841,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::HandleConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e02dc;
+  constexpr static std::size_t addrs = 0x22d846c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -855,7 +855,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandleDisconnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e02ec;
+  constexpr static std::size_t addrs = 0x22d847c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -870,7 +870,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandleConnectionFailed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e02fc;
+  constexpr static std::size_t addrs = 0x22d848c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -885,7 +885,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::HandleSyncTimeInitialized)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e030c;
+  constexpr static std::size_t addrs = 0x22d849c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -899,7 +899,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandlePlayerConnected)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22e031c;
+  constexpr static std::size_t addrs = 0x22d84ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -914,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandlePlayerDisconnected)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22e09d0;
+  constexpr static std::size_t addrs = 0x22d8b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -929,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandlePlayerStateChanged)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x22e0a8c;
+  constexpr static std::size_t addrs = 0x22d8c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -944,7 +944,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandlePlayerAvatarChanged)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22e0c34;
+  constexpr static std::size_t addrs = 0x22d8dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -959,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandlePlayerOrderChanged)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22e0cb8;
+  constexpr static std::size_t addrs = 0x22d8e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -974,7 +974,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerSessionManager::HandlePlayerLatencyInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e0cf4;
+  constexpr static std::size_t addrs = 0x22d8e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -989,7 +989,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerSessionManager::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerSessionManager::GetPlayerByUserId)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x22e0cfc;
+  constexpr static std::size_t addrs = 0x22d8e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1004,7 +1004,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerSessionManager::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerSessionManager::GetConnectedPlayer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22e0e9c;
+  constexpr static std::size_t addrs = 0x22d902c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1019,7 +1019,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::StringW, bool)>(
     &::GlobalNamespace::MultiplayerSessionManager::SetLocalPlayerState)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22df218;
+  constexpr static std::size_t addrs = 0x22d73a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1034,7 +1034,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerSessionManager::KickPlayer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e0ef4;
+  constexpr static std::size_t addrs = 0x22d9084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1049,7 +1049,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerSessionManager::LocalPlayerHasState)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x22e0f0c;
+  constexpr static std::size_t addrs = 0x22d909c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1065,7 +1065,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::UpdateConnectionStateReason, ::GlobalNamespace::DisconnectedReason, ::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerSessionManager::UpdateConnectionState)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x22df364;
+  constexpr static std::size_t addrs = 0x22d74f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1082,7 +1082,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSessionManager::*)(::GlobalNamespace::IConnectedPlayer*, bool)>(
     &::GlobalNamespace::MultiplayerSessionManager::TryUpdateConnectedPlayer)> {
   constexpr static std::size_t size = 0x5f8;
-  constexpr static std::size_t addrs = 0x22e03d8;
+  constexpr static std::size_t addrs = 0x22d8568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1098,7 +1098,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerSessionManager::*)()>(
     &::GlobalNamespace::MultiplayerSessionManager::GetNextAvailableSortIndex)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22e0ff0;
+  constexpr static std::size_t addrs = 0x22d9180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(),
@@ -1111,7 +1111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSessionManager::*)()>(&::GlobalNamespace::MultiplayerSessionManager::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x22e10a4;
+  constexpr static std::size_t addrs = 0x22d9234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSessionManager*>::get(), ".ctor",

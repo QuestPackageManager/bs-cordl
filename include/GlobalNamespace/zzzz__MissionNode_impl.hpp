@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MissionDataSO> (::GlobalNamespace::MissionNode::*)()>(
     &::GlobalNamespace::MissionNode::get_missionData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c19100;
+  constexpr static std::size_t addrs = 0x3c06bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_missionData",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> (
     ::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_childNodes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c19108;
+  constexpr static std::size_t addrs = 0x3c06c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_childNodes",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MissionNodeVisualController> (::GlobalNamespace::MissionNode::*)()>(
     &::GlobalNamespace::MissionNode::get_missionNodeVisualController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c19110;
+  constexpr static std::size_t addrs = 0x3c06c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_letterPartName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c19118;
+  constexpr static std::size_t addrs = 0x3c06c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_letterPartName",
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_numberPartName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c19120;
+  constexpr static std::size_t addrs = 0x3c06c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_numberPartName",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_missionId)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c19128;
+  constexpr static std::size_t addrs = 0x3c06c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_missionId",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_formattedMissionNodeName)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c1914c;
+  constexpr static std::size_t addrs = 0x3c06c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_position)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c18738;
+  constexpr static std::size_t addrs = 0x3c06234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_position",
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_radius)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c191d4;
+  constexpr static std::size_t addrs = 0x3c06cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_radius",
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c191f8;
+  constexpr static std::size_t addrs = 0x3c06cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), ".ctor",

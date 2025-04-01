@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::DHValidationParms* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X9::DHValidationParms::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26253cc;
+  constexpr static std::size_t addrs = 0x261d55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::DHValidationParms* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X9::DHValidationParms::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2624e48;
+  constexpr static std::size_t addrs = 0x261cfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::DHValidationParms::*)(
     ::Org::BouncyCastle::Asn1::DerBitString*, ::Org::BouncyCastle::Asn1::DerInteger*)>(&::Org::BouncyCastle::Asn1::X9::DHValidationParms::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2625550;
+  constexpr static std::size_t addrs = 0x261d6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::DHValidationParms::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X9::DHValidationParms::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x26253e4;
+  constexpr static std::size_t addrs = 0x261d574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::X9::DHValidationParms::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHValidationParms::get_Seed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26255ec;
+  constexpr static std::size_t addrs = 0x261d77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::DHValidationParms*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::X9::DHValidationParms::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHValidationParms::get_PgenCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26255f4;
+  constexpr static std::size_t addrs = 0x261d784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::DHValidationParms*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X9::DHValidationParms::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHValidationParms::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26255fc;
+  constexpr static std::size_t addrs = 0x261d78c;
 
   inline static ::MethodInfo const* methodInfo() {
 

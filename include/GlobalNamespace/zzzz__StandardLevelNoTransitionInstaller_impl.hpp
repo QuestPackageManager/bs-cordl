@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> (
     ::GlobalNamespace::StandardLevelNoTransitionInstaller::*)()>(&::GlobalNamespace::StandardLevelNoTransitionInstaller::get_standardLevelNoTransitionInstallerData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b473e0;
+  constexpr static std::size_t addrs = 0x3b3440c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3b473e8;
+  constexpr static std::size_t addrs = 0x3b34414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstaller::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b479d8;
+  constexpr static std::size_t addrs = 0x3b34a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelNoTransitionInstaller*>::get(),

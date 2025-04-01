@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::MacStream::*)(
     ::System::IO::Stream*, ::Org::BouncyCastle::Crypto::IMac*, ::Org::BouncyCastle::Crypto::IMac*)>(&::Org::BouncyCastle::Crypto::IO::MacStream::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2396ccc;
+  constexpr static std::size_t addrs = 0x238ee5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMac* (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::ReadMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2396d4c;
+  constexpr static std::size_t addrs = 0x238eedc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMac* (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::WriteMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2396d54;
+  constexpr static std::size_t addrs = 0x238eee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::MacStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::Read)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2396d5c;
+  constexpr static std::size_t addrs = 0x238eeec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(&::Org::BouncyCastle::Crypto::IO::MacStream::ReadByte)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2396e58;
+  constexpr static std::size_t addrs = 0x238efe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::MacStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::Write)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2396f28;
+  constexpr static std::size_t addrs = 0x238f0b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::MacStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::WriteByte)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2397018;
+  constexpr static std::size_t addrs = 0x238f1a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(&::Org::BouncyCastle::Crypto::IO::MacStream::get_CanRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23970e0;
+  constexpr static std::size_t addrs = 0x238f270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(&::Org::BouncyCastle::Crypto::IO::MacStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2397100;
+  constexpr static std::size_t addrs = 0x238f290;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(&::Org::BouncyCastle::Crypto::IO::MacStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2397120;
+  constexpr static std::size_t addrs = 0x238f2b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(&::Org::BouncyCastle::Crypto::IO::MacStream::get_Length)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2397140;
+  constexpr static std::size_t addrs = 0x238f2d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::get_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2397160;
+  constexpr static std::size_t addrs = 0x238f2f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::MacStream::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::set_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2397184;
+  constexpr static std::size_t addrs = 0x238f314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(&::Org::BouncyCastle::Crypto::IO::MacStream::Close)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x23971a8;
+  constexpr static std::size_t addrs = 0x238f338;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::MacStream::*)()>(&::Org::BouncyCastle::Crypto::IO::MacStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2397210;
+  constexpr static std::size_t addrs = 0x238f3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::MacStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::Seek)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2397234;
+  constexpr static std::size_t addrs = 0x238f3c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::MacStream::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::IO::MacStream::SetLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2397258;
+  constexpr static std::size_t addrs = 0x238f3e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

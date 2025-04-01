@@ -84,10 +84,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Callback(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x4858b00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48466e0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* callback, ::ArrayW<::StringW, ::Array<::StringW>*> assetPacks);
 
-  /// @brief Method onStatusUpdate, addr 0x4858b84, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method onStatusUpdate, addr 0x4846764, size 0x10c, virtual false, abstract: false, final false
   inline void onStatusUpdate(::StringW assetPackName, int32_t assetPackStatus, int64_t assetPackSize, int64_t assetPackBytesDownloaded, int32_t assetPackTransferProgress, int32_t assetPackErrorCode);
 
 protected:
@@ -143,10 +143,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Callback(::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* value);
 
-  /// @brief Method .ctor, addr 0x4858c90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4846870, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* callback);
 
-  /// @brief Method onMobileDataConfirmationResult, addr 0x4858d10, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method onMobileDataConfirmationResult, addr 0x48468f0, size 0x84, virtual false, abstract: false, final false
   inline void onMobileDataConfirmationResult(bool allowed);
 
 protected:
@@ -227,11 +227,11 @@ public:
 
   constexpr void __cordl_internal_set_m_States(::System::Collections::Generic::List_1<::UnityEngine::Android::AndroidAssetPackState*>* value);
 
-  /// @brief Method .ctor, addr 0x4858d94, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4846974, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*, ::Array<::UnityEngine::Android::AndroidAssetPackState*>*>>* callback,
                     ::ArrayW<::StringW, ::Array<::StringW>*> assetPacks);
 
-  /// @brief Method onStatusResult, addr 0x4858e84, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method onStatusResult, addr 0x4846a64, size 0x36c, virtual false, abstract: false, final false
   inline void onStatusResult(int64_t totalBytes, ::ArrayW<::StringW, ::Array<::StringW>*> assetPackNames, ::ArrayW<int32_t, ::Array<int32_t>*> assetPackStatuses,
                              ::ArrayW<int32_t, ::Array<int32_t>*> assetPackErrorCodes);
 
@@ -297,7 +297,7 @@ public:
   /// @brief Field s_JavaPlayAssetDeliveryWrapper, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_JavaPlayAssetDeliveryWrapper, put = setStaticF_s_JavaPlayAssetDeliveryWrapper)) ::UnityEngine::AndroidJavaObject* s_JavaPlayAssetDeliveryWrapper;
 
-  /// @brief Method GetAssetPackManager, addr 0x485875c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPackManager, addr 0x484633c, size 0x3a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* GetAssetPackManager();
 
   static inline bool getStaticF_s_ApiMissing();

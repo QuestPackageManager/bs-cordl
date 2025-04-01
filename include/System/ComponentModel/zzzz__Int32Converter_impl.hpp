@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::Int32Converter::*)()>(
     &::System::ComponentModel::Int32Converter::get_TargetType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4461dd0;
+  constexpr static std::size_t addrs = 0x444f990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::Int32Converter::*)(::StringW, int32_t)>(
     &::System::ComponentModel::Int32Converter::FromString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4461e3c;
+  constexpr static std::size_t addrs = 0x444f9fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::Int32Converter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::Int32Converter::FromString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4461ed0;
+  constexpr static std::size_t addrs = 0x444fa90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::System::ComponentModel::Int32Converter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::Int32Converter::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4461f44;
+  constexpr static std::size_t addrs = 0x444fb04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Int32Converter::*)()>(&::System::ComponentModel::Int32Converter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4461ff4;
+  constexpr static std::size_t addrs = 0x444fbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Int32Converter*>::get(), ".ctor",

@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::ComponentModel::AttributeCollection::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::AttributeCollection::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4456048;
+  constexpr static std::size_t addrs = 0x4443c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (::System::ComponentModel::AttributeCollection::*)()>(
     &::System::ComponentModel::AttributeCollection::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4456178;
+  constexpr static std::size_t addrs = 0x4443d38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::AttributeCollection::*)()>(
     &::System::ComponentModel::AttributeCollection::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4456180;
+  constexpr static std::size_t addrs = 0x4443d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::AttributeCollection*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (::System::ComponentModel::AttributeCollection::*)(::System::Type*)>(
     &::System::ComponentModel::AttributeCollection::get_Item)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x44561a4;
+  constexpr static std::size_t addrs = 0x4443d64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::AttributeCollection::*)(::System::Attribute*)>(
     &::System::ComponentModel::AttributeCollection::Contains)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4456bec;
+  constexpr static std::size_t addrs = 0x44447ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (::System::ComponentModel::AttributeCollection::*)(::System::Type*)>(
     &::System::ComponentModel::AttributeCollection::GetDefaultAttribute)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x445667c;
+  constexpr static std::size_t addrs = 0x444423c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::AttributeCollection::*)()>(
     &::System::ComponentModel::AttributeCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4456c4c;
+  constexpr static std::size_t addrs = 0x444480c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::AttributeCollection*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::AttributeCollection::*)()>(
     &::System::ComponentModel::AttributeCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4456c70;
+  constexpr static std::size_t addrs = 0x4444830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::AttributeCollection::*)()>(
     &::System::ComponentModel::AttributeCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4456c78;
+  constexpr static std::size_t addrs = 0x4444838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::AttributeCollection::*)()>(
     &::System::ComponentModel::AttributeCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4456c80;
+  constexpr static std::size_t addrs = 0x4444840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::AttributeCollection::*)()>(
     &::System::ComponentModel::AttributeCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4456ca4;
+  constexpr static std::size_t addrs = 0x4444864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::AttributeCollection::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::AttributeCollection::CopyTo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4456ca8;
+  constexpr static std::size_t addrs = 0x4444868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -62,14 +62,14 @@ public:
 
   constexpr void __cordl_internal_set_iface(::System::Net::NetworkInformation::UnixNetworkInterface* value);
 
-  /// @brief Method .ctor, addr 0x43f7988, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e5548, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_ns();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_search();
 
-  /// @brief Method get_UnicastAddresses, addr 0x43fc068, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method get_UnicastAddresses, addr 0x43e9c28, size 0x268, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
 
   static inline void setStaticF_ns(::System::Text::RegularExpressions::Regex* value);

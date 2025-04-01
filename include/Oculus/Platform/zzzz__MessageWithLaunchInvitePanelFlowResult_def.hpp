@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchInvitePanelFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f8c634, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7a1ec, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x3f8c5f8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x3f7a1b0, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f89a08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f775c0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithLaunchInvitePanelFlowResult(MessageWithLaunchInvitePanelFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15384 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x618;
-  constexpr static std::size_t addrs = 0x3c09480;
+  constexpr static std::size_t addrs = 0x3bf6f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c09a98;
+  constexpr static std::size_t addrs = 0x3bf7588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::get_cellIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c08ff8;
+  constexpr static std::size_t addrs = 0x3bf6ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::set_cellIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c09000;
+  constexpr static std::size_t addrs = 0x3bf6af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(
     ::GlobalNamespace::BeatmapLevelPack*, bool, bool, bool)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3c09008;
+  constexpr static std::size_t addrs = 0x3bf6af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,13 +149,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::InternalToggle)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c09288;
+  constexpr static std::size_t addrs = 0x3bf6d78;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 10));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 21));
     return ___internal_method;
   }
 };
@@ -165,13 +165,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c092a0;
+  constexpr static std::size_t addrs = 0x3bf6d90;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 11));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 22));
     return ___internal_method;
   }
 };
@@ -181,13 +181,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c093a0;
+  constexpr static std::size_t addrs = 0x3bf6e90;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 12));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 23));
     return ___internal_method;
   }
 };
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3c092a4;
+  constexpr static std::size_t addrs = 0x3bf6d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::StringW, int32_t, int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::GetInfoText)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3c0914c;
+  constexpr static std::size_t addrs = 0x3bf6c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::GlobalNamespace::IEntitlementModel*)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::RefreshAvailabilityAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c093a4;
+  constexpr static std::size_t addrs = 0x3bf6e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(bool)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetDownloadIconVisible)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3c0923c;
+  constexpr static std::size_t addrs = 0x3bf6d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::CancelAsyncOperations)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c09444;
+  constexpr static std::size_t addrs = 0x3bf6f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c09458;
+  constexpr static std::size_t addrs = 0x3bf6f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(),
@@ -469,19 +469,19 @@ inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData(::Glob
 inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::InternalToggle() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 10)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 11)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transitionType);
 }
 inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transitionType);
 }
 inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::RefreshVisuals() {

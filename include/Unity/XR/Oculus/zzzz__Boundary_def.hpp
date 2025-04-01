@@ -87,16 +87,16 @@ public:
   // Declarations
   using BoundaryType = ::Unity::XR::Oculus::Boundary_BoundaryType;
 
-  /// @brief Method GetBoundaryConfigured, addr 0x48409c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x482e5a8, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x48409d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryDimensions, addr 0x482e5b0, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::Boundary_BoundaryType boundaryType, ::ByRef<::UnityEngine::Vector3> dimensions);
 
-  /// @brief Method GetBoundaryVisible, addr 0x48409d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x482e5b8, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method SetBoundaryVisible, addr 0x48409e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x482e5c0, size 0x8, virtual false, abstract: false, final false
   static inline void SetBoundaryVisible(bool boundaryVisible);
 
 protected:

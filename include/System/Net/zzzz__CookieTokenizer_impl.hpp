@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer_RecognizedAttribute::*)(::StringW, ::System::Net::CookieToken)>(
     &::System::Net::CookieTokenizer_RecognizedAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44bc9fc;
+  constexpr static std::size_t addrs = 0x44aa5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieToken (::System::Net::CookieTokenizer_RecognizedAttribute::*)()>(
     &::System::Net::CookieTokenizer_RecognizedAttribute::get_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bca08;
+  constexpr static std::size_t addrs = 0x44aa5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer_RecognizedAttribute>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieTokenizer_RecognizedAttribute::*)(::StringW)>(
     &::System::Net::CookieTokenizer_RecognizedAttribute::IsEqualTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44bca10;
+  constexpr static std::size_t addrs = 0x44aa5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer::*)(::StringW)>(&::System::Net::CookieTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44bbe7c;
+  constexpr static std::size_t addrs = 0x44a9a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::get_EndOfCookie)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbeb4;
+  constexpr static std::size_t addrs = 0x44a9a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "get_EndOfCookie",
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer::*)(bool)>(&::System::Net::CookieTokenizer::set_EndOfCookie)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44bbebc;
+  constexpr static std::size_t addrs = 0x44a9a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::get_Eof)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44bbec8;
+  constexpr static std::size_t addrs = 0x44a9a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "get_Eof",
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbed8;
+  constexpr static std::size_t addrs = 0x44a9a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "get_Name",
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer::*)(::StringW)>(&::System::Net::CookieTokenizer::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbee0;
+  constexpr static std::size_t addrs = 0x44a9aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::get_Quoted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbee8;
+  constexpr static std::size_t addrs = 0x44a9aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "get_Quoted",
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer::*)(bool)>(&::System::Net::CookieTokenizer::set_Quoted)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44bbef0;
+  constexpr static std::size_t addrs = 0x44a9ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieToken (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::get_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbefc;
+  constexpr static std::size_t addrs = 0x44a9abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "get_Token",
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer::*)(::System::Net::CookieToken)>(&::System::Net::CookieTokenizer::set_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbf04;
+  constexpr static std::size_t addrs = 0x44a9ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbf0c;
+  constexpr static std::size_t addrs = 0x44a9acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "get_Value",
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer::*)(::StringW)>(&::System::Net::CookieTokenizer::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44bbf14;
+  constexpr static std::size_t addrs = 0x44a9ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::Extract)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x44bbf1c;
+  constexpr static std::size_t addrs = 0x44a9adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "Extract",
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieToken (::System::Net::CookieTokenizer::*)(bool, bool)>(
     &::System::Net::CookieTokenizer::FindNext)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x44bbfa4;
+  constexpr static std::size_t addrs = 0x44a9b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieToken (::System::Net::CookieTokenizer::*)(bool, bool)>(&::System::Net::CookieTokenizer::Next)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x44bc244;
+  constexpr static std::size_t addrs = 0x44a9e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieTokenizer::*)()>(&::System::Net::CookieTokenizer::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44bc348;
+  constexpr static std::size_t addrs = 0x44a9f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieTokenizer*>::get(), "Reset",
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieToken (::System::Net::CookieTokenizer::*)(bool)>(
     &::System::Net::CookieTokenizer::TokenFromName)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x44bc3b0;
+  constexpr static std::size_t addrs = 0x44a9f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

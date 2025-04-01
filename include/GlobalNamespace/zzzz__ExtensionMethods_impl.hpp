@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::LayerMask, int32_t)>(&::GlobalNamespace::ExtensionMethods::ContainsLayer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22b80d4;
+  constexpr static std::size_t addrs = 0x22b0264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (*)(::UnityEngine::MonoBehaviour*, ::System::Func_1<::System::Collections::IEnumerator*>*)>(
     &::GlobalNamespace::ExtensionMethods::StartUniqueCoroutine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22b8104;
+  constexpr static std::size_t addrs = 0x22b0294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MonoBehaviour*, ::System::Func_1<::System::Collections::IEnumerator*>*)>(
     &::GlobalNamespace::ExtensionMethods::StopUniqueCoroutine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x22b8180;
+  constexpr static std::size_t addrs = 0x22b0310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::ExtensionMethods::IsDescendantOf)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22b81c4;
+  constexpr static std::size_t addrs = 0x22b0354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::ExtensionMethods::SetLocalPositionAndRotation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22b8290;
+  constexpr static std::size_t addrs = 0x22b0420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::ExtensionMethods::GetPath)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x22b82e8;
+  constexpr static std::size_t addrs = 0x22b0478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::ExtensionMethods::Reflect)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x22b83e8;
+  constexpr static std::size_t addrs = 0x22b0578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::UnityEngine::RenderTexture*, ::UnityEngine::TextureFormat)>(
     &::GlobalNamespace::ExtensionMethods::CreateTexture2D)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x22b8570;
+  constexpr static std::size_t addrs = 0x22b0700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t)>(&::GlobalNamespace::ExtensionMethods::Rotate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22b8698;
+  constexpr static std::size_t addrs = 0x22b0828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ParticleSystem*, uint32_t)>(&::GlobalNamespace::ExtensionMethods::SetSeed)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22b86e0;
+  constexpr static std::size_t addrs = 0x22b0870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

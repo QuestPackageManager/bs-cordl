@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Root::*)()>(&::MS::Internal::Xml::XPath::Root::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43144ac;
+  constexpr static std::size_t addrs = 0x430206c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Root*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Root::*)()>(
     &::MS::Internal::Xml::XPath::Root::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43144b4;
+  constexpr static std::size_t addrs = 0x4302074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Root::*)()>(
     &::MS::Internal::Xml::XPath::Root::get_ReturnType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43144bc;
+  constexpr static std::size_t addrs = 0x430207c;
 
   inline static ::MethodInfo const* methodInfo() {
 

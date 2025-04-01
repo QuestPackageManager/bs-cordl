@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270eeec;
+  constexpr static std::size_t addrs = 0x2707530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270eef4;
+  constexpr static std::size_t addrs = 0x2707538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteLineLayer (::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::get_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270eefc;
+  constexpr static std::size_t addrs = 0x2707540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType (::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ef04;
+  constexpr static std::size_t addrs = 0x2707548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteCutDirection (::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::get_cutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ef0c;
+  constexpr static std::size_t addrs = 0x2707550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>::get(),
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, int32_t, ::BeatmapSaveDataCommon::NoteLineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType, ::BeatmapSaveDataCommon::NoteCutDirection)>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x270ef14;
+  constexpr static std::size_t addrs = 0x2707558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

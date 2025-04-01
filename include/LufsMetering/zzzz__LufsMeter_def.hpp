@@ -47,10 +47,10 @@ public:
 
   static inline ::LufsMetering::LufsMeter___c* New_ctor();
 
-  /// @brief Method <IntegratedLoudness>b__5_0, addr 0x3b8355c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IntegratedLoudness>b__5_0, addr 0x3b705f4, size 0x8, virtual false, abstract: false, final false
   inline float_t _IntegratedLoudness_b__5_0(float_t g, float_t z);
 
-  /// @brief Method .ctor, addr 0x3b83554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b705ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LufsMetering::LufsMeter___c* getStaticF___9();
@@ -106,18 +106,18 @@ public:
                       put = __cordl_internal_set__outputDataNative)) ::ArrayW<::Unity::Collections::NativeArray_1<float_t>, ::Array<::Unity::Collections::NativeArray_1<float_t>>*>
       _outputDataNative;
 
-  /// @brief Method AnalyzeClipLoudness, addr 0x3b81d9c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AnalyzeClipLoudness, addr 0x3b6ee34, size 0xc4, virtual false, abstract: false, final false
   inline ::LufsMetering::LoudnessData AnalyzeClipLoudness(::UnityEngine::AudioClip* clip);
 
-  /// @brief Method IntegratedLoudness, addr 0x3b81e60, size 0xe1c, virtual false, abstract: false, final false
+  /// @brief Method IntegratedLoudness, addr 0x3b6eef8, size 0xe1c, virtual false, abstract: false, final false
   inline ::LufsMetering::LoudnessData IntegratedLoudness(::ArrayW<float_t, ::Array<float_t>*> interleavedData, int32_t numChannels, int32_t rate);
 
-  /// @brief Method MomentaryLoudness, addr 0x3b82c8c, size 0x7d0, virtual false, abstract: false, final false
+  /// @brief Method MomentaryLoudness, addr 0x3b6fd24, size 0x7d0, virtual false, abstract: false, final false
   inline float_t MomentaryLoudness(::ArrayW<float_t, ::Array<float_t>*> interleavedData, int32_t numChannels, int32_t rate);
 
   static inline ::LufsMetering::LufsMeter* New_ctor();
 
-  /// @brief Method SwapData, addr 0x3b82c7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SwapData, addr 0x3b6fd14, size 0x10, virtual false, abstract: false, final false
   inline void SwapData();
 
   constexpr ::ArrayW<::Unity::Collections::NativeArray_1<float_t>, ::Array<::Unity::Collections::NativeArray_1<float_t>>*> const& __cordl_internal_get__inputDataNative() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__outputDataNative(::ArrayW<::Unity::Collections::NativeArray_1<float_t>, ::Array<::Unity::Collections::NativeArray_1<float_t>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b8345c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b704f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF__channelGains();

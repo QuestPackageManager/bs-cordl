@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OffsetDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection, addr 0x224a73c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OppositeDirection, addr 0x22428cc, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OffsetDirection OppositeDirection(::GlobalNamespace::OffsetDirection offsetDirection);
 
 protected:

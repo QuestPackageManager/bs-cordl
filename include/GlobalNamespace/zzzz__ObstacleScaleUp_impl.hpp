@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)()>(&::GlobalNamespace::ObstacleScaleUp::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b00490;
+  constexpr static std::size_t addrs = 0x3aed7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleScaleUp*>::get(), "Awake",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)()>(&::GlobalNamespace::ObstacleScaleUp::OnDestroy)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3b00640;
+  constexpr static std::size_t addrs = 0x3aed994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleScaleUp*>::get(), "OnDestroy",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)(float_t)>(&::GlobalNamespace::ObstacleScaleUp::UpdateScale)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3b00528;
+  constexpr static std::size_t addrs = 0x3aed87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)(::GlobalNamespace::ObstacleController*, float_t)>(
     &::GlobalNamespace::ObstacleScaleUp::HandleObstacleControllerDidUpdateProgress)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3b00764;
+  constexpr static std::size_t addrs = 0x3aedab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)(::GlobalNamespace::ObstacleControllerBase*)>(
     &::GlobalNamespace::ObstacleScaleUp::HandleObstacleControllerDidInit)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3b00894;
+  constexpr static std::size_t addrs = 0x3aedbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)()>(&::GlobalNamespace::ObstacleScaleUp::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b0095c;
+  constexpr static std::size_t addrs = 0x3aedcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleScaleUp*>::get(), ".ctor",

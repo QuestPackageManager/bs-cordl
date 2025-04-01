@@ -47,20 +47,20 @@ namespace UnityEngine::UIElements::StyleSheets {
 class CORDL_TYPE StyleSelectorHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FastLookup, addr 0x49e68a8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method FastLookup, addr 0x49d4488, size 0x1f0, virtual false, abstract: false, final false
   static inline void FastLookup(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* table,
                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
                                 ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input, ::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
 
-  /// @brief Method FindMatches, addr 0x49e6a98, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method FindMatches, addr 0x49d4678, size 0x548, virtual false, abstract: false, final false
   static inline void FindMatches(::UnityEngine::UIElements::StyleMatchingContext* context,
                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors, int32_t parentSheetIndex);
 
-  /// @brief Method MatchRightToLeft, addr 0x49e66e0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method MatchRightToLeft, addr 0x49d42c0, size 0x1c8, virtual false, abstract: false, final false
   static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
                                       ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method MatchesSelector, addr 0x49e6424, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method MatchesSelector, addr 0x49d4004, size 0x2bc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSelector* selector);
 
 protected:

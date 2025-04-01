@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)(int32_t)>(
     &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x482fec0;
+  constexpr static std::size_t addrs = 0x481daa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48316dc;
+  constexpr static std::size_t addrs = 0x481f2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::MoveNext)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x48316e0;
+  constexpr static std::size_t addrs = 0x481f2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::MonoBehaviour> (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
         &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4831818;
+  constexpr static std::size_t addrs = 0x481f3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4831820;
+  constexpr static std::size_t addrs = 0x481f400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4831858;
+  constexpr static std::size_t addrs = 0x481f438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
         &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4831860;
+  constexpr static std::size_t addrs = 0x481f440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
         &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48318fc;
+  constexpr static std::size_t addrs = 0x481f4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_controllingDirectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x482d878;
+  constexpr static std::size_t addrs = 0x481b458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::set_controllingDirectors)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x482d880;
+  constexpr static std::size_t addrs = 0x481b460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_controllingParticles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x482d88c;
+  constexpr static std::size_t addrs = 0x481b46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::set_controllingParticles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x482d894;
+  constexpr static std::size_t addrs = 0x481b474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x482d8a0;
+  constexpr static std::size_t addrs = 0x481b480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x482d8cc;
+  constexpr static std::size_t addrs = 0x481b4ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x482d8d4;
+  constexpr static std::size_t addrs = 0x481b4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::ControlPlayableAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0x808;
-  constexpr static std::size_t addrs = 0x482d8e0;
+  constexpr static std::size_t addrs = 0x481b4c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(
     ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::ConnectPlayablesToMixer)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x482fa28;
+  constexpr static std::size_t addrs = 0x481d608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -477,7 +477,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::CreateActivationPlayable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x482eb6c;
+  constexpr static std::size_t addrs = 0x481c74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -495,7 +495,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*, ::UnityEngine::Playables::PlayableGraph,
     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x482f164;
+  constexpr static std::size_t addrs = 0x481cd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -514,7 +514,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*, ::UnityEngine::Playables::PlayableGraph,
     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*, bool)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x482ecc0;
+  constexpr static std::size_t addrs = 0x481c8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -534,7 +534,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*, ::UnityEngine::Playables::PlayableGraph,
                          ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x482f604;
+  constexpr static std::size_t addrs = 0x481d1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -553,7 +553,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, int32_t)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::ConnectMixerAndPlayable)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x482fb90;
+  constexpr static std::size_t addrs = 0x481d770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* (*)(::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GetControlableScripts)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x482f594;
+  constexpr static std::size_t addrs = 0x481d174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -587,7 +587,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag)> {
   constexpr static std::size_t size = 0x918;
-  constexpr static std::size_t addrs = 0x482e254;
+  constexpr static std::size_t addrs = 0x481be34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -604,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>* (
     ::UnityEngine::Timeline::ControlPlayableAsset::*)(::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x482e0e8;
+  constexpr static std::size_t addrs = 0x481bcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -620,7 +620,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Transform*, ::System::Collections::Generic::ICollection_1<::UnityW<::UnityEngine::ParticleSystem>>*,
                          ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x482ff00;
+  constexpr static std::size_t addrs = 0x481dae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::ParticleSystem*, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x48300e8;
+  constexpr static std::size_t addrs = 0x481dcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -653,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GatherProperties)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x48301fc;
+  constexpr static std::size_t addrs = 0x481dddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -670,7 +670,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x48304e4;
+  constexpr static std::size_t addrs = 0x481e0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -687,7 +687,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x4830938;
+  constexpr static std::size_t addrs = 0x481e518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -704,7 +704,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x4830cb0;
+  constexpr static std::size_t addrs = 0x481e890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -722,7 +722,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::PreviewDirectors)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x48310c8;
+  constexpr static std::size_t addrs = 0x481eca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(&::UnityEngine::Timeline::ControlPlayableAsset::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x483148c;
+  constexpr static std::size_t addrs = 0x481f06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), ".ctor",

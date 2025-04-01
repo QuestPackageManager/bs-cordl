@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
     &::GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c277cc;
+  constexpr static std::size_t addrs = 0x3c152c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
     &::GlobalNamespace::PlayerOptionsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c2787c;
+  constexpr static std::size_t addrs = 0x3c15378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PlayerOptionsViewController::DidActivate)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c2792c;
+  constexpr static std::size_t addrs = 0x3c15428;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlayerOptionsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3c27d5c;
+  constexpr static std::size_t addrs = 0x3c15858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)()>(&::GlobalNamespace::PlayerOptionsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c27e50;
+  constexpr static std::size_t addrs = 0x3c1594c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), ".ctor",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)()>(
     &::GlobalNamespace::PlayerOptionsViewController::_DidActivate_b__6_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c27e58;
+  constexpr static std::size_t addrs = 0x3c15954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(),

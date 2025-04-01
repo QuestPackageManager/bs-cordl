@@ -34,24 +34,24 @@ namespace System::Xml::Schema {
 class CORDL_TYPE Numeric2FacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x43c6254, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43b3e14, size 0x60, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x43c62b4, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43b3e74, size 0x2b8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(double_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x43c6630, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43b41f0, size 0x10, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(float_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x43c6640, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x43b4200, size 0x78, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x43c656c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x43b412c, size 0xc4, virtual false, abstract: false, final false
   inline bool MatchEnumeration(double_t value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
 
   static inline ::System::Xml::Schema::Numeric2FacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43b2724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a02e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

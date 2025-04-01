@@ -65,7 +65,7 @@ public:
 
   static inline ::Zenject::ScopableBindingFinalizer___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x4b29f60, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x4b17b54, size 0x34, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::ScopableBindingFinalizer* const& __cordl_internal_get___4__this() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4b29f94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b17b88, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b29fe8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b17bdc, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b29f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b17b44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -137,7 +137,7 @@ public:
 
   static inline ::Zenject::ScopableBindingFinalizer___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x4b2a1a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x4b17d94, size 0x34, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::ScopableBindingFinalizer* const& __cordl_internal_get___4__this() const;
@@ -152,13 +152,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4b2a1d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b17dc8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2a228, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b17e1c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b29f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b17b4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,15 +209,15 @@ public:
   __declspec(property(get = __cordl_internal_get__providerFactory,
                       put = __cordl_internal_set__providerFactory)) ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
 
-  /// @brief Method FinalizeBindingConcrete, addr 0x4b29e10, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingConcrete, addr 0x4b17a04, size 0x140, virtual false, abstract: false, final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf, addr 0x4b29d04, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingSelf, addr 0x4b178f8, size 0x10c, virtual false, abstract: false, final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   static inline ::Zenject::ScopableBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x4b29c80, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x4b17874, size 0x84, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* const& __cordl_internal_get__providerFactory() const;
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x4b29c54, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b17848, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
 protected:

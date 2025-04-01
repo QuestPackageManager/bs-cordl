@@ -51,30 +51,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x43f6a28, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x43e45e8, size 0x58, virtual true, abstract: false, final false
   inline void Add(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
-  /// @brief Method Clear, addr 0x43f6be8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x43e47a8, size 0x58, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x43f6ad8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x43e4698, size 0x58, virtual true, abstract: false, final false
   inline bool Contains(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
-  /// @brief Method CopyTo, addr 0x43f6968, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x43e4528, size 0x68, virtual true, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Net::NetworkInformation::GatewayIPAddressInformation*, ::Array<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*> array, int32_t offset);
 
-  /// @brief Method GetEnumerator, addr 0x43f6b30, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x43e46f0, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* GetEnumerator();
 
-  /// @brief Method InternalAdd, addr 0x43f6a80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InternalAdd, addr 0x43e4640, size 0x58, virtual false, abstract: false, final false
   inline void InternalAdd(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* New_ctor();
 
-  /// @brief Method Remove, addr 0x43f6b90, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x43e4750, size 0x58, virtual true, abstract: false, final false
   inline bool Remove(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x43f6b80, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x43e4740, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* const& __cordl_internal_get_addresses() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* value);
 
-  /// @brief Method .ctor, addr 0x43f68ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e44ac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x43f69d0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x43e4590, size 0x50, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x43f6a20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x43e45e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>"

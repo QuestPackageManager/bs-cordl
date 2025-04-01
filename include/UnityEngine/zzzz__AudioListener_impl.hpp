@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::ArrayW<float_t, ::Array<float_t>*>>, int32_t)>(
     &::UnityEngine::AudioListener::GetOutputDataHelper)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4867020;
+  constexpr static std::size_t addrs = 0x4854c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::ArrayW<float_t, ::Array<float_t>*>>, int32_t, ::UnityEngine::FFTWindow)>(
     &::UnityEngine::AudioListener::GetSpectrumDataHelper)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4867064;
+  constexpr static std::size_t addrs = 0x4854c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::AudioListener::get_volume)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48670b8;
+  constexpr static std::size_t addrs = 0x4854c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioListener*>::get(), "get_volume",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngine::AudioListener::set_volume)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x48670e0;
+  constexpr static std::size_t addrs = 0x4854cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::AudioListener::get_pause)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4867118;
+  constexpr static std::size_t addrs = 0x4854cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioListener*>::get(), "get_pause",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::AudioListener::set_pause)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4867140;
+  constexpr static std::size_t addrs = 0x4854d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioVelocityUpdateMode (::UnityEngine::AudioListener::*)()>(
     &::UnityEngine::AudioListener::get_velocityUpdateMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x486717c;
+  constexpr static std::size_t addrs = 0x4854d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioListener*>::get(), "get_velocityUpdateMode",
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AudioListener::*)(::UnityEngine::AudioVelocityUpdateMode)>(
     &::UnityEngine::AudioListener::set_velocityUpdateMode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48671b8;
+  constexpr static std::size_t addrs = 0x4854d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (*)(int32_t, int32_t)>(&::UnityEngine::AudioListener::GetOutputData)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48671fc;
+  constexpr static std::size_t addrs = 0x4854ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(&::UnityEngine::AudioListener::GetOutputData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4867288;
+  constexpr static std::size_t addrs = 0x4854e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (*)(int32_t, int32_t, ::UnityEngine::FFTWindow)>(
     &::UnityEngine::AudioListener::GetSpectrumData)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48672cc;
+  constexpr static std::size_t addrs = 0x4854eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t, ::UnityEngine::FFTWindow)>(
     &::UnityEngine::AudioListener::GetSpectrumData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4867360;
+  constexpr static std::size_t addrs = 0x4854f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AudioListener::*)()>(&::UnityEngine::AudioListener::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48673b4;
+  constexpr static std::size_t addrs = 0x4854f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioListener*>::get(), ".ctor",

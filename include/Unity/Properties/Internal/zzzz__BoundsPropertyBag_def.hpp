@@ -40,10 +40,10 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49237e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49113c8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4923878, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4911458, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -80,10 +80,10 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4923830, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4911410, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49238b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4911498, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -122,7 +122,7 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49226d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49102b8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

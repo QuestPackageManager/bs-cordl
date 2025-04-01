@@ -29,12 +29,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ArcVisibilityTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::ArcVisibilityType> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x3c1f8d4, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x3c0d3d0, size 0x164, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::ArcVisibilityType, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c1fa38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0d534, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

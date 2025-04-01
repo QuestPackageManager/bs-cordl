@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3addb80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acb504, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -233,6 +233,9 @@ public:
   /// @brief Field _dspTimeProvider, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__dspTimeProvider, put = __cordl_internal_set__dspTimeProvider)) ::GlobalNamespace::IDspTimeProvider* _dspTimeProvider;
 
+  /// @brief Field _failReportCount, offset 0xa4, size 0x4
+  __declspec(property(get = __cordl_internal_get__failReportCount, put = __cordl_internal_set__failReportCount)) int32_t _failReportCount;
+
   /// @brief Field _fixingAudioSyncError, offset 0x64, size 0x1
   __declspec(property(get = __cordl_internal_get__fixingAudioSyncError, put = __cordl_internal_set__fixingAudioSyncError)) bool _fixingAudioSyncError;
 
@@ -254,6 +257,9 @@ public:
 
   /// @brief Field _lastFrameDeltaSongTime, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__lastFrameDeltaSongTime, put = __cordl_internal_set__lastFrameDeltaSongTime)) float_t _lastFrameDeltaSongTime;
+
+  /// @brief Field _lastState, offset 0xa8, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastState, put = __cordl_internal_set__lastState)) ::GlobalNamespace::AudioTimeSyncController_State _lastState;
 
   /// @brief Field _playbackLoopIndex, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__playbackLoopIndex, put = __cordl_internal_set__playbackLoopIndex)) int32_t _playbackLoopIndex;
@@ -327,36 +333,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
   constexpr operator ::GlobalNamespace::IAudioTimeSource*() noexcept;
 
-  /// @brief Method Awake, addr 0x3add250, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3aca6c4, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleAudioConfigurationChanged, addr 0x3add48c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleAudioConfigurationChanged, addr 0x3aca904, size 0x44, virtual false, abstract: false, final false
   inline void HandleAudioConfigurationChanged(bool deviceWasChanged);
 
   static inline ::GlobalNamespace::AudioTimeSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3add40c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aca884, size 0x80, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x3addac0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x3acb444, size 0x58, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x3addb18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x3acb49c, size 0x50, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method SeekTo, addr 0x3add92c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x3acb2b0, size 0x14c, virtual false, abstract: false, final false
   inline void SeekTo(float_t startTimeOffset);
 
-  /// @brief Method Start, addr 0x3add298, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3aca710, size 0x174, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x3add8e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x3acb26c, size 0x44, virtual false, abstract: false, final false
   inline void StartSong(float_t startTimeOffset);
 
-  /// @brief Method StopSong, addr 0x3adda78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method StopSong, addr 0x3acb3fc, size 0x48, virtual false, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method Update, addr 0x3add4d0, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aca948, size 0x924, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__audioLatency() const;
@@ -391,6 +397,10 @@ public:
 
   constexpr ::GlobalNamespace::IDspTimeProvider*& __cordl_internal_get__dspTimeProvider();
 
+  constexpr int32_t const& __cordl_internal_get__failReportCount() const;
+
+  constexpr int32_t& __cordl_internal_get__failReportCount();
+
   constexpr bool const& __cordl_internal_get__fixingAudioSyncError() const;
 
   constexpr bool& __cordl_internal_get__fixingAudioSyncError();
@@ -418,6 +428,10 @@ public:
   constexpr float_t const& __cordl_internal_get__lastFrameDeltaSongTime() const;
 
   constexpr float_t& __cordl_internal_get__lastFrameDeltaSongTime();
+
+  constexpr ::GlobalNamespace::AudioTimeSyncController_State const& __cordl_internal_get__lastState() const;
+
+  constexpr ::GlobalNamespace::AudioTimeSyncController_State& __cordl_internal_get__lastState();
 
   constexpr int32_t const& __cordl_internal_get__playbackLoopIndex() const;
 
@@ -487,6 +501,8 @@ public:
 
   constexpr void __cordl_internal_set__dspTimeProvider(::GlobalNamespace::IDspTimeProvider* value);
 
+  constexpr void __cordl_internal_set__failReportCount(int32_t value);
+
   constexpr void __cordl_internal_set__fixingAudioSyncError(bool value);
 
   constexpr void __cordl_internal_set__forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
@@ -500,6 +516,8 @@ public:
   constexpr void __cordl_internal_set__isReady(bool value);
 
   constexpr void __cordl_internal_set__lastFrameDeltaSongTime(float_t value);
+
+  constexpr void __cordl_internal_set__lastState(::GlobalNamespace::AudioTimeSyncController_State value);
 
   constexpr void __cordl_internal_set__playbackLoopIndex(int32_t value);
 
@@ -527,67 +545,67 @@ public:
 
   constexpr void __cordl_internal_set_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3addb68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acb4ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilAudioIsLoaded>b__32_0, addr 0x3addb7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilAudioIsLoaded>b__32_0, addr 0x3acb500, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilAudioIsLoaded_b__32_0();
 
-  /// @brief Method add_stateChangedEvent, addr 0x3add0f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stateChangedEvent, addr 0x3aca56c, size 0x9c, virtual false, abstract: false, final false
   inline void add_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method get_dspTimeOffset, addr 0x3add024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dspTimeOffset, addr 0x3aca498, size 0x8, virtual false, abstract: false, final false
   inline double_t get_dspTimeOffset();
 
-  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x3add0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x3aca558, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceNoAudioSyncOrAudioSyncErrorFixing();
 
-  /// @brief Method get_isAudioLoaded, addr 0x3adcf14, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x3aca388, size 0xdc, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_isReady, addr 0x3add0d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x3aca548, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x3adcd9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x3aca210, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x3adcff8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x3aca46c, size 0x24, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songFailedToLoad, addr 0x3adce3c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_songFailedToLoad, addr 0x3aca2b0, size 0xd8, virtual false, abstract: false, final false
   inline bool get_songFailedToLoad();
 
-  /// @brief Method get_songLength, addr 0x3adcda4, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x3aca218, size 0x98, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0x3adcd94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x3aca208, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method get_songTimeOffset, addr 0x3add0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x3aca550, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_startSongTime, addr 0x3adcff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startSongTime, addr 0x3aca464, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startSongTime();
 
-  /// @brief Method get_state, addr 0x3adcd8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x3aca200, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AudioTimeSyncController_State get_state();
 
-  /// @brief Method get_timeScale, addr 0x3add01c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeScale, addr 0x3aca490, size 0x8, virtual true, abstract: false, final true
   inline float_t get_timeScale();
 
-  /// @brief Method get_timeSinceStart, addr 0x3add230, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_timeSinceStart, addr 0x3aca6a4, size 0x20, virtual false, abstract: false, final false
   inline float_t get_timeSinceStart();
 
-  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x3add02c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x3aca4a0, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
 
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  /// @brief Method remove_stateChangedEvent, addr 0x3add194, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stateChangedEvent, addr 0x3aca608, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x3add0ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x3aca560, size 0xc, virtual false, abstract: false, final false
   inline void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
 
 protected:
@@ -691,6 +709,12 @@ public:
   /// @brief Field _inBetweenDSPBufferingTimeEstimate, offset: 0xa0, size: 0x4, def value: None
   float_t ____inBetweenDSPBufferingTimeEstimate;
 
+  /// @brief Field _failReportCount, offset: 0xa4, size: 0x4, def value: None
+  int32_t ____failReportCount;
+
+  /// @brief Field _lastState, offset: 0xa8, size: 0x4, def value: None
+  ::GlobalNamespace::AudioTimeSyncController_State ____lastState;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -750,7 +774,11 @@ static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____forceNoAu
 
 static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____inBetweenDSPBufferingTimeEstimate) == 0xa0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioTimeSyncController, 0xa8>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____failReportCount) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____lastState) == 0xa8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioTimeSyncController, 0xb0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioTimeSyncController_State, "", "AudioTimeSyncController/State");

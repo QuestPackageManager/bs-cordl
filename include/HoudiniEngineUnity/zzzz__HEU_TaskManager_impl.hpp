@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_TaskManager::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a6fb60;
+  constexpr static std::size_t addrs = 0x3a5cc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TaskManager*>::get(), "Update",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Task* (*)(::System::Guid)>(&::HoudiniEngineUnity::HEU_TaskManager::GetTask)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3a6fb64;
+  constexpr static std::size_t addrs = 0x3a5cc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&::HoudiniEngineUnity::HEU_TaskManager::AddTask)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3a6fcf8;
+  constexpr static std::size_t addrs = 0x3a5cdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*, bool)>(&::HoudiniEngineUnity::HEU_TaskManager::KillTask)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3a6fe44;
+  constexpr static std::size_t addrs = 0x3a5cf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Guid, bool)>(&::HoudiniEngineUnity::HEU_TaskManager::KillTask)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a7006c;
+  constexpr static std::size_t addrs = 0x3a5d140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&::HoudiniEngineUnity::HEU_TaskManager::RemoveTask)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3a6ff2c;
+  constexpr static std::size_t addrs = 0x3a5d000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&::HoudiniEngineUnity::HEU_TaskManager::ExecuteTask)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a70108;
+  constexpr static std::size_t addrs = 0x3a5d1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*, ::HoudiniEngineUnity::HEU_Task_TaskResult)>(
     &::HoudiniEngineUnity::HEU_TaskManager::CompleteTask)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a6f4b4;
+  constexpr static std::size_t addrs = 0x3a5c588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&::HoudiniEngineUnity::HEU_TaskManager::InternalCompleteTask)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a70140;
+  constexpr static std::size_t addrs = 0x3a5d214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_TaskManager::*)()>(&::HoudiniEngineUnity::HEU_TaskManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a701a0;
+  constexpr static std::size_t addrs = 0x3a5d274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TaskManager*>::get(), ".ctor",

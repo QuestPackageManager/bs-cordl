@@ -3,10 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(Interactable)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 // Forward declare root types
 namespace HMUI {
@@ -14,13 +20,20 @@ class Interactable;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::Interactable);
-// Dependencies UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.Interactable
-class CORDL_TYPE Interactable : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Interactable : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
+  /// @brief Field _canvasGroupCache, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__canvasGroupCache,
+                      put = __cordl_internal_set__canvasGroupCache)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* _canvasGroupCache;
+
+  /// @brief Field _groupsAllowInteraction, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__groupsAllowInteraction, put = __cordl_internal_set__groupsAllowInteraction)) bool _groupsAllowInteraction;
+
   /// @brief Field _interactable, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__interactable, put = __cordl_internal_set__interactable)) bool _interactable;
 
@@ -32,6 +45,20 @@ public:
 
   static inline ::HMUI::Interactable* New_ctor();
 
+  /// @brief Method OnCanvasGroupChanged, addr 0x3aa58d4, size 0xb0, virtual true, abstract: false, final false
+  inline void OnCanvasGroupChanged();
+
+  /// @brief Method ParentGroupAllowsInteraction, addr 0x3aa5984, size 0x23c, virtual false, abstract: false, final false
+  inline bool ParentGroupAllowsInteraction();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* const& __cordl_internal_get__canvasGroupCache() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& __cordl_internal_get__canvasGroupCache();
+
+  constexpr bool const& __cordl_internal_get__groupsAllowInteraction() const;
+
+  constexpr bool& __cordl_internal_get__groupsAllowInteraction();
+
   constexpr bool const& __cordl_internal_get__interactable() const;
 
   constexpr bool& __cordl_internal_get__interactable();
@@ -40,23 +67,27 @@ public:
 
   constexpr ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>*& __cordl_internal_get_interactableChangeEvent();
 
+  constexpr void __cordl_internal_set__canvasGroupCache(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* value);
+
+  constexpr void __cordl_internal_set__groupsAllowInteraction(bool value);
+
   constexpr void __cordl_internal_set__interactable(bool value);
 
   constexpr void __cordl_internal_set_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method .ctor, addr 0x3ab87c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa5bc0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_interactableChangeEvent, addr 0x3ab8620, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_interactableChangeEvent, addr 0x3aa56f4, size 0xb0, virtual false, abstract: false, final false
   inline void add_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method get_interactable, addr 0x3ab8780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3aa5854, size 0x20, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method remove_interactableChangeEvent, addr 0x3ab86d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_interactableChangeEvent, addr 0x3aa57a4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method set_interactable, addr 0x3ab8788, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3aa5874, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:
@@ -74,13 +105,19 @@ public:
   Interactable(Interactable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19212 };
 
   /// @brief Field _interactable, offset: 0x20, size: 0x1, def value: None
   bool ____interactable;
 
   /// @brief Field interactableChangeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* ___interactableChangeEvent;
+
+  /// @brief Field _groupsAllowInteraction, offset: 0x30, size: 0x1, def value: None
+  bool ____groupsAllowInteraction;
+
+  /// @brief Field _canvasGroupCache, offset: 0x38, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* ____canvasGroupCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,7 +126,11 @@ static_assert(offsetof(::HMUI::Interactable, ____interactable) == 0x20, "Offset 
 
 static_assert(offsetof(::HMUI::Interactable, ___interactableChangeEvent) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::HMUI::Interactable, 0x30>, "Size mismatch!");
+static_assert(offsetof(::HMUI::Interactable, ____groupsAllowInteraction) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::Interactable, ____canvasGroupCache) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::Interactable, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::Interactable);

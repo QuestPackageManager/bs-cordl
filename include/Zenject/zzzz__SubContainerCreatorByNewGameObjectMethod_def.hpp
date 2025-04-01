@@ -39,7 +39,7 @@ public:
   /// @brief Field _installerMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installerMethod;
 
-  /// @brief Method AddInstallers, addr 0x4b4e720, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x4b3c314, size 0xb0, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__installerMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x4b4e6e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3c2d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
 protected:

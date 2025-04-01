@@ -47,26 +47,26 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x4233404, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4220fc4, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x42334c4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4221084, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x42333fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x4220fbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x423388c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x422144c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x42334f0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x42210b0, size 0x1b0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductInfoHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x42336a0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x4221260, size 0x1ec, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::ProductInfoHeaderValue*> parsedValue);
 
   constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
@@ -81,25 +81,25 @@ public:
 
   constexpr void __cordl_internal_set__Product_k__BackingField(::System::Net::Http::Headers::ProductHeaderValue* value);
 
-  /// @brief Method .ctor, addr 0x42333d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4220f94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4233374, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4220f34, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method get_Comment, addr 0x42333dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x4220f9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method get_Product, addr 0x42333ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Product, addr 0x4220fac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::ProductHeaderValue* get_Product();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Comment, addr 0x42333e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x4220fa4, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method set_Product, addr 0x42333f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Product, addr 0x4220fb4, size 0x8, virtual false, abstract: false, final false
   inline void set_Product(::System::Net::Http::Headers::ProductHeaderValue* value);
 
 protected:

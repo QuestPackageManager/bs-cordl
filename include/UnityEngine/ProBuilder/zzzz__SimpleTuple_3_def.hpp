@@ -60,7 +60,7 @@ public:
   constexpr SimpleTuple_3(T1 m_Item1, T2 m_Item2, T3 m_Item3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14318 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

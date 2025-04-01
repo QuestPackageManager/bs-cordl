@@ -93,17 +93,17 @@ public:
 
   constexpr void __cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  /// @brief Method .ctor, addr 0x268260c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267a79c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method .ctor, addr 0x2682574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267a704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
 
-  /// @brief Method .ctor, addr 0x268257c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267a70c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature);
 
-  /// @brief Method setAssociatedCertificate, addr 0x2682650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method setAssociatedCertificate, addr 0x267a7e0, size 0x8, virtual false, abstract: false, final false
   inline void setAssociatedCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
 protected:

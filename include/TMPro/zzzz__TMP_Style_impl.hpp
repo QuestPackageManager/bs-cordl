@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (*)()>(&::TMPro::TMP_Style::get_NormalStyle)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4810700;
+  constexpr static std::size_t addrs = 0x47fe2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_NormalStyle",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4810844;
+  constexpr static std::size_t addrs = 0x47fe424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_name",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)(::StringW)>(&::TMPro::TMP_Style::set_name)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x481084c;
+  constexpr static std::size_t addrs = 0x47fe42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_hashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4810884;
+  constexpr static std::size_t addrs = 0x47fe464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_hashCode",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)(int32_t)>(&::TMPro::TMP_Style::set_hashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x481088c;
+  constexpr static std::size_t addrs = 0x47fe46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleOpeningDefinition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48108a0;
+  constexpr static std::size_t addrs = 0x47fe480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleOpeningDefinition",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleClosingDefinition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48108a8;
+  constexpr static std::size_t addrs = 0x47fe488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleClosingDefinition",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleOpeningTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48108b0;
+  constexpr static std::size_t addrs = 0x47fe490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleOpeningTagArray",
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleClosingTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48108b8;
+  constexpr static std::size_t addrs = 0x47fe498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleClosingTagArray",
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)(::StringW, ::StringW, ::StringW)>(&::TMPro::TMP_Style::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48107b4;
+  constexpr static std::size_t addrs = 0x47fe394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::RefreshStyle)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x481097c;
+  constexpr static std::size_t addrs = 0x47fe55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "RefreshStyle",

@@ -35,16 +35,16 @@ namespace LiteNetLib {
 struct CORDL_TYPE ReliableChannel_PendingPacket {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x3ac83e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3ab585c, size 0x40, virtual false, abstract: false, final false
   inline bool Clear(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method Init, addr 0x3ac8890, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ab5d04, size 0xc, virtual false, abstract: false, final false
   inline void Init(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ToString, addr 0x3ac8df0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ab6264, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TrySend, addr 0x3ac889c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TrySend, addr 0x3ab5d10, size 0x78, virtual false, abstract: false, final false
   inline void TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer);
 
   // Ctor Parameters []
@@ -135,13 +135,13 @@ public:
 
   static inline ::LiteNetLib::ReliableChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
-  /// @brief Method ProcessAck, addr 0x3ac80a4, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ProcessAck, addr 0x3ab5518, size 0x344, virtual false, abstract: false, final false
   inline void ProcessAck(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ProcessPacket, addr 0x3ac8914, size 0x4dc, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x3ab5d88, size 0x4dc, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x3ac8428, size 0x468, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x3ab589c, size 0x468, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
   constexpr ::LiteNetLib::DeliveryMethod const& __cordl_internal_get__deliveryMethod() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set__windowSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ac49dc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab1e50, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
 protected:

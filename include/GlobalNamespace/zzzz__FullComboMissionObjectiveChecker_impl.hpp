@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3bc08f4;
+  constexpr static std::size_t addrs = 0x3bae574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3bc09f0;
+  constexpr static std::size_t addrs = 0x3bae670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FullComboMissionObjectiveChecker*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::HandleComboBreakingEventHappened)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3bc0ac0;
+  constexpr static std::size_t addrs = 0x3bae740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc0afc;
+  constexpr static std::size_t addrs = 0x3bae77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FullComboMissionObjectiveChecker*>::get(),

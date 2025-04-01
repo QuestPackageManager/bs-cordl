@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Pipe::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Pipe::CopyShape)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x475e65c;
+  constexpr static std::size_t addrs = 0x474c23c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Pipe::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Pipe::UpdateBounds)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x475e6e8;
+  constexpr static std::size_t addrs = 0x474c2c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Pipe::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Pipe::RebuildMesh)> {
   constexpr static std::size_t size = 0x9bc;
-  constexpr static std::size_t addrs = 0x475e714;
+  constexpr static std::size_t addrs = 0x474c2f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Pipe::*)()>(&::UnityEngine::ProBuilder::Shapes::Pipe::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x475f0d0;
+  constexpr static std::size_t addrs = 0x474ccb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(), ".ctor",

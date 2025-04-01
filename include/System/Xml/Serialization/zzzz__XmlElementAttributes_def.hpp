@@ -29,21 +29,21 @@ public:
 
   __declspec(property(get = get_Order)) int32_t Order;
 
-  /// @brief Method Add, addr 0x437d760, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x436b320, size 0xb8, virtual false, abstract: false, final false
   inline int32_t Add(::System::Xml::Serialization::XmlElementAttribute* attribute);
 
-  /// @brief Method AddKeyHash, addr 0x437d880, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436b440, size 0xcc, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlElementAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x437d12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436acec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x43801ac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x436dd6c, size 0x100, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlElementAttribute* get_Item(int32_t index);
 
-  /// @brief Method get_Order, addr 0x437e96c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x436c52c, size 0x2cc, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:

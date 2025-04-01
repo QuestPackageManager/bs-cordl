@@ -162,7 +162,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <ByInstaller>b__0, addr 0x4b207cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <ByInstaller>b__0, addr 0x4b0e3c0, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByInstaller_b__0(::Zenject::DiContainer* container);
 
   constexpr ::System::Type* const& __cordl_internal_get_installerType() const;
@@ -177,13 +177,13 @@ public:
 
   constexpr void __cordl_internal_set_subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x4b20840, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0e434, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b20894, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0e488, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b1f79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0d390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -234,7 +234,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <ByMethod>b__0, addr 0x4b20a4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <ByMethod>b__0, addr 0x4b0e640, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByMethod_b__0(::Zenject::DiContainer* container);
 
   constexpr ::System::Action_1<::Zenject::DiContainer*>* const& __cordl_internal_get_installerMethod() const;
@@ -249,13 +249,13 @@ public:
 
   constexpr void __cordl_internal_set_subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x4b20ac0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0e6b4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b20b14, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0e708, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b1f920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0d514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -306,7 +306,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <ByNewGameObjectMethod>b__0, addr 0x4b20ccc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <ByNewGameObjectMethod>b__0, addr 0x4b0e8c0, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewGameObjectMethod_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters* const& __cordl_internal_get_gameObjectInfo() const;
@@ -321,13 +321,13 @@ public:
 
   constexpr void __cordl_internal_set_installerMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b20d40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0e934, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b20d94, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0e988, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b1fa9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0d690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -381,7 +381,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <ByNewPrefabMethod>b__0, addr 0x4b20f4c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <ByNewPrefabMethod>b__0, addr 0x4b0eb40, size 0xa8, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewPrefabMethod_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters* const& __cordl_internal_get_gameObjectInfo() const;
@@ -402,13 +402,13 @@ public:
 
   constexpr void __cordl_internal_set_prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method __zenCreate, addr 0x4b20ff4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0ebe8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b21048, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0ec3c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b1fc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0d870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -467,7 +467,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method <ByNewGameObjectInstaller>b__0, addr 0x4b21200, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <ByNewGameObjectInstaller>b__0, addr 0x4b0edf4, size 0x90, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewGameObjectInstaller_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::SubContainerBinder* const& __cordl_internal_get___4__this() const;
@@ -488,13 +488,13 @@ public:
 
   constexpr void __cordl_internal_set_installerType(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4b21290, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0ee84, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b212e4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0eed8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b1fec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0dab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -556,7 +556,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <ByNewPrefabInstaller>b__0, addr 0x4b2149c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <ByNewPrefabInstaller>b__0, addr 0x4b0f090, size 0xcc, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewPrefabInstaller_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::SubContainerBinder* const& __cordl_internal_get___4__this() const;
@@ -583,13 +583,13 @@ public:
 
   constexpr void __cordl_internal_set_prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method __zenCreate, addr 0x4b21568, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0f15c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b215bc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f1b0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b200b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0dca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -653,7 +653,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <ByNewPrefabResourceMethod>b__0, addr 0x4b21774, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <ByNewPrefabResourceMethod>b__0, addr 0x4b0f368, size 0xa8, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewPrefabResourceMethod_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters* const& __cordl_internal_get_gameObjectInfo() const;
@@ -674,13 +674,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b2181c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0f410, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b21870, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f464, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b20244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0de38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -742,7 +742,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <ByNewPrefabResourceInstaller>b__0, addr 0x4b21a28, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <ByNewPrefabResourceInstaller>b__0, addr 0x4b0f61c, size 0xcc, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewPrefabResourceInstaller_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::SubContainerBinder* const& __cordl_internal_get___4__this() const;
@@ -769,13 +769,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b21af4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0f6e8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b21b48, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f73c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b204a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0e098, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -836,7 +836,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <ByNewContextPrefab>b__0, addr 0x4b21d00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <ByNewContextPrefab>b__0, addr 0x4b0f8f4, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewContextPrefab_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters* const& __cordl_internal_get_gameObjectInfo() const;
@@ -851,13 +851,13 @@ public:
 
   constexpr void __cordl_internal_set_prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method __zenCreate, addr 0x4b21da4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0f998, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b21df8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f9ec, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b20634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0e228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -908,7 +908,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <ByNewContextPrefabResource>b__0, addr 0x4b21fb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <ByNewContextPrefabResource>b__0, addr 0x4b0fba4, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByNewContextPrefabResource_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters* const& __cordl_internal_get_gameObjectInfo() const;
@@ -923,13 +923,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b22054, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0fc48, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b220a8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0fc9c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b207c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0e3b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -977,7 +977,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ByInstance>b__0, addr 0x4b22260, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <ByInstance>b__0, addr 0x4b0fe54, size 0x60, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByInstance_b__0(::Zenject::DiContainer* _);
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get_subContainer() const;
@@ -986,13 +986,13 @@ public:
 
   constexpr void __cordl_internal_set_subContainer(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4b222c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b0feb4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b22314, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0ff08, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b1f428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0d01c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1036,7 +1036,7 @@ public:
 
   static inline ::Zenject::SubContainerBinder___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <ByInstanceGetter>b__0, addr 0x4b224cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <ByInstanceGetter>b__0, addr 0x4b100c0, size 0x60, virtual false, abstract: false, final false
   inline ::Zenject::ISubContainerCreator* _ByInstanceGetter_b__0(::Zenject::DiContainer* _);
 
   constexpr ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* const& __cordl_internal_get_subContainerGetter() const;
@@ -1045,13 +1045,13 @@ public:
 
   constexpr void __cordl_internal_set_subContainerGetter(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b2252c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b10120, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b22580, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b10174, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b1f5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0d1a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1130,55 +1130,55 @@ public:
   /// @brief Method ByInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller();
 
-  /// @brief Method ByInstaller, addr 0x4b1f5bc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ByInstaller, addr 0x4b0d1b0, size 0x1e0, virtual false, abstract: false, final false
   inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller(::System::Type* installerType);
 
-  /// @brief Method ByInstance, addr 0x4b1f2e8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ByInstance, addr 0x4b0cedc, size 0x140, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstance(::Zenject::DiContainer* subContainer);
 
-  /// @brief Method ByInstanceGetter, addr 0x4b1f474, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ByInstanceGetter, addr 0x4b0d068, size 0x140, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstanceGetter(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subContainerGetter);
 
-  /// @brief Method ByMethod, addr 0x4b1f7ac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ByMethod, addr 0x4b0d3a0, size 0x174, virtual false, abstract: false, final false
   inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* ByMethod(::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  /// @brief Method ByNewContextPrefab, addr 0x4b204b0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ByNewContextPrefab, addr 0x4b0e0a4, size 0x184, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method ByNewContextPrefabResource, addr 0x4b20640, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ByNewContextPrefabResource, addr 0x4b0e234, size 0x184, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefabResource(::StringW resourcePath);
 
   /// @brief Method ByNewGameObjectInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller();
 
-  /// @brief Method ByNewGameObjectInstaller, addr 0x4b1fce0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ByNewGameObjectInstaller, addr 0x4b0d8d4, size 0x1e0, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller(::System::Type* installerType);
 
-  /// @brief Method ByNewGameObjectMethod, addr 0x4b1f928, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ByNewGameObjectMethod, addr 0x4b0d51c, size 0x174, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectMethod(::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  /// @brief Method ByNewPrefab, addr 0x4b204ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ByNewPrefab, addr 0x4b0e0a0, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefab(::UnityEngine::Object* prefab);
 
   /// @brief Method ByNewPrefabInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(::UnityEngine::Object* prefab);
 
-  /// @brief Method ByNewPrefabInstaller, addr 0x4b1fec8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ByNewPrefabInstaller, addr 0x4b0dabc, size 0x1e8, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(::UnityEngine::Object* prefab, ::System::Type* installerType);
 
-  /// @brief Method ByNewPrefabMethod, addr 0x4b1faf0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ByNewPrefabMethod, addr 0x4b0d6e4, size 0x18c, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabMethod(::UnityEngine::Object* prefab, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  /// @brief Method ByNewPrefabResource, addr 0x4b2063c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ByNewPrefabResource, addr 0x4b0e230, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResource(::StringW resourcePath);
 
   /// @brief Method ByNewPrefabResourceInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::StringW resourcePath);
 
-  /// @brief Method ByNewPrefabResourceInstaller, addr 0x4b202a8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ByNewPrefabResourceInstaller, addr 0x4b0de9c, size 0x1fc, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::StringW resourcePath, ::System::Type* installerType);
 
-  /// @brief Method ByNewPrefabResourceMethod, addr 0x4b200b8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ByNewPrefabResourceMethod, addr 0x4b0dcac, size 0x18c, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceMethod(::StringW resourcePath, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
   static inline ::Zenject::SubContainerBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement, ::System::Object* subIdentifier, bool resolveAll);
@@ -1207,10 +1207,10 @@ public:
 
   constexpr void __cordl_internal_set__subIdentifier(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4b1f27c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0ce70, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement, ::System::Object* subIdentifier, bool resolveAll);
 
-  /// @brief Method set_SubFinalizer, addr 0x4b1f2cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_SubFinalizer, addr 0x4b0cec0, size 0x1c, virtual false, abstract: false, final false
   inline void set_SubFinalizer(::Zenject::IBindingFinalizer* value);
 
 protected:

@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a42540, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a30120, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IMGUIEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a42538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a30118, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* getStaticF___9();
@@ -76,18 +76,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::IMGUIEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a42380, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2ff60, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x4a42404, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2ffe4, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a42458, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a30038, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a42464, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a30044, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

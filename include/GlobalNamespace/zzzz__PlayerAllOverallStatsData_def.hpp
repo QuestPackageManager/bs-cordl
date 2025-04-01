@@ -104,7 +104,7 @@ public:
                                                                                               int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount,
                                                                                               float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore);
 
-  /// @brief Method UpdateWithLevelCompletionResults, addr 0x26f6d08, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UpdateWithLevelCompletionResults, addr 0x26ef34c, size 0x11c, virtual false, abstract: false, final false
   inline void UpdateWithLevelCompletionResults(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   constexpr int32_t const& __cordl_internal_get__badCutsCount_k__BackingField() const;
@@ -173,81 +173,81 @@ public:
 
   constexpr void __cordl_internal_set__totalScore_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x26f6c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ef29c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26f6fd4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ef618, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore);
 
-  /// @brief Method get_badCutsCount, addr 0x26f6f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badCutsCount, addr 0x26ef578, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_badCutsCount();
 
-  /// @brief Method get_clearedLevelsCount, addr 0x26f6f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearedLevelsCount, addr 0x26ef5b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clearedLevelsCount();
 
-  /// @brief Method get_failedLevelsCount, addr 0x26f6f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_failedLevelsCount, addr 0x26ef5c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_failedLevelsCount();
 
-  /// @brief Method get_fullComboCount, addr 0x26f6f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullComboCount, addr 0x26ef5d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fullComboCount();
 
-  /// @brief Method get_goodCutsCount, addr 0x26f6f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_goodCutsCount, addr 0x26ef568, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_goodCutsCount();
 
-  /// @brief Method get_handDistanceTravelled, addr 0x26f6fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handDistanceTravelled, addr 0x26ef5f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handDistanceTravelled();
 
-  /// @brief Method get_missedCutsCount, addr 0x26f6f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missedCutsCount, addr 0x26ef588, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missedCutsCount();
 
-  /// @brief Method get_playedLevelsCount, addr 0x26f6f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playedLevelsCount, addr 0x26ef5a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playedLevelsCount();
 
-  /// @brief Method get_timePlayed, addr 0x26f6fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timePlayed, addr 0x26ef5e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timePlayed();
 
-  /// @brief Method get_totalCutScore, addr 0x26f6fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalCutScore, addr 0x26ef608, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_totalCutScore();
 
-  /// @brief Method get_totalScore, addr 0x26f6f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalScore, addr 0x26ef598, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_totalScore();
 
-  /// @brief Method op_Addition, addr 0x26f6654, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x26eec98, size 0x118, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* op_Addition(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* a,
                                                                                                  ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* b);
 
-  /// @brief Method set_badCutsCount, addr 0x26f6f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_badCutsCount, addr 0x26ef580, size 0x8, virtual false, abstract: false, final false
   inline void set_badCutsCount(int32_t value);
 
-  /// @brief Method set_clearedLevelsCount, addr 0x26f6f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clearedLevelsCount, addr 0x26ef5c0, size 0x8, virtual false, abstract: false, final false
   inline void set_clearedLevelsCount(int32_t value);
 
-  /// @brief Method set_failedLevelsCount, addr 0x26f6f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failedLevelsCount, addr 0x26ef5d0, size 0x8, virtual false, abstract: false, final false
   inline void set_failedLevelsCount(int32_t value);
 
-  /// @brief Method set_fullComboCount, addr 0x26f6f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullComboCount, addr 0x26ef5e0, size 0x8, virtual false, abstract: false, final false
   inline void set_fullComboCount(int32_t value);
 
-  /// @brief Method set_goodCutsCount, addr 0x26f6f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_goodCutsCount, addr 0x26ef570, size 0x8, virtual false, abstract: false, final false
   inline void set_goodCutsCount(int32_t value);
 
-  /// @brief Method set_handDistanceTravelled, addr 0x26f6fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handDistanceTravelled, addr 0x26ef600, size 0x8, virtual false, abstract: false, final false
   inline void set_handDistanceTravelled(int32_t value);
 
-  /// @brief Method set_missedCutsCount, addr 0x26f6f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missedCutsCount, addr 0x26ef590, size 0x8, virtual false, abstract: false, final false
   inline void set_missedCutsCount(int32_t value);
 
-  /// @brief Method set_playedLevelsCount, addr 0x26f6f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playedLevelsCount, addr 0x26ef5b0, size 0x8, virtual false, abstract: false, final false
   inline void set_playedLevelsCount(int32_t value);
 
-  /// @brief Method set_timePlayed, addr 0x26f6fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timePlayed, addr 0x26ef5f0, size 0x8, virtual false, abstract: false, final false
   inline void set_timePlayed(float_t value);
 
-  /// @brief Method set_totalCutScore, addr 0x26f6fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalCutScore, addr 0x26ef610, size 0x8, virtual false, abstract: false, final false
   inline void set_totalCutScore(int64_t value);
 
-  /// @brief Method set_totalScore, addr 0x26f6f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalScore, addr 0x26ef5a0, size 0x8, virtual false, abstract: false, final false
   inline void set_totalScore(int64_t value);
 
 protected:
@@ -265,7 +265,7 @@ public:
   PlayerAllOverallStatsData_PlayerOverallStatsData(PlayerAllOverallStatsData_PlayerOverallStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13225 };
 
   /// @brief Field <goodCutsCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____goodCutsCount_k__BackingField;
@@ -389,16 +389,16 @@ public:
                                                                        ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* partyFreePlayOverallStatsData,
                                                                        ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* onlinePlayOverallStatsData);
 
-  /// @brief Method UpdateCampaignOverallStatsData, addr 0x26f6e8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCampaignOverallStatsData, addr 0x26ef4d0, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateCampaignOverallStatsData(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::IMissionNode* missionNode);
 
-  /// @brief Method UpdateOnlinePlayOverallStatsData, addr 0x26f6ef8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateOnlinePlayOverallStatsData, addr 0x26ef53c, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateOnlinePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method UpdatePartyFreePlayOverallStatsData, addr 0x26f6e24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdatePartyFreePlayOverallStatsData, addr 0x26ef468, size 0x68, virtual false, abstract: false, final false
   inline void UpdatePartyFreePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method UpdateSoloFreePlayOverallStatsData, addr 0x26f6ca0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateSoloFreePlayOverallStatsData, addr 0x26ef2e4, size 0x68, virtual false, abstract: false, final false
   inline void UpdateSoloFreePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* const& __cordl_internal_get__campaignOverallStatsData_k__BackingField() const;
@@ -443,46 +443,46 @@ public:
 
   constexpr void __cordl_internal_set_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method .ctor, addr 0x26f6bac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ef1f0, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26f6c60, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ef2a4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* campaignOverallStatsData,
                     ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* partyFreePlayOverallStatsData,
                     ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* onlinePlayOverallStatsData);
 
-  /// @brief Method add_didUpdateCampaignOverallStatsDataEvent, addr 0x26f6a4c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateCampaignOverallStatsDataEvent, addr 0x26ef090, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* value);
 
-  /// @brief Method add_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26f68ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26eef30, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method add_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26f678c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26eedd0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method get_allOverallStatsData, addr 0x26f662c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allOverallStatsData, addr 0x26eec70, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_allOverallStatsData();
 
-  /// @brief Method get_campaignOverallStatsData, addr 0x26f676c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_campaignOverallStatsData, addr 0x26eedb0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_campaignOverallStatsData();
 
-  /// @brief Method get_onlinePlayOverallStatsData, addr 0x26f6784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onlinePlayOverallStatsData, addr 0x26eedc8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_onlinePlayOverallStatsData();
 
-  /// @brief Method get_partyFreePlayOverallStatsData, addr 0x26f677c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_partyFreePlayOverallStatsData, addr 0x26eedc0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_partyFreePlayOverallStatsData();
 
-  /// @brief Method get_soloFreePlayOverallStatsData, addr 0x26f6774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_soloFreePlayOverallStatsData, addr 0x26eedb8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_soloFreePlayOverallStatsData();
 
-  /// @brief Method remove_didUpdateCampaignOverallStatsDataEvent, addr 0x26f6afc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateCampaignOverallStatsDataEvent, addr 0x26ef140, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* value);
 
-  /// @brief Method remove_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26f699c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26eefe0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method remove_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26f683c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26eee80, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
 protected:
@@ -500,7 +500,7 @@ public:
   PlayerAllOverallStatsData(PlayerAllOverallStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13226 };
 
   /// @brief Field <campaignOverallStatsData>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____campaignOverallStatsData_k__BackingField;

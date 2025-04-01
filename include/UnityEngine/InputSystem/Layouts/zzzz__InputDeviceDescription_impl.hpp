@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_interfaceName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4634224;
+  constexpr static std::size_t addrs = 0x4621e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::set_interfaceName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x463422c;
+  constexpr static std::size_t addrs = 0x4621e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_deviceClass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4634234;
+  constexpr static std::size_t addrs = 0x4621e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::set_deviceClass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x463423c;
+  constexpr static std::size_t addrs = 0x4621e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_manufacturer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4634244;
+  constexpr static std::size_t addrs = 0x4621e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::set_manufacturer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x463424c;
+  constexpr static std::size_t addrs = 0x4621e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_product)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4634254;
+  constexpr static std::size_t addrs = 0x4621e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::set_product)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x463425c;
+  constexpr static std::size_t addrs = 0x4621e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_serial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4634264;
+  constexpr static std::size_t addrs = 0x4621e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::set_serial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x463426c;
+  constexpr static std::size_t addrs = 0x4621e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4634274;
+  constexpr static std::size_t addrs = 0x4621e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::set_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x463427c;
+  constexpr static std::size_t addrs = 0x4621e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_capabilities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4634284;
+  constexpr static std::size_t addrs = 0x4621e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::set_capabilities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x463428c;
+  constexpr static std::size_t addrs = 0x4621e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::get_empty)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4634294;
+  constexpr static std::size_t addrs = 0x4621e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::ToString)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x4634318;
+  constexpr static std::size_t addrs = 0x4621ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(
     ::UnityEngine::InputSystem::Layouts::InputDeviceDescription)>(&::UnityEngine::InputSystem::Layouts::InputDeviceDescription::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4634564;
+  constexpr static std::size_t addrs = 0x4622144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4634614;
+  constexpr static std::size_t addrs = 0x46221f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::GetHashCode)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x46346ac;
+  constexpr static std::size_t addrs = 0x462228c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -316,7 +316,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::Layouts::InputDeviceDescription, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription)>(
         &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::op_Equality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46347dc;
+  constexpr static std::size_t addrs = 0x46223bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +333,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::Layouts::InputDeviceDescription, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription)>(
         &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::op_Inequality)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4634814;
+  constexpr static std::size_t addrs = 0x46223f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceDescription::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::ToJson)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4634850;
+  constexpr static std::size_t addrs = 0x4622430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Layouts::InputDeviceDescription (*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::FromJson)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x46348cc;
+  constexpr static std::size_t addrs = 0x46224ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceDescription::ComparePropertyToDeviceDescriptor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4634990;
+  constexpr static std::size_t addrs = 0x4622570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

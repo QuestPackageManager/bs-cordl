@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInAtoms)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x44104a8;
+  constexpr static std::size_t addrs = 0x43fe068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInQuotedStrings)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4410690;
+  constexpr static std::size_t addrs = 0x43fe250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInDomainLiterals)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x44107d0;
+  constexpr static std::size_t addrs = 0x43fe390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInHeaderNames)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4410910;
+  constexpr static std::size_t addrs = 0x43fe4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInTokens)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x44109b8;
+  constexpr static std::size_t addrs = 0x43fe578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInComments)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4410ab4;
+  constexpr static std::size_t addrs = 0x43fe674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Net::Mime::MailBnfHelper::IsAllowedWhiteSpace)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4410c28;
+  constexpr static std::size_t addrs = 0x43fe7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

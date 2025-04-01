@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecorder___c::*)()>(&::GlobalNamespace::PosesRecorder___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b29698;
+  constexpr static std::size_t addrs = 0x3b166c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecorder___c*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::PosesRecorder___c::*)(::GlobalNamespace::PoseObject*)>(
     &::GlobalNamespace::PosesRecorder___c::_Init_b__6_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b296a0;
+  constexpr static std::size_t addrs = 0x3b166cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PosesRecorder___c::*)(::GlobalNamespace::PoseObject*)>(
     &::GlobalNamespace::PosesRecorder___c::_Init_b__6_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b296b8;
+  constexpr static std::size_t addrs = 0x3b166e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PosesRecordingData* (::GlobalNamespace::PosesRecorder::*)()>(
     &::GlobalNamespace::PosesRecorder::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b292dc;
+  constexpr static std::size_t addrs = 0x3b16308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecorder*>::get(), "get_data",
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::LateUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b292e4;
+  constexpr static std::size_t addrs = 0x3b16310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecorder*>::get(), "LateUpdate",
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecorder::*)(
     ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*>, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*)>(&::GlobalNamespace::PosesRecorder::Init)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x3b26d90;
+  constexpr static std::size_t addrs = 0x3b13dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::StartRecording)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b27738;
+  constexpr static std::size_t addrs = 0x3b14764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecorder*>::get(), "StartRecording",
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecorder::*)(float_t)>(&::GlobalNamespace::PosesRecorder::RecordTick)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3b29300;
+  constexpr static std::size_t addrs = 0x3b1632c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::StopRecording)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b276b0;
+  constexpr static std::size_t addrs = 0x3b146dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecorder*>::get(), "StopRecording",
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b29634;
+  constexpr static std::size_t addrs = 0x3b16660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecorder*>::get(), ".ctor",

@@ -25,7 +25,7 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 struct CORDL_TYPE EditAvatarHistorySnapshot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2259be4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2251d74, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   // Ctor Parameters []

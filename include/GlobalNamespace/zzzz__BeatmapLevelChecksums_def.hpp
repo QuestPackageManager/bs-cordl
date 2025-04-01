@@ -54,10 +54,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BeatmapLevelChecksums_DifficultyBeatmapChecksums {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x26ca23c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c23cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic, ::StringW beatmapAssetChecksum, ::StringW lightshowAssetChecksum);
 
-  /// @brief Method .ctor, addr 0x26ca44c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c25dc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums other);
 
   // Ctor Parameters []
@@ -117,10 +117,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelChecksums___c* New_ctor();
 
-  /// @brief Method <.ctor>b__6_0, addr 0x26ca4d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__6_0, addr 0x26c2664, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums __ctor_b__6_0(::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums d);
 
-  /// @brief Method .ctor, addr 0x26ca4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c265c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapLevelChecksums___c* getStaticF___9();
@@ -170,7 +170,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelChecksums___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <GetOrAddDifficultyBeatmapChecksums>b__0, addr 0x26ca4e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <GetOrAddDifficultyBeatmapChecksums>b__0, addr 0x26c2670, size 0x4c, virtual false, abstract: false, final false
   inline bool _GetOrAddDifficultyBeatmapChecksums_b__0(::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums difficultyBeatmapChecksums);
 
   constexpr ::StringW const& __cordl_internal_get_beatmapCharacteristic() const;
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapDifficulty(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ca234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c23c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -236,7 +236,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelChecksums___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <SetDifficultyBeatmapChecksums>b__0, addr 0x26ca52c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <SetDifficultyBeatmapChecksums>b__0, addr 0x26c26bc, size 0x4c, virtual false, abstract: false, final false
   inline bool _SetDifficultyBeatmapChecksums_b__0(::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums d);
 
   constexpr ::StringW const& __cordl_internal_get_beatmapCharacteristic() const;
@@ -251,7 +251,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapDifficulty(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ca444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c25d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -302,13 +302,13 @@ public:
 
   using __c__DisplayClass8_0 = ::GlobalNamespace::BeatmapLevelChecksums___c__DisplayClass8_0;
 
-  /// @brief Method GetOrAddDifficultyBeatmapChecksums, addr 0x26c9f64, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetOrAddDifficultyBeatmapChecksums, addr 0x26c20f4, size 0x2d0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums GetOrAddDifficultyBeatmapChecksums(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic);
 
-  /// @brief Method SetDifficultyBeatmapChecksums, addr 0x26ca248, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetDifficultyBeatmapChecksums, addr 0x26c23d8, size 0x1fc, virtual false, abstract: false, final false
   inline void SetDifficultyBeatmapChecksums(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic, ::StringW beatmapAssetChecksum, ::StringW lightshowAssetChecksum);
 
-  /// @brief Method .ctor, addr 0x26c9e14, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c1fa4, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelChecksums other);
 
   // Ctor Parameters []

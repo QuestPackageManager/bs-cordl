@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::ColorSaturationValueSlider::add_colorSaturationOrValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c33350;
+  constexpr static std::size_t addrs = 0x3c20e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::ColorSaturationValueSlider::remove_colorSaturationOrValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c33404;
+  constexpr static std::size_t addrs = 0x3c20f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)()>(&::GlobalNamespace::ColorSaturationValueSlider::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c334b8;
+  constexpr static std::size_t addrs = 0x3c20fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)()>(
     &::GlobalNamespace::ColorSaturationValueSlider::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c33548;
+  constexpr static std::size_t addrs = 0x3c21044;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)(float_t)>(
     &::GlobalNamespace::ColorSaturationValueSlider::SetHue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c335d8;
+  constexpr static std::size_t addrs = 0x3c210d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)()>(
     &::GlobalNamespace::ColorSaturationValueSlider::UpdateVisuals)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3c335ec;
+  constexpr static std::size_t addrs = 0x3c210e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)(::HMUI::Slider2D*, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::ColorSaturationValueSlider::HandleNormalizedValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c33718;
+  constexpr static std::size_t addrs = 0x3c21214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::ColorSaturationValueSlider::OnPointerUp)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3c3373c;
+  constexpr static std::size_t addrs = 0x3c21238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)()>(&::GlobalNamespace::ColorSaturationValueSlider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33780;
+  constexpr static std::size_t addrs = 0x3c2127c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSaturationValueSlider*>::get(), ".ctor",

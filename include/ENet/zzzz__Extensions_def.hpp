@@ -19,7 +19,7 @@ namespace ENet {
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StringLength, addr 0x3ab3f34, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method StringLength, addr 0x3aa1008, size 0x98, virtual false, abstract: false, final false
   static inline int32_t StringLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:

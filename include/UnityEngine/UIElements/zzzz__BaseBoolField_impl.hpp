@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::StringW)>(&::UnityEngine::UIElements::BaseBoolField::_ctor)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x498cf1c;
+  constexpr static std::size_t addrs = 0x497aafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::UnityEngine::UIElements::NavigationSubmitEvent*)>(
     &::UnityEngine::UIElements::BaseBoolField::OnNavigationSubmit)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x498d1d8;
+  constexpr static std::size_t addrs = 0x497adb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::BaseBoolField::*)()>(&::UnityEngine::UIElements::BaseBoolField::get_text)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x498d20c;
+  constexpr static std::size_t addrs = 0x497adec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "get_text",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::StringW)>(&::UnityEngine::UIElements::BaseBoolField::set_text)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x498d150;
+  constexpr static std::size_t addrs = 0x497ad30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(&::UnityEngine::UIElements::BaseBoolField::InitLabel)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x498d228;
+  constexpr static std::size_t addrs = 0x497ae08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(bool)>(
     &::UnityEngine::UIElements::BaseBoolField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x498d2b8;
+  constexpr static std::size_t addrs = 0x497ae98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::BaseBoolField::OnClickEvent)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x498d398;
+  constexpr static std::size_t addrs = 0x497af78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(&::UnityEngine::UIElements::BaseBoolField::ToggleValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x498d620;
+  constexpr static std::size_t addrs = 0x497b200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(
     &::UnityEngine::UIElements::BaseBoolField::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x498d658;
+  constexpr static std::size_t addrs = 0x497b238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(
     &::UnityEngine::UIElements::BaseBoolField::RegisterEditingCallbacks)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x498d7dc;
+  constexpr static std::size_t addrs = 0x497b3bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(
     &::UnityEngine::UIElements::BaseBoolField::UnregisterEditingCallbacks)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x498d8f4;
+  constexpr static std::size_t addrs = 0x497b4d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

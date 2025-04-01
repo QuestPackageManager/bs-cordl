@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseOverEvent___c::*)()>(&::UnityEngine::UIElements::MouseOverEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b194;
+  constexpr static std::size_t addrs = 0x4a28d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseOverEvent___c*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseOverEvent* (::UnityEngine::UIElements::MouseOverEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseOverEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a3b19c;
+  constexpr static std::size_t addrs = 0x4a28d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseOverEvent___c*>::get(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseOverEvent::*)()>(&::UnityEngine::UIElements::MouseOverEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a3b0f0;
+  constexpr static std::size_t addrs = 0x4a28cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseOverEvent*>::get(), ".ctor",

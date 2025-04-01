@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23c01b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b8340, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x23c01fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b838c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_DomainParameters, addr 0x23c0378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainParameters, addr 0x23b8508, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x23c0380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x23b8510, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:

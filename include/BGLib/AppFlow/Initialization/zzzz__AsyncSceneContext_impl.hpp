@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext___c::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a0d98;
+  constexpr static std::size_t addrs = 0x2298f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncSceneContext___c*>::get(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::AsyncSceneContext___c::*)(::BGLib::AppFlow::Initialization::AsyncPreloader*)>(
         &::BGLib::AppFlow::Initialization::AsyncSceneContext___c::_LoadInstallersAsync_b__9_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22a0da0;
+  constexpr static std::size_t addrs = 0x2298f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass9_0::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a0dc4;
+  constexpr static std::size_t addrs = 0x2298f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass9_0::*)(::BGLib::AppFlow::Initialization::AsyncInstaller*)>(
         &::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass9_0::_LoadInstallersAsync_b__1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22a0dcc;
+  constexpr static std::size_t addrs = 0x2298f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__9::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x22a0df4;
+  constexpr static std::size_t addrs = 0x2298f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22a12d0;
+  constexpr static std::size_t addrs = 0x2299460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__Run_d__5::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext__Run_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x22a134c;
+  constexpr static std::size_t addrs = 0x22994dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__Run_d__5::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::AppFlow::Initialization::AsyncSceneContext__Run_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22a14c4;
+  constexpr static std::size_t addrs = 0x2299654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__6::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x22a14d0;
+  constexpr static std::size_t addrs = 0x2299660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__6::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22a1894;
+  constexpr static std::size_t addrs = 0x2299a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::Run)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22a07c8;
+  constexpr static std::size_t addrs = 0x2298958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::RunAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2299bc8;
+  constexpr static std::size_t addrs = 0x2291d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncSceneContext*>::get(),
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::CreateContainerForLoading)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22a0858;
+  constexpr static std::size_t addrs = 0x22989e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncSceneContext*>::get(),
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::CreateRegistry)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22a08ec;
+  constexpr static std::size_t addrs = 0x2298a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncSceneContext*>::get(),
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>* (
     ::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContext::LoadInstallersAsync)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x22a0970;
+  constexpr static std::size_t addrs = 0x2298b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncSceneContext*>::get(),
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::InstallInstallers)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x22a0a58;
+  constexpr static std::size_t addrs = 0x2298be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a0d2c;
+  constexpr static std::size_t addrs = 0x2298ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncSceneContext*>::get(),
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::__n__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a0d34;
+  constexpr static std::size_t addrs = 0x2298ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncSceneContext*>::get(),

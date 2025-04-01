@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BezierPath_ControlMode (::GlobalNamespace::BezierPath::*)()>(
     &::GlobalNamespace::BezierPath::get_controlPointMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3d030;
+  constexpr static std::size_t addrs = 0x3b2a05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierPath*>::get(), "get_controlPointMode",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(::GlobalNamespace::BezierPath_ControlMode)>(
     &::GlobalNamespace::BezierPath::set_controlPointMode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b3d038;
+  constexpr static std::size_t addrs = 0x3b2a064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Action*)>(
     &::GlobalNamespace::BezierPath::add_bezierPathWasModifiedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b3d120;
+  constexpr static std::size_t addrs = 0x3b2a14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Action*)>(
     &::GlobalNamespace::BezierPath::remove_bezierPathWasModifiedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b3d1bc;
+  constexpr static std::size_t addrs = 0x3b2a1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::get_pointsCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b3d258;
+  constexpr static std::size_t addrs = 0x3b2a284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierPath*>::get(), "get_pointsCount",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::get_anchorPointsCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b3d2a0;
+  constexpr static std::size_t addrs = 0x3b2a2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierPath*>::get(), "get_anchorPointsCount",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::get_segmentsCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b3d304;
+  constexpr static std::size_t addrs = 0x3b2a330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierPath*>::get(), "get_segmentsCount",
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(::UnityEngine::Vector3, bool)>(&::GlobalNamespace::BezierPath::_ctor)> {
   constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x3b3d364;
+  constexpr static std::size_t addrs = 0x3b2a390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*)>(
     &::GlobalNamespace::BezierPath::UpdateByAnchorPoints)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x3b3d88c;
+  constexpr static std::size_t addrs = 0x3b2a8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*)>(
     &::GlobalNamespace::BezierPath::UpdateControlPoints)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3b3e37c;
+  constexpr static std::size_t addrs = 0x3b2b3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b3e6b0;
+  constexpr static std::size_t addrs = 0x3b2b6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::GetPoint)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b3e6b4;
+  constexpr static std::size_t addrs = 0x3b2b6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t, ::UnityEngine::Vector3, bool)>(
     &::GlobalNamespace::BezierPath::SetPoint)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3b3e5f0;
+  constexpr static std::size_t addrs = 0x3b2b61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BezierPath::AddSegmentToEnd)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x3b3de78;
+  constexpr static std::size_t addrs = 0x3b2aea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t, ::ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>)>(&::GlobalNamespace::BezierPath::GetPointsInSegment)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b3e798;
+  constexpr static std::size_t addrs = 0x3b2b7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(
     int32_t, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::BezierPath::GetPointsInSegment)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b3e830;
+  constexpr static std::size_t addrs = 0x3b2b85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::GetAnchorNormalAngle)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b3e928;
+  constexpr static std::size_t addrs = 0x3b2b954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t, float_t)>(&::GlobalNamespace::BezierPath::SetAnchorNormalAngle)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b3e98c;
+  constexpr static std::size_t addrs = 0x3b2b9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::AutoSetAllAffectedControlPoints)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b3e70c;
+  constexpr static std::size_t addrs = 0x3b2b738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::AutoSetAllControlPoints)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b3d084;
+  constexpr static std::size_t addrs = 0x3b2a0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierPath*>::get(), "AutoSetAllControlPoints",
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::AutoSetAnchorControlPoints)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x3b3eb20;
+  constexpr static std::size_t addrs = 0x3b2bb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::AutoSetStartAndEndControls)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x3b3f01c;
+  constexpr static std::size_t addrs = 0x3b2c048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierPath*>::get(),
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::LoopIndex)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b3eac8;
+  constexpr static std::size_t addrs = 0x3b2baf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::NotifyPathModified)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b3d104;
+  constexpr static std::size_t addrs = 0x3b2a130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierPath*>::get(), "NotifyPathModified",

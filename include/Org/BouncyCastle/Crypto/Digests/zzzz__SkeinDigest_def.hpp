@@ -42,35 +42,35 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x2338128, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x23302b8, size 0x18, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method Copy, addr 0x2337d48, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x232fed8, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x233818c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x233031c, size 0x18, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetByteLength, addr 0x2337fa4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x2330134, size 0x2c, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x2337f88, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x2330118, size 0x1c, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method Init, addr 0x2337ab8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x232fc48, size 0x18, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
-  /// @brief Method Reset, addr 0x2338084, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2330214, size 0x18, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x2337b9c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x232fd2c, size 0x8c, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Update, addr 0x23380dc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x233026c, size 0x18, virtual true, abstract: false, final true
   inline void Update(uint8_t inByte);
 
   constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinEngine* const& __cordl_internal_get_engine() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* value);
 
-  /// @brief Method .ctor, addr 0x2337ad0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232fc60, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest* digest);
 
-  /// @brief Method .ctor, addr 0x23378ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232fa3c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
-  /// @brief Method get_AlgorithmName, addr 0x2337da0, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x232ff30, size 0x1c4, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"

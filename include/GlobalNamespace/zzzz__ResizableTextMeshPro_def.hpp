@@ -37,18 +37,18 @@ public:
   /// @brief Field _textMeshPro, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textMeshPro, put = __cordl_internal_set__textMeshPro)) ::UnityW<::TMPro::TMP_Text> _textMeshPro;
 
-  /// @brief Method HandleTextDidChange, addr 0x3b3a820, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleTextDidChange, addr 0x3b2784c, size 0x90, virtual false, abstract: false, final false
   inline void HandleTextDidChange(::UnityEngine::Object* textMeshPro);
 
   static inline ::GlobalNamespace::ResizableTextMeshPro* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b3a750, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2777c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b3a61c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b27648, size 0xd0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b3a6ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b27718, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__textMeshPro(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3b3a8b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b278dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

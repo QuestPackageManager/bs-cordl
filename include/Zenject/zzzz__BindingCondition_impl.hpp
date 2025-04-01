@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindingCondition::*)(::System::Object*, ::System::IntPtr)>(&::Zenject::BindingCondition::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4b3a048;
+  constexpr static std::size_t addrs = 0x4b27c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::BindingCondition::*)(::Zenject::InjectContext*)>(&::Zenject::BindingCondition::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4b3a148;
+  constexpr static std::size_t addrs = 0x4b27d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::Zenject::BindingCondition::*)(::Zenject::InjectContext*, ::System::AsyncCallback*, ::System::Object*)>(&::Zenject::BindingCondition::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4b3a15c;
+  constexpr static std::size_t addrs = 0x4b27d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::BindingCondition::*)(::System::IAsyncResult*)>(&::Zenject::BindingCondition::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4b3a17c;
+  constexpr static std::size_t addrs = 0x4b27d70;
 
   inline static ::MethodInfo const* methodInfo() {
 

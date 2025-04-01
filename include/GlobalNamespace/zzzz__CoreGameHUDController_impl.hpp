@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController_InitData::*)(bool, bool, bool)>(
     &::GlobalNamespace::CoreGameHUDController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bb41fc;
+  constexpr static std::size_t addrs = 0x3ba1cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_songProgressPanelGO)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb4128;
+  constexpr static std::size_t addrs = 0x3ba1c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_relativeScoreGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb4130;
+  constexpr static std::size_t addrs = 0x3ba1c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_immediateRankGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb4138;
+  constexpr static std::size_t addrs = 0x3ba1c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_energyPanelGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb4140;
+  constexpr static std::size_t addrs = 0x3ba1c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)(float_t)>(&::GlobalNamespace::CoreGameHUDController::set_alpha)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bb4148;
+  constexpr static std::size_t addrs = 0x3ba1c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)(::GlobalNamespace::CoreGameHUDController_InitData*)>(
     &::GlobalNamespace::CoreGameHUDController::Initialize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3bb4164;
+  constexpr static std::size_t addrs = 0x3ba1c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)()>(&::GlobalNamespace::CoreGameHUDController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb41f4;
+  constexpr static std::size_t addrs = 0x3ba1cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), ".ctor",

@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerEnterEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a409c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2e5a8, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerEnterEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a409c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2e5a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerEnterEvent___c* getStaticF___9();
@@ -73,15 +73,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerEnterEvent___c;
 
-  /// @brief Method Init, addr 0x4a408b0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2e490, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a40904, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a2e4e4, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerEnterEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a40910, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2e4f0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

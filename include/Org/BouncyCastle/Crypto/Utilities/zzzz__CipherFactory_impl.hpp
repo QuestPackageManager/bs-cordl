@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Utilities::CipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Utilities::CipherFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2449518;
+  constexpr static std::size_t addrs = 0x24416a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Utilities::CipherFactory*>::get(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
         &::Org::BouncyCastle::Crypto::Utilities::CipherFactory::CreateContentCipher)> {
   constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x2449520;
+  constexpr static std::size_t addrs = 0x24416b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::BufferedBlockCipher* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Crypto::Utilities::CipherFactory::CreateCipher)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x2449c6c;
+  constexpr static std::size_t addrs = 0x2441dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

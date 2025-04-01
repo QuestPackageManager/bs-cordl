@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BackgroundSize (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_value)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a916a0;
+  constexpr static std::size_t addrs = 0x4a7f280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackgroundSize>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a916e0;
+  constexpr static std::size_t addrs = 0x4a7f2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackgroundSize>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a916e8;
+  constexpr static std::size_t addrs = 0x4a7f2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(
     ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a916f4;
+  constexpr static std::size_t addrs = 0x4a7f2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleBackgroundSize, ::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Equality)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a9170c;
+  constexpr static std::size_t addrs = 0x4a7f2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleBackgroundSize (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Implicit___UnityEngine__UIElements__StyleBackgroundSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a9176c;
+  constexpr static std::size_t addrs = 0x4a7f34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a91778;
+  constexpr static std::size_t addrs = 0x4a7f358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::System::Object*)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a917f4;
+  constexpr static std::size_t addrs = 0x4a7f3d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a91884;
+  constexpr static std::size_t addrs = 0x4a7f464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::ToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a918ac;
+  constexpr static std::size_t addrs = 0x4a7f48c;
 
   inline static ::MethodInfo const* methodInfo() {
 

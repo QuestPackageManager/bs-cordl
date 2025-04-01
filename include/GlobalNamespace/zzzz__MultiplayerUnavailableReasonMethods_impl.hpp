@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26e7b80;
+  constexpr static std::size_t addrs = 0x26dfd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26e7c04;
+  constexpr static std::size_t addrs = 0x26dfd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::MultiplayerStatusData*, ::ByRef<::GlobalNamespace::MultiplayerUnavailableReason>)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26e7c84;
+  constexpr static std::size_t addrs = 0x26dfe14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerStatusData*, ::BGLib::Polyglot::Language)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26e7fac;
+  constexpr static std::size_t addrs = 0x26e013c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&::GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x26e7de4;
+  constexpr static std::size_t addrs = 0x26dff74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

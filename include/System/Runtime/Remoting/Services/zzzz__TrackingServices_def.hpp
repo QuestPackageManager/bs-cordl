@@ -30,13 +30,13 @@ public:
   /// @brief Field _handlers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__handlers, put = setStaticF__handlers)) ::System::Collections::ArrayList* _handlers;
 
-  /// @brief Method NotifyDisconnectedObject, addr 0x3ce2d10, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisconnectedObject, addr 0x3cd080c, size 0x300, virtual false, abstract: false, final false
   static inline void NotifyDisconnectedObject(::System::Object* obj);
 
-  /// @brief Method NotifyMarshaledObject, addr 0x3cdef94, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method NotifyMarshaledObject, addr 0x3ccca90, size 0x30c, virtual false, abstract: false, final false
   static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyUnmarshaledObject, addr 0x3cde35c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method NotifyUnmarshaledObject, addr 0x3ccbe58, size 0x30c, virtual false, abstract: false, final false
   static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
   static inline ::System::Collections::ArrayList* getStaticF__handlers();

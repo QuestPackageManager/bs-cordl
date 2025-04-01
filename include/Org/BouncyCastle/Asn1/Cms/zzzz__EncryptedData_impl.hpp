@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::EncryptedData* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedData::GetInstance)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2309c74;
+  constexpr static std::size_t addrs = 0x2301e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::EncryptedData::*)(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230a000;
+  constexpr static std::size_t addrs = 0x2302190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::EncryptedData::*)(
     ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*, ::Org::BouncyCastle::Asn1::Asn1Set*)>(&::Org::BouncyCastle::Asn1::Cms::EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x230a008;
+  constexpr static std::size_t addrs = 0x2302198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::EncryptedData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x2309ddc;
+  constexpr static std::size_t addrs = 0x2301f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedData::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230a0e4;
+  constexpr static std::size_t addrs = 0x2302274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* (::Org::BouncyCastle::Asn1::Cms::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedData::get_EncryptedContentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230a0ec;
+  constexpr static std::size_t addrs = 0x230227c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Set* (::Org::BouncyCastle::Asn1::Cms::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedData::get_UnprotectedAttrs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230a0f4;
+  constexpr static std::size_t addrs = 0x2302284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x230a0fc;
+  constexpr static std::size_t addrs = 0x230228c;
 
   inline static ::MethodInfo const* methodInfo() {
 

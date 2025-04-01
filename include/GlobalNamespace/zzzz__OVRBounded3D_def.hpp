@@ -64,51 +64,51 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>*();
 
-  /// @brief Method ConvertBounds, addr 0x3fad60c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ConvertBounds, addr 0x3f9b1c4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds ConvertBounds(::GlobalNamespace::OVRPlugin_Boundsf openXrBounds);
 
-  /// @brief Method Equals, addr 0x3fad2e8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3f9aea0, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3fad1a4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3f9ad5c, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRBounded3D other);
 
-  /// @brief Method GetHashCode, addr 0x3fad378, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3f9af30, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.FromAnchor, addr 0x3facf7c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.FromAnchor, addr 0x3f9ab34, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRBounded3D IOVRAnchorComponent_OVRBounded3D__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.SetEnabledAsync, addr 0x3fad158, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.SetEnabledAsync, addr 0x3f9ad10, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRBounded3D__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.get_Handle, addr 0x3facf28, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.get_Handle, addr 0x3f9aae0, size 0x54, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRBounded3D__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.get_Type, addr 0x3faced0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded3D>.get_Type, addr 0x3f9aa88, size 0x50, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRBounded3D__get_Type();
 
-  /// @brief Method ToString, addr 0x3fad40c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3f9afc4, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3facfac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9ab64, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRBounded3D getStaticF_Null();
 
-  /// @brief Method get_BoundingBox, addr 0x3fad4bc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_BoundingBox, addr 0x3f9b074, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_BoundingBox();
 
-  /// @brief Method get_Handle, addr 0x3fad4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x3f9b06c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x3fad06c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x3f9ac24, size 0xec, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x3fad010, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x3f9abc8, size 0x5c, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x3facf20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3f9aad8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded3D>"
@@ -117,10 +117,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>* i___System__IEquatable_1___GlobalNamespace__OVRBounded3D_();
 
-  /// @brief Method op_Equality, addr 0x3fad20c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3f9adc4, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRBounded3D lhs, ::GlobalNamespace::OVRBounded3D rhs);
 
-  /// @brief Method op_Inequality, addr 0x3fad278, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3f9ae30, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRBounded3D lhs, ::GlobalNamespace::OVRBounded3D rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRBounded3D value);

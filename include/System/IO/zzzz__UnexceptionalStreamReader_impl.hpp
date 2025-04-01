@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamReader::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::IO::UnexceptionalStreamReader::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d90980;
+  constexpr static std::size_t addrs = 0x3d7e47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::Peek)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d909f0;
+  constexpr static std::size_t addrs = 0x3d7e4ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::Read)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d90a78;
+  constexpr static std::size_t addrs = 0x3d7e574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>, int32_t, int32_t)>(&::System::IO::UnexceptionalStreamReader::Read)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3d90b00;
+  constexpr static std::size_t addrs = 0x3d7e5fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::UnexceptionalStreamReader::*)(char16_t)>(&::System::IO::UnexceptionalStreamReader::CheckEOL)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3d90d88;
+  constexpr static std::size_t addrs = 0x3d7e884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::ReadLine)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d90f20;
+  constexpr static std::size_t addrs = 0x3d7ea1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d90fa8;
+  constexpr static std::size_t addrs = 0x3d7eaa4;
 
   inline static ::MethodInfo const* methodInfo() {
 

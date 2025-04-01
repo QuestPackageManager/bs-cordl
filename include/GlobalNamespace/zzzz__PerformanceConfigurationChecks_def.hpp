@@ -704,22 +704,22 @@ public:
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x3b2c59c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x3b195c8, size 0x28c, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x3b2c540, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3b1956c, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x3b2c828, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method SetExpected, addr 0x3b19854, size 0x4c0, virtual false, abstract: false, final false
   inline bool SetExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                           ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x3b2cce8, size 0x1c04, virtual false, abstract: false, final false
+  /// @brief Method VerifyExpected, addr 0x3b19d14, size 0x1c04, virtual false, abstract: false, final false
   inline bool VerifyExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                              ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
@@ -771,7 +771,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig value);
 
-  /// @brief Method .ctor, addr 0x3b2e8ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1b918, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

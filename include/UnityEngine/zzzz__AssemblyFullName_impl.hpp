@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AssemblyFullName::*)(::System::Object*)>(&::UnityEngine::AssemblyFullName::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x48b5c10;
+  constexpr static std::size_t addrs = 0x48a37f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AssemblyFullName::*)()>(&::UnityEngine::AssemblyFullName::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x48b5ce8;
+  constexpr static std::size_t addrs = 0x48a38c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AssemblyFullName::*)()>(&::UnityEngine::AssemblyFullName::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x48b5d70;
+  constexpr static std::size_t addrs = 0x48a3950;
 
   inline static ::MethodInfo const* methodInfo() {
 

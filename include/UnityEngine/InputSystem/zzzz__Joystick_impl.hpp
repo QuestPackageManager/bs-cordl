@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Joystick::*)()>(
     &::UnityEngine::InputSystem::Joystick::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592b68;
+  constexpr static std::size_t addrs = 0x4580748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Joystick*>::get(), "get_trigger",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Joystick::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592b70;
+  constexpr static std::size_t addrs = 0x4580750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::StickControl* (::UnityEngine::InputSystem::Joystick::*)()>(
     &::UnityEngine::InputSystem::Joystick::get_stick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592b78;
+  constexpr static std::size_t addrs = 0x4580758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Joystick*>::get(), "get_stick",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)(::UnityEngine::InputSystem::Controls::StickControl*)>(
     &::UnityEngine::InputSystem::Joystick::set_stick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592b80;
+  constexpr static std::size_t addrs = 0x4580760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Joystick::*)()>(
     &::UnityEngine::InputSystem::Joystick::get_twist)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592b88;
+  constexpr static std::size_t addrs = 0x4580768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Joystick*>::get(), "get_twist",
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Joystick::set_twist)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592b90;
+  constexpr static std::size_t addrs = 0x4580770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::InputSystem::Joystick::*)()>(
     &::UnityEngine::InputSystem::Joystick::get_hatswitch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592b98;
+  constexpr static std::size_t addrs = 0x4580778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Joystick*>::get(), "get_hatswitch",
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::UnityEngine::InputSystem::Joystick::set_hatswitch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592ba0;
+  constexpr static std::size_t addrs = 0x4580780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Joystick* (*)()>(&::UnityEngine::InputSystem::Joystick::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4592ba8;
+  constexpr static std::size_t addrs = 0x4580788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Joystick*>::get(), "get_current",
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::Joystick*)>(&::UnityEngine::InputSystem::Joystick::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4592bf0;
+  constexpr static std::size_t addrs = 0x45807d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Joystick*> (*)()>(
     &::UnityEngine::InputSystem::Joystick::get_all)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4592c3c;
+  constexpr static std::size_t addrs = 0x458081c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Joystick*>::get(), "get_all",
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)()>(&::UnityEngine::InputSystem::Joystick::FinishSetup)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4592cbc;
+  constexpr static std::size_t addrs = 0x458089c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)()>(&::UnityEngine::InputSystem::Joystick::MakeCurrent)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4592df8;
+  constexpr static std::size_t addrs = 0x45809d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)()>(&::UnityEngine::InputSystem::Joystick::OnAdded)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4592e44;
+  constexpr static std::size_t addrs = 0x4580a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)()>(&::UnityEngine::InputSystem::Joystick::OnRemoved)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4592ebc;
+  constexpr static std::size_t addrs = 0x4580a9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Joystick::*)()>(&::UnityEngine::InputSystem::Joystick::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4592fd4;
+  constexpr static std::size_t addrs = 0x4580bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Joystick*>::get(), ".ctor",

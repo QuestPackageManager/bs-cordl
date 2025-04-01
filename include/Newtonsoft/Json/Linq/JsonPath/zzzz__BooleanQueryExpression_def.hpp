@@ -42,25 +42,25 @@ public:
   /// @brief Field Right, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right)) ::System::Object* Right;
 
-  /// @brief Method EqualsWithStrictMatch, addr 0x3f45ba4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EqualsWithStrictMatch, addr 0x3f3375c, size 0x114, virtual false, abstract: false, final false
   static inline bool EqualsWithStrictMatch(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::Linq::JValue* queryValue);
 
-  /// @brief Method EqualsWithStringCoercion, addr 0x3f45630, size 0x574, virtual false, abstract: false, final false
+  /// @brief Method EqualsWithStringCoercion, addr 0x3f331e8, size 0x574, virtual false, abstract: false, final false
   static inline bool EqualsWithStringCoercion(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::Linq::JValue* queryValue);
 
-  /// @brief Method GetResult, addr 0x3f449f0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3f325a8, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* GetResult(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, ::System::Object* o);
 
-  /// @brief Method IsMatch, addr 0x3f44bb4, size 0x6f4, virtual true, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x3f3276c, size 0x6f4, virtual true, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method MatchTokens, addr 0x3f452a8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method MatchTokens, addr 0x3f32e60, size 0x1ac, virtual false, abstract: false, final false
   inline bool MatchTokens(::Newtonsoft::Json::Linq::JToken* leftResult, ::Newtonsoft::Json::Linq::JToken* rightResult, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression* New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator, ::System::Object* left,
                                                                                      ::System::Object* right);
 
-  /// @brief Method RegexEquals, addr 0x3f45454, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method RegexEquals, addr 0x3f3300c, size 0x1dc, virtual false, abstract: false, final false
   static inline bool RegexEquals(::Newtonsoft::Json::Linq::JValue* input, ::Newtonsoft::Json::Linq::JValue* pattern, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   constexpr ::System::Object* const& __cordl_internal_get_Left() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_Right(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3f43dd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f31990, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator, ::System::Object* left, ::System::Object* right);
 
 protected:

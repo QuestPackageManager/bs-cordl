@@ -30,11 +30,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE Subdivision : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Subdivide, addr 0x478fc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x477d80c, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Subdivide, addr 0x478fb74, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x477d754, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb);
 
 protected:
@@ -52,7 +52,7 @@ public:
   Subdivision(Subdivision const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14396 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionMode)>(
     &::System::IO::Compression::GZipStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44949b4;
+  constexpr static std::size_t addrs = 0x4482574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::IO::Compression::GZipStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionMode, bool)>(&::System::IO::Compression::GZipStream::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x44949bc;
+  constexpr static std::size_t addrs = 0x448257c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionLevel)>(
     &::System::IO::Compression::GZipStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4494a78;
+  constexpr static std::size_t addrs = 0x4482638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::IO::Compression::GZipStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionLevel, bool)>(&::System::IO::Compression::GZipStream::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4494a80;
+  constexpr static std::size_t addrs = 0x4482640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::get_CanRead)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4494b34;
+  constexpr static std::size_t addrs = 0x44826f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4494b4c;
+  constexpr static std::size_t addrs = 0x448270c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4494b64;
+  constexpr static std::size_t addrs = 0x4482724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::get_Length)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4494b7c;
+  constexpr static std::size_t addrs = 0x448273c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::get_Position)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4494bc8;
+  constexpr static std::size_t addrs = 0x4482788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(int64_t)>(&::System::IO::Compression::GZipStream::set_Position)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4494c14;
+  constexpr static std::size_t addrs = 0x44827d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4494c60;
+  constexpr static std::size_t addrs = 0x4482820;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::Compression::GZipStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::System::IO::Compression::GZipStream::Seek)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4494c9c;
+  constexpr static std::size_t addrs = 0x448285c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(int64_t)>(&::System::IO::Compression::GZipStream::SetLength)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4494ce8;
+  constexpr static std::size_t addrs = 0x44828a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::ReadByte)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4494d34;
+  constexpr static std::size_t addrs = 0x44828f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::IO::Compression::GZipStream::BeginRead)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4494d58;
+  constexpr static std::size_t addrs = 0x4482918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::GZipStream::*)(::System::IAsyncResult*)>(
     &::System::IO::Compression::GZipStream::EndRead)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4494e0c;
+  constexpr static std::size_t addrs = 0x44829cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::IO::Compression::GZipStream::Read)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4494e54;
+  constexpr static std::size_t addrs = 0x4482a14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::GZipStream::*)(::System::Span_1<uint8_t>)>(
     &::System::IO::Compression::GZipStream::Read)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4494e78;
+  constexpr static std::size_t addrs = 0x4482a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +294,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::IO::Compression::GZipStream::BeginWrite)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x449507c;
+  constexpr static std::size_t addrs = 0x4482c3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(::System::IAsyncResult*)>(
     &::System::IO::Compression::GZipStream::EndWrite)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4495130;
+  constexpr static std::size_t addrs = 0x4482cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::IO::Compression::GZipStream::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x449513c;
+  constexpr static std::size_t addrs = 0x4482cfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(
     &::System::IO::Compression::GZipStream::Write)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4495160;
+  constexpr static std::size_t addrs = 0x4482d20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(::System::IO::Stream*, int32_t)>(
     &::System::IO::Compression::GZipStream::CopyTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44952d0;
+  constexpr static std::size_t addrs = 0x4482e90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)(bool)>(&::System::IO::Compression::GZipStream::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x44952f4;
+  constexpr static std::size_t addrs = 0x4482eb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::Compression::GZipStream::ReadAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44953ac;
+  constexpr static std::size_t addrs = 0x4482f6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::IO::Compression::GZipStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::Compression::GZipStream::ReadAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x44953d0;
+  constexpr static std::size_t addrs = 0x4482f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::Compression::GZipStream::WriteAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44954b0;
+  constexpr static std::size_t addrs = 0x4483070;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::Compression::GZipStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::Compression::GZipStream::WriteAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x44954d4;
+  constexpr static std::size_t addrs = 0x4483094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::Compression::GZipStream::*)(::System::Threading::CancellationToken)>(
     &::System::IO::Compression::GZipStream::FlushAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44955b4;
+  constexpr static std::size_t addrs = 0x4483174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::Compression::GZipStream::*)(::System::IO::Stream*, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::Compression::GZipStream::CopyToAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44955d8;
+  constexpr static std::size_t addrs = 0x4483198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::GZipStream::*)()>(&::System::IO::Compression::GZipStream::CheckDeflateStream)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4494c84;
+  constexpr static std::size_t addrs = 0x4482844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Compression::GZipStream*>::get(),
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::Compression::GZipStream::ThrowStreamClosedException)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44955fc;
+  constexpr static std::size_t addrs = 0x44831bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Compression::GZipStream*>::get(),

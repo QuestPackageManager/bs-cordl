@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c2684, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba814, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
 protected:

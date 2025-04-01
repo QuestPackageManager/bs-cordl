@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::StackLayoutGroup::*)()>(&::HMUI::StackLayoutGroup::get_childForceExpandWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a01264;
+  constexpr static std::size_t addrs = 0x39ee2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::StackLayoutGroup*>::get(), "get_childForceExpandWidth",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)(bool)>(&::HMUI::StackLayoutGroup::set_childForceExpandWidth)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a0126c;
+  constexpr static std::size_t addrs = 0x39ee2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::StackLayoutGroup::*)()>(&::HMUI::StackLayoutGroup::get_childForceExpandHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a012c8;
+  constexpr static std::size_t addrs = 0x39ee328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::StackLayoutGroup*>::get(), "get_childForceExpandHeight",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)(bool)>(&::HMUI::StackLayoutGroup::set_childForceExpandHeight)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a012d0;
+  constexpr static std::size_t addrs = 0x39ee330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)()>(&::HMUI::StackLayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a0132c;
+  constexpr static std::size_t addrs = 0x39ee38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::StackLayoutGroup*>::get(), ".ctor",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)()>(&::HMUI::StackLayoutGroup::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a0133c;
+  constexpr static std::size_t addrs = 0x39ee39c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)()>(&::HMUI::StackLayoutGroup::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a014d0;
+  constexpr static std::size_t addrs = 0x39ee530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)()>(&::HMUI::StackLayoutGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a014d8;
+  constexpr static std::size_t addrs = 0x39ee538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)()>(&::HMUI::StackLayoutGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a016c4;
+  constexpr static std::size_t addrs = 0x39ee724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)(int32_t)>(&::HMUI::StackLayoutGroup::CalcAlongAxis)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3a0135c;
+  constexpr static std::size_t addrs = 0x39ee3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackLayoutGroup::*)(int32_t)>(&::HMUI::StackLayoutGroup::SetChildrenAlongAxis)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3a014e0;
+  constexpr static std::size_t addrs = 0x39ee540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

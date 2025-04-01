@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetPlayersPermissionConfigurationRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetPlayersPermissionConfigurationRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dd868;
+  constexpr static std::size_t addrs = 0x22d59f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetPlayersPermissionConfigurationRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetPlayersPermissionConfigurationRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dd878;
+  constexpr static std::size_t addrs = 0x22d5a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dd8c0;
+  constexpr static std::size_t addrs = 0x22d5a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsEntitledToLevelRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetIsEntitledToLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dd908;
+  constexpr static std::size_t addrs = 0x22d5a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsEntitledToLevelRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetIsEntitledToLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dd950;
+  constexpr static std::size_t addrs = 0x22d5ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_InvalidateLevelEntitlementStatusesRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_InvalidateLevelEntitlementStatusesRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dd998;
+  constexpr static std::size_t addrs = 0x22d5b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SelectLevelPackRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SelectLevelPackRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dd9a0;
+  constexpr static std::size_t addrs = 0x22d5b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_SelectLevelPackRpc*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetSelectedBeatmapRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetSelectedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dd9e8;
+  constexpr static std::size_t addrs = 0x22d5b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_SetSelectedBeatmapRpc*>::get(),
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearSelectedBeatmapRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_ClearSelectedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dda30;
+  constexpr static std::size_t addrs = 0x22d5bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetSelectedBeatmapRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetSelectedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dda38;
+  constexpr static std::size_t addrs = 0x22d5bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_GetSelectedBeatmapRpc*>::get(),
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_RecommendBeatmapRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_RecommendBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dda40;
+  constexpr static std::size_t addrs = 0x22d5bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_RecommendBeatmapRpc*>::get(),
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearRecommendedBeatmapRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_ClearRecommendedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dda88;
+  constexpr static std::size_t addrs = 0x22d5c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetRecommendedBeatmapRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetRecommendedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dda90;
+  constexpr static std::size_t addrs = 0x22d5c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetSelectedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetSelectedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dda98;
+  constexpr static std::size_t addrs = 0x22d5c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearSelectedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_ClearSelectedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddae0;
+  constexpr static std::size_t addrs = 0x22d5c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetSelectedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetSelectedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddae8;
+  constexpr static std::size_t addrs = 0x22d5c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_RecommendGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_RecommendGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddaf0;
+  constexpr static std::size_t addrs = 0x22d5c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearRecommendedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_ClearRecommendedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddb38;
+  constexpr static std::size_t addrs = 0x22d5cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetRecommendedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetRecommendedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddb40;
+  constexpr static std::size_t addrs = 0x22d5cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsStartButtonEnabledRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetIsStartButtonEnabledRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddb48;
+  constexpr static std::size_t addrs = 0x22d5cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsStartButtonEnabledRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetIsStartButtonEnabledRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddb50;
+  constexpr static std::size_t addrs = 0x22d5ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -613,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_LevelLoadErrorRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_LevelLoadErrorRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddb98;
+  constexpr static std::size_t addrs = 0x22d5d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_LevelLoadErrorRpc*>::get(),
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_LevelLoadSuccessRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_LevelLoadSuccessRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddbe0;
+  constexpr static std::size_t addrs = 0x22d5d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_LevelLoadSuccessRpc*>::get(),
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_StartLevelRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_StartLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddc28;
+  constexpr static std::size_t addrs = 0x22d5db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_StartLevelRpc*>::get(), ".ctor",
@@ -685,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetStartedLevelRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetStartedLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddc70;
+  constexpr static std::size_t addrs = 0x22d5e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_GetStartedLevelRpc*>::get(),
@@ -709,7 +709,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetMultiplayerGameStateRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetMultiplayerGameStateRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddc78;
+  constexpr static std::size_t addrs = 0x22d5e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -735,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetMultiplayerGameStateRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetMultiplayerGameStateRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddc80;
+  constexpr static std::size_t addrs = 0x22d5e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -761,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_CancelCountdownRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_CancelCountdownRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddcc8;
+  constexpr static std::size_t addrs = 0x22d5e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_CancelCountdownRpc*>::get(),
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetCountdownEndTimeRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetCountdownEndTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddcd0;
+  constexpr static std::size_t addrs = 0x22d5e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_SetCountdownEndTimeRpc*>::get(),
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetCountdownEndTimeRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetCountdownEndTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddd18;
+  constexpr static std::size_t addrs = 0x22d5ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_GetCountdownEndTimeRpc*>::get(),
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_CancelLevelStartRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_CancelLevelStartRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddd20;
+  constexpr static std::size_t addrs = 0x22d5eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_CancelLevelStartRpc*>::get(),
@@ -857,7 +857,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsReadyRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetIsReadyRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ddd28;
+  constexpr static std::size_t addrs = 0x22d5eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_GetIsReadyRpc*>::get(), ".ctor",
@@ -881,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsReadyRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetIsReadyRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddd30;
+  constexpr static std::size_t addrs = 0x22d5ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_SetIsReadyRpc*>::get(), ".ctor",
@@ -905,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetStartGameTimeRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetStartGameTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ddd78;
+  constexpr static std::size_t addrs = 0x22d5f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_SetStartGameTimeRpc*>::get(),
@@ -929,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_CancelStartGameTimeRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_CancelStartGameTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dddc0;
+  constexpr static std::size_t addrs = 0x22d5f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_CancelStartGameTimeRpc*>::get(),
@@ -953,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsInLobbyRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetIsInLobbyRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dddc8;
+  constexpr static std::size_t addrs = 0x22d5f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_GetIsInLobbyRpc*>::get(),
@@ -977,7 +977,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsInLobbyRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetIsInLobbyRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dddd0;
+  constexpr static std::size_t addrs = 0x22d5f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_SetIsInLobbyRpc*>::get(),
@@ -1001,7 +1001,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetOwnedSongPacksRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetOwnedSongPacksRpc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dde18;
+  constexpr static std::size_t addrs = 0x22d5fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_GetOwnedSongPacksRpc*>::get(),
@@ -1025,7 +1025,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetOwnedSongPacksRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetOwnedSongPacksRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dde20;
+  constexpr static std::size_t addrs = 0x22d5fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_SetOwnedSongPacksRpc*>::get(),
@@ -1049,7 +1049,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager_RequestKickPlayerRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_RequestKickPlayerRpc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22dde68;
+  constexpr static std::size_t addrs = 0x22d5ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager_RequestKickPlayerRpc*>::get(),
@@ -1073,7 +1073,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IMultiplayerSessionManager* (::GlobalNamespace::MenuRpcManager::*)()>(
     &::GlobalNamespace::MenuRpcManager::get_multiplayerSessionManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d7940;
+  constexpr static std::size_t addrs = 0x22cfad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -1086,7 +1086,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::get_enabled)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22d7948;
+  constexpr static std::size_t addrs = 0x22cfad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "get_enabled",
@@ -1099,7 +1099,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(bool)>(&::GlobalNamespace::MenuRpcManager::set_enabled)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x22d7a08;
+  constexpr static std::size_t addrs = 0x22cfb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1113,7 +1113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::get_enabledForAllPlayers)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x22d7ad0;
+  constexpr static std::size_t addrs = 0x22cfc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -1126,7 +1126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::get_syncTime)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22d7cb4;
+  constexpr static std::size_t addrs = 0x22cfe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "get_syncTime",
@@ -1140,7 +1140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
     &::GlobalNamespace::MenuRpcManager::_ctor)> {
   constexpr static std::size_t size = 0x10ac;
-  constexpr static std::size_t addrs = 0x22d7d58;
+  constexpr static std::size_t addrs = 0x22cfee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1154,7 +1154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22d8e04;
+  constexpr static std::size_t addrs = 0x22d0f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "Dispose",
@@ -1168,7 +1168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MenuRpcManager::EnabledForPlayer)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22d8e60;
+  constexpr static std::size_t addrs = 0x22d0ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d8f1c;
+  constexpr static std::size_t addrs = 0x22d10ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1198,7 +1198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d8fcc;
+  constexpr static std::size_t addrs = 0x22d115c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1213,7 +1213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(
     &::GlobalNamespace::MenuRpcManager::GetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22d907c;
+  constexpr static std::size_t addrs = 0x22d120c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1228,7 +1228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d90cc;
+  constexpr static std::size_t addrs = 0x22d125c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1243,7 +1243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::add_setPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d90e8;
+  constexpr static std::size_t addrs = 0x22d1278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1259,7 +1259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::remove_setPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9198;
+  constexpr static std::size_t addrs = 0x22d1328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1275,7 +1275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::SetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d9248;
+  constexpr static std::size_t addrs = 0x22d13d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1290,7 +1290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(&::GlobalNamespace::MenuRpcManager::InvokeSetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d92a0;
+  constexpr static std::size_t addrs = 0x22d1430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1306,7 +1306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::add_setPlayersMissingEntitlementsToLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d92bc;
+  constexpr static std::size_t addrs = 0x22d144c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1322,7 +1322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::remove_setPlayersMissingEntitlementsToLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d936c;
+  constexpr static std::size_t addrs = 0x22d14fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1338,7 +1338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::SetPlayersMissingEntitlementsToLevel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d941c;
+  constexpr static std::size_t addrs = 0x22d15ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1353,7 +1353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*)>(&::GlobalNamespace::MenuRpcManager::InvokeSetPlayersMissingEntitlementsToLevelRpc)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d9474;
+  constexpr static std::size_t addrs = 0x22d1604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1369,7 +1369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9490;
+  constexpr static std::size_t addrs = 0x22d1620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1384,7 +1384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9540;
+  constexpr static std::size_t addrs = 0x22d16d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1398,7 +1398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::GetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d95f0;
+  constexpr static std::size_t addrs = 0x22d1780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1413,7 +1413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d9648;
+  constexpr static std::size_t addrs = 0x22d17d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1428,7 +1428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*)>(&::GlobalNamespace::MenuRpcManager::add_setIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9664;
+  constexpr static std::size_t addrs = 0x22d17f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1443,7 +1443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*)>(&::GlobalNamespace::MenuRpcManager::remove_setIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9714;
+  constexpr static std::size_t addrs = 0x22d18a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1458,7 +1458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::EntitlementsStatus)>(
     &::GlobalNamespace::MenuRpcManager::SetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22d97c4;
+  constexpr static std::size_t addrs = 0x22d1954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1474,7 +1474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW, int32_t)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d982c;
+  constexpr static std::size_t addrs = 0x22d19bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1490,7 +1490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9848;
+  constexpr static std::size_t addrs = 0x22d19d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1505,7 +1505,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d98f8;
+  constexpr static std::size_t addrs = 0x22d1a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1520,7 +1520,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(
     &::GlobalNamespace::MenuRpcManager::InvalidateLevelEntitlementStatuses)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22d99a8;
+  constexpr static std::size_t addrs = 0x22d1b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1535,7 +1535,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeLevelEntitlementStatusesInvalidated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d99f8;
+  constexpr static std::size_t addrs = 0x22d1b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1550,7 +1550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_selectedLevelPackEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9a14;
+  constexpr static std::size_t addrs = 0x22d1ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1565,7 +1565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_selectedLevelPackEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9ac4;
+  constexpr static std::size_t addrs = 0x22d1c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1579,7 +1579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::SelectLevelPack)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d9b74;
+  constexpr static std::size_t addrs = 0x22d1d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1594,7 +1594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeOnSelectedLevelPackEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d9bcc;
+  constexpr static std::size_t addrs = 0x22d1d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1609,7 +1609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::add_setSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9be8;
+  constexpr static std::size_t addrs = 0x22d1d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1624,7 +1624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::remove_setSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9c98;
+  constexpr static std::size_t addrs = 0x22d1e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1639,7 +1639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::SetSelectedBeatmap)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d9d48;
+  constexpr static std::size_t addrs = 0x22d1ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1654,7 +1654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetSelectedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d9da0;
+  constexpr static std::size_t addrs = 0x22d1f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1670,7 +1670,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9dbc;
+  constexpr static std::size_t addrs = 0x22d1f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1685,7 +1685,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9e6c;
+  constexpr static std::size_t addrs = 0x22d1ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1699,7 +1699,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::ClearSelectedBeatmap)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22d9f1c;
+  constexpr static std::size_t addrs = 0x22d20ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -1713,7 +1713,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeClearSelectedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d9f6c;
+  constexpr static std::size_t addrs = 0x22d20fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1728,7 +1728,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9f88;
+  constexpr static std::size_t addrs = 0x22d2118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1743,7 +1743,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da038;
+  constexpr static std::size_t addrs = 0x22d21c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1757,7 +1757,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetSelectedBeatmap)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22da0e8;
+  constexpr static std::size_t addrs = 0x22d2278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "GetSelectedBeatmap",
@@ -1771,7 +1771,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetSelectedBeatmapRpc)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22da138;
+  constexpr static std::size_t addrs = 0x22d22c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1786,7 +1786,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::add_recommendBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da154;
+  constexpr static std::size_t addrs = 0x22d22e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1801,7 +1801,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::remove_recommendBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da204;
+  constexpr static std::size_t addrs = 0x22d2394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1816,7 +1816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::RecommendBeatmap)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22da2b4;
+  constexpr static std::size_t addrs = 0x22d2444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1831,7 +1831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeRecommendBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22da30c;
+  constexpr static std::size_t addrs = 0x22d249c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1847,7 +1847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da328;
+  constexpr static std::size_t addrs = 0x22d24b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1862,7 +1862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da3d8;
+  constexpr static std::size_t addrs = 0x22d2568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1876,7 +1876,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::ClearRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22da488;
+  constexpr static std::size_t addrs = 0x22d2618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -1890,7 +1890,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeClearRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22da4d8;
+  constexpr static std::size_t addrs = 0x22d2668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1905,7 +1905,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da4f4;
+  constexpr static std::size_t addrs = 0x22d2684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1920,7 +1920,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da5a4;
+  constexpr static std::size_t addrs = 0x22d2734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1934,7 +1934,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22da654;
+  constexpr static std::size_t addrs = 0x22d27e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -1948,7 +1948,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22da6a4;
+  constexpr static std::size_t addrs = 0x22d2834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1963,7 +1963,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da6c0;
+  constexpr static std::size_t addrs = 0x22d2850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1978,7 +1978,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da770;
+  constexpr static std::size_t addrs = 0x22d2900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1993,7 +1993,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::SetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22da820;
+  constexpr static std::size_t addrs = 0x22d29b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2008,7 +2008,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22da878;
+  constexpr static std::size_t addrs = 0x22d2a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2024,7 +2024,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da894;
+  constexpr static std::size_t addrs = 0x22d2a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2039,7 +2039,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22da944;
+  constexpr static std::size_t addrs = 0x22d2ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2053,7 +2053,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::ClearSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22da9f4;
+  constexpr static std::size_t addrs = 0x22d2b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -2067,7 +2067,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeClearSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22daa44;
+  constexpr static std::size_t addrs = 0x22d2bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2082,7 +2082,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22daa60;
+  constexpr static std::size_t addrs = 0x22d2bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2097,7 +2097,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dab10;
+  constexpr static std::size_t addrs = 0x22d2ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2111,7 +2111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dabc0;
+  constexpr static std::size_t addrs = 0x22d2d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -2125,7 +2125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dac10;
+  constexpr static std::size_t addrs = 0x22d2da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2140,7 +2140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::add_recommendGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dac2c;
+  constexpr static std::size_t addrs = 0x22d2dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2155,7 +2155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_recommendGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dacdc;
+  constexpr static std::size_t addrs = 0x22d2e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2170,7 +2170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::RecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dad8c;
+  constexpr static std::size_t addrs = 0x22d2f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2185,7 +2185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeRecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dade4;
+  constexpr static std::size_t addrs = 0x22d2f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2201,7 +2201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dae00;
+  constexpr static std::size_t addrs = 0x22d2f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2216,7 +2216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22daeb0;
+  constexpr static std::size_t addrs = 0x22d3040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2231,7 +2231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(
     &::GlobalNamespace::MenuRpcManager::ClearRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22daf60;
+  constexpr static std::size_t addrs = 0x22d30f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2246,7 +2246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeClearRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dafb0;
+  constexpr static std::size_t addrs = 0x22d3140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2261,7 +2261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dafcc;
+  constexpr static std::size_t addrs = 0x22d315c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2276,7 +2276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db07c;
+  constexpr static std::size_t addrs = 0x22d320c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2290,7 +2290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22db12c;
+  constexpr static std::size_t addrs = 0x22d32bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2305,7 +2305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22db17c;
+  constexpr static std::size_t addrs = 0x22d330c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2320,7 +2320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db198;
+  constexpr static std::size_t addrs = 0x22d3328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2335,7 +2335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db248;
+  constexpr static std::size_t addrs = 0x22d33d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2349,7 +2349,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22db2f8;
+  constexpr static std::size_t addrs = 0x22d3488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -2363,7 +2363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22db348;
+  constexpr static std::size_t addrs = 0x22d34d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2378,7 +2378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*)>(&::GlobalNamespace::MenuRpcManager::add_setIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db364;
+  constexpr static std::size_t addrs = 0x22d34f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2393,7 +2393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*)>(&::GlobalNamespace::MenuRpcManager::remove_setIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db414;
+  constexpr static std::size_t addrs = 0x22d35a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2408,7 +2408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::CannotStartGameReason)>(
     &::GlobalNamespace::MenuRpcManager::SetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22db4c4;
+  constexpr static std::size_t addrs = 0x22d3654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2423,7 +2423,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::CannotStartGameReason)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22db51c;
+  constexpr static std::size_t addrs = 0x22d36ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2439,7 +2439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_levelLoadErrorEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db538;
+  constexpr static std::size_t addrs = 0x22d36c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2454,7 +2454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_levelLoadErrorEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db5e8;
+  constexpr static std::size_t addrs = 0x22d3778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2468,7 +2468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::LevelLoadError)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22db698;
+  constexpr static std::size_t addrs = 0x22d3828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2483,7 +2483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeLevelLoadError)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22db6f0;
+  constexpr static std::size_t addrs = 0x22d3880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2498,7 +2498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_levelLoadSuccessEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db70c;
+  constexpr static std::size_t addrs = 0x22d389c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2513,7 +2513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_levelLoadSuccessEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db7bc;
+  constexpr static std::size_t addrs = 0x22d394c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2527,7 +2527,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::LevelLoadSuccess)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22db86c;
+  constexpr static std::size_t addrs = 0x22d39fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2542,7 +2542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeLevelLoadSuccess)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22db8c4;
+  constexpr static std::size_t addrs = 0x22d3a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2557,7 +2557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*)>(&::GlobalNamespace::MenuRpcManager::add_startedLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db8e0;
+  constexpr static std::size_t addrs = 0x22d3a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2573,7 +2573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*)>(&::GlobalNamespace::MenuRpcManager::remove_startedLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22db990;
+  constexpr static std::size_t addrs = 0x22d3b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2589,7 +2589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t)>(&::GlobalNamespace::MenuRpcManager::StartLevel)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22dba40;
+  constexpr static std::size_t addrs = 0x22d3bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2606,7 +2606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t)>(&::GlobalNamespace::MenuRpcManager::InvokeStartLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dbab0;
+  constexpr static std::size_t addrs = 0x22d3c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2623,7 +2623,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getStartedLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dbacc;
+  constexpr static std::size_t addrs = 0x22d3c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2638,7 +2638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getStartedLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dbb7c;
+  constexpr static std::size_t addrs = 0x22d3d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2652,7 +2652,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetStartedLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dbc2c;
+  constexpr static std::size_t addrs = 0x22d3dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "GetStartedLevel",
@@ -2665,7 +2665,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetStartedLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dbc7c;
+  constexpr static std::size_t addrs = 0x22d3e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2680,7 +2680,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dbc98;
+  constexpr static std::size_t addrs = 0x22d3e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2695,7 +2695,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dbd48;
+  constexpr static std::size_t addrs = 0x22d3ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2709,7 +2709,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dbdf8;
+  constexpr static std::size_t addrs = 0x22d3f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(),
@@ -2723,7 +2723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dbe48;
+  constexpr static std::size_t addrs = 0x22d3fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2738,7 +2738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dbe64;
+  constexpr static std::size_t addrs = 0x22d3ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2753,7 +2753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dbf14;
+  constexpr static std::size_t addrs = 0x22d40a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2768,7 +2768,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::MenuRpcManager::SetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dbfc4;
+  constexpr static std::size_t addrs = 0x22d4154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2783,7 +2783,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dc01c;
+  constexpr static std::size_t addrs = 0x22d41ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2799,7 +2799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_cancelCountdownEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dc038;
+  constexpr static std::size_t addrs = 0x22d41c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2814,7 +2814,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_cancelCountdownEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22dc0e8;
+  constexpr static std::size_t addrs = 0x22d4278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2828,7 +2828,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::CancelCountdown)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dc198;
+  constexpr static std::size_t addrs = 0x22d4328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "CancelCountdown",
@@ -2841,7 +2841,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeCancelCountdown)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dc1e8;
+  constexpr static std::size_t addrs = 0x22d4378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2856,7 +2856,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc204;
+  constexpr static std::size_t addrs = 0x22d4394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2871,7 +2871,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc2b8;
+  constexpr static std::size_t addrs = 0x22d4448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2885,7 +2885,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(int64_t)>(&::GlobalNamespace::MenuRpcManager::SetCountdownEndTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dc36c;
+  constexpr static std::size_t addrs = 0x22d44fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2900,7 +2900,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, int64_t)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetCountdownEndTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dc3c4;
+  constexpr static std::size_t addrs = 0x22d4554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2915,7 +2915,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc3e0;
+  constexpr static std::size_t addrs = 0x22d4570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2930,7 +2930,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc494;
+  constexpr static std::size_t addrs = 0x22d4624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2944,7 +2944,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetCountdownEndTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dc548;
+  constexpr static std::size_t addrs = 0x22d46d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "GetCountdownEndTime",
@@ -2958,7 +2958,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetCountdownEndTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dc598;
+  constexpr static std::size_t addrs = 0x22d4728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2973,7 +2973,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_cancelledLevelStartEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc5b4;
+  constexpr static std::size_t addrs = 0x22d4744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2988,7 +2988,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_cancelledLevelStartEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc668;
+  constexpr static std::size_t addrs = 0x22d47f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3002,7 +3002,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::CancelLevelStart)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dc71c;
+  constexpr static std::size_t addrs = 0x22d48ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "CancelLevelStart",
@@ -3015,7 +3015,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeCancelLevelStart)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dc76c;
+  constexpr static std::size_t addrs = 0x22d48fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3030,7 +3030,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getIsReadyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc788;
+  constexpr static std::size_t addrs = 0x22d4918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3045,7 +3045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getIsReadyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc83c;
+  constexpr static std::size_t addrs = 0x22d49cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3059,7 +3059,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetIsReady)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dc8f0;
+  constexpr static std::size_t addrs = 0x22d4a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "GetIsReady",
@@ -3072,7 +3072,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetIsReady)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dc940;
+  constexpr static std::size_t addrs = 0x22d4ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3087,7 +3087,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setIsReadyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dc95c;
+  constexpr static std::size_t addrs = 0x22d4aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3102,7 +3102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setIsReadyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dca10;
+  constexpr static std::size_t addrs = 0x22d4ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3116,7 +3116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(bool)>(&::GlobalNamespace::MenuRpcManager::SetIsReady)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dcac4;
+  constexpr static std::size_t addrs = 0x22d4c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3130,7 +3130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, bool)>(&::GlobalNamespace::MenuRpcManager::InvokeSetIsReady)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22dcb1c;
+  constexpr static std::size_t addrs = 0x22d4cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3145,7 +3145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dcb3c;
+  constexpr static std::size_t addrs = 0x22d4ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3160,7 +3160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dcbf0;
+  constexpr static std::size_t addrs = 0x22d4d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3174,7 +3174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(int64_t)>(&::GlobalNamespace::MenuRpcManager::SetStartGameTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dcca4;
+  constexpr static std::size_t addrs = 0x22d4e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3189,7 +3189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, int64_t)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetStartGameCountdown)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dccfc;
+  constexpr static std::size_t addrs = 0x22d4e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3204,7 +3204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_cancelStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dcd18;
+  constexpr static std::size_t addrs = 0x22d4ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3219,7 +3219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_cancelStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dcdcc;
+  constexpr static std::size_t addrs = 0x22d4f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3233,7 +3233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::CancelStartGameTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dce80;
+  constexpr static std::size_t addrs = 0x22d5010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "CancelStartGameTime",
@@ -3247,7 +3247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeCancelStartGameCountdown)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dced0;
+  constexpr static std::size_t addrs = 0x22d5060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3262,7 +3262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dceec;
+  constexpr static std::size_t addrs = 0x22d507c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -3277,7 +3277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dcfa0;
+  constexpr static std::size_t addrs = 0x22d5130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3291,7 +3291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetIsInLobby)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dd054;
+  constexpr static std::size_t addrs = 0x22d51e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "GetIsInLobby",
@@ -3304,7 +3304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetIsInLobby)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dd0a4;
+  constexpr static std::size_t addrs = 0x22d5234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3319,7 +3319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd0c0;
+  constexpr static std::size_t addrs = 0x22d5250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -3334,7 +3334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd174;
+  constexpr static std::size_t addrs = 0x22d5304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3348,7 +3348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(bool)>(&::GlobalNamespace::MenuRpcManager::SetIsInLobby)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dd228;
+  constexpr static std::size_t addrs = 0x22d53b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3363,7 +3363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, bool)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetIsInLobby)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22dd280;
+  constexpr static std::size_t addrs = 0x22d5410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3378,7 +3378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd2a0;
+  constexpr static std::size_t addrs = 0x22d5430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3393,7 +3393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd354;
+  constexpr static std::size_t addrs = 0x22d54e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3407,7 +3407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22dd408;
+  constexpr static std::size_t addrs = 0x22d5598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuRpcManager*>::get(), "GetOwnedSongPacks",
@@ -3421,7 +3421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeGetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dd458;
+  constexpr static std::size_t addrs = 0x22d55e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3436,7 +3436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd474;
+  constexpr static std::size_t addrs = 0x22d5604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3451,7 +3451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd528;
+  constexpr static std::size_t addrs = 0x22d56b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3466,7 +3466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::MenuRpcManager::SetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22dd5dc;
+  constexpr static std::size_t addrs = 0x22d576c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3481,7 +3481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22dd650;
+  constexpr static std::size_t addrs = 0x22d57e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3497,7 +3497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_requestedKickPlayerEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd68c;
+  constexpr static std::size_t addrs = 0x22d581c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3512,7 +3512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_requestedKickPlayerEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22dd740;
+  constexpr static std::size_t addrs = 0x22d58d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3526,7 +3526,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::RequestKickPlayer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22dd7f4;
+  constexpr static std::size_t addrs = 0x22d5984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3541,7 +3541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::MenuRpcManager::InvokeKickPlayer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22dd84c;
+  constexpr static std::size_t addrs = 0x22d59dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

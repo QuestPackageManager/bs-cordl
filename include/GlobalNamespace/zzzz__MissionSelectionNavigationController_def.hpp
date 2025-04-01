@@ -52,10 +52,10 @@ public:
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x3c2be1c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x3c19918, size 0xb4, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__0();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x3c2bed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x3c199cc, size 0x20, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__1();
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> const& __cordl_internal_get___4__this() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3c2be0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c19908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,21 +142,21 @@ public:
 
   __declspec(property(get = get_selectedMissionNode)) ::UnityW<::GlobalNamespace::MissionNode> selectedMissionNode;
 
-  /// @brief Method DidActivate, addr 0x3c2ba14, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c19510, size 0x160, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c2bb74, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c19670, size 0xf0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x3c2bcd8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x3c197d4, size 0x20, virtual false, abstract: false, final false
   inline void HandleMissionLevelDetailViewControllerDidPressPlayButton(::GlobalNamespace::MissionLevelDetailViewController* viewController);
 
-  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x3c2bc64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x3c19760, size 0x74, virtual false, abstract: false, final false
   inline void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(::GlobalNamespace::MissionSelectionMapViewController* viewController, ::GlobalNamespace::MissionNode* missionNode);
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController* New_ctor();
 
-  /// @brief Method PresentMissionClearedIfNeeded, addr 0x3c2bcf8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method PresentMissionClearedIfNeeded, addr 0x3c197f4, size 0x114, virtual false, abstract: false, final false
   inline void PresentMissionClearedIfNeeded(::System::Action_1<bool>* finishedCallback);
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> const& __cordl_internal_get__missionLevelDetailViewController() const;
@@ -177,16 +177,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method .ctor, addr 0x3c2be14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c19910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3c2b898, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x3c19394, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method get_selectedMissionNode, addr 0x3c2b9f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMissionNode, addr 0x3c194f4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_selectedMissionNode();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c2b948, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c19444, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
 protected:

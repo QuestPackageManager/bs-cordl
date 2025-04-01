@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLivestreamingApplicationStatus::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLivestreamingApplicationStatus::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f8cb88;
+  constexpr static std::size_t addrs = 0x3f7a740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingApplicationStatus* (
     ::Oculus::Platform::MessageWithLivestreamingApplicationStatus::*)()>(&::Oculus::Platform::MessageWithLivestreamingApplicationStatus::GetLivestreamingApplicationStatus)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f8cbe0;
+  constexpr static std::size_t addrs = 0x3f7a798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingApplicationStatus* (
     ::Oculus::Platform::MessageWithLivestreamingApplicationStatus::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithLivestreamingApplicationStatus::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f8cc1c;
+  constexpr static std::size_t addrs = 0x3f7a7d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

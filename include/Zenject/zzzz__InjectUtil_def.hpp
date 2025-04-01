@@ -54,16 +54,16 @@ public:
 
   static inline ::Zenject::InjectUtil___c* New_ctor();
 
-  /// @brief Method <CreateArgList>b__0_0, addr 0x4b2f638, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <CreateArgList>b__0_0, addr 0x4b1d22c, size 0x28, virtual false, abstract: false, final false
   inline ::Zenject::TypeValuePair _CreateArgList_b__0_0(::System::Object* x);
 
-  /// @brief Method __zenCreate, addr 0x4b2f660, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b1d254, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2f6b4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b1d2a8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b2f630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b1d224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::InjectUtil___c* getStaticF___9();
@@ -106,7 +106,7 @@ public:
   // Declarations
   using __c = ::Zenject::InjectUtil___c;
 
-  /// @brief Method CreateArgList, addr 0x4b2f334, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateArgList, addr 0x4b1cf28, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgList(::System::Collections::Generic::IEnumerable_1<::System::Object*>* args);
 
   /// @brief Method CreateArgListExplicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -134,7 +134,7 @@ public:
   /// @brief Method CreateTypePair, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Zenject::TypeValuePair CreateTypePair(T param);
 
-  /// @brief Method PopValueWithType, addr 0x4b2f494, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PopValueWithType, addr 0x4b1d088, size 0x140, virtual false, abstract: false, final false
   static inline bool PopValueWithType(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgMap, ::System::Type* injectedFieldType, ::ByRef<::System::Object*> value);
 
 protected:

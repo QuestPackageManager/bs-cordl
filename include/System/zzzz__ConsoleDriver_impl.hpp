@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IConsoleDriver* (*)()>(&::System::ConsoleDriver::CreateNullConsoleDriver)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3e415f4;
+  constexpr static std::size_t addrs = 0x3e2f0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleDriver*>::get(), "CreateNullConsoleDriver",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IConsoleDriver* (*)()>(&::System::ConsoleDriver::CreateWindowsConsoleDriver)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e41634;
+  constexpr static std::size_t addrs = 0x3e2f130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleDriver*>::get(), "CreateWindowsConsoleDriver",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IConsoleDriver* (*)(::StringW)>(&::System::ConsoleDriver::CreateTermInfoDriver)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e41688;
+  constexpr static std::size_t addrs = 0x3e2f184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)(bool)>(&::System::ConsoleDriver::ReadKey)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e40ff0;
+  constexpr static std::size_t addrs = 0x3e2eaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::ConsoleDriver::get_IsConsole)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3e40768;
+  constexpr static std::size_t addrs = 0x3e2e264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleDriver*>::get(), "get_IsConsole",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::System::ConsoleDriver::Isatty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e41a24;
+  constexpr static std::size_t addrs = 0x3e2f520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::ConsoleDriver::InternalKeyAvailable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e41a28;
+  constexpr static std::size_t addrs = 0x3e2f524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::StringW, ::StringW, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ::ByRef<::cordl_internals::Ptr<int32_t>>)>(&::System::ConsoleDriver::TtySetup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e41a2c;
+  constexpr static std::size_t addrs = 0x3e2f528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::System::ConsoleDriver::SetEcho)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e41a30;
+  constexpr static std::size_t addrs = 0x3e2f52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Transform*, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::TransformExtensions::InverseTransformRotation)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22b97dc;
+  constexpr static std::size_t addrs = 0x22b196c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::StringW)>(
     &::GlobalNamespace::TransformExtensions::FindChildRecursively)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22b9890;
+  constexpr static std::size_t addrs = 0x22b1a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

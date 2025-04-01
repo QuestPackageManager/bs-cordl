@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_serverName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e08ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d8a7c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password);
 
 protected:

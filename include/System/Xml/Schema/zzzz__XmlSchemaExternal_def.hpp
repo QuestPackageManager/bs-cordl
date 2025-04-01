@@ -65,7 +65,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaExternal* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x42cc2d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x42b9e90, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::System::Uri* const& __cordl_internal_get_baseUri() const;
@@ -104,43 +104,43 @@ public:
 
   constexpr void __cordl_internal_set_schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method .ctor, addr 0x42cc2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b9ea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseUri, addr 0x42cc2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUri, addr 0x42b9e70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_BaseUri();
 
-  /// @brief Method get_Compositor, addr 0x42cc2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Compositor, addr 0x42b9e98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Compositor get_Compositor();
 
-  /// @brief Method get_Id, addr 0x42cc2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x42b9e60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x42cc2c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x42b9e80, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_Schema, addr 0x42cc290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x42b9e50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Schema();
 
-  /// @brief Method get_SchemaLocation, addr 0x42cc280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaLocation, addr 0x42b9e40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SchemaLocation();
 
-  /// @brief Method set_BaseUri, addr 0x42cc2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseUri, addr 0x42b9e78, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseUri(::System::Uri* value);
 
-  /// @brief Method set_Compositor, addr 0x42cc2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Compositor, addr 0x42b9ea0, size 0x8, virtual false, abstract: false, final false
   inline void set_Compositor(::System::Xml::Schema::Compositor value);
 
-  /// @brief Method set_Id, addr 0x42cc2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x42b9e68, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x42cc2c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x42b9e88, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_Schema, addr 0x42cc298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x42b9e58, size 0x8, virtual false, abstract: false, final false
   inline void set_Schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method set_SchemaLocation, addr 0x42cc288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaLocation, addr 0x42b9e48, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaLocation(::StringW value);
 
 protected:

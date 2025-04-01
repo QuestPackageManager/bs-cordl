@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EnumDataUtility___c::*)()>(&::UnityEngine::EnumDataUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b864c;
+  constexpr static std::size_t addrs = 0x48a622c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EnumDataUtility___c*>::get(), ".ctor",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EnumDataUtility___c::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_5)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48b8654;
+  constexpr static std::size_t addrs = 0x48a6234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EnumDataUtility___c::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48b867c;
+  constexpr static std::size_t addrs = 0x48a625c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Enum* (::UnityEngine::EnumDataUtility___c::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48b86d0;
+  constexpr static std::size_t addrs = 0x48a62b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EnumDataUtility___c::*)(::System::Enum*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_3)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48b8764;
+  constexpr static std::size_t addrs = 0x48a6344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EnumDataUtility___c::*)(::System::Enum*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_4)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48b87c0;
+  constexpr static std::size_t addrs = 0x48a63a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EnumDataUtility___c__DisplayClass2_0::*)()>(
     &::UnityEngine::EnumDataUtility___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b7c7c;
+  constexpr static std::size_t addrs = 0x48a585c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EnumDataUtility___c__DisplayClass2_0*>::get(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EnumDataUtility___c__DisplayClass2_0::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c__DisplayClass2_0::_GetCachedEnumData_b__0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x48b881c;
+  constexpr static std::size_t addrs = 0x48a63fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::EnumData (*)(::System::Type*, ::UnityEngine::EnumDataUtility_CachedType, ::System::Func_2<::StringW, ::StringW>*)>(&::UnityEngine::EnumDataUtility::GetCachedEnumData)> {
   constexpr static std::size_t size = 0xeac;
-  constexpr static std::size_t addrs = 0x48b6dd0;
+  constexpr static std::size_t addrs = 0x48a49b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::ByRef<::UnityEngine::EnumData>)>(
     &::UnityEngine::EnumDataUtility::HandleInspectorOrderAttribute)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x48b7da4;
+  constexpr static std::size_t addrs = 0x48a5984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::FieldInfo*, ::UnityEngine::EnumDataUtility_CachedType)>(
     &::UnityEngine::EnumDataUtility::CheckObsoleteAddition)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x48b7c84;
+  constexpr static std::size_t addrs = 0x48a5864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::FieldInfo*)>(&::UnityEngine::EnumDataUtility::EnumTooltipFromEnumField)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x48b8210;
+  constexpr static std::size_t addrs = 0x48a5df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::FieldInfo*, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::EnumDataUtility::EnumNameFromEnumField)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x48b8348;
+  constexpr static std::size_t addrs = 0x48a5f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ByRef<::UnityEngine::EnumDataUtility___c__DisplayClass8_0>)>(
     &::UnityEngine::EnumDataUtility::_EnumNameFromEnumField_g__NicifyName_8_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x48b8514;
+  constexpr static std::size_t addrs = 0x48a60f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44e07c4;
+  constexpr static std::size_t addrs = 0x44ce384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "Awake",
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44e07c8;
+  constexpr static std::size_t addrs = 0x44ce388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "Start",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(::Tayx::Graphy::GraphyManager_ModulePosition)>(
     &::Tayx::Graphy::Ram::G_RamManager::SetPosition)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x44d9524;
+  constexpr static std::size_t addrs = 0x44c70e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(::Tayx::Graphy::GraphyManager_ModuleState, bool)>(
     &::Tayx::Graphy::Ram::G_RamManager::SetState)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x44da0bc;
+  constexpr static std::size_t addrs = 0x44c7c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::RestorePreviousState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44dc0b4;
+  constexpr static std::size_t addrs = 0x44c9c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(),
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::UpdateParameters)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x44da23c;
+  constexpr static std::size_t addrs = 0x44c7dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "UpdateParameters",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::RefreshParameters)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x44de654;
+  constexpr static std::size_t addrs = 0x44cc214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "RefreshParameters",
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::Init)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x44dc78c;
+  constexpr static std::size_t addrs = 0x44ca34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "Init",
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(bool)>(&::Tayx::Graphy::Ram::G_RamManager::SetGraphActive)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44e07cc;
+  constexpr static std::size_t addrs = 0x44ce38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x44e09bc;
+  constexpr static std::size_t addrs = 0x44ce57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), ".ctor",

@@ -68,16 +68,16 @@ public:
 
   static inline ::Zenject::CachedOpenTypeProvider___c* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4b47fac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b35ba0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b48000, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b35bf4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b47f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b35af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_NumInstances>b__8_0, addr 0x4b47f0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <get_NumInstances>b__8_0, addr 0x4b35b00, size 0x54, virtual false, abstract: false, final false
   inline int32_t _get_NumInstances_b__8_0(::Zenject::CachedProvider* x);
 
   static inline ::Zenject::CachedOpenTypeProvider___c* getStaticF___9();
@@ -136,14 +136,14 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method ClearCache, addr 0x4b479d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x4b355cc, size 0x50, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b47ad4, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b356c8, size 0x138, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4b47a28, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4b3561c, size 0xac, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::CachedOpenTypeProvider* New_ctor(::Zenject::IProvider* creator);
@@ -160,16 +160,16 @@ public:
 
   constexpr void __cordl_internal_set__providerMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::CachedProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x4b47774, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b35368, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* creator);
 
-  /// @brief Method get_IsCached, addr 0x4b4787c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4b35470, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_NumInstances, addr 0x4b478ac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_NumInstances, addr 0x4b354a0, size 0x12c, virtual false, abstract: false, final false
   inline int32_t get_NumInstances();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b47884, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b35478, size 0x28, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"

@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::MarkSceneDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a762cc;
+  constexpr static std::size_t addrs = 0x3a633a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_EditorUtility::SelectObject)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a762d0;
+  constexpr static std::size_t addrs = 0x3a633a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>)>(
     &::HoudiniEngineUnity::HEU_EditorUtility::SelectObjects)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a762d4;
+  constexpr static std::size_t addrs = 0x3a633a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanPosition)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a762d8;
+  constexpr static std::size_t addrs = 0x3a633ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanTransform)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3a7631c;
+  constexpr static std::size_t addrs = 0x3a633f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_EditorUtility::SaveAsPrefabAsset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a76374;
+  constexpr static std::size_t addrs = 0x3a63448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Component*)>(&::HoudiniEngineUnity::HEU_EditorUtility::PrefabIsAddedComponentOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a763c0;
+  constexpr static std::size_t addrs = 0x3a63494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::IsEditorPlaying)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a763c8;
+  constexpr static std::size_t addrs = 0x3a6349c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Object*, ::HoudiniEngineUnity::HEU_EditorUtility_HEU_ReplacePrefabOptions)>(&::HoudiniEngineUnity::HEU_EditorUtility::ReplacePrefab)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a763d0;
+  constexpr static std::size_t addrs = 0x3a634a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_EditorUtility::IsPrefabInstance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a7641c;
+  constexpr static std::size_t addrs = 0x3a634f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_EditorUtility::IsPrefabAsset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a76468;
+  constexpr static std::size_t addrs = 0x3a6353c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_EditorUtility::IsEditingInPrefabMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a764b4;
+  constexpr static std::size_t addrs = 0x3a63588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_EditorUtility::IsDisconnectedPrefabInstance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a764bc;
+  constexpr static std::size_t addrs = 0x3a63590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAsset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a76508;
+  constexpr static std::size_t addrs = 0x3a635dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAssetPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a76554;
+  constexpr static std::size_t addrs = 0x3a63628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_EditorUtility::DisconnectPrefabInstance)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a765a0;
+  constexpr static std::size_t addrs = 0x3a63674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_EditorUtility::InstantiatePrefab)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a765e4;
+  constexpr static std::size_t addrs = 0x3a636b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::GameObject*, ::UnityEngine::Transform*, bool, bool)>(
     &::HoudiniEngineUnity::HEU_EditorUtility::InstantiateGameObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3a76630;
+  constexpr static std::size_t addrs = 0x3a63704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::HoudiniEngineUnity::HEU_EditorUtility::UndoRecordObject)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a766b4;
+  constexpr static std::size_t addrs = 0x3a63788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::UndoCollapseCurrentGroup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a766b8;
+  constexpr static std::size_t addrs = 0x3a6378c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::UnityEngine::Object*)>(
     &::HoudiniEngineUnity::HEU_EditorUtility::CollectDependencies)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a766bc;
+  constexpr static std::size_t addrs = 0x3a63790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_EditorUtility::IsPersistant)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a76708;
+  constexpr static std::size_t addrs = 0x3a637dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Transform*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_EditorUtility::GetUniqueNameForSibling)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a76754;
+  constexpr static std::size_t addrs = 0x3a63828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, float_t)>(&::HoudiniEngineUnity::HEU_EditorUtility::DisplayProgressBar)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a767a0;
+  constexpr static std::size_t addrs = 0x3a63874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::ClearProgressBar)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a767e4;
+  constexpr static std::size_t addrs = 0x3a638b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::IsEditorNotInPlayModeAndNotGoingToPlayMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a76828;
+  constexpr static std::size_t addrs = 0x3a638fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_EditorUtility::DisplayDialog)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3a768a8;
+  constexpr static std::size_t addrs = 0x3a6397c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_EditorUtility::DisplayErrorDialog)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3a76914;
+  constexpr static std::size_t addrs = 0x3a639e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_EditorUtility::RevealInFinder)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a76998;
+  constexpr static std::size_t addrs = 0x3a63a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_EditorUtility::SetObjectDirtyForEditorUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a7699c;
+  constexpr static std::size_t addrs = 0x3a63a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool, bool)>(&::HoudiniEngineUnity::HEU_EditorUtility::SetStatic)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a769a0;
+  constexpr static std::size_t addrs = 0x3a63a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool, bool)>(&::HoudiniEngineUnity::HEU_EditorUtility::SetIsHidden)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a769a4;
+  constexpr static std::size_t addrs = 0x3a63a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> (*)()>(
     &::HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a769a8;
+  constexpr static std::size_t addrs = 0x3a63a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -505,7 +505,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>, ::Array<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>>*> (*)()>(
         &::HoudiniEngineUnity::HEU_EditorUtility::GetSelectedAssetRoots)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3a769b0;
+  constexpr static std::size_t addrs = 0x3a63a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::ArrayW<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>, ::Array<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>>*> (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::GetAllAssetRoots)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a76a38;
+  constexpr static std::size_t addrs = 0x3a63b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::CookSelected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a76a9c;
+  constexpr static std::size_t addrs = 0x3a63b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(), "CookSelected",
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::CookAll)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a76b88;
+  constexpr static std::size_t addrs = 0x3a63c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(), "CookAll",
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*>)>(&::HoudiniEngineUnity::HEU_EditorUtility::CookAssets)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3a76aac;
+  constexpr static std::size_t addrs = 0x3a63b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::RebuildSelected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a76b98;
+  constexpr static std::size_t addrs = 0x3a63c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::RebuildAll)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a76c78;
+  constexpr static std::size_t addrs = 0x3a63d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(), "RebuildAll",
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*>)>(&::HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3a76ba8;
+  constexpr static std::size_t addrs = 0x3a63c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -616,7 +616,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceSelectedInScene)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a76c88;
+  constexpr static std::size_t addrs = 0x3a63d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -629,7 +629,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAllInScene)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a76d64;
+  constexpr static std::size_t addrs = 0x3a63e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*>)>(&::HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3a76c98;
+  constexpr static std::size_t addrs = 0x3a63d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -658,7 +658,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::ExportSelectedAssetsToGeoFiles)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a76d74;
+  constexpr static std::size_t addrs = 0x3a63e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -671,7 +671,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::ExportAllAssetsToGeoFiles)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a774a8;
+  constexpr static std::size_t addrs = 0x3a6457c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -685,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*>)>(&::HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles)> {
   constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x3a76d84;
+  constexpr static std::size_t addrs = 0x3a63e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -700,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_EditorUtility::EditorSaveFolderPanel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a774b8;
+  constexpr static std::size_t addrs = 0x3a6458c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -715,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::QuerySelectedMeshTopology)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a77504;
+  constexpr static std::size_t addrs = 0x3a645d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(),
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(
     ::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>*)>(&::HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolder)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a77508;
+  constexpr static std::size_t addrs = 0x3a645dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -744,7 +744,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolderHelper)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a77548;
+  constexpr static std::size_t addrs = 0x3a6461c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -758,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::RepaintScene)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a77588;
+  constexpr static std::size_t addrs = 0x3a6465c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(), "RepaintScene",
@@ -771,7 +771,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_EditorUtility::SetTextureToNormalMap)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a7758c;
+  constexpr static std::size_t addrs = 0x3a64660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -785,7 +785,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_EditorUtility::ReleasedMouse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a77590;
+  constexpr static std::size_t addrs = 0x3a64664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(), "ReleasedMouse",

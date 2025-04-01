@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Collider> (::GlobalNamespace::ColliderEventEffect::*)()>(
     &::GlobalNamespace::ColliderEventEffect::get_effectCollider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba662c;
+  constexpr static std::size_t addrs = 0x3b94128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColliderEventEffect*>::get(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ColliderEventEffect::*)()>(&::GlobalNamespace::ColliderEventEffect::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba6634;
+  constexpr static std::size_t addrs = 0x3b94130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColliderEventEffect*>::get(), "get_value",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColliderEventEffect::*)()>(&::GlobalNamespace::ColliderEventEffect::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ba663c;
+  constexpr static std::size_t addrs = 0x3b94138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColliderEventEffect*>::get(), "Start",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColliderEventEffect::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::ColliderEventEffect::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba66b8;
+  constexpr static std::size_t addrs = 0x3b941b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColliderEventEffect::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::ColliderEventEffect::TriggerValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba66c0;
+  constexpr static std::size_t addrs = 0x3b941bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColliderEventEffect::*)()>(&::GlobalNamespace::ColliderEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba66c8;
+  constexpr static std::size_t addrs = 0x3b941c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColliderEventEffect*>::get(), ".ctor",

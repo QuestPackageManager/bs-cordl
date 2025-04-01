@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e7124;
+  constexpr static std::size_t addrs = 0x44d4d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteSwapTransitionSO*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_highlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e712c;
+  constexpr static std::size_t addrs = 0x44d4d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteSwapTransitionSO*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_pressedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e7134;
+  constexpr static std::size_t addrs = 0x44d4d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteSwapTransitionSO*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_disabledSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e713c;
+  constexpr static std::size_t addrs = 0x44d4d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteSwapTransitionSO*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_selectedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e7144;
+  constexpr static std::size_t addrs = 0x44d4d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteSwapTransitionSO*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_selectedAndHighlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e714c;
+  constexpr static std::size_t addrs = 0x44d4d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(&::GlobalNamespace::SpriteSwapTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e7154;
+  constexpr static std::size_t addrs = 0x44d4d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteSwapTransitionSO*>::get(), ".ctor",

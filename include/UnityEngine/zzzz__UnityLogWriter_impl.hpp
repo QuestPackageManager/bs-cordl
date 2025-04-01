@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::UnityLogWriter::WriteStringToUnityLog)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48a8fec;
+  constexpr static std::size_t addrs = 0x4896bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48a9030;
+  constexpr static std::size_t addrs = 0x4896c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnityLogWriter::Init)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48a906c;
+  constexpr static std::size_t addrs = 0x4896c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnityLogWriter*>::get(), "Init",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::UnityEngine::UnityLogWriter::*)()>(&::UnityEngine::UnityLogWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48a913c;
+  constexpr static std::size_t addrs = 0x4896d1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)(char16_t)>(&::UnityEngine::UnityLogWriter::Write)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48a9144;
+  constexpr static std::size_t addrs = 0x4896d24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)(::StringW)>(&::UnityEngine::UnityLogWriter::Write)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48a91d0;
+  constexpr static std::size_t addrs = 0x4896db0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::UnityEngine::UnityLogWriter::Write)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48a9214;
+  constexpr static std::size_t addrs = 0x4896df4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)()>(&::UnityEngine::UnityLogWriter::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48a90e4;
+  constexpr static std::size_t addrs = 0x4896cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnityLogWriter*>::get(), ".ctor",

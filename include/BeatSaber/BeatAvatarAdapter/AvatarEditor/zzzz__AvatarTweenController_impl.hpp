@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController___c__DisplayClass54_0::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController___c__DisplayClass54_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225a0f4;
+  constexpr static std::size_t addrs = 0x2252284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController___c__DisplayClass54_0::*)(float_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController___c__DisplayClass54_0::_CreatePopTween_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x225adb8;
+  constexpr static std::size_t addrs = 0x2252f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::*)(int32_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x225a0fc;
+  constexpr static std::size_t addrs = 0x225228c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x225adec;
+  constexpr static std::size_t addrs = 0x2252f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::MoveNext)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x225adf0;
+  constexpr static std::size_t addrs = 0x2252f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225aff8;
+  constexpr static std::size_t addrs = 0x2253188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x225b000;
+  constexpr static std::size_t addrs = 0x2253190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b038;
+  constexpr static std::size_t addrs = 0x22531c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::*)(int32_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x225ac24;
+  constexpr static std::size_t addrs = 0x2252db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x225b040;
+  constexpr static std::size_t addrs = 0x22531d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x225b044;
+  constexpr static std::size_t addrs = 0x22531d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +348,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::*)()>(
         &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b2cc;
+  constexpr static std::size_t addrs = 0x225345c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x225b2d4;
+  constexpr static std::size_t addrs = 0x2253464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::*)()>(
         &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b30c;
+  constexpr static std::size_t addrs = 0x225349c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::Awake)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2259c6c;
+  constexpr static std::size_t addrs = 0x2251dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2259cb8;
+  constexpr static std::size_t addrs = 0x2251e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2259d50;
+  constexpr static std::size_t addrs = 0x2251ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PresentAvatar)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22571a0;
+  constexpr static std::size_t addrs = 0x224f330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::HideAvatar)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2257910;
+  constexpr static std::size_t addrs = 0x224faa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PopAll)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2259e14;
+  constexpr static std::size_t addrs = 0x2251fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PopHead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2259fb0;
+  constexpr static std::size_t addrs = 0x2252140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PopHands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2259fb8;
+  constexpr static std::size_t addrs = 0x2252148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PopClothes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2259fc0;
+  constexpr static std::size_t addrs = 0x2252150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(float_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PopHead)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2259e40;
+  constexpr static std::size_t addrs = 0x2251fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -650,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(float_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PopHands)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2259f08;
+  constexpr static std::size_t addrs = 0x2252098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -665,7 +665,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(float_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::PopClothes)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2259ea4;
+  constexpr static std::size_t addrs = 0x2252034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -681,7 +681,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Tweening::Tween_1<float_t>* (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Transform*, float_t)>(
         &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::CreatePopTween)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2259fc8;
+  constexpr static std::size_t addrs = 0x2252158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -697,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::AppearAnimation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2259d54;
+  constexpr static std::size_t addrs = 0x2251ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::AppearBody)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x225a124;
+  constexpr static std::size_t addrs = 0x22522b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::AppearHead)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x225a3e0;
+  constexpr static std::size_t addrs = 0x2252570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::AppearLeftHand)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x225a69c;
+  constexpr static std::size_t addrs = 0x225282c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -757,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::AppearRightHand)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x225a960;
+  constexpr static std::size_t addrs = 0x2252af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -772,7 +772,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::DisappearAnimation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2259db4;
+  constexpr static std::size_t addrs = 0x2251f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::StopAll)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2259cbc;
+  constexpr static std::size_t addrs = 0x2251e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -802,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x225ac4c;
+  constexpr static std::size_t addrs = 0x2252ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -817,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearBody_b__56_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225aca0;
+  constexpr static std::size_t addrs = 0x2252e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearBody_b__56_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225acbc;
+  constexpr static std::size_t addrs = 0x2252e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearHead_b__57_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225acd8;
+  constexpr static std::size_t addrs = 0x2252e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -862,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearHead_b__57_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225acf4;
+  constexpr static std::size_t addrs = 0x2252e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearLeftHand_b__58_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225ad10;
+  constexpr static std::size_t addrs = 0x2252ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -892,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearLeftHand_b__58_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225ad2c;
+  constexpr static std::size_t addrs = 0x2252ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -907,7 +907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearRightHand_b__59_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225ad48;
+  constexpr static std::size_t addrs = 0x2252ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -922,7 +922,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_AppearRightHand_b__59_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225ad64;
+  constexpr static std::size_t addrs = 0x2252ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -937,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_DisappearAnimation_b__60_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225ad80;
+  constexpr static std::size_t addrs = 0x2252f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -952,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_DisappearAnimation_b__60_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225ad9c;
+  constexpr static std::size_t addrs = 0x2252f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

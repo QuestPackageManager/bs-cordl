@@ -23,16 +23,16 @@ namespace System {
 class CORDL_TYPE IriHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckIriUnicodeRange, addr 0x4417fe4, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x4405ba4, size 0x630, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t highSurr, char16_t lowSurr, ::ByRef<bool> surrogatePair, bool isQuery);
 
-  /// @brief Method CheckIriUnicodeRange, addr 0x4417f8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x4405b4c, size 0x58, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t unicode, bool isQuery);
 
-  /// @brief Method CheckIsReserved, addr 0x4418614, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CheckIsReserved, addr 0x44061d4, size 0x144, virtual false, abstract: false, final false
   static inline bool CheckIsReserved(char16_t ch, ::System::UriComponents component);
 
-  /// @brief Method EscapeUnescapeIri, addr 0x4418758, size 0x85c, virtual false, abstract: false, final false
+  /// @brief Method EscapeUnescapeIri, addr 0x4406318, size 0x85c, virtual false, abstract: false, final false
   static inline ::StringW EscapeUnescapeIri(::cordl_internals::Ptr<char16_t> pInput, int32_t start, int32_t end, ::System::UriComponents component);
 
 protected:

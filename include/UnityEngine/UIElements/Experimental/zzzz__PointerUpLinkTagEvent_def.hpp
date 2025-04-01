@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49ee5b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49dc194, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49ee5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49dc18c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c* getStaticF___9();
@@ -87,13 +87,13 @@ public:
 
   __declspec(property(put = set_linkText)) ::StringW linkText;
 
-  /// @brief Method GetPooled, addr 0x49ee494, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49dc074, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID, ::StringW linkText);
 
-  /// @brief Method Init, addr 0x49ee434, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49dc014, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49ee488, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49dc068, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* New_ctor();
@@ -110,13 +110,13 @@ public:
 
   constexpr void __cordl_internal_set__linkText_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49ee4fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49dc0dc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_linkID, addr 0x49ee424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkID, addr 0x49dc004, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
-  /// @brief Method set_linkText, addr 0x49ee42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkText, addr 0x49dc00c, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
 protected:

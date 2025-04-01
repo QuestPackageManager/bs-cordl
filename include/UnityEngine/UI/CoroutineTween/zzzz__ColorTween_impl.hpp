@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenCallback::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenCallback::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4ae00c0;
+  constexpr static std::size_t addrs = 0x4acdca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::get_startColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adfee8;
+  constexpr static std::size_t addrs = 0x4acdac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween::*)(::UnityEngine::Color)>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::set_startColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adfef4;
+  constexpr static std::size_t addrs = 0x4acdad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::get_targetColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adff00;
+  constexpr static std::size_t addrs = 0x4acdae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween::*)(::UnityEngine::Color)>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::set_targetColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adff0c;
+  constexpr static std::size_t addrs = 0x4acdaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::get_tweenMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adff18;
+  constexpr static std::size_t addrs = 0x4acdaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween::*)(::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode)>(&::UnityEngine::UI::CoroutineTween::ColorTween::set_tweenMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adff20;
+  constexpr static std::size_t addrs = 0x4acdb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adff28;
+  constexpr static std::size_t addrs = 0x4acdb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween::*)(float_t)>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adff30;
+  constexpr static std::size_t addrs = 0x4acdb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::get_ignoreTimeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adff38;
+  constexpr static std::size_t addrs = 0x4acdb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween::*)(bool)>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::set_ignoreTimeScale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adff40;
+  constexpr static std::size_t addrs = 0x4acdb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween::*)(float_t)>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::TweenValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4adff4c;
+  constexpr static std::size_t addrs = 0x4acdb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::ColorTween::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>*)>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::AddOnChangedCallback)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ae0038;
+  constexpr static std::size_t addrs = 0x4acdc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::GetIgnoreTimescale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae0108;
+  constexpr static std::size_t addrs = 0x4acdce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::GetDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae0110;
+  constexpr static std::size_t addrs = 0x4acdcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::CoroutineTween::ColorTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::ColorTween::ValidTarget)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4ae0028;
+  constexpr static std::size_t addrs = 0x4acdc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::ColorTween>::get(),

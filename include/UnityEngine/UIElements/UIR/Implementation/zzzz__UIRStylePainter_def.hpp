@@ -451,101 +451,101 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStylePainter"
   constexpr operator ::UnityEngine::UIElements::IStylePainter*() noexcept;
 
-  /// @brief Method AdjustSpriteWinding, addr 0x49d6eb8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method AdjustSpriteWinding, addr 0x49c4a98, size 0x320, virtual false, abstract: false, final false
   inline ::ArrayW<uint16_t, ::Array<uint16_t>*> AdjustSpriteWinding(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> vertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> indices);
 
-  /// @brief Method AllocRawVertsIndices, addr 0x49d0078, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AllocRawVertsIndices, addr 0x49bdc58, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* AllocRawVertsIndices(uint32_t vertexCount, uint32_t indexCount, ::ByRef<::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData> allocatorData);
 
-  /// @brief Method AllocThroughDrawMesh, addr 0x49d0138, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AllocThroughDrawMesh, addr 0x49bdd18, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* AllocThroughDrawMesh(uint32_t vertexCount, uint32_t indexCount, ::ByRef<::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData> allocatorData);
 
-  /// @brief Method ApplyInset, addr 0x49d2afc, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method ApplyInset, addr 0x49c06dc, size 0x21c, virtual false, abstract: false, final false
   inline void ApplyInset(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, ::UnityEngine::Texture* tex);
 
-  /// @brief Method ApplyVisualElementClipping, addr 0x49d5fd0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method ApplyVisualElementClipping, addr 0x49c3bb0, size 0x238, virtual false, abstract: false, final false
   inline void ApplyVisualElementClipping();
 
-  /// @brief Method Begin, addr 0x49d0924, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x49be504, size 0x510, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method BuildEntryFromNativeMesh, addr 0x49d10fc, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method BuildEntryFromNativeMesh, addr 0x49becdc, size 0x458, virtual false, abstract: false, final false
   inline void BuildEntryFromNativeMesh(::UnityEngine::UIElements::MeshWriteDataInterface meshData, ::UnityEngine::Texture* texture, ::UnityEngine::UIElements::TextureId textureId, bool isAtlas,
                                        ::UnityEngine::Material* material, ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags flags, ::UnityEngine::Rect uvRegion,
                                        ::UnityEngine::UIElements::UIR::VertexFlags addFlags);
 
-  /// @brief Method BuildGradientEntryFromNativeMesh, addr 0x49d1554, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method BuildGradientEntryFromNativeMesh, addr 0x49bf134, size 0x3f4, virtual false, abstract: false, final false
   inline void BuildGradientEntryFromNativeMesh(::UnityEngine::UIElements::MeshWriteDataInterface meshData, ::UnityEngine::UIElements::TextureId svgTextureId);
 
-  /// @brief Method BuildRawEntryFromNativeMesh, addr 0x49d1948, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method BuildRawEntryFromNativeMesh, addr 0x49bf528, size 0x1e0, virtual false, abstract: false, final false
   inline void BuildRawEntryFromNativeMesh(::UnityEngine::UIElements::MeshWriteDataInterface meshData);
 
-  /// @brief Method DrawBorder, addr 0x49d2d18, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method DrawBorder, addr 0x49c08f8, size 0x90, virtual true, abstract: false, final true
   inline void DrawBorder(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams borderParams);
 
-  /// @brief Method DrawImmediate, addr 0x49d2da8, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method DrawImmediate, addr 0x49c0988, size 0x168, virtual true, abstract: false, final true
   inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
-  /// @brief Method DrawMesh, addr 0x49d014c, size 0x4a4, virtual true, abstract: false, final true
+  /// @brief Method DrawMesh, addr 0x49bdd2c, size 0x4a4, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::MeshWriteData* DrawMesh(int32_t vertexCount, int32_t indexCount, ::UnityEngine::Texture* texture, ::UnityEngine::Material* material,
                                                             ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags flags);
 
-  /// @brief Method DrawRectangle, addr 0x49d21ac, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method DrawRectangle, addr 0x49bfd8c, size 0x22c, virtual true, abstract: false, final true
   inline void DrawRectangle(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams rectParams);
 
-  /// @brief Method DrawRectangleRepeat, addr 0x49d4048, size 0x1450, virtual false, abstract: false, final false
+  /// @brief Method DrawRectangleRepeat, addr 0x49c1c28, size 0x1450, virtual false, abstract: false, final false
   inline void DrawRectangleRepeat(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams rectParams, ::UnityEngine::Rect totalRect, float_t scaledPixelsPerPoint);
 
-  /// @brief Method DrawSprite, addr 0x49d279c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method DrawSprite, addr 0x49c037c, size 0x360, virtual false, abstract: false, final false
   inline void DrawSprite(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams rectParams);
 
-  /// @brief Method DrawText, addr 0x49d1b28, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method DrawText, addr 0x49bf708, size 0x98, virtual true, abstract: false, final true
   inline void DrawText(::UnityEngine::UIElements::TextElement* te);
 
-  /// @brief Method DrawTextInfo, addr 0x49d1bc0, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method DrawTextInfo, addr 0x49bf7a0, size 0x5ec, virtual false, abstract: false, final false
   inline void DrawTextInfo(::UnityEngine::TextCore::Text::TextInfo* textInfo, ::UnityEngine::Vector2 offset, bool useHints);
 
-  /// @brief Method DrawVectorImage, addr 0x49d23d8, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method DrawVectorImage, addr 0x49bffb8, size 0x3c4, virtual false, abstract: false, final false
   inline void DrawVectorImage(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams rectParams);
 
-  /// @brief Method DrawVisualElementBackground, addr 0x49d2f18, size 0x1130, virtual false, abstract: false, final false
+  /// @brief Method DrawVisualElementBackground, addr 0x49c0af8, size 0x1130, virtual false, abstract: false, final false
   inline void DrawVisualElementBackground();
 
-  /// @brief Method DrawVisualElementBorder, addr 0x49d5698, size 0x938, virtual false, abstract: false, final false
+  /// @brief Method DrawVisualElementBorder, addr 0x49c3278, size 0x938, virtual false, abstract: false, final false
   inline void DrawVisualElementBorder();
 
-  /// @brief Method GenerateStencilClipEntryForRoundedRectBackground, addr 0x49d6588, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method GenerateStencilClipEntryForRoundedRectBackground, addr 0x49c4168, size 0x930, virtual false, abstract: false, final false
   inline void GenerateStencilClipEntryForRoundedRectBackground();
 
-  /// @brief Method GenerateStencilClipEntryForSVGBackground, addr 0x49d6208, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method GenerateStencilClipEntryForSVGBackground, addr 0x49c3de8, size 0x380, virtual false, abstract: false, final false
   inline void GenerateStencilClipEntryForSVGBackground();
 
-  /// @brief Method GetPooledMeshWriteData, addr 0x49cff68, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetPooledMeshWriteData, addr 0x49bdb48, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* GetPooledMeshWriteData();
 
-  /// @brief Method LandClipRegisterMesh, addr 0x49d0ea8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LandClipRegisterMesh, addr 0x49bea88, size 0x9c, virtual false, abstract: false, final false
   inline void LandClipRegisterMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, int32_t indexOffset);
 
-  /// @brief Method LandClipUnregisterMeshDrawCommand, addr 0x49d0e34, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LandClipUnregisterMeshDrawCommand, addr 0x49bea14, size 0x74, virtual false, abstract: false, final false
   inline void LandClipUnregisterMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method MakeVectorGraphics, addr 0x49d71d8, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphics, addr 0x49c4db8, size 0x3d0, virtual false, abstract: false, final false
   inline void MakeVectorGraphics(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams rectParams, bool isUsingGradients, ::UnityEngine::UIElements::TextureId svgTexture,
                                  int32_t settingIndexOffset, ::ByRef<int32_t> finalVertexCount, ::ByRef<int32_t> finalIndexCount);
 
   static inline ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* New_ctor(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method Reset, addr 0x49d75a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49c5188, size 0x88, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method StampRectangleWithSubRect, addr 0x49d5498, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method StampRectangleWithSubRect, addr 0x49c3078, size 0x200, virtual false, abstract: false, final false
   inline void StampRectangleWithSubRect(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams rectParams, ::UnityEngine::Rect targetRect, ::UnityEngine::Rect targetUV);
 
-  /// @brief Method TryAtlasTexture, addr 0x49d0f44, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryAtlasTexture, addr 0x49beb24, size 0x1b8, virtual false, abstract: false, final false
   inline void TryAtlasTexture(::UnityEngine::Texture* texture, ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags flags, ::ByRef<::UnityEngine::Rect> outUVRegion, ::ByRef<bool> outIsAtlas,
                               ::ByRef<::UnityEngine::UIElements::TextureId> outTextureId, ::ByRef<::UnityEngine::UIElements::UIR::VertexFlags> outAddFlags);
 
-  /// @brief Method ValidateMeshWriteData, addr 0x49d7630, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method ValidateMeshWriteData, addr 0x49c5210, size 0x444, virtual false, abstract: false, final false
   inline void ValidateMeshWriteData();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__currentElement_k__BackingField() const;
@@ -686,40 +686,40 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x49d05f0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49be1d0, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method get_closingInfo, addr 0x49d08e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_closingInfo, addr 0x49be4c8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter_ClosingInfo get_closingInfo();
 
-  /// @brief Method get_currentElement, addr 0x49d08d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentElement, addr 0x49be4b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_currentElement();
 
-  /// @brief Method get_entries, addr 0x49d08e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entries, addr 0x49be4c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter_Entry>* get_entries();
 
-  /// @brief Method get_meshGenerationContext, addr 0x49d08c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshGenerationContext, addr 0x49be4a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
 
-  /// @brief Method get_totalIndices, addr 0x49d0914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalIndices, addr 0x49be4f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalIndices();
 
-  /// @brief Method get_totalVertices, addr 0x49d0904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalVertices, addr 0x49be4e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalVertices();
 
-  /// @brief Method get_visualElement, addr 0x49d2f10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_visualElement, addr 0x49c0af0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_visualElement();
 
   /// @brief Convert to "::UnityEngine::UIElements::IStylePainter"
   constexpr ::UnityEngine::UIElements::IStylePainter* i___UnityEngine__UIElements__IStylePainter() noexcept;
 
-  /// @brief Method set_currentElement, addr 0x49d08d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentElement, addr 0x49be4b8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_totalIndices, addr 0x49d091c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalIndices, addr 0x49be4fc, size 0x8, virtual false, abstract: false, final false
   inline void set_totalIndices(int32_t value);
 
-  /// @brief Method set_totalVertices, addr 0x49d090c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalVertices, addr 0x49be4ec, size 0x8, virtual false, abstract: false, final false
   inline void set_totalVertices(int32_t value);
 
 protected:

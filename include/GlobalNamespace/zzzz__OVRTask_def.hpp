@@ -46,7 +46,7 @@ public:
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
 
-  /// @brief Method GetId, addr 0x4036fe8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x4024ba0, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t value);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

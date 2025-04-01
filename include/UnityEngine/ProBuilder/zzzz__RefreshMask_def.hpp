@@ -71,7 +71,7 @@ public:
   static ::UnityEngine::ProBuilder::RefreshMask const UV;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14284 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

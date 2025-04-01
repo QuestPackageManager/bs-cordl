@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)(::System::IO::TextReader*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemReader::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2554fa0;
+  constexpr static std::size_t addrs = 0x254d130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextReader* (::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemReader::get_Reader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2555014;
+  constexpr static std::size_t addrs = 0x254d1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::IO::Pem::PemReader*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemReader::ReadPemObject)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x255501c;
+  constexpr static std::size_t addrs = 0x254d1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::IO::Pem::PemReader*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (
     ::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)(::StringW)>(&::Org::BouncyCastle::Utilities::IO::Pem::PemReader::LoadObject)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x2555170;
+  constexpr static std::size_t addrs = 0x254d300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

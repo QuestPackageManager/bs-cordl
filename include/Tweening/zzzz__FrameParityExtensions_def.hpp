@@ -21,7 +21,7 @@ namespace Tweening {
 class CORDL_TYPE FrameParityExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSwitchedParity, addr 0x44e955c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetSwitchedParity, addr 0x44d713c, size 0x18, virtual false, abstract: false, final false
   static inline ::Tweening::FrameParity GetSwitchedParity(::Tweening::FrameParity frameParity);
 
 protected:
@@ -39,7 +39,7 @@ public:
   FrameParityExtensions(FrameParityExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18678 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

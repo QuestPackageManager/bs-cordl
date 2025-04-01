@@ -70,47 +70,47 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-  /// @brief Method AdvanceCounter, addr 0x235904c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method AdvanceCounter, addr 0x23511dc, size 0x4c, virtual true, abstract: false, final false
   inline void AdvanceCounter();
 
-  /// @brief Method GenerateKeyStream, addr 0x2359590, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyStream, addr 0x2351720, size 0x84, virtual true, abstract: false, final false
   inline void GenerateKeyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Init, addr 0x2358a80, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2350c10, size 0x3a8, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method LimitExceeded, addr 0x2359010, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LimitExceeded, addr 0x23511a0, size 0x3c, virtual false, abstract: false, final false
   inline bool LimitExceeded();
 
-  /// @brief Method LimitExceeded, addr 0x2359300, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LimitExceeded, addr 0x2351490, size 0x3c, virtual false, abstract: false, final false
   inline bool LimitExceeded(uint32_t len);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor(int32_t rounds);
 
-  /// @brief Method PackTauOrSigma, addr 0x23587f0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PackTauOrSigma, addr 0x2350980, size 0x134, virtual false, abstract: false, final false
   inline void PackTauOrSigma(int32_t keyLength, ::ArrayW<uint32_t, ::Array<uint32_t>*> state, int32_t stateOffset);
 
-  /// @brief Method ProcessBytes, addr 0x2359098, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2351228, size 0x268, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x235933c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x23514cc, size 0x1c, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResetCounter, addr 0x2359364, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ResetCounter, addr 0x23514f4, size 0x2c, virtual true, abstract: false, final false
   inline void ResetCounter();
 
-  /// @brief Method ResetLimitCounter, addr 0x2359358, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetLimitCounter, addr 0x23514e8, size 0xc, virtual false, abstract: false, final false
   inline void ResetLimitCounter();
 
-  /// @brief Method ReturnByte, addr 0x2358f10, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0x23510a0, size 0x100, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method SalsaCore, addr 0x2359614, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method SalsaCore, addr 0x23517a4, size 0x5e4, virtual false, abstract: false, final false
   static inline void SalsaCore(int32_t rounds, ::ArrayW<uint32_t, ::Array<uint32_t>*> input, ::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method SetKey, addr 0x2359390, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2351520, size 0x200, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
   constexpr uint32_t const& __cordl_internal_get_cW0() const;
@@ -167,10 +167,10 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2358924, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2350ab4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2358984, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2350b14, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(int32_t rounds);
 
   static inline int32_t getStaticF_DEFAULT_ROUNDS();
@@ -181,10 +181,10 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_tau();
 
-  /// @brief Method get_AlgorithmName, addr 0x2358e30, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2350fc0, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_NonceSize, addr 0x2358e28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NonceSize, addr 0x2350fb8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NonceSize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"

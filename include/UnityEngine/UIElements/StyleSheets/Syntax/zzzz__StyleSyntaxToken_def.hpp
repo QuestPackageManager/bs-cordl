@@ -24,13 +24,13 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct CORDL_TYPE StyleSyntaxToken {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x49ecff8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49dabd8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType t);
 
-  /// @brief Method .ctor, addr 0x49ed018, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49dabf8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, int32_t number);
 
-  /// @brief Method .ctor, addr 0x49ed008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49dabe8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text);
 
   // Ctor Parameters []

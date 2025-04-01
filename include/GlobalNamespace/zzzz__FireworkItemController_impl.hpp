@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController_FireworkItemParticleSystem::*)()>(
     &::GlobalNamespace::FireworkItemController_FireworkItemParticleSystem::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b8e7f0;
+  constexpr static std::size_t addrs = 0x3b7c224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController_Pool::*)()>(&::GlobalNamespace::FireworkItemController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b8e800;
+  constexpr static std::size_t addrs = 0x3b7c234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController_Pool*>::get(), ".ctor",
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)(int32_t)>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b8e3c0;
+  constexpr static std::size_t addrs = 0x3b7bdf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b8e848;
+  constexpr static std::size_t addrs = 0x3b7c27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3b8e84c;
+  constexpr static std::size_t addrs = 0x3b7c280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8ea78;
+  constexpr static std::size_t addrs = 0x3b7c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b8ea80;
+  constexpr static std::size_t addrs = 0x3b7c4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8eab8;
+  constexpr static std::size_t addrs = 0x3b7c4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(::GlobalNamespace::DirectionalLight*)>(
     &::GlobalNamespace::FireworkItemController::set_directionalLight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8dfe4;
+  constexpr static std::size_t addrs = 0x3b7ba18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(float_t)>(
     &::GlobalNamespace::FireworkItemController::set_directionalLightIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8dfec;
+  constexpr static std::size_t addrs = 0x3b7ba20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*)>(&::GlobalNamespace::FireworkItemController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b8dff4;
+  constexpr static std::size_t addrs = 0x3b7ba28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*)>(&::GlobalNamespace::FireworkItemController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b8e0a4;
+  constexpr static std::size_t addrs = 0x3b7bad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::Awake)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b8e154;
+  constexpr static std::size_t addrs = 0x3b7bb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), "Awake",
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::OnDisable)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b8e1d8;
+  constexpr static std::size_t addrs = 0x3b7bc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), "OnDisable",
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::Fire)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b8e340;
+  constexpr static std::size_t addrs = 0x3b7bd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), "Fire",
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FireworkItemController::*)()>(
     &::GlobalNamespace::FireworkItemController::FireCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b8e360;
+  constexpr static std::size_t addrs = 0x3b7bd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(),
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(float_t)>(
     &::GlobalNamespace::FireworkItemController::SetLightsColor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b8e240;
+  constexpr static std::size_t addrs = 0x3b7bc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(
     &::GlobalNamespace::FireworkItemController::PlayExplosionSound)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b8e3e8;
+  constexpr static std::size_t addrs = 0x3b7be1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(),
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(
     &::GlobalNamespace::FireworkItemController::InitializeParticleSystem)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3b8e4c4;
+  constexpr static std::size_t addrs = 0x3b7bef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(),
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b8e7d0;
+  constexpr static std::size_t addrs = 0x3b7c204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), ".ctor",

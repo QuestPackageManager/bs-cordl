@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IStandaloneMonobehavior*, ::System::Action*)>(
     &::GlobalNamespace::StandaloneMonobehaviorExtensions::Dispatch)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22d3528;
+  constexpr static std::size_t addrs = 0x22cb6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::GlobalNamespace::IStandaloneMonobehavior*, ::System::Func_1<::System::Threading::Tasks::Task*>*)>(
         &::GlobalNamespace::StandaloneMonobehaviorExtensions::DispatchAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22d35cc;
+  constexpr static std::size_t addrs = 0x22cb75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

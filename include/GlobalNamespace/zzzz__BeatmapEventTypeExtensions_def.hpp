@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x2247194, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x223f324, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
 protected:

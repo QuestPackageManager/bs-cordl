@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Start)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x404860c;
+  constexpr static std::size_t addrs = 0x40361c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "Start",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Update)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x40486a8;
+  constexpr static std::size_t addrs = 0x4036260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "Update",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::TestPowerStateMode)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4048754;
+  constexpr static std::size_t addrs = 0x403630c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "TestPowerStateMode",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40487f8;
+  constexpr static std::size_t addrs = 0x40363b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), ".ctor",

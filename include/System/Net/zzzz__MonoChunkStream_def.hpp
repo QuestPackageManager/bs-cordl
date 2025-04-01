@@ -68,10 +68,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x43e0370, size 0x3e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x43cdf30, size 0x3e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x43e0758, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43ce318, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -160,10 +160,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x43e07d4, size 0x458, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x43ce394, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x43e0c2c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43ce7ec, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -249,16 +249,16 @@ public:
   /// @brief Field <Headers>k__BackingField, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__Headers_k__BackingField, put = __cordl_internal_set__Headers_k__BackingField)) ::System::Net::WebHeaderCollection* _Headers_k__BackingField;
 
-  /// @brief Method FinishReading, addr 0x43e0238, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method FinishReading, addr 0x43cddf8, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::MonoChunkStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method ProcessReadAsync, addr 0x43e011c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x43cdcdc, size 0x11c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowExpectingChunkTrailer, addr 0x43e0310, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowExpectingChunkTrailer, addr 0x43cded0, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowExpectingChunkTrailer();
 
   constexpr ::System::Net::MonoChunkParser* const& __cordl_internal_get__Decoder_k__BackingField() const;
@@ -273,13 +273,13 @@ public:
 
   constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method <>n__0, addr 0x43e0368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x43cdf28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x43e0090, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43cdc50, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method get_Decoder, addr 0x43e0088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Decoder, addr 0x43cdc48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::MonoChunkParser* get_Decoder();
 
 protected:

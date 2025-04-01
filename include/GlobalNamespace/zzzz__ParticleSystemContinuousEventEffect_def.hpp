@@ -47,18 +47,18 @@ public:
                       put = __cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>
       _particleSystems;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3ba4540, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b9203c, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemContinuousEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba4524, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b92020, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ba43fc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b91ef8, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleEmitting, addr 0x3ba4560, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToggleEmitting, addr 0x3b9205c, size 0xb4, virtual false, abstract: false, final false
   inline void ToggleEmitting(bool shouldPlay);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  /// @brief Method .ctor, addr 0x3ba4614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b92110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

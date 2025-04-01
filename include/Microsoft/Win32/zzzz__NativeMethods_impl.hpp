@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::HandleRef,
                          ::ByRef<::Microsoft::Win32::SafeHandles::SafeProcessHandle*>, int32_t, bool, int32_t)>(&::Microsoft::Win32::NativeMethods::DuplicateHandle)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x412a990;
+  constexpr static std::size_t addrs = 0x4118550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Microsoft::Win32::NativeMethods::GetCurrentProcess)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x412aaf8;
+  constexpr static std::size_t addrs = 0x41186b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::NativeMethods*>::get(), "GetCurrentProcess",
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::ByRef<int32_t>)>(&::Microsoft::Win32::NativeMethods::GetExitCodeProcess)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x412aafc;
+  constexpr static std::size_t addrs = 0x41186bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::ByRef<int32_t>)>(
     &::Microsoft::Win32::NativeMethods::GetExitCodeProcess)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x412ab00;
+  constexpr static std::size_t addrs = 0x41186c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::ByRef<int64_t>, ::ByRef<int64_t>, ::ByRef<int64_t>, ::ByRef<int64_t>)>(
     &::Microsoft::Win32::NativeMethods::GetProcessTimes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x412abf8;
+  constexpr static std::size_t addrs = 0x41187b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::ByRef<int64_t>, ::ByRef<int64_t>, ::ByRef<int64_t>,
                                                                                            ::ByRef<int64_t>)>(&::Microsoft::Win32::NativeMethods::GetProcessTimes)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x412abfc;
+  constexpr static std::size_t addrs = 0x41187bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Microsoft::Win32::NativeMethods::GetCurrentProcessId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x412ad14;
+  constexpr static std::size_t addrs = 0x41188d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::NativeMethods*>::get(), "GetCurrentProcessId",
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Microsoft::Win32::NativeMethods::CloseProcess)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x412ad18;
+  constexpr static std::size_t addrs = 0x41188d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3be6acc;
+  constexpr static std::size_t addrs = 0x3bd45bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3be6bc4;
+  constexpr static std::size_t addrs = 0x3bd46b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3be6bc8;
+  constexpr static std::size_t addrs = 0x3bd46b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be6ce8;
+  constexpr static std::size_t addrs = 0x3bd47d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3be6cf0;
+  constexpr static std::size_t addrs = 0x3bd47e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be6d28;
+  constexpr static std::size_t addrs = 0x3bd4818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)(float_t, float_t)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be5ba0;
+  constexpr static std::size_t addrs = 0x3bd3690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::ActivateMultiplayerLobbyAvatarManager)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3be5ba8;
+  constexpr static std::size_t addrs = 0x3bd3698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::DeactivateMultiplayerLobbyAvatarManager)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x3be6304;
+  constexpr static std::size_t addrs = 0x3bd3df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerConnected)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3be6720;
+  constexpr static std::size_t addrs = 0x3bd4210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerDisconnected)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3be6724;
+  constexpr static std::size_t addrs = 0x3bd4214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::AddPlayer)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x3be5e9c;
+  constexpr static std::size_t addrs = 0x3bd398c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayer)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3be6728;
+  constexpr static std::size_t addrs = 0x3bd4218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*)>(&::GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3be6a58;
+  constexpr static std::size_t addrs = 0x3bd4548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarManager::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3be6af4;
+  constexpr static std::size_t addrs = 0x3bd45e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAvatarManager*>::get(),

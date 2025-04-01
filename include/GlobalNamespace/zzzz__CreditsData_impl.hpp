@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CreditsData_Text::*)()>(&::GlobalNamespace::CreditsData_Text::IsEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2263bb4;
+  constexpr static std::size_t addrs = 0x225bd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_Text*>::get(), "IsEmpty",
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::CreditsData_Text::*)()>(&::GlobalNamespace::CreditsData_Text::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2263bd4;
+  constexpr static std::size_t addrs = 0x225bd64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsData_Text::*)()>(&::GlobalNamespace::CreditsData_Text::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2263c98;
+  constexpr static std::size_t addrs = 0x225be28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_Text*>::get(), ".ctor",
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(
     &::GlobalNamespace::CreditsData_RootCreditsItem::HasTitle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2263ca0;
+  constexpr static std::size_t addrs = 0x225be30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_RootCreditsItem*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(
     &::GlobalNamespace::CreditsData_RootCreditsItem::HasText)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2263cb0;
+  constexpr static std::size_t addrs = 0x225be40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_RootCreditsItem*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(
     &::GlobalNamespace::CreditsData_RootCreditsItem::HasRowItems)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2263cc0;
+  constexpr static std::size_t addrs = 0x225be50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_RootCreditsItem*>::get(),
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(&::GlobalNamespace::CreditsData_RootCreditsItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2263ce0;
+  constexpr static std::size_t addrs = 0x225be70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_RootCreditsItem*>::get(), ".ctor",
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CreditsData_ChildCreditsItem::*)()>(
     &::GlobalNamespace::CreditsData_ChildCreditsItem::HasTitle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2263ce8;
+  constexpr static std::size_t addrs = 0x225be78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_ChildCreditsItem*>::get(),
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CreditsData_ChildCreditsItem::*)()>(
     &::GlobalNamespace::CreditsData_ChildCreditsItem::HasText)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2263cf8;
+  constexpr static std::size_t addrs = 0x225be88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_ChildCreditsItem*>::get(),
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsData_ChildCreditsItem::*)()>(
     &::GlobalNamespace::CreditsData_ChildCreditsItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2263d08;
+  constexpr static std::size_t addrs = 0x225be98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData_ChildCreditsItem*>::get(), ".ctor",
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::CreditsData* (*)(::StringW)>(&::GlobalNamespace::CreditsData::Deserialize)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2263aa8;
+  constexpr static std::size_t addrs = 0x225bc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsData::*)()>(&::GlobalNamespace::CreditsData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2263bac;
+  constexpr static std::size_t addrs = 0x225bd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsData*>::get(), ".ctor",

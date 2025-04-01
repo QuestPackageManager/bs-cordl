@@ -112,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <SetData>b__0, addr 0x3c0b5e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__0, addr 0x3bf90e4, size 0x7c, virtual false, abstract: false, final false
   inline void _SetData_b__0(int32_t id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifiersList() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiersList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3c0b344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf8e34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,10 +163,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c0b664, size 0x45c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bf9160, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c0bac0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bf95bc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -240,102 +240,102 @@ public:
 
   using __c__DisplayClass30_0 = ::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x108, size 0x8
+  /// @brief Field _beatmapLevelsModel, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field _buttonBinder, offset 0x128, size 0x8
+  /// @brief Field _buttonBinder, offset 0x138, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _emptySuggestedLevelText, offset 0x98, size 0x8
+  /// @brief Field _emptySuggestedLevelText, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__emptySuggestedLevelText, put = __cordl_internal_set__emptySuggestedLevelText)) ::UnityW<::HMUI::CurvedTextMeshPro> _emptySuggestedLevelText;
 
-  /// @brief Field _emptySuggestedModifiersText, offset 0xa8, size 0x8
+  /// @brief Field _emptySuggestedModifiersText, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__emptySuggestedModifiersText, put = __cordl_internal_set__emptySuggestedModifiersText)) ::UnityW<::HMUI::CurvedTextMeshPro>
       _emptySuggestedModifiersText;
 
-  /// @brief Field _gameplayModifiers, offset 0x100, size 0x8
+  /// @brief Field _gameplayModifiers, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiers;
 
-  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset 0x130, size 0x8
+  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get__getLevelEntitlementCancellationTokenSource,
                       put = __cordl_internal_set__getLevelEntitlementCancellationTokenSource)) ::System::Threading::CancellationTokenSource* _getLevelEntitlementCancellationTokenSource;
 
-  /// @brief Field _hostIcon, offset 0xf8, size 0x8
+  /// @brief Field _hostIcon, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__hostIcon, put = __cordl_internal_set__hostIcon)) ::UnityW<::UnityEngine::Sprite> _hostIcon;
 
-  /// @brief Field _kickPlayerButton, offset 0xb8, size 0x8
+  /// @brief Field _kickPlayerButton, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__kickPlayerButton, put = __cordl_internal_set__kickPlayerButton)) ::UnityW<::UnityEngine::UI::Button> _kickPlayerButton;
 
-  /// @brief Field _localPlayerBackgroundImage, offset 0x78, size 0x8
+  /// @brief Field _localPlayerBackgroundImage, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__localPlayerBackgroundImage, put = __cordl_internal_set__localPlayerBackgroundImage)) ::UnityW<::UnityEngine::UI::Image> _localPlayerBackgroundImage;
 
-  /// @brief Field _mutePlayerButton, offset 0xb0, size 0x8
+  /// @brief Field _mutePlayerButton, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__mutePlayerButton, put = __cordl_internal_set__mutePlayerButton)) ::UnityW<::UnityEngine::UI::Button> _mutePlayerButton;
 
-  /// @brief Field _muteToggle, offset 0xd8, size 0x8
+  /// @brief Field _muteToggle, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__muteToggle, put = __cordl_internal_set__muteToggle)) ::UnityW<::HMUI::ButtonSpriteSwapToggle> _muteToggle;
 
-  /// @brief Field _playerNameText, offset 0x70, size 0x8
+  /// @brief Field _playerNameText, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText)) ::UnityW<::HMUI::CurvedTextMeshPro> _playerNameText;
 
-  /// @brief Field _readyIcon, offset 0xe8, size 0x8
+  /// @brief Field _readyIcon, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__readyIcon, put = __cordl_internal_set__readyIcon)) ::UnityW<::UnityEngine::Sprite> _readyIcon;
 
-  /// @brief Field _spectatingIcon, offset 0xf0, size 0x8
+  /// @brief Field _spectatingIcon, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__spectatingIcon, put = __cordl_internal_set__spectatingIcon)) ::UnityW<::UnityEngine::Sprite> _spectatingIcon;
 
-  /// @brief Field _statusImageView, offset 0xe0, size 0x8
+  /// @brief Field _statusImageView, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__statusImageView, put = __cordl_internal_set__statusImageView)) ::UnityW<::HMUI::ImageView> _statusImageView;
 
-  /// @brief Field _suggestedCharacteristicIcon, offset 0x88, size 0x8
+  /// @brief Field _suggestedCharacteristicIcon, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__suggestedCharacteristicIcon, put = __cordl_internal_set__suggestedCharacteristicIcon)) ::UnityW<::HMUI::ImageView> _suggestedCharacteristicIcon;
 
-  /// @brief Field _suggestedDifficultyText, offset 0x90, size 0x8
+  /// @brief Field _suggestedDifficultyText, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__suggestedDifficultyText, put = __cordl_internal_set__suggestedDifficultyText)) ::UnityW<::TMPro::TextMeshProUGUI> _suggestedDifficultyText;
 
-  /// @brief Field _suggestedLevelText, offset 0x80, size 0x8
+  /// @brief Field _suggestedLevelText, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__suggestedLevelText, put = __cordl_internal_set__suggestedLevelText)) ::UnityW<::HMUI::CurvedTextMeshPro> _suggestedLevelText;
 
-  /// @brief Field _suggestedModifiersList, offset 0xa0, size 0x8
+  /// @brief Field _suggestedModifiersList, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__suggestedModifiersList, put = __cordl_internal_set__suggestedModifiersList)) ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>
       _suggestedModifiersList;
 
-  /// @brief Field _useBeatmapButton, offset 0xc0, size 0x8
+  /// @brief Field _useBeatmapButton, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__useBeatmapButton, put = __cordl_internal_set__useBeatmapButton)) ::UnityW<::UnityEngine::UI::Button> _useBeatmapButton;
 
-  /// @brief Field _useBeatmapButtonHoverHint, offset 0xd0, size 0x8
+  /// @brief Field _useBeatmapButtonHoverHint, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__useBeatmapButtonHoverHint, put = __cordl_internal_set__useBeatmapButtonHoverHint)) ::UnityW<::HMUI::HoverHint> _useBeatmapButtonHoverHint;
 
-  /// @brief Field _useModifiersButton, offset 0xc8, size 0x8
+  /// @brief Field _useModifiersButton, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__useModifiersButton, put = __cordl_internal_set__useModifiersButton)) ::UnityW<::UnityEngine::UI::Button> _useModifiersButton;
 
-  /// @brief Field kickPlayerEvent, offset 0x110, size 0x8
+  /// @brief Field kickPlayerEvent, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get_kickPlayerEvent, put = __cordl_internal_set_kickPlayerEvent)) ::System::Action_1<int32_t>* kickPlayerEvent;
 
-  /// @brief Field useBeatmapEvent, offset 0x118, size 0x8
+  /// @brief Field useBeatmapEvent, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get_useBeatmapEvent, put = __cordl_internal_set_useBeatmapEvent)) ::System::Action_1<int32_t>* useBeatmapEvent;
 
-  /// @brief Field useModifiersEvent, offset 0x120, size 0x8
+  /// @brief Field useModifiersEvent, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get_useModifiersEvent, put = __cordl_internal_set_useModifiersEvent)) ::System::Action_1<int32_t>* useModifiersEvent;
 
-  /// @brief Method Awake, addr 0x3c0b3e8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bf8ed8, size 0x14c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleKickPlayerButtonPressed, addr 0x3c0b528, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayerButtonPressed, addr 0x3bf9024, size 0x20, virtual false, abstract: false, final false
   inline void HandleKickPlayerButtonPressed();
 
-  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x3c0b548, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x3bf9044, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseBeatmapButtonPressed();
 
-  /// @brief Method HandleUseModifiersButtonPressed, addr 0x3c0b568, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseModifiersButtonPressed, addr 0x3bf9064, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseModifiersButtonPressed();
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell* New_ctor();
 
-  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x3c0b34c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x3bf8e3c, size 0x9c, virtual false, abstract: false, final false
   inline void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
-  /// @brief Method SetData, addr 0x3c0a85c, size 0xae8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3bf834c, size 0xae8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection,
                       ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
@@ -489,25 +489,25 @@ public:
 
   constexpr void __cordl_internal_set_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c0b588, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf9084, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x3c0a424, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x3bf7f14, size 0xb4, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useBeatmapEvent, addr 0x3c0a58c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useBeatmapEvent, addr 0x3bf807c, size 0xb4, virtual false, abstract: false, final false
   inline void add_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useModifiersEvent, addr 0x3c0a6f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useModifiersEvent, addr 0x3bf81e4, size 0xb4, virtual false, abstract: false, final false
   inline void add_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x3c0a4d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x3bf7fc8, size 0xb4, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useBeatmapEvent, addr 0x3c0a640, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useBeatmapEvent, addr 0x3bf8130, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useModifiersEvent, addr 0x3c0a7a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useModifiersEvent, addr 0x3bf8298, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useModifiersEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -527,135 +527,135 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4755 };
 
-  /// @brief Field _playerNameText, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _playerNameText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____playerNameText;
 
-  /// @brief Field _localPlayerBackgroundImage, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _localPlayerBackgroundImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____localPlayerBackgroundImage;
 
-  /// @brief Field _suggestedLevelText, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _suggestedLevelText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____suggestedLevelText;
 
-  /// @brief Field _suggestedCharacteristicIcon, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _suggestedCharacteristicIcon, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____suggestedCharacteristicIcon;
 
-  /// @brief Field _suggestedDifficultyText, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _suggestedDifficultyText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____suggestedDifficultyText;
 
-  /// @brief Field _emptySuggestedLevelText, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _emptySuggestedLevelText, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____emptySuggestedLevelText;
 
-  /// @brief Field _suggestedModifiersList, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _suggestedModifiersList, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____suggestedModifiersList;
 
-  /// @brief Field _emptySuggestedModifiersText, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _emptySuggestedModifiersText, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____emptySuggestedModifiersText;
 
-  /// @brief Field _mutePlayerButton, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _mutePlayerButton, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____mutePlayerButton;
 
-  /// @brief Field _kickPlayerButton, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _kickPlayerButton, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____kickPlayerButton;
 
-  /// @brief Field _useBeatmapButton, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _useBeatmapButton, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____useBeatmapButton;
 
-  /// @brief Field _useModifiersButton, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _useModifiersButton, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____useModifiersButton;
 
-  /// @brief Field _useBeatmapButtonHoverHint, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _useBeatmapButtonHoverHint, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____useBeatmapButtonHoverHint;
 
-  /// @brief Field _muteToggle, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _muteToggle, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::HMUI::ButtonSpriteSwapToggle> ____muteToggle;
 
-  /// @brief Field _statusImageView, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _statusImageView, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____statusImageView;
 
-  /// @brief Field _readyIcon, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _readyIcon, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____readyIcon;
 
-  /// @brief Field _spectatingIcon, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _spectatingIcon, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____spectatingIcon;
 
-  /// @brief Field _hostIcon, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _hostIcon, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____hostIcon;
 
-  /// @brief Field _gameplayModifiers, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiers, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiers;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsModel, offset: 0x118, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
-  /// @brief Field kickPlayerEvent, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field kickPlayerEvent, offset: 0x120, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___kickPlayerEvent;
 
-  /// @brief Field useBeatmapEvent, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field useBeatmapEvent, offset: 0x128, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___useBeatmapEvent;
 
-  /// @brief Field useModifiersEvent, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field useModifiersEvent, offset: 0x130, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___useModifiersEvent;
 
-  /// @brief Field _buttonBinder, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x138, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset: 0x140, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____getLevelEntitlementCancellationTokenSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____playerNameText) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____playerNameText) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____localPlayerBackgroundImage) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____localPlayerBackgroundImage) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedLevelText) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedLevelText) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedCharacteristicIcon) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedCharacteristicIcon) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedDifficultyText) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedDifficultyText) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____emptySuggestedLevelText) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____emptySuggestedLevelText) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedModifiersList) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____suggestedModifiersList) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____emptySuggestedModifiersText) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____emptySuggestedModifiersText) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____mutePlayerButton) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____mutePlayerButton) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____kickPlayerButton) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____kickPlayerButton) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____useBeatmapButton) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____useBeatmapButton) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____useModifiersButton) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____useModifiersButton) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____useBeatmapButtonHoverHint) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____useBeatmapButtonHoverHint) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____muteToggle) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____muteToggle) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____statusImageView) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____statusImageView) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____readyIcon) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____readyIcon) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____spectatingIcon) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____spectatingIcon) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____hostIcon) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____hostIcon) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____gameplayModifiers) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____gameplayModifiers) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____beatmapLevelsModel) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____beatmapLevelsModel) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___kickPlayerEvent) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___kickPlayerEvent) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useBeatmapEvent) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useBeatmapEvent) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useModifiersEvent) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useModifiersEvent) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____buttonBinder) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____buttonBinder) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____getLevelEntitlementCancellationTokenSource) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____getLevelEntitlementCancellationTokenSource) == 0x140, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerPlayerTableCell, 0x138>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerPlayerTableCell, 0x148>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerPlayerTableCell);

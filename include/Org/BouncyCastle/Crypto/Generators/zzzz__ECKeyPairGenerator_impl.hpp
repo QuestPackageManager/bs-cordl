@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2388558;
+  constexpr static std::size_t addrs = 0x23806e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x23885a0;
+  constexpr static std::size_t addrs = 0x2380730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x238865c;
+  constexpr static std::size_t addrs = 0x23807ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x2388994;
+  constexpr static std::size_t addrs = 0x2380b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (
     ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::CreateBasePointMultiplier)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2388c60;
+  constexpr static std::size_t addrs = 0x2380df0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::FindECCurveByOid)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2388920;
+  constexpr static std::size_t addrs = 0x2380ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (*)(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)>(
         &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GetCorrespondingPublicKey)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2388cb4;
+  constexpr static std::size_t addrs = 0x2380e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -67,13 +67,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::SpriteAsset___c* New_ctor();
 
-  /// @brief Method <SortCharacterTable>b__38_0, addr 0x493db48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortCharacterTable>b__38_0, addr 0x492b728, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortCharacterTable_b__38_0(::UnityEngine::TextCore::Text::SpriteCharacter* c);
 
-  /// @brief Method <SortGlyphTable>b__37_0, addr 0x493db30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphTable>b__37_0, addr 0x492b710, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphTable_b__37_0(::UnityEngine::TextCore::Text::SpriteGlyph* item);
 
-  /// @brief Method .ctor, addr 0x493db28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492b708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::SpriteAsset___c* getStaticF___9();
@@ -103,7 +103,7 @@ public:
   SpriteAsset___c(SpriteAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -171,56 +171,56 @@ public:
 
   __declspec(property(get = get_spriteSheet, put = set_spriteSheet)) ::UnityW<::UnityEngine::Texture> spriteSheet;
 
-  /// @brief Method Awake, addr 0x493cc7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x492a85c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetSpriteIndexFromHashcode, addr 0x493cc88, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteIndexFromHashcode, addr 0x492a868, size 0x88, virtual false, abstract: false, final false
   inline int32_t GetSpriteIndexFromHashcode(int32_t hashCode);
 
-  /// @brief Method GetSpriteIndexFromName, addr 0x493cda4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteIndexFromName, addr 0x492a984, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetSpriteIndexFromName(::StringW name);
 
-  /// @brief Method GetSpriteIndexFromUnicode, addr 0x493cd10, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteIndexFromUnicode, addr 0x492a8f0, size 0x94, virtual false, abstract: false, final false
   inline int32_t GetSpriteIndexFromUnicode(uint32_t unicode);
 
   static inline ::UnityEngine::TextCore::Text::SpriteAsset* New_ctor();
 
-  /// @brief Method SearchForSpriteByHashCode, addr 0x493d1f8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method SearchForSpriteByHashCode, addr 0x492add8, size 0x338, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByHashCode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks,
                                                                                                ::ByRef<int32_t> spriteIndex, ::UnityEngine::TextCore::Text::TextSettings* textSettings);
 
-  /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x493d6d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x492b2b8, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByHashCodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks,
                                                                                                        ::ByRef<int32_t> spriteIndex);
 
-  /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x493d530, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x492b110, size 0x1a8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
   SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* spriteAssets, int32_t hashCode, bool searchFallbacks,
                                     ::ByRef<int32_t> spriteIndex);
 
-  /// @brief Method SearchForSpriteByUnicode, addr 0x493cde4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SearchForSpriteByUnicode, addr 0x492a9c4, size 0x1c4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByUnicode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
                                                                                               ::ByRef<int32_t> spriteIndex);
 
-  /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x493d148, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x492ad28, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByUnicodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
                                                                                                       ::ByRef<int32_t> spriteIndex);
 
-  /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x493cfa8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x492ab88, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
   SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* spriteAssets, uint32_t unicode, bool includeFallbacks,
                                    ::ByRef<int32_t> spriteIndex);
 
-  /// @brief Method SortCharacterTable, addr 0x493d8b8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SortCharacterTable, addr 0x492b498, size 0x134, virtual false, abstract: false, final false
   inline void SortCharacterTable();
 
-  /// @brief Method SortGlyphAndCharacterTables, addr 0x493d9ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphAndCharacterTables, addr 0x492b5cc, size 0x18, virtual false, abstract: false, final false
   inline void SortGlyphAndCharacterTables();
 
-  /// @brief Method SortGlyphTable, addr 0x493d788, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphTable, addr 0x492b368, size 0x130, virtual false, abstract: false, final false
   inline void SortGlyphTable();
 
-  /// @brief Method UpdateLookupTables, addr 0x493c7a8, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method UpdateLookupTables, addr 0x492a388, size 0x4b4, virtual false, abstract: false, final false
   inline void UpdateLookupTables();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* const& __cordl_internal_get_fallbackSpriteAssets() const;
@@ -283,41 +283,41 @@ public:
 
   constexpr void __cordl_internal_set_m_SpriteGlyphTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteGlyph*>* value);
 
-  /// @brief Method .ctor, addr 0x493da04, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492b5e4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_searchedSpriteAssets();
 
-  /// @brief Method get_faceInfo, addr 0x493c740, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_faceInfo, addr 0x492a320, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::FaceInfo get_faceInfo();
 
-  /// @brief Method get_spriteCharacterLookupTable, addr 0x4939d80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_spriteCharacterLookupTable, addr 0x4927960, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::SpriteCharacter*>* get_spriteCharacterLookupTable();
 
-  /// @brief Method get_spriteCharacterTable, addr 0x493c784, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_spriteCharacterTable, addr 0x492a364, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteCharacter*>* get_spriteCharacterTable();
 
-  /// @brief Method get_spriteGlyphTable, addr 0x493cc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spriteGlyphTable, addr 0x492a84c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteGlyph*>* get_spriteGlyphTable();
 
-  /// @brief Method get_spriteSheet, addr 0x493c774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spriteSheet, addr 0x492a354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_spriteSheet();
 
   static inline void setStaticF_k_searchedSpriteAssets(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  /// @brief Method set_faceInfo, addr 0x493c75c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_faceInfo, addr 0x492a33c, size 0x18, virtual false, abstract: false, final false
   inline void set_faceInfo(::UnityEngine::TextCore::FaceInfo value);
 
-  /// @brief Method set_spriteCharacterLookupTable, addr 0x493cc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spriteCharacterLookupTable, addr 0x492a844, size 0x8, virtual false, abstract: false, final false
   inline void set_spriteCharacterLookupTable(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::SpriteCharacter*>* value);
 
-  /// @brief Method set_spriteCharacterTable, addr 0x493cc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spriteCharacterTable, addr 0x492a83c, size 0x8, virtual false, abstract: false, final false
   inline void set_spriteCharacterTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteCharacter*>* value);
 
-  /// @brief Method set_spriteGlyphTable, addr 0x493cc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spriteGlyphTable, addr 0x492a854, size 0x8, virtual false, abstract: false, final false
   inline void set_spriteGlyphTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteGlyph*>* value);
 
-  /// @brief Method set_spriteSheet, addr 0x493c77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spriteSheet, addr 0x492a35c, size 0x8, virtual false, abstract: false, final false
   inline void set_spriteSheet(::UnityEngine::Texture* value);
 
 protected:
@@ -335,7 +335,7 @@ public:
   SpriteAsset(SpriteAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15253 };
 
   /// @brief Field m_NameLookup, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* ___m_NameLookup;

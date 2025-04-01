@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3f5e764, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f4c31c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Value, addr 0x3f5e75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3f4c314, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Value();
 
 protected:

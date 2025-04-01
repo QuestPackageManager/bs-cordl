@@ -44,13 +44,13 @@ public:
 
   static inline ::System::Net::HeaderInfoTable* New_ctor();
 
-  /// @brief Method ParseMultiValue, addr 0x44b62dc, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiValue, addr 0x44a3e9c, size 0x204, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseMultiValue(::StringW value);
 
-  /// @brief Method ParseSingleValue, addr 0x44b6278, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ParseSingleValue, addr 0x44a3e38, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseSingleValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44b2b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a06ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_HeaderHashTable();
@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Net::HeaderInfo* getStaticF_UnknownHeaderInfo();
 
-  /// @brief Method get_Item, addr 0x44b0680, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x449e240, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Net::HeaderInfo* get_Item(::StringW name);
 
   static inline void setStaticF_HeaderHashTable(::System::Collections::Hashtable* value);

@@ -25,8 +25,8 @@
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadUpdate_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -38,359 +38,345 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::*)(
-    ::StringW, ::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26ea0b4;
+    uint64_t, ::StringW, ::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::_ctor)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x26e26fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get(), ".ctor",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::_ctor(::StringW levelId, ::StringW assetBundlePath, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelId, assetBundlePath, cancellationToken);
-}
-// Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "downloadAssetBundleFileTCS", ty: "::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData(
-    ::StringW levelId, ::StringW assetBundlePath, ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS) noexcept {
-  this->levelId = levelId;
-  this->assetBundlePath = assetBundlePath;
-  this->downloadAssetBundleFileTCS = downloadAssetBundleFileTCS;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::*)()>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea6ec;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0._TryDeleteAssetBundleFileForBeatmapLevelAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData.GetLevelDataAssetDownloadUpdate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>*)>(
-        &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::_TryDeleteAssetBundleFileForBeatmapLevelAsync_b__0)> {
-  constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x26ea6f4;
+    static_cast<::GlobalNamespace::LevelDataAssetDownloadUpdate (::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::*)()>(
+        &::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::GetLevelDataAssetDownloadUpdate)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x26e1e84;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0*>::get(), "<TryDeleteAssetBundleFileForBeatmapLevelAsync>b__0",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get(),
+                                                 "GetLevelDataAssetDownloadUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get_levelId() {
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData.get_debugInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::*)()>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::get_debugInfo)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x26e1eb0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get(),
+                                                 "get_debugInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr uint64_t& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_assetId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___assetId;
+}
+constexpr uint64_t const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_assetId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___assetId;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_assetId(uint64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___assetId = value;
+}
+constexpr ::StringW& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_levelId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelId;
 }
-constexpr ::StringW const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get_levelId() const {
+constexpr ::StringW const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_levelId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelId;
 }
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_set_levelId(::StringW value) {
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_levelId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get___4__this() {
+constexpr ::StringW& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_assetBundlePath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___assetBundlePath;
 }
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel* const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get___4__this() const {
+constexpr ::StringW const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_assetBundlePath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___assetBundlePath;
 }
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value) {
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_assetBundlePath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assetBundlePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::CancellationToken& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get_cancellationToken() {
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*&
+GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_downloadAssetBundleFileTCS() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cancellationToken;
+  return this->___downloadAssetBundleFileTCS;
 }
-constexpr ::System::Threading::CancellationToken const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get_cancellationToken() const {
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* const&
+GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_downloadAssetBundleFileTCS() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cancellationToken;
+  return this->___downloadAssetBundleFileTCS;
 }
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_downloadAssetBundleFileTCS(
+    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___cancellationToken = value;
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___downloadAssetBundleFileTCS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get_taskSource() {
+constexpr bool& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_isStartedDownloading() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___taskSource;
+  return this->___isStartedDownloading;
 }
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>* const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_get_taskSource() const {
+constexpr bool const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_isStartedDownloading() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___taskSource;
+  return this->___isStartedDownloading;
 }
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::__cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_isStartedDownloading(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___taskSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->___isStartedDownloading = value;
 }
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+constexpr uint32_t& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_bytesTransferred() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bytesTransferred;
 }
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::_TryDeleteAssetBundleFileForBeatmapLevelAsync_b__0(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* msg) {
+constexpr uint32_t const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_bytesTransferred() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bytesTransferred;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_bytesTransferred(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bytesTransferred = value;
+}
+constexpr uint32_t& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_bytesTotal() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bytesTotal;
+}
+constexpr uint32_t const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_bytesTotal() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bytesTotal;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_bytesTotal(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bytesTotal = value;
+}
+constexpr float_t& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_lastRequestedTimeSeconds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastRequestedTimeSeconds;
+}
+constexpr float_t const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_lastRequestedTimeSeconds() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastRequestedTimeSeconds;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_lastRequestedTimeSeconds(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___lastRequestedTimeSeconds = value;
+}
+constexpr float_t& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_lastUpdatedTimeSeconds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastUpdatedTimeSeconds;
+}
+constexpr float_t const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_lastUpdatedTimeSeconds() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastUpdatedTimeSeconds;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_lastUpdatedTimeSeconds(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___lastUpdatedTimeSeconds = value;
+}
+constexpr float_t& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_lastNotifiedTimeSeconds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastNotifiedTimeSeconds;
+}
+constexpr float_t const& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_lastNotifiedTimeSeconds() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastNotifiedTimeSeconds;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_lastNotifiedTimeSeconds(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___lastNotifiedTimeSeconds = value;
+}
+constexpr ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState& GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_downloadingState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___downloadingState;
+}
+constexpr ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState const&
+GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_get_downloadingState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___downloadingState;
+}
+constexpr void
+GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::__cordl_internal_set_downloadingState(::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___downloadingState = value;
+}
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::_ctor(uint64_t assetId, ::StringW levelId, ::StringW assetBundlePath,
+                                                                                               ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0*>::get(), "<TryDeleteAssetBundleFileForBeatmapLevelAsync>b__0",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, assetId, levelId, assetBundlePath, cancellationToken);
 }
-inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0* GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0*>());
+inline ::GlobalNamespace::LevelDataAssetDownloadUpdate GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::GetLevelDataAssetDownloadUpdate() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get(),
+                                               "GetLevelDataAssetDownloadUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LevelDataAssetDownloadUpdate, false>(this, ___internal_method);
+}
+inline ::StringW GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::get_debugInfo() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get(),
+                                               "get_debugInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*
+GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::New_ctor(uint64_t assetId, ::StringW levelId, ::StringW assetBundlePath,
+                                                                                      ::System::Threading::CancellationToken cancellationToken) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>(assetId, levelId, assetBundlePath, cancellationToken));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0._ctor
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::*)()>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::*)()>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eab30;
+  constexpr static std::size_t addrs = 0x26e1ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0._ReloadAssetDetailsForAllLevelsAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0._StartMostRecentlyRequestedDownload_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*)>(
-        &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::_ReloadAssetDetailsForAllLevelsAsync_b__0)> {
-  constexpr static std::size_t size = 0x5f8;
-  constexpr static std::size_t addrs = 0x26eab38;
+    static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>*)>(
+        &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::_StartMostRecentlyRequestedDownload_b__0)> {
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x26e2ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0*>::get(), "<ReloadAssetDetailsForAllLevelsAsync>b__0",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Threading::CancellationToken& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_get_cancellationToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cancellationToken;
-}
-constexpr ::System::Threading::CancellationToken const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_get_cancellationToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cancellationToken;
-}
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___cancellationToken = value;
-}
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel* const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_get_taskSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___taskSource;
-}
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>* const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_get_taskSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___taskSource;
-}
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::__cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___taskSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::_ReloadAssetDetailsForAllLevelsAsync_b__0(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0*>::get(), "<ReloadAssetDetailsForAllLevelsAsync>b__0",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, getListMsg);
-}
-inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0* GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0*>());
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::*)()>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea0ac;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0._GetDownloadAssetBundleFileAsync_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>*)>(
-        &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::_GetDownloadAssetBundleFileAsync_b__0)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x26eb130;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0*>::get(), "<GetDownloadAssetBundleFileAsync>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0*>::get(), "<StartMostRecentlyRequestedDownload>b__0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_get_levelId() {
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*&
+GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::__cordl_internal_get_candidateDownloadingData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___levelId;
+  return this->___candidateDownloadingData;
 }
-constexpr ::StringW const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_get_levelId() const {
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* const&
+GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::__cordl_internal_get_candidateDownloadingData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___levelId;
+  return this->___candidateDownloadingData;
 }
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_set_levelId(::StringW value) {
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::__cordl_internal_set_candidateDownloadingData(
+    ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___candidateDownloadingData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel* const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel* const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value) {
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Oculus::Platform::Models::AssetDetails*& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_get_assetDetails() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___assetDetails;
-}
-constexpr ::Oculus::Platform::Models::AssetDetails* const& GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_get_assetDetails() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___assetDetails;
-}
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::__cordl_internal_set_assetDetails(::Oculus::Platform::Models::AssetDetails* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assetDetails)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::_ctor() {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::_GetDownloadAssetBundleFileAsync_b__0(
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::_StartMostRecentlyRequestedDownload_b__0(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0*>::get(), "<GetDownloadAssetBundleFileAsync>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0*>::get(), "<StartMostRecentlyRequestedDownload>b__0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
 }
-inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0* GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0*>());
+inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0* GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0::OculusBeatmapDataAssetFileModel___c__DisplayClass16_0() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13.MoveNext
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::*)()>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::*)()>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x830;
-  constexpr static std::size_t addrs = 0x26eb348;
+  constexpr static std::size_t addrs = 0x26e3120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26ebb78;
+  constexpr static std::size_t addrs = 0x26e3950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::MoveNext() {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -400,7 +386,7 @@ GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLe
 // "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_levelId_5__2", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "_assetFile_5__3", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13(
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::System::Threading::CancellationToken cancellationToken,
     ::StringW _levelId_5__2, ::StringW _assetFile_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
@@ -417,246 +403,244 @@ constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFile
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__13() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18.MoveNext
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::*)()>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::MoveNext)> {
-  constexpr static std::size_t size = 0x958;
-  constexpr static std::size_t addrs = 0x26ebbf4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::*)()>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::MoveNext)> {
+  constexpr static std::size_t size = 0xaec;
+  constexpr static std::size_t addrs = 0x26e39cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26ec54c;
+  constexpr static std::size_t addrs = 0x26e44b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::MoveNext() {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "msg", ty:
 // "::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::GlobalNamespace::OculusBeatmapDataAssetFileModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_assetId_5__2", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_downloadingData_5__3", ty: "::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_assetDownloadingState_5__4", ty: "::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState", modifiers: "", def_value: Some("{}") }, CppParam { name: "_retryCount_5__5", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_delay_5__6", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::OculusBeatmapDataAssetFileModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_downloadingData_5__2", ty:
+// "::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_retryCount_5__3", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "_delay_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
 // def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18(
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg,
-    ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, uint64_t _assetId_5__2, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData _downloadingData_5__3,
-    ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState _assetDownloadingState_5__4, int32_t _retryCount_5__5, int32_t _delay_5__6,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept {
+    ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* _downloadingData_5__2, int32_t _retryCount_5__3,
+    int32_t _delay_5__4, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->msg = msg;
   this->__4__this = __4__this;
-  this->_assetId_5__2 = _assetId_5__2;
-  this->_downloadingData_5__3 = _downloadingData_5__3;
-  this->_assetDownloadingState_5__4 = _assetDownloadingState_5__4;
-  this->_retryCount_5__5 = _retryCount_5__5;
-  this->_delay_5__6 = _delay_5__6;
+  this->_downloadingData_5__2 = _downloadingData_5__2;
+  this->_retryCount_5__3 = _retryCount_5__3;
+  this->_delay_5__4 = _delay_5__4;
   this->__u__1 = __u__1;
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__18() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15.MoveNext
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::*)()>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::MoveNext)> {
-  constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x26ec5b4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::*)()>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::MoveNext)> {
+  constexpr static std::size_t size = 0xa54;
+  constexpr static std::size_t addrs = 0x26e4520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26ecbf0;
+  constexpr static std::size_t addrs = 0x26e4f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::MoveNext() {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusBeatmapDataAssetFileModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1",
-// ty: "::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::System::Threading::CancellationToken cancellationToken,
-    ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass15_0* __8__1,
-    ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->cancellationToken = cancellationToken;
-  this->__4__this = __4__this;
-  this->__8__1 = __8__1;
-  this->__u__1 = __u__1;
-  this->__u__2 = __u__2;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__15() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::*)()>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::MoveNext)> {
-  constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x26ecc6c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14>::get(), "MoveNext",
-        std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26ed274;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14>::get(), "SetStateMachine",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14>::get(),
-                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void
-GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14>::get(),
-                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::GlobalNamespace::OculusBeatmapDataAssetFileModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapLevelDataVersion", ty:
-// "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty: "::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_deleted_5__2", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14(
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this,
-    ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
-    ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass14_0* __8__1, bool _deleted_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->cancellationToken = cancellationToken;
-  this->beatmapLevel = beatmapLevel;
-  this->beatmapLevelDataVersion = beatmapLevelDataVersion;
-  this->__8__1 = __8__1;
-  this->_deleted_5__2 = _deleted_5__2;
   this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14::
-    OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__14() {}
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::*)()>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::MoveNext)> {
+  constexpr static std::size_t size = 0x8c0;
+  constexpr static std::size_t addrs = 0x26e4ff0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20>::get(), "MoveNext",
+        std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::SetStateMachine)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x26e58b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20>::get(), "SetStateMachine",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20>::get(),
+                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void
+GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20>::get(),
+                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "beatmapLevelDataVersion", ty: "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::OculusBeatmapDataAssetFileModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "_levelId_5__2", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_msg_5__3", ty:
+// "::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>*>", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, ::System::Threading::CancellationToken cancellationToken,
+    ::StringW _levelId_5__2, ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* _msg_5__3,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>*> __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->beatmapLevel = beatmapLevel;
+  this->beatmapLevelDataVersion = beatmapLevelDataVersion;
+  this->__4__this = __4__this;
+  this->cancellationToken = cancellationToken;
+  this->_levelId_5__2 = _levelId_5__2;
+  this->_msg_5__3 = _msg_5__3;
+  this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::
+    OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20() {}
 //  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel.add_levelDataAssetDownloadUpdateEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
     ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26e914c;
+  constexpr static std::size_t addrs = 0x26e12dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -672,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
     ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26e91fc;
+  constexpr static std::size_t addrs = 0x26e138c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -688,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::GlobalNamespace::OculusPlatformAdditionalContentModel*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x26e92ac;
+  constexpr static std::size_t addrs = 0x26e143c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -702,12 +686,71 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::Tick)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x26e948c;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x26e161c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(),
                                                                                "Tick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel.GetCurrentTimeSeconds
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)()>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel::GetCurrentTimeSeconds)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x26e165c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(),
+                                                                               "GetCurrentTimeSeconds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel.CancelNotRespondingDownloads
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(float_t)>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel::CancelNotRespondingDownloads)> {
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x26e1664;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "CancelNotRespondingDownloads",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel.NotifyRecentlyRequestedDownloads
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(float_t)>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel::NotifyRecentlyRequestedDownloads)> {
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x26e1768;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "NotifyRecentlyRequestedDownloads",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel.StartMostRecentlyRequestedDownload
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(float_t)>(
+    &::GlobalNamespace::OculusBeatmapDataAssetFileModel::StartMostRecentlyRequestedDownload)> {
+  constexpr static std::size_t size = 0x420;
+  constexpr static std::size_t addrs = 0x26e197c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "StartMostRecentlyRequestedDownload",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -718,7 +761,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::GetAssetBundleFileForBeatmapLevelAsync)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26e97ac;
+  constexpr static std::size_t addrs = 0x26e1f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -736,8 +779,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForBeatmapLevelAsync)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26e98c0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x26e204c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -754,8 +797,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::ReloadAssetDetailsForAllLevelsAsync)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26e99d4;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x26e215c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -770,8 +813,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* (
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::StringW, ::Oculus::Platform::Models::AssetDetails*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::GetDownloadAssetBundleFileAsync)> {
-  constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x26e9ad0;
+  constexpr static std::size_t size = 0x4a8;
+  constexpr static std::size_t addrs = 0x26e2254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -788,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::HandleAssetFileDownloadUpdate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26ea178;
+  constexpr static std::size_t addrs = 0x26e27e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -803,8 +846,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>*)>(
         &::GlobalNamespace::OculusBeatmapDataAssetFileModel::HandleAssetFileDownloadUpdateAsync)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x26ea21c;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x26e288c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -818,15 +861,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
-    uint64_t, bool, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::MarkDownloadCompleted)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x26ea2f4;
+    bool, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::MarkDownloadCompleted)> {
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x26e2960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "MarkDownloadCompleted", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get() })));
     return ___internal_method;
   }
 };
@@ -836,7 +879,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(uint64_t)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::CancelDownload)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26e96c4;
+  constexpr static std::size_t addrs = 0x26e1d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -850,27 +893,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(uint64_t)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::RemoveFromDownloadingDataStructures)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x26ea4d0;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x26e2c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "RemoveFromDownloadingDataStructures",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel._Tick_g__GetAssetTime_12_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(uint64_t)>(
-    &::GlobalNamespace::OculusBeatmapDataAssetFileModel::_Tick_g__GetAssetTime_12_0)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26e9648;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "<Tick>g__GetAssetTime|12_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
     return ___internal_method;
   }
@@ -899,32 +927,35 @@ constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____downloadedAssetBundleFiles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Priority_Queue::SimplePriorityQueue_2<uint64_t, float_t>*& GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__downloadingAssetBundlesQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____downloadingAssetBundlesQueue;
-}
-constexpr ::Priority_Queue::SimplePriorityQueue_2<uint64_t, float_t>* const& GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__downloadingAssetBundlesQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____downloadingAssetBundlesQueue;
-}
-constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_set__downloadingAssetBundlesQueue(::Priority_Queue::SimplePriorityQueue_2<uint64_t, float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____downloadingAssetBundlesQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData>*&
+constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>*&
 GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__assetIdToDownloadingData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetIdToDownloadingData;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData>* const&
+constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>* const&
 GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__assetIdToDownloadingData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetIdToDownloadingData;
 }
 constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_set__assetIdToDownloadingData(
-    ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData>* value) {
+    ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetIdToDownloadingData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>*&
+GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__activeDownloadingDataList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activeDownloadingDataList;
+}
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>* const&
+GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__activeDownloadingDataList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activeDownloadingDataList;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_set__activeDownloadingDataList(
+    ::System::Collections::Generic::List_1<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeDownloadingDataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::SemaphoreSlim*& GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__reloadAssetDetailsSemaphoreSlim() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -966,6 +997,18 @@ constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_interna
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusPlatformAdditionalContentModel)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr float_t& GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__lastUpdatedProgressTimeSeconds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastUpdatedProgressTimeSeconds;
+}
+constexpr float_t const& GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_get__lastUpdatedProgressTimeSeconds() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastUpdatedProgressTimeSeconds;
+}
+constexpr void GlobalNamespace::OculusBeatmapDataAssetFileModel::__cordl_internal_set__lastUpdatedProgressTimeSeconds(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastUpdatedProgressTimeSeconds = value;
+}
 inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "add_levelDataAssetDownloadUpdateEvent",
@@ -990,6 +1033,29 @@ inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::Tick() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "Tick",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline float_t GlobalNamespace::OculusBeatmapDataAssetFileModel::GetCurrentTimeSeconds() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(),
+                                                                             "GetCurrentTimeSeconds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::CancelNotRespondingDownloads(float_t currentTimeSeconds) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "CancelNotRespondingDownloads",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentTimeSeconds);
+}
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::NotifyRecentlyRequestedDownloads(float_t currentTimeSeconds) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "NotifyRecentlyRequestedDownloads",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentTimeSeconds);
+}
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::StartMostRecentlyRequestedDownload(float_t currentTimeSeconds) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "StartMostRecentlyRequestedDownload",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentTimeSeconds);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GlobalNamespace::OculusBeatmapDataAssetFileModel::GetAssetBundleFileForBeatmapLevelAsync(
     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::System::Threading::CancellationToken cancellationToken) {
@@ -1043,13 +1109,12 @@ GlobalNamespace::OculusBeatmapDataAssetFileModel::HandleAssetFileDownloadUpdateA
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, msg);
 }
-inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::MarkDownloadCompleted(uint64_t assetId, bool isError,
-                                                                                    ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData downloadingData) {
+inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::MarkDownloadCompleted(bool isError, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* downloadingData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "MarkDownloadCompleted", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, assetId, isError, downloadingData);
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isError, downloadingData);
 }
 inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::CancelDownload(uint64_t assetId) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1062,12 +1127,6 @@ inline bool GlobalNamespace::OculusBeatmapDataAssetFileModel::RemoveFromDownload
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "RemoveFromDownloadingDataStructures",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, assetId);
-}
-inline float_t GlobalNamespace::OculusBeatmapDataAssetFileModel::_Tick_g__GetAssetTime_12_0(uint64_t id) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(), "<Tick>g__GetAssetTime|12_0",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, id);
 }
 inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel*
 GlobalNamespace::OculusBeatmapDataAssetFileModel::New_ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel) {

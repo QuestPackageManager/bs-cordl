@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (
     ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(&::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479fccc;
+  constexpr static std::size_t addrs = 0x478d8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::set_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479fcd4;
+  constexpr static std::size_t addrs = 0x478d8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x479b664;
+  constexpr static std::size_t addrs = 0x4789244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x479fcdc;
+  constexpr static std::size_t addrs = 0x478d8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x479fce0;
+  constexpr static std::size_t addrs = 0x478d8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(
     ::StringW, ::System::Exception*)>(&::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x479fce4;
+  constexpr static std::size_t addrs = 0x478d8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x479fce8;
+  constexpr static std::size_t addrs = 0x478d8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Message)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x479fcec;
+  constexpr static std::size_t addrs = 0x478d8cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x479fe5c;
+  constexpr static std::size_t addrs = 0x478da3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

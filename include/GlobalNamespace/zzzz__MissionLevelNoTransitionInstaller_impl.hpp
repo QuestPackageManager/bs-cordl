@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MissionLevelNoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3b46e64;
+  constexpr static std::size_t addrs = 0x3b33e90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelNoTransitionInstaller::*)()>(
     &::GlobalNamespace::MissionLevelNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4737c;
+  constexpr static std::size_t addrs = 0x3b343a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),

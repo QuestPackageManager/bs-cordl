@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ClickEvent___c::*)()>(&::UnityEngine::UIElements::ClickEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a40774;
+  constexpr static std::size_t addrs = 0x4a2e354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClickEvent___c*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ClickEvent* (::UnityEngine::UIElements::ClickEvent___c::*)()>(
     &::UnityEngine::UIElements::ClickEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a4077c;
+  constexpr static std::size_t addrs = 0x4a2e35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClickEvent___c*>::get(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ClickEvent::*)()>(&::UnityEngine::UIElements::ClickEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a405f4;
+  constexpr static std::size_t addrs = 0x4a2e1d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ClickEvent::*)()>(&::UnityEngine::UIElements::ClickEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a40648;
+  constexpr static std::size_t addrs = 0x4a2e228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClickEvent*>::get(), "LocalInit",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ClickEvent::*)()>(&::UnityEngine::UIElements::ClickEvent::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a40654;
+  constexpr static std::size_t addrs = 0x4a2e234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClickEvent*>::get(), ".ctor",
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ClickEvent* (*)(::UnityEngine::UIElements::PointerUpEvent*, int32_t)>(
     &::UnityEngine::UIElements::ClickEvent::GetPooled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4a406a8;
+  constexpr static std::size_t addrs = 0x4a2e288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

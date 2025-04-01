@@ -52,34 +52,34 @@ public:
 
   constexpr void __cordl_internal_set_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x4859610, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48471f0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_PermissionDenied, addr 0x4859350, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionDenied, addr 0x4846f30, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x48594b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x4847090, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionGranted, addr 0x48591f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionGranted, addr 0x4846dd0, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method onPermissionDenied, addr 0x4859698, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method onPermissionDenied, addr 0x4847278, size 0x1c, virtual false, abstract: false, final false
   inline void onPermissionDenied(::StringW permissionName);
 
-  /// @brief Method onPermissionDeniedAndDontAskAgain, addr 0x48596b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method onPermissionDeniedAndDontAskAgain, addr 0x4847294, size 0x24, virtual false, abstract: false, final false
   inline void onPermissionDeniedAndDontAskAgain(::StringW permissionName);
 
-  /// @brief Method onPermissionGranted, addr 0x485967c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method onPermissionGranted, addr 0x484725c, size 0x1c, virtual false, abstract: false, final false
   inline void onPermissionGranted(::StringW permissionName);
 
-  /// @brief Method remove_PermissionDenied, addr 0x4859400, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionDenied, addr 0x4846fe0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x4859560, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x4847140, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionGranted, addr 0x48592a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionGranted, addr 0x4846e80, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
 protected:

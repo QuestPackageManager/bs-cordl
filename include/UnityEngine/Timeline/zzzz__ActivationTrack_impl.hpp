@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ActivationTrack::*)()>(&::UnityEngine::Timeline::ActivationTrack::CanCompileClips)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4819aa0;
+  constexpr static std::size_t addrs = 0x4807680;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ActivationTrack_PostPlaybackState (::UnityEngine::Timeline::ActivationTrack::*)()>(
     &::UnityEngine::Timeline::ActivationTrack::get_postPlaybackState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4819bac;
+  constexpr static std::size_t addrs = 0x480778c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationTrack*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)(::UnityEngine::Timeline::ActivationTrack_PostPlaybackState)>(
     &::UnityEngine::Timeline::ActivationTrack::set_postPlaybackState)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4819bb4;
+  constexpr static std::size_t addrs = 0x4807794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::ActivationTrack::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, int32_t)>(&::UnityEngine::Timeline::ActivationTrack::CreateTrackMixer)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4819bdc;
+  constexpr static std::size_t addrs = 0x48077bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)()>(&::UnityEngine::Timeline::ActivationTrack::UpdateTrackMode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4819bc8;
+  constexpr static std::size_t addrs = 0x48077a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationTrack*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)(
     ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*)>(&::UnityEngine::Timeline::ActivationTrack::GatherProperties)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4819cb8;
+  constexpr static std::size_t addrs = 0x4807898;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::ActivationTrack::OnCreateClip)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4819f5c;
+  constexpr static std::size_t addrs = 0x4807b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)()>(&::UnityEngine::Timeline::ActivationTrack::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4819fb0;
+  constexpr static std::size_t addrs = 0x4807b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationTrack*>::get(), ".ctor",

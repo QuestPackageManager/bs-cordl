@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MirroredGameNoteController_Pool*, ::GlobalNamespace::MirroredBombNoteController_Pool*, ::GlobalNamespace::MirroredObstacleController_Pool*,
     ::GlobalNamespace::MirroredSliderController_Pool*)>(&::GlobalNamespace::MirroredBeatmapObjectManager::Init)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x3af0b24;
+  constexpr static std::size_t addrs = 0x3ade4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)()>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::Finalize)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3af0f04;
+  constexpr static std::size_t addrs = 0x3ade8a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)()>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::InvalidateGameNotePools)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3af1210;
+  constexpr static std::size_t addrs = 0x3adebb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredBeatmapObjectManager*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasSpawned)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3af12e8;
+  constexpr static std::size_t addrs = 0x3adec8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasDespawned)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3af14fc;
+  constexpr static std::size_t addrs = 0x3adeea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasSpawned)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3af1678;
+  constexpr static std::size_t addrs = 0x3adf01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasDespawned)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3af1870;
+  constexpr static std::size_t addrs = 0x3adf218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::HandleSliderWasSpawned)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3af1930;
+  constexpr static std::size_t addrs = 0x3adf2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::HandleSliderWasDespawned)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3af1b48;
+  constexpr static std::size_t addrs = 0x3adf4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)(bool)>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::HandleDidHideAllBeatmapObjects)> {
   constexpr static std::size_t size = 0x6f8;
-  constexpr static std::size_t addrs = 0x3af1c08;
+  constexpr static std::size_t addrs = 0x3adf5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBeatmapObjectManager::*)()>(
     &::GlobalNamespace::MirroredBeatmapObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3af2358;
+  constexpr static std::size_t addrs = 0x3adfd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredBeatmapObjectManager*>::get(), ".ctor",

@@ -49,7 +49,7 @@ public:
   constexpr AnimationOutputWeightProcessor_WeightInfo(::UnityEngine::Playables::Playable mixer, ::UnityEngine::Playables::Playable parentMixer, int32_t port) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -97,13 +97,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Method Evaluate, addr 0x481a574, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x4808154, size 0x160, virtual true, abstract: false, final true
   inline void Evaluate();
 
-  /// @brief Method FindMixers, addr 0x481a198, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x4807d78, size 0xe8, virtual false, abstract: false, final false
   inline void FindMixers();
 
-  /// @brief Method FindMixers, addr 0x481a280, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x4807e60, size 0x2f4, virtual false, abstract: false, final false
   inline void FindMixers(::UnityEngine::Playables::Playable parent, int32_t port, ::UnityEngine::Playables::Playable node);
 
   static inline ::UnityEngine::Timeline::AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value);
 
-  /// @brief Method .ctor, addr 0x481a0d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4807cb8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
@@ -147,7 +147,7 @@ public:
   AnimationOutputWeightProcessor(AnimationOutputWeightProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15795 };
 
   /// @brief Field m_Output, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Animations::AnimationPlayableOutput ___m_Output;

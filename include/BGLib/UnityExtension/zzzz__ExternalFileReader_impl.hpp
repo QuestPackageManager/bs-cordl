@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)()>(
     &::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x714;
-  constexpr static std::size_t addrs = 0x22bae60;
+  constexpr static std::size_t addrs = 0x22b2ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22bb700;
+  constexpr static std::size_t addrs = 0x22b3890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::StringW)>(
     &::BGLib::UnityExtension::ExternalFileReader::ExistsAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22bad6c;
+  constexpr static std::size_t addrs = 0x22b2efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -83,139 +83,139 @@ public:
   /// @brief Field KEY_CERT_SIGN, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_KEY_CERT_SIGN, put = setStaticF_KEY_CERT_SIGN)) int32_t KEY_CERT_SIGN;
 
-  /// @brief Method CheckCrl, addr 0x2598254, size 0xba8, virtual false, abstract: false, final false
+  /// @brief Method CheckCrl, addr 0x25903e4, size 0xba8, virtual false, abstract: false, final false
   static inline void CheckCrl(::Org::BouncyCastle::Asn1::X509::DistributionPoint* dp, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX, ::Org::BouncyCastle::X509::X509Certificate* cert,
                               ::System::DateTime validDate, ::Org::BouncyCastle::X509::X509Certificate* defaultCRLSignCert, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* defaultCRLSignKey,
                               ::Org::BouncyCastle::Pkix::CertStatus* certStatus, ::Org::BouncyCastle::Pkix::ReasonsMask* reasonMask, ::System::Collections::IList* certPathCerts);
 
-  /// @brief Method CheckCrls, addr 0x25994b0, size 0xa7c, virtual false, abstract: false, final false
+  /// @brief Method CheckCrls, addr 0x2591640, size 0xa7c, virtual false, abstract: false, final false
   static inline void CheckCrls(::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX, ::Org::BouncyCastle::X509::X509Certificate* cert, ::System::DateTime validDate,
                                ::Org::BouncyCastle::X509::X509Certificate* sign, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* workingPublicKey, ::System::Collections::IList* certPathCerts);
 
   static inline ::Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities* New_ctor();
 
-  /// @brief Method PrepareCertB, addr 0x257c6b4, size 0x1e34, virtual false, abstract: false, final false
+  /// @brief Method PrepareCertB, addr 0x2574844, size 0x1e34, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* PrepareCertB(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index,
                                                                         ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> policyNodes,
                                                                         ::Org::BouncyCastle::Pkix::PkixPolicyNode* validPolicyTree, int32_t policyMapping);
 
-  /// @brief Method PrepareNextCertA, addr 0x257c1e8, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertA, addr 0x2574378, size 0x4cc, virtual false, abstract: false, final false
   static inline void PrepareNextCertA(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method PrepareNextCertG, addr 0x257e4e8, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertG, addr 0x2576678, size 0x4e0, virtual false, abstract: false, final false
   static inline void PrepareNextCertG(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator* nameConstraintValidator);
 
-  /// @brief Method PrepareNextCertH1, addr 0x257e9c8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertH1, addr 0x2576b58, size 0x160, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertH1(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t explicitPolicy);
 
-  /// @brief Method PrepareNextCertH2, addr 0x257eb28, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertH2, addr 0x2576cb8, size 0x160, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertH2(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t policyMapping);
 
-  /// @brief Method PrepareNextCertH3, addr 0x257ec88, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertH3, addr 0x2576e18, size 0x160, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertH3(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t inhibitAnyPolicy);
 
-  /// @brief Method PrepareNextCertI1, addr 0x257ede8, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertI1, addr 0x2576f78, size 0x41c, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertI1(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t explicitPolicy);
 
-  /// @brief Method PrepareNextCertI2, addr 0x257f204, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertI2, addr 0x2577394, size 0x420, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertI2(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t policyMapping);
 
-  /// @brief Method PrepareNextCertJ, addr 0x257f624, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertJ, addr 0x25777b4, size 0x26c, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertJ(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t inhibitAnyPolicy);
 
-  /// @brief Method PrepareNextCertK, addr 0x257f890, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertK, addr 0x2577a20, size 0x2c4, virtual false, abstract: false, final false
   static inline void PrepareNextCertK(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method PrepareNextCertL, addr 0x257fb54, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertL, addr 0x2577ce4, size 0x1ac, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertL(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t maxPathLength);
 
-  /// @brief Method PrepareNextCertM, addr 0x257fd00, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertM, addr 0x2577e90, size 0x278, virtual false, abstract: false, final false
   static inline int32_t PrepareNextCertM(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t maxPathLength);
 
-  /// @brief Method PrepareNextCertN, addr 0x257ff78, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertN, addr 0x2578108, size 0x1c0, virtual false, abstract: false, final false
   static inline void PrepareNextCertN(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method PrepareNextCertO, addr 0x2580138, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertO, addr 0x25782c8, size 0x47c, virtual false, abstract: false, final false
   static inline void PrepareNextCertO(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, ::Org::BouncyCastle::Utilities::Collections::ISet* criticalExtensions,
                                       ::System::Collections::IList* pathCheckers);
 
-  /// @brief Method ProcessCertA, addr 0x2579014, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertA, addr 0x25711a4, size 0x668, virtual false, abstract: false, final false
   static inline void ProcessCertA(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX, int32_t index,
                                   ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* workingPublicKey, ::Org::BouncyCastle::Asn1::X509::X509Name* workingIssuerName,
                                   ::Org::BouncyCastle::X509::X509Certificate* sign);
 
-  /// @brief Method ProcessCertBC, addr 0x257967c, size 0xa94, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertBC, addr 0x257180c, size 0xa94, virtual false, abstract: false, final false
   static inline void ProcessCertBC(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator* nameConstraintValidator);
 
-  /// @brief Method ProcessCertD, addr 0x257a110, size 0x1e08, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertD, addr 0x25722a0, size 0x1e08, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* ProcessCertD(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index,
                                                                         ::Org::BouncyCastle::Utilities::Collections::ISet* acceptablePolicies,
                                                                         ::Org::BouncyCastle::Pkix::PkixPolicyNode* validPolicyTree,
                                                                         ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> policyNodes, int32_t inhibitAnyPolicy);
 
-  /// @brief Method ProcessCertE, addr 0x257bf18, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertE, addr 0x25740a8, size 0x25c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* ProcessCertE(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, ::Org::BouncyCastle::Pkix::PkixPolicyNode* validPolicyTree);
 
-  /// @brief Method ProcessCertF, addr 0x257c174, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertF, addr 0x2574304, size 0x74, virtual false, abstract: false, final false
   static inline void ProcessCertF(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, ::Org::BouncyCastle::Pkix::PkixPolicyNode* validPolicyTree, int32_t explicitPolicy);
 
-  /// @brief Method ProcessCrlA1i, addr 0x259a3f4, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlA1i, addr 0x2592584, size 0x494, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* ProcessCrlA1i(::System::DateTime currentDate, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX,
                                                                                  ::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::X509::X509Crl* crl);
 
-  /// @brief Method ProcessCrlA1ii, addr 0x2599f2c, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlA1ii, addr 0x25920bc, size 0x4c8, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Utilities::Collections::ISet*, ::Array<::Org::BouncyCastle::Utilities::Collections::ISet*>*>
   ProcessCrlA1ii(::System::DateTime currentDate, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX, ::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::X509::X509Crl* crl);
 
-  /// @brief Method ProcessCrlB1, addr 0x25964e8, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlB1, addr 0x258e678, size 0x38c, virtual false, abstract: false, final false
   static inline void ProcessCrlB1(::Org::BouncyCastle::Asn1::X509::DistributionPoint* dp, ::System::Object* cert, ::Org::BouncyCastle::X509::X509Crl* crl);
 
-  /// @brief Method ProcessCrlB2, addr 0x25956f4, size 0xdf4, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlB2, addr 0x258d884, size 0xdf4, virtual false, abstract: false, final false
   static inline void ProcessCrlB2(::Org::BouncyCastle::Asn1::X509::DistributionPoint* dp, ::System::Object* cert, ::Org::BouncyCastle::X509::X509Crl* crl);
 
-  /// @brief Method ProcessCrlC, addr 0x2598dfc, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlC, addr 0x2590f8c, size 0x564, virtual false, abstract: false, final false
   static inline void ProcessCrlC(::Org::BouncyCastle::X509::X509Crl* deltaCRL, ::Org::BouncyCastle::X509::X509Crl* completeCRL, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method ProcessCrlD, addr 0x2596874, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlD, addr 0x258ea04, size 0x320, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* ProcessCrlD(::Org::BouncyCastle::X509::X509Crl* crl, ::Org::BouncyCastle::Asn1::X509::DistributionPoint* dp);
 
-  /// @brief Method ProcessCrlF, addr 0x2596b94, size 0xdf0, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlF, addr 0x258ed24, size 0xdf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* ProcessCrlF(::Org::BouncyCastle::X509::X509Crl* crl, ::System::Object* cert,
                                                                                ::Org::BouncyCastle::X509::X509Certificate* defaultCRLSignCert,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* defaultCRLSignKey,
                                                                                ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX, ::System::Collections::IList* certPathCerts);
 
-  /// @brief Method ProcessCrlG, addr 0x2597984, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlG, addr 0x258fb14, size 0x468, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ProcessCrlG(::Org::BouncyCastle::X509::X509Crl* crl, ::Org::BouncyCastle::Utilities::Collections::ISet* keys);
 
-  /// @brief Method ProcessCrlH, addr 0x2597dec, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlH, addr 0x258ff7c, size 0x468, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::X509::X509Crl* ProcessCrlH(::Org::BouncyCastle::Utilities::Collections::ISet* deltaCrls, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method ProcessCrlI, addr 0x2599360, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlI, addr 0x25914f0, size 0xb8, virtual false, abstract: false, final false
   static inline void ProcessCrlI(::System::DateTime validDate, ::Org::BouncyCastle::X509::X509Crl* deltacrl, ::System::Object* cert, ::Org::BouncyCastle::Pkix::CertStatus* certStatus,
                                  ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method ProcessCrlJ, addr 0x2599418, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlJ, addr 0x25915a8, size 0x98, virtual false, abstract: false, final false
   static inline void ProcessCrlJ(::System::DateTime validDate, ::Org::BouncyCastle::X509::X509Crl* completecrl, ::System::Object* cert, ::Org::BouncyCastle::Pkix::CertStatus* certStatus);
 
-  /// @brief Method WrapupCertA, addr 0x2580990, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WrapupCertA, addr 0x2578b20, size 0x78, virtual false, abstract: false, final false
   static inline int32_t WrapupCertA(int32_t explicitPolicy, ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method WrapupCertB, addr 0x2580a08, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method WrapupCertB, addr 0x2578b98, size 0x448, virtual false, abstract: false, final false
   static inline int32_t WrapupCertB(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, int32_t explicitPolicy);
 
-  /// @brief Method WrapupCertF, addr 0x2580e50, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method WrapupCertF, addr 0x2578fe0, size 0x464, virtual false, abstract: false, final false
   static inline void WrapupCertF(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index, ::System::Collections::IList* pathCheckers,
                                  ::Org::BouncyCastle::Utilities::Collections::ISet* criticalExtensions);
 
-  /// @brief Method WrapupCertG, addr 0x25812b4, size 0x158c, virtual false, abstract: false, final false
+  /// @brief Method WrapupCertG, addr 0x2579444, size 0x158c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* WrapupCertG(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX,
                                                                        ::Org::BouncyCastle::Utilities::Collections::ISet* userInitialPolicySet, int32_t index,
                                                                        ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> policyNodes,
                                                                        ::Org::BouncyCastle::Pkix::PkixPolicyNode* validPolicyTree,
                                                                        ::Org::BouncyCastle::Utilities::Collections::ISet* acceptablePolicies);
 
-  /// @brief Method .ctor, addr 0x259aaf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2592c84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ANY_POLICY();

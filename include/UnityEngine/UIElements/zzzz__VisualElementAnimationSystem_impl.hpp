@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualElementAnimationSystem::*)()>(
     &::UnityEngine::UIElements::VisualElementAnimationSystem::get_profilerMarker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49ada6c;
+  constexpr static std::size_t addrs = 0x499b64c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker (*)()>(
     &::UnityEngine::UIElements::VisualElementAnimationSystem::get_stylePropertyAnimationProfilerMarker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49adac4;
+  constexpr static std::size_t addrs = 0x499b6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::UnregisterAnimation)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49adb1c;
+  constexpr static std::size_t addrs = 0x499b6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::UnregisterAnimations)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x49adb80;
+  constexpr static std::size_t addrs = 0x499b760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::RegisterAnimation)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49adcf8;
+  constexpr static std::size_t addrs = 0x499b8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::RegisterAnimations)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x49add5c;
+  constexpr static std::size_t addrs = 0x499b93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)()>(
     &::UnityEngine::UIElements::VisualElementAnimationSystem::Update)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x49aded4;
+  constexpr static std::size_t addrs = 0x499bab4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::OnVersionChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49ae2c4;
+  constexpr static std::size_t addrs = 0x499bea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)()>(
     &::UnityEngine::UIElements::VisualElementAnimationSystem::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x49ae2c8;
+  constexpr static std::size_t addrs = 0x499bea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementAnimationSystem*>::get(),

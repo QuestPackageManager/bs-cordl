@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x4990430;
+  constexpr static std::size_t addrs = 0x497e010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x498ff7c;
+  constexpr static std::size_t addrs = 0x497db5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass161_0::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass161_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499356c;
+  constexpr static std::size_t addrs = 0x498114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass161_0::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass161_0::_GetRootElementForId_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49982e0;
+  constexpr static std::size_t addrs = 0x4985ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::HasCanStartDrag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49920d0;
+  constexpr static std::size_t addrs = 0x497fcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseCanStartDrag)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49920e0;
+  constexpr static std::size_t addrs = 0x497fcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +315,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::ReusableCollectionItem*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, ::UnityEngine::UIElements::StartDragArgs)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseSetupDragAndDrop)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x499217c;
+  constexpr static std::size_t addrs = 0x497fd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::Vector2, ::UnityEngine::UIElements::DragAndDropArgs)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseHandleDragAndDrop)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x499224c;
+  constexpr static std::size_t addrs = 0x497fe2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::Vector2, ::UnityEngine::UIElements::DragAndDropArgs)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseDrop)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x49922c0;
+  constexpr static std::size_t addrs = 0x497fea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_itemsSource)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4992334;
+  constexpr static std::size_t addrs = 0x497ff14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::IList*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_itemsSource)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x499234c;
+  constexpr static std::size_t addrs = 0x497ff2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_contentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49923fc;
+  constexpr static std::size_t addrs = 0x497ffdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::SelectionType (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992404;
+  constexpr static std::size_t addrs = 0x497ffe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::SelectionType)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_selectionType)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x499240c;
+  constexpr static std::size_t addrs = 0x497ffec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedIndex)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4991540;
+  constexpr static std::size_t addrs = 0x497f120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_selectedIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x499252c;
+  constexpr static std::size_t addrs = 0x498010c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992530;
+  constexpr static std::size_t addrs = 0x4980110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992538;
+  constexpr static std::size_t addrs = 0x4980118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* (
     ::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::get_activeItems)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4992540;
+  constexpr static std::size_t addrs = 0x4980120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ScrollView* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_scrollView)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49925b8;
+  constexpr static std::size_t addrs = 0x4980198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ListViewDragger* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_dragger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49925c0;
+  constexpr static std::size_t addrs = 0x49801a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CollectionVirtualizationController* (
     ::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::get_virtualizationController)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49925c8;
+  constexpr static std::size_t addrs = 0x49801a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CollectionViewController* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_viewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992628;
+  constexpr static std::size_t addrs = 0x4980208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(float_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ResolveItemHeight)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4992630;
+  constexpr static std::size_t addrs = 0x4980210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_showBorder)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49926e8;
+  constexpr static std::size_t addrs = 0x49802c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_reorderable)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4992768;
+  constexpr static std::size_t addrs = 0x4980348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_reorderable)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4992858;
+  constexpr static std::size_t addrs = 0x4980438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_horizontalScrollingEnabled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4992b04;
+  constexpr static std::size_t addrs = 0x49806e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::AlternatingRowBackground (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_showAlternatingRowBackgrounds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992b74;
+  constexpr static std::size_t addrs = 0x4980754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::AlternatingRowBackground)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_showAlternatingRowBackgrounds)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4992b7c;
+  constexpr static std::size_t addrs = 0x498075c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CollectionVirtualizationMethod (
     ::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::get_virtualizationMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992b94;
+  constexpr static std::size_t addrs = 0x4980774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::UIElements::CollectionVirtualizationMethod)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::set_virtualizationMethod)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4992b9c;
+  constexpr static std::size_t addrs = 0x498077c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_fixedItemHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992bd8;
+  constexpr static std::size_t addrs = 0x49807b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -713,7 +713,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(float_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_fixedItemHeight)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4992be0;
+  constexpr static std::size_t addrs = 0x49807c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -728,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_lastHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4992cd8;
+  constexpr static std::size_t addrs = 0x49808b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::CreateVirtualizationController)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4992ce0;
+  constexpr static std::size_t addrs = 0x49808c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -758,7 +758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CollectionVirtualizationController* (
     ::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::GetOrCreateVirtualizationController)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49925f8;
+  constexpr static std::size_t addrs = 0x49801d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -773,7 +773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CollectionViewController* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::GetOrCreateViewController)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49923b4;
+  constexpr static std::size_t addrs = 0x497ff94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -803,7 +803,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::UIElements::CollectionViewController*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::SetViewController)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4990998;
+  constexpr static std::size_t addrs = 0x497e578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -819,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ListViewDragger* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::CreateDragger)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4992d28;
+  constexpr static std::size_t addrs = 0x4980908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -835,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::InitializeDragAndDropController)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4992d84;
+  constexpr static std::size_t addrs = 0x4980964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -866,7 +866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::_ctor)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x4992ea0;
+  constexpr static std::size_t addrs = 0x4980a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -880,7 +880,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::IList*, float_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4990db8;
+  constexpr static std::size_t addrs = 0x497e998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -896,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::GetRootElementForId)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4993460;
+  constexpr static std::size_t addrs = 0x4981040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -911,7 +911,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::HasValidDataAndBindings)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4993574;
+  constexpr static std::size_t addrs = 0x4981154;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -927,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnItemIndexChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x499359c;
+  constexpr static std::size_t addrs = 0x498117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -942,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnItemsSourceChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49935c8;
+  constexpr static std::size_t addrs = 0x49811a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -956,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RefreshItems)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4990a40;
+  constexpr static std::size_t addrs = 0x497e620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -970,7 +970,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::Rebuild)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4992994;
+  constexpr static std::size_t addrs = 0x4980574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -984,7 +984,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RefreshSelection)> {
   constexpr static std::size_t size = 0x648;
-  constexpr static std::size_t addrs = 0x49935e4;
+  constexpr static std::size_t addrs = 0x49811c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -998,7 +998,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::PostRefresh)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4993c9c;
+  constexpr static std::size_t addrs = 0x498187c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1014,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ScrollToItem)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x499174c;
+  constexpr static std::size_t addrs = 0x497f32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1029,7 +1029,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ScrollToItemById)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4991630;
+  constexpr static std::size_t addrs = 0x497f210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1044,7 +1044,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnScroll)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4993db0;
+  constexpr static std::size_t addrs = 0x4981990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1059,7 +1059,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::Resize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4993d20;
+  constexpr static std::size_t addrs = 0x4981900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1074,7 +1074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnAttachToPanel)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x4993e28;
+  constexpr static std::size_t addrs = 0x4981a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1089,7 +1089,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnDetachFromPanel)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x499416c;
+  constexpr static std::size_t addrs = 0x4981d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1104,7 +1104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::UIElements::KeyboardNavigationOperation, bool, bool)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::Apply)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x4994424;
+  constexpr static std::size_t addrs = 0x4982004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1120,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::Apply)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x4994fec;
+  constexpr static std::size_t addrs = 0x4982bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1136,7 +1136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool, bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::HandleItemNavigation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4995268;
+  constexpr static std::size_t addrs = 0x4982e48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1152,7 +1152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerMove)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4995270;
+  constexpr static std::size_t addrs = 0x4982e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1167,7 +1167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerDown)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4995cb4;
+  constexpr static std::size_t addrs = 0x4983894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1182,7 +1182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerCancelEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerCancel)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4995d70;
+  constexpr static std::size_t addrs = 0x4983950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1197,7 +1197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerUp)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4995de4;
+  constexpr static std::size_t addrs = 0x49839c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1212,7 +1212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ProcessPointerDown)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x49958d4;
+  constexpr static std::size_t addrs = 0x49834b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1227,7 +1227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ProcessPointerUp)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x49952f8;
+  constexpr static std::size_t addrs = 0x4982ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1242,7 +1242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::Vector2, int32_t, bool, bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::DoSelect)> {
   constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x4995ea0;
+  constexpr static std::size_t addrs = 0x4983a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1258,7 +1258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::DoRangeSelection)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x49965bc;
+  constexpr static std::size_t addrs = 0x498419c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1273,7 +1273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ProcessSingleClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49964e4;
+  constexpr static std::size_t addrs = 0x49840c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1288,7 +1288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::SelectAll)> {
   constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x49948d8;
+  constexpr static std::size_t addrs = 0x49824b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -1302,7 +1302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelection)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4996544;
+  constexpr static std::size_t addrs = 0x4984124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1317,7 +1317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::Generic::IList_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelection)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x4996ab8;
+  constexpr static std::size_t addrs = 0x4984698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1332,7 +1332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelectionWithoutValidation)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x4996e94;
+  constexpr static std::size_t addrs = 0x4984a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1347,7 +1347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RemoveFromSelection)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x49964e8;
+  constexpr static std::size_t addrs = 0x49840c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1362,7 +1362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RemoveFromSelectionWithoutValidation)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x4997364;
+  constexpr static std::size_t addrs = 0x4984f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1377,7 +1377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelection)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49916c4;
+  constexpr static std::size_t addrs = 0x497f2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1392,7 +1392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499776c;
+  constexpr static std::size_t addrs = 0x498534c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1407,7 +1407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4997774;
+  constexpr static std::size_t addrs = 0x4985354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1422,7 +1422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::System::Collections::Generic::IEnumerable_1<int32_t>*, bool)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionInternal)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x49918b4;
+  constexpr static std::size_t addrs = 0x497f494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1438,7 +1438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::MatchesExistingSelection)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x499777c;
+  constexpr static std::size_t addrs = 0x498535c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1453,7 +1453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::NotifyOfSelectionChange)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4996e34;
+  constexpr static std::size_t addrs = 0x4984a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -1467,7 +1467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ClearSelection)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49924b0;
+  constexpr static std::size_t addrs = 0x4980090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(),
@@ -1481,7 +1481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ClearSelectionWithoutValidation)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x499675c;
+  constexpr static std::size_t addrs = 0x498433c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1496,7 +1496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnViewDataReady)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4990eb0;
+  constexpr static std::size_t addrs = 0x497ea90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1512,7 +1512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ExecuteDefaultAction)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x4997994;
+  constexpr static std::size_t addrs = 0x4985574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1528,7 +1528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnSizeChanged)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4997d28;
+  constexpr static std::size_t addrs = 0x4985908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1543,7 +1543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::UIElements::CustomStyleResolvedEvent*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::OnCustomStyleResolved)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4997e28;
+  constexpr static std::size_t addrs = 0x4985a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1558,7 +1558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4997f90;
+  constexpr static std::size_t addrs = 0x4985b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1573,7 +1573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4997f94;
+  constexpr static std::size_t addrs = 0x4985b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1588,7 +1588,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(float_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::__ctor_b__158_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49982d4;
+  constexpr static std::size_t addrs = 0x4985eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1603,7 +1603,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::ByRef<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass170_0>)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::_RefreshSelection_g__NotifyIfChanged_170_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4993c2c;
+  constexpr static std::size_t addrs = 0x498180c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1620,7 +1620,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t, ::ByRef<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass181_0>)>(
         &::UnityEngine::UIElements::BaseVerticalCollectionView::_Apply_g__HandleSelectionAndScroll_181_0)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4994eac;
+  constexpr static std::size_t addrs = 0x4982a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

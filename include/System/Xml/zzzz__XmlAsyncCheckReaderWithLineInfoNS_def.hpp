@@ -41,13 +41,13 @@ public:
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x431bdf8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x43099b8, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x431bea0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x4309a60, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x431bf4c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x4309b0c, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
 
   constexpr ::System::Xml::IXmlNamespaceResolver* const& __cordl_internal_get_readerAsIXmlNamespaceResolver() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlNamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
 
-  /// @brief Method .ctor, addr 0x431acbc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430887c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"

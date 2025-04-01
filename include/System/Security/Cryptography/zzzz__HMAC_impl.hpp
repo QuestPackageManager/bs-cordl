@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::get_BlockSizeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cae53c;
+  constexpr static std::size_t addrs = 0x3c9c038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HMAC*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)(int32_t)>(
     &::System::Security::Cryptography::HMAC::set_BlockSizeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cae544;
+  constexpr static std::size_t addrs = 0x3c9c040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::UpdateIOPadBuffers)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3cae54c;
+  constexpr static std::size_t addrs = 0x3c9c048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HMAC*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::HMAC::InitializeKey)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3cae6b8;
+  constexpr static std::size_t addrs = 0x3c9c1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HMAC::*)()>(
     &::System::Security::Cryptography::HMAC::get_Key)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cae788;
+  constexpr static std::size_t addrs = 0x3c9c284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::HMAC::set_Key)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cae800;
+  constexpr static std::size_t addrs = 0x3c9c2fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::HMAC* (*)()>(&::System::Security::Cryptography::HMAC::Create)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cae868;
+  constexpr static std::size_t addrs = 0x3c9c364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HMAC*>::get(), "Create",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::Initialize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3cae8f8;
+  constexpr static std::size_t addrs = 0x3c9c3f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::HMAC::HashCore)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3cae940;
+  constexpr static std::size_t addrs = 0x3c9c43c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HMAC::*)()>(
     &::System::Security::Cryptography::HMAC::HashFinal)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3cae9c0;
+  constexpr static std::size_t addrs = 0x3c9c4bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)(bool)>(&::System::Security::Cryptography::HMAC::Dispose)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3caeaf0;
+  constexpr static std::size_t addrs = 0x3c9c5ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3caec8c;
+  constexpr static std::size_t addrs = 0x3c9c788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HMAC*>::get(), ".ctor",

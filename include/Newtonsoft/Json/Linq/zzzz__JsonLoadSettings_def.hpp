@@ -66,25 +66,25 @@ public:
 
   constexpr void __cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
-  /// @brief Method .ctor, addr 0x3f2c978, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1a530, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CommentHandling, addr 0x3f2c9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommentHandling, addr 0x3f1a558, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
 
-  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x3f2ca70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x3f1a628, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling get_DuplicatePropertyNameHandling();
 
-  /// @brief Method get_LineInfoHandling, addr 0x3f2ca08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineInfoHandling, addr 0x3f1a5c0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
 
-  /// @brief Method set_CommentHandling, addr 0x3f2c9a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_CommentHandling, addr 0x3f1a560, size 0x60, virtual false, abstract: false, final false
   inline void set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x3f2ca78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x3f1a630, size 0x60, virtual false, abstract: false, final false
   inline void set_DuplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling value);
 
-  /// @brief Method set_LineInfoHandling, addr 0x3f2ca10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_LineInfoHandling, addr 0x3f1a5c8, size 0x60, virtual false, abstract: false, final false
   inline void set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
 protected:

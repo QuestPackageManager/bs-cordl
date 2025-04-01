@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::HeaderHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Remoting::Messaging::HeaderHandler::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3cfa768;
+  constexpr static std::size_t addrs = 0x3ce8264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::HeaderHandler*>::get(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::HeaderHandler::*)(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>)>(
     &::System::Runtime::Remoting::Messaging::HeaderHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3cfa868;
+  constexpr static std::size_t addrs = 0x3ce8364;
 
   inline static ::MethodInfo const* methodInfo() {
 

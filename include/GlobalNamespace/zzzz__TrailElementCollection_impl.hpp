@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TrailElementCollection::*)(int32_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::TrailElementCollection::_ctor)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4094b14;
+  constexpr static std::size_t addrs = 0x40826d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElementCollection::InitSnapshots)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4094ec4;
+  constexpr static std::size_t addrs = 0x4082a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElementCollection::SetHeadData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4095354;
+  constexpr static std::size_t addrs = 0x4082f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)()>(&::GlobalNamespace::TrailElementCollection::MoveTailToHead)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4095408;
+  constexpr static std::size_t addrs = 0x4082fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)()>(&::GlobalNamespace::TrailElementCollection::UpdateDistances)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40954a4;
+  constexpr static std::size_t addrs = 0x4083064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(),
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<float_t>)>(
     &::GlobalNamespace::TrailElementCollection::Interpolate)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x409633c;
+  constexpr static std::size_t addrs = 0x4083efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(
     float_t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>)>(&::GlobalNamespace::TrailElementCollection::UpdateLerpState)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x40968e0;
+  constexpr static std::size_t addrs = 0x40844a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::TrailElement* (::GlobalNamespace::TrailElementCollection::*)(int32_t)>(
     &::GlobalNamespace::TrailElementCollection::GetElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x40969f8;
+  constexpr static std::size_t addrs = 0x40845b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

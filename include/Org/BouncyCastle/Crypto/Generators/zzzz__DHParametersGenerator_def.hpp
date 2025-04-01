@@ -34,10 +34,10 @@ public:
   /// @brief Field size, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  /// @brief Method GenerateParameters, addr 0x2386504, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x237e694, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GenerateParameters();
 
-  /// @brief Method Init, addr 0x23864f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x237e688, size 0xc, virtual true, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2386bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237ed54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

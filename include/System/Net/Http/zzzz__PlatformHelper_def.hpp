@@ -31,13 +31,13 @@ namespace System::Net::Http {
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateStreamContent, addr 0x4221ea4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateStreamContent, addr 0x420fa64, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Net::Http::StreamContent* CreateStreamContent(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetSingleHeaderString, addr 0x4221c50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetSingleHeaderString, addr 0x420f810, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW GetSingleHeaderString(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method IsContentHeader, addr 0x4221f10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsContentHeader, addr 0x420fad0, size 0x60, virtual false, abstract: false, final false
   static inline bool IsContentHeader(::StringW name);
 
 protected:

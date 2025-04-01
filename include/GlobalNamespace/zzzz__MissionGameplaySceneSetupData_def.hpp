@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b494e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3650c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart,
                     ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::StringW backButtonText);

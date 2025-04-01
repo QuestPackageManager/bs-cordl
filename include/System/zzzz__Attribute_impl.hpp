@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::PropertyInfo*, ::System::Type*, bool)>(&::System::Attribute::InternalGetCustomAttributes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3e239a4;
+  constexpr static std::size_t addrs = 0x3e114a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::EventInfo*, ::System::Type*, bool)>(&::System::Attribute::InternalGetCustomAttributes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3e23a50;
+  constexpr static std::size_t addrs = 0x3e1154c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(
     ::System::Reflection::ParameterInfo*, ::System::Type*, bool)>(&::System::Attribute::InternalParamGetCustomAttributes)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x3e23afc;
+  constexpr static std::size_t addrs = 0x3e115f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*, ::System::Type*, bool)>(&::System::Attribute::InternalIsDefined)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e24014;
+  constexpr static std::size_t addrs = 0x3e11b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::EventInfo*, ::System::Type*, bool)>(&::System::Attribute::InternalIsDefined)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e24084;
+  constexpr static std::size_t addrs = 0x3e11b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e240f4;
+  constexpr static std::size_t addrs = 0x3e11bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3e240fc;
+  constexpr static std::size_t addrs = 0x3e11bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::MemberInfo*)>(
     &::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e243f0;
+  constexpr static std::size_t addrs = 0x3e11eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::MemberInfo*, bool)>(
     &::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3e243f8;
+  constexpr static std::size_t addrs = 0x3e11ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&::System::Attribute::IsDefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e24638;
+  constexpr static std::size_t addrs = 0x3e12134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&::System::Attribute::IsDefined)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x3e24640;
+  constexpr static std::size_t addrs = 0x3e1213c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(
     &::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e24914;
+  constexpr static std::size_t addrs = 0x3e12410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(
     &::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3e2491c;
+  constexpr static std::size_t addrs = 0x3e12418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::ParameterInfo*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x3e249a8;
+  constexpr static std::size_t addrs = 0x3e124a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::ParameterInfo*, bool)>(
     &::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3e24c5c;
+  constexpr static std::size_t addrs = 0x3e12758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::Module*, bool)>(
     &::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3e24e20;
+  constexpr static std::size_t addrs = 0x3e1291c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::Module*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x3e24f7c;
+  constexpr static std::size_t addrs = 0x3e12a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::Assembly*, ::System::Type*)>(
     &::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e251cc;
+  constexpr static std::size_t addrs = 0x3e12cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::Assembly*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3e251d4;
+  constexpr static std::size_t addrs = 0x3e12cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::Assembly*)>(
     &::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e25400;
+  constexpr static std::size_t addrs = 0x3e12efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Reflection::Assembly*, bool)>(
     &::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3e25408;
+  constexpr static std::size_t addrs = 0x3e12f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::Assembly*, ::System::Type*)>(
     &::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e25538;
+  constexpr static std::size_t addrs = 0x3e13034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::Assembly*, ::System::Type*, bool)>(
     &::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3e25540;
+  constexpr static std::size_t addrs = 0x3e1303c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Attribute::*)()>(&::System::Attribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e2128c;
+  constexpr static std::size_t addrs = 0x3e0ed88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Attribute*>::get(), ".ctor",
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Attribute::*)(::System::Object*)>(&::System::Attribute::Equals)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3e255cc;
+  constexpr static std::size_t addrs = 0x3e130c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*, ::System::Object*)>(&::System::Attribute::AreFieldValuesEqual)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3e25820;
+  constexpr static std::size_t addrs = 0x3e1331c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Attribute::*)()>(&::System::Attribute::GetHashCode)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3e25a0c;
+  constexpr static std::size_t addrs = 0x3e13508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Attribute::*)()>(&::System::Attribute::get_TypeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e25b40;
+  constexpr static std::size_t addrs = 0x3e1363c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Attribute::*)(::System::Object*)>(&::System::Attribute::Match)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e25b48;
+  constexpr static std::size_t addrs = 0x3e13644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Attribute::*)()>(&::System::Attribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e25b54;
+  constexpr static std::size_t addrs = 0x3e13650;
 
   inline static ::MethodInfo const* methodInfo() {
 

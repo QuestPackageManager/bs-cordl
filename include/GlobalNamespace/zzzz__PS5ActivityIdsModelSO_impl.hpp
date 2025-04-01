@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> (
     ::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(&::GlobalNamespace::PS5ActivityIdsModelSO::get_progressActivities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ef7e4;
+  constexpr static std::size_t addrs = 0x26e7e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(),
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> (::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(
         &::GlobalNamespace::PS5ActivityIdsModelSO::get_competetiveActivities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ef7ec;
+  constexpr static std::size_t addrs = 0x26e7e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(&::GlobalNamespace::PS5ActivityIdsModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ef7f4;
+  constexpr static std::size_t addrs = 0x26e7e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(), ".ctor",

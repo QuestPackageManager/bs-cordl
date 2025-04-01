@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ab744;
+  constexpr static std::size_t addrs = 0x4499304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponse*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::WebResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebResponse::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b517c;
+  constexpr static std::size_t addrs = 0x44a2d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponse::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebResponse::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44b5184;
+  constexpr static std::size_t addrs = 0x44a2d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponse::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebResponse::GetObjectData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44b5190;
+  constexpr static std::size_t addrs = 0x44a2d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::Close)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44b5194;
+  constexpr static std::size_t addrs = 0x44a2d54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44b5198;
+  constexpr static std::size_t addrs = 0x44a2d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponse*>::get(), "Dispose",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponse::*)(bool)>(&::System::Net::WebResponse::Dispose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x44b5204;
+  constexpr static std::size_t addrs = 0x44a2dc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::get_IsFromCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b5290;
+  constexpr static std::size_t addrs = 0x44a2e50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::GetResponseStream)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b5298;
+  constexpr static std::size_t addrs = 0x44a2e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::get_ResponseUri)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b52bc;
+  constexpr static std::size_t addrs = 0x44a2e7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::get_Headers)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b52e0;
+  constexpr static std::size_t addrs = 0x44a2ea0;
 
   inline static ::MethodInfo const* methodInfo() {
 

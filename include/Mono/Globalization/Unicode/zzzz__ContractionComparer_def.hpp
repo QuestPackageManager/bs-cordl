@@ -29,12 +29,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*() noexcept;
 
-  /// @brief Method Compare, addr 0x3c65ccc, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3c537c8, size 0x94, virtual true, abstract: false, final true
   inline int32_t Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c65d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5385c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();

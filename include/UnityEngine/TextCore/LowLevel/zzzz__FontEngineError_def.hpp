@@ -103,7 +103,7 @@ public:
   static ::UnityEngine::TextCore::LowLevel::FontEngineError const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

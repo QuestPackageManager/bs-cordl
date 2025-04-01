@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(
     &::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_visible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22872ec;
+  constexpr static std::size_t addrs = 0x227f47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType (
     ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(&::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_dataTransformation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22872f4;
+  constexpr static std::size_t addrs = 0x227f484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_MarkerType (
     ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(&::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_markerType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22872fc;
+  constexpr static std::size_t addrs = 0x227f48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(
     &::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_needsFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2287304;
+  constexpr static std::size_t addrs = 0x227f494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(
     &::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228730c;
+  constexpr static std::size_t addrs = 0x227f49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>::get(),

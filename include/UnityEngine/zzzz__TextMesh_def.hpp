@@ -26,13 +26,13 @@ public:
 
   __declspec(property(put = set_text)) ::StringW text;
 
-  /// @brief Method get_alignment, addr 0x4960ee4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x494eac4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAlignment get_alignment();
 
-  /// @brief Method set_alignment, addr 0x4960f20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x494eb00, size 0x44, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::TextAlignment value);
 
-  /// @brief Method set_text, addr 0x4960ea0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x494ea80, size 0x44, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -50,7 +50,7 @@ public:
   TextMesh(TextMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

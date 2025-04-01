@@ -48,18 +48,18 @@ public:
                       put = __cordl_internal_set__deactivateOnBoostObjects)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _deactivateOnBoostObjects;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b9a778, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b881fc, size 0x18, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::GameObjectSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9a75c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b881e0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b9a6b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b88134, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x3b9a790, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x3b88214, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__activateOnBoostObjects() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b9a854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b882d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

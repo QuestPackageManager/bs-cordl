@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x408d2e8;
+  constexpr static std::size_t addrs = 0x407aea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x408d6dc;
+  constexpr static std::size_t addrs = 0x407b294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x408d758;
+  constexpr static std::size_t addrs = 0x407b310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x408db3c;
+  constexpr static std::size_t addrs = 0x407b6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x408dbb8;
+  constexpr static std::size_t addrs = 0x407b770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x408df90;
+  constexpr static std::size_t addrs = 0x407bb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408ce88;
+  constexpr static std::size_t addrs = 0x407aa40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408ce90;
+  constexpr static std::size_t addrs = 0x407aa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken_Platform (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_platform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408ce98;
+  constexpr static std::size_t addrs = 0x407aa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(
     ::GlobalNamespace::IPlatformUserModel*, ::GlobalNamespace::UserInfo*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x408cea0;
+  constexpr static std::size_t addrs = 0x407aa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* (
     ::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetAuthenticationToken)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x408cf90;
+  constexpr static std::size_t addrs = 0x407ab48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken_Platform (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(
     ::GlobalNamespace::PlatformEnvironment)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetTokenPlatform)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x408d080;
+  constexpr static std::size_t addrs = 0x407ac38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(::System::Threading::CancellationToken, bool)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetXPlatformAccessToken)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x408d0e0;
+  constexpr static std::size_t addrs = 0x407ac98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::RequestXPlatformAccessToken)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x408d1ec;
+  constexpr static std::size_t addrs = 0x407ada4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -78,24 +78,24 @@ public:
   __declspec(property(get = __cordl_internal_get_types, put = __cordl_internal_set_types)) ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>
       types;
 
-  /// @brief Method Compare, addr 0x43b6c14, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x43a47d4, size 0x104, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method CreateValueConverter, addr 0x43b6c08, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x43a47c8, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method HasAtomicMembers, addr 0x43b4c0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HasAtomicMembers, addr 0x43a27cc, size 0x7c, virtual false, abstract: false, final false
   inline bool HasAtomicMembers();
 
-  /// @brief Method IsUnionBaseOf, addr 0x43b5020, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsUnionBaseOf, addr 0x43a2be0, size 0x88, virtual false, abstract: false, final false
   inline bool IsUnionBaseOf(::System::Xml::Schema::DatatypeImplementation* derivedType);
 
   static inline ::System::Xml::Schema::Datatype_union* New_ctor(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> types);
 
-  /// @brief Method TryParseValue, addr 0x43b6e38, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x43a49f8, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
-  /// @brief Method TryParseValue, addr 0x43b7024, size 0x498, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x43a4be4, size 0x498, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::System::Object* value, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
   constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> const& __cordl_internal_get_types() const;
@@ -104,29 +104,29 @@ public:
 
   constexpr void __cordl_internal_set_types(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> value);
 
-  /// @brief Method .ctor, addr 0x43b4da4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a2964, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> types);
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_BaseMemberTypes, addr 0x43b6e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseMemberTypes, addr 0x43a49f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> get_BaseMemberTypes();
 
-  /// @brief Method get_FacetsChecker, addr 0x43b6d78, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x43a4938, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x43b6dd0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x43a4990, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TypeCode, addr 0x43b6d70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43a4930, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x43b6e28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x43a49e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
-  /// @brief Method get_ValueType, addr 0x43b6d18, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x43a48d8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);

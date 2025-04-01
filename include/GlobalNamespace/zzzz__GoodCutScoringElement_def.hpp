@@ -42,7 +42,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GoodCutScoringElement_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bfce84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bea974, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,15 +102,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x3bfce04, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x3bea8f4, size 0x24, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method Init, addr 0x3bfc8d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bea3c0, size 0x70, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteCutInfo noteCutInfo);
 
   static inline ::GlobalNamespace::GoodCutScoringElement* New_ctor();
 
-  /// @brief Method Reinitialize, addr 0x3bfcdec, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x3bea8dc, size 0x18, virtual true, abstract: false, final false
   inline void Reinitialize();
 
   constexpr ::GlobalNamespace::CutScoreBuffer* const& __cordl_internal_get__cutScoreBuffer() const;
@@ -131,22 +131,22 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType value);
 
-  /// @brief Method .ctor, addr 0x3bfce28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bea918, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutScore, addr 0x3bfcd70, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x3bea860, size 0x40, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_cutScoreBuffer, addr 0x3bfcdc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutScoreBuffer, addr 0x3bea8b0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyCutScoreBuffer* get_cutScoreBuffer();
 
-  /// @brief Method get_executionOrder, addr 0x3bfcdc8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x3bea8b8, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_multiplierEventType, addr 0x3bfcdb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x3bea8a8, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x3bfcdb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x3bea8a0, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"

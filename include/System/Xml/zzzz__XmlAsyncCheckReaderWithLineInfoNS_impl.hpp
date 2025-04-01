@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x431acbc;
+  constexpr static std::size_t addrs = 0x430887c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x431bdf8;
+  constexpr static std::size_t addrs = 0x43099b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::StringW)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x431bea0;
+  constexpr static std::size_t addrs = 0x4309a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNS*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::StringW)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x431bf4c;
+  constexpr static std::size_t addrs = 0x4309b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

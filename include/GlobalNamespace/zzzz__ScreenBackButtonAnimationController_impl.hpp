@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenBackButtonAnimationController::*)()>(
     &::GlobalNamespace::ScreenBackButtonAnimationController::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2288c48;
+  constexpr static std::size_t addrs = 0x2280dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenBackButtonAnimationController*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenBackButtonAnimationController::*)(
     ::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType)>(&::GlobalNamespace::ScreenBackButtonAnimationController::StartAnimation)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2288c68;
+  constexpr static std::size_t addrs = 0x2280df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenBackButtonAnimationController::*)()>(
     &::GlobalNamespace::ScreenBackButtonAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2288cd8;
+  constexpr static std::size_t addrs = 0x2280e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenBackButtonAnimationController*>::get(),

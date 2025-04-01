@@ -34,12 +34,12 @@ public:
   /// @brief Field <ReservedRam>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__ReservedRam_k__BackingField, put = __cordl_internal_set__ReservedRam_k__BackingField)) float_t _ReservedRam_k__BackingField;
 
-  /// @brief Method Init, addr 0x44dc17c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44c9d3c, size 0x4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamMonitor* New_ctor();
 
-  /// @brief Method Update, addr 0x44e0ab0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44ce670, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__AllocatedRam_k__BackingField() const;
@@ -60,25 +60,25 @@ public:
 
   constexpr void __cordl_internal_set__ReservedRam_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x44e0b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ce6cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllocatedRam, addr 0x44e0a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedRam, addr 0x44ce640, size 0x8, virtual false, abstract: false, final false
   inline float_t get_AllocatedRam();
 
-  /// @brief Method get_MonoRam, addr 0x44e0aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MonoRam, addr 0x44ce660, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MonoRam();
 
-  /// @brief Method get_ReservedRam, addr 0x44e0a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReservedRam, addr 0x44ce650, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ReservedRam();
 
-  /// @brief Method set_AllocatedRam, addr 0x44e0a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllocatedRam, addr 0x44ce648, size 0x8, virtual false, abstract: false, final false
   inline void set_AllocatedRam(float_t value);
 
-  /// @brief Method set_MonoRam, addr 0x44e0aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MonoRam, addr 0x44ce668, size 0x8, virtual false, abstract: false, final false
   inline void set_MonoRam(float_t value);
 
-  /// @brief Method set_ReservedRam, addr 0x44e0a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReservedRam, addr 0x44ce658, size 0x8, virtual false, abstract: false, final false
   inline void set_ReservedRam(float_t value);
 
 protected:

@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController_InitData::*)(bool)>(
     &::GlobalNamespace::MissionLevelFailedController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bbe344;
+  constexpr static std::size_t addrs = 0x3babe40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::*)(int32_t)>(
     &::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bbe314;
+  constexpr static std::size_t addrs = 0x3babe10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bbe36c;
+  constexpr static std::size_t addrs = 0x3babe68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3bbe370;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x3babe6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbe4e0;
+  constexpr static std::size_t addrs = 0x3bac16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bbe4e8;
+  constexpr static std::size_t addrs = 0x3bac174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbe520;
+  constexpr static std::size_t addrs = 0x3bac1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController::*)()>(
     &::GlobalNamespace::MissionLevelFailedController::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3bbe0a0;
+  constexpr static std::size_t addrs = 0x3babb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelFailedController*>::get(), "Start",
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController::*)()>(
     &::GlobalNamespace::MissionLevelFailedController::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3bbe194;
+  constexpr static std::size_t addrs = 0x3babc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelFailedController*>::get(),
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController::*)()>(
     &::GlobalNamespace::MissionLevelFailedController::HandleLevelFailed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bbe294;
+  constexpr static std::size_t addrs = 0x3babd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelFailedController*>::get(),
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionLevelFailedController::*)()>(
     &::GlobalNamespace::MissionLevelFailedController::LevelFailedCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3bbe2b4;
+  constexpr static std::size_t addrs = 0x3babdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelFailedController*>::get(),
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelFailedController::*)()>(
     &::GlobalNamespace::MissionLevelFailedController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbe33c;
+  constexpr static std::size_t addrs = 0x3babe38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelFailedController*>::get(), ".ctor",

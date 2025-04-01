@@ -42,15 +42,15 @@ public:
   /// @brief Field paramSet, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_paramSet, put = __cordl_internal_set_paramSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* paramSet;
 
-  /// @brief Method GetInstance, addr 0x231e904, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2316a94, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x231e91c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2316aac, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x231ebb0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2316d40, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_paramSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x231ea84, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2316c14, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::Newtonsoft::Json::Utilities::MathUtils::IntLength)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3ede844;
+  constexpr static std::size_t addrs = 0x3ecc3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(int32_t)>(&::Newtonsoft::Json::Utilities::MathUtils::IntToHex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3edea08;
+  constexpr static std::size_t addrs = 0x3ecc5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (*)(::System::Nullable_1<int32_t>, ::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Utilities::MathUtils::Min)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3edea20;
+  constexpr static std::size_t addrs = 0x3ecc5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (*)(::System::Nullable_1<int32_t>, ::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Utilities::MathUtils::Max)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3edeb00;
+  constexpr static std::size_t addrs = 0x3ecc6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<double_t> (*)(::System::Nullable_1<double_t>, ::System::Nullable_1<double_t>)>(
     &::Newtonsoft::Json::Utilities::MathUtils::Max)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3edebe0;
+  constexpr static std::size_t addrs = 0x3ecc798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double_t, double_t)>(&::Newtonsoft::Json::Utilities::MathUtils::ApproxEquals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3edecdc;
+  constexpr static std::size_t addrs = 0x3ecc894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

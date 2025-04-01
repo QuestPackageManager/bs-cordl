@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::Random::InitState)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48b3878;
+  constexpr static std::size_t addrs = 0x48a1458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Random::Range)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48b38b4;
+  constexpr static std::size_t addrs = 0x48a1494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Random::Range)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48b38f4;
+  constexpr static std::size_t addrs = 0x48a14d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Random::RandomRangeInt)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48b3938;
+  constexpr static std::size_t addrs = 0x48a1518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::Random::get_value)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48b397c;
+  constexpr static std::size_t addrs = 0x48a155c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Random*>::get(), "get_value",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)()>(&::UnityEngine::Random::get_onUnitSphere)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48b39a4;
+  constexpr static std::size_t addrs = 0x48a1584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Random*>::get(), "get_onUnitSphere",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)()>(&::UnityEngine::Random::get_rotation)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48b3a2c;
+  constexpr static std::size_t addrs = 0x48a160c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Random*>::get(), "get_rotation",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&::UnityEngine::Random::ColorHSV)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48b3ab0;
+  constexpr static std::size_t addrs = 0x48a1690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Random*>::get(), "ColorHSV",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(float_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Random::ColorHSV)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x48b3ad4;
+  constexpr static std::size_t addrs = 0x48a16b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::Random::get_onUnitSphere_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48b39f0;
+  constexpr static std::size_t addrs = 0x48a15d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Quaternion>)>(&::UnityEngine::Random::get_rotation_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48b3a74;
+  constexpr static std::size_t addrs = 0x48a1654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

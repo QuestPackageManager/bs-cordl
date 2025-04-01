@@ -79,307 +79,307 @@ public:
   /// @brief Field xmlCharType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_xmlCharType, put = setStaticF_xmlCharType)) ::System::Xml::XmlCharType xmlCharType;
 
-  /// @brief Method CreateAllDateTimeFormats, addr 0x43696b8, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method CreateAllDateTimeFormats, addr 0x4357278, size 0x410, virtual false, abstract: false, final false
   static inline void CreateAllDateTimeFormats();
 
-  /// @brief Method CreateException, addr 0x436ac4c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x435880c, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateException(::StringW res, ::StringW arg, ::System::Xml::ExceptionType exceptionType, int32_t lineNo, int32_t linePos);
 
-  /// @brief Method CreateException, addr 0x436ad7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x435893c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateException(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method CreateException, addr 0x4366288, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x4353e48, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateException(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Xml::ExceptionType exceptionType, int32_t lineNo, int32_t linePos);
 
-  /// @brief Method CreateException, addr 0x436a8a8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x4358468, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateException(::StringW res, ::System::Xml::ExceptionType exceptionType, int32_t lineNo, int32_t linePos);
 
-  /// @brief Method CreateInvalidCharException, addr 0x436aae8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidCharException, addr 0x43586a8, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidCharException(::StringW data, int32_t invCharPos, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method CreateInvalidCharException, addr 0x436b0fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidCharException, addr 0x4358cbc, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidCharException(char16_t invChar, char16_t nextChar);
 
-  /// @brief Method CreateInvalidCharException, addr 0x436b164, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidCharException, addr 0x4358d24, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidCharException(char16_t invChar, char16_t nextChar, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method CreateInvalidHighSurrogateCharException, addr 0x436af3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidHighSurrogateCharException, addr 0x4358afc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidHighSurrogateCharException(char16_t hi);
 
-  /// @brief Method CreateInvalidHighSurrogateCharException, addr 0x436af94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidHighSurrogateCharException, addr 0x4358b54, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidHighSurrogateCharException(char16_t hi, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method CreateInvalidHighSurrogateCharException, addr 0x436b000, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidHighSurrogateCharException, addr 0x4358bc0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidHighSurrogateCharException(char16_t hi, ::System::Xml::ExceptionType exceptionType, int32_t lineNo, int32_t linePos);
 
-  /// @brief Method CreateInvalidNameArgumentException, addr 0x436b1f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidNameArgumentException, addr 0x4358db8, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::ArgumentException* CreateInvalidNameArgumentException(::StringW name, ::StringW argumentName);
 
-  /// @brief Method CreateInvalidNameCharException, addr 0x4365f58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidNameCharException, addr 0x4353b18, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidNameCharException(::StringW name, int32_t index, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method CreateInvalidSurrogatePairException, addr 0x436ae60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidSurrogatePairException, addr 0x4358a20, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidSurrogatePairException(char16_t low, char16_t hi);
 
-  /// @brief Method CreateInvalidSurrogatePairException, addr 0x436aec8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidSurrogatePairException, addr 0x4358a88, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidSurrogatePairException(char16_t low, char16_t hi, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method CreateInvalidSurrogatePairException, addr 0x436a974, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidSurrogatePairException, addr 0x4358534, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateInvalidSurrogatePairException(char16_t low, char16_t hi, ::System::Xml::ExceptionType exceptionType, int32_t lineNo, int32_t linePos);
 
-  /// @brief Method DecodeName, addr 0x43653a0, size 0x910, virtual false, abstract: false, final false
+  /// @brief Method DecodeName, addr 0x4352f60, size 0x910, virtual false, abstract: false, final false
   static inline ::StringW DecodeName(::StringW name);
 
-  /// @brief Method DoubleToInt64Bits, addr 0x436a6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DoubleToInt64Bits, addr 0x4358270, size 0x8, virtual false, abstract: false, final false
   static inline int64_t DoubleToInt64Bits(double_t value);
 
-  /// @brief Method EncodeLocalName, addr 0x4365344, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EncodeLocalName, addr 0x4352f04, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW EncodeLocalName(::StringW name);
 
-  /// @brief Method EncodeName, addr 0x4364928, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EncodeName, addr 0x43524e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW EncodeName(::StringW name);
 
-  /// @brief Method EncodeName, addr 0x4364984, size 0x9c0, virtual false, abstract: false, final false
+  /// @brief Method EncodeName, addr 0x4352544, size 0x9c0, virtual false, abstract: false, final false
   static inline ::StringW EncodeName(::StringW name, bool first, bool local);
 
-  /// @brief Method FromBinHexString, addr 0x4365ce0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromBinHexString, addr 0x43538a0, size 0x58, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromBinHexString(::StringW s);
 
-  /// @brief Method FromBinHexString, addr 0x4365d38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FromBinHexString, addr 0x43538f8, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromBinHexString(::StringW s, bool allowOddCount);
 
-  /// @brief Method FromHex, addr 0x4365cb0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x4353870, size 0x30, virtual false, abstract: false, final false
   static inline int32_t FromHex(char16_t digit);
 
-  /// @brief Method IsNegativeZero, addr 0x4366db4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsNegativeZero, addr 0x4354974, size 0x74, virtual false, abstract: false, final false
   static inline bool IsNegativeZero(double_t value);
 
-  /// @brief Method SplitString, addr 0x436a640, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SplitString, addr 0x4358200, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> SplitString(::StringW value);
 
-  /// @brief Method StrEqual, addr 0x436a49c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method StrEqual, addr 0x435805c, size 0xcc, virtual false, abstract: false, final false
   static inline bool StrEqual(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t strPos1, int32_t strLen1, ::StringW str2);
 
-  /// @brief Method SwitchToLocalTime, addr 0x4367250, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SwitchToLocalTime, addr 0x4354e10, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::DateTime SwitchToLocalTime(::System::DateTime value);
 
-  /// @brief Method SwitchToUtcTime, addr 0x4367324, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SwitchToUtcTime, addr 0x4354ee4, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::DateTime SwitchToUtcTime(::System::DateTime value);
 
-  /// @brief Method ToBinHexString, addr 0x4365da4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToBinHexString, addr 0x4353964, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW ToBinHexString(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray);
 
-  /// @brief Method ToBoolean, addr 0x43674a4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x4355064, size 0x1c8, virtual false, abstract: false, final false
   static inline bool ToBoolean(::StringW s);
 
-  /// @brief Method ToByte, addr 0x4368504, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x43560c4, size 0x28, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::StringW s);
 
-  /// @brief Method ToChar, addr 0x43678f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x43554b8, size 0xbc, virtual false, abstract: false, final false
   static inline char16_t ToChar(::StringW s);
 
-  /// @brief Method ToDateTime, addr 0x4369ac8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x4357688, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::StringW s);
 
-  /// @brief Method ToDateTime, addr 0x4369bc8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x4357788, size 0x240, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::StringW s, ::System::Xml::XmlDateTimeSerializationMode dateTimeOption);
 
-  /// @brief Method ToDateTime, addr 0x4369b24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x43576e4, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::StringW s, ::ArrayW<::StringW, ::Array<::StringW>*> formats);
 
-  /// @brief Method ToDateTimeOffset, addr 0x4369e08, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ToDateTimeOffset, addr 0x43579c8, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset ToDateTimeOffset(::StringW s);
 
-  /// @brief Method ToDecimal, addr 0x4367b24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x43556e4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(::StringW s);
 
-  /// @brief Method ToDouble, addr 0x4368e40, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x4356a00, size 0x118, virtual false, abstract: false, final false
   static inline double_t ToDouble(::StringW s);
 
-  /// @brief Method ToGuid, addr 0x4369ed0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToGuid, addr 0x4357a90, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Guid ToGuid(::StringW s);
 
-  /// @brief Method ToInt16, addr 0x4368090, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x4355c50, size 0x28, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::StringW s);
 
-  /// @brief Method ToInt32, addr 0x436820c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x4355dcc, size 0x28, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::StringW s);
 
-  /// @brief Method ToInt64, addr 0x4368388, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x4355f48, size 0x28, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::StringW s);
 
-  /// @brief Method ToInteger, addr 0x4367d1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToInteger, addr 0x43558dc, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Decimal ToInteger(::StringW s);
 
-  /// @brief Method ToSByte, addr 0x4367f14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x4355ad4, size 0x28, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::StringW s);
 
-  /// @brief Method ToSingle, addr 0x4368af4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x43566b4, size 0x118, virtual false, abstract: false, final false
   static inline float_t ToSingle(::StringW s);
 
-  /// @brief Method ToString, addr 0x4367020, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354be0, size 0x230, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::DateTime value, ::System::Xml::XmlDateTimeSerializationMode dateTimeOption);
 
-  /// @brief Method ToString, addr 0x4366f7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354b3c, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::DateTime value, ::StringW format);
 
-  /// @brief Method ToString, addr 0x43673f8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354fb8, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::DateTimeOffset value);
 
-  /// @brief Method ToString, addr 0x4366abc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x435467c, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Decimal value);
 
-  /// @brief Method ToString, addr 0x4367480, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4355040, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Guid value);
 
-  /// @brief Method ToString, addr 0x4366f24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354ae4, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::TimeSpan value);
 
-  /// @brief Method ToString, addr 0x43669f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x43545b4, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToString(bool value);
 
-  /// @brief Method ToString, addr 0x4366a5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x435461c, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW ToString(char16_t value);
 
-  /// @brief Method ToString, addr 0x4366e28, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x43549e8, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW ToString(double_t value);
 
-  /// @brief Method ToString, addr 0x4366cb8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354878, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW ToString(float_t value);
 
-  /// @brief Method ToString, addr 0x4366b84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354744, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int16_t value);
 
-  /// @brief Method ToString, addr 0x4366bb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354770, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t value);
 
-  /// @brief Method ToString, addr 0x4366bdc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x435479c, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int64_t value);
 
-  /// @brief Method ToString, addr 0x4366b58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354718, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int8_t value);
 
-  /// @brief Method ToString, addr 0x4366c34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x43547f4, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint16_t value);
 
-  /// @brief Method ToString, addr 0x4366c60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4354820, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint32_t value);
 
-  /// @brief Method ToString, addr 0x4366c8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x435484c, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint64_t value);
 
-  /// @brief Method ToString, addr 0x4366c08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x43547c8, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint8_t value);
 
-  /// @brief Method ToTimeSpan, addr 0x43693e0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x4356fa0, size 0x194, virtual false, abstract: false, final false
   static inline ::System::TimeSpan ToTimeSpan(::StringW s);
 
-  /// @brief Method ToUInt16, addr 0x4368680, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x4356240, size 0x28, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::StringW s);
 
-  /// @brief Method ToUInt32, addr 0x43687fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x43563bc, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::StringW s);
 
-  /// @brief Method ToUInt64, addr 0x4368978, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x4356538, size 0x28, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::StringW s);
 
-  /// @brief Method ToUri, addr 0x436a0dc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ToUri, addr 0x4357c9c, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Uri* ToUri(::StringW s);
 
-  /// @brief Method ToXPathDouble, addr 0x436918c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ToXPathDouble, addr 0x4356d4c, size 0x254, virtual false, abstract: false, final false
   static inline double_t ToXPathDouble(::System::Object* o);
 
-  /// @brief Method TrimString, addr 0x436766c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TrimString, addr 0x435522c, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW TrimString(::StringW value);
 
-  /// @brief Method TrimStringEnd, addr 0x436a5d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TrimStringEnd, addr 0x4358194, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW TrimStringEnd(::StringW value);
 
-  /// @brief Method TrimStringStart, addr 0x436a568, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TrimStringStart, addr 0x4358128, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW TrimStringStart(::StringW value);
 
-  /// @brief Method TryToBoolean, addr 0x43676d8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method TryToBoolean, addr 0x4355298, size 0x220, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToBoolean(::StringW s, ::ByRef<bool> result);
 
-  /// @brief Method TryToByte, addr 0x436852c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToByte, addr 0x43560ec, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToByte(::StringW s, ::ByRef<uint8_t> result);
 
-  /// @brief Method TryToChar, addr 0x43679b4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method TryToChar, addr 0x4355574, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToChar(::StringW s, ::ByRef<char16_t> result);
 
-  /// @brief Method TryToDecimal, addr 0x4367b94, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryToDecimal, addr 0x4355754, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToDecimal(::StringW s, ::ByRef<::System::Decimal> result);
 
-  /// @brief Method TryToDouble, addr 0x4368f58, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method TryToDouble, addr 0x4356b18, size 0x234, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToDouble(::StringW s, ::ByRef<double_t> result);
 
-  /// @brief Method TryToGuid, addr 0x4369efc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method TryToGuid, addr 0x4357abc, size 0x1e0, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToGuid(::StringW s, ::ByRef<::System::Guid> result);
 
-  /// @brief Method TryToInt16, addr 0x43680b8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToInt16, addr 0x4355c78, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToInt16(::StringW s, ::ByRef<int16_t> result);
 
-  /// @brief Method TryToInt32, addr 0x4368234, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToInt32, addr 0x4355df4, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToInt32(::StringW s, ::ByRef<int32_t> result);
 
-  /// @brief Method TryToInt64, addr 0x43683b0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToInt64, addr 0x4355f70, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToInt64(::StringW s, ::ByRef<int64_t> result);
 
-  /// @brief Method TryToInteger, addr 0x4367d8c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryToInteger, addr 0x435594c, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToInteger(::StringW s, ::ByRef<::System::Decimal> result);
 
-  /// @brief Method TryToSByte, addr 0x4367f3c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToSByte, addr 0x4355afc, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToSByte(::StringW s, ::ByRef<int8_t> result);
 
-  /// @brief Method TryToSingle, addr 0x4368c0c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method TryToSingle, addr 0x43567cc, size 0x234, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToSingle(::StringW s, ::ByRef<float_t> result);
 
-  /// @brief Method TryToTimeSpan, addr 0x4369574, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TryToTimeSpan, addr 0x4357134, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToTimeSpan(::StringW s, ::ByRef<::System::TimeSpan> result);
 
-  /// @brief Method TryToUInt16, addr 0x43686a8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToUInt16, addr 0x4356268, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToUInt16(::StringW s, ::ByRef<uint16_t> result);
 
-  /// @brief Method TryToUInt32, addr 0x4368824, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToUInt32, addr 0x43563e4, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToUInt32(::StringW s, ::ByRef<uint32_t> result);
 
-  /// @brief Method TryToUInt64, addr 0x43689a0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryToUInt64, addr 0x4356560, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToUInt64(::StringW s, ::ByRef<uint64_t> result);
 
-  /// @brief Method TryToUri, addr 0x436a290, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method TryToUri, addr 0x4357e50, size 0x20c, virtual false, abstract: false, final false
   static inline ::System::Exception* TryToUri(::StringW s, ::ByRef<::System::Uri*> result);
 
-  /// @brief Method TryVerifyNCName, addr 0x4366500, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryVerifyNCName, addr 0x43540c0, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Exception* TryVerifyNCName(::StringW name);
 
-  /// @brief Method TryVerifyNMTOKEN, addr 0x4366808, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method TryVerifyNMTOKEN, addr 0x43543c8, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Exception* TryVerifyNMTOKEN(::StringW name);
 
-  /// @brief Method TryVerifyName, addr 0x436601c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method TryVerifyName, addr 0x4353bdc, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Exception* TryVerifyName(::StringW name);
 
-  /// @brief Method TryVerifyNormalizedString, addr 0x436692c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryVerifyNormalizedString, addr 0x43544ec, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Exception* TryVerifyNormalizedString(::StringW str);
 
-  /// @brief Method TryVerifyTOKEN, addr 0x43666d4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TryVerifyTOKEN, addr 0x4354294, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Exception* TryVerifyTOKEN(::StringW token);
 
-  /// @brief Method VerifyCharData, addr 0x436a6b8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method VerifyCharData, addr 0x4358278, size 0x1f0, virtual false, abstract: false, final false
   static inline void VerifyCharData(::StringW data, ::System::Xml::ExceptionType invCharExceptionType, ::System::Xml::ExceptionType invSurrogateExceptionType);
 
-  /// @brief Method VerifyNCName, addr 0x4366358, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method VerifyNCName, addr 0x4353f18, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW VerifyNCName(::StringW name);
 
-  /// @brief Method VerifyNCName, addr 0x43663b0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method VerifyNCName, addr 0x4353f70, size 0x150, virtual false, abstract: false, final false
   static inline ::StringW VerifyNCName(::StringW name, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method VerifyName, addr 0x4365e08, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method VerifyName, addr 0x43539c8, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW VerifyName(::StringW name);
 
-  /// @brief Method VerifyQName, addr 0x4366160, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method VerifyQName, addr 0x4353d20, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW VerifyQName(::StringW name, ::System::Xml::ExceptionType exceptionType);
 
-  /// @brief Method VerifyTOKEN, addr 0x43665a0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method VerifyTOKEN, addr 0x4354160, size 0x134, virtual false, abstract: false, final false
   static inline ::StringW VerifyTOKEN(::StringW token);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_WhitespaceChars();
@@ -396,7 +396,7 @@ public:
 
   static inline ::System::Xml::XmlCharType getStaticF_xmlCharType();
 
-  /// @brief Method get_AllDateTimeFormats, addr 0x4369620, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_AllDateTimeFormats, addr 0x43571e0, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AllDateTimeFormats();
 
   static inline void setStaticF_WhitespaceChars(::ArrayW<char16_t, ::Array<char16_t>*> value);

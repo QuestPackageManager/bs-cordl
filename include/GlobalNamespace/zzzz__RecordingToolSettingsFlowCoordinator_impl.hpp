@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::*)(
     ::GlobalNamespace::ScenesTransitionSetupDataSO*)>(&::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c15e54;
+  constexpr static std::size_t addrs = 0x3c03950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3c15c60;
+  constexpr static std::size_t addrs = 0x3c0375c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c15d44;
+  constexpr static std::size_t addrs = 0x3c03840;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::Update)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c15de0;
+  constexpr static std::size_t addrs = 0x3c038dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::HandleRecordingToolSettingsViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c15e0c;
+  constexpr static std::size_t addrs = 0x3c03908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::GoToNextScene)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c15e10;
+  constexpr static std::size_t addrs = 0x3c0390c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c15e4c;
+  constexpr static std::size_t addrs = 0x3c03948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),

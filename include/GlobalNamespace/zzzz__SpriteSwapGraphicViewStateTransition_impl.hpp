@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e71c4;
+  constexpr static std::size_t addrs = 0x44d4da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44e71cc;
+  constexpr static std::size_t addrs = 0x44d4dac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44e71d8;
+  constexpr static std::size_t addrs = 0x44d4db8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44e71e8;
+  constexpr static std::size_t addrs = 0x44d4dc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44e71f8;
+  constexpr static std::size_t addrs = 0x44d4dd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44e7208;
+  constexpr static std::size_t addrs = 0x44d4de8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44e7218;
+  constexpr static std::size_t addrs = 0x44d4df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44e7228;
+  constexpr static std::size_t addrs = 0x44d4e08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44e7250;
+  constexpr static std::size_t addrs = 0x44d4e30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44e7278;
+  constexpr static std::size_t addrs = 0x44d4e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44e72a0;
+  constexpr static std::size_t addrs = 0x44d4e80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44e72c8;
+  constexpr static std::size_t addrs = 0x44d4ea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44e72f0;
+  constexpr static std::size_t addrs = 0x44d4ed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44e7318;
+  constexpr static std::size_t addrs = 0x44d4ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>::get(),

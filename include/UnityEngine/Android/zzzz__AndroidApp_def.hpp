@@ -30,20 +30,20 @@ public:
   /// @brief Field m_Context, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_Context, put = setStaticF_m_Context)) ::UnityEngine::AndroidJavaObject* m_Context;
 
-  /// @brief Method AcquireContextAndActivity, addr 0x4858404, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method AcquireContextAndActivity, addr 0x4845fe4, size 0x244, virtual false, abstract: false, final false
   static inline void AcquireContextAndActivity();
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_Activity();
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_Context();
 
-  /// @brief Method get_Activity, addr 0x4858648, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Activity, addr 0x4846228, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* get_Activity();
 
-  /// @brief Method get_Context, addr 0x48583b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x4845f98, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* get_Context();
 
-  /// @brief Method get_UnityPlayerRaw, addr 0x4847314, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_UnityPlayerRaw, addr 0x4834ef4, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_UnityPlayerRaw();
 
   static inline void setStaticF_m_Activity(::UnityEngine::AndroidJavaObject* value);

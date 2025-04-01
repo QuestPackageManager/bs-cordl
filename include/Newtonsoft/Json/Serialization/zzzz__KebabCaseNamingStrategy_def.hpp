@@ -25,16 +25,16 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-  /// @brief Method ResolvePropertyName, addr 0x3f0b3a4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x3ef8f5c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3f0b39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef8f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3f0b310, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef8ec8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x3f0b350, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef8f08, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlChildEnumerator::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlChildEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4342f84;
+  constexpr static std::size_t addrs = 0x4330b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlChildEnumerator::*)()>(
     &::System::Xml::XmlChildEnumerator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4342fd4;
+  constexpr static std::size_t addrs = 0x4330b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlChildEnumerator::*)()>(&::System::Xml::XmlChildEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4342fd8;
+  constexpr static std::size_t addrs = 0x4330b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlChildEnumerator*>::get(), "MoveNext",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlChildEnumerator::*)()>(
     &::System::Xml::XmlChildEnumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x434303c;
+  constexpr static std::size_t addrs = 0x4330bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlChildEnumerator::*)()>(
     &::System::Xml::XmlChildEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4343074;
+  constexpr static std::size_t addrs = 0x4330c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlChildEnumerator::*)()>(&::System::Xml::XmlChildEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4343078;
+  constexpr static std::size_t addrs = 0x4330c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlChildEnumerator*>::get(), "get_Current",

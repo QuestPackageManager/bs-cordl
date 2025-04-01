@@ -55,10 +55,10 @@ public:
   /// @brief Field reusableVerts, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x3b89020, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x3b76a54, size 0xb4, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x3b890d4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x3b76b08, size 0x1dc, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes);
 
   /// @brief Method CreateSliderMeshInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x3b892b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b76ce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x3b89018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3b76a4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:

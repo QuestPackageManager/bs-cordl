@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d824dc;
+  constexpr static std::size_t addrs = 0x3d6ffd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Stream_NullStream*>::get(), ".ctor",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d826dc;
+  constexpr static std::size_t addrs = 0x3d701d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d826e4;
+  constexpr static std::size_t addrs = 0x3d701e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d826ec;
+  constexpr static std::size_t addrs = 0x3d701e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d826f4;
+  constexpr static std::size_t addrs = 0x3d701f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d826fc;
+  constexpr static std::size_t addrs = 0x3d701f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(int64_t)>(&::GlobalNamespace::Stream_NullStream::set_Position)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d82704;
+  constexpr static std::size_t addrs = 0x3d70200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::System::IO::Stream*, int32_t)>(
     &::GlobalNamespace::Stream_NullStream::CopyTo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d82708;
+  constexpr static std::size_t addrs = 0x3d70204;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::Stream_NullStream::*)(::System::IO::Stream*, int32_t, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::CopyToAsync)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3d82710;
+  constexpr static std::size_t addrs = 0x3d7020c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(bool)>(&::GlobalNamespace::Stream_NullStream::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d82824;
+  constexpr static std::size_t addrs = 0x3d70320;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d82828;
+  constexpr static std::size_t addrs = 0x3d70324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::Stream_NullStream::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::Stream_NullStream::FlushAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3d8282c;
+  constexpr static std::size_t addrs = 0x3d70328;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::GlobalNamespace::Stream_NullStream::BeginRead)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d82910;
+  constexpr static std::size_t addrs = 0x3d7040c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::Stream_NullStream::EndRead)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d8299c;
+  constexpr static std::size_t addrs = 0x3d70498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::GlobalNamespace::Stream_NullStream::BeginWrite)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d82a3c;
+  constexpr static std::size_t addrs = 0x3d70538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::Stream_NullStream::EndWrite)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d82ac8;
+  constexpr static std::size_t addrs = 0x3d705c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::Stream_NullStream::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d82b68;
+  constexpr static std::size_t addrs = 0x3d70664;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)(::System::Span_1<uint8_t>)>(
     &::GlobalNamespace::Stream_NullStream::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d82b70;
+  constexpr static std::size_t addrs = 0x3d7066c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::ReadAsync)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d82b78;
+  constexpr static std::size_t addrs = 0x3d70674;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::GlobalNamespace::Stream_NullStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::ReadAsync)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3d82bd0;
+  constexpr static std::size_t addrs = 0x3d706cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::ReadByte)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d82c04;
+  constexpr static std::size_t addrs = 0x3d70700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::Stream_NullStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d82c0c;
+  constexpr static std::size_t addrs = 0x3d70708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(
     &::GlobalNamespace::Stream_NullStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d82c10;
+  constexpr static std::size_t addrs = 0x3d7070c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::WriteAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3d82c14;
+  constexpr static std::size_t addrs = 0x3d70710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::GlobalNamespace::Stream_NullStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::WriteAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3d82cf8;
+  constexpr static std::size_t addrs = 0x3d707f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(uint8_t)>(&::GlobalNamespace::Stream_NullStream::WriteByte)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d82db0;
+  constexpr static std::size_t addrs = 0x3d708ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::Stream_NullStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::GlobalNamespace::Stream_NullStream::Seek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d82db4;
+  constexpr static std::size_t addrs = 0x3d708b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(int64_t)>(&::GlobalNamespace::Stream_NullStream::SetLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d82dbc;
+  constexpr static std::size_t addrs = 0x3d708b8;
 
   inline static ::MethodInfo const* methodInfo() {
 

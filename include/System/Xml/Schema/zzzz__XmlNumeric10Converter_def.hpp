@@ -38,69 +38,69 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlNumeric10Converter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x42eb2a4, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42d8e64, size 0x420, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42ea1bc, size 0x440, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42d7d7c, size 0x440, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Decimal value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x42eb6c4, size 0xf04, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42d9284, size 0xf04, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42eaa5c, size 0x41c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42d861c, size 0x41c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(int32_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x42eae78, size 0x42c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42d8a38, size 0x42c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(int64_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeTypeWildcardDestination, addr 0x42e8dd4, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardDestination, addr 0x42d6994, size 0x460, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardDestination(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardSource, addr 0x42ea5fc, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardSource, addr 0x42d81bc, size 0x460, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardSource(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x42e88c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x42d6480, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlNumeric10Converter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToDecimal, addr 0x42e8918, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x42d64d8, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Decimal ToDecimal(::StringW value);
 
-  /// @brief Method ToDecimal, addr 0x42e89dc, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x42d659c, size 0x3f8, virtual true, abstract: false, final false
   inline ::System::Decimal ToDecimal(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x42e928c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x42d6e4c, size 0x100, virtual true, abstract: false, final false
   inline int32_t ToInt32(::StringW value);
 
-  /// @brief Method ToInt32, addr 0x42e938c, size 0x3f0, virtual true, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x42d6f4c, size 0x3f0, virtual true, abstract: false, final false
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x42e9234, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x42d6df4, size 0x58, virtual true, abstract: false, final false
   inline int32_t ToInt32(int64_t value);
 
-  /// @brief Method ToInt64, addr 0x42e9784, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x42d7344, size 0x100, virtual true, abstract: false, final false
   inline int64_t ToInt64(::StringW value);
 
-  /// @brief Method ToInt64, addr 0x42e9884, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x42d7444, size 0x3d4, virtual true, abstract: false, final false
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0x42e977c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x42d733c, size 0x8, virtual true, abstract: false, final false
   inline int64_t ToInt64(int32_t value);
 
-  /// @brief Method ToString, addr 0x42e9c58, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42d7818, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Decimal value);
 
-  /// @brief Method ToString, addr 0x42e9dc4, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42d7984, size 0x3f8, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToString, addr 0x42e9d14, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42d78d4, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(int32_t value);
 
-  /// @brief Method ToString, addr 0x42e9d6c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42d792c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(int64_t value);
 
-  /// @brief Method .ctor, addr 0x42e8858, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42d6418, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

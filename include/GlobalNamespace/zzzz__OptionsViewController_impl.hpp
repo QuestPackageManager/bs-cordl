@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)(
     ::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>*)>(&::GlobalNamespace::OptionsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b0847c;
+  constexpr static std::size_t addrs = 0x3af5490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)(
     ::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>*)>(&::GlobalNamespace::OptionsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b0852c;
+  constexpr static std::size_t addrs = 0x3af5540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::OptionsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3b085dc;
+  constexpr static std::size_t addrs = 0x3af55f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(&::GlobalNamespace::OptionsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b0872c;
+  constexpr static std::size_t addrs = 0x3af5740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(), ".ctor",
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(
     &::GlobalNamespace::OptionsViewController::_DidActivate_b__7_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b08734;
+  constexpr static std::size_t addrs = 0x3af5748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(
     &::GlobalNamespace::OptionsViewController::_DidActivate_b__7_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b08754;
+  constexpr static std::size_t addrs = 0x3af5768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(
     &::GlobalNamespace::OptionsViewController::_DidActivate_b__7_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b08774;
+  constexpr static std::size_t addrs = 0x3af5788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(),

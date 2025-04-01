@@ -28,7 +28,7 @@ public:
   constexpr TMP_SpriteInfo(int32_t spriteIndex, int32_t characterIndex, int32_t vertexIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14441 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

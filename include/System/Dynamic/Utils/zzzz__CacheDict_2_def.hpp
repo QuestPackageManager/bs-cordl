@@ -75,7 +75,7 @@ public:
   CacheDict_2_Entry(CacheDict_2_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14179 };
 
   /// @brief Field _hash, offset: 0x10, size: 0x4, def value: None
   int32_t ____hash;
@@ -155,7 +155,7 @@ public:
   CacheDict_2(CacheDict_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14180 };
 
   /// @brief Field _mask, offset: 0x10, size: 0x4, def value: None
   int32_t ____mask;

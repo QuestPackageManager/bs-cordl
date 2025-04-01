@@ -38,19 +38,19 @@ public:
   /// @brief Field <Table>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__Table_k__BackingField, put = __cordl_internal_set__Table_k__BackingField)) ::System::Data::DataTable* _Table_k__BackingField;
 
-  /// @brief Method CanResetValue, addr 0x417788c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x416544c, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x4177894, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x4165454, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method ResetValue, addr 0x4177978, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x4165538, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x417797c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x416553c, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x4177980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x4165540, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::Data::DataTable* const& __cordl_internal_get__Table_k__BackingField() const;
@@ -59,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method get_ComponentType, addr 0x41777ac, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x416536c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x4177818, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x41653d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x4177820, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x41653e0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_Table, addr 0x41777a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x4165364, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
 protected:

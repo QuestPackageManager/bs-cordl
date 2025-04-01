@@ -37,19 +37,19 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
                                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x479fc44, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x478d824, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x479fa94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478d674, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x479faec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478d6cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x479fb54, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478d734, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x479fbc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478d7a4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -67,7 +67,7 @@ public:
   ResourceManagerException(ResourceManagerException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15606 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

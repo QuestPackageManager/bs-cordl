@@ -73,10 +73,10 @@ public:
   /// @brief Field seq, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
-  /// @brief Method GetInstance, addr 0x260e404, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2606594, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x260e41c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x26065ac, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint, bool onlyContainsUserCerts,
@@ -85,10 +85,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x260eb80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2606d10, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x260eb88, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2606d18, size 0x2e0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName* const& __cordl_internal_get__distributionPoint() const;
@@ -133,32 +133,32 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x260e83c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26069cc, size 0x314, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint, bool onlyContainsUserCerts, bool onlyContainsCACerts,
                     ::Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons, bool indirectCRL, bool onlyContainsAttributeCerts);
 
-  /// @brief Method .ctor, addr 0x260e598, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2606728, size 0x2a4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method appendObject, addr 0x260ee68, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method appendObject, addr 0x2606ff8, size 0xf8, virtual false, abstract: false, final false
   inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
 
-  /// @brief Method get_DistributionPoint, addr 0x260eb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DistributionPoint, addr 0x2606d00, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* get_DistributionPoint();
 
-  /// @brief Method get_IsIndirectCrl, addr 0x260eb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsIndirectCrl, addr 0x2606cf0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsIndirectCrl();
 
-  /// @brief Method get_OnlyContainsAttributeCerts, addr 0x260eb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnlyContainsAttributeCerts, addr 0x2606cf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_OnlyContainsAttributeCerts();
 
-  /// @brief Method get_OnlyContainsCACerts, addr 0x260eb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnlyContainsCACerts, addr 0x2606ce8, size 0x8, virtual false, abstract: false, final false
   inline bool get_OnlyContainsCACerts();
 
-  /// @brief Method get_OnlyContainsUserCerts, addr 0x260eb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnlyContainsUserCerts, addr 0x2606ce0, size 0x8, virtual false, abstract: false, final false
   inline bool get_OnlyContainsUserCerts();
 
-  /// @brief Method get_OnlySomeReasons, addr 0x260eb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnlySomeReasons, addr 0x2606d08, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_OnlySomeReasons();
 
 protected:

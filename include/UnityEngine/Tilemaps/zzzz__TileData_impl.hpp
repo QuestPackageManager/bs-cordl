@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileData::*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::Tilemaps::TileData::set_sprite)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x49626f4;
+  constexpr static std::size_t addrs = 0x49502d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileData::*)(::UnityEngine::Color)>(&::UnityEngine::Tilemaps::TileData::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4962784;
+  constexpr static std::size_t addrs = 0x4950364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileData::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Tilemaps::TileData::set_transform)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4962790;
+  constexpr static std::size_t addrs = 0x4950370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileData::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::Tilemaps::TileData::set_gameObject)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x49627ac;
+  constexpr static std::size_t addrs = 0x495038c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileData::*)(::UnityEngine::Tilemaps::TileFlags)>(
     &::UnityEngine::Tilemaps::TileData::set_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x496283c;
+  constexpr static std::size_t addrs = 0x495041c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileData::*)(::UnityEngine::Tilemaps::Tile_ColliderType)>(
     &::UnityEngine::Tilemaps::TileData::set_colliderType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4962844;
+  constexpr static std::size_t addrs = 0x4950424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Tilemaps::TileData (*)()>(&::UnityEngine::Tilemaps::TileData::CreateDefault)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4963734;
+  constexpr static std::size_t addrs = 0x4951314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileData>::get(), "CreateDefault",

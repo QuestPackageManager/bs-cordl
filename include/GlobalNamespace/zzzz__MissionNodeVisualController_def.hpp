@@ -63,45 +63,45 @@ public:
 
   __declspec(property(get = get_selected)) bool selected;
 
-  /// @brief Method Awake, addr 0x3c19fe0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c07adc, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ChangeNodeSelection, addr 0x3c1a1d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ChangeNodeSelection, addr 0x3c07cd4, size 0x28, virtual false, abstract: false, final false
   inline void ChangeNodeSelection(bool selected);
 
-  /// @brief Method HandleMissionToggleSelectionDidChange, addr 0x3c1a21c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionToggleSelectionDidChange, addr 0x3c07d18, size 0x40, virtual false, abstract: false, final false
   inline void HandleMissionToggleSelectionDidChange(::GlobalNamespace::MissionToggle* toggle);
 
-  /// @brief Method Init, addr 0x3c1a088, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c07b84, size 0x50, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MissionNodeVisualController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c1a0e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c07bdc, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x3c19fc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c07abc, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Reset, addr 0x3c1a0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3c07bd4, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetInteractable, addr 0x3c18ea0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetInteractable, addr 0x3c0699c, size 0xc, virtual false, abstract: false, final false
   inline void SetInteractable();
 
-  /// @brief Method SetMissionCleared, addr 0x3c18894, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetMissionCleared, addr 0x3c06390, size 0xc, virtual false, abstract: false, final false
   inline void SetMissionCleared();
 
-  /// @brief Method SetSelected, addr 0x3c193e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x3c06ee4, size 0x28, virtual false, abstract: false, final false
   inline void SetSelected(bool value);
 
-  /// @brief Method Setup, addr 0x3c1a200, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3c07cfc, size 0x1c, virtual false, abstract: false, final false
   inline void Setup(bool cleared, bool interactable);
 
-  /// @brief Method SetupToggle, addr 0x3c1a1ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetupToggle, addr 0x3c07ca8, size 0x2c, virtual false, abstract: false, final false
   inline void SetupToggle();
 
-  /// @brief Method Start, addr 0x3c1a084, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3c07b80, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__cleared() const;
@@ -152,34 +152,34 @@ public:
 
   constexpr void __cordl_internal_set_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method .ctor, addr 0x3c1a25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c07d58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_nodeWasDisplayedEvent, addr 0x3c195f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeWasDisplayedEvent, addr 0x3c070ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method add_nodeWasSelectEvent, addr 0x3c19540, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeWasSelectEvent, addr 0x3c0703c, size 0xb0, virtual false, abstract: false, final false
   inline void add_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method get_cleared, addr 0x3c19fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x3c07aac, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_interactable, addr 0x3c19fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3c07ab4, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_isInitialized, addr 0x3c19fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x3c07aa4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method get_missionNode, addr 0x3c19f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionNode, addr 0x3c07a94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_missionNode();
 
-  /// @brief Method get_selected, addr 0x3c19fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selected, addr 0x3c07a9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
-  /// @brief Method remove_nodeWasDisplayedEvent, addr 0x3c198b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeWasDisplayedEvent, addr 0x3c073b4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method remove_nodeWasSelectEvent, addr 0x3c19808, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeWasSelectEvent, addr 0x3c07304, size 0xb0, virtual false, abstract: false, final false
   inline void remove_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
 protected:

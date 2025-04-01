@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)(
     int32_t, int32_t, int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::Org::BouncyCastle::Bcpg::ArmoredInputStream::Decode)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x264482c;
+  constexpr static std::size_t addrs = 0x263c9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2644a38;
+  constexpr static std::size_t addrs = 0x263cbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)(::System::IO::Stream*, bool)>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2644a40;
+  constexpr static std::size_t addrs = 0x263cbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::ParseHeaders)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x2644b78;
+  constexpr static std::size_t addrs = 0x263cd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::IsClearText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2644fb4;
+  constexpr static std::size_t addrs = 0x263d144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::IsEndOfStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2644fbc;
+  constexpr static std::size_t addrs = 0x263d14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::GetArmorHeaderLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2644fc4;
+  constexpr static std::size_t addrs = 0x263d154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::GetArmorHeaders)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2644fcc;
+  constexpr static std::size_t addrs = 0x263d15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::ReadIgnoreSpace)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2645204;
+  constexpr static std::size_t addrs = 0x263d394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::ReadIgnoreWhitespace)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2645248;
+  constexpr static std::size_t addrs = 0x263d3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::ReadByteClearText)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x26452a8;
+  constexpr static std::size_t addrs = 0x263d438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::ReadClearText)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2645380;
+  constexpr static std::size_t addrs = 0x263d510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::DoReadByte)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x26454d0;
+  constexpr static std::size_t addrs = 0x263d660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ArmoredInputStream*>::get(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::ReadByte)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2645758;
+  constexpr static std::size_t addrs = 0x263d8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::ArmoredInputStream::Read)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2645834;
+  constexpr static std::size_t addrs = 0x263d9c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::ArmoredInputStream::*)()>(&::Org::BouncyCastle::Bcpg::ArmoredInputStream::Close)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2645a0c;
+  constexpr static std::size_t addrs = 0x263db9c;
 
   inline static ::MethodInfo const* methodInfo() {
 

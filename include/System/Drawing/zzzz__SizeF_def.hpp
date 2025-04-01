@@ -32,28 +32,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::SizeF>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::SizeF>*();
 
-  /// @brief Method Equals, addr 0x421fe54, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x420da14, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x421fed8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x420da98, size 0x1c, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::SizeF other);
 
-  /// @brief Method GetHashCode, addr 0x421fef4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x420dab4, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x421ff8c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x420db4c, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Height, addr 0x421fe4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x420da0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
-  /// @brief Method get_Width, addr 0x421fe44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x420da04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::SizeF>"
   constexpr ::System::IEquatable_1<::System::Drawing::SizeF>* i___System__IEquatable_1___System__Drawing__SizeF_();
 
-  /// @brief Method op_Equality, addr 0x421fe2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x420d9ec, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::SizeF sz1, ::System::Drawing::SizeF sz2);
 
   // Ctor Parameters []

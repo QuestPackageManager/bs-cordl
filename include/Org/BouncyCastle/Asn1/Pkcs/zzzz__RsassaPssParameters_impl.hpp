@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2418738;
+  constexpr static std::size_t addrs = 0x24108c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2418a94;
+  constexpr static std::size_t addrs = 0x2410c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters*>::get(),
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2418b08;
+  constexpr static std::size_t addrs = 0x2410c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x24188b4;
+  constexpr static std::size_t addrs = 0x2410a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::get_HashAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2418b48;
+  constexpr static std::size_t addrs = 0x2410cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::get_MaskGenAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2418b50;
+  constexpr static std::size_t addrs = 0x2410ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::get_SaltLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2418b58;
+  constexpr static std::size_t addrs = 0x2410ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::get_TrailerField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2418b60;
+  constexpr static std::size_t addrs = 0x2410cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::ToAsn1Object)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x2418b68;
+  constexpr static std::size_t addrs = 0x2410cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -28,13 +28,13 @@ public:
 
   static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3abd980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaadf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3abd988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaadfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3abd990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaae04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

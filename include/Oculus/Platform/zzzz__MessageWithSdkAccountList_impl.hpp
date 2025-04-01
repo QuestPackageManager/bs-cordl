@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithSdkAccountList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithSdkAccountList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f89fe0;
+  constexpr static std::size_t addrs = 0x3f77b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SdkAccountList* (::Oculus::Platform::MessageWithSdkAccountList::*)()>(
     &::Oculus::Platform::MessageWithSdkAccountList::GetSdkAccountList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f8de88;
+  constexpr static std::size_t addrs = 0x3f7ba40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SdkAccountList* (::Oculus::Platform::MessageWithSdkAccountList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithSdkAccountList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f8dec4;
+  constexpr static std::size_t addrs = 0x3f7ba7c;
 
   inline static ::MethodInfo const* methodInfo() {
 

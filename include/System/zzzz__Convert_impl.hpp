@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<uint8_t>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::System::Convert::TryDecodeFromUtf16)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x3d6a054;
+  constexpr static std::size_t addrs = 0x3d57b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<char16_t>, ::ByRef<int8_t>)>(&::System::Convert::Decode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d6a3b0;
+  constexpr static std::size_t addrs = 0x3d57eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint8_t>, int32_t)>(&::System::Convert::WriteThreeLowOrderBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6a400;
+  constexpr static std::size_t addrs = 0x3d57efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (*)(::System::Object*)>(&::System::Convert::GetTypeCode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3d6a418;
+  constexpr static std::size_t addrs = 0x3d57f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Object*, ::System::TypeCode, ::System::IFormatProvider*)>(
     &::System::Convert::ChangeType)> {
   constexpr static std::size_t size = 0x8f0;
-  constexpr static std::size_t addrs = 0x3d6a4dc;
+  constexpr static std::size_t addrs = 0x3d57fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::IConvertible*, ::System::Type*, ::System::IFormatProvider*)>(
     &::System::Convert::DefaultToType)> {
   constexpr static std::size_t size = 0xe28;
-  constexpr static std::size_t addrs = 0x3d66288;
+  constexpr static std::size_t addrs = 0x3d53d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Object*, ::System::Type*)>(&::System::Convert::ChangeType)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d6adcc;
+  constexpr static std::size_t addrs = 0x3d588c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Object*, ::System::Type*, ::System::IFormatProvider*)>(
     &::System::Convert::ChangeType)> {
   constexpr static std::size_t size = 0xca8;
-  constexpr static std::size_t addrs = 0x3d6ae68;
+  constexpr static std::size_t addrs = 0x3d58964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowCharOverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bb10;
+  constexpr static std::size_t addrs = 0x3d5960c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowCharOverflowException",
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowByteOverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bb5c;
+  constexpr static std::size_t addrs = 0x3d59658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowByteOverflowException",
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowSByteOverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bba8;
+  constexpr static std::size_t addrs = 0x3d596a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowSByteOverflowException",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowInt16OverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bbf4;
+  constexpr static std::size_t addrs = 0x3d596f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowInt16OverflowException",
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowUInt16OverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bc40;
+  constexpr static std::size_t addrs = 0x3d5973c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowUInt16OverflowException",
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowInt32OverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bc8c;
+  constexpr static std::size_t addrs = 0x3d59788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowInt32OverflowException",
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowUInt32OverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bcd8;
+  constexpr static std::size_t addrs = 0x3d597d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowUInt32OverflowException",
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowInt64OverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bd24;
+  constexpr static std::size_t addrs = 0x3d59820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowInt64OverflowException",
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Convert::ThrowUInt64OverflowException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bd70;
+  constexpr static std::size_t addrs = 0x3d5986c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Convert*>::get(), "ThrowUInt64OverflowException",
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6bdbc;
+  constexpr static std::size_t addrs = 0x3d598b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6beb0;
+  constexpr static std::size_t addrs = 0x3d599ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int8_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6bfb4;
+  constexpr static std::size_t addrs = 0x3d59ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d67a60;
+  constexpr static std::size_t addrs = 0x3d5555c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int16_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6bfc0;
+  constexpr static std::size_t addrs = 0x3d59abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint16_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6bfcc;
+  constexpr static std::size_t addrs = 0x3d59ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6bfd8;
+  constexpr static std::size_t addrs = 0x3d59ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6bfe4;
+  constexpr static std::size_t addrs = 0x3d59ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6bff0;
+  constexpr static std::size_t addrs = 0x3d59aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6bffc;
+  constexpr static std::size_t addrs = 0x3d59af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d6c008;
+  constexpr static std::size_t addrs = 0x3d59b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d6c070;
+  constexpr static std::size_t addrs = 0x3d59b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6c0d8;
+  constexpr static std::size_t addrs = 0x3d59bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double_t)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6c0e4;
+  constexpr static std::size_t addrs = 0x3d59be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal)>(&::System::Convert::ToBoolean)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6c0f0;
+  constexpr static std::size_t addrs = 0x3d59bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::Object*)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6c164;
+  constexpr static std::size_t addrs = 0x3d59c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6c258;
+  constexpr static std::size_t addrs = 0x3d59d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(int8_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6c35c;
+  constexpr static std::size_t addrs = 0x3d59e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint8_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d67ac4;
+  constexpr static std::size_t addrs = 0x3d555c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(int16_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6c3b0;
+  constexpr static std::size_t addrs = 0x3d59eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint16_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d6c404;
+  constexpr static std::size_t addrs = 0x3d59f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -558,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(int32_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6c408;
+  constexpr static std::size_t addrs = 0x3d59f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint32_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6c460;
+  constexpr static std::size_t addrs = 0x3d59f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(int64_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6c4b8;
+  constexpr static std::size_t addrs = 0x3d59fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint64_t)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6c510;
+  constexpr static std::size_t addrs = 0x3d5a00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::StringW)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6c568;
+  constexpr static std::size_t addrs = 0x3d5a064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToChar)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d6c5bc;
+  constexpr static std::size_t addrs = 0x3d5a0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -643,7 +643,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::Object*)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6c658;
+  constexpr static std::size_t addrs = 0x3d5a154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -657,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6c74c;
+  constexpr static std::size_t addrs = 0x3d5a248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -672,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(bool)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65cec;
+  constexpr static std::size_t addrs = 0x3d537e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -686,7 +686,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(char16_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d68bd8;
+  constexpr static std::size_t addrs = 0x3d566d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -700,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint8_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d67b24;
+  constexpr static std::size_t addrs = 0x3d55620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -714,7 +714,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int16_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6c850;
+  constexpr static std::size_t addrs = 0x3d5a34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -728,7 +728,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint16_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6c8b0;
+  constexpr static std::size_t addrs = 0x3d5a3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -742,7 +742,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int32_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6c90c;
+  constexpr static std::size_t addrs = 0x3d5a408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -756,7 +756,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint32_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6c964;
+  constexpr static std::size_t addrs = 0x3d5a460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -770,7 +770,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int64_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6c9bc;
+  constexpr static std::size_t addrs = 0x3d5a4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -784,7 +784,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint64_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6ca14;
+  constexpr static std::size_t addrs = 0x3d5a510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -798,7 +798,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(float_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6ca6c;
+  constexpr static std::size_t addrs = 0x3d5a568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -812,7 +812,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(double_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6cac8;
+  constexpr static std::size_t addrs = 0x3d5a5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -826,7 +826,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::Decimal)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6cc28;
+  constexpr static std::size_t addrs = 0x3d5a724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -840,7 +840,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d6cc9c;
+  constexpr static std::size_t addrs = 0x3d5a798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -855,7 +855,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::Object*)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6ccac;
+  constexpr static std::size_t addrs = 0x3d5a7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -869,7 +869,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6cda0;
+  constexpr static std::size_t addrs = 0x3d5a89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -884,7 +884,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(bool)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65d50;
+  constexpr static std::size_t addrs = 0x3d5384c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -898,7 +898,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(char16_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d68c8c;
+  constexpr static std::size_t addrs = 0x3d56788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -912,7 +912,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int8_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6cea4;
+  constexpr static std::size_t addrs = 0x3d5a9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -926,7 +926,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int16_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6cef8;
+  constexpr static std::size_t addrs = 0x3d5a9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -940,7 +940,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint16_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6cf54;
+  constexpr static std::size_t addrs = 0x3d5aa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -954,7 +954,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6cfb0;
+  constexpr static std::size_t addrs = 0x3d5aaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -968,7 +968,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint32_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6d008;
+  constexpr static std::size_t addrs = 0x3d5ab04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -982,7 +982,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int64_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6d060;
+  constexpr static std::size_t addrs = 0x3d5ab5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -996,7 +996,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint64_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6d0b8;
+  constexpr static std::size_t addrs = 0x3d5abb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1010,7 +1010,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(float_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6d110;
+  constexpr static std::size_t addrs = 0x3d5ac0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1024,7 +1024,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(double_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6d16c;
+  constexpr static std::size_t addrs = 0x3d5ac68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1038,7 +1038,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::Decimal)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6d1cc;
+  constexpr static std::size_t addrs = 0x3d5acc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1052,7 +1052,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::StringW)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6d240;
+  constexpr static std::size_t addrs = 0x3d5ad3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1066,7 +1066,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d6d2b4;
+  constexpr static std::size_t addrs = 0x3d5adb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1081,7 +1081,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::Object*)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6d2c8;
+  constexpr static std::size_t addrs = 0x3d5adc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1095,7 +1095,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6d3bc;
+  constexpr static std::size_t addrs = 0x3d5aeb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1110,7 +1110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(bool)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65db4;
+  constexpr static std::size_t addrs = 0x3d538b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1124,7 +1124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(char16_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d68d40;
+  constexpr static std::size_t addrs = 0x3d5683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1138,7 +1138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(int8_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6d4c0;
+  constexpr static std::size_t addrs = 0x3d5afbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1152,7 +1152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint8_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d67bd8;
+  constexpr static std::size_t addrs = 0x3d556d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1166,7 +1166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint16_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6d4c8;
+  constexpr static std::size_t addrs = 0x3d5afc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1180,7 +1180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(int32_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6d51c;
+  constexpr static std::size_t addrs = 0x3d5b018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1194,7 +1194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint32_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6d574;
+  constexpr static std::size_t addrs = 0x3d5b070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1208,7 +1208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(int64_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6d5cc;
+  constexpr static std::size_t addrs = 0x3d5b0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1222,7 +1222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint64_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6d624;
+  constexpr static std::size_t addrs = 0x3d5b120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1236,7 +1236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(float_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6d67c;
+  constexpr static std::size_t addrs = 0x3d5b178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1250,7 +1250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(double_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6d6d8;
+  constexpr static std::size_t addrs = 0x3d5b1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1264,7 +1264,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::Decimal)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6d738;
+  constexpr static std::size_t addrs = 0x3d5b234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1278,7 +1278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6d7ac;
+  constexpr static std::size_t addrs = 0x3d5b2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1293,7 +1293,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::System::Object*)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6d7c4;
+  constexpr static std::size_t addrs = 0x3d5b2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1307,7 +1307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6d8b8;
+  constexpr static std::size_t addrs = 0x3d5b3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1322,7 +1322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(bool)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65e18;
+  constexpr static std::size_t addrs = 0x3d53914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1336,7 +1336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(char16_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d68dec;
+  constexpr static std::size_t addrs = 0x3d568e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1350,7 +1350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int8_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6d9bc;
+  constexpr static std::size_t addrs = 0x3d5b4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1364,7 +1364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint8_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d67c38;
+  constexpr static std::size_t addrs = 0x3d55734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1378,7 +1378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int16_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6da10;
+  constexpr static std::size_t addrs = 0x3d5b50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1392,7 +1392,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int32_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6da64;
+  constexpr static std::size_t addrs = 0x3d5b560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1406,7 +1406,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint32_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6dabc;
+  constexpr static std::size_t addrs = 0x3d5b5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1420,7 +1420,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int64_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6db14;
+  constexpr static std::size_t addrs = 0x3d5b610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1434,7 +1434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint64_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6db6c;
+  constexpr static std::size_t addrs = 0x3d5b668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1448,7 +1448,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(float_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6dbc4;
+  constexpr static std::size_t addrs = 0x3d5b6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1462,7 +1462,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(double_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6dc20;
+  constexpr static std::size_t addrs = 0x3d5b71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1476,7 +1476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::System::Decimal)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6dc80;
+  constexpr static std::size_t addrs = 0x3d5b77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1490,7 +1490,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6dcf4;
+  constexpr static std::size_t addrs = 0x3d5b7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1505,7 +1505,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Object*)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6dd0c;
+  constexpr static std::size_t addrs = 0x3d5b808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1519,7 +1519,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6de00;
+  constexpr static std::size_t addrs = 0x3d5b8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1534,7 +1534,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(bool)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65e7c;
+  constexpr static std::size_t addrs = 0x3d53978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1548,7 +1548,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(char16_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d68e48;
+  constexpr static std::size_t addrs = 0x3d56944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1562,7 +1562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint8_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d67c98;
+  constexpr static std::size_t addrs = 0x3d55794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1576,7 +1576,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int16_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6df04;
+  constexpr static std::size_t addrs = 0x3d5ba00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1590,7 +1590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint16_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6df0c;
+  constexpr static std::size_t addrs = 0x3d5ba08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1604,7 +1604,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6df14;
+  constexpr static std::size_t addrs = 0x3d5ba10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1618,7 +1618,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int64_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6df68;
+  constexpr static std::size_t addrs = 0x3d5ba64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1632,7 +1632,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6dfc0;
+  constexpr static std::size_t addrs = 0x3d5babc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1646,7 +1646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6e018;
+  constexpr static std::size_t addrs = 0x3d5bb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1660,7 +1660,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(double_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3d6cb28;
+  constexpr static std::size_t addrs = 0x3d5a624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1674,7 +1674,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Decimal)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6e074;
+  constexpr static std::size_t addrs = 0x3d5bb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1688,7 +1688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d6e0e8;
+  constexpr static std::size_t addrs = 0x3d5bbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1702,7 +1702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6e160;
+  constexpr static std::size_t addrs = 0x3d5bc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1717,7 +1717,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::Object*)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6e178;
+  constexpr static std::size_t addrs = 0x3d5bc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1731,7 +1731,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6e26c;
+  constexpr static std::size_t addrs = 0x3d5bd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1746,7 +1746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(bool)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65ee0;
+  constexpr static std::size_t addrs = 0x3d539dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1760,7 +1760,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(char16_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d68ea8;
+  constexpr static std::size_t addrs = 0x3d569a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1774,7 +1774,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int8_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6e370;
+  constexpr static std::size_t addrs = 0x3d5be6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1788,7 +1788,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint8_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d67cf8;
+  constexpr static std::size_t addrs = 0x3d557f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1802,7 +1802,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int16_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6e3c4;
+  constexpr static std::size_t addrs = 0x3d5bec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1816,7 +1816,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint16_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6e418;
+  constexpr static std::size_t addrs = 0x3d5bf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1830,7 +1830,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int32_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6e420;
+  constexpr static std::size_t addrs = 0x3d5bf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1844,7 +1844,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int64_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6e474;
+  constexpr static std::size_t addrs = 0x3d5bf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1858,7 +1858,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint64_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6e4cc;
+  constexpr static std::size_t addrs = 0x3d5bfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1872,7 +1872,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(float_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6e524;
+  constexpr static std::size_t addrs = 0x3d5c020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1886,7 +1886,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(double_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3d6e580;
+  constexpr static std::size_t addrs = 0x3d5c07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1900,7 +1900,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::Decimal)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6e628;
+  constexpr static std::size_t addrs = 0x3d5c124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1914,7 +1914,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6e69c;
+  constexpr static std::size_t addrs = 0x3d5c198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1929,7 +1929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Object*)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6e6b4;
+  constexpr static std::size_t addrs = 0x3d5c1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1943,7 +1943,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6e7a8;
+  constexpr static std::size_t addrs = 0x3d5c2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1958,7 +1958,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(bool)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65f44;
+  constexpr static std::size_t addrs = 0x3d53a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1972,7 +1972,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(char16_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d68f08;
+  constexpr static std::size_t addrs = 0x3d56a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1986,7 +1986,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int8_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6e8ac;
+  constexpr static std::size_t addrs = 0x3d5c3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2000,7 +2000,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint8_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d67d58;
+  constexpr static std::size_t addrs = 0x3d55854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2014,7 +2014,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int16_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6e8b4;
+  constexpr static std::size_t addrs = 0x3d5c3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2028,7 +2028,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint16_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6e8bc;
+  constexpr static std::size_t addrs = 0x3d5c3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2042,7 +2042,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6e8c4;
+  constexpr static std::size_t addrs = 0x3d5c3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2056,7 +2056,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint32_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6e8cc;
+  constexpr static std::size_t addrs = 0x3d5c3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2070,7 +2070,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint64_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6e8d4;
+  constexpr static std::size_t addrs = 0x3d5c3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2084,7 +2084,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(float_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6e928;
+  constexpr static std::size_t addrs = 0x3d5c424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2098,7 +2098,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(double_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3d6e984;
+  constexpr static std::size_t addrs = 0x3d5c480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2112,7 +2112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Decimal)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6ea94;
+  constexpr static std::size_t addrs = 0x3d5c590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2126,7 +2126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d6eb08;
+  constexpr static std::size_t addrs = 0x3d5c604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2140,7 +2140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6eb80;
+  constexpr static std::size_t addrs = 0x3d5c67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2155,7 +2155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Object*)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6eb98;
+  constexpr static std::size_t addrs = 0x3d5c694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2169,7 +2169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6ec8c;
+  constexpr static std::size_t addrs = 0x3d5c788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2184,7 +2184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d65fa8;
+  constexpr static std::size_t addrs = 0x3d53aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2198,7 +2198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(char16_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d68f68;
+  constexpr static std::size_t addrs = 0x3d56a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2212,7 +2212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int8_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6ed90;
+  constexpr static std::size_t addrs = 0x3d5c88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2226,7 +2226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint8_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d67db8;
+  constexpr static std::size_t addrs = 0x3d558b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2240,7 +2240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int16_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6ede4;
+  constexpr static std::size_t addrs = 0x3d5c8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2254,7 +2254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint16_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6ee38;
+  constexpr static std::size_t addrs = 0x3d5c934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2268,7 +2268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int32_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6ee40;
+  constexpr static std::size_t addrs = 0x3d5c93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2282,7 +2282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint32_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6ee94;
+  constexpr static std::size_t addrs = 0x3d5c990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2296,7 +2296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d6ee9c;
+  constexpr static std::size_t addrs = 0x3d5c998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2310,7 +2310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(float_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6eef0;
+  constexpr static std::size_t addrs = 0x3d5c9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2324,7 +2324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(double_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3d6ef4c;
+  constexpr static std::size_t addrs = 0x3d5ca48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2338,7 +2338,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Decimal)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d6f048;
+  constexpr static std::size_t addrs = 0x3d5cb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2352,7 +2352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d6f0bc;
+  constexpr static std::size_t addrs = 0x3d5cbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2366,7 +2366,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6f134;
+  constexpr static std::size_t addrs = 0x3d5cc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2381,7 +2381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Object*)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6f14c;
+  constexpr static std::size_t addrs = 0x3d5cc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2395,7 +2395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6f240;
+  constexpr static std::size_t addrs = 0x3d5cd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2410,7 +2410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int8_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6f344;
+  constexpr static std::size_t addrs = 0x3d5ce40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2424,7 +2424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(uint8_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d67e18;
+  constexpr static std::size_t addrs = 0x3d55914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2438,7 +2438,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int16_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6f350;
+  constexpr static std::size_t addrs = 0x3d5ce4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2452,7 +2452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(uint16_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6f35c;
+  constexpr static std::size_t addrs = 0x3d5ce58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2466,7 +2466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f368;
+  constexpr static std::size_t addrs = 0x3d5ce64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2480,7 +2480,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(uint32_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f370;
+  constexpr static std::size_t addrs = 0x3d5ce6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2494,7 +2494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int64_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f378;
+  constexpr static std::size_t addrs = 0x3d5ce74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2508,7 +2508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(uint64_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6f380;
+  constexpr static std::size_t addrs = 0x3d5ce7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2522,7 +2522,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(double_t)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f38c;
+  constexpr static std::size_t addrs = 0x3d5ce88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2536,7 +2536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Decimal)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d6f394;
+  constexpr static std::size_t addrs = 0x3d5ce90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2550,7 +2550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::StringW)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d6f3fc;
+  constexpr static std::size_t addrs = 0x3d5cef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2564,7 +2564,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d6f474;
+  constexpr static std::size_t addrs = 0x3d5cf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2579,7 +2579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(bool)>(&::System::Convert::ToSingle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d66014;
+  constexpr static std::size_t addrs = 0x3d53b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2593,7 +2593,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::Object*)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6f490;
+  constexpr static std::size_t addrs = 0x3d5cf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2607,7 +2607,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d6f584;
+  constexpr static std::size_t addrs = 0x3d5d080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2622,7 +2622,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(int8_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6f688;
+  constexpr static std::size_t addrs = 0x3d5d184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2636,7 +2636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(uint8_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d67e7c;
+  constexpr static std::size_t addrs = 0x3d55978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2650,7 +2650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(int16_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6f694;
+  constexpr static std::size_t addrs = 0x3d5d190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2664,7 +2664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(uint16_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6f6a0;
+  constexpr static std::size_t addrs = 0x3d5d19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2678,7 +2678,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(int32_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f6ac;
+  constexpr static std::size_t addrs = 0x3d5d1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2692,7 +2692,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(uint32_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f6b4;
+  constexpr static std::size_t addrs = 0x3d5d1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2706,7 +2706,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(int64_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f6bc;
+  constexpr static std::size_t addrs = 0x3d5d1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2720,7 +2720,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(uint64_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f6c4;
+  constexpr static std::size_t addrs = 0x3d5d1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2734,7 +2734,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(float_t)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6f6cc;
+  constexpr static std::size_t addrs = 0x3d5d1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2748,7 +2748,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::Decimal)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d6f6d4;
+  constexpr static std::size_t addrs = 0x3d5d1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2762,7 +2762,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d6f73c;
+  constexpr static std::size_t addrs = 0x3d5d238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2777,7 +2777,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(bool)>(&::System::Convert::ToDouble)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d6608c;
+  constexpr static std::size_t addrs = 0x3d53b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2791,7 +2791,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3d6f758;
+  constexpr static std::size_t addrs = 0x3d5d254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2806,7 +2806,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int8_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6f880;
+  constexpr static std::size_t addrs = 0x3d5d37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2820,7 +2820,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint8_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d67ee0;
+  constexpr static std::size_t addrs = 0x3d559dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2834,7 +2834,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int16_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6f8d8;
+  constexpr static std::size_t addrs = 0x3d5d3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2848,7 +2848,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint16_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6f930;
+  constexpr static std::size_t addrs = 0x3d5d42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2862,7 +2862,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int32_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6f988;
+  constexpr static std::size_t addrs = 0x3d5d484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2876,7 +2876,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint32_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6f9e0;
+  constexpr static std::size_t addrs = 0x3d5d4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2890,7 +2890,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int64_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6fa38;
+  constexpr static std::size_t addrs = 0x3d5d534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2904,7 +2904,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint64_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6fa90;
+  constexpr static std::size_t addrs = 0x3d5d58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2918,7 +2918,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(float_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6fae8;
+  constexpr static std::size_t addrs = 0x3d5d5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2932,7 +2932,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(double_t)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6fb48;
+  constexpr static std::size_t addrs = 0x3d5d644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2946,7 +2946,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d6fba8;
+  constexpr static std::size_t addrs = 0x3d5d6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2961,7 +2961,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(bool)>(&::System::Convert::ToDecimal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d660fc;
+  constexpr static std::size_t addrs = 0x3d53bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2975,7 +2975,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToDateTime)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3d6fc30;
+  constexpr static std::size_t addrs = 0x3d5d72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2990,7 +2990,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW, ::System::IFormatProvider*)>(&::System::Convert::ToDateTime)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3d6fd60;
+  constexpr static std::size_t addrs = 0x3d5d85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3005,7 +3005,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3d6fdf0;
+  constexpr static std::size_t addrs = 0x3d5d8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3020,7 +3020,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(bool)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6ff90;
+  constexpr static std::size_t addrs = 0x3d5da8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3034,7 +3034,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(char16_t, ::System::IFormatProvider*)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6ffec;
+  constexpr static std::size_t addrs = 0x3d5dae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3049,7 +3049,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d70044;
+  constexpr static std::size_t addrs = 0x3d5db40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3063,7 +3063,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t, ::System::IFormatProvider*)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d700ac;
+  constexpr static std::size_t addrs = 0x3d5dba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3078,7 +3078,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int64_t)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d700c8;
+  constexpr static std::size_t addrs = 0x3d5dbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3092,7 +3092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float_t)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d70130;
+  constexpr static std::size_t addrs = 0x3d5dc2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3106,7 +3106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::StringW, int32_t)>(&::System::Convert::ToByte)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3d70198;
+  constexpr static std::size_t addrs = 0x3d5dc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3120,7 +3120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, int32_t)>(&::System::Convert::ToSByte)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3d702a0;
+  constexpr static std::size_t addrs = 0x3d5dd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3134,7 +3134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::StringW, int32_t)>(&::System::Convert::ToInt16)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3d703b8;
+  constexpr static std::size_t addrs = 0x3d5deb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3148,7 +3148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::StringW, int32_t)>(&::System::Convert::ToUInt16)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3d704d0;
+  constexpr static std::size_t addrs = 0x3d5dfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3162,7 +3162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Convert::ToInt32)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d705d8;
+  constexpr static std::size_t addrs = 0x3d5e0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3176,7 +3176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW, int32_t)>(&::System::Convert::ToUInt32)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d706ac;
+  constexpr static std::size_t addrs = 0x3d5e1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3190,7 +3190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW, int32_t)>(&::System::Convert::ToInt64)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d70780;
+  constexpr static std::size_t addrs = 0x3d5e27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3204,7 +3204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int32_t)>(&::System::Convert::ToUInt64)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d70854;
+  constexpr static std::size_t addrs = 0x3d5e350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3218,7 +3218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t, int32_t)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d70928;
+  constexpr static std::size_t addrs = 0x3d5e424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3232,7 +3232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int64_t, int32_t)>(&::System::Convert::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d709a8;
+  constexpr static std::size_t addrs = 0x3d5e4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3246,7 +3246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Convert::ToBase64String)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d70a28;
+  constexpr static std::size_t addrs = 0x3d5e524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3260,7 +3260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Convert::ToBase64String)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d70c8c;
+  constexpr static std::size_t addrs = 0x3d5e788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3276,7 +3276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Base64FormattingOptions)>(
     &::System::Convert::ToBase64String)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3d70cfc;
+  constexpr static std::size_t addrs = 0x3d5e7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3293,7 +3293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::ReadOnlySpan_1<uint8_t>, ::System::Base64FormattingOptions)>(
     &::System::Convert::ToBase64String)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3d70adc;
+  constexpr static std::size_t addrs = 0x3d5e5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3309,7 +3309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(
     &::System::Convert::ToBase64CharArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d7118c;
+  constexpr static std::size_t addrs = 0x3d5ec88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3327,7 +3327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t,
                                                                                               ::System::Base64FormattingOptions)>(&::System::Convert::ToBase64CharArray)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3d71214;
+  constexpr static std::size_t addrs = 0x3d5ed10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3345,7 +3345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<char16_t>, ::cordl_internals::Ptr<uint8_t>, int32_t, int32_t, bool)>(
     &::System::Convert::ConvertToBase64Array)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3d70f48;
+  constexpr static std::size_t addrs = 0x3d5ea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3362,7 +3362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, bool)>(&::System::Convert::ToBase64_CalculateAndValidateOutputLength)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d70e98;
+  constexpr static std::size_t addrs = 0x3d5e994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3376,7 +3376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(&::System::Convert::FromBase64String)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d71520;
+  constexpr static std::size_t addrs = 0x3d5f01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3391,7 +3391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<uint8_t>, ::ByRef<int32_t>)>(
     &::System::Convert::TryFromBase64Chars)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x3d7175c;
+  constexpr static std::size_t addrs = 0x3d5f258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3408,7 +3408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<char16_t>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::System::Convert::CopyToTempBufferWithoutWhiteSpace)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3d71c30;
+  constexpr static std::size_t addrs = 0x3d5f72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3424,7 +3424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Convert::IsSpace)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d71d54;
+  constexpr static std::size_t addrs = 0x3d5f850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3439,7 +3439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Convert::FromBase64CharArray)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3d71d80;
+  constexpr static std::size_t addrs = 0x3d5f87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3455,7 +3455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::cordl_internals::Ptr<char16_t>, int32_t)>(
     &::System::Convert::FromBase64CharPtr)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3d715d4;
+  constexpr static std::size_t addrs = 0x3d5f0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3470,7 +3470,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<char16_t>, int32_t)>(&::System::Convert::FromBase64_ComputeResultLength)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3d71f70;
+  constexpr static std::size_t addrs = 0x3d5fa6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

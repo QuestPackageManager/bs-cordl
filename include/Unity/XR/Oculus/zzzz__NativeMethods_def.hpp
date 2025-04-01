@@ -158,94 +158,94 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE NativeMethods_Internal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnableAppMetrics, addr 0x484367c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EnableAppMetrics, addr 0x483125c, size 0x7c, virtual false, abstract: false, final false
   static inline void EnableAppMetrics(bool enable);
 
-  /// @brief Method EnablePerfMetrics, addr 0x4843600, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EnablePerfMetrics, addr 0x48311e0, size 0x7c, virtual false, abstract: false, final false
   static inline void EnablePerfMetrics(bool enable);
 
-  /// @brief Method GetAppHasInputFocus, addr 0x484377c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAppHasInputFocus, addr 0x483135c, size 0x70, virtual false, abstract: false, final false
   static inline bool GetAppHasInputFocus();
 
-  /// @brief Method GetAppShouldQuit, addr 0x48439d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAppShouldQuit, addr 0x48315b8, size 0x70, virtual false, abstract: false, final false
   static inline bool GetAppShouldQuit();
 
-  /// @brief Method GetBoundaryConfigured, addr 0x48437ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x48313cc, size 0x70, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x484385c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryDimensions, addr 0x483143c, size 0x8c, virtual false, abstract: false, final false
   static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::Boundary_BoundaryType boundaryType, ::ByRef<::UnityEngine::Vector3> dimensions);
 
-  /// @brief Method GetBoundaryVisible, addr 0x48438e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x48314c8, size 0x70, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method GetDisplayAvailableFrequencies, addr 0x4843a48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayAvailableFrequencies, addr 0x4831628, size 0x8c, virtual false, abstract: false, final false
   static inline bool GetDisplayAvailableFrequencies(::System::IntPtr ptr, ::ByRef<int32_t> numFrequencies);
 
-  /// @brief Method GetDisplayFrequency, addr 0x4843b58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayFrequency, addr 0x4831738, size 0x84, virtual false, abstract: false, final false
   static inline bool GetDisplayFrequency(::ByRef<float_t> refreshRate);
 
-  /// @brief Method GetEyeTrackedFoveatedRenderingEnabled, addr 0x4843e84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEyeTrackedFoveatedRenderingEnabled, addr 0x4831a64, size 0x70, virtual false, abstract: false, final false
   static inline bool GetEyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method GetEyeTrackedFoveatedRenderingSupported, addr 0x4843e14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEyeTrackedFoveatedRenderingSupported, addr 0x48319f4, size 0x70, virtual false, abstract: false, final false
   static inline bool GetEyeTrackedFoveatedRenderingSupported();
 
-  /// @brief Method GetIsSupportedDevice, addr 0x4843298, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetIsSupportedDevice, addr 0x4830e78, size 0x70, virtual false, abstract: false, final false
   static inline bool GetIsSupportedDevice();
 
-  /// @brief Method GetOVRPVersion, addr 0x4843580, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetOVRPVersion, addr 0x4831160, size 0x80, virtual false, abstract: false, final false
   static inline void GetOVRPVersion(::ArrayW<uint8_t, ::Array<uint8_t>*> version);
 
-  /// @brief Method GetShouldRestartSession, addr 0x4843f74, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetShouldRestartSession, addr 0x4831b54, size 0x70, virtual false, abstract: false, final false
   static inline bool GetShouldRestartSession();
 
-  /// @brief Method GetSystemHeadsetType, addr 0x4843bdc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHeadsetType, addr 0x48317bc, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method GetTiledMultiResLevel, addr 0x4843d30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetTiledMultiResLevel, addr 0x4831910, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetTiledMultiResLevel();
 
-  /// @brief Method GetTiledMultiResSupported, addr 0x4843c44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTiledMultiResSupported, addr 0x4831824, size 0x70, virtual false, abstract: false, final false
   static inline bool GetTiledMultiResSupported();
 
-  /// @brief Method LoadOVRPlugin, addr 0x4843308, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LoadOVRPlugin, addr 0x4830ee8, size 0x8c, virtual false, abstract: false, final false
   static inline bool LoadOVRPlugin(::StringW ovrpPath);
 
-  /// @brief Method SetBoundaryVisible, addr 0x4843958, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x4831538, size 0x7c, virtual false, abstract: false, final false
   static inline void SetBoundaryVisible(bool boundaryVisible);
 
-  /// @brief Method SetCPULevel, addr 0x4843488, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetCPULevel, addr 0x4831068, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t SetCPULevel(int32_t cpuLevel);
 
-  /// @brief Method SetColorOffset, addr 0x4843204, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetColorOffset, addr 0x4830de4, size 0x94, virtual false, abstract: false, final false
   static inline void SetColorOffset(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetColorScale, addr 0x484316c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetColorScale, addr 0x4830d4c, size 0x98, virtual false, abstract: false, final false
   static inline void SetColorScale(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetDeveloperModeStrict, addr 0x48436f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetDeveloperModeStrict, addr 0x48312d8, size 0x84, virtual false, abstract: false, final false
   static inline bool SetDeveloperModeStrict(bool active);
 
-  /// @brief Method SetDisplayFrequency, addr 0x4843ad4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetDisplayFrequency, addr 0x48316b4, size 0x84, virtual false, abstract: false, final false
   static inline bool SetDisplayFrequency(float_t refreshRate);
 
-  /// @brief Method SetEyeTrackedFoveatedRenderingEnabled, addr 0x4843ef4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetEyeTrackedFoveatedRenderingEnabled, addr 0x4831ad4, size 0x7c, virtual false, abstract: false, final false
   static inline void SetEyeTrackedFoveatedRenderingEnabled(bool isEnabled);
 
-  /// @brief Method SetGPULevel, addr 0x4843504, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetGPULevel, addr 0x48310e4, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t SetGPULevel(int32_t gpuLevel);
 
-  /// @brief Method SetTiledMultiResDynamic, addr 0x4843d98, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetTiledMultiResDynamic, addr 0x4831978, size 0x7c, virtual false, abstract: false, final false
   static inline void SetTiledMultiResDynamic(bool isDynamic);
 
-  /// @brief Method SetTiledMultiResLevel, addr 0x4843cb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetTiledMultiResLevel, addr 0x4831894, size 0x7c, virtual false, abstract: false, final false
   static inline void SetTiledMultiResLevel(int32_t level);
 
-  /// @brief Method SetUserDefinedSettings, addr 0x48433fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetUserDefinedSettings, addr 0x4830fdc, size 0x8c, virtual false, abstract: false, final false
   static inline void SetUserDefinedSettings(::Unity::XR::Oculus::NativeMethods_UserDefinedSettings settings);
 
-  /// @brief Method UnloadOVRPlugin, addr 0x4843398, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UnloadOVRPlugin, addr 0x4830f78, size 0x64, virtual false, abstract: false, final false
   static inline void UnloadOVRPlugin();
 
 protected:
@@ -282,94 +282,94 @@ public:
 
   using UserDefinedSettings = ::Unity::XR::Oculus::NativeMethods_UserDefinedSettings;
 
-  /// @brief Method EnableAppMetrics, addr 0x4843164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnableAppMetrics, addr 0x4830d44, size 0x8, virtual false, abstract: false, final false
   static inline void EnableAppMetrics(bool enable);
 
-  /// @brief Method EnablePerfMetrics, addr 0x4842df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnablePerfMetrics, addr 0x48309d0, size 0x8, virtual false, abstract: false, final false
   static inline void EnablePerfMetrics(bool enable);
 
-  /// @brief Method GetAppShouldQuit, addr 0x48439d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetAppShouldQuit, addr 0x48315b4, size 0x4, virtual false, abstract: false, final false
   static inline bool GetAppShouldQuit();
 
-  /// @brief Method GetBoundaryConfigured, addr 0x48409cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x482e5ac, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x48409d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryDimensions, addr 0x482e5b4, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::Boundary_BoundaryType boundaryType, ::ByRef<::UnityEngine::Vector3> dimensions);
 
-  /// @brief Method GetBoundaryVisible, addr 0x48409dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x482e5bc, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method GetDisplayAvailableFrequencies, addr 0x4841e9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayAvailableFrequencies, addr 0x482fa7c, size 0x4, virtual false, abstract: false, final false
   static inline bool GetDisplayAvailableFrequencies(::System::IntPtr ptr, ::ByRef<int32_t> numFrequencies);
 
-  /// @brief Method GetDisplayFrequency, addr 0x4841eac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayFrequency, addr 0x482fa8c, size 0x4, virtual false, abstract: false, final false
   static inline bool GetDisplayFrequency(::ByRef<float_t> refreshRate);
 
-  /// @brief Method GetEyeTrackedFoveatedRenderingEnabled, addr 0x4840394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEyeTrackedFoveatedRenderingEnabled, addr 0x482df74, size 0x4, virtual false, abstract: false, final false
   static inline bool GetEyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method GetEyeTrackedFoveatedRenderingSupported, addr 0x4840370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEyeTrackedFoveatedRenderingSupported, addr 0x482df50, size 0x4, virtual false, abstract: false, final false
   static inline bool GetEyeTrackedFoveatedRenderingSupported();
 
-  /// @brief Method GetHasInputFocus, addr 0x484091c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHasInputFocus, addr 0x482e4fc, size 0x4, virtual false, abstract: false, final false
   static inline bool GetHasInputFocus();
 
-  /// @brief Method GetIsSupportedDevice, addr 0x4840fa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetIsSupportedDevice, addr 0x482eb88, size 0x4, virtual false, abstract: false, final false
   static inline bool GetIsSupportedDevice();
 
-  /// @brief Method GetOVRPVersion, addr 0x4841ffc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOVRPVersion, addr 0x482fbdc, size 0x4, virtual false, abstract: false, final false
   static inline void GetOVRPVersion(::ArrayW<uint8_t, ::Array<uint8_t>*> version);
 
-  /// @brief Method GetShouldRestartSession, addr 0x4843f70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetShouldRestartSession, addr 0x4831b50, size 0x4, virtual false, abstract: false, final false
   static inline bool GetShouldRestartSession();
 
-  /// @brief Method GetSystemHeadsetType, addr 0x4840130, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHeadsetType, addr 0x482dd10, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method GetTiledMultiResLevel, addr 0x48402e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTiledMultiResLevel, addr 0x482dec8, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetTiledMultiResLevel();
 
-  /// @brief Method GetTiledMultiResSupported, addr 0x48401e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTiledMultiResSupported, addr 0x482ddc8, size 0x4, virtual false, abstract: false, final false
   static inline bool GetTiledMultiResSupported();
 
-  /// @brief Method LoadOVRPlugin, addr 0x4841b98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LoadOVRPlugin, addr 0x482f778, size 0x4, virtual false, abstract: false, final false
   static inline bool LoadOVRPlugin(::StringW ovrpPath);
 
-  /// @brief Method SetBoundaryVisible, addr 0x48409e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x482e5c8, size 0x8, virtual false, abstract: false, final false
   static inline void SetBoundaryVisible(bool boundaryVisible);
 
-  /// @brief Method SetCPULevel, addr 0x4841ce0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetCPULevel, addr 0x482f8c0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SetCPULevel(int32_t cpuLevel);
 
-  /// @brief Method SetColorOffset, addr 0x4840128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetColorOffset, addr 0x482dd08, size 0x4, virtual false, abstract: false, final false
   static inline void SetColorOffset(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetColorScale, addr 0x4840124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetColorScale, addr 0x482dd04, size 0x4, virtual false, abstract: false, final false
   static inline void SetColorScale(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetDeveloperModeStrict, addr 0x4840b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDeveloperModeStrict, addr 0x482e6fc, size 0x8, virtual false, abstract: false, final false
   static inline bool SetDeveloperModeStrict(bool active);
 
-  /// @brief Method SetDisplayFrequency, addr 0x4841ea4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetDisplayFrequency, addr 0x482fa84, size 0x4, virtual false, abstract: false, final false
   static inline bool SetDisplayFrequency(float_t refreshRate);
 
-  /// @brief Method SetEyeTrackedFoveatedRenderingEnabled, addr 0x4840198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEyeTrackedFoveatedRenderingEnabled, addr 0x482dd78, size 0x8, virtual false, abstract: false, final false
   static inline void SetEyeTrackedFoveatedRenderingEnabled(bool isEnabled);
 
-  /// @brief Method SetGPULevel, addr 0x4841cfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetGPULevel, addr 0x482f8dc, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SetGPULevel(int32_t gpuLevel);
 
-  /// @brief Method SetTiledMultiResDynamic, addr 0x4840268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTiledMultiResDynamic, addr 0x482de48, size 0x8, virtual false, abstract: false, final false
   static inline void SetTiledMultiResDynamic(bool isDynamic);
 
-  /// @brief Method SetTiledMultiResLevel, addr 0x4840368, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetTiledMultiResLevel, addr 0x482df48, size 0x4, virtual false, abstract: false, final false
   static inline void SetTiledMultiResLevel(int32_t level);
 
-  /// @brief Method SetUserDefinedSettings, addr 0x4841714, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetUserDefinedSettings, addr 0x482f2f4, size 0x2c, virtual false, abstract: false, final false
   static inline void SetUserDefinedSettings(::Unity::XR::Oculus::NativeMethods_UserDefinedSettings settings);
 
-  /// @brief Method UnloadOVRPlugin, addr 0x4843394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UnloadOVRPlugin, addr 0x4830f74, size 0x4, virtual false, abstract: false, final false
   static inline void UnloadOVRPlugin();
 
 protected:

@@ -106,19 +106,19 @@ public:
   // Declarations
   using LightSwitchEventEffectDataValues = ::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues;
 
-  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x22470dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x223f26c, size 0x24, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2247138, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x223f2c8, size 0x38, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2247170, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x223f300, size 0x24, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasLightFadeEventDataValue, addr 0x2247100, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasLightFadeEventDataValue, addr 0x223f290, size 0x38, virtual false, abstract: false, final false
   static inline bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LightColorTypeFromEventDataValue, addr 0x22470a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method LightColorTypeFromEventDataValue, addr 0x223f234, size 0x38, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
 protected:

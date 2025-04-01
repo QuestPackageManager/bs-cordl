@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (
     ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x492fb3c;
+  constexpr static std::size_t addrs = 0x491d71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (
     ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x492fb50;
+  constexpr static std::size_t addrs = 0x491d730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags (
     ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492fb64;
+  constexpr static std::size_t addrs = 0x491d744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x492fb6c;
+  constexpr static std::size_t addrs = 0x491d74c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::System::Object*)>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x492fbd8;
+  constexpr static std::size_t addrs = 0x491d7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(
     ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x492fc58;
+  constexpr static std::size_t addrs = 0x491d838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

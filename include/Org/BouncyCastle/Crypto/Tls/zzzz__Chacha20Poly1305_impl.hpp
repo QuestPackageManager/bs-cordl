@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*)>(
     &::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::_ctor)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x23eb728;
+  constexpr static std::size_t addrs = 0x23e38b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::GetPlaintextLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23eba2c;
+  constexpr static std::size_t addrs = 0x23e3bbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::EncodePlaintext)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x23eba34;
+  constexpr static std::size_t addrs = 0x23e3bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::DecodeCiphertext)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x23ebb70;
+  constexpr static std::size_t addrs = 0x23e3d00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(::Org::BouncyCastle::Crypto::IStreamCipher*, bool, int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::InitRecord)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x23ebd54;
+  constexpr static std::size_t addrs = 0x23e3ee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(
     int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::CalculateNonce)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x23ebe80;
+  constexpr static std::size_t addrs = 0x23e4010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (
     ::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(::Org::BouncyCastle::Crypto::IStreamCipher*)>(&::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::GenerateRecordMacKey)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x23ebf6c;
+  constexpr static std::size_t addrs = 0x23e40fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::CalculateRecordMac)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x23ec0c4;
+  constexpr static std::size_t addrs = 0x23e4254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(::Org::BouncyCastle::Crypto::IMac*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::UpdateRecordMacLength)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x23ec26c;
+  constexpr static std::size_t addrs = 0x23e43fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(
     ::Org::BouncyCastle::Crypto::IMac*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::UpdateRecordMacText)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x23ec334;
+  constexpr static std::size_t addrs = 0x23e44c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::*)(
     int64_t, uint8_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::GetAdditionalData)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x23ec4bc;
+  constexpr static std::size_t addrs = 0x23e464c;
 
   inline static ::MethodInfo const* methodInfo() {
 

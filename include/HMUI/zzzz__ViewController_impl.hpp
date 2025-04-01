@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__DismissViewControllerCoroutine_d__54::*)(int32_t)>(
     &::HMUI::ViewController__DismissViewControllerCoroutine_d__54::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22903fc;
+  constexpr static std::size_t addrs = 0x228858c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__DismissViewControllerCoroutine_d__54::*)()>(
     &::HMUI::ViewController__DismissViewControllerCoroutine_d__54::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22905fc;
+  constexpr static std::size_t addrs = 0x228878c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController__DismissViewControllerCoroutine_d__54::*)()>(
     &::HMUI::ViewController__DismissViewControllerCoroutine_d__54::MoveNext)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2290600;
+  constexpr static std::size_t addrs = 0x2288790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ViewController__DismissViewControllerCoroutine_d__54::*)()>(
     &::HMUI::ViewController__DismissViewControllerCoroutine_d__54::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290920;
+  constexpr static std::size_t addrs = 0x2288ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__DismissViewControllerCoroutine_d__54::*)()>(
     &::HMUI::ViewController__DismissViewControllerCoroutine_d__54::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2290928;
+  constexpr static std::size_t addrs = 0x2288ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ViewController__DismissViewControllerCoroutine_d__54::*)()>(
     &::HMUI::ViewController__DismissViewControllerCoroutine_d__54::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290960;
+  constexpr static std::size_t addrs = 0x2288af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__PresentViewControllerCoroutine_d__50::*)(int32_t)>(
     &::HMUI::ViewController__PresentViewControllerCoroutine_d__50::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2290298;
+  constexpr static std::size_t addrs = 0x2288428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__PresentViewControllerCoroutine_d__50::*)()>(
     &::HMUI::ViewController__PresentViewControllerCoroutine_d__50::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2290968;
+  constexpr static std::size_t addrs = 0x2288af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController__PresentViewControllerCoroutine_d__50::*)()>(
     &::HMUI::ViewController__PresentViewControllerCoroutine_d__50::MoveNext)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x229096c;
+  constexpr static std::size_t addrs = 0x2288afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ViewController__PresentViewControllerCoroutine_d__50::*)()>(
     &::HMUI::ViewController__PresentViewControllerCoroutine_d__50::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290c00;
+  constexpr static std::size_t addrs = 0x2288d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__PresentViewControllerCoroutine_d__50::*)()>(
     &::HMUI::ViewController__PresentViewControllerCoroutine_d__50::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2290c08;
+  constexpr static std::size_t addrs = 0x2288d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ViewController__PresentViewControllerCoroutine_d__50::*)()>(
     &::HMUI::ViewController__PresentViewControllerCoroutine_d__50::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290c40;
+  constexpr static std::size_t addrs = 0x2288dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::*)(int32_t)>(
     &::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2290348;
+  constexpr static std::size_t addrs = 0x22884d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::*)()>(
     &::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2290c48;
+  constexpr static std::size_t addrs = 0x2288dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::*)()>(
     &::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::MoveNext)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x2290c4c;
+  constexpr static std::size_t addrs = 0x2288ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::*)()>(
     &::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290ea0;
+  constexpr static std::size_t addrs = 0x2289030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::*)()>(
     &::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2290ea8;
+  constexpr static std::size_t addrs = 0x2289038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::*)()>(
     &::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290ee0;
+  constexpr static std::size_t addrs = 0x2289070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -759,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ContainerViewController> (::HMUI::ViewController::*)()>(
     &::HMUI::ViewController::get_containerViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228ff90;
+  constexpr static std::size_t addrs = 0x2288120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_containerViewController",
@@ -772,7 +772,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_screen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228ff98;
+  constexpr static std::size_t addrs = 0x2288128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_screen",
@@ -785,7 +785,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_parentViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228ffa0;
+  constexpr static std::size_t addrs = 0x2288130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_parentViewController",
@@ -798,7 +798,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_childViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228ffa8;
+  constexpr static std::size_t addrs = 0x2288138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_childViewController",
@@ -811,7 +811,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_isInViewControllerHierarchy)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x228ffb0;
+  constexpr static std::size_t addrs = 0x2288140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -825,7 +825,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_isActivated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290010;
+  constexpr static std::size_t addrs = 0x22881a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_isActivated",
@@ -838,7 +838,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_wasActivatedBefore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290018;
+  constexpr static std::size_t addrs = 0x22881a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_wasActivatedBefore",
@@ -851,7 +851,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_isInTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2290020;
+  constexpr static std::size_t addrs = 0x22881b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_isInTransition",
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(bool)>(&::HMUI::ViewController::set_isInTransition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2290028;
+  constexpr static std::size_t addrs = 0x22881b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -878,7 +878,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_enableUserInteractions)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2290034;
+  constexpr static std::size_t addrs = 0x22881c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_enableUserInteractions",
@@ -891,7 +891,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(bool)>(&::HMUI::ViewController::set_enableUserInteractions)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x228fbec;
+  constexpr static std::size_t addrs = 0x2287d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -905,7 +905,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ButtonBinder* (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_buttonBinder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22900e4;
+  constexpr static std::size_t addrs = 0x2288274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_buttonBinder",
@@ -918,7 +918,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(::HMUI::ButtonBinder*)>(&::HMUI::ViewController::set_buttonBinder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22900ec;
+  constexpr static std::size_t addrs = 0x228827c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -932,7 +932,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_rectTransform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x228e8bc;
+  constexpr static std::size_t addrs = 0x2286a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_rectTransform",
@@ -945,7 +945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::CanvasGroup> (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_canvasGroup)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x228f450;
+  constexpr static std::size_t addrs = 0x22875e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_canvasGroup",
@@ -959,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::BaseRaycaster> (::HMUI::ViewController::*)()>(
     &::HMUI::ViewController::get_graphicRaycaster)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2290050;
+  constexpr static std::size_t addrs = 0x22881e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_graphicRaycaster",
@@ -972,7 +972,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)()>(&::HMUI::ViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22900f4;
+  constexpr static std::size_t addrs = 0x2288284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -986,7 +986,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(bool, bool, bool)>(&::HMUI::ViewController::DidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x229013c;
+  constexpr static std::size_t addrs = 0x22882cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1000,7 +1000,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(bool, bool)>(&::HMUI::ViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2290140;
+  constexpr static std::size_t addrs = 0x22882d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1015,7 +1015,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(::HMUI::Screen*, ::HMUI::ViewController*, ::HMUI::ContainerViewController*)>(
     &::HMUI::ViewController::__Init)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2289108;
+  constexpr static std::size_t addrs = 0x2281298;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1029,7 +1029,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)()>(&::HMUI::ViewController::__ResetViewController)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2290144;
+  constexpr static std::size_t addrs = 0x22882d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1044,7 +1044,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::ViewController::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(&::HMUI::ViewController::__PresentViewController)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x228c164;
+  constexpr static std::size_t addrs = 0x22842f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1061,7 +1061,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::HMUI::ViewController::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(&::HMUI::ViewController::PresentViewControllerCoroutine)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2290208;
+  constexpr static std::size_t addrs = 0x2288398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1078,7 +1078,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(
     ::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationType, ::HMUI::ViewController_AnimationDirection)>(&::HMUI::ViewController::__ReplaceViewController)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x228c49c;
+  constexpr static std::size_t addrs = 0x228462c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1097,7 +1097,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::HMUI::ViewController::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationType, ::HMUI::ViewController_AnimationDirection)>(
     &::HMUI::ViewController::ReplaceViewControllerCoroutine)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22902c0;
+  constexpr static std::size_t addrs = 0x2288450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1115,7 +1115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(
     &::HMUI::ViewController::__DismissViewController)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x228bbc0;
+  constexpr static std::size_t addrs = 0x2283d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1132,7 +1132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::HMUI::ViewController::*)(::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(&::HMUI::ViewController::DismissViewControllerCoroutine)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2290370;
+  constexpr static std::size_t addrs = 0x2288500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1148,7 +1148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(bool, bool)>(&::HMUI::ViewController::__Activate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22893ac;
+  constexpr static std::size_t addrs = 0x228153c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1162,7 +1162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)(bool, bool, bool)>(&::HMUI::ViewController::__Deactivate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x228952c;
+  constexpr static std::size_t addrs = 0x22816bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1176,7 +1176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)()>(&::HMUI::ViewController::DeactivateGameObject)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22896ac;
+  constexpr static std::size_t addrs = 0x228183c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1190,7 +1190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ViewController::*)(::HMUI::ViewController*)>(&::HMUI::ViewController::IsViewControllerInHierarchy)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2290424;
+  constexpr static std::size_t addrs = 0x22885b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1204,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HMUI::ViewController::Log)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22905a4;
+  constexpr static std::size_t addrs = 0x2288734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1218,7 +1218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewController::*)()>(&::HMUI::ViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228a07c;
+  constexpr static std::size_t addrs = 0x228220c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), ".ctor",

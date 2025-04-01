@@ -52,7 +52,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a37150, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a24224, size 0x148, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ObjectInstanceInfo* New_ctor();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__partTarget(::UnityW<::HoudiniEngineUnity::HEU_PartData> value);
 
-  /// @brief Method .ctor, addr 0x3a37298, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2436c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"

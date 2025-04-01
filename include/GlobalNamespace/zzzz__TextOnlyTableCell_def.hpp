@@ -29,29 +29,29 @@ namespace GlobalNamespace {
 class CORDL_TYPE TextOnlyTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _bgImage, offset 0x80, size 0x8
+  /// @brief Field _bgImage, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage)) ::UnityW<::HMUI::ImageView> _bgImage;
 
-  /// @brief Field _highlightImage, offset 0x88, size 0x8
+  /// @brief Field _highlightImage, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage)) ::UnityW<::HMUI::ImageView> _highlightImage;
 
-  /// @brief Field _selectedHighlightColor, offset 0x68, size 0x10
+  /// @brief Field _selectedHighlightColor, offset 0x78, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedHighlightColor, put = __cordl_internal_set__selectedHighlightColor)) ::UnityEngine::Color _selectedHighlightColor;
 
-  /// @brief Field _text, offset 0x78, size 0x8
+  /// @brief Field _text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x3c0dbb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3bfb6ac, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::TextOnlyTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3c0dae4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3bfb5e0, size 0xcc, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3c0dae0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3bfb5dc, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__bgImage() const;
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c0dbb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfb6b0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3c0da98, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3bfb594, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x3c0dabc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3bfb5b8, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -104,30 +104,30 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4771 };
 
-  /// @brief Field _selectedHighlightColor, offset: 0x68, size: 0x10, def value: None
+  /// @brief Field _selectedHighlightColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedHighlightColor;
 
-  /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-  /// @brief Field _bgImage, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _bgImage, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____bgImage;
 
-  /// @brief Field _highlightImage, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _highlightImage, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____highlightImage;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____selectedHighlightColor) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____selectedHighlightColor) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____text) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____text) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____bgImage) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____bgImage) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____highlightImage) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____highlightImage) == 0x98, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextOnlyTableCell, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextOnlyTableCell, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextOnlyTableCell);

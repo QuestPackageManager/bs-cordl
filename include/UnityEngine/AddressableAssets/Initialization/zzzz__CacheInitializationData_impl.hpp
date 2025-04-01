@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d724;
+  constexpr static std::size_t addrs = 0x44fb304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CompressionEnabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x450d72c;
+  constexpr static std::size_t addrs = 0x44fb30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d738;
+  constexpr static std::size_t addrs = 0x44fb318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d740;
+  constexpr static std::size_t addrs = 0x44fb320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_ExpirationDelay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d748;
+  constexpr static std::size_t addrs = 0x44fb328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(int32_t)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_ExpirationDelay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d750;
+  constexpr static std::size_t addrs = 0x44fb330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_LimitCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d758;
+  constexpr static std::size_t addrs = 0x44fb338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_LimitCacheSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x450d760;
+  constexpr static std::size_t addrs = 0x44fb340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_MaximumCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d76c;
+  constexpr static std::size_t addrs = 0x44fb34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(int64_t)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_MaximumCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450d774;
+  constexpr static std::size_t addrs = 0x44fb354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x450d77c;
+  constexpr static std::size_t addrs = 0x44fb35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

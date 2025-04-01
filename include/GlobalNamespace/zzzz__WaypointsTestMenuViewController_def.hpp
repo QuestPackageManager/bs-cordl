@@ -145,21 +145,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x226ba44, size 0xab8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2263bd4, size 0xab8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226c5ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226477c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226c5f4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2264784, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226c62c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22647bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x226b8e8, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2263a78, size 0x15c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -234,16 +234,16 @@ public:
 
   constexpr void __cordl_internal_set__previewLevel_5__5(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  /// @brief Method <>m__Finally1, addr 0x226c59c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x226472c, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x226c54c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x22646dc, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method <>m__Finally3, addr 0x226c4fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally3, addr 0x226468c, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally3();
 
-  /// @brief Method .ctor, addr 0x226b71c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22638ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -399,27 +399,27 @@ public:
                       put = __cordl_internal_set__waypointsTestScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _waypointsTestScenesTransitionSetupData;
 
-  /// @brief Method CheckBeatmaps, addr 0x226b6bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmaps, addr 0x226384c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CheckBeatmaps();
 
-  /// @brief Method HandleMainGameSceneDidFinish, addr 0x226b744, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleMainGameSceneDidFinish, addr 0x22638d4, size 0x98, virtual false, abstract: false, final false
   inline void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
 
   static inline ::GlobalNamespace::WaypointsTestMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x226b5dc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x226376c, size 0xe0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x226b488, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2263618, size 0x154, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <HandleMainGameSceneDidFinish>b__19_0, addr 0x226b8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <HandleMainGameSceneDidFinish>b__19_0, addr 0x2263a70, size 0x8, virtual false, abstract: false, final false
   inline void _HandleMainGameSceneDidFinish_b__19_0(::Zenject::DiContainer* container);
 
-  /// @brief Method <Start>b__16_0, addr 0x226b7e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__16_0, addr 0x2263974, size 0xb0, virtual false, abstract: false, final false
   inline void _Start_b__16_0();
 
-  /// @brief Method <Start>b__16_1, addr 0x226b894, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__16_1, addr 0x2263a24, size 0x4c, virtual false, abstract: false, final false
   inline void _Start_b__16_1();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
@@ -518,7 +518,7 @@ public:
 
   constexpr void __cordl_internal_set__waypointsTestScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x226b7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226396c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

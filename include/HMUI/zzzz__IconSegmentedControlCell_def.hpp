@@ -32,13 +32,13 @@ namespace HMUI {
 class CORDL_TYPE IconSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
   // Declarations
-  /// @brief Field _backgroundGameObject, offset 0x70, size 0x8
+  /// @brief Field _backgroundGameObject, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__backgroundGameObject, put = __cordl_internal_set__backgroundGameObject)) ::UnityW<::UnityEngine::GameObject> _backgroundGameObject;
 
-  /// @brief Field _hoverHint, offset 0x68, size 0x8
+  /// @brief Field _hoverHint, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__hoverHint, put = __cordl_internal_set__hoverHint)) ::UnityW<::HMUI::HoverHint> _hoverHint;
 
-  /// @brief Field _icon, offset 0x60, size 0x8
+  /// @brief Field _icon, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image> _icon;
 
   __declspec(property(put = set_hideBackgroundImage)) bool hideBackgroundImage;
@@ -69,22 +69,22 @@ public:
 
   constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x4097c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408582c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x4097c50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x4085810, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hideBackgroundImage, addr 0x4097af4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x40856b4, size 0x9c, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_hintText, addr 0x4097ad8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x4085698, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_iconSize, addr 0x4097b90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_iconSize, addr 0x4085750, size 0x3c, virtual false, abstract: false, final false
   inline void set_iconSize(float_t value);
 
-  /// @brief Method set_sprite, addr 0x4097abc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x408567c, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -102,27 +102,27 @@ public:
   IconSegmentedControlCell(IconSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18800 };
 
-  /// @brief Field _icon, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;
 
-  /// @brief Field _hoverHint, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _hoverHint, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;
 
-  /// @brief Field _backgroundGameObject, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _backgroundGameObject, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____icon) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____icon) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____hoverHint) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____hoverHint) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____backgroundGameObject) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____backgroundGameObject) == 0x80, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControlCell, 0x78>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControlCell, 0x88>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::IconSegmentedControlCell);

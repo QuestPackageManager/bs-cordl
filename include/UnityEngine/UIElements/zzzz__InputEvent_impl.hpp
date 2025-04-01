@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent___c::*)()>(&::UnityEngine::UIElements::InputEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a36780;
+  constexpr static std::size_t addrs = 0x4a24360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent___c*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::InputEvent* (::UnityEngine::UIElements::InputEvent___c::*)()>(
     &::UnityEngine::UIElements::InputEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a36788;
+  constexpr static std::size_t addrs = 0x4a24368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent___c*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::InputEvent::set_previousData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a365ac;
+  constexpr static std::size_t addrs = 0x4a2418c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)(::StringW)>(&::UnityEngine::UIElements::InputEvent::set_newData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a365b4;
+  constexpr static std::size_t addrs = 0x4a24194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)()>(&::UnityEngine::UIElements::InputEvent::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a365bc;
+  constexpr static std::size_t addrs = 0x4a2419c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)()>(&::UnityEngine::UIElements::InputEvent::LocalInit)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a36614;
+  constexpr static std::size_t addrs = 0x4a241f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), "LocalInit",
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::InputEvent* (*)(::StringW, ::StringW)>(
     &::UnityEngine::UIElements::InputEvent::GetPooled)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a36624;
+  constexpr static std::size_t addrs = 0x4a24204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)()>(&::UnityEngine::UIElements::InputEvent::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a366a8;
+  constexpr static std::size_t addrs = 0x4a24288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), ".ctor",

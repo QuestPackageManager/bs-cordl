@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::GameVersionProvider__GetVersionInternalAsync_d__9::*)()>(
     &::BeatSaber::Init::GameVersionProvider__GetVersionInternalAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x227925c;
+  constexpr static std::size_t addrs = 0x22713ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::GameVersionProvider__GetVersionInternalAsync_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Init::GameVersionProvider__GetVersionInternalAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2279608;
+  constexpr static std::size_t addrs = 0x2271798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::GameVersionProvider__Initialize_d__5::*)()>(
     &::BeatSaber::Init::GameVersionProvider__Initialize_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x2279684;
+  constexpr static std::size_t addrs = 0x2271814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider__Initialize_d__5>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::GameVersionProvider__Initialize_d__5::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Init::GameVersionProvider__Initialize_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22798f8;
+  constexpr static std::size_t addrs = 0x2271a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::BeatSaber::Init::GameVersionProvider::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2278e1c;
+  constexpr static std::size_t addrs = 0x2270fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(),
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Init::GameVersion_Content (*)()>(&::BeatSaber::Init::GameVersionProvider::GetContentVersion)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2275b2c;
+  constexpr static std::size_t addrs = 0x226dcbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(),
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::GameVersionProvider::*)()>(&::BeatSaber::Init::GameVersionProvider::Initialize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2278e64;
+  constexpr static std::size_t addrs = 0x2270ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(), "Initialize",
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* (::BeatSaber::Init::GameVersionProvider::*)()>(
     &::BeatSaber::Init::GameVersionProvider::GetVersionAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2278ef4;
+  constexpr static std::size_t addrs = 0x2271084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(),
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::BeatSaber::Init::GameVersionProvider::GetBuildId)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2279000;
+  constexpr static std::size_t addrs = 0x2271190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(), "GetBuildId",
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Init::GameVersion* (*)()>(&::BeatSaber::Init::GameVersionProvider::GetBuildTimeGameVersion)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x2279094;
+  constexpr static std::size_t addrs = 0x2271224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* (::BeatSaber::Init::GameVersionProvider::*)()>(
     &::BeatSaber::Init::GameVersionProvider::GetVersionInternalAsync)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2278f18;
+  constexpr static std::size_t addrs = 0x22710a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(),
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::GameVersionProvider::*)()>(&::BeatSaber::Init::GameVersionProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2279254;
+  constexpr static std::size_t addrs = 0x22713e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::GameVersionProvider*>::get(), ".ctor",

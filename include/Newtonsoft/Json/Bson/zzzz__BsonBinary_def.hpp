@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
-  /// @brief Method .ctor, addr 0x3f60970, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f4e528, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
-  /// @brief Method get_BinaryType, addr 0x3f60960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryType, addr 0x3f4e518, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonBinaryType get_BinaryType();
 
-  /// @brief Method set_BinaryType, addr 0x3f60968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BinaryType, addr 0x3f4e520, size 0x8, virtual false, abstract: false, final false
   inline void set_BinaryType(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
 protected:

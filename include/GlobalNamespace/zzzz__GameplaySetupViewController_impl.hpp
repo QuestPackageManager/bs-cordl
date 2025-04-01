@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController_Panel::*)(
     ::StringW, ::GlobalNamespace::IRefreshable*, ::UnityEngine::GameObject*)>(&::GlobalNamespace::GameplaySetupViewController_Panel::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c27388;
+  constexpr static std::size_t addrs = 0x3c14e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::get_playerSettings)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c26134;
+  constexpr static std::size_t addrs = 0x3c13c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c26504;
+  constexpr static std::size_t addrs = 0x3c14000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OverrideEnvironmentSettings* (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::get_environmentOverrideSettings)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c26520;
+  constexpr static std::size_t addrs = 0x3c1401c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorSchemesSettings* (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::get_colorSchemesSettings)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c26544;
+  constexpr static std::size_t addrs = 0x3c14040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)(
     bool, bool, bool, bool, ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout)>(&::GlobalNamespace::GameplaySetupViewController::Setup)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c26568;
+  constexpr static std::size_t addrs = 0x3c14064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)()>(&::GlobalNamespace::GameplaySetupViewController::Init)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c265fc;
+  constexpr static std::size_t addrs = 0x3c140f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(), "Init",
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::GameplaySetupViewController::DidActivate)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3c26e70;
+  constexpr static std::size_t addrs = 0x3c1496c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::OnDisable)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3c27078;
+  constexpr static std::size_t addrs = 0x3c14b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)(bool)>(
     &::GlobalNamespace::GameplaySetupViewController::SetIsInteractable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c26dbc;
+  constexpr static std::size_t addrs = 0x3c148b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::GameplaySetupViewController::HandleSelectionSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c27190;
+  constexpr static std::size_t addrs = 0x3c14c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::HandlePlayerSettingsPanelControllerDidChangePlayerSettings)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c27248;
+  constexpr static std::size_t addrs = 0x3c14d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c27280;
+  constexpr static std::size_t addrs = 0x3c14d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)(int32_t)>(
     &::GlobalNamespace::GameplaySetupViewController::SetActivePanel)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c27198;
+  constexpr static std::size_t addrs = 0x3c14c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::RefreshContent)> {
   constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x3c266b0;
+  constexpr static std::size_t addrs = 0x3c141ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(),
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)()>(
     &::GlobalNamespace::GameplaySetupViewController::RefreshActivePanel)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3c272b0;
+  constexpr static std::size_t addrs = 0x3c14dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(),
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplaySetupViewController::*)()>(&::GlobalNamespace::GameplaySetupViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c273c4;
+  constexpr static std::size_t addrs = 0x3c14ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplaySetupViewController*>::get(), ".ctor",

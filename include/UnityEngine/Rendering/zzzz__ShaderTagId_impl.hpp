@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ShaderTagId::*)(::StringW)>(&::UnityEngine::Rendering::ShaderTagId::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48d63b8;
+  constexpr static std::size_t addrs = 0x48c3f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ShaderTagId::*)()>(&::UnityEngine::Rendering::ShaderTagId::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48d63d8;
+  constexpr static std::size_t addrs = 0x48c3fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ShaderTagId>::get(), "get_id",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ShaderTagId::*)(int32_t)>(&::UnityEngine::Rendering::ShaderTagId::set_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48d63e0;
+  constexpr static std::size_t addrs = 0x48c3fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ShaderTagId::*)(::System::Object*)>(&::UnityEngine::Rendering::ShaderTagId::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48d63e8;
+  constexpr static std::size_t addrs = 0x48c3fc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ShaderTagId::*)(::UnityEngine::Rendering::ShaderTagId)>(
     &::UnityEngine::Rendering::ShaderTagId::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48d6460;
+  constexpr static std::size_t addrs = 0x48c4040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ShaderTagId::*)()>(&::UnityEngine::Rendering::ShaderTagId::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48d6470;
+  constexpr static std::size_t addrs = 0x48c4050;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                    float_t, float_t, ::ArrayW<float_t, ::Array<float_t>*>, float_t, float_t, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType,
                                                    ::GlobalNamespace::LevelCompletionResults_LevelEndAction, float_t, float_t, bool)>(&::GlobalNamespace::LevelCompletionResultsHelper::Create)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x26b9420;
+  constexpr static std::size_t addrs = 0x26b15b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::PlayerData*, ::GlobalNamespace::PlayerLevelStatsData*, ::GlobalNamespace::LevelCompletionResults*,
                          ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::PlatformLeaderboardsModel*)>(&::GlobalNamespace::LevelCompletionResultsHelper::ProcessScore)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26b9884;
+  constexpr static std::size_t addrs = 0x26b1a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

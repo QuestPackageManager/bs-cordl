@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedLongField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::UnsignedLongField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a1fe84;
+  constexpr static std::size_t addrs = 0x4a0da64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedLongField_UxmlFactory*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedLongField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::UnsignedLongField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a1fecc;
+  constexpr static std::size_t addrs = 0x4a0daac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedLongField_UxmlTraits*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UnsignedLongField* (::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::*)()>(
     &::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::get_parentUnsignedLongField)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a1ff14;
+  constexpr static std::size_t addrs = 0x4a0daf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::*)()>(
     &::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4a1fc98;
+  constexpr static std::size_t addrs = 0x4a0d878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::*)()>(
     &::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a1ff94;
+  constexpr static std::size_t addrs = 0x4a0db74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, uint64_t)>(&::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x4a1ffec;
+  constexpr static std::size_t addrs = 0x4a0dbcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::*)(int64_t, uint64_t)>(
     &::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::ClampToMinMaxULongValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a20220;
+  constexpr static std::size_t addrs = 0x4a0de00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::*)(uint64_t)>(
     &::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::ValueToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a202a0;
+  constexpr static std::size_t addrs = 0x4a0de80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::*)(::StringW)>(
     &::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput::StringToValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4a202ec;
+  constexpr static std::size_t addrs = 0x4a0decc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput* (::UnityEngine::UIElements::UnsignedLongField::*)()>(
     &::UnityEngine::UIElements::UnsignedLongField::get_unsignedLongInput)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a1f924;
+  constexpr static std::size_t addrs = 0x4a0d504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedLongField*>::get(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UnsignedLongField::*)(uint64_t)>(
     &::UnityEngine::UIElements::UnsignedLongField::ValueToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4a1f9a8;
+  constexpr static std::size_t addrs = 0x4a0d588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::UIElements::UnsignedLongField::*)(::StringW)>(
     &::UnityEngine::UIElements::UnsignedLongField::StringToValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4a1fa60;
+  constexpr static std::size_t addrs = 0x4a0d640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedLongField::*)()>(&::UnityEngine::UIElements::UnsignedLongField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1fb3c;
+  constexpr static std::size_t addrs = 0x4a0d71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedLongField*>::get(), ".ctor",
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedLongField::*)(::StringW, int32_t)>(
     &::UnityEngine::UIElements::UnsignedLongField::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4a1fb48;
+  constexpr static std::size_t addrs = 0x4a0d728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UnsignedLongField::*)(::StringW)>(
     &::UnityEngine::UIElements::UnsignedLongField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a1fd2c;
+  constexpr static std::size_t addrs = 0x4a0d90c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedLongField::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, uint64_t)>(&::UnityEngine::UIElements::UnsignedLongField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a1fd50;
+  constexpr static std::size_t addrs = 0x4a0d930;
 
   inline static ::MethodInfo const* methodInfo() {
 

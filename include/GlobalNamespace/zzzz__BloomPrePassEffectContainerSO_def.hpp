@@ -26,7 +26,7 @@ public:
 
   __declspec(property(get = get_bloomPrePassEffect)) ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> bloomPrePassEffect;
 
-  /// @brief Method Init, addr 0x39e6b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39d399c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
 
   static inline ::GlobalNamespace::BloomPrePassEffectContainerSO* New_ctor();
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x39e6b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d39a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bloomPrePassEffect, addr 0x39e6afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassEffect, addr 0x39d3994, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> get_bloomPrePassEffect();
 
 protected:
@@ -58,7 +58,7 @@ public:
   BloomPrePassEffectContainerSO(BloomPrePassEffectContainerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16254 };
 
   /// @brief Field _bloomPrePassEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ____bloomPrePassEffect;

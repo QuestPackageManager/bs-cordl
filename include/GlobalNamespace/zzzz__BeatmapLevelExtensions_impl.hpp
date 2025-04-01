@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelExtensions___c::*)()>(&::GlobalNamespace::BeatmapLevelExtensions___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ced20;
+  constexpr static std::size_t addrs = 0x26c6eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelExtensions___c*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapLevelExtensions___c::*)(::StringW)>(
     &::GlobalNamespace::BeatmapLevelExtensions___c::_ToRuntime_b__1_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26ced28;
+  constexpr static std::size_t addrs = 0x26c6eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevel* (*)(::GlobalNamespace::BeatmapLevelSO*, ::UnityEngine::Sprite*, ::StringW)>(
     &::GlobalNamespace::BeatmapLevelExtensions::ToCensoredRuntime)> {
   constexpr static std::size_t size = 0x930;
-  constexpr static std::size_t addrs = 0x26cd29c;
+  constexpr static std::size_t addrs = 0x26c542c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevel* (*)(::GlobalNamespace::BeatmapLevelSO*)>(
     &::GlobalNamespace::BeatmapLevelExtensions::ToRuntime)> {
   constexpr static std::size_t size = 0xd04;
-  constexpr static std::size_t addrs = 0x26cdbf8;
+  constexpr static std::size_t addrs = 0x26c5d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ColorScheme* (*)(int32_t, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelSO_ColorScheme*>*)>(
         &::GlobalNamespace::BeatmapLevelExtensions::CreateColorScheme)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x26cea2c;
+  constexpr static std::size_t addrs = 0x26c6bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

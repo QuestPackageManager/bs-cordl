@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextAsset::*)()>(&::UnityEngine::TextCore::Text::TextAsset::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493db88;
+  constexpr static std::size_t addrs = 0x492b768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextAsset*>::get(), "get_version",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextAsset::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::TextAsset::set_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493db90;
+  constexpr static std::size_t addrs = 0x492b770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextAsset::*)()>(&::UnityEngine::TextCore::Text::TextAsset::get_instanceID)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49347a4;
+  constexpr static std::size_t addrs = 0x4922384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextAsset*>::get(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextAsset::*)()>(&::UnityEngine::TextCore::Text::TextAsset::get_hashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x493b468;
+  constexpr static std::size_t addrs = 0x4929048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextAsset*>::get(), "get_hashCode",
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextAsset::*)(int32_t)>(
     &::UnityEngine::TextCore::Text::TextAsset::set_hashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493db98;
+  constexpr static std::size_t addrs = 0x492b778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::TextCore::Text::TextAsset::*)()>(
     &::UnityEngine::TextCore::Text::TextAsset::get_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493dba0;
+  constexpr static std::size_t addrs = 0x492b780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextAsset*>::get(), "get_material",
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextAsset::*)(::UnityEngine::Material*)>(
     &::UnityEngine::TextCore::Text::TextAsset::set_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493dba8;
+  constexpr static std::size_t addrs = 0x492b788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextAsset::*)()>(
     &::UnityEngine::TextCore::Text::TextAsset::get_materialHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x493b498;
+  constexpr static std::size_t addrs = 0x4929078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextAsset*>::get(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextAsset::*)(int32_t)>(
     &::UnityEngine::TextCore::Text::TextAsset::set_materialHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493dbb0;
+  constexpr static std::size_t addrs = 0x492b790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextAsset::*)()>(&::UnityEngine::TextCore::Text::TextAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4938fe0;
+  constexpr static std::size_t addrs = 0x4926bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextAsset*>::get(), ".ctor",

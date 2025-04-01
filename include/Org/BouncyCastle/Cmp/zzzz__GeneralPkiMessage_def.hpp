@@ -41,10 +41,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method ParseBytes, addr 0x26510dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ParseBytes, addr 0x264926c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ParseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method ToAsn1Structure, addr 0x26511c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x2649358, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* const& __cordl_internal_get_pkiMessage() const;
@@ -53,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
 
-  /// @brief Method .ctor, addr 0x265111c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26492ac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x26510f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2649284, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method get_Body, addr 0x265117c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x264930c, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_HasProtection, addr 0x265119c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasProtection, addr 0x264932c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasProtection();
 
-  /// @brief Method get_Header, addr 0x265115c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Header, addr 0x26492ec, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
 protected:

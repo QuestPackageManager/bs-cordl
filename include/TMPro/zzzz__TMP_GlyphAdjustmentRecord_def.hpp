@@ -30,22 +30,22 @@ public:
 
   __declspec(property(get = get_glyphValueRecord, put = set_glyphValueRecord)) ::TMPro::TMP_GlyphValueRecord glyphValueRecord;
 
-  /// @brief Method .ctor, addr 0x47e3b68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d1748, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
 
-  /// @brief Method .ctor, addr 0x47e1444, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47cf024, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t glyphIndex, ::TMPro::TMP_GlyphValueRecord glyphValueRecord);
 
-  /// @brief Method get_glyphIndex, addr 0x47e3b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x47d1720, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_glyphValueRecord, addr 0x47e3b50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphValueRecord, addr 0x47d1730, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphValueRecord get_glyphValueRecord();
 
-  /// @brief Method set_glyphIndex, addr 0x47e3b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphIndex, addr 0x47d1728, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphIndex(uint32_t value);
 
-  /// @brief Method set_glyphValueRecord, addr 0x47e3b5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_glyphValueRecord, addr 0x47d173c, size 0xc, virtual false, abstract: false, final false
   inline void set_glyphValueRecord(::TMPro::TMP_GlyphValueRecord value);
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   constexpr TMP_GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14493 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

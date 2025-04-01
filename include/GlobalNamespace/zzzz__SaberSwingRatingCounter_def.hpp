@@ -119,30 +119,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
 
-  /// @brief Method DrawGizmos, addr 0x26b7930, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x26afac0, size 0x2b4, virtual false, abstract: false, final false
   inline void DrawGizmos();
 
-  /// @brief Method Finish, addr 0x26b7784, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x26af914, size 0x1ac, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x26b6a0c, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26aeb9c, size 0x418, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
   static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  /// @brief Method ProcessNewData, addr 0x26b6e24, size 0x960, virtual true, abstract: false, final true
+  /// @brief Method ProcessNewData, addr 0x26aefb4, size 0x960, virtual true, abstract: false, final true
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x26b68ac, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x26aea3c, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x26b6904, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x26aea94, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x26b695c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x26aeaec, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x26b69b4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x26aeb44, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
@@ -271,13 +271,13 @@ public:
 
   constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
 
-  /// @brief Method .ctor, addr 0x26b7be4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26afd74, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_afterCutRating, addr 0x26b68a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutRating, addr 0x26aea34, size 0x8, virtual true, abstract: false, final true
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0x26b689c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutRating, addr 0x26aea2c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beforeCutRating();
 
   /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"

@@ -35,7 +35,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::Controls::KeyControl* New_ctor();
 
-  /// @brief Method RefreshConfiguration, addr 0x4570820, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method RefreshConfiguration, addr 0x455e400, size 0x170, virtual true, abstract: false, final false
   inline void RefreshConfiguration();
 
   constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get__keyCode_k__BackingField() const;
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ScanCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4570990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x455e570, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyCode, addr 0x45707f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x455e3d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Key get_keyCode();
 
-  /// @brief Method get_scanCode, addr 0x4570804, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_scanCode, addr 0x455e3e4, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_scanCode();
 
-  /// @brief Method set_keyCode, addr 0x45707fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_keyCode, addr 0x455e3dc, size 0x8, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::InputSystem::Key value);
 
 protected:

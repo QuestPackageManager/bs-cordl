@@ -95,42 +95,42 @@ public:
   __declspec(property(get = __cordl_internal_get_onRequestSelectProfileToCopyFrom, put = __cordl_internal_set_onRequestSelectProfileToCopyFrom)) ::System::Action_1<
       ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* onRequestSelectProfileToCopyFrom;
 
-  /// @brief Method CopyFormLeftToRight, addr 0x2274fa8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CopyFormLeftToRight, addr 0x226d138, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFormLeftToRight();
 
-  /// @brief Method CopyFromRightToLeft, addr 0x2274fe4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CopyFromRightToLeft, addr 0x226d174, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFromRightToLeft();
 
-  /// @brief Method CopyProfileResponse, addr 0x2274594, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CopyProfileResponse, addr 0x226c724, size 0x10, virtual false, abstract: false, final false
   inline void CopyProfileResponse(bool wasCanceled, int32_t selectedDropdownIndex);
 
-  /// @brief Method CopyValuesFromOtherProfile, addr 0x22745a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CopyValuesFromOtherProfile, addr 0x226c734, size 0xd8, virtual false, abstract: false, final false
   inline void CopyValuesFromOtherProfile(int32_t otherProfileIndex);
 
-  /// @brief Method DidActivate, addr 0x227467c, size 0x314, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x226c80c, size 0x314, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2274ee0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x226d070, size 0x50, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetControllerProfileDisplayName, addr 0x2275294, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetControllerProfileDisplayName, addr 0x226d424, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW GetControllerProfileDisplayName(::BeatSaber::GameSettings::ControllerProfile* profile);
 
-  /// @brief Method GetSelectedProfile, addr 0x2274f38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedProfile, addr 0x226d0c8, size 0x18, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* GetSelectedProfile();
 
-  /// @brief Method HandlingToggleChanged, addr 0x2274f50, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandlingToggleChanged, addr 0x226d0e0, size 0x2c, virtual false, abstract: false, final false
   inline void HandlingToggleChanged(bool value);
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController* New_ctor();
 
-  /// @brief Method ProfileSelected, addr 0x2274f7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ProfileSelected, addr 0x226d10c, size 0x2c, virtual false, abstract: false, final false
   inline void ProfileSelected(::HMUI::DropdownWithTableView* view, int32_t index);
 
-  /// @brief Method RefreshView, addr 0x2274dcc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x226cf5c, size 0x114, virtual false, abstract: false, final false
   inline void RefreshView();
 
-  /// @brief Method ShowCopyFromProfile, addr 0x2275020, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ShowCopyFromProfile, addr 0x226d1b0, size 0x274, virtual false, abstract: false, final false
   inline void ShowCopyFromProfile();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__buttonsContainer() const;
@@ -204,13 +204,13 @@ public:
   constexpr void
   __cordl_internal_set_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value);
 
-  /// @brief Method .ctor, addr 0x2275448, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226d5d8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onRequestSelectProfileToCopyFrom, addr 0x2274434, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_onRequestSelectProfileToCopyFrom, addr 0x226c5c4, size 0xb0, virtual false, abstract: false, final false
   inline void add_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value);
 
-  /// @brief Method remove_onRequestSelectProfileToCopyFrom, addr 0x22744e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onRequestSelectProfileToCopyFrom, addr 0x226c674, size 0xb0, virtual false, abstract: false, final false
   inline void remove_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value);
 
 protected:
@@ -228,7 +228,7 @@ public:
   ControllerProfilesSettingsViewController(ControllerProfilesSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18097 };
 
   /// @brief Field _profilesDropdown, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____profilesDropdown;

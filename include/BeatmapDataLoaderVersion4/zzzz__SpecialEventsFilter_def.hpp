@@ -34,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get__eventTypesToFilter,
                       put = __cordl_internal_set__eventTypesToFilter)) ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* _eventTypesToFilter;
 
-  /// @brief Method IsEventValid, addr 0x2712698, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsEventValid, addr 0x270acdc, size 0x64, virtual false, abstract: false, final false
   inline bool IsEventValid(::BeatmapSaveDataCommon::BeatmapEventType basicBeatmapEventType);
 
   static inline ::BeatmapDataLoaderVersion4::SpecialEventsFilter* New_ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords,
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__eventTypesToFilter(::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x2711c74, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a2b8, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
 protected:
@@ -64,7 +64,7 @@ public:
   SpecialEventsFilter(SpecialEventsFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13484 };
 
   /// @brief Field _eventTypesToFilter, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____eventTypesToFilter;

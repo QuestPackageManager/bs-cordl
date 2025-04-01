@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::Start)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b41778;
+  constexpr static std::size_t addrs = 0x3b2e7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(), "Start",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::Update)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b4195c;
+  constexpr static std::size_t addrs = 0x3b2e988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(), "Update",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::OnEnable)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3b41988;
+  constexpr static std::size_t addrs = 0x3b2e9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(), "OnEnable",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::OnDisable)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3b41a54;
+  constexpr static std::size_t addrs = 0x3b2ea80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(), "OnDisable",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b41b20;
+  constexpr static std::size_t addrs = 0x3b2eb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(), "OnDestroy",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::SetRoomTransformOffset)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b418a0;
+  constexpr static std::size_t addrs = 0x3b2e8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(),
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::ResetRoom)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b417dc;
+  constexpr static std::size_t addrs = 0x3b2e808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(), "ResetRoom",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41b24;
+  constexpr static std::size_t addrs = 0x3b2eb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRCenterAdjust*>::get(), ".ctor",

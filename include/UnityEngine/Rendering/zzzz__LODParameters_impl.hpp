@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::LODParameters::*)(::UnityEngine::Rendering::LODParameters)>(
     &::UnityEngine::Rendering::LODParameters::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x48d475c;
+  constexpr static std::size_t addrs = 0x48c233c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::LODParameters::*)(::System::Object*)>(
     &::UnityEngine::Rendering::LODParameters::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48d4c4c;
+  constexpr static std::size_t addrs = 0x48c282c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::LODParameters::*)()>(&::UnityEngine::Rendering::LODParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48d4b68;
+  constexpr static std::size_t addrs = 0x48c2748;
 
   inline static ::MethodInfo const* methodInfo() {
 

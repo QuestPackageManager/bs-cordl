@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GuestNameButtonsListItem::*)(::StringW)>(
     &::GlobalNamespace::GuestNameButtonsListItem::set_nameText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c17710;
+  constexpr static std::size_t addrs = 0x3c0520c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GuestNameButtonsListItem::*)(::System::Action*)>(
     &::GlobalNamespace::GuestNameButtonsListItem::set_buttonPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c17734;
+  constexpr static std::size_t addrs = 0x3c05230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GuestNameButtonsListItem::*)()>(&::GlobalNamespace::GuestNameButtonsListItem::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c1773c;
+  constexpr static std::size_t addrs = 0x3c05238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GuestNameButtonsListItem*>::get(), "Awake",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GuestNameButtonsListItem::*)()>(&::GlobalNamespace::GuestNameButtonsListItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c177cc;
+  constexpr static std::size_t addrs = 0x3c052c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GuestNameButtonsListItem*>::get(), ".ctor",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GuestNameButtonsListItem::*)()>(
     &::GlobalNamespace::GuestNameButtonsListItem::_Awake_b__7_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c177d4;
+  constexpr static std::size_t addrs = 0x3c052d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GuestNameButtonsListItem*>::get(),

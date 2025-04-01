@@ -23,12 +23,12 @@ namespace System::Net::Http {
 class CORDL_TYPE StringContent : public ::System::Net::Http::ByteArrayContent {
 public:
   // Declarations
-  /// @brief Method GetByteArray, addr 0x42284c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetByteArray, addr 0x4216080, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteArray(::StringW content, ::System::Text::Encoding* encoding);
 
   static inline ::System::Net::Http::StringContent* New_ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType);
 
-  /// @brief Method .ctor, addr 0x42283bc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4215f7c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType);
 
 protected:

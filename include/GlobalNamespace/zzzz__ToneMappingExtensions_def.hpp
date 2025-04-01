@@ -25,7 +25,7 @@ public:
   /// @brief Field _shaderKeywordMap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__shaderKeywordMap, put = setStaticF__shaderKeywordMap)) ::ArrayW<::StringW, ::Array<::StringW>*> _shaderKeywordMap;
 
-  /// @brief Method SetShaderKeyword, addr 0x39e8394, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x39d522c, size 0x94, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__shaderKeywordMap();
@@ -47,7 +47,7 @@ public:
   ToneMappingExtensions(ToneMappingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__ReceiverTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName, addr 0x44662ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x4453e6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_ReceiverTypeName, addr 0x44662b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiverTypeName, addr 0x4453e74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceiverTypeName();
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)()>(&::GlobalNamespace::ReportingCallbackSample::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3f678d8;
+  constexpr static std::size_t addrs = 0x3f55490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReportingCallbackSample*>::get(), "Start",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)(::Oculus::Platform::Message_1<::StringW>*)>(
     &::GlobalNamespace::ReportingCallbackSample::OnReportButtonIntentNotif)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f67a78;
+  constexpr static std::size_t addrs = 0x3f55630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)(::StringW)>(
     &::GlobalNamespace::ReportingCallbackSample::UpdateConsole)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f679cc;
+  constexpr static std::size_t addrs = 0x3f55584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)()>(&::GlobalNamespace::ReportingCallbackSample::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f67c5c;
+  constexpr static std::size_t addrs = 0x3f55814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReportingCallbackSample*>::get(), ".ctor",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(&::GlobalNamespace::ReportingCallbackSample::_Start_b__2_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3f67c64;
+  constexpr static std::size_t addrs = 0x3f5581c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

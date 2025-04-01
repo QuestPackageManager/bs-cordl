@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_subtypeGroupIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b38;
+  constexpr static std::size_t addrs = 0x2241cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData_GameplayType (::GlobalNamespace::NoteData::*)()>(
     &::GlobalNamespace::NoteData::get_gameplayType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b40;
+  constexpr static std::size_t addrs = 0x2241cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_gameplayType",
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteData_GameplayType)>(
     &::GlobalNamespace::NoteData::set_gameplayType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b48;
+  constexpr static std::size_t addrs = 0x2241cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData_ScoringType (::GlobalNamespace::NoteData::*)()>(
     &::GlobalNamespace::NoteData::get_scoringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b50;
+  constexpr static std::size_t addrs = 0x2241ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_scoringType",
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteData_ScoringType)>(
     &::GlobalNamespace::NoteData::set_scoringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b58;
+  constexpr static std::size_t addrs = 0x2241ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorType (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b60;
+  constexpr static std::size_t addrs = 0x2241cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_colorType",
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::NoteData::set_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b68;
+  constexpr static std::size_t addrs = 0x2241cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutDirection (::GlobalNamespace::NoteData::*)()>(
     &::GlobalNamespace::NoteData::get_cutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b70;
+  constexpr static std::size_t addrs = 0x2241d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_cutDirection",
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::NoteData::set_cutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b78;
+  constexpr static std::size_t addrs = 0x2241d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_timeToNextColorNote)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b80;
+  constexpr static std::size_t addrs = 0x2241d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_timeToNextColorNote",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(float_t)>(&::GlobalNamespace::NoteData::set_timeToNextColorNote)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b88;
+  constexpr static std::size_t addrs = 0x2241d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_timeToPrevColorNote)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b90;
+  constexpr static std::size_t addrs = 0x2241d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_timeToPrevColorNote",
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(float_t)>(&::GlobalNamespace::NoteData::set_timeToPrevColorNote)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249b98;
+  constexpr static std::size_t addrs = 0x2241d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249ba0;
+  constexpr static std::size_t addrs = 0x2241d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_lineIndex",
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(int32_t)>(&::GlobalNamespace::NoteData::set_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249ba8;
+  constexpr static std::size_t addrs = 0x2241d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::NoteData::*)()>(
     &::GlobalNamespace::NoteData::get_noteLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bb0;
+  constexpr static std::size_t addrs = 0x2241d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_noteLineLayer",
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::NoteData::set_noteLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bb8;
+  constexpr static std::size_t addrs = 0x2241d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::NoteData::*)()>(
     &::GlobalNamespace::NoteData::get_beforeJumpNoteLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bc0;
+  constexpr static std::size_t addrs = 0x2241d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::NoteData::set_beforeJumpNoteLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bc8;
+  constexpr static std::size_t addrs = 0x2241d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_flipLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bd0;
+  constexpr static std::size_t addrs = 0x2241d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_flipLineIndex",
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(int32_t)>(&::GlobalNamespace::NoteData::set_flipLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bd8;
+  constexpr static std::size_t addrs = 0x2241d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_flipYSide)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249be0;
+  constexpr static std::size_t addrs = 0x2241d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_flipYSide",
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(float_t)>(&::GlobalNamespace::NoteData::set_flipYSide)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249be8;
+  constexpr static std::size_t addrs = 0x2241d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_cutDirectionAngleOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bf0;
+  constexpr static std::size_t addrs = 0x2241d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(),
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(float_t)>(&::GlobalNamespace::NoteData::set_cutDirectionAngleOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249bf8;
+  constexpr static std::size_t addrs = 0x2241d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_cutSfxVolumeMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249c00;
+  constexpr static std::size_t addrs = 0x2241d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(),
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(float_t)>(&::GlobalNamespace::NoteData::set_cutSfxVolumeMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249c08;
+  constexpr static std::size_t addrs = 0x2241d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_isArcHead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249c10;
+  constexpr static std::size_t addrs = 0x2241da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_isArcHead",
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(bool)>(&::GlobalNamespace::NoteData::set_isArcHead)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2249c18;
+  constexpr static std::size_t addrs = 0x2241da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::get_isArcTail)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249c24;
+  constexpr static std::size_t addrs = 0x2241db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "get_isArcTail",
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(bool)>(&::GlobalNamespace::NoteData::set_isArcTail)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2249c2c;
+  constexpr static std::size_t addrs = 0x2241dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::GetCopy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2249c38;
+  constexpr static std::size_t addrs = 0x2241dc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -487,7 +487,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteData_ScoringType,
     ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteCutDirection, float_t, float_t, int32_t, float_t, float_t, float_t)>(&::GlobalNamespace::NoteData::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2249d0c;
+  constexpr static std::size_t addrs = 0x2241e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData* (*)(float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::NoteData::CreateBombNoteData)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2249de4;
+  constexpr static std::size_t addrs = 0x2241f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -530,7 +530,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NoteData* (*)(float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteCutDirection)>(
         &::GlobalNamespace::NoteData::CreateBasicNoteData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2249ea0;
+  constexpr static std::size_t addrs = 0x2242030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -550,7 +550,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NoteData* (*)(float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::ColorType,
                                                  ::GlobalNamespace::NoteCutDirection, float_t)>(&::GlobalNamespace::NoteData::CreateBurstSliderNoteData)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2249f6c;
+  constexpr static std::size_t addrs = 0x22420fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -575,7 +575,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                     ::System::Nullable_1<float_t>, ::System::Nullable_1<int32_t>, ::System::Nullable_1<float_t>, ::System::Nullable_1<float_t>, ::System::Nullable_1<float_t>)>(
     &::GlobalNamespace::NoteData::CopyWith)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x224a04c;
+  constexpr static std::size_t addrs = 0x22421dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::NoteData::SetBeforeJumpNoteLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224a35c;
+  constexpr static std::size_t addrs = 0x22424ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -616,7 +616,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::ChangeToBurstSliderHead)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x224a364;
+  constexpr static std::size_t addrs = 0x22424f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "ChangeToBurstSliderHead",
@@ -629,7 +629,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::ChangeToGameNote)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x224a394;
+  constexpr static std::size_t addrs = 0x2242524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "ChangeToGameNote",
@@ -642,7 +642,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::MarkAsSliderHead)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x224a3a4;
+  constexpr static std::size_t addrs = 0x2242534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "MarkAsSliderHead",
@@ -655,7 +655,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::MarkAsSliderTail)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x224a3dc;
+  constexpr static std::size_t addrs = 0x224256c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "MarkAsSliderTail",
@@ -669,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::NoteData::SetNoteFlipToNote)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x224a414;
+  constexpr static std::size_t addrs = 0x22425a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -683,7 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(float_t)>(&::GlobalNamespace::NoteData::SetCutDirectionAngleOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224a47c;
+  constexpr static std::size_t addrs = 0x224260c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -697,7 +697,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::ResetNoteFlip)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x224a484;
+  constexpr static std::size_t addrs = 0x2242614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "ResetNoteFlip",
@@ -710,7 +710,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(int32_t)>(&::GlobalNamespace::NoteData::Mirror)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x224a490;
+  constexpr static std::size_t addrs = 0x2242620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -724,7 +724,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::SetNoteToAnyCutDirection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x224a508;
+  constexpr static std::size_t addrs = 0x2242698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(), "SetNoteToAnyCutDirection",
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)(::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::NoteData::ChangeNoteCutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224a514;
+  constexpr static std::size_t addrs = 0x22426a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -752,7 +752,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteData::*)()>(&::GlobalNamespace::NoteData::TransformNoteAOrBToRandomType)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x224a51c;
+  constexpr static std::size_t addrs = 0x22426ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteData*>::get(),
@@ -765,7 +765,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::NoteData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2249de0;
+  constexpr static std::size_t addrs = 0x2241f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

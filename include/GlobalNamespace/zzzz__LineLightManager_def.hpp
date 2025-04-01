@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::LineLightManager* New_ctor();
 
-  /// @brief Method Update, addr 0x39f352c, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39e057c, size 0x37c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__colors() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set__points(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method .ctor, addr 0x39f38a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e08f8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__activeLineLightsCountID();

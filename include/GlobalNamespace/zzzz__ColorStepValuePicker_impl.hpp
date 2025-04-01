@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::ColorStepValuePicker::add_decButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c348e4;
+  constexpr static std::size_t addrs = 0x3c223e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::ColorStepValuePicker::remove_decButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c34980;
+  constexpr static std::size_t addrs = 0x3c2247c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::ColorStepValuePicker::add_incButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c34a1c;
+  constexpr static std::size_t addrs = 0x3c22518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::ColorStepValuePicker::remove_incButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c34ab8;
+  constexpr static std::size_t addrs = 0x3c225b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStepValuePicker::*)()>(
     &::GlobalNamespace::ColorStepValuePicker::get_color)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c34b54;
+  constexpr static std::size_t addrs = 0x3c22650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStepValuePicker*>::get(), "get_color",
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorStepValuePicker::set_color)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c34b78;
+  constexpr static std::size_t addrs = 0x3c22674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(bool)>(
     &::GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c34b9c;
+  constexpr static std::size_t addrs = 0x3c22698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(bool)>(
     &::GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c34bbc;
+  constexpr static std::size_t addrs = 0x3c226b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::OnEnable)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c34bdc;
+  constexpr static std::size_t addrs = 0x3c226d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::OnDisable)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c34cc4;
+  constexpr static std::size_t addrs = 0x3c227c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStepValuePicker*>::get(), "OnDisable",
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::IncButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c34dac;
+  constexpr static std::size_t addrs = 0x3c228a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStepValuePicker*>::get(),
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::DecButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c34dc8;
+  constexpr static std::size_t addrs = 0x3c228c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStepValuePicker*>::get(),
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c34de4;
+  constexpr static std::size_t addrs = 0x3c228e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStepValuePicker*>::get(), ".ctor",

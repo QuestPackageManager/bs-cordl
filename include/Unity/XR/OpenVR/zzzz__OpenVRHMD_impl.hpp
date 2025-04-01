@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4548ff8;
+  constexpr static std::size_t addrs = 0x4536bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(), "get_deviceVelocity",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549000;
+  constexpr static std::size_t addrs = 0x4536be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549008;
+  constexpr static std::size_t addrs = 0x4536be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549010;
+  constexpr static std::size_t addrs = 0x4536bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_leftEyeVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549018;
+  constexpr static std::size_t addrs = 0x4536bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(), "get_leftEyeVelocity",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_leftEyeVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549020;
+  constexpr static std::size_t addrs = 0x4536c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_leftEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549028;
+  constexpr static std::size_t addrs = 0x4536c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_leftEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549030;
+  constexpr static std::size_t addrs = 0x4536c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_rightEyeVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549038;
+  constexpr static std::size_t addrs = 0x4536c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(), "get_rightEyeVelocity",
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_rightEyeVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549040;
+  constexpr static std::size_t addrs = 0x4536c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_rightEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549048;
+  constexpr static std::size_t addrs = 0x4536c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_rightEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549050;
+  constexpr static std::size_t addrs = 0x4536c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_centerEyeVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549058;
+  constexpr static std::size_t addrs = 0x4536c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(), "get_centerEyeVelocity",
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_centerEyeVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549060;
+  constexpr static std::size_t addrs = 0x4536c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::OpenVRHMD::*)()>(
     &::Unity::XR::OpenVR::OpenVRHMD::get_centerEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549068;
+  constexpr static std::size_t addrs = 0x4536c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::OpenVRHMD::set_centerEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549070;
+  constexpr static std::size_t addrs = 0x4536c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)()>(&::Unity::XR::OpenVR::OpenVRHMD::FinishSetup)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x4549078;
+  constexpr static std::size_t addrs = 0x4536c58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::OpenVR::OpenVRHMD::*)()>(&::Unity::XR::OpenVR::OpenVRHMD::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4549224;
+  constexpr static std::size_t addrs = 0x4536e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::OpenVR::OpenVRHMD*>::get(), ".ctor",

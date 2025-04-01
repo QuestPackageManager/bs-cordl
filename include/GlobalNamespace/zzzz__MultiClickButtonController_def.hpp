@@ -43,15 +43,15 @@ public:
   /// @brief Field wasTriggeredEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_wasTriggeredEvent, put = __cordl_internal_set_wasTriggeredEvent)) ::System::Action* wasTriggeredEvent;
 
-  /// @brief Method HandleButtonClicked, addr 0x3c0d4a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClicked, addr 0x3bfaf9c, size 0x38, virtual false, abstract: false, final false
   inline void HandleButtonClicked();
 
   static inline ::GlobalNamespace::MultiClickButtonController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3c0d484, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bfaf80, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3c0d3ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bfaee8, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3c0d4d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfafd4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_wasTriggeredEvent, addr 0x3c0d2b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_wasTriggeredEvent, addr 0x3bfadb0, size 0x9c, virtual false, abstract: false, final false
   inline void add_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_wasTriggeredEvent, addr 0x3c0d350, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_wasTriggeredEvent, addr 0x3bfae4c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_wasTriggeredEvent(::System::Action* value);
 
 protected:

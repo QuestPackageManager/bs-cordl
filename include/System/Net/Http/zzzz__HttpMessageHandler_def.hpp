@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4227234, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4214df4, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x42206f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x420e2b8, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::HttpMessageHandler* New_ctor();
@@ -46,7 +46,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x42203b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x420df78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

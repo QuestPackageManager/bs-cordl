@@ -69,13 +69,13 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase_ReferenceEqualsEqualityComparer* New_ctor();
 
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x3ef6784, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x3ee433c, size 0xc, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x3ef6790, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x3ee4348, size 0xc, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x3ef61dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee3d94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
@@ -130,19 +130,19 @@ public:
   /// @brief Field _mappings, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__mappings, put = __cordl_internal_set__mappings)) ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* _mappings;
 
-  /// @brief Method ClearErrorContext, addr 0x3ef6350, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ClearErrorContext, addr 0x3ee3f08, size 0x60, virtual false, abstract: false, final false
   inline void ClearErrorContext();
 
-  /// @brief Method GetErrorContext, addr 0x3ef6270, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetErrorContext, addr 0x3ee3e28, size 0xe0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ErrorContext* GetErrorContext(::System::Object* currentObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method IsErrorHandled, addr 0x3ef63b0, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method IsErrorHandled, addr 0x3ee3f68, size 0x3d4, virtual false, abstract: false, final false
   inline bool IsErrorHandled(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo,
                              ::StringW path, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ResolvedNullValueHandling, addr 0x3ef61e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ResolvedNullValueHandling, addr 0x3ee3d9c, size 0x8c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::NullValueHandling ResolvedNullValueHandling(::Newtonsoft::Json::Serialization::JsonObjectContract* containerContract,
                                                                          ::Newtonsoft::Json::Serialization::JsonProperty* property);
 
@@ -176,10 +176,10 @@ public:
 
   constexpr void __cordl_internal_set__mappings(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3ef6158, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee3d10, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_DefaultReferenceMappings, addr 0x3ef12d0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultReferenceMappings, addr 0x3edee88, size 0x104, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* get_DefaultReferenceMappings();
 
 protected:

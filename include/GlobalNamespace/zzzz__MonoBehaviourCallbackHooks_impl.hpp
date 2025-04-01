@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonoBehaviourCallbackHooks::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::MonoBehaviourCallbackHooks::add_OnUpdateDelegate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47991d4;
+  constexpr static std::size_t addrs = 0x4786db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonoBehaviourCallbackHooks::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::MonoBehaviourCallbackHooks::remove_OnUpdateDelegate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x479927c;
+  constexpr static std::size_t addrs = 0x4786e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonoBehaviourCallbackHooks::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::MonoBehaviourCallbackHooks::add_OnLateUpdateDelegate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4799324;
+  constexpr static std::size_t addrs = 0x4786f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonoBehaviourCallbackHooks::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::MonoBehaviourCallbackHooks::remove_OnLateUpdateDelegate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47993cc;
+  constexpr static std::size_t addrs = 0x4786fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MonoBehaviourCallbackHooks::*)()>(
     &::GlobalNamespace::MonoBehaviourCallbackHooks::GetGameObjectName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4799474;
+  constexpr static std::size_t addrs = 0x4787054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonoBehaviourCallbackHooks::*)()>(&::GlobalNamespace::MonoBehaviourCallbackHooks::Update)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47994b4;
+  constexpr static std::size_t addrs = 0x4787094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonoBehaviourCallbackHooks*>::get(), "Update",
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonoBehaviourCallbackHooks::*)()>(
     &::GlobalNamespace::MonoBehaviourCallbackHooks::LateUpdate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47994e4;
+  constexpr static std::size_t addrs = 0x47870c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonoBehaviourCallbackHooks*>::get(),
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonoBehaviourCallbackHooks::*)()>(&::GlobalNamespace::MonoBehaviourCallbackHooks::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4799514;
+  constexpr static std::size_t addrs = 0x47870f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonoBehaviourCallbackHooks*>::get(), ".ctor",

@@ -74,10 +74,10 @@ public:
 
   static inline ::System::Net::Sockets::SocketAsyncResult___c* New_ctor();
 
-  /// @brief Method <Complete>b__27_0, addr 0x4410430, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__27_0, addr 0x43fdff0, size 0x78, virtual false, abstract: false, final false
   inline void _Complete_b__27_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x4410428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fdfe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::SocketAsyncResult___c* getStaticF___9();
@@ -178,34 +178,34 @@ public:
   /// @brief Field socket, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket)) ::System::Net::Sockets::Socket* socket;
 
-  /// @brief Method CheckIfThrowDelayedException, addr 0x441030c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckIfThrowDelayedException, addr 0x43fdecc, size 0xa0, virtual false, abstract: false, final false
   inline void CheckIfThrowDelayedException();
 
-  /// @brief Method Complete, addr 0x440c210, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43f9dd0, size 0x1e8, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Complete, addr 0x440baa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43f9668, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
-  /// @brief Method Complete, addr 0x44103bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fdf7c, size 0x10, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e, bool synch);
 
-  /// @brief Method Complete, addr 0x440bab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43f9670, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s);
 
-  /// @brief Method Complete, addr 0x440bce8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43f98a8, size 0xc, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s, int32_t total);
 
-  /// @brief Method Complete, addr 0x44103b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fdf70, size 0xc, virtual false, abstract: false, final false
   inline void Complete(bool synch);
 
-  /// @brief Method Complete, addr 0x440ccc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fa888, size 0x8, virtual false, abstract: false, final false
   inline void Complete(int32_t total);
 
-  /// @brief Method CompleteDisposed, addr 0x44103ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteDisposed, addr 0x43fdf6c, size 0x4, virtual true, abstract: false, final false
   inline void CompleteDisposed();
 
-  /// @brief Method Init, addr 0x44101a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x43fdd60, size 0xb4, virtual false, abstract: false, final false
   inline void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
   static inline ::System::Net::Sockets::SocketAsyncResult* New_ctor();
@@ -321,16 +321,16 @@ public:
 
   constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method .ctor, addr 0x440fecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fda8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4410254, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fde14, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
-  /// @brief Method get_ErrorCode, addr 0x441028c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x43fde4c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_ErrorCode();
 
-  /// @brief Method get_Handle, addr 0x441018c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x43fdd4c, size 0x14, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
 protected:

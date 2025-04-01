@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributePacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributePacket::_ctor)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x264a0f0;
+  constexpr static std::size_t addrs = 0x2642280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributePacket::*)(
     ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*>)>(&::Org::BouncyCastle::Bcpg::UserAttributePacket::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x265001c;
+  constexpr static std::size_t addrs = 0x26481ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> (::Org::BouncyCastle::Bcpg::UserAttributePacket::*)()>(
         &::Org::BouncyCastle::Bcpg::UserAttributePacket::GetSubpackets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2650044;
+  constexpr static std::size_t addrs = 0x26481d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::UserAttributePacket*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributePacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributePacket::Encode)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x265004c;
+  constexpr static std::size_t addrs = 0x26481dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

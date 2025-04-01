@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)(
     ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*)>(&::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x25d7c2c;
+  constexpr static std::size_t addrs = 0x25cfdbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25d8534;
+  constexpr static std::size_t addrs = 0x25d06c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (
     ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(&::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x25d85a0;
+  constexpr static std::size_t addrs = 0x25d0730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25d87f4;
+  constexpr static std::size_t addrs = 0x25d0984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x25d87f8;
+  constexpr static std::size_t addrs = 0x25d0988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25d8944;
+  constexpr static std::size_t addrs = 0x25d0ad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Value)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x25d8950;
+  constexpr static std::size_t addrs = 0x25d0ae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_CurrentKey)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x25d8680;
+  constexpr static std::size_t addrs = 0x25d0810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

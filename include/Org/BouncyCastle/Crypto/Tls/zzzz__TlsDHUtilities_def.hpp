@@ -80,82 +80,82 @@ public:
   /// @brief Field draft_ffdhe8192_p, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_draft_ffdhe8192_p, put = setStaticF_draft_ffdhe8192_p)) ::StringW draft_ffdhe8192_p;
 
-  /// @brief Method AddNegotiatedDheGroupsClientExtension, addr 0x242f14c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddNegotiatedDheGroupsClientExtension, addr 0x24272dc, size 0x14c, virtual false, abstract: false, final false
   static inline void AddNegotiatedDheGroupsClientExtension(::System::Collections::IDictionary* extensions, ::ArrayW<uint8_t, ::Array<uint8_t>*> dheGroups);
 
-  /// @brief Method AddNegotiatedDheGroupsServerExtension, addr 0x242f33c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddNegotiatedDheGroupsServerExtension, addr 0x24274cc, size 0x14c, virtual false, abstract: false, final false
   static inline void AddNegotiatedDheGroupsServerExtension(::System::Collections::IDictionary* extensions, uint8_t dheGroup);
 
-  /// @brief Method AreCompatibleParameters, addr 0x242fa98, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AreCompatibleParameters, addr 0x2427c28, size 0x90, virtual false, abstract: false, final false
   static inline bool AreCompatibleParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* a, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* b);
 
-  /// @brief Method CalculateDHBasicAgreement, addr 0x242e48c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CalculateDHBasicAgreement, addr 0x242661c, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDHBasicAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* publicKey,
                                                                                ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKey);
 
-  /// @brief Method ContainsDheCipherSuites, addr 0x242f8a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ContainsDheCipherSuites, addr 0x2427a30, size 0xbc, virtual false, abstract: false, final false
   static inline bool ContainsDheCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> cipherSuites);
 
-  /// @brief Method CreateNegotiatedDheGroupsClientExtension, addr 0x242f298, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateNegotiatedDheGroupsClientExtension, addr 0x2427428, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateNegotiatedDheGroupsClientExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> dheGroups);
 
-  /// @brief Method CreateNegotiatedDheGroupsServerExtension, addr 0x242f488, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateNegotiatedDheGroupsServerExtension, addr 0x2427618, size 0x58, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateNegotiatedDheGroupsServerExtension(uint8_t dheGroup);
 
-  /// @brief Method FromHex, addr 0x242eff0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x2427180, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromSafeP, addr 0x242f088, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FromSafeP, addr 0x2427218, size 0xc4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromSafeP(::StringW hexP);
 
-  /// @brief Method GenerateDHKeyPair, addr 0x242fb28, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GenerateDHKeyPair, addr 0x2427cb8, size 0xb8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateDHKeyPair(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                         ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams);
 
-  /// @brief Method GenerateEphemeralClientKeyExchange, addr 0x242e154, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GenerateEphemeralClientKeyExchange, addr 0x24262e4, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*
   GenerateEphemeralClientKeyExchange(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::System::IO::Stream* output);
 
-  /// @brief Method GenerateEphemeralServerKeyExchange, addr 0x242da70, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GenerateEphemeralServerKeyExchange, addr 0x2425c00, size 0x144, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*
   GenerateEphemeralServerKeyExchange(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::System::IO::Stream* output);
 
-  /// @brief Method GetNegotiatedDheGroupsClientExtension, addr 0x242f4e0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetNegotiatedDheGroupsClientExtension, addr 0x2427670, size 0xd0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNegotiatedDheGroupsClientExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method GetNegotiatedDheGroupsServerExtension, addr 0x242f658, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetNegotiatedDheGroupsServerExtension, addr 0x24277e8, size 0xd4, virtual false, abstract: false, final false
   static inline int16_t GetNegotiatedDheGroupsServerExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method GetParametersForDHEGroup, addr 0x242f784, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetParametersForDHEGroup, addr 0x2427914, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetParametersForDHEGroup(int16_t dheGroup);
 
-  /// @brief Method IsDheCipherSuite, addr 0x242f95c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsDheCipherSuite, addr 0x2427aec, size 0x13c, virtual false, abstract: false, final false
   static inline bool IsDheCipherSuite(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDHUtilities* New_ctor();
 
-  /// @brief Method ReadDHParameter, addr 0x242dddc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ReadDHParameter, addr 0x2425f6c, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ReadDHParameter(::System::IO::Stream* input);
 
-  /// @brief Method ReadDHParameters, addr 0x242fcd0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadDHParameters, addr 0x2427e60, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ReadDHParameters(::System::IO::Stream* input);
 
-  /// @brief Method ReadNegotiatedDheGroupsClientExtension, addr 0x242f5b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadNegotiatedDheGroupsClientExtension, addr 0x2427740, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadNegotiatedDheGroupsClientExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method ReadNegotiatedDheGroupsServerExtension, addr 0x242f72c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadNegotiatedDheGroupsServerExtension, addr 0x24278bc, size 0x58, virtual false, abstract: false, final false
   static inline uint8_t ReadNegotiatedDheGroupsServerExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method ReceiveDHParameters, addr 0x242dcbc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReceiveDHParameters, addr 0x2425e4c, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ReceiveDHParameters(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier, ::System::IO::Stream* input);
 
-  /// @brief Method WriteDHParameter, addr 0x242fbe0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteDHParameter, addr 0x2427d70, size 0x7c, virtual false, abstract: false, final false
   static inline void WriteDHParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
 
-  /// @brief Method WriteDHParameters, addr 0x242fc5c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteDHParameters, addr 0x2427dec, size 0x74, virtual false, abstract: false, final false
   static inline void WriteDHParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters, ::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x242fedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242806c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelsEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26aa6f0;
+  constexpr static std::size_t addrs = 0x26a2880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelPacksEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26aa6f8;
+  constexpr static std::size_t addrs = 0x26a2888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_packBetterBuyThanLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26aa700;
+  constexpr static std::size_t addrs = 0x26a2890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26aa708;
+  constexpr static std::size_t addrs = 0x26a2898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

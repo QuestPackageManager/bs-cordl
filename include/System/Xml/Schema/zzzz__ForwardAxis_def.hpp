@@ -78,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set__topNode(::System::Xml::Schema::DoubleLinkAxis* value);
 
-  /// @brief Method .ctor, addr 0x43a2450, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4390010, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself);
 
-  /// @brief Method get_IsAttribute, addr 0x43a2438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAttribute, addr 0x438fff8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAttribute();
 
-  /// @brief Method get_IsDss, addr 0x43a2440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDss, addr 0x4390000, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDss();
 
-  /// @brief Method get_IsSelfAxis, addr 0x43a2448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSelfAxis, addr 0x4390008, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSelfAxis();
 
-  /// @brief Method get_RootNode, addr 0x43a2428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootNode, addr 0x438ffe8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_RootNode();
 
-  /// @brief Method get_TopNode, addr 0x43a2430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopNode, addr 0x438fff0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_TopNode();
 
 protected:

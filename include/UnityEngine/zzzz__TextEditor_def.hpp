@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x48f3974, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e1554, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

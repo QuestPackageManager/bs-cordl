@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::MenuPlayerController::*)()>(
     &::GlobalNamespace::MenuPlayerController::get_leftController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c17a40;
+  constexpr static std::size_t addrs = 0x3c0553c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuPlayerController*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::MenuPlayerController::*)()>(
     &::GlobalNamespace::MenuPlayerController::get_rightController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c17a48;
+  constexpr static std::size_t addrs = 0x3c05544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuPlayerController*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::MenuPlayerController::*)()>(
     &::GlobalNamespace::MenuPlayerController::get_headPos)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c17a50;
+  constexpr static std::size_t addrs = 0x3c0554c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuPlayerController*>::get(), "get_headPos",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::MenuPlayerController::*)()>(
     &::GlobalNamespace::MenuPlayerController::get_headRot)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c17a6c;
+  constexpr static std::size_t addrs = 0x3c05568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuPlayerController*>::get(), "get_headRot",
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuPlayerController::*)()>(&::GlobalNamespace::MenuPlayerController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c17a88;
+  constexpr static std::size_t addrs = 0x3c05584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuPlayerController*>::get(), ".ctor",

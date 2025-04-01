@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)()>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::get_IsDone)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x479ed60;
+  constexpr static std::size_t addrs = 0x478c940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)()>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::get_WebRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479ed80;
+  constexpr static std::size_t addrs = 0x478c960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::set_WebRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479ed88;
+  constexpr static std::size_t addrs = 0x478c968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x479ed90;
+  constexpr static std::size_t addrs = 0x478c970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(
     ::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x479edb8;
+  constexpr static std::size_t addrs = 0x478c998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

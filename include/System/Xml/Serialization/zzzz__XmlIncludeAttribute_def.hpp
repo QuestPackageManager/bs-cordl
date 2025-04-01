@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_Type, addr 0x43802e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x436dea4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

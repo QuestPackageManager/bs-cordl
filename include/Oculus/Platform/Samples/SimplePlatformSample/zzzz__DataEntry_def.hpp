@@ -51,13 +51,13 @@ public:
 
   static inline ::Oculus::Platform::Samples::SimplePlatformSample::DataEntry* New_ctor();
 
-  /// @brief Method Start, addr 0x3fa1a44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f8f5fc, size 0x60, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SubmitCommand, addr 0x3fa1c08, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method SubmitCommand, addr 0x3f8f7c0, size 0x4a8, virtual false, abstract: false, final false
   inline void SubmitCommand(::StringW command);
 
-  /// @brief Method Update, addr 0x3fa1b40, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f8f6f8, size 0xc8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_dataOutput() const;
@@ -66,82 +66,82 @@ public:
 
   constexpr void __cordl_internal_set_dataOutput(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x3fa4558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f92110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method achievementCountCallback, addr 0x3fa37fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method achievementCountCallback, addr 0x3f913b4, size 0xc4, virtual false, abstract: false, final false
   inline void achievementCountCallback(::Oculus::Platform::Message* msg);
 
-  /// @brief Method achievementDefinitionCallback, addr 0x3fa3dcc, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method achievementDefinitionCallback, addr 0x3f91984, size 0x4e4, virtual false, abstract: false, final false
   inline void achievementDefinitionCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementDefinitionList*>* msg);
 
-  /// @brief Method achievementFieldsCallback, addr 0x3fa3738, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method achievementFieldsCallback, addr 0x3f912f0, size 0xc4, virtual false, abstract: false, final false
   inline void achievementFieldsCallback(::Oculus::Platform::Message* msg);
 
-  /// @brief Method achievementProgressCallback, addr 0x3fa3984, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method achievementProgressCallback, addr 0x3f9153c, size 0x448, virtual false, abstract: false, final false
   inline void achievementProgressCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>* msg);
 
-  /// @brief Method achievementUnlockCallback, addr 0x3fa38c0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method achievementUnlockCallback, addr 0x3f91478, size 0xc4, virtual false, abstract: false, final false
   inline void achievementUnlockCallback(::Oculus::Platform::Message* msg);
 
-  /// @brief Method addCountAchievement, addr 0x3fa2738, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method addCountAchievement, addr 0x3f902f0, size 0xf0, virtual false, abstract: false, final false
   inline void addCountAchievement(::StringW achievementName, ::StringW count);
 
-  /// @brief Method addFieldsAchievement, addr 0x3fa2828, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method addFieldsAchievement, addr 0x3f903e0, size 0xc8, virtual false, abstract: false, final false
   inline void addFieldsAchievement(::StringW achievementName, ::StringW fields);
 
-  /// @brief Method checkEntitlement, addr 0x3fa1aa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method checkEntitlement, addr 0x3f8f65c, size 0x9c, virtual false, abstract: false, final false
   inline void checkEntitlement();
 
-  /// @brief Method getAchievementDefinition, addr 0x3fa24b0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method getAchievementDefinition, addr 0x3f90068, size 0xe8, virtual false, abstract: false, final false
   inline void getAchievementDefinition(::StringW achievementName);
 
-  /// @brief Method getAchievementProgress, addr 0x3fa2598, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method getAchievementProgress, addr 0x3f90150, size 0xe8, virtual false, abstract: false, final false
   inline void getAchievementProgress(::StringW achievementName);
 
-  /// @brief Method getEntitlementCallback, addr 0x3fa3060, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method getEntitlementCallback, addr 0x3f90c18, size 0x84, virtual false, abstract: false, final false
   inline void getEntitlementCallback(::Oculus::Platform::Message* msg);
 
-  /// @brief Method getFriendsCallback, addr 0x3fa4470, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method getFriendsCallback, addr 0x3f92028, size 0xe8, virtual false, abstract: false, final false
   inline void getFriendsCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>* msg);
 
-  /// @brief Method getLeaderboardEntries, addr 0x3fa2a34, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method getLeaderboardEntries, addr 0x3f905ec, size 0xc4, virtual false, abstract: false, final false
   inline void getLeaderboardEntries(::StringW leaderboardName);
 
-  /// @brief Method getLoggedInFriends, addr 0x3fa2310, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method getLoggedInFriends, addr 0x3f8fec8, size 0xd0, virtual false, abstract: false, final false
   inline void getLoggedInFriends();
 
-  /// @brief Method getLoggedInUser, addr 0x3fa212c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method getLoggedInUser, addr 0x3f8fce4, size 0xd0, virtual false, abstract: false, final false
   inline void getLoggedInUser();
 
-  /// @brief Method getUser, addr 0x3fa21fc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method getUser, addr 0x3f8fdb4, size 0x114, virtual false, abstract: false, final false
   inline void getUser(::StringW userID);
 
-  /// @brief Method getUserCallback, addr 0x3fa42b0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method getUserCallback, addr 0x3f91e68, size 0x1c0, virtual false, abstract: false, final false
   inline void getUserCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* msg);
 
-  /// @brief Method getUserNonce, addr 0x3fa23e0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method getUserNonce, addr 0x3f8ff98, size 0xd0, virtual false, abstract: false, final false
   inline void getUserNonce();
 
-  /// @brief Method leaderboardGetCallback, addr 0x3fa30e4, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method leaderboardGetCallback, addr 0x3f90c9c, size 0x4fc, virtual false, abstract: false, final false
   inline void leaderboardGetCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* msg);
 
-  /// @brief Method leaderboardWriteCallback, addr 0x3fa35e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method leaderboardWriteCallback, addr 0x3f91198, size 0x158, virtual false, abstract: false, final false
   inline void leaderboardWriteCallback(::Oculus::Platform::Message* msg);
 
-  /// @brief Method outputUserArray, addr 0x3fa2ba8, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method outputUserArray, addr 0x3f90760, size 0x3bc, virtual false, abstract: false, final false
   inline void outputUserArray(::Oculus::Platform::Models::UserList* users);
 
-  /// @brief Method printOutputLine, addr 0x3fa2af8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method printOutputLine, addr 0x3f906b0, size 0xb0, virtual false, abstract: false, final false
   inline void printOutputLine(::StringW newLine);
 
-  /// @brief Method unlockAchievement, addr 0x3fa2680, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method unlockAchievement, addr 0x3f90238, size 0xb8, virtual false, abstract: false, final false
   inline void unlockAchievement(::StringW achievementName);
 
-  /// @brief Method userProofCallback, addr 0x3fa2f64, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method userProofCallback, addr 0x3f90b1c, size 0xfc, virtual false, abstract: false, final false
   inline void userProofCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>* msg);
 
-  /// @brief Method writeLeaderboardEntry, addr 0x3fa28f0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method writeLeaderboardEntry, addr 0x3f904a8, size 0x144, virtual false, abstract: false, final false
   inline void writeLeaderboardEntry(::StringW leaderboardName, ::StringW value);
 
 protected:
@@ -159,7 +159,7 @@ public:
   DataEntry(DataEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15581 };
 
   /// @brief Field dataOutput, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___dataOutput;

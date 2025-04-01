@@ -34,7 +34,7 @@ public:
   constexpr TileChangeData(::UnityEngine::Vector3Int m_Position, ::UnityW<::UnityEngine::Object> m_TileAsset, ::UnityEngine::Color m_Color, ::UnityEngine::Matrix4x4 m_Transform) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

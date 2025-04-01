@@ -42,39 +42,39 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x3d2a5e4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3d180e0, size 0x10, virtual true, abstract: false, final true
   inline int32_t Compare(::StringW a, ::StringW b);
 
-  /// @brief Method Compare, addr 0x3d2a548, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3d18044, size 0x9c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method CompareOrdinal, addr 0x3d2a6a0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x3d1819c, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::StringW a, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t bCharLength);
 
-  /// @brief Method CompareOrdinal, addr 0x3d2a7cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x3d182c8, size 0x90, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::cordl_internals::Ptr<uint8_t> a, int32_t byteLen, ::StringW b);
 
-  /// @brief Method CompareOrdinal, addr 0x3d2a758, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x3d18254, size 0x74, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t aCharLength, ::StringW b);
 
-  /// @brief Method Equals, addr 0x3d2a5f4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3d180f0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::StringW a, ::StringW b);
 
-  /// @brief Method Equals, addr 0x3d2a604, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3d18100, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetHashCode, addr 0x3d2a4f4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3d17ff0, size 0x54, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method GetHashCode, addr 0x3d2a3fc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3d17ef8, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* key);
 
-  /// @brief Method HashFunction, addr 0x3d2a488, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HashFunction, addr 0x3d17f84, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t HashFunction(::StringW key);
 
   static inline ::System::Resources::FastResourceComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d2a85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d18358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Resources::FastResourceComparer* getStaticF_Default();

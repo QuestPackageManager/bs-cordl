@@ -66,15 +66,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEnvironmentColorProvider"
   constexpr operator ::GlobalNamespace::IEnvironmentColorProvider*() noexcept;
 
-  /// @brief Method Awake, addr 0x3b1b3f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b08420, size 0x28, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitColors, addr 0x3b1b41c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitColors, addr 0x3b08448, size 0xa0, virtual false, abstract: false, final false
   inline void InitColors();
 
   static inline ::GlobalNamespace::EnvironmentColorManager* New_ctor();
 
-  /// @brief Method SetColorScheme, addr 0x3b1b4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x3b084e8, size 0x8, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
   constexpr ::GlobalNamespace::ColorScheme* const& __cordl_internal_get__colorScheme() const;
@@ -119,28 +119,28 @@ public:
 
   constexpr void __cordl_internal_set_didChangeColorEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b1b4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b084f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeColorEvent, addr 0x3b1b2bc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didChangeColorEvent, addr 0x3b082e8, size 0x9c, virtual true, abstract: false, final true
   inline void add_didChangeColorEvent(::System::Action* value);
 
-  /// @brief Method get_environmentColor0, addr 0x3b1b1d4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor0, addr 0x3b08200, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor0();
 
-  /// @brief Method get_environmentColor0Boost, addr 0x3b1b214, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor0Boost, addr 0x3b08240, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor0Boost();
 
-  /// @brief Method get_environmentColor1, addr 0x3b1b1f4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor1, addr 0x3b08220, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor1();
 
-  /// @brief Method get_environmentColor1Boost, addr 0x3b1b268, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor1Boost, addr 0x3b08294, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor1Boost();
 
   /// @brief Convert to "::GlobalNamespace::IEnvironmentColorProvider"
   constexpr ::GlobalNamespace::IEnvironmentColorProvider* i___GlobalNamespace__IEnvironmentColorProvider() noexcept;
 
-  /// @brief Method remove_didChangeColorEvent, addr 0x3b1b358, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didChangeColorEvent, addr 0x3b08384, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didChangeColorEvent(::System::Action* value);
 
 protected:

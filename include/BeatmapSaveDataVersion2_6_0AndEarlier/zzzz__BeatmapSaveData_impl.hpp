@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ea7c;
+  constexpr static std::size_t addrs = 0x27070c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_events)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ea84;
+  constexpr static std::size_t addrs = 0x27070c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_notes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ea8c;
+  constexpr static std::size_t addrs = 0x27070d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_sliders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ea94;
+  constexpr static std::size_t addrs = 0x27070d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_waypoints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ea9c;
+  constexpr static std::size_t addrs = 0x27070e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_obstacles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270eaa4;
+  constexpr static std::size_t addrs = 0x27070e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_specialEventsKeywordFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270eaac;
+  constexpr static std::size_t addrs = 0x27070f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>*, ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*)>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x270eab4;
+  constexpr static std::size_t addrs = 0x27070f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ConvertBeatmapSaveDataPreV2_5_0Inline)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x270eb44;
+  constexpr static std::size_t addrs = 0x2707188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

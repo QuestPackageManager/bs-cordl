@@ -36,7 +36,7 @@ public:
 
   static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithDefaultGameObjectParent, addr 0x4b10e98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithDefaultGameObjectParent, addr 0x4afea8c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
 
   constexpr ::Zenject::SubContainerCreatorBindInfo* const& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField() const;
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4b10e5c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afea50, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4b10e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4afea7c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
 
-  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4b10e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4afea84, size 0x8, virtual false, abstract: false, final false
   inline void set_SubContainerCreatorBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
 protected:

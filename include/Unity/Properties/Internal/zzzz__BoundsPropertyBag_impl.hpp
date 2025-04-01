@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)()>(
     &::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4923878;
+  constexpr static std::size_t addrs = 0x4911458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)()>(
     &::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49237e8;
+  constexpr static std::size_t addrs = 0x49113c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)()>(
     &::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49238b8;
+  constexpr static std::size_t addrs = 0x4911498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)()>(
     &::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4923830;
+  constexpr static std::size_t addrs = 0x4911410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag::*)()>(
     &::Unity::Properties::Internal::BoundsPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x49226d8;
+  constexpr static std::size_t addrs = 0x49102b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag*>::get(),

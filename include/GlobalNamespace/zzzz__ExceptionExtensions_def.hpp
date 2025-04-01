@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ExceptionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateFullStackMessage, addr 0x22a2e84, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GenerateFullStackMessage, addr 0x229b014, size 0x1c0, virtual false, abstract: false, final false
   static inline ::StringW GenerateFullStackMessage(::System::Exception* e);
 
 protected:

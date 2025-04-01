@@ -50,15 +50,15 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
-  /// @brief Method GetTraceMessages, addr 0x3f0b74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTraceMessages, addr 0x3ef9304, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetTraceMessages();
 
   static inline ::Newtonsoft::Json::Serialization::MemoryTraceWriter* New_ctor();
 
-  /// @brief Method ToString, addr 0x3f0b754, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ef930c, size 0x2b4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Trace, addr 0x3f0b474, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method Trace, addr 0x3ef902c, size 0x2d8, virtual true, abstract: false, final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
@@ -79,16 +79,16 @@ public:
 
   constexpr void __cordl_internal_set__traceMessages(::System::Collections::Generic::Queue_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3f0b3c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef8f78, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LevelFilter, addr 0x3f0b3b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LevelFilter, addr 0x3ef8f68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
-  /// @brief Method set_LevelFilter, addr 0x3f0b3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LevelFilter, addr 0x3ef8f70, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
 protected:

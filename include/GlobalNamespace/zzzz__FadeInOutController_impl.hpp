@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)(int32_t)>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39d0c68;
+  constexpr static std::size_t addrs = 0x39bdb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d0cac;
+  constexpr static std::size_t addrs = 0x39bdb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOutController__Fade_d__19*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x39d0cb0;
+  constexpr static std::size_t addrs = 0x39bdb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOutController__Fade_d__19*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0e50;
+  constexpr static std::size_t addrs = 0x39bdce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39d0e58;
+  constexpr static std::size_t addrs = 0x39bdcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0e90;
+  constexpr static std::size_t addrs = 0x39bdd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::get_inTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d09f0;
+  constexpr static std::size_t addrs = 0x39bd888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOutController*>::get(),
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(bool)>(&::GlobalNamespace::FadeInOutController::set_inTransition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d09f8;
+  constexpr static std::size_t addrs = 0x39bd890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeOutInstant)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d0a04;
+  constexpr static std::size_t addrs = 0x39bd89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOutController*>::get(), "FadeOutInstant",
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d0ad0;
+  constexpr static std::size_t addrs = 0x39bd968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOutController*>::get(), "FadeIn",
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d0b98;
+  constexpr static std::size_t addrs = 0x39bda30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOutController*>::get(), "FadeOut",
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t)>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0ba4;
+  constexpr static std::size_t addrs = 0x39bda3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t)>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0bac;
+  constexpr static std::size_t addrs = 0x39bda44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(::System::Action*)>(
     &::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0bb4;
+  constexpr static std::size_t addrs = 0x39bda4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(::System::Action*)>(
     &::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0bbc;
+  constexpr static std::size_t addrs = 0x39bda54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x39d0adc;
+  constexpr static std::size_t addrs = 0x39bd974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39d0a10;
+  constexpr static std::size_t addrs = 0x39bd8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::FadeInOutController::*)(float_t, float_t, float_t, float_t, ::UnityEngine::AnimationCurve*, ::System::Action*)>(&::GlobalNamespace::FadeInOutController::Fade)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39d0bc4;
+  constexpr static std::size_t addrs = 0x39bda5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39d0c90;
+  constexpr static std::size_t addrs = 0x39bdb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOutController*>::get(), ".ctor",

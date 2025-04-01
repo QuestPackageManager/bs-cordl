@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x478bfa4;
+  constexpr static std::size_t addrs = 0x4779b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::*)(
     ::UnityEngine::ProBuilder::Vertex*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_Import_b__9_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x478bfac;
+  constexpr static std::size_t addrs = 0x4779b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x478a748;
+  constexpr static std::size_t addrs = 0x4778328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x478a8b0;
+  constexpr static std::size_t addrs = 0x4778490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x478a9d0;
+  constexpr static std::size_t addrs = 0x47785b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x478a9f8;
+  constexpr static std::size_t addrs = 0x47785d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(
     ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   constexpr static std::size_t size = 0xa8c;
-  constexpr static std::size_t addrs = 0x478ab7c;
+  constexpr static std::size_t addrs = 0x477875c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

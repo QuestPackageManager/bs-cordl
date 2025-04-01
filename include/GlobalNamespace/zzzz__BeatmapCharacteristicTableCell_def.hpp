@@ -31,36 +31,36 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapCharacteristicTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _bgHighlightColor, offset 0x98, size 0x10
+  /// @brief Field _bgHighlightColor, offset 0xa8, size 0x10
   __declspec(property(get = __cordl_internal_get__bgHighlightColor, put = __cordl_internal_set__bgHighlightColor)) ::UnityEngine::Color _bgHighlightColor;
 
-  /// @brief Field _bgImage, offset 0x78, size 0x8
+  /// @brief Field _bgImage, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage)) ::UnityW<::UnityEngine::UI::Image> _bgImage;
 
-  /// @brief Field _bgNormalColor, offset 0x88, size 0x10
+  /// @brief Field _bgNormalColor, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get__bgNormalColor, put = __cordl_internal_set__bgNormalColor)) ::UnityEngine::Color _bgNormalColor;
 
-  /// @brief Field _iconImage, offset 0x70, size 0x8
+  /// @brief Field _iconImage, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__iconImage, put = __cordl_internal_set__iconImage)) ::UnityW<::UnityEngine::UI::Image> _iconImage;
 
-  /// @brief Field _nameText, offset 0x68, size 0x8
+  /// @brief Field _nameText, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText)) ::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-  /// @brief Field _selectionImage, offset 0x80, size 0x8
+  /// @brief Field _selectionImage, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__selectionImage, put = __cordl_internal_set__selectionImage)) ::UnityW<::UnityEngine::UI::Image> _selectionImage;
 
-  /// @brief Method HighlightDidChange, addr 0x3c09b84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3bf7674, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3c09b08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3bf75f8, size 0x7c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3c09b04, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3bf75f4, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x3c09aa4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3bf7594, size 0x60, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__bgHighlightColor() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__selectionImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3c09b88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf7678, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,40 +119,40 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4747 };
 
-  /// @brief Field _nameText, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _nameText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
-  /// @brief Field _iconImage, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _iconImage, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____iconImage;
 
-  /// @brief Field _bgImage, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _bgImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
-  /// @brief Field _selectionImage, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _selectionImage, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____selectionImage;
 
-  /// @brief Field _bgNormalColor, offset: 0x88, size: 0x10, def value: None
+  /// @brief Field _bgNormalColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____bgNormalColor;
 
-  /// @brief Field _bgHighlightColor, offset: 0x98, size: 0x10, def value: None
+  /// @brief Field _bgHighlightColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____bgHighlightColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____nameText) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____nameText) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____iconImage) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____iconImage) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____bgImage) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____bgImage) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____selectionImage) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____selectionImage) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____bgNormalColor) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____bgNormalColor) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____bgHighlightColor) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicTableCell, ____bgHighlightColor) == 0xa8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicTableCell, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicTableCell, 0xb8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicTableCell);

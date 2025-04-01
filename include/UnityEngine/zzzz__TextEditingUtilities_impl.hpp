@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_hasSelection)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48f1db0;
+  constexpr static std::size_t addrs = 0x48df990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "get_hasSelection",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(bool)>(&::UnityEngine::TextEditingUtilities::set_revealCursor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48f1dcc;
+  constexpr static std::size_t addrs = 0x48df9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_cursorIndex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48f1dec;
+  constexpr static std::size_t addrs = 0x48df9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "get_cursorIndex",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(int32_t)>(&::UnityEngine::TextEditingUtilities::set_cursorIndex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48f1e08;
+  constexpr static std::size_t addrs = 0x48df9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_selectIndex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48f1e24;
+  constexpr static std::size_t addrs = 0x48dfa04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "get_selectIndex",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(int32_t)>(&::UnityEngine::TextEditingUtilities::set_selectIndex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48f1e40;
+  constexpr static std::size_t addrs = 0x48dfa20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f1e5c;
+  constexpr static std::size_t addrs = 0x48dfa3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "get_text",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::StringW)>(&::UnityEngine::TextEditingUtilities::set_text)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48f1e64;
+  constexpr static std::size_t addrs = 0x48dfa44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(
     ::UnityEngine::TextSelectingUtilities*, ::UnityEngine::TextCore::Text::TextHandle*, ::StringW)>(&::UnityEngine::TextEditingUtilities::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48f1ed0;
+  constexpr static std::size_t addrs = 0x48dfab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::UpdateImeState)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x48f1f18;
+  constexpr static std::size_t addrs = 0x48dfaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "UpdateImeState",
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(
     &::UnityEngine::TextEditingUtilities::ShouldUpdateImeWindowPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f20a4;
+  constexpr static std::size_t addrs = 0x48dfc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::TextEditingUtilities::SetImeWindowPosition)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x48f20ac;
+  constexpr static std::size_t addrs = 0x48dfc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextEditingUtilities::*)(bool)>(
     &::UnityEngine::TextEditingUtilities::GeneratePreviewString)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x48f2154;
+  constexpr static std::size_t addrs = 0x48dfd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::EnableCursorPreviewState)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x48f22d0;
+  constexpr static std::size_t addrs = 0x48dfeb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(),
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::RestoreCursorState)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48f2278;
+  constexpr static std::size_t addrs = 0x48dfe58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(),
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)(::UnityEngine::Event*)>(
     &::UnityEngine::TextEditingUtilities::HandleKeyEvent)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x48f23ac;
+  constexpr static std::size_t addrs = 0x48dff8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::UnityEngine::TextEditOp)>(
     &::UnityEngine::TextEditingUtilities::PerformOperation)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x48f2b6c;
+  constexpr static std::size_t addrs = 0x48e074c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::TextEditOp)>(&::UnityEngine::TextEditingUtilities::MapKey)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48f3478;
+  constexpr static std::size_t addrs = 0x48e1058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::InitKeyActions)> {
   constexpr static std::size_t size = 0x638;
-  constexpr static std::size_t addrs = 0x48f2534;
+  constexpr static std::size_t addrs = 0x48e0114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "InitKeyActions",
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteLineBack)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x48f3288;
+  constexpr static std::size_t addrs = 0x48e0e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "DeleteLineBack",
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteWordBack)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48f3198;
+  constexpr static std::size_t addrs = 0x48e0d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "DeleteWordBack",
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteWordForward)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x48f338c;
+  constexpr static std::size_t addrs = 0x48e0f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "DeleteWordForward",
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Delete)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x48f2ebc;
+  constexpr static std::size_t addrs = 0x48e0a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "Delete",
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Backspace)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x48f2fa4;
+  constexpr static std::size_t addrs = 0x48e0b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "Backspace",
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteSelection)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x48f3504;
+  constexpr static std::size_t addrs = 0x48e10e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "DeleteSelection",
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::StringW)>(&::UnityEngine::TextEditingUtilities::ReplaceSelection)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x48f1fec;
+  constexpr static std::size_t addrs = 0x48dfbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(char16_t)>(&::UnityEngine::TextEditingUtilities::Insert)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48f3730;
+  constexpr static std::size_t addrs = 0x48e1310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::CanPaste)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48f37a4;
+  constexpr static std::size_t addrs = 0x48e1384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "CanPaste",
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Cut)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48f30a4;
+  constexpr static std::size_t addrs = 0x48e0c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "Cut",
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Paste)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x48f30cc;
+  constexpr static std::size_t addrs = 0x48e0cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "Paste",
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::TextEditingUtilities::ReplaceNewlinesWithSpaces)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48f3828;
+  constexpr static std::size_t addrs = 0x48e1408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::OnBlur)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x48f38bc;
+  constexpr static std::size_t addrs = 0x48e149c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditingUtilities*>::get(), "OnBlur",
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(
     &::UnityEngine::TextEditingUtilities::TouchScreenKeyboardShouldBeUsed)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48f38f0;
+  constexpr static std::size_t addrs = 0x48e14d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

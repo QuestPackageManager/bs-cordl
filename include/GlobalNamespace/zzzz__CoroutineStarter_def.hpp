@@ -28,15 +28,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICoroutineStarter"
   constexpr operator ::GlobalNamespace::ICoroutineStarter*() noexcept;
 
-  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0x22b7f2c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0x22b00bc, size 0xd4, virtual true, abstract: false, final true
   inline ::UnityEngine::Coroutine* ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0x22b8000, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0x22b0190, size 0xcc, virtual true, abstract: false, final true
   inline void ICoroutineStarter_StopCoroutine(::UnityEngine::Coroutine* routine);
 
   static inline ::GlobalNamespace::CoroutineStarter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b80cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b025c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICoroutineStarter"

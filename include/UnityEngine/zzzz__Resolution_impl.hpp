@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4884924;
+  constexpr static std::size_t addrs = 0x4872504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Resolution>::get(), "get_width",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x488492c;
+  constexpr static std::size_t addrs = 0x487250c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Resolution>::get(), "get_height",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RefreshRate (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::get_refreshRateRatio)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4884934;
+  constexpr static std::size_t addrs = 0x4872514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Resolution>::get(), "get_refreshRateRatio",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::ToString)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x488493c;
+  constexpr static std::size_t addrs = 0x487251c;
 
   inline static ::MethodInfo const* methodInfo() {
 

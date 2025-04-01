@@ -27,7 +27,7 @@ public:
   /// @brief Field MakeDropdownFunc, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_MakeDropdownFunc, put = setStaticF_MakeDropdownFunc)) ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* MakeDropdownFunc;
 
-  /// @brief Method CreateDropdown, addr 0x4a2ea30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x4a1c610, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* getStaticF_MakeDropdownFunc();

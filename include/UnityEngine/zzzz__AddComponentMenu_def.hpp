@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ordering(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48b527c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a2e5c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName);
 
-  /// @brief Method .ctor, addr 0x48b52a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a2e88, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName, int32_t order);
 
 protected:

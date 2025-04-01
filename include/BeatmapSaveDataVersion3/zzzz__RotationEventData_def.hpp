@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x270e684, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706cc8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
 
-  /// @brief Method get_executionTime, addr 0x270e674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTime, addr 0x2706cb8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
 
-  /// @brief Method get_rotation, addr 0x270e67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x2706cc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -71,7 +71,7 @@ public:
   RotationEventData(RotationEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13418 };
 
   /// @brief Field e, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::ExecutionTime ___e;

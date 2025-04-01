@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2416994;
+  constexpr static std::size_t addrs = 0x240eb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24169ac;
+  constexpr static std::size_t addrs = 0x240eb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Org::BouncyCastle::Asn1::DerInteger*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::GetVersionValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2416d68;
+  constexpr static std::size_t addrs = 0x240eef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2416e88;
+  constexpr static std::size_t addrs = 0x240f018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Org::BouncyCastle::Asn1::Asn1Set*)>(&::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2416fd8;
+  constexpr static std::size_t addrs = 0x240f168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Org::BouncyCastle::Asn1::Asn1Set*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2416e94;
+  constexpr static std::size_t addrs = 0x240f024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x2416a50;
+  constexpr static std::size_t addrs = 0x240ebe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2416fe0;
+  constexpr static std::size_t addrs = 0x240f170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Set* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2416fe8;
+  constexpr static std::size_t addrs = 0x240f178;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_HasPublicKey)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2416ff0;
+  constexpr static std::size_t addrs = 0x240f180;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2417000;
+  constexpr static std::size_t addrs = 0x240f190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2417008;
+  constexpr static std::size_t addrs = 0x240f198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::ParsePrivateKey)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2417010;
+  constexpr static std::size_t addrs = 0x240f1a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::ParsePublicKey)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2417038;
+  constexpr static std::size_t addrs = 0x240f1c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PublicKeyData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2417064;
+  constexpr static std::size_t addrs = 0x240f1f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x241706c;
+  constexpr static std::size_t addrs = 0x240f1fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

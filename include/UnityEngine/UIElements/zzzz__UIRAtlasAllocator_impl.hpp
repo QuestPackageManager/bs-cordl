@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::*)()>(
     &::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a55290;
+  constexpr static std::size_t addrs = 0x4a42e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Row_UIRAtlasAllocator___c*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_Row* (::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::*)()>(
     &::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::__cctor_b__21_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a55298;
+  constexpr static std::size_t addrs = 0x4a42e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Row_UIRAtlasAllocator___c*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::get_offsetX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a550e4;
+  constexpr static std::size_t addrs = 0x4a42cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_offsetX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a550ec;
+  constexpr static std::size_t addrs = 0x4a42ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::get_offsetY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a550f4;
+  constexpr static std::size_t addrs = 0x4a42cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_offsetY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a550fc;
+  constexpr static std::size_t addrs = 0x4a42cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a55104;
+  constexpr static std::size_t addrs = 0x4a42ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5510c;
+  constexpr static std::size_t addrs = 0x4a42cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a55114;
+  constexpr static std::size_t addrs = 0x4a42cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_Row* (*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::Acquire)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4a54ef0;
+  constexpr static std::size_t addrs = 0x4a42ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::Release)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a54440;
+  constexpr static std::size_t addrs = 0x4a42020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>::get(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5511c;
+  constexpr static std::size_t addrs = 0x4a42cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>::get(),
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::*)()>(
     &::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a55460;
+  constexpr static std::size_t addrs = 0x4a43040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* (
     ::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::*)()>(&::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::__cctor_b__9_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a55468;
+  constexpr static std::size_t addrs = 0x4a43048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* (*)(::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::Acquire)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a54824;
+  constexpr static std::size_t addrs = 0x4a42404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::Release)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a544d0;
+  constexpr static std::size_t addrs = 0x4a420b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>::get(),
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::RemoveFromChain)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a54f9c;
+  constexpr static std::size_t addrs = 0x4a42b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>::get(),
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)(
     ::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*)>(&::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::AddAfter)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4a54fc4;
+  constexpr static std::size_t addrs = 0x4a42ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a552ec;
+  constexpr static std::size_t addrs = 0x4a42ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>::get(),
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_maxAtlasSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a542d8;
+  constexpr static std::size_t addrs = 0x4a41eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_maxImageWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a542e0;
+  constexpr static std::size_t addrs = 0x4a41ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_maxImageHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a542e8;
+  constexpr static std::size_t addrs = 0x4a41ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_virtualWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a542f0;
+  constexpr static std::size_t addrs = 0x4a41ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::set_virtualWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a542f8;
+  constexpr static std::size_t addrs = 0x4a41ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_virtualHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a54300;
+  constexpr static std::size_t addrs = 0x4a41ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::set_virtualHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a54308;
+  constexpr static std::size_t addrs = 0x4a41ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -645,7 +645,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_physicalWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a54310;
+  constexpr static std::size_t addrs = 0x4a41ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -659,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::set_physicalWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a54318;
+  constexpr static std::size_t addrs = 0x4a41ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_physicalHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a54320;
+  constexpr static std::size_t addrs = 0x4a41f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -688,7 +688,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::set_physicalHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a54328;
+  constexpr static std::size_t addrs = 0x4a41f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a54330;
+  constexpr static std::size_t addrs = 0x4a41f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(bool)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::set_disposed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a54338;
+  constexpr static std::size_t addrs = 0x4a41f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -731,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4a54344;
+  constexpr static std::size_t addrs = 0x4a41f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(), "Dispose",
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(bool)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a543b0;
+  constexpr static std::size_t addrs = 0x4a41f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -759,7 +759,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::GetLog2OfNextPower)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4a54550;
+  constexpr static std::size_t addrs = 0x4a42130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -774,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4a54680;
+  constexpr static std::size_t addrs = 0x4a42260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -790,7 +790,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t, int32_t, ::ByRef<::UnityEngine::RectInt>)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::TryAllocate)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x4a549b4;
+  constexpr static std::size_t addrs = 0x4a42594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIRAtlasAllocator::*)(
     ::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*, int32_t, int32_t, int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::TryPartitionArea)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4a54d68;
+  constexpr static std::size_t addrs = 0x4a42948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -823,7 +823,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::BuildAreas)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4a548bc;
+  constexpr static std::size_t addrs = 0x4a4249c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRAtlasAllocator*>::get(),

@@ -21,15 +21,15 @@ public:
   // Declarations
   __declspec(property(get = get_IsFull)) bool IsFull;
 
-  /// @brief Method Decode, addr 0x4319010, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x4306bd0, size 0x8, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
 
   static inline ::System::Xml::IncrementalReadDummyDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4319018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4306bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsFull, addr 0x4319008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFull, addr 0x4306bc8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFull();
 
 protected:

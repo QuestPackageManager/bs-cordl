@@ -110,12 +110,12 @@ public:
   /// @brief Field _settingsManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method GetGraphicsActivatorType, addr 0x3b3c628, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsActivatorType, addr 0x3b29654, size 0x90, virtual false, abstract: false, final false
   inline bool GetGraphicsActivatorType();
 
   static inline ::GlobalNamespace::GraphicSettingsConditionalActivator* New_ctor();
 
-  /// @brief Method Start, addr 0x3b3c5d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b29604, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__activateOnFalse() const;
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b3c6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b296e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

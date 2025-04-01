@@ -45,21 +45,21 @@ public:
   /// @brief Field _pressedClip, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__pressedClip, put = __cordl_internal_set__pressedClip)) ::UnityW<::UnityEngine::AnimationClip> _pressedClip;
 
-  /// @brief Method Awake, addr 0x3a02a08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39efa68, size 0x8c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x3a02ab8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x39efb18, size 0xfc, virtual false, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
 
   static inline ::HMUI::ButtonStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a02bd0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39efc30, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x3a02bb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39efc14, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x3a02a94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39efaf4, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__pressedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x3a02c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39efcfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   ButtonStaticAnimations(ButtonStaticAnimations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16073 };
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::NoTransitionsButton> ____button;

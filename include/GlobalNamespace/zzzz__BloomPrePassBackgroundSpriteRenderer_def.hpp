@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x39e6448, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d32e0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x39e6440, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x39d32d8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -58,7 +58,7 @@ public:
   BloomPrePassBackgroundSpriteRenderer(BloomPrePassBackgroundSpriteRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16252 };
 
   /// @brief Field _spriteRenderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;

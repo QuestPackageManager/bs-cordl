@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::GetSPPRounds)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3c7b8c0;
+  constexpr static std::size_t addrs = 0x3c693bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::Test)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3c7a9fc;
+  constexpr static std::size_t addrs = 0x3c684f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::RabinMillerTest)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3c7bc24;
+  constexpr static std::size_t addrs = 0x3c69720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::SmallPrimeSppTest)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3c7ba4c;
+  constexpr static std::size_t addrs = 0x3c69548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

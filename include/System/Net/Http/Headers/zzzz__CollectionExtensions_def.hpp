@@ -31,7 +31,7 @@ public:
   /// @brief Method SequenceEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool SequenceEqual(::System::Collections::Generic::List_1<TSource>* first, ::System::Collections::Generic::List_1<TSource>* second);
 
-  /// @brief Method SetValue, addr 0x422b038, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x4218bf8, size 0x1b8, virtual false, abstract: false, final false
   static inline void SetValue(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters, ::StringW key, ::StringW value);
 
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

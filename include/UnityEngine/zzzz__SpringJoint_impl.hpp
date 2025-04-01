@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_spring)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x49189f0;
+  constexpr static std::size_t addrs = 0x49065d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpringJoint*>::get(), "get_spring",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_spring)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4918a2c;
+  constexpr static std::size_t addrs = 0x490660c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_damper)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4918a78;
+  constexpr static std::size_t addrs = 0x4906658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpringJoint*>::get(), "get_damper",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_damper)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4918ab4;
+  constexpr static std::size_t addrs = 0x4906694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_minDistance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4918b00;
+  constexpr static std::size_t addrs = 0x49066e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpringJoint*>::get(), "get_minDistance",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_minDistance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4918b3c;
+  constexpr static std::size_t addrs = 0x490671c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_maxDistance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4918b88;
+  constexpr static std::size_t addrs = 0x4906768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpringJoint*>::get(), "get_maxDistance",
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_maxDistance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4918bc4;
+  constexpr static std::size_t addrs = 0x49067a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_tolerance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4918c10;
+  constexpr static std::size_t addrs = 0x49067f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpringJoint*>::get(), "get_tolerance",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_tolerance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4918c4c;
+  constexpr static std::size_t addrs = 0x490682c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4918c98;
+  constexpr static std::size_t addrs = 0x4906878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpringJoint*>::get(), ".ctor",

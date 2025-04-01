@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(int64_t)>(
     &::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::TimeToBytes)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26441f4;
+  constexpr static std::size_t addrs = 0x263c384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2644288;
+  constexpr static std::size_t addrs = 0x263c418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::*)(bool, int64_t)>(
     &::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26442d0;
+  constexpr static std::size_t addrs = 0x263c460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::get_Time)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x264431c;
+  constexpr static std::size_t addrs = 0x263c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime*>::get(),

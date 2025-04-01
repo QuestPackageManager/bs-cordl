@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26db268;
+  constexpr static std::size_t addrs = 0x26d33f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26db270;
+  constexpr static std::size_t addrs = 0x26d3400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_noConditionValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26db27c;
+  constexpr static std::size_t addrs = 0x26d340c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_objectiveValueFormater)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26db284;
+  constexpr static std::size_t addrs = 0x26d3414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(&::GlobalNamespace::MissionObjectiveTypeSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26db28c;
+  constexpr static std::size_t addrs = 0x26d341c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(), ".ctor",

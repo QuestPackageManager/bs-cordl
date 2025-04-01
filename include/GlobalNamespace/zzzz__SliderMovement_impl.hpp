@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action*)>(
     &::GlobalNamespace::SliderMovement::add_movementDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b852e4;
+  constexpr static std::size_t addrs = 0x3b72d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action*)>(
     &::GlobalNamespace::SliderMovement::remove_movementDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b85928;
+  constexpr static std::size_t addrs = 0x3b7335c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SliderMovement::add_movementDidMoveEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b8998c;
+  constexpr static std::size_t addrs = 0x3b773c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SliderMovement::remove_movementDidMoveEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b89a3c;
+  constexpr static std::size_t addrs = 0x3b77470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action*)>(
     &::GlobalNamespace::SliderMovement::add_headDidMovePastCutMarkEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b85380;
+  constexpr static std::size_t addrs = 0x3b72db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action*)>(
     &::GlobalNamespace::SliderMovement::remove_headDidMovePastCutMarkEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b859c4;
+  constexpr static std::size_t addrs = 0x3b733f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action*)>(
     &::GlobalNamespace::SliderMovement::add_tailDidMovePastCutMarkEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b8541c;
+  constexpr static std::size_t addrs = 0x3b72e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::System::Action*)>(
     &::GlobalNamespace::SliderMovement::remove_tailDidMovePastCutMarkEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b85a60;
+  constexpr static std::size_t addrs = 0x3b73494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SliderMovement::*)()>(&::GlobalNamespace::SliderMovement::get_timeSinceHeadNoteJump)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b89aec;
+  constexpr static std::size_t addrs = 0x3b77520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMovement*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::SliderMovement::*)(::GlobalNamespace::SliderData*, ::ByRef<::GlobalNamespace::SliderSpawnData>)>(&::GlobalNamespace::SliderMovement::Init)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3b845b0;
+  constexpr static std::size_t addrs = 0x3b71fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)()>(&::GlobalNamespace::SliderMovement::StartMovement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b8516c;
+  constexpr static std::size_t addrs = 0x3b72ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMovement*>::get(), "StartMovement",
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)()>(&::GlobalNamespace::SliderMovement::ManualUpdate)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x3b85d88;
+  constexpr static std::size_t addrs = 0x3b737bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMovement*>::get(), "ManualUpdate",
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMovement::*)()>(&::GlobalNamespace::SliderMovement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b89af4;
+  constexpr static std::size_t addrs = 0x3b77528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMovement*>::get(), ".ctor",

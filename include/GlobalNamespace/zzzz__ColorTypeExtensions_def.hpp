@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Opposite, addr 0x22496e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Opposite, addr 0x2241870, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorType Opposite(::GlobalNamespace::ColorType colorType);
 
 protected:

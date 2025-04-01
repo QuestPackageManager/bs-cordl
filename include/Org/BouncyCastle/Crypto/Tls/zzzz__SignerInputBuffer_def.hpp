@@ -35,10 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream* New_ctor(::Org::BouncyCastle::Crypto::ISigner* s);
 
-  /// @brief Method Write, addr 0x2420550, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x24186e0, size 0xc4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x24204a4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x2418634, size 0xac, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_s() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_s(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x2420474, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2418604, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* s);
 
 protected:
@@ -89,10 +89,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer* New_ctor();
 
-  /// @brief Method UpdateSigner, addr 0x2420404, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateSigner, addr 0x2418594, size 0x70, virtual false, abstract: false, final false
   inline void UpdateSigner(::Org::BouncyCastle::Crypto::ISigner* s);
 
-  /// @brief Method .ctor, addr 0x242049c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241862c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

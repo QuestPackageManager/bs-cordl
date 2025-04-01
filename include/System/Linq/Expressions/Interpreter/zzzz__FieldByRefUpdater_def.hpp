@@ -51,10 +51,10 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::FieldByRefUpdater* New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                                                                                       ::System::Reflection::FieldInfo* field, int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x40f3640, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x40e1200, size 0x98, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x40f359c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x40e115c, size 0xa4, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get__field() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__object(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
 
-  /// @brief Method .ctor, addr 0x40f3554, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e1114, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj, ::System::Reflection::FieldInfo* field, int32_t argumentIndex);
 
 protected:
@@ -87,7 +87,7 @@ public:
   FieldByRefUpdater(FieldByRefUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13952 };
 
   /// @brief Field _object, offset: 0x18, size: 0x18, def value: None
   ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> ____object;

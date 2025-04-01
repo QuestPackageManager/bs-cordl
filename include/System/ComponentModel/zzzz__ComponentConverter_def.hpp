@@ -33,16 +33,16 @@ namespace System::ComponentModel {
 class CORDL_TYPE ComponentConverter : public ::System::ComponentModel::ReferenceConverter {
 public:
   // Declarations
-  /// @brief Method GetProperties, addr 0x446adcc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x445898c, size 0x68, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x446ae34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x44589f4, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::ComponentConverter* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x446ad60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4458920, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:

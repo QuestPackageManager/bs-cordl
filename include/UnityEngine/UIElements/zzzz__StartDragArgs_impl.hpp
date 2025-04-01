@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::StringW, ::UnityEngine::UIElements::DragVisualMode)>(
     &::UnityEngine::UIElements::StartDragArgs::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a24d00;
+  constexpr static std::size_t addrs = 0x4a128e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StartDragArgs::*)()>(&::UnityEngine::UIElements::StartDragArgs::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a26bf0;
+  constexpr static std::size_t addrs = 0x4a147d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(), "get_title",
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::StartDragArgs::*)()>(
     &::UnityEngine::UIElements::StartDragArgs::get_visualMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a26bf8;
+  constexpr static std::size_t addrs = 0x4a147d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::UnityEngine::UIElements::StartDragArgs::*)()>(
     &::UnityEngine::UIElements::StartDragArgs::get_genericData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a26c00;
+  constexpr static std::size_t addrs = 0x4a147e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::System::Collections::Hashtable*)>(
     &::UnityEngine::UIElements::StartDragArgs::set_genericData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a26c08;
+  constexpr static std::size_t addrs = 0x4a147e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* (
     ::UnityEngine::UIElements::StartDragArgs::*)()>(&::UnityEngine::UIElements::StartDragArgs::get_unityObjectReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a26c10;
+  constexpr static std::size_t addrs = 0x4a147f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*)>(&::UnityEngine::UIElements::StartDragArgs::set_unityObjectReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a26c18;
+  constexpr static std::size_t addrs = 0x4a147f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::StringW, ::System::Object*)>(
     &::UnityEngine::UIElements::StartDragArgs::SetGenericData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a26c20;
+  constexpr static std::size_t addrs = 0x4a14800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

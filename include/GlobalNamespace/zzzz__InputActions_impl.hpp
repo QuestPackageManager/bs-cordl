@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InputActions::*)()>(&::GlobalNamespace::InputActions::Update)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3b216d0;
+  constexpr static std::size_t addrs = 0x3b0e6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InputActions*>::get(), "Update",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::InputActions::ToggleLevelFreeze)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b21b40;
+  constexpr static std::size_t addrs = 0x3b0eb6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InputActions*>::get(), "ToggleLevelFreeze",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::InputActions::ToggleAutopilot)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3b219a0;
+  constexpr static std::size_t addrs = 0x3b0e9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InputActions*>::get(), "ToggleAutopilot",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::SceneContext> (*)()>(&::GlobalNamespace::InputActions::ResolveGameplayCoreSceneContext)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x3b21b44;
+  constexpr static std::size_t addrs = 0x3b0eb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::EventSystems::EventSystem*, ::GlobalNamespace::UIKeyboardManager*)>(
     &::GlobalNamespace::InputActions::HasInputFocus)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b218a0;
+  constexpr static std::size_t addrs = 0x3b0e8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InputActions::*)()>(&::GlobalNamespace::InputActions::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b21ef4;
+  constexpr static std::size_t addrs = 0x3b0ef20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InputActions*>::get(), ".ctor",

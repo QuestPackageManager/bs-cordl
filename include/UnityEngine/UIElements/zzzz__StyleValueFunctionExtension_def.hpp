@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StyleValueFunctionExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x4a9b2d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x4a88eb8, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction svf);
 
 protected:

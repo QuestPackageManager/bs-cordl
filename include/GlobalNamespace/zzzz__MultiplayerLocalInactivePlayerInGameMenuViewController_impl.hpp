@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnEnable)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3bbac78;
+  constexpr static std::size_t addrs = 0x3ba8774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnDisable)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bbadc4;
+  constexpr static std::size_t addrs = 0x3ba88c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::Start)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3bbae74;
+  constexpr static std::size_t addrs = 0x3ba8970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3bbafe4;
+  constexpr static std::size_t addrs = 0x3ba8ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::DisconnectButtonPressed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3bbb10c;
+  constexpr static std::size_t addrs = 0x3ba8c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(bool)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::DetailsToggleValueChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bbb140;
+  constexpr static std::size_t addrs = 0x3ba8c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(bool)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::HandleDisconnectPromptViewDidViewFinish)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3bbb160;
+  constexpr static std::size_t addrs = 0x3ba8c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(
     ::GlobalNamespace::MultiplayerController_State)>(&::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::HandleStateChanged)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3bbb220;
+  constexpr static std::size_t addrs = 0x3ba8d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3bbb3d0;
+  constexpr static std::size_t addrs = 0x3ba8ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_HandleDisconnectPromptViewDidViewFinish_b__22_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bbb464;
+  constexpr static std::size_t addrs = 0x3ba8f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_HandleStateChanged_b__23_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bbb484;
+  constexpr static std::size_t addrs = 0x3ba8f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_HandleStateChanged_b__23_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bbb4a0;
+  constexpr static std::size_t addrs = 0x3ba8f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

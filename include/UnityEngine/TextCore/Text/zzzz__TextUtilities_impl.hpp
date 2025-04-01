@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextUtilities::ToUpperFast)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x495f36c;
+  constexpr static std::size_t addrs = 0x494cf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::TextCore::Text::TextUtilities::GetHashCodeCaseInSensitive)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x495d2fc;
+  constexpr static std::size_t addrs = 0x494aedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<uint32_t>*)>(
     &::UnityEngine::TextCore::Text::TextUtilities::UintToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x495f3e0;
+  constexpr static std::size_t addrs = 0x494cfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

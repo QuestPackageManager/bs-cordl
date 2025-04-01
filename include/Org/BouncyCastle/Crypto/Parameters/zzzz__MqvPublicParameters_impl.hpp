@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*)>(
     &::Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23c4b48;
+  constexpr static std::size_t addrs = 0x23bccd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (
     ::Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::get_StaticPublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c4c38;
+  constexpr static std::size_t addrs = 0x23bcdc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (
     ::Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::get_EphemeralPublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c4c40;
+  constexpr static std::size_t addrs = 0x23bcdd0;
 
   inline static ::MethodInfo const* methodInfo() {
 

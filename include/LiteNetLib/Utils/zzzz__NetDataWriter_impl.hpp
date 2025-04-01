@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LiteNetLib::Utils::NetDataWriter::*)()>(&::LiteNetLib::Utils::NetDataWriter::get_Capacity)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3acb4c8;
+  constexpr static std::size_t addrs = 0x3ab893c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetDataWriter*>::get(), "get_Capacity",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)()>(&::LiteNetLib::Utils::NetDataWriter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3abc2fc;
+  constexpr static std::size_t addrs = 0x3aa9770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetDataWriter*>::get(), ".ctor",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(bool)>(&::LiteNetLib::Utils::NetDataWriter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3acb558;
+  constexpr static std::size_t addrs = 0x3ab89cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(bool, int32_t)>(&::LiteNetLib::Utils::NetDataWriter::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3acb4e4;
+  constexpr static std::size_t addrs = 0x3ab8958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::LiteNetLib::Utils::NetDataWriter::FromBytes)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3acb564;
+  constexpr static std::size_t addrs = 0x3ab89d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::Utils::NetDataWriter::FromBytes)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3acb678;
+  constexpr static std::size_t addrs = 0x3ab8aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (*)(::StringW)>(&::LiteNetLib::Utils::NetDataWriter::FromString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3ac3378;
+  constexpr static std::size_t addrs = 0x3ab07ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(int32_t)>(&::LiteNetLib::Utils::NetDataWriter::ResizeIfNeed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3acb83c;
+  constexpr static std::size_t addrs = 0x3ab8cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(int32_t)>(&::LiteNetLib::Utils::NetDataWriter::Reset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3acb8bc;
+  constexpr static std::size_t addrs = 0x3ab8d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)()>(&::LiteNetLib::Utils::NetDataWriter::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acb8d4;
+  constexpr static std::size_t addrs = 0x3ab8d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetDataWriter*>::get(), "Reset",
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::LiteNetLib::Utils::NetDataWriter::*)()>(
     &::LiteNetLib::Utils::NetDataWriter::CopyData)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3acb8dc;
+  constexpr static std::size_t addrs = 0x3ab8d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetDataWriter*>::get(), "CopyData",
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::LiteNetLib::Utils::NetDataWriter::*)()>(
     &::LiteNetLib::Utils::NetDataWriter::get_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acb950;
+  constexpr static std::size_t addrs = 0x3ab8dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetDataWriter*>::get(), "get_Data",
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LiteNetLib::Utils::NetDataWriter::*)()>(&::LiteNetLib::Utils::NetDataWriter::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acb958;
+  constexpr static std::size_t addrs = 0x3ab8dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetDataWriter*>::get(), "get_Length",
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(float_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acb960;
+  constexpr static std::size_t addrs = 0x3ab8dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(double_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acb9b0;
+  constexpr static std::size_t addrs = 0x3ab8e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(int64_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acba00;
+  constexpr static std::size_t addrs = 0x3ab8e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(uint64_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acba50;
+  constexpr static std::size_t addrs = 0x3ab8ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(int32_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acbaa0;
+  constexpr static std::size_t addrs = 0x3ab8f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(uint32_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acbaf0;
+  constexpr static std::size_t addrs = 0x3ab8f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(char16_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acbb40;
+  constexpr static std::size_t addrs = 0x3ab8fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(uint16_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acbb90;
+  constexpr static std::size_t addrs = 0x3ab9004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(int16_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acbbe0;
+  constexpr static std::size_t addrs = 0x3ab9054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(int8_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3acbc30;
+  constexpr static std::size_t addrs = 0x3ab90a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(uint8_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3acbc98;
+  constexpr static std::size_t addrs = 0x3ab910c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3acb704;
+  constexpr static std::size_t addrs = 0x3ab8b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3acb604;
+  constexpr static std::size_t addrs = 0x3ab8a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int8_t, ::Array<int8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3acbd00;
+  constexpr static std::size_t addrs = 0x3ab9174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int8_t, ::Array<int8_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3acbd8c;
+  constexpr static std::size_t addrs = 0x3ab9200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3acbe1c;
+  constexpr static std::size_t addrs = 0x3ab9290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3acbea8;
+  constexpr static std::size_t addrs = 0x3ab931c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(bool)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3acbf38;
+  constexpr static std::size_t addrs = 0x3ab93ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::System::Array*, int32_t)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3acbfa4;
+  constexpr static std::size_t addrs = 0x3ab9418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc050;
+  constexpr static std::size_t addrs = 0x3ab94c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<float_t, ::Array<float_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc058;
+  constexpr static std::size_t addrs = 0x3ab94cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<double_t, ::Array<double_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc060;
+  constexpr static std::size_t addrs = 0x3ab94d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int64_t, ::Array<int64_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc068;
+  constexpr static std::size_t addrs = 0x3ab94dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc070;
+  constexpr static std::size_t addrs = 0x3ab94e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc078;
+  constexpr static std::size_t addrs = 0x3ab94ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc080;
+  constexpr static std::size_t addrs = 0x3ab94f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint16_t, ::Array<uint16_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc088;
+  constexpr static std::size_t addrs = 0x3ab94fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int16_t, ::Array<int16_t>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc090;
+  constexpr static std::size_t addrs = 0x3ab9504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<bool, ::Array<bool>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc098;
+  constexpr static std::size_t addrs = 0x3ab950c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3acc0a0;
+  constexpr static std::size_t addrs = 0x3ab9514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::LiteNetLib::Utils::NetDataWriter::PutArray)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3acc128;
+  constexpr static std::size_t addrs = 0x3ab959c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::System::Net::IPEndPoint*)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3acc2ac;
+  constexpr static std::size_t addrs = 0x3ab9720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::StringW)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3acb770;
+  constexpr static std::size_t addrs = 0x3ab8be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetDataWriter::*)(::StringW, int32_t)>(&::LiteNetLib::Utils::NetDataWriter::Put)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3acc1c4;
+  constexpr static std::size_t addrs = 0x3ab9638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

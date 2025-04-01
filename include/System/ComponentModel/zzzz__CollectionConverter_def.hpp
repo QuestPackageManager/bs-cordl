@@ -36,20 +36,20 @@ namespace System::ComponentModel {
 class CORDL_TYPE CollectionConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method ConvertTo, addr 0x4455974, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x4443534, size 0x180, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x446a62c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x44581ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x446a634, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x44581f4, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::CollectionConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4455e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4443a4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -33,19 +33,19 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XCommentWrapper* New_ctor(::System::Xml::Linq::XComment* text);
 
-  /// @brief Method .ctor, addr 0x3f5375c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f41314, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XComment* text);
 
-  /// @brief Method get_ParentNode, addr 0x3f5380c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x3f413c4, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Text, addr 0x3f536e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x3f4129c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XComment* get_Text();
 
-  /// @brief Method get_Value, addr 0x3f53784, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3f4133c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x3f537a0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3f41358, size 0x6c, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

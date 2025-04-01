@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a39384, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a26f64, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3937c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a26f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseDownEvent___c* getStaticF___9();
@@ -82,24 +82,24 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseDownEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a39278, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a26e58, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerDownEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x4a392cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a26eac, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x4a38f5c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a26b3c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a38fb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a26b90, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method MakeFromPointerEvent, addr 0x4a39010, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method MakeFromPointerEvent, addr 0x4a26bf0, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseDownEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
   static inline ::UnityEngine::UIElements::MouseDownEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a38fbc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a26b9c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

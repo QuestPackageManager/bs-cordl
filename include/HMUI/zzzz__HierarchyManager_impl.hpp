@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HierarchyManager::*)()>(&::HMUI::HierarchyManager::Start)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x228def8;
+  constexpr static std::size_t addrs = 0x2286088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HierarchyManager*>::get(), "Start",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HierarchyManager::*)()>(&::HMUI::HierarchyManager::OnDestroy)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x228e0bc;
+  constexpr static std::size_t addrs = 0x228624c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HierarchyManager*>::get(), "OnDestroy",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HierarchyManager::*)(
     ::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(&::HMUI::HierarchyManager::HandleSceneTransitionDidFinish)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x228e010;
+  constexpr static std::size_t addrs = 0x22861a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HierarchyManager::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::HMUI::HierarchyManager::HandleBeforeDismissingScenes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x228e1e8;
+  constexpr static std::size_t addrs = 0x2286378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HierarchyManager::*)(::HMUI::FlowCoordinator*)>(&::HMUI::HierarchyManager::StartWithFlowCoordinator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x228e294;
+  constexpr static std::size_t addrs = 0x2286424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HierarchyManager::*)()>(&::HMUI::HierarchyManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228e2b8;
+  constexpr static std::size_t addrs = 0x2286448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HierarchyManager*>::get(), ".ctor",

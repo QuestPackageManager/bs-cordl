@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler___c::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e79600;
+  constexpr static std::size_t addrs = 0x3e670fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ThreadPoolTaskScheduler___c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler___c::*)(::System::Object*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler___c::__cctor_b__10_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e79608;
+  constexpr static std::size_t addrs = 0x3e67104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e791c0;
+  constexpr static std::size_t addrs = 0x3e66cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ThreadPoolTaskScheduler*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::QueueTask)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3e79218;
+  constexpr static std::size_t addrs = 0x3e66d14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::TryExecuteTaskInline)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3e793e0;
+  constexpr static std::size_t addrs = 0x3e66edc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::TryDequeue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e794c0;
+  constexpr static std::size_t addrs = 0x3e66fbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::NotifyWorkItemProgress)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e794c8;
+  constexpr static std::size_t addrs = 0x3e66fc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::get_RequiresAtomicStartTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e794d8;
+  constexpr static std::size_t addrs = 0x3e66fd4;
 
   inline static ::MethodInfo const* methodInfo() {
 

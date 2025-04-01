@@ -131,10 +131,10 @@ public:
                                                                   ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                                                                   ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method Run, addr 0x3b39678, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3b266a4, size 0x534, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method <Run>b__15_0, addr 0x3b39bac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Run>b__15_0, addr 0x3b26bd8, size 0x4, virtual false, abstract: false, final false
   inline void _Run_b__15_0(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* StandardLevelScenesTransitionSetupDataSO, ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults);
 
   constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor* const& __cordl_internal_get__configurationProcessor() const;
@@ -197,12 +197,12 @@ public:
 
   constexpr void __cordl_internal_set_recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  /// @brief Method .ctor, addr 0x3b39560, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2658c, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                     ::Zenject::DiContainer* diContainer, ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                     ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method get_showRecordingToolScene, addr 0x3b3954c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x3b26578, size 0x14, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
 protected:

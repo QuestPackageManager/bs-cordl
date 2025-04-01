@@ -47,15 +47,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method Init, addr 0x234d15c, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23452ec, size 0x210, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method Unwrap, addr 0x234d7c4, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x2345954, size 0x430, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Wrap, addr 0x234d40c, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x234559c, size 0x3b8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_engine() const;
@@ -82,10 +82,10 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x234d0cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234525c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method get_AlgorithmName, addr 0x234d36c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23454fc, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"

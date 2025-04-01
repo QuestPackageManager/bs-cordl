@@ -42,45 +42,45 @@ public:
   /// @brief Field s_defaultValue, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_defaultValue, put = setStaticF_s_defaultValue)) ::System::DateTimeOffset s_defaultValue;
 
-  /// @brief Method Aggregate, addr 0x41f0a48, size 0x4e8, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x41de608, size 0x4e8, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x41f0f30, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x41deaf0, size 0x1a4, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x41f10d4, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x41dec94, size 0x180, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x41f16c4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x41df284, size 0x9c, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x41f1254, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x41dee14, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x41f1638, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x41df1f8, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x41f12f8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x41deeb8, size 0x54, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x41f17a8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x41df368, size 0x104, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x41f134c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x41def0c, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x41f1760, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x41df320, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::DateTimeOffsetStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x41f1458, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x41df018, size 0x120, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x41f1578, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x41df138, size 0xc0, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x41f18ac, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x41df46c, size 0x94, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::DateTimeOffset, ::Array<::System::DateTimeOffset>*> const& __cordl_internal_get__values() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::DateTimeOffset, ::Array<::System::DateTimeOffset>*> value);
 
-  /// @brief Method .ctor, addr 0x41eead8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41dc698, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
   static inline ::System::DateTimeOffset getStaticF_s_defaultValue();

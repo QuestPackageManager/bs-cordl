@@ -251,73 +251,73 @@ public:
   /// @brief Field _right, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__right, put = __cordl_internal_set__right)) ::System::Data::ExpressionNode* _right;
 
-  /// @brief Method BinaryCompare, addr 0x418304c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method BinaryCompare, addr 0x4170c0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t BinaryCompare(::System::Object* vLeft, ::System::Object* vRight, ::System::Data::Common::StorageType resultType, int32_t op);
 
-  /// @brief Method BinaryCompare, addr 0x4183054, size 0xfb0, virtual false, abstract: false, final false
+  /// @brief Method BinaryCompare, addr 0x4170c14, size 0xfb0, virtual false, abstract: false, final false
   inline int32_t BinaryCompare(::System::Object* vLeft, ::System::Object* vRight, ::System::Data::Common::StorageType resultType, int32_t op, ::System::Globalization::CompareInfo* comparer);
 
-  /// @brief Method Bind, addr 0x417d038, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x416abf8, size 0x54, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x4182960, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x4170520, size 0x64, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x417d08c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x416ac4c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x418301c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Eval, addr 0x4170bdc, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Object* Eval(::System::Data::ExpressionNode* expr, ::System::Data::DataRow* row, ::System::Data::DataRowVersion version, ::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x4182824, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x41703e4, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x417d0a0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x416ac60, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method EvalBinaryOp, addr 0x417d0bc, size 0x5768, virtual false, abstract: false, final false
+  /// @brief Method EvalBinaryOp, addr 0x416ac7c, size 0x5768, virtual false, abstract: false, final false
   inline ::System::Object* EvalBinaryOp(int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right, ::System::Data::DataRow* row, ::System::Data::DataRowVersion version,
                                         ::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method GetPrecedence, addr 0x4184c30, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPrecedence, addr 0x41727f0, size 0x24, virtual false, abstract: false, final false
   inline ::System::Data::BinaryNode_DataTypePrecedence GetPrecedence(::System::Data::Common::StorageType storageType);
 
-  /// @brief Method GetPrecedenceType, addr 0x4184c54, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPrecedenceType, addr 0x4172814, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Data::Common::StorageType GetPrecedenceType(::System::Data::BinaryNode_DataTypePrecedence code);
 
-  /// @brief Method HasLocalAggregate, addr 0x41828d0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x4170490, size 0x48, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x4182918, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x41704d8, size 0x48, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x4182840, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x4170400, size 0x48, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsMixed, addr 0x4184c78, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsMixed, addr 0x4172838, size 0x94, virtual false, abstract: false, final false
   inline bool IsMixed(::System::Data::Common::StorageType left, ::System::Data::Common::StorageType right);
 
-  /// @brief Method IsMixedSql, addr 0x4184d5c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsMixedSql, addr 0x417291c, size 0x8c, virtual false, abstract: false, final false
   inline bool IsMixedSql(::System::Data::Common::StorageType left, ::System::Data::Common::StorageType right);
 
-  /// @brief Method IsTableConstant, addr 0x4182888, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x4170448, size 0x48, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::BinaryNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
 
-  /// @brief Method Optimize, addr 0x41829c4, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x4170584, size 0x234, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
-  /// @brief Method ResultSqlType, addr 0x41842f4, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ResultSqlType, addr 0x4171eb4, size 0x3e4, virtual false, abstract: false, final false
   inline ::System::Data::Common::StorageType ResultSqlType(::System::Data::Common::StorageType left, ::System::Data::Common::StorageType right, bool lc, bool rc, int32_t op);
 
-  /// @brief Method ResultType, addr 0x41846d8, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method ResultType, addr 0x4172298, size 0x3fc, virtual false, abstract: false, final false
   inline ::System::Data::Common::StorageType ResultType(::System::Data::Common::StorageType left, ::System::Data::Common::StorageType right, bool lc, bool rc, int32_t op);
 
-  /// @brief Method SetTypeMismatchError, addr 0x4182f1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetTypeMismatchError, addr 0x4170adc, size 0x30, virtual false, abstract: false, final false
   inline void SetTypeMismatchError(int32_t op, ::System::Type* left, ::System::Type* right);
 
-  /// @brief Method SqlResultType, addr 0x4184f3c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SqlResultType, addr 0x4172afc, size 0x34, virtual false, abstract: false, final false
   inline int32_t SqlResultType(int32_t typeCode);
 
   constexpr ::System::Data::ExpressionNode* const& __cordl_internal_get__left() const;
@@ -338,7 +338,7 @@ public:
 
   constexpr void __cordl_internal_set__right(::System::Data::ExpressionNode* value);
 
-  /// @brief Method .ctor, addr 0x417cff4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416abb4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
 
 protected:

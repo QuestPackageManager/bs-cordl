@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager_InitData::*)(
     bool, bool, float_t, float_t, float_t)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3bc5c24;
+  constexpr static std::size_t addrs = 0x3bb3710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* (
     ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::get_activeObstacleControllers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3bc4348;
+  constexpr static std::size_t addrs = 0x3bb1e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool*, ::GlobalNamespace::VariableMovementDataProvider*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x3bc4398;
+  constexpr static std::size_t addrs = 0x3bb1e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::Dispose)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3bc48c4;
+  constexpr static std::size_t addrs = 0x3bb23b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(
     ::GlobalNamespace::ObstacleData*, ::ByRef<::GlobalNamespace::ObstacleSpawnData>)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::ProcessObstacleData)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3bc4bd8;
+  constexpr static std::size_t addrs = 0x3bb26c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(
     ::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, bool)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::ProcessNoteData)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3bc4c84;
+  constexpr static std::size_t addrs = 0x3bb2770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(
     ::GlobalNamespace::SliderData*, ::ByRef<::GlobalNamespace::SliderSpawnData>)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::ProcessSliderData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bc501c;
+  constexpr static std::size_t addrs = 0x3bb2b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3bc5020;
+  constexpr static std::size_t addrs = 0x3bb2b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3bc514c;
+  constexpr static std::size_t addrs = 0x3bb2c38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bc51f4;
+  constexpr static std::size_t addrs = 0x3bb2ce0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(
     ::GlobalNamespace::NoteSpawnInfoNetSerializable*)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3bc51f8;
+  constexpr static std::size_t addrs = 0x3bb2ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(
     ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3bc53c4;
+  constexpr static std::size_t addrs = 0x3bb2eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(
     ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerSliderWasSpawned)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3bc54e8;
+  constexpr static std::size_t addrs = 0x3bb2fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(
     ::GlobalNamespace::NoteCutInfoNetSerializable*)>(&::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x3bc56d8;
+  constexpr static std::size_t addrs = 0x3bb31c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::NoteController*, ::GlobalNamespace::NoteCutInfoNetSerializable*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::AreNotesSame)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3bc5b48;
+  constexpr static std::size_t addrs = 0x3bb3634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

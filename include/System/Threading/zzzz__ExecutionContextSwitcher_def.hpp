@@ -25,10 +25,10 @@ namespace System::Threading {
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
-  /// @brief Method Undo, addr 0x3e61fb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x3e4faac, size 0x88, virtual false, abstract: false, final false
   inline void Undo();
 
-  /// @brief Method UndoNoThrow, addr 0x3e61f28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UndoNoThrow, addr 0x3e4fa24, size 0x88, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
   // Ctor Parameters []
