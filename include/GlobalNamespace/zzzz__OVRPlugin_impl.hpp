@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_GUID::*)()>(&::GlobalNamespace::OVRPlugin_GUID::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fec4a4;
+  constexpr static std::size_t addrs = 0x3fda05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_GUID*>::get(), ".ctor",
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4000f3c;
+  constexpr static std::size_t addrs = 0x3feeaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_LogCallback2DelegateType*>::get(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::*)(
     ::GlobalNamespace::OVRPlugin_LogLevel, ::System::IntPtr, int32_t)>(&::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4000fc8;
+  constexpr static std::size_t addrs = 0x3feeb80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::*)(::GlobalNamespace::OVRPlugin_LogLevel, ::System::IntPtr, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::BeginInvoke)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4000fdc;
+  constexpr static std::size_t addrs = 0x3feeb94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40010c4;
+  constexpr static std::size_t addrs = 0x3feec7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -747,7 +747,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_Vector3f::*)()>(&::GlobalNamespace::OVRPlugin_Vector3f::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x40010d0;
+  constexpr static std::size_t addrs = 0x3feec88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_Vector4f::*)()>(&::GlobalNamespace::OVRPlugin_Vector4f::ToString)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4001218;
+  constexpr static std::size_t addrs = 0x3feedd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_Vector4s::*)()>(&::GlobalNamespace::OVRPlugin_Vector4s::ToString)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4001444;
+  constexpr static std::size_t addrs = 0x3feeffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -854,7 +854,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_Quatf::*)()>(&::GlobalNamespace::OVRPlugin_Quatf::ToString)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4001670;
+  constexpr static std::size_t addrs = 0x3fef228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -890,7 +890,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_Posef::*)()>(&::GlobalNamespace::OVRPlugin_Posef::ToString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4001974;
+  constexpr static std::size_t addrs = 0x3fef52c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -925,7 +925,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_TextureRectMatrixf::*)()>(
     &::GlobalNamespace::OVRPlugin_TextureRectMatrixf::ToString)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x4001b34;
+  constexpr static std::size_t addrs = 0x3fef6ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1000,7 +1000,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_ControllerState6::*)(::GlobalNamespace::OVRPlugin_ControllerState5)>(
     &::GlobalNamespace::OVRPlugin_ControllerState6::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4001e9c;
+  constexpr static std::size_t addrs = 0x3fefa54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1071,7 +1071,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_ControllerState5::*)(::GlobalNamespace::OVRPlugin_ControllerState4)>(
     &::GlobalNamespace::OVRPlugin_ControllerState5::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4001f64;
+  constexpr static std::size_t addrs = 0x3fefb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1136,7 +1136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_ControllerState4::*)(::GlobalNamespace::OVRPlugin_ControllerState2)>(
     &::GlobalNamespace::OVRPlugin_ControllerState4::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4001ff4;
+  constexpr static std::size_t addrs = 0x3fefbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1233,7 +1233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_ControllerState2::*)(::GlobalNamespace::OVRPlugin_ControllerState)>(
     &::GlobalNamespace::OVRPlugin_ControllerState2::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4002060;
+  constexpr static std::size_t addrs = 0x3fefc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1402,7 +1402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_Sizei::*)(::GlobalNamespace::OVRPlugin_Sizei)>(
     &::GlobalNamespace::OVRPlugin_Sizei::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40020b8;
+  constexpr static std::size_t addrs = 0x3fefc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1416,7 +1416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_Sizei::*)(::System::Object*)>(&::GlobalNamespace::OVRPlugin_Sizei::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40020e0;
+  constexpr static std::size_t addrs = 0x3fefc98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1430,7 +1430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRPlugin_Sizei::*)()>(&::GlobalNamespace::OVRPlugin_Sizei::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x400217c;
+  constexpr static std::size_t addrs = 0x3fefd34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1605,7 +1605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_Colorf::*)()>(&::GlobalNamespace::OVRPlugin_Colorf::ToString)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x400226c;
+  constexpr static std::size_t addrs = 0x3fefe24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1690,7 +1690,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRPlugin_LayerDesc::*)()>(&::GlobalNamespace::OVRPlugin_LayerDesc::ToString)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x4002450;
+  constexpr static std::size_t addrs = 0x3ff0008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1743,7 +1743,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_LayerDescInternal::*)(::GlobalNamespace::OVRPlugin_LayerDesc)>(
     &::GlobalNamespace::OVRPlugin_LayerDescInternal::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x40026a0;
+  constexpr static std::size_t addrs = 0x3ff0258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1758,7 +1758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_LayerDesc (::GlobalNamespace::OVRPlugin_LayerDescInternal::*)()>(
     &::GlobalNamespace::OVRPlugin_LayerDescInternal::ToLayerDesc)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x400277c;
+  constexpr static std::size_t addrs = 0x3ff0334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_LayerDescInternal>::get(),
@@ -2379,7 +2379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_Mesh::*)()>(&::GlobalNamespace::OVRPlugin_Mesh::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40028c8;
+  constexpr static std::size_t addrs = 0x3ff0480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Mesh*>::get(), ".ctor",
@@ -2529,7 +2529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_BodyJointLocation::*)()>(
     &::GlobalNamespace::OVRPlugin_BodyJointLocation::get_OrientationValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40028d0;
+  constexpr static std::size_t addrs = 0x3ff0488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_BodyJointLocation>::get(),
@@ -2543,7 +2543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_BodyJointLocation::*)()>(
     &::GlobalNamespace::OVRPlugin_BodyJointLocation::get_PositionValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40028dc;
+  constexpr static std::size_t addrs = 0x3ff0494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_BodyJointLocation>::get(),
@@ -2557,7 +2557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_BodyJointLocation::*)()>(
     &::GlobalNamespace::OVRPlugin_BodyJointLocation::get_OrientationTracked)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40028e8;
+  constexpr static std::size_t addrs = 0x3ff04a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_BodyJointLocation>::get(),
@@ -2571,7 +2571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_BodyJointLocation::*)()>(
     &::GlobalNamespace::OVRPlugin_BodyJointLocation::get_PositionTracked)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40028f4;
+  constexpr static std::size_t addrs = 0x3ff04ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_BodyJointLocation>::get(),
@@ -2866,7 +2866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_FaceExpressionStatus (::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal::*)()>(
     &::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal::ToFaceExpressionStatus)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4002900;
+  constexpr static std::size_t addrs = 0x3ff04b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal>::get(),
@@ -3215,7 +3215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_EyeGazeState::*)()>(&::GlobalNamespace::OVRPlugin_EyeGazeState::get_IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x400291c;
+  constexpr static std::size_t addrs = 0x3ff04d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_EyeGazeState>::get(), "get_IsValid",
@@ -3456,7 +3456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility::*)()>(
     &::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility::get_Visible)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x400292c;
+  constexpr static std::size_t addrs = 0x3ff04e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3471,7 +3471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility::*)(bool)>(
     &::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility::set_Visible)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x400293c;
+  constexpr static std::size_t addrs = 0x3ff04f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3541,7 +3541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2::*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle>)>(&::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2::CopyTo)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4002948;
+  constexpr static std::size_t addrs = 0x3ff0500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3780,7 +3780,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::Initialize)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4002974;
+  constexpr static std::size_t addrs = 0x3ff052c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), "Initialize",
@@ -3793,7 +3793,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::Shutdown)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4002a9c;
+  constexpr static std::size_t addrs = 0x3ff0654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), "Shutdown",
@@ -3806,7 +3806,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::GetInitialized)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4002bc4;
+  constexpr static std::size_t addrs = 0x3ff077c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), "GetInitialized",
@@ -3819,7 +3819,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::Update)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4002d10;
+  constexpr static std::size_t addrs = 0x3ff08c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), "Update",
@@ -3833,7 +3833,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Media_OVRPlugin_MrcActivationMode (*)()>(
     &::GlobalNamespace::OVRPlugin_Media::GetMrcActivationMode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4002e38;
+  constexpr static std::size_t addrs = 0x3ff09f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(),
@@ -3847,7 +3847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::Media_OVRPlugin_MrcActivationMode)>(
     &::GlobalNamespace::OVRPlugin_Media::SetMrcActivationMode)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4002f80;
+  constexpr static std::size_t addrs = 0x3ff0b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -3861,7 +3861,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::SetPlatformInitialized)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x40030c4;
+  constexpr static std::size_t addrs = 0x3ff0c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(),
@@ -3875,7 +3875,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode (*)()>(
     &::GlobalNamespace::OVRPlugin_Media::GetPlatformCameraMode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x40031ec;
+  constexpr static std::size_t addrs = 0x3ff0da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(),
@@ -3889,7 +3889,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode)>(
     &::GlobalNamespace::OVRPlugin_Media::SetPlatformCameraMode)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4003334;
+  constexpr static std::size_t addrs = 0x3ff0eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3903,7 +3903,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::IsMrcEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4003478;
+  constexpr static std::size_t addrs = 0x3ff1030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), "IsMrcEnabled",
@@ -3916,7 +3916,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::IsMrcActivated)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x40035c4;
+  constexpr static std::size_t addrs = 0x3ff117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), "IsMrcActivated",
@@ -3929,7 +3929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::UseMrcDebugCamera)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4003710;
+  constexpr static std::size_t addrs = 0x3ff12c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), "UseMrcDebugCamera",
@@ -3943,7 +3943,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::Media_OVRPlugin_InputVideoBufferType)>(
     &::GlobalNamespace::OVRPlugin_Media::SetMrcInputVideoBufferType)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x400385c;
+  constexpr static std::size_t addrs = 0x3ff1414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3958,7 +3958,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Media_OVRPlugin_InputVideoBufferType (*)()>(
     &::GlobalNamespace::OVRPlugin_Media::GetMrcInputVideoBufferType)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x40039a0;
+  constexpr static std::size_t addrs = 0x3ff1558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(),
@@ -3971,7 +3971,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t)>(&::GlobalNamespace::OVRPlugin_Media::SetMrcFrameSize)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4003ae0;
+  constexpr static std::size_t addrs = 0x3ff1698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3985,7 +3985,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_Media::GetMrcFrameSize)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4003c3c;
+  constexpr static std::size_t addrs = 0x3ff17f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4000,7 +4000,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin_Media::SetMrcAudioSampleRate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4003da0;
+  constexpr static std::size_t addrs = 0x3ff1958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4014,7 +4014,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin_Media::GetMrcAudioSampleRate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4003ee4;
+  constexpr static std::size_t addrs = 0x3ff1a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(),
@@ -4027,7 +4027,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::GlobalNamespace::OVRPlugin_Media::SetMrcFrameImageFlipped)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4004024;
+  constexpr static std::size_t addrs = 0x3ff1bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4041,7 +4041,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::GetMrcFrameImageFlipped)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4004168;
+  constexpr static std::size_t addrs = 0x3ff1d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(),
@@ -4055,7 +4055,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t, double_t,
                                                                                            double_t, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_Media::EncodeMrcFrame)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x40042b0;
+  constexpr static std::size_t addrs = 0x3ff1e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4074,7 +4074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RenderTexture*, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t, double_t, double_t,
                                                                                            ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_Media::EncodeMrcFrame)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x40048f0;
+  constexpr static std::size_t addrs = 0x3ff24a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4092,7 +4092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin_Media::SyncMrcFrame)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4004dac;
+  constexpr static std::size_t addrs = 0x3ff2964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4106,7 +4106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin_Media::SetAvailableQueueIndexVulkan)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4004ef0;
+  constexpr static std::size_t addrs = 0x3ff2aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4121,7 +4121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Posef, ::GlobalNamespace::OVRPlugin_Posef, ::GlobalNamespace::OVRPlugin_Posef)>(
     &::GlobalNamespace::OVRPlugin_Media::SetMrcHeadsetControllerPose)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4005034;
+  constexpr static std::size_t addrs = 0x3ff2bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4137,7 +4137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin_Media::IsCastingToRemoteClient)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4005244;
+  constexpr static std::size_t addrs = 0x3ff2dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(),
@@ -4150,7 +4150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_Media::*)()>(&::GlobalNamespace::OVRPlugin_Media::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4005390;
+  constexpr static std::size_t addrs = 0x3ff2f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Media*>::get(), ".ctor",
@@ -4460,7 +4460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, uint32_t)>(&::GlobalNamespace::OVRPlugin_Ktx::LoadKtxFromMemory)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4005398;
+  constexpr static std::size_t addrs = 0x3ff2f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4474,7 +4474,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::GlobalNamespace::OVRPlugin_Ktx::GetKtxTextureWidth)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4005578;
+  constexpr static std::size_t addrs = 0x3ff3130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4488,7 +4488,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::GlobalNamespace::OVRPlugin_Ktx::GetKtxTextureHeight)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4005734;
+  constexpr static std::size_t addrs = 0x3ff32ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4502,7 +4502,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, uint32_t)>(&::GlobalNamespace::OVRPlugin_Ktx::TranscodeKtxTexture)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x40058f0;
+  constexpr static std::size_t addrs = 0x3ff34a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4516,7 +4516,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::GlobalNamespace::OVRPlugin_Ktx::GetKtxTextureSize)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4005ab0;
+  constexpr static std::size_t addrs = 0x3ff3668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4530,7 +4530,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, uint32_t)>(&::GlobalNamespace::OVRPlugin_Ktx::GetKtxTextureData)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4005c6c;
+  constexpr static std::size_t addrs = 0x3ff3824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4545,7 +4545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::GlobalNamespace::OVRPlugin_Ktx::DestroyKtxTexture)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4005e44;
+  constexpr static std::size_t addrs = 0x3ff39fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4559,7 +4559,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_Ktx::*)()>(&::GlobalNamespace::OVRPlugin_Ktx::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4005fec;
+  constexpr static std::size_t addrs = 0x3ff3ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_Ktx*>::get(), ".ctor",
@@ -4625,7 +4625,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::SetClientVersion)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4005ff4;
+  constexpr static std::size_t addrs = 0x3ff3bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_UnityOpenXR*>::get(),
@@ -4638,7 +4638,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::HookGetInstanceProcAddr)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4006178;
+  constexpr static std::size_t addrs = 0x3ff3d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4652,7 +4652,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnInstanceCreate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x40062b8;
+  constexpr static std::size_t addrs = 0x3ff3e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4666,7 +4666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnInstanceDestroy)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x40063fc;
+  constexpr static std::size_t addrs = 0x3ff3fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4680,7 +4680,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnSessionCreate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4006538;
+  constexpr static std::size_t addrs = 0x3ff40f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4694,7 +4694,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnAppSpaceChange)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4006674;
+  constexpr static std::size_t addrs = 0x3ff422c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4708,7 +4708,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnSessionStateChange)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x40067b0;
+  constexpr static std::size_t addrs = 0x3ff4368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4722,7 +4722,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnSessionBegin)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4006908;
+  constexpr static std::size_t addrs = 0x3ff44c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4736,7 +4736,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnSessionEnd)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4006a44;
+  constexpr static std::size_t addrs = 0x3ff45fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4750,7 +4750,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnSessionExiting)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4006b80;
+  constexpr static std::size_t addrs = 0x3ff4738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4764,7 +4764,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::OnSessionDestroy)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4006cbc;
+  constexpr static std::size_t addrs = 0x3ff4874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4778,7 +4778,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlugin_UnityOpenXR::*)()>(&::GlobalNamespace::OVRPlugin_UnityOpenXR::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4006df8;
+  constexpr static std::size_t addrs = 0x3ff49b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_UnityOpenXR*>::get(), ".ctor",
@@ -4881,7 +4881,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int64_t)>(&::GlobalNamespace::OVRPlugin_Qpl::MarkerStart)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4006e00;
+  constexpr static std::size_t addrs = 0x3ff49b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4897,7 +4897,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::GlobalNamespace::Qpl_OVRPlugin_ResultType, int32_t, int64_t)>(
     &::GlobalNamespace::OVRPlugin_Qpl::MarkerEnd)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4006f70;
+  constexpr static std::size_t addrs = 0x3ff4b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4913,7 +4913,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int32_t, int64_t)>(&::GlobalNamespace::OVRPlugin_Qpl::MarkerPointCached)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x40070fc;
+  constexpr static std::size_t addrs = 0x3ff4cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4928,7 +4928,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::StringW, ::StringW, int32_t)>(&::GlobalNamespace::OVRPlugin_Qpl::MarkerAnnotation)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4007288;
+  constexpr static std::size_t addrs = 0x3ff4e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4943,7 +4943,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_Qpl::CreateMarkerHandle)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4007440;
+  constexpr static std::size_t addrs = 0x3ff4ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4958,7 +4958,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin_Qpl::DestroyMarkerHandle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x40075b8;
+  constexpr static std::size_t addrs = 0x3ff5170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5016,7 +5016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Sizei (*)(::GlobalNamespace::OVRPlugin_Eye)>(
     &::GlobalNamespace::OVRPlugin_OVRP_0_1_0::ovrp_GetEyeTextureSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40076fc;
+  constexpr static std::size_t addrs = 0x3ff52b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5047,7 +5047,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRPlugin_Bool, ::GlobalNamespace::OVRPlugin_Bool, ::System::IntPtr, ::System::IntPtr, ::GlobalNamespace::OVRPlugin_Posef, ::GlobalNamespace::OVRPlugin_Vector3f)>(
     &::GlobalNamespace::OVRPlugin_OVRP_0_1_1::ovrp_SetOverlayQuad2)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x40077f4;
+  constexpr static std::size_t addrs = 0x3ff53ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5087,7 +5087,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_0_1_2::ovrp_GetNodePose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4007954;
+  constexpr static std::size_t addrs = 0x3ff550c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5102,7 +5102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(uint32_t, float_t, float_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_0_1_2::ovrp_SetControllerVibration)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40079d8;
+  constexpr static std::size_t addrs = 0x3ff5590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5140,7 +5140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_0_1_3::ovrp_GetNodeVelocity)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4007ae8;
+  constexpr static std::size_t addrs = 0x3ff56a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5155,7 +5155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_0_1_3::ovrp_GetNodeAcceleration)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4007b6c;
+  constexpr static std::size_t addrs = 0x3ff5724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5200,7 +5200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_TrackingOrigin (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_0_0::ovrp_GetTrackingOriginType)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4007ce8;
+  constexpr static std::size_t addrs = 0x3ff58a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_0_0*>::get(),
@@ -5214,7 +5214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_TrackingOrigin)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_0_0::ovrp_SetTrackingOriginType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4007d50;
+  constexpr static std::size_t addrs = 0x3ff5908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5229,7 +5229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_0_0::ovrp_GetTrackingCalibratedOrigin)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4007dcc;
+  constexpr static std::size_t addrs = 0x3ff5984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5244,7 +5244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_0_0::ovrp_RecenterTrackingOrigin)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4007e40;
+  constexpr static std::size_t addrs = 0x3ff59f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5289,7 +5289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetInitialized)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4007f38;
+  constexpr static std::size_t addrs = 0x3ff5af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5302,7 +5302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::_ovrp_GetVersion)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4007fa0;
+  constexpr static std::size_t addrs = 0x3ff5b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5315,7 +5315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetVersion)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4008008;
+  constexpr static std::size_t addrs = 0x3ff5bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5328,7 +5328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::_ovrp_GetNativeSDKVersion)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400808c;
+  constexpr static std::size_t addrs = 0x3ff5c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5341,7 +5341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetNativeSDKVersion)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40080f4;
+  constexpr static std::size_t addrs = 0x3ff5cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5354,7 +5354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetAudioOutId)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008178;
+  constexpr static std::size_t addrs = 0x3ff5d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5367,7 +5367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetAudioInId)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40081e0;
+  constexpr static std::size_t addrs = 0x3ff5d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5380,7 +5380,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetEyeTextureScale)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4008248;
+  constexpr static std::size_t addrs = 0x3ff5e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5393,7 +5393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(float_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetEyeTextureScale)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40082ac;
+  constexpr static std::size_t addrs = 0x3ff5e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5408,7 +5408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetTrackingOrientationSupported)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008328;
+  constexpr static std::size_t addrs = 0x3ff5ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5423,7 +5423,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetTrackingOrientationEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008390;
+  constexpr static std::size_t addrs = 0x3ff5f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5438,7 +5438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetTrackingOrientationEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40083f8;
+  constexpr static std::size_t addrs = 0x3ff5fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5453,7 +5453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetTrackingPositionSupported)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008474;
+  constexpr static std::size_t addrs = 0x3ff602c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5467,7 +5467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetTrackingPositionEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40084dc;
+  constexpr static std::size_t addrs = 0x3ff6094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5482,7 +5482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetTrackingPositionEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4008544;
+  constexpr static std::size_t addrs = 0x3ff60fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5497,7 +5497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetNodePresent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40085c0;
+  constexpr static std::size_t addrs = 0x3ff6178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5512,7 +5512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetNodeOrientationTracked)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400863c;
+  constexpr static std::size_t addrs = 0x3ff61f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5527,7 +5527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetNodePositionTracked)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40086b8;
+  constexpr static std::size_t addrs = 0x3ff6270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5542,7 +5542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Frustumf (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetNodeFrustum)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4008734;
+  constexpr static std::size_t addrs = 0x3ff62ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5557,7 +5557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ControllerState (*)(uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetControllerState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40087b0;
+  constexpr static std::size_t addrs = 0x3ff6368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5571,7 +5571,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemCpuLevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008834;
+  constexpr static std::size_t addrs = 0x3ff63ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5584,7 +5584,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetSystemCpuLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400889c;
+  constexpr static std::size_t addrs = 0x3ff6454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5598,7 +5598,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemGpuLevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008918;
+  constexpr static std::size_t addrs = 0x3ff64d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5611,7 +5611,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetSystemGpuLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4008980;
+  constexpr static std::size_t addrs = 0x3ff6538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5625,7 +5625,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemPowerSavingMode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40089fc;
+  constexpr static std::size_t addrs = 0x3ff65b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5638,7 +5638,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemDisplayFrequency)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4008a64;
+  constexpr static std::size_t addrs = 0x3ff661c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5651,7 +5651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemVSyncCount)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008ac8;
+  constexpr static std::size_t addrs = 0x3ff6680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5664,7 +5664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemVolume)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4008b30;
+  constexpr static std::size_t addrs = 0x3ff66e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5678,7 +5678,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BatteryStatus (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemBatteryStatus)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008b94;
+  constexpr static std::size_t addrs = 0x3ff674c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5691,7 +5691,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemBatteryLevel)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4008bfc;
+  constexpr static std::size_t addrs = 0x3ff67b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5704,7 +5704,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemBatteryTemperature)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4008c60;
+  constexpr static std::size_t addrs = 0x3ff6818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5718,7 +5718,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::_ovrp_GetSystemProductName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008cc4;
+  constexpr static std::size_t addrs = 0x3ff687c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5731,7 +5731,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetSystemProductName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4008d2c;
+  constexpr static std::size_t addrs = 0x3ff68e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5745,7 +5745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_PlatformUI)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_ShowSystemUI)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4008db0;
+  constexpr static std::size_t addrs = 0x3ff6968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5759,7 +5759,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetAppMonoscopic)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008e2c;
+  constexpr static std::size_t addrs = 0x3ff69e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5773,7 +5773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetAppMonoscopic)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4008e94;
+  constexpr static std::size_t addrs = 0x3ff6a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5787,7 +5787,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetAppHasVrFocus)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008f10;
+  constexpr static std::size_t addrs = 0x3ff6ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5800,7 +5800,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetAppShouldQuit)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008f78;
+  constexpr static std::size_t addrs = 0x3ff6b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5813,7 +5813,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetAppShouldRecenter)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4008fe0;
+  constexpr static std::size_t addrs = 0x3ff6b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5826,7 +5826,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::_ovrp_GetAppLatencyTimings)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4009048;
+  constexpr static std::size_t addrs = 0x3ff6c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5839,7 +5839,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetAppLatencyTimings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40090b0;
+  constexpr static std::size_t addrs = 0x3ff6c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5852,7 +5852,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetUserPresent)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4009134;
+  constexpr static std::size_t addrs = 0x3ff6cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5865,7 +5865,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetUserIPD)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x400919c;
+  constexpr static std::size_t addrs = 0x3ff6d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5878,7 +5878,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(float_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetUserIPD)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4009200;
+  constexpr static std::size_t addrs = 0x3ff6db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5892,7 +5892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetUserEyeDepth)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x400927c;
+  constexpr static std::size_t addrs = 0x3ff6e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5905,7 +5905,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(float_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetUserEyeDepth)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40092e0;
+  constexpr static std::size_t addrs = 0x3ff6e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5919,7 +5919,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_GetUserEyeHeight)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x400935c;
+  constexpr static std::size_t addrs = 0x3ff6f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_1_0*>::get(),
@@ -5932,7 +5932,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(float_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_1_0::ovrp_SetUserEyeHeight)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40093c0;
+  constexpr static std::size_t addrs = 0x3ff6f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6213,7 +6213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_2_0::ovrp_SetSystemVSyncCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40094b8;
+  constexpr static std::size_t addrs = 0x3ff7070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6228,7 +6228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_2_0::ovrpi_SetTrackingCalibratedOrigin)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4009534;
+  constexpr static std::size_t addrs = 0x3ff70ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6263,7 +6263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4009618;
+  constexpr static std::size_t addrs = 0x3ff71d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6278,7 +6278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4009680;
+  constexpr static std::size_t addrs = 0x3ff7238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6292,7 +6292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40096fc;
+  constexpr static std::size_t addrs = 0x3ff72b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6331,7 +6331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SystemRegion (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_5_0::ovrp_GetSystemRegion)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40097e0;
+  constexpr static std::size_t addrs = 0x3ff7398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_5_0*>::get(),
@@ -6358,7 +6358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_GetTrackingIPDEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40098c4;
+  constexpr static std::size_t addrs = 0x3ff747c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_6_0*>::get(),
@@ -6372,7 +6372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_SetTrackingIPDEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400992c;
+  constexpr static std::size_t addrs = 0x3ff74e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6387,7 +6387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_HapticsDesc (*)(uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_GetControllerHapticsDesc)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40099a8;
+  constexpr static std::size_t addrs = 0x3ff7560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6402,7 +6402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_HapticsState (*)(uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_GetControllerHapticsState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4009a2c;
+  constexpr static std::size_t addrs = 0x3ff75e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6417,7 +6417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(uint32_t, ::GlobalNamespace::OVRPlugin_HapticsBuffer)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_SetControllerHaptics)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4009aa8;
+  constexpr static std::size_t addrs = 0x3ff7660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6434,7 +6434,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint32_t, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::GlobalNamespace::OVRPlugin_Posef, ::GlobalNamespace::OVRPlugin_Vector3f, int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_SetOverlayQuad3)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4009b3c;
+  constexpr static std::size_t addrs = 0x3ff76f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6452,7 +6452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_GetEyeRecommendedResolutionScale)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4009c28;
+  constexpr static std::size_t addrs = 0x3ff77e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6466,7 +6466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_GetAppCpuStartToGpuEndTime)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4009c8c;
+  constexpr static std::size_t addrs = 0x3ff7844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6480,7 +6480,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_6_0::ovrp_GetSystemRecommendedMSAALevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4009cf0;
+  constexpr static std::size_t addrs = 0x3ff78a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6562,7 +6562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_7_0::ovrp_GetAppChromaticCorrection)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4009dd4;
+  constexpr static std::size_t addrs = 0x3ff798c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_7_0*>::get(),
@@ -6576,7 +6576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_7_0::ovrp_SetAppChromaticCorrection)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4009e3c;
+  constexpr static std::size_t addrs = 0x3ff79f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6610,7 +6610,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_GetBoundaryConfigured)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4009f34;
+  constexpr static std::size_t addrs = 0x3ff7aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_8_0*>::get(),
@@ -6624,7 +6624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BoundaryTestResult (*)(
     ::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_BoundaryType)>(&::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_TestBoundaryNode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4009f9c;
+  constexpr static std::size_t addrs = 0x3ff7b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6640,7 +6640,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BoundaryTestResult (*)(
     ::GlobalNamespace::OVRPlugin_Vector3f, ::GlobalNamespace::OVRPlugin_BoundaryType)>(&::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_TestBoundaryPoint)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x400a030;
+  constexpr static std::size_t addrs = 0x3ff7be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6656,7 +6656,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BoundaryGeometry (*)(::GlobalNamespace::OVRPlugin_BoundaryType)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_GetBoundaryGeometry)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x400a0dc;
+  constexpr static std::size_t addrs = 0x3ff7c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6671,7 +6671,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Vector3f (*)(::GlobalNamespace::OVRPlugin_BoundaryType)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_GetBoundaryDimensions)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400a17c;
+  constexpr static std::size_t addrs = 0x3ff7d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6685,7 +6685,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_GetBoundaryVisible)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400a1f8;
+  constexpr static std::size_t addrs = 0x3ff7db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_8_0*>::get(),
@@ -6699,7 +6699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_SetBoundaryVisible)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400a260;
+  constexpr static std::size_t addrs = 0x3ff7e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6714,7 +6714,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(int32_t, int32_t, double_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_Update2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400a2dc;
+  constexpr static std::size_t addrs = 0x3ff7e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6730,7 +6730,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(int32_t, ::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_GetNodePose2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400a370;
+  constexpr static std::size_t addrs = 0x3ff7f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6746,7 +6746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(int32_t, ::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_GetNodeVelocity2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400a404;
+  constexpr static std::size_t addrs = 0x3ff7fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6762,7 +6762,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(int32_t, ::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_8_0::ovrp_GetNodeAcceleration2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400a498;
+  constexpr static std::size_t addrs = 0x3ff8050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6859,7 +6859,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SystemHeadset (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_9_0::ovrp_GetSystemHeadsetType)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400a5a8;
+  constexpr static std::size_t addrs = 0x3ff8160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_9_0*>::get(),
@@ -6872,7 +6872,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Controller (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_9_0::ovrp_GetActiveController)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400a610;
+  constexpr static std::size_t addrs = 0x3ff81c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_9_0*>::get(),
@@ -6886,7 +6886,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Controller (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_9_0::ovrp_GetConnectedControllers)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400a678;
+  constexpr static std::size_t addrs = 0x3ff8230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_9_0*>::get(),
@@ -6900,7 +6900,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_BoundaryType, ::System::IntPtr, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_9_0::ovrp_GetBoundaryGeometry2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400a6e0;
+  constexpr static std::size_t addrs = 0x3ff8298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6916,7 +6916,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_AppPerfStats (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_9_0::ovrp_GetAppPerfStats)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x400a774;
+  constexpr static std::size_t addrs = 0x3ff832c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_9_0*>::get(),
@@ -6929,7 +6929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_9_0::ovrp_ResetAppPerfStats)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400a7fc;
+  constexpr static std::size_t addrs = 0x3ff83b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_9_0*>::get(),
@@ -6995,7 +6995,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_EyeTextureFormat)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_11_0::ovrp_SetDesiredEyeTextureFormat)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400a95c;
+  constexpr static std::size_t addrs = 0x3ff8514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7010,7 +7010,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_EyeTextureFormat (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_11_0::ovrp_GetDesiredEyeTextureFormat)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400a9d8;
+  constexpr static std::size_t addrs = 0x3ff8590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -7044,7 +7044,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_12_0::ovrp_GetAppFramerate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x400aabc;
+  constexpr static std::size_t addrs = 0x3ff8674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_12_0*>::get(),
@@ -7058,7 +7058,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_PoseStatef (*)(::GlobalNamespace::OVRPlugin_Step, ::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_12_0::ovrp_GetNodePoseState)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400ab20;
+  constexpr static std::size_t addrs = 0x3ff86d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7074,7 +7074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ControllerState2 (*)(uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_12_0::ovrp_GetControllerState2)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400abb4;
+  constexpr static std::size_t addrs = 0x3ff876c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7115,7 +7115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_InitializeMixedReality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400acb4;
+  constexpr static std::size_t addrs = 0x3ff886c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_15_0*>::get(),
@@ -7128,7 +7128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_ShutdownMixedReality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400ad1c;
+  constexpr static std::size_t addrs = 0x3ff88d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_15_0*>::get(),
@@ -7142,7 +7142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetMixedRealityInitialized)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400ad84;
+  constexpr static std::size_t addrs = 0x3ff893c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -7156,7 +7156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_UpdateExternalCamera)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400adec;
+  constexpr static std::size_t addrs = 0x3ff89a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_15_0*>::get(),
@@ -7170,7 +7170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetExternalCameraCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400ae54;
+  constexpr static std::size_t addrs = 0x3ff8a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7185,7 +7185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetExternalCameraName)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x400aed0;
+  constexpr static std::size_t addrs = 0x3ff8a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7201,7 +7201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_CameraIntrinsics>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetExternalCameraIntrinsics)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400afe0;
+  constexpr static std::size_t addrs = 0x3ff8b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7217,7 +7217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_CameraExtrinsics>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetExternalCameraExtrinsics)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400b064;
+  constexpr static std::size_t addrs = 0x3ff8c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7234,7 +7234,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRPlugin_OverlayShape, ::GlobalNamespace::OVRPlugin_LayerLayout, ::ByRef<::GlobalNamespace::OVRPlugin_Sizei>, int32_t, int32_t, ::GlobalNamespace::OVRPlugin_EyeTextureFormat,
     int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_LayerDescInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_CalculateLayerDesc)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x400b0e8;
+  constexpr static std::size_t addrs = 0x3ff8ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7255,7 +7255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_LayerDescInternal>, ::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_EnqueueSetupLayer)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400b1b4;
+  constexpr static std::size_t addrs = 0x3ff8d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7271,7 +7271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_EnqueueDestroyLayer)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400b238;
+  constexpr static std::size_t addrs = 0x3ff8df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7286,7 +7286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetLayerTextureStageCount)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400b2b4;
+  constexpr static std::size_t addrs = 0x3ff8e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7301,7 +7301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     int32_t, int32_t, ::GlobalNamespace::OVRPlugin_Eye, ::ByRef<::System::IntPtr>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetLayerTexturePtr)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x400b338;
+  constexpr static std::size_t addrs = 0x3ff8ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7319,7 +7319,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint32_t, ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_Posef>, ::ByRef<::GlobalNamespace::OVRPlugin_Vector3f>, int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_EnqueueSubmitLayer)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x400b3d4;
+  constexpr static std::size_t addrs = 0x3ff8f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7338,7 +7338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_Frustumf2>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetNodeFrustum2)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400b4a0;
+  constexpr static std::size_t addrs = 0x3ff9058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7353,7 +7353,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_15_0::ovrp_GetEyeTextureArrayEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400b524;
+  constexpr static std::size_t addrs = 0x3ff90dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_15_0*>::get(),
@@ -7494,7 +7494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_UpdateCameraDevices)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400b608;
+  constexpr static std::size_t addrs = 0x3ff91c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_16_0*>::get(),
@@ -7508,7 +7508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_CameraDevice)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_IsCameraDeviceAvailable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400b670;
+  constexpr static std::size_t addrs = 0x3ff9228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7523,7 +7523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_CameraDevice, ::GlobalNamespace::OVRPlugin_Sizei)>(&::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_SetCameraDevicePreferredColorFrameSize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400b6ec;
+  constexpr static std::size_t addrs = 0x3ff92a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -7540,7 +7540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_CameraDevice)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_OpenCameraDevice)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400b770;
+  constexpr static std::size_t addrs = 0x3ff9328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7555,7 +7555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_CameraDevice)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_CloseCameraDevice)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400b7ec;
+  constexpr static std::size_t addrs = 0x3ff93a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7570,7 +7570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_CameraDevice)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_HasCameraDeviceOpened)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400b868;
+  constexpr static std::size_t addrs = 0x3ff9420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7585,7 +7585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(::GlobalNamespace::OVRPlugin_CameraDevice)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_IsCameraDeviceColorFrameAvailable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400b8e4;
+  constexpr static std::size_t addrs = 0x3ff949c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7600,7 +7600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_CameraDevice, ::ByRef<::GlobalNamespace::OVRPlugin_Sizei>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameSize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400b960;
+  constexpr static std::size_t addrs = 0x3ff9518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7616,7 +7616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_CameraDevice, ::ByRef<::System::IntPtr>, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameBgraPixels)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400b9e4;
+  constexpr static std::size_t addrs = 0x3ff959c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7633,7 +7633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint32_t, ::ByRef<::GlobalNamespace::OVRPlugin_ControllerState4>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_16_0::ovrp_GetControllerState4)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400ba78;
+  constexpr static std::size_t addrs = 0x3ff9630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7736,7 +7736,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(double_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_18_0::ovrp_SetHandNodePoseStateLatency)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400bbf4;
+  constexpr static std::size_t addrs = 0x3ff97ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7751,7 +7751,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<double_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_18_0::ovrp_GetHandNodePoseStateLatency)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400bc70;
+  constexpr static std::size_t addrs = 0x3ff9828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7766,7 +7766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_18_0::ovrp_GetAppHasInputFocus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400bcec;
+  constexpr static std::size_t addrs = 0x3ff98a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7817,7 +7817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_GetTiledMultiResSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400be60;
+  constexpr static std::size_t addrs = 0x3ff9a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7832,7 +7832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_GetTiledMultiResLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400bedc;
+  constexpr static std::size_t addrs = 0x3ff9a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7847,7 +7847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_SetTiledMultiResLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400bf58;
+  constexpr static std::size_t addrs = 0x3ff9b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7862,7 +7862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_GetGPUUtilSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400bfd4;
+  constexpr static std::size_t addrs = 0x3ff9b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -7877,7 +7877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_GetGPUUtilLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400c050;
+  constexpr static std::size_t addrs = 0x3ff9c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7892,7 +7892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_GetSystemDisplayFrequency2)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400c0cc;
+  constexpr static std::size_t addrs = 0x3ff9c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7907,7 +7907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_GetSystemDisplayAvailableFrequencies)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400c148;
+  constexpr static std::size_t addrs = 0x3ff9d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_21_0*>::get(),
@@ -7923,7 +7923,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(float_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_SetSystemDisplayFrequency)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400c1cc;
+  constexpr static std::size_t addrs = 0x3ff9d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7938,7 +7938,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_21_0::ovrp_GetAppAsymmetricFov)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400c248;
+  constexpr static std::size_t addrs = 0x3ff9e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8018,7 +8018,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Handedness>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_28_0::ovrp_GetDominantHand)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400c340;
+  constexpr static std::size_t addrs = 0x3ff9ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8033,7 +8033,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW, ::StringW)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_28_0::ovrp_SendEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x400c3bc;
+  constexpr static std::size_t addrs = 0x3ff9f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8048,7 +8048,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_LayerDescInternal>, int32_t, ::System::IntPtr)>(&::GlobalNamespace::OVRPlugin_OVRP_1_28_0::ovrp_EnqueueSetupLayer2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400c470;
+  constexpr static std::size_t addrs = 0x3ffa028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8093,7 +8093,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<::System::IntPtr>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_29_0::ovrp_GetLayerAndroidSurfaceObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400c580;
+  constexpr static std::size_t addrs = 0x3ffa138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8109,7 +8109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_Quatf>, ::ByRef<::GlobalNamespace::OVRPlugin_Vector3f>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_29_0::ovrp_SetHeadPoseModifier)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400c604;
+  constexpr static std::size_t addrs = 0x3ffa1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8125,7 +8125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_Quatf>, ::ByRef<::GlobalNamespace::OVRPlugin_Vector3f>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_29_0::ovrp_GetHeadPoseModifier)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400c688;
+  constexpr static std::size_t addrs = 0x3ffa240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8142,7 +8142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Step, int32_t, ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_PoseStatef>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_29_0::ovrp_GetNodePoseStateRaw)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x400c70c;
+  constexpr static std::size_t addrs = 0x3ffa2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8203,7 +8203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Posef>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_30_0::ovrp_GetCurrentTrackingTransformPose)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400c824;
+  constexpr static std::size_t addrs = 0x3ffa3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8218,7 +8218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Posef>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_30_0::ovrp_GetTrackingTransformRawPose)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400c8a0;
+  constexpr static std::size_t addrs = 0x3ffa458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8233,7 +8233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_30_0::ovrp_SendEvent2)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x400c91c;
+  constexpr static std::size_t addrs = 0x3ffa4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8249,7 +8249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_PerfMetrics, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_30_0::ovrp_IsPerfMetricsSupported)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400c9f4;
+  constexpr static std::size_t addrs = 0x3ffa5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8265,7 +8265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_PerfMetrics, ::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_30_0::ovrp_GetPerfMetricsFloat)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400ca78;
+  constexpr static std::size_t addrs = 0x3ffa630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8281,7 +8281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_PerfMetrics, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_30_0::ovrp_GetPerfMetricsInt)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400cafc;
+  constexpr static std::size_t addrs = 0x3ffa6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8347,7 +8347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<double_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_31_0::ovrp_GetTimeInSeconds)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400cbfc;
+  constexpr static std::size_t addrs = 0x3ffa7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8362,7 +8362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::GlobalNamespace::OVRPlugin_Bool)>(&::GlobalNamespace::OVRPlugin_OVRP_1_31_0::ovrp_SetColorScaleAndOffset)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x400cc78;
+  constexpr static std::size_t addrs = 0x3ffa830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8403,7 +8403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW, ::StringW)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_32_0::ovrp_AddCustomMetadata)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x400cdd0;
+  constexpr static std::size_t addrs = 0x3ffa988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8435,7 +8435,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRPlugin_Bool, ::ByRef<::GlobalNamespace::OVRPlugin_TextureRectMatrixf>, ::GlobalNamespace::OVRPlugin_Bool, ::ByRef<::UnityEngine::Vector4>, ::ByRef<::UnityEngine::Vector4>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_34_0::ovrp_EnqueueSubmitLayer2)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x400cf00;
+  constexpr static std::size_t addrs = 0x3ffaab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8517,7 +8517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_Posef>, ::GlobalNamespace::OVRPlugin_TrackingOrigin)>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_GetTrackingTransformRelativePose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400d1e8;
+  constexpr static std::size_t addrs = 0x3ffada0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8532,7 +8532,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_Initialize)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4002a34;
+  constexpr static std::size_t addrs = 0x3ff05ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_38_0*>::get(),
@@ -8545,7 +8545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_Shutdown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4002b5c;
+  constexpr static std::size_t addrs = 0x3ff0714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_38_0*>::get(),
@@ -8559,7 +8559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_GetInitialized)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4002c94;
+  constexpr static std::size_t addrs = 0x3ff084c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8573,7 +8573,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_Update)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4002dd0;
+  constexpr static std::size_t addrs = 0x3ff0988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_38_0*>::get(),
@@ -8587,7 +8587,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::Media_OVRPlugin_MrcActivationMode>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_GetMrcActivationMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4002f04;
+  constexpr static std::size_t addrs = 0x3ff0abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8602,7 +8602,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::Media_OVRPlugin_MrcActivationMode)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_SetMrcActivationMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4003048;
+  constexpr static std::size_t addrs = 0x3ff0c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8617,7 +8617,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_IsMrcEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4003548;
+  constexpr static std::size_t addrs = 0x3ff1100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8632,7 +8632,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_IsMrcActivated)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4003694;
+  constexpr static std::size_t addrs = 0x3ff124c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8647,7 +8647,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_UseMrcDebugCamera)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40037e0;
+  constexpr static std::size_t addrs = 0x3ff1398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8662,7 +8662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::Media_OVRPlugin_InputVideoBufferType)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_SetMrcInputVideoBufferType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4003924;
+  constexpr static std::size_t addrs = 0x3ff14dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8677,7 +8677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::Media_OVRPlugin_InputVideoBufferType>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_GetMrcInputVideoBufferType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4003a64;
+  constexpr static std::size_t addrs = 0x3ff161c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8692,7 +8692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_SetMrcFrameSize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4003bb8;
+  constexpr static std::size_t addrs = 0x3ff1770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8707,7 +8707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_GetMrcFrameSize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4003d1c;
+  constexpr static std::size_t addrs = 0x3ff18d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_38_0*>::get(),
@@ -8723,7 +8723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_SetMrcAudioSampleRate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4003e68;
+  constexpr static std::size_t addrs = 0x3ff1a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8738,7 +8738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_GetMrcAudioSampleRate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4003fa8;
+  constexpr static std::size_t addrs = 0x3ff1b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8753,7 +8753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_SetMrcFrameImageFlipped)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40040ec;
+  constexpr static std::size_t addrs = 0x3ff1ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8768,7 +8768,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_GetMrcFrameImageFlipped)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4004234;
+  constexpr static std::size_t addrs = 0x3ff1dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8783,7 +8783,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, double_t, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_EncodeMrcFrame)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40046a4;
+  constexpr static std::size_t addrs = 0x3ff225c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8801,7 +8801,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, double_t, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_EncodeMrcFrameWithDualTextures)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x400482c;
+  constexpr static std::size_t addrs = 0x3ff23e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8820,7 +8820,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_Media_SyncMrcFrame)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4004e74;
+  constexpr static std::size_t addrs = 0x3ff2a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8835,7 +8835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_SetDeveloperMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400d26c;
+  constexpr static std::size_t addrs = 0x3ffae24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8850,7 +8850,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_GetNodeOrientationValid)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400d2e8;
+  constexpr static std::size_t addrs = 0x3ffaea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8866,7 +8866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_38_0::ovrp_GetNodePositionValid)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400d36c;
+  constexpr static std::size_t addrs = 0x3ffaf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9079,7 +9079,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400d5e0;
+  constexpr static std::size_t addrs = 0x3ffb198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9118,7 +9118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_GetHandTrackingEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400d754;
+  constexpr static std::size_t addrs = 0x3ffb30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9133,7 +9133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Step, ::GlobalNamespace::OVRPlugin_Hand, ::ByRef<::GlobalNamespace::OVRPlugin_HandStateInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_GetHandState)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400d7d0;
+  constexpr static std::size_t addrs = 0x3ffb388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9150,7 +9150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_SkeletonType, ::ByRef<::GlobalNamespace::OVRPlugin_Skeleton>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_GetSkeleton)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x400d864;
+  constexpr static std::size_t addrs = 0x3ffb41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9166,7 +9166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_MeshType, ::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_GetMesh)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x400d924;
+  constexpr static std::size_t addrs = 0x3ffb4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9182,7 +9182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     int32_t, ::GlobalNamespace::OVRPlugin_Bool, ::ByRef<::GlobalNamespace::OVRPlugin_Fovf>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_OverrideExternalCameraFov)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400d9a4;
+  constexpr static std::size_t addrs = 0x3ffb55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9199,7 +9199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraFov)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400da38;
+  constexpr static std::size_t addrs = 0x3ffb5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9215,7 +9215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     int32_t, ::GlobalNamespace::OVRPlugin_Bool, ::ByRef<::GlobalNamespace::OVRPlugin_Posef>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_OverrideExternalCameraStaticPose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400dabc;
+  constexpr static std::size_t addrs = 0x3ffb674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9232,7 +9232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraStaticPose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400db50;
+  constexpr static std::size_t addrs = 0x3ffb708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -9249,7 +9249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_ResetDefaultExternalCamera)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400dbd4;
+  constexpr static std::size_t addrs = 0x3ffb78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -9265,7 +9265,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW, ::ByRef<::GlobalNamespace::OVRPlugin_CameraIntrinsics>, ::ByRef<::GlobalNamespace::OVRPlugin_CameraExtrinsics>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_SetDefaultExternalCamera)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x400dc3c;
+  constexpr static std::size_t addrs = 0x3ffb7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9282,7 +9282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_44_0::ovrp_GetLocalTrackingSpaceRecenterCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400dce8;
+  constexpr static std::size_t addrs = 0x3ffb8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9392,7 +9392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_45_0::ovrp_GetSystemHmd3DofModeEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400dde0;
+  constexpr static std::size_t addrs = 0x3ffb998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9407,7 +9407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_45_0::ovrp_Media_SetAvailableQueueIndexVulkan)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4004fb8;
+  constexpr static std::size_t addrs = 0x3ff2b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9443,7 +9443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_46_0::ovrp_GetTiledMultiResDynamic)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400ded8;
+  constexpr static std::size_t addrs = 0x3ffba90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9458,7 +9458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_46_0::ovrp_SetTiledMultiResDynamic)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400df54;
+  constexpr static std::size_t addrs = 0x3ffbb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9504,7 +9504,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW, ::ByRef<::GlobalNamespace::OVRPlugin_CameraIntrinsics>, ::ByRef<::GlobalNamespace::OVRPlugin_CameraExtrinsics>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_48_0::ovrp_SetExternalCameraProperties)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x400e0c8;
+  constexpr static std::size_t addrs = 0x3ffbc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9540,7 +9540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_ColorSpace)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_SetClientColorDesc)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400e1f0;
+  constexpr static std::size_t addrs = 0x3ffbda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9555,7 +9555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_ColorSpace>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_GetHmdColorDesc)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400e26c;
+  constexpr static std::size_t addrs = 0x3ffbe24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9570,7 +9570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, double_t, double_t, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_EncodeMrcFrameWithPoseTime)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x40045e0;
+  constexpr static std::size_t addrs = 0x3ff2198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9589,7 +9589,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, double_t, double_t, ::ByRef<int32_t>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4004760;
+  constexpr static std::size_t addrs = 0x3ff2318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9609,7 +9609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Posef, ::GlobalNamespace::OVRPlugin_Posef, ::GlobalNamespace::OVRPlugin_Posef)>(&::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_SetHeadsetControllerPose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4005180;
+  constexpr static std::size_t addrs = 0x3ff2d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9626,7 +9626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<int32_t>, ::ByRef<::System::IntPtr>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_EnumerateCameraAnchorHandles)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400e2e8;
+  constexpr static std::size_t addrs = 0x3ffbea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9642,7 +9642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::System::IntPtr>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_GetCurrentCameraAnchorHandle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400e36c;
+  constexpr static std::size_t addrs = 0x3ffbf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9657,7 +9657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_GetCameraAnchorName)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x400e3e8;
+  constexpr static std::size_t addrs = 0x3ffbfa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9673,7 +9673,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<::System::IntPtr>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_GetCameraAnchorHandle)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400e4f8;
+  constexpr static std::size_t addrs = 0x3ffc0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9689,7 +9689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<::GlobalNamespace::OVRPlugin_CameraAnchorType>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_GetCameraAnchorType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400e57c;
+  constexpr static std::size_t addrs = 0x3ffc134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9705,7 +9705,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<::System::IntPtr>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_CreateCustomCameraAnchor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400e600;
+  constexpr static std::size_t addrs = 0x3ffc1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9721,7 +9721,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_DestroyCustomCameraAnchor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400e684;
+  constexpr static std::size_t addrs = 0x3ffc23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9736,7 +9736,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<::GlobalNamespace::OVRPlugin_Posef>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_GetCustomCameraAnchorPose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400e700;
+  constexpr static std::size_t addrs = 0x3ffc2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9752,7 +9752,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::GlobalNamespace::OVRPlugin_Posef)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_SetCustomCameraAnchorPose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x400e784;
+  constexpr static std::size_t addrs = 0x3ffc33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9768,7 +9768,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<double_t>, ::ByRef<double_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_GetCameraMinMaxDistance)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400e814;
+  constexpr static std::size_t addrs = 0x3ffc3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_49_0*>::get(),
@@ -9785,7 +9785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, double_t, double_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_49_0::ovrp_Media_SetCameraMinMaxDistance)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400e8a8;
+  constexpr static std::size_t addrs = 0x3ffc460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -9975,7 +9975,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_54_0::ovrp_Media_SetPlatformInitialized)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4003184;
+  constexpr static std::size_t addrs = 0x3ff0d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -10005,7 +10005,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_SkeletonType, ::ByRef<::GlobalNamespace::OVRPlugin_Skeleton2Internal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_55_0::ovrp_GetSkeleton2)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400ec24;
+  constexpr static std::size_t addrs = 0x3ffc7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10021,7 +10021,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_EventDataBuffer>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_55_0::ovrp_PollEvent)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x400eca8;
+  constexpr static std::size_t addrs = 0x3ffc860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -10036,7 +10036,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_XrApi>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_55_0::ovrp_GetNativeXrApiType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400ed88;
+  constexpr static std::size_t addrs = 0x3ffc940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10051,7 +10051,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_55_0::ovrp_GetNativeOpenXRHandles)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400ee04;
+  constexpr static std::size_t addrs = 0x3ffc9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_55_0*>::get(),
@@ -10103,7 +10103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_EventType>, ::ByRef<::System::IntPtr>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_55_1::ovrp_PollEvent2)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400ef04;
+  constexpr static std::size_t addrs = 0x3ffcabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10144,7 +10144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40032b8;
+  constexpr static std::size_t addrs = 0x3ff0e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10159,7 +10159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_57_0::ovrp_Media_SetPlatformCameraMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40033fc;
+  constexpr static std::size_t addrs = 0x3ff0fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10174,7 +10174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_57_0::ovrp_SetEyeFovPremultipliedAlphaMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400f080;
+  constexpr static std::size_t addrs = 0x3ffcc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10189,7 +10189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_57_0::ovrp_GetEyeFovPremultipliedAlphaMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400f0fc;
+  constexpr static std::size_t addrs = 0x3ffccb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10204,7 +10204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Vector2f)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_57_0::ovrp_SetKeyboardOverlayUV)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400f178;
+  constexpr static std::size_t addrs = 0x3ffcd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10303,7 +10303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_InitializeInsightPassthrough)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400f4e4;
+  constexpr static std::size_t addrs = 0x3ffd09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -10318,7 +10318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_ShutdownInsightPassthrough)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400f54c;
+  constexpr static std::size_t addrs = 0x3ffd104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -10333,7 +10333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_GetInsightPassthroughInitialized)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400f5b4;
+  constexpr static std::size_t addrs = 0x3ffd16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -10348,7 +10348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::GlobalNamespace::OVRPlugin_InsightPassthroughStyle)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_SetInsightPassthroughStyle)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400f61c;
+  constexpr static std::size_t addrs = 0x3ffd1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10364,7 +10364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     int32_t, ::System::IntPtr, int32_t, ::System::IntPtr, int32_t, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_CreateInsightTriangleMesh)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x400f6b0;
+  constexpr static std::size_t addrs = 0x3ffd268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10381,7 +10381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_DestroyInsightTriangleMesh)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400f764;
+  constexpr static std::size_t addrs = 0x3ffd31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10396,7 +10396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, uint64_t, ::UnityEngine::Matrix4x4, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_AddInsightPassthroughSurfaceGeometry)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x400f7e0;
+  constexpr static std::size_t addrs = 0x3ffd398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10413,7 +10413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_DestroyInsightPassthroughGeometryInstance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400f88c;
+  constexpr static std::size_t addrs = 0x3ffd444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10428,7 +10428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_63_0::ovrp_UpdateInsightPassthroughGeometryTransform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400f908;
+  constexpr static std::size_t addrs = 0x3ffd4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -10518,7 +10518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_Posef>, ::ByRef<uint64_t>, ::GlobalNamespace::OVRPlugin_TrackingOrigin)>(&::GlobalNamespace::OVRPlugin_OVRP_1_64_0::ovrp_LocateSpace)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400fa18;
+  constexpr static std::size_t addrs = 0x3ffd5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10553,7 +10553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::System::IntPtr>, uint32_t, ::ByRef<::System::IntPtr>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_KtxLoadFromMemory)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40054e4;
+  constexpr static std::size_t addrs = 0x3ff309c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10570,7 +10570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<uint32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_KtxTextureWidth)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40056b0;
+  constexpr static std::size_t addrs = 0x3ff3268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_65_0*>::get(),
@@ -10586,7 +10586,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<uint32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_KtxTextureHeight)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400586c;
+  constexpr static std::size_t addrs = 0x3ff3424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_65_0*>::get(),
@@ -10602,7 +10602,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_KtxTranscode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4005a2c;
+  constexpr static std::size_t addrs = 0x3ff35e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10617,7 +10617,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::System::IntPtr, uint32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_KtxGetTextureData)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4005db0;
+  constexpr static std::size_t addrs = 0x3ff3968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10633,7 +10633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr, ::ByRef<uint32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_KtxTextureSize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4005be8;
+  constexpr static std::size_t addrs = 0x3ff37a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_65_0*>::get(),
@@ -10649,7 +10649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_KtxDestroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4005f70;
+  constexpr static std::size_t addrs = 0x3ff3b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10664,7 +10664,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_65_0::ovrp_DestroySpace)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400fb28;
+  constexpr static std::size_t addrs = 0x3ffd6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10742,7 +10742,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_66_0::ovrp_GetInsightPassthroughInitializationState)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x400fc20;
+  constexpr static std::size_t addrs = 0x3ffd7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -10757,7 +10757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_66_0::ovrp_Media_IsCastingToRemoteClient)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4005314;
+  constexpr static std::size_t addrs = 0x3ff2ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10802,7 +10802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, uint32_t, ::ByRef<uint32_t>, ::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_LoadRenderModel)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x400fd80;
+  constexpr static std::size_t addrs = 0x3ffd938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10819,7 +10819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint32_t, ::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_GetRenderModelPaths)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x400fe1c;
+  constexpr static std::size_t addrs = 0x3ffd9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10834,7 +10834,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::StringW, ::ByRef<::GlobalNamespace::OVRPlugin_RenderModelPropertiesInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_GetRenderModelProperties)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x400fea0;
+  constexpr static std::size_t addrs = 0x3ffda58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10850,7 +10850,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     int32_t, ::GlobalNamespace::OVRPlugin_InsightPassthroughKeyboardHandsIntensity)>(&::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_SetInsightPassthroughKeyboardHandsIntensity)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x400ff98;
+  constexpr static std::size_t addrs = 0x3ffdb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10867,7 +10867,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_StartKeyboardTracking)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x401002c;
+  constexpr static std::size_t addrs = 0x3ffdbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10881,7 +10881,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_StopKeyboardTracking)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40100a8;
+  constexpr static std::size_t addrs = 0x3ffdc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_68_0*>::get(),
@@ -10895,7 +10895,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags, ::ByRef<::GlobalNamespace::OVRPlugin_KeyboardDescription>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_GetSystemKeyboardDescription)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4010110;
+  constexpr static std::size_t addrs = 0x3ffdcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10911,7 +10911,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Step, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_KeyboardState>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_68_0::ovrp_GetKeyboardState)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4010204;
+  constexpr static std::size_t addrs = 0x3ffddbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -10997,7 +10997,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_PoseStatef>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_69_0::ovrp_GetNodePoseStateImmediate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4010314;
+  constexpr static std::size_t addrs = 0x3ffdecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11030,7 +11030,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_LogCallback2DelegateType*)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_70_0::ovrp_SetLogCallback2)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4010414;
+  constexpr static std::size_t addrs = 0x3ffdfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11060,7 +11060,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_IsInsightPassthroughSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4010510;
+  constexpr static std::size_t addrs = 0x3ffe0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11074,7 +11074,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_SetClientVersion)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40060e4;
+  constexpr static std::size_t addrs = 0x3ff3c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11090,7 +11090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_HookGetInstanceProcAddr)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x400623c;
+  constexpr static std::size_t addrs = 0x3ff3df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11105,7 +11105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnInstanceCreate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4006380;
+  constexpr static std::size_t addrs = 0x3ff3f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11119,7 +11119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnInstanceDestroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40064bc;
+  constexpr static std::size_t addrs = 0x3ff4074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11133,7 +11133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionCreate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40065f8;
+  constexpr static std::size_t addrs = 0x3ff41b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11147,7 +11147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnAppSpaceChange)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4006734;
+  constexpr static std::size_t addrs = 0x3ff42ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11161,7 +11161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionStateChange)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4006884;
+  constexpr static std::size_t addrs = 0x3ff443c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11175,7 +11175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionBegin)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40069c8;
+  constexpr static std::size_t addrs = 0x3ff4580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11189,7 +11189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionEnd)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4006b04;
+  constexpr static std::size_t addrs = 0x3ff46bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11203,7 +11203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionExiting)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4006c40;
+  constexpr static std::size_t addrs = 0x3ff47f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11217,7 +11217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionDestroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4006d7c;
+  constexpr static std::size_t addrs = 0x3ff4934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11232,7 +11232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_SetSuggestedCpuPerformanceLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x401058c;
+  constexpr static std::size_t addrs = 0x3ffe144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11247,7 +11247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_GetSuggestedCpuPerformanceLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4010608;
+  constexpr static std::size_t addrs = 0x3ffe1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11262,7 +11262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_SetSuggestedGpuPerformanceLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4010684;
+  constexpr static std::size_t addrs = 0x3ffe23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11277,7 +11277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_71_0::ovrp_GetSuggestedGpuPerformanceLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4010700;
+  constexpr static std::size_t addrs = 0x3ffe2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11398,7 +11398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_SpatialAnchorCreateInfo>, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_CreateSpatialAnchor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40107f8;
+  constexpr static std::size_t addrs = 0x3ffe3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11415,7 +11415,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::GlobalNamespace::OVRPlugin_SpaceComponentType, ::GlobalNamespace::OVRPlugin_Bool, double_t, ::ByRef<uint64_t>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_SetSpaceComponentStatus)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x401087c;
+  constexpr static std::size_t addrs = 0x3ffe434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11435,7 +11435,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<uint64_t>, ::GlobalNamespace::OVRPlugin_SpaceComponentType, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_GetSpaceComponentStatus)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4010928;
+  constexpr static std::size_t addrs = 0x3ffe4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11454,7 +11454,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<uint64_t>, uint32_t, ::ByRef<uint32_t>, ::ByRef<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType, ::Array<::GlobalNamespace::OVRPlugin_SpaceComponentType>*>>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_EnumerateSpaceSupportedComponents)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x40109c0;
+  constexpr static std::size_t addrs = 0x3ffe578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11473,7 +11473,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                                           ::GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_SaveSpace)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4010a64;
+  constexpr static std::size_t addrs = 0x3ffe61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -11491,7 +11491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_SpaceQueryInfo>, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_QuerySpaces)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4010b00;
+  constexpr static std::size_t addrs = 0x3ffe6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11507,7 +11507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, uint32_t, ::ByRef<uint32_t>, ::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_RetrieveSpaceQueryResults)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4010bdc;
+  constexpr static std::size_t addrs = 0x3ffe794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11524,7 +11524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<uint64_t>, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_EraseSpace)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4010c78;
+  constexpr static std::size_t addrs = 0x3ffe830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11541,7 +11541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<uint64_t>, ::ByRef<::GlobalNamespace::OVRPlugin_SpaceContainerInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_GetSpaceContainer)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4010d0c;
+  constexpr static std::size_t addrs = 0x3ffe8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11557,7 +11557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<::GlobalNamespace::OVRPlugin_Rectf>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_GetSpaceBoundingBox2D)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4010d90;
+  constexpr static std::size_t addrs = 0x3ffe948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11573,7 +11573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<::GlobalNamespace::OVRPlugin_Boundsf>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_GetSpaceBoundingBox3D)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4010e14;
+  constexpr static std::size_t addrs = 0x3ffe9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11589,7 +11589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<uint64_t>, ::ByRef<::GlobalNamespace::OVRPlugin_SpaceSemanticLabelInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_GetSpaceSemanticLabels)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4010e98;
+  constexpr static std::size_t addrs = 0x3ffea50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11605,7 +11605,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<::GlobalNamespace::OVRPlugin_RoomLayoutInternal>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_GetSpaceRoomLayout)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4010f1c;
+  constexpr static std::size_t addrs = 0x3ffead4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11621,7 +11621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<uint64_t>, ::ByRef<::GlobalNamespace::OVRPlugin_PolygonalBoundary2DInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_GetSpaceBoundary2D)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4010fa0;
+  constexpr static std::size_t addrs = 0x3ffeb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11637,7 +11637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_SceneCaptureRequestInternal>, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_RequestSceneCapture)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4011024;
+  constexpr static std::size_t addrs = 0x3ffebdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11801,7 +11801,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<::System::Guid>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetSpaceUuid)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40111f8;
+  constexpr static std::size_t addrs = 0x3ffedb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11817,7 +11817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_VirtualKeyboardCreateInfo)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_CreateVirtualKeyboard)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x401127c;
+  constexpr static std::size_t addrs = 0x3ffee34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11831,7 +11831,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_DestroyVirtualKeyboard)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40112e8;
+  constexpr static std::size_t addrs = 0x3ffeea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_74_0*>::get(),
@@ -11845,7 +11845,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputInfo, ::ByRef<::GlobalNamespace::OVRPlugin_Posef>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_SendVirtualKeyboardInput)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4011350;
+  constexpr static std::size_t addrs = 0x3ffef08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11861,7 +11861,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_ChangeVirtualKeyboardTextContext)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40113e4;
+  constexpr static std::size_t addrs = 0x3ffef9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11876,7 +11876,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_VirtualKeyboardSpaceCreateInfo, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_CreateVirtualKeyboardSpace)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4011478;
+  constexpr static std::size_t addrs = 0x3fff030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11892,7 +11892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationInfo)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_SuggestVirtualKeyboardLocation)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4011504;
+  constexpr static std::size_t addrs = 0x3fff0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11907,7 +11907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetVirtualKeyboardScale)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011590;
+  constexpr static std::size_t addrs = 0x3fff148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11923,7 +11923,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW, ::GlobalNamespace::OVRPlugin_RenderModelFlags, ::ByRef<::GlobalNamespace::OVRPlugin_RenderModelPropertiesInternal>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetRenderModelProperties2)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x401160c;
+  constexpr static std::size_t addrs = 0x3fff1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12019,7 +12019,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     double_t, ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_PoseStatef>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_76_0::ovrp_GetNodePoseStateAtTime)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4011804;
+  constexpr static std::size_t addrs = 0x3fff3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12054,7 +12054,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetPassthroughCapabilityFlags)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011914;
+  constexpr static std::size_t addrs = 0x3fff4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12069,7 +12069,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetFoveationEyeTrackedSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011990;
+  constexpr static std::size_t addrs = 0x3fff548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12084,7 +12084,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetFoveationEyeTracked)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011a0c;
+  constexpr static std::size_t addrs = 0x3fff5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12099,7 +12099,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_SetFoveationEyeTracked)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011a88;
+  constexpr static std::size_t addrs = 0x3fff640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12113,7 +12113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_StartFaceTracking)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4011b04;
+  constexpr static std::size_t addrs = 0x3fff6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_78_0*>::get(),
@@ -12126,7 +12126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_StopFaceTracking)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4011b6c;
+  constexpr static std::size_t addrs = 0x3fff724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_78_0*>::get(),
@@ -12139,7 +12139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_StartBodyTracking)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4011bd4;
+  constexpr static std::size_t addrs = 0x3fff78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_78_0*>::get(),
@@ -12152,7 +12152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_StopBodyTracking)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4011c3c;
+  constexpr static std::size_t addrs = 0x3fff7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_78_0*>::get(),
@@ -12165,7 +12165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_StartEyeTracking)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4011ca4;
+  constexpr static std::size_t addrs = 0x3fff85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_78_0*>::get(),
@@ -12178,7 +12178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_StopEyeTracking)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4011d0c;
+  constexpr static std::size_t addrs = 0x3fff8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_78_0*>::get(),
@@ -12192,7 +12192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetEyeTrackingSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011d74;
+  constexpr static std::size_t addrs = 0x3fff92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12207,7 +12207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetFaceTrackingSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011df0;
+  constexpr static std::size_t addrs = 0x3fff9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12222,7 +12222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetBodyTrackingEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011e6c;
+  constexpr static std::size_t addrs = 0x3fffa24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12237,7 +12237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetBodyTrackingSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011ee8;
+  constexpr static std::size_t addrs = 0x3fffaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12252,7 +12252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Step, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_BodyStateInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetBodyState)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4011f64;
+  constexpr static std::size_t addrs = 0x3fffb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12269,7 +12269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetFaceTrackingEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4011ff8;
+  constexpr static std::size_t addrs = 0x3fffbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12284,7 +12284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Step, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_FaceStateInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetFaceState)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4012074;
+  constexpr static std::size_t addrs = 0x3fffc2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12301,7 +12301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetEyeTrackingEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4012108;
+  constexpr static std::size_t addrs = 0x3fffcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12316,7 +12316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Step, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_EyeGazesStateInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetEyeGazesState)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4012184;
+  constexpr static std::size_t addrs = 0x3fffd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12333,7 +12333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint32_t, ::ByRef<::GlobalNamespace::OVRPlugin_ControllerState5>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetControllerState5)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4012218;
+  constexpr static std::size_t addrs = 0x3fffdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12349,7 +12349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Controller, ::GlobalNamespace::OVRPlugin_HapticsLocation, float_t, float_t)>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_SetControllerLocalizedVibration)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x401229c;
+  constexpr static std::size_t addrs = 0x3fffe54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12366,7 +12366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetLocalDimmingSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4012338;
+  constexpr static std::size_t addrs = 0x3fffef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12381,7 +12381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_SetLocalDimming)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40123b4;
+  constexpr static std::size_t addrs = 0x3ffff6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12396,7 +12396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetLocalDimming)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4012430;
+  constexpr static std::size_t addrs = 0x3ffffe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12411,7 +12411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Hand, ::ByRef<::GlobalNamespace::OVRPlugin_InteractionProfile>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetCurrentInteractionProfile)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40124ac;
+  constexpr static std::size_t addrs = 0x4000064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12427,7 +12427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Controller, ::GlobalNamespace::OVRPlugin_HapticsAmplitudeEnvelopeVibration)>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_SetControllerHapticsAmplitudeEnvelope)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4012530;
+  constexpr static std::size_t addrs = 0x40000e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12444,7 +12444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Controller, ::GlobalNamespace::OVRPlugin_HapticsPcmVibration)>(&::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_SetControllerHapticsPcm)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40125c4;
+  constexpr static std::size_t addrs = 0x400017c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12460,7 +12460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Controller, ::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_78_0::ovrp_GetControllerSampleRateHz)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4012650;
+  constexpr static std::size_t addrs = 0x4000208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12671,7 +12671,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::cordl_internals::Ptr<uint64_t>, uint32_t, ::cordl_internals::Ptr<uint64_t>, uint32_t, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_ShareSpaces)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4012750;
+  constexpr static std::size_t addrs = 0x4000308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12689,7 +12689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::cordl_internals::Ptr<uint64_t>, uint32_t, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_SaveSpaceList)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40127fc;
+  constexpr static std::size_t addrs = 0x40003b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12707,7 +12707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_GetSpaceUserId)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4012898;
+  constexpr static std::size_t addrs = 0x4000450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>::get(),
@@ -12723,7 +12723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_CreateSpaceUser)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x401291c;
+  constexpr static std::size_t addrs = 0x40004d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>::get(),
@@ -12739,7 +12739,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DestroySpaceUser)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40129a0;
+  constexpr static std::size_t addrs = 0x4000558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12754,7 +12754,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_SpaceLocationf>, ::ByRef<uint64_t>, ::GlobalNamespace::OVRPlugin_TrackingOrigin)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_LocateSpace2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4012a1c;
+  constexpr static std::size_t addrs = 0x40005d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12771,7 +12771,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<uint64_t>, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DeclareUser)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4012ab0;
+  constexpr static std::size_t addrs = 0x4000668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>::get(),
@@ -12787,7 +12787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, int32_t, int64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_QplMarkerStart)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4006edc;
+  constexpr static std::size_t addrs = 0x3ff4a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12803,7 +12803,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::GlobalNamespace::Qpl_OVRPlugin_ResultType, int32_t, int64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_QplMarkerEnd)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4007060;
+  constexpr static std::size_t addrs = 0x3ff4c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12820,7 +12820,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, int32_t, int32_t, int64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_QplMarkerPointCached)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40071ec;
+  constexpr static std::size_t addrs = 0x3ff4da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12836,7 +12836,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::StringW, ::StringW, int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_QplMarkerAnnotation)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4007378;
+  constexpr static std::size_t addrs = 0x3ff4f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12852,7 +12852,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_QplCreateMarkerHandle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x400751c;
+  constexpr static std::size_t addrs = 0x3ff50d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>::get(),
@@ -12868,7 +12868,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_QplDestroyMarkerHandle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4007680;
+  constexpr static std::size_t addrs = 0x3ff5238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12999,7 +12999,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<uint64_t>, ::ByRef<::GlobalNamespace::OVRPlugin_TriangleMeshInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_82_0::ovrp_GetSpaceTriangleMesh)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4012c28;
+  constexpr static std::size_t addrs = 0x40007e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13032,7 +13032,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint32_t, ::ByRef<::GlobalNamespace::OVRPlugin_ControllerState6>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_83_0::ovrp_GetControllerState6)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4012d28;
+  constexpr static std::size_t addrs = 0x40008e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13048,7 +13048,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStatesInternal>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_83_0::ovrp_GetVirtualKeyboardModelAnimationStates)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4012dac;
+  constexpr static std::size_t addrs = 0x4000964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13064,7 +13064,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureIdsInternal>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_83_0::ovrp_GetVirtualKeyboardDirtyTextures)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4012e28;
+  constexpr static std::size_t addrs = 0x40009e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13079,7 +13079,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, ::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureData>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_83_0::ovrp_GetVirtualKeyboardTextureData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4012ea4;
+  constexpr static std::size_t addrs = 0x4000a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13095,7 +13095,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_83_0::ovrp_SetVirtualKeyboardModelVisibility)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4012f28;
+  constexpr static std::size_t addrs = 0x4000ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13157,7 +13157,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_PassthroughColorLutChannels, uint32_t, ::GlobalNamespace::OVRPlugin_PassthroughColorLutData, ::ByRef<uint64_t>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_CreatePassthroughColorLut)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4013020;
+  constexpr static std::size_t addrs = 0x4000bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13175,7 +13175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_DestroyPassthroughColorLut)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40130cc;
+  constexpr static std::size_t addrs = 0x4000c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13190,7 +13190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, ::GlobalNamespace::OVRPlugin_PassthroughColorLutData)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_UpdatePassthroughColorLut)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4013148;
+  constexpr static std::size_t addrs = 0x4000d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13206,7 +13206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_SetInsightPassthroughStyle2)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40131dc;
+  constexpr static std::size_t addrs = 0x4000d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13222,7 +13222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_Sizei>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_GetLayerRecommendedResolution)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4013260;
+  constexpr static std::size_t addrs = 0x4000e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13238,7 +13238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Sizei>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_GetEyeLayerRecommendedResolution)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40132e4;
+  constexpr static std::size_t addrs = 0x4000e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13307,7 +13307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin_OVRP_1_85_0::ovrp_OnEditorShutdown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40133dc;
+  constexpr static std::size_t addrs = 0x4000f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin_OVRP_1_85_0*>::get(),
@@ -13321,7 +13321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_PassthroughCapabilities>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_85_0::ovrp_GetPassthroughCapabilities)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4013444;
+  constexpr static std::size_t addrs = 0x4000ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13356,7 +13356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_86_0::ovrp_SetControllerDrivenHandPoses)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x401353c;
+  constexpr static std::size_t addrs = 0x40010f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13371,7 +13371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_86_0::ovrp_IsControllerDrivenHandPosesEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40135b8;
+  constexpr static std::size_t addrs = 0x4001170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13387,7 +13387,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Step, ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
         &::GlobalNamespace::OVRPlugin_OVRP_1_86_0::ovrp_AreHandPosesGeneratedByControllerData)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4013634;
+  constexpr static std::size_t addrs = 0x40011ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -13405,7 +13405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_86_0::ovrp_SetMultimodalHandsControllersSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40136c8;
+  constexpr static std::size_t addrs = 0x4001280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13420,7 +13420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_86_0::ovrp_IsMultimodalHandsControllersSupported)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4013744;
+  constexpr static std::size_t addrs = 0x40012fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13435,7 +13435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Hand, ::ByRef<::GlobalNamespace::OVRPlugin_InteractionProfile>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_86_0::ovrp_GetCurrentDetachedInteractionProfile)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40137c0;
+  constexpr static std::size_t addrs = 0x4001378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13451,7 +13451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_Step, ::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_86_0::ovrp_GetControllerIsInHand)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4013844;
+  constexpr static std::size_t addrs = 0x40013fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13528,7 +13528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_PassthroughPreferences>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_87_0::ovrp_GetPassthroughPreferences)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4013954;
+  constexpr static std::size_t addrs = 0x400150c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13543,7 +13543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_LayerSharpenType)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_87_0::ovrp_SetEyeBufferSharpenType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40139d0;
+  constexpr static std::size_t addrs = 0x4001588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13558,7 +13558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_87_0::ovrp_SetControllerDrivenHandPosesAreNatural)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4013a4c;
+  constexpr static std::size_t addrs = 0x4001604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13573,7 +13573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_Bool>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_87_0::ovrp_AreControllerDrivenHandPosesNatural)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4013ac8;
+  constexpr static std::size_t addrs = 0x4001680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13621,7 +13621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_Bool)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_88_0::ovrp_SetSimultaneousHandsAndControllersEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4013bc0;
+  constexpr static std::size_t addrs = 0x4001778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13650,7 +13650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)()>(&::GlobalNamespace::OVRPlugin::get_version)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x3fea984;
+  constexpr static std::size_t addrs = 0x3fd853c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_version",
@@ -13663,7 +13663,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)()>(&::GlobalNamespace::OVRPlugin::get_nativeSDKVersion)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x3feae2c;
+  constexpr static std::size_t addrs = 0x3fd89e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_nativeSDKVersion",
@@ -13676,7 +13676,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Result)>(&::GlobalNamespace::OVRPlugin::IsSuccess)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3feb0dc;
+  constexpr static std::size_t addrs = 0x3fd8c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -13690,7 +13690,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_LogCallback2DelegateType*)>(&::GlobalNamespace::OVRPlugin::SetLogCallback2)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3feb0e8;
+  constexpr static std::size_t addrs = 0x3fd8ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13704,7 +13704,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_OverlayShape)>(&::GlobalNamespace::OVRPlugin::IsPassthroughShape)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3feb1f0;
+  constexpr static std::size_t addrs = 0x3fd8da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13718,7 +13718,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SpaceLocationFlags)>(&::GlobalNamespace::OVRPlugin::IsPositionValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3feb214;
+  constexpr static std::size_t addrs = 0x3fd8dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13732,7 +13732,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SpaceLocationFlags)>(&::GlobalNamespace::OVRPlugin::IsOrientationValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3feb21c;
+  constexpr static std::size_t addrs = 0x3fd8dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13746,7 +13746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SpaceLocationFlags)>(&::GlobalNamespace::OVRPlugin::IsPositionTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3feb224;
+  constexpr static std::size_t addrs = 0x3fd8ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13760,7 +13760,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SpaceLocationFlags)>(&::GlobalNamespace::OVRPlugin::IsOrientationTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3feb22c;
+  constexpr static std::size_t addrs = 0x3fd8de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13774,7 +13774,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Guid)>(&::GlobalNamespace::OVRPlugin::GuidToUuidString)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3feb234;
+  constexpr static std::size_t addrs = 0x3fd8dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13788,7 +13788,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_initialized)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3feb36c;
+  constexpr static std::size_t addrs = 0x3fd8f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_initialized",
@@ -13801,7 +13801,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_XrApi (*)()>(&::GlobalNamespace::OVRPlugin::get_nativeXrApi)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3feb3c8;
+  constexpr static std::size_t addrs = 0x3fd8f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_nativeXrApi",
@@ -13814,7 +13814,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_chromatic)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3feb564;
+  constexpr static std::size_t addrs = 0x3fd911c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_chromatic",
@@ -13827,7 +13827,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_chromatic)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3feb63c;
+  constexpr static std::size_t addrs = 0x3fd91f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -13841,7 +13841,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_monoscopic)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3feb73c;
+  constexpr static std::size_t addrs = 0x3fd92f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_monoscopic",
@@ -13854,7 +13854,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_monoscopic)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3feb7cc;
+  constexpr static std::size_t addrs = 0x3fd9384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -13868,7 +13868,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_rotation)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3feb870;
+  constexpr static std::size_t addrs = 0x3fd9428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_rotation",
@@ -13881,7 +13881,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_rotation)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3feb900;
+  constexpr static std::size_t addrs = 0x3fd94b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -13895,7 +13895,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_position)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3feb9a4;
+  constexpr static std::size_t addrs = 0x3fd955c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_position",
@@ -13908,7 +13908,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_position)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3feba34;
+  constexpr static std::size_t addrs = 0x3fd95ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -13922,7 +13922,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_useIPDInPositionTracking)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3febad8;
+  constexpr static std::size_t addrs = 0x3fd9690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -13935,7 +13935,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_useIPDInPositionTracking)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3febbb0;
+  constexpr static std::size_t addrs = 0x3fd9768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -13949,7 +13949,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_positionSupported)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3febca8;
+  constexpr static std::size_t addrs = 0x3fd9860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_positionSupported",
@@ -13962,7 +13962,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_positionTracked)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3febd38;
+  constexpr static std::size_t addrs = 0x3fd98f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_positionTracked",
@@ -13975,7 +13975,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_powerSaving)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3febdcc;
+  constexpr static std::size_t addrs = 0x3fd9984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_powerSaving",
@@ -13988,7 +13988,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_hmdPresent)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3febe5c;
+  constexpr static std::size_t addrs = 0x3fd9a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_hmdPresent",
@@ -14001,7 +14001,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_userPresent)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3febef0;
+  constexpr static std::size_t addrs = 0x3fd9aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_userPresent",
@@ -14014,7 +14014,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_headphonesPresent)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3febf80;
+  constexpr static std::size_t addrs = 0x3fd9b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_headphonesPresent",
@@ -14027,7 +14027,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin::get_recommendedMSAALevel)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3fec010;
+  constexpr static std::size_t addrs = 0x3fd9bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_recommendedMSAALevel",
@@ -14040,7 +14040,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SystemRegion (*)()>(&::GlobalNamespace::OVRPlugin::get_systemRegion)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3fec0e4;
+  constexpr static std::size_t addrs = 0x3fd9c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_systemRegion",
@@ -14053,7 +14053,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin::get_audioOutId)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x3fec1b8;
+  constexpr static std::size_t addrs = 0x3fd9d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_audioOutId",
@@ -14066,7 +14066,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin::get_audioInId)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x3fec4ac;
+  constexpr static std::size_t addrs = 0x3fda064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_audioInId",
@@ -14079,7 +14079,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fec798;
+  constexpr static std::size_t addrs = 0x3fda350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_hasVrFocus",
@@ -14092,7 +14092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_hasInputFocus)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3fec7f4;
+  constexpr static std::size_t addrs = 0x3fda3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_hasInputFocus",
@@ -14105,7 +14105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_shouldQuit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fec8cc;
+  constexpr static std::size_t addrs = 0x3fda484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_shouldQuit",
@@ -14118,7 +14118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_shouldRecenter)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fec928;
+  constexpr static std::size_t addrs = 0x3fda4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_shouldRecenter",
@@ -14131,7 +14131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin::get_productName)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fec984;
+  constexpr static std::size_t addrs = 0x3fda53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_productName",
@@ -14144,7 +14144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRPlugin::get_latency)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3fec9d4;
+  constexpr static std::size_t addrs = 0x3fda58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_latency",
@@ -14157,7 +14157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_eyeDepth)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3feca7c;
+  constexpr static std::size_t addrs = 0x3fda634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_eyeDepth",
@@ -14170,7 +14170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::OVRPlugin::set_eyeDepth)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fecb08;
+  constexpr static std::size_t addrs = 0x3fda6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14184,7 +14184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_eyeHeight)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fecb68;
+  constexpr static std::size_t addrs = 0x3fda720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_eyeHeight",
@@ -14197,7 +14197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::OVRPlugin::set_eyeHeight)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fecbb8;
+  constexpr static std::size_t addrs = 0x3fda770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14211,7 +14211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_batteryLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fecc18;
+  constexpr static std::size_t addrs = 0x3fda7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_batteryLevel",
@@ -14224,7 +14224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_batteryTemperature)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fecc68;
+  constexpr static std::size_t addrs = 0x3fda820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_batteryTemperature",
@@ -14238,7 +14238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel (*)()>(
     &::GlobalNamespace::OVRPlugin::get_suggestedCpuPerfLevel)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3feccb8;
+  constexpr static std::size_t addrs = 0x3fda870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -14252,7 +14252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel)>(
     &::GlobalNamespace::OVRPlugin::set_suggestedCpuPerfLevel)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3fecd88;
+  constexpr static std::size_t addrs = 0x3fda940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14267,7 +14267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel (*)()>(
     &::GlobalNamespace::OVRPlugin::get_suggestedGpuPerfLevel)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3fece48;
+  constexpr static std::size_t addrs = 0x3fdaa00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -14281,7 +14281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel)>(
     &::GlobalNamespace::OVRPlugin::set_suggestedGpuPerfLevel)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3fecf18;
+  constexpr static std::size_t addrs = 0x3fdaad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14295,7 +14295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin::get_cpuLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fecfd8;
+  constexpr static std::size_t addrs = 0x3fdab90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_cpuLevel",
@@ -14308,7 +14308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRPlugin::set_cpuLevel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fed028;
+  constexpr static std::size_t addrs = 0x3fdabe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14322,7 +14322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin::get_gpuLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fed080;
+  constexpr static std::size_t addrs = 0x3fdac38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_gpuLevel",
@@ -14335,7 +14335,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRPlugin::set_gpuLevel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fed0d0;
+  constexpr static std::size_t addrs = 0x3fdac88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14349,7 +14349,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin::get_vsyncCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fed128;
+  constexpr static std::size_t addrs = 0x3fdace0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_vsyncCount",
@@ -14362,7 +14362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRPlugin::set_vsyncCount)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fed178;
+  constexpr static std::size_t addrs = 0x3fdad30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14376,7 +14376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_systemVolume)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fed1d0;
+  constexpr static std::size_t addrs = 0x3fdad88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_systemVolume",
@@ -14389,7 +14389,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_ipd)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fed220;
+  constexpr static std::size_t addrs = 0x3fdadd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_ipd",
@@ -14402,7 +14402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::OVRPlugin::set_ipd)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fed270;
+  constexpr static std::size_t addrs = 0x3fdae28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14416,7 +14416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_occlusionMesh)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3fed2d0;
+  constexpr static std::size_t addrs = 0x3fdae88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_occlusionMesh",
@@ -14429,7 +14429,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_occlusionMesh)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3fed360;
+  constexpr static std::size_t addrs = 0x3fdaf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14443,7 +14443,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BatteryStatus (*)()>(&::GlobalNamespace::OVRPlugin::get_batteryStatus)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fed404;
+  constexpr static std::size_t addrs = 0x3fdafbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_batteryStatus",
@@ -14457,7 +14457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Frustumf (*)(::GlobalNamespace::OVRPlugin_Eye)>(
     &::GlobalNamespace::OVRPlugin::GetEyeFrustum)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fed454;
+  constexpr static std::size_t addrs = 0x3fdb00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14472,7 +14472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Sizei (*)(::GlobalNamespace::OVRPlugin_Eye)>(
     &::GlobalNamespace::OVRPlugin::GetEyeTextureSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fed4ac;
+  constexpr static std::size_t addrs = 0x3fdb064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14487,7 +14487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(::GlobalNamespace::OVRPlugin_Tracker)>(
     &::GlobalNamespace::OVRPlugin::GetTrackerPose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3fed504;
+  constexpr static std::size_t addrs = 0x3fdb0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14502,7 +14502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Frustumf (*)(::GlobalNamespace::OVRPlugin_Tracker)>(
     &::GlobalNamespace::OVRPlugin::GetTrackerFrustum)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fed7b0;
+  constexpr static std::size_t addrs = 0x3fdb368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14516,7 +14516,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_PlatformUI)>(&::GlobalNamespace::OVRPlugin::ShowUI)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3fed808;
+  constexpr static std::size_t addrs = 0x3fdb3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14533,7 +14533,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::GlobalNamespace::OVRPlugin_OverlayShape, bool, ::GlobalNamespace::OVRPlugin_TextureRectMatrixf, bool, ::UnityEngine::Vector4, ::UnityEngine::Vector4, bool, bool, bool, bool,
                          bool, bool, bool, bool)>(&::GlobalNamespace::OVRPlugin::EnqueueSubmitLayer)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x3fed86c;
+  constexpr static std::size_t addrs = 0x3fdb424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14572,7 +14572,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRPlugin_OverlayShape, ::GlobalNamespace::OVRPlugin_LayerLayout, ::GlobalNamespace::OVRPlugin_Sizei, int32_t, int32_t, ::GlobalNamespace::OVRPlugin_EyeTextureFormat, int32_t)>(
     &::GlobalNamespace::OVRPlugin::CalculateLayerDesc)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3feddb8;
+  constexpr static std::size_t addrs = 0x3fdb970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -14592,7 +14592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_LayerDesc, int32_t, ::System::IntPtr)>(
     &::GlobalNamespace::OVRPlugin::EnqueueSetupLayer)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3fedf50;
+  constexpr static std::size_t addrs = 0x3fdbb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -14607,7 +14607,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::GlobalNamespace::OVRPlugin::EnqueueDestroyLayer)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3fee158;
+  constexpr static std::size_t addrs = 0x3fdbd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14622,7 +14622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t, int32_t, ::GlobalNamespace::OVRPlugin_Eye)>(
     &::GlobalNamespace::OVRPlugin::GetLayerTexture)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3fee238;
+  constexpr static std::size_t addrs = 0x3fdbdf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -14637,7 +14637,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::OVRPlugin::GetLayerTextureStageCount)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3fee344;
+  constexpr static std::size_t addrs = 0x3fdbefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14651,7 +14651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::GlobalNamespace::OVRPlugin::GetLayerAndroidSurfaceObject)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3fee43c;
+  constexpr static std::size_t addrs = 0x3fdbff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14665,7 +14665,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, double_t)>(&::GlobalNamespace::OVRPlugin::UpdateNodePhysicsPoses)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3fee530;
+  constexpr static std::size_t addrs = 0x3fdc0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -14680,7 +14680,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_Step)>(
     &::GlobalNamespace::OVRPlugin::GetNodePose)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3fed588;
+  constexpr static std::size_t addrs = 0x3fdb140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14696,7 +14696,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Vector3f (*)(::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_Step)>(
     &::GlobalNamespace::OVRPlugin::GetNodeVelocity)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3fee60c;
+  constexpr static std::size_t addrs = 0x3fdc1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14712,7 +14712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Vector3f (*)(::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_Step)>(
     &::GlobalNamespace::OVRPlugin::GetNodeAngularVelocity)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3fee818;
+  constexpr static std::size_t addrs = 0x3fdc3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14728,7 +14728,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Vector3f (*)(::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_Step)>(
     &::GlobalNamespace::OVRPlugin::GetNodeAcceleration)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3fee968;
+  constexpr static std::size_t addrs = 0x3fdc520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14744,7 +14744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Vector3f (*)(::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_Step)>(
     &::GlobalNamespace::OVRPlugin::GetNodeAngularAcceleration)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3feeb74;
+  constexpr static std::size_t addrs = 0x3fdc72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -14759,7 +14759,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Node)>(&::GlobalNamespace::OVRPlugin::GetNodePresent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3feecc4;
+  constexpr static std::size_t addrs = 0x3fdc87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14773,7 +14773,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Node)>(&::GlobalNamespace::OVRPlugin::GetNodeOrientationTracked)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3feed28;
+  constexpr static std::size_t addrs = 0x3fdc8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14787,7 +14787,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Node)>(&::GlobalNamespace::OVRPlugin::GetNodeOrientationValid)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3feed8c;
+  constexpr static std::size_t addrs = 0x3fdc944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14801,7 +14801,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Node)>(&::GlobalNamespace::OVRPlugin::GetNodePositionTracked)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3feee8c;
+  constexpr static std::size_t addrs = 0x3fdca44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14815,7 +14815,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Node)>(&::GlobalNamespace::OVRPlugin::GetNodePositionValid)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3feeef0;
+  constexpr static std::size_t addrs = 0x3fdcaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14830,7 +14830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_PoseStatef (*)(::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_Step)>(
     &::GlobalNamespace::OVRPlugin::GetNodePoseStateRaw)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3feeff0;
+  constexpr static std::size_t addrs = 0x3fdcba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14846,7 +14846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_PoseStatef (*)(double_t, ::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin::GetNodePoseStateAtTime)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3fef220;
+  constexpr static std::size_t addrs = 0x3fdcdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14862,7 +14862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_PoseStatef (*)(::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin::GetNodePoseStateImmediate)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3fef358;
+  constexpr static std::size_t addrs = 0x3fdcf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14877,7 +14877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, ::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin::AreHandPosesGeneratedByControllerData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3fef480;
+  constexpr static std::size_t addrs = 0x3fdd038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -14892,7 +14892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::GlobalNamespace::OVRPlugin::SetSimultaneousHandsAndControllersEnabled)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3fef570;
+  constexpr static std::size_t addrs = 0x3fdd128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14907,7 +14907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, ::GlobalNamespace::OVRPlugin_Node)>(
     &::GlobalNamespace::OVRPlugin::GetControllerIsInHand)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3fef63c;
+  constexpr static std::size_t addrs = 0x3fdd1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14922,7 +14922,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)()>(&::GlobalNamespace::OVRPlugin::GetCurrentTrackingTransformPose)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3fef728;
+  constexpr static std::size_t addrs = 0x3fdd2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -14936,7 +14936,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)()>(&::GlobalNamespace::OVRPlugin::GetTrackingTransformRawPose)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3fef848;
+  constexpr static std::size_t addrs = 0x3fdd400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -14950,7 +14950,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(::GlobalNamespace::OVRPlugin_TrackingOrigin)>(
     &::GlobalNamespace::OVRPlugin::GetTrackingTransformRelativePose)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3fef968;
+  constexpr static std::size_t addrs = 0x3fdd520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -14964,7 +14964,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ControllerState (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin::GetControllerState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3fefac8;
+  constexpr static std::size_t addrs = 0x3fdd680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14978,7 +14978,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ControllerState2 (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin::GetControllerState2)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3fefb4c;
+  constexpr static std::size_t addrs = 0x3fdd704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14992,7 +14992,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ControllerState4 (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin::GetControllerState4)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3fefc90;
+  constexpr static std::size_t addrs = 0x3fdd848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15006,7 +15006,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ControllerState5 (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin::GetControllerState5)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3fefde8;
+  constexpr static std::size_t addrs = 0x3fdd9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15020,7 +15020,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ControllerState6 (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin::GetControllerState6)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3feff4c;
+  constexpr static std::size_t addrs = 0x3fddb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15035,7 +15035,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_InteractionProfile (*)(::GlobalNamespace::OVRPlugin_Hand)>(
     &::GlobalNamespace::OVRPlugin::GetCurrentInteractionProfile)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ff00b4;
+  constexpr static std::size_t addrs = 0x3fddc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15050,7 +15050,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_InteractionProfile (*)(::GlobalNamespace::OVRPlugin_Hand)>(
     &::GlobalNamespace::OVRPlugin::GetCurrentDetachedInteractionProfile)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ff0188;
+  constexpr static std::size_t addrs = 0x3fddd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15064,7 +15064,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, float_t, float_t)>(&::GlobalNamespace::OVRPlugin::SetControllerVibration)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ff025c;
+  constexpr static std::size_t addrs = 0x3fdde14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15080,7 +15080,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Controller, ::GlobalNamespace::OVRPlugin_HapticsLocation, float_t, float_t)>(
     &::GlobalNamespace::OVRPlugin::SetControllerLocalizedVibration)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ff02d8;
+  constexpr static std::size_t addrs = 0x3fdde90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15097,7 +15097,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Controller, ::GlobalNamespace::OVRPlugin_HapticsAmplitudeEnvelopeVibration)>(
     &::GlobalNamespace::OVRPlugin::SetControllerHapticsAmplitudeEnvelope)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff03c8;
+  constexpr static std::size_t addrs = 0x3fddf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15113,7 +15113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Controller, ::GlobalNamespace::OVRPlugin_HapticsPcmVibration)>(
     &::GlobalNamespace::OVRPlugin::SetControllerHapticsPcm)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ff04a8;
+  constexpr static std::size_t addrs = 0x3fde060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15129,7 +15129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Controller, ::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlugin::GetControllerSampleRateHz)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ff0598;
+  constexpr static std::size_t addrs = 0x3fde150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15144,7 +15144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_HapticsDesc (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin::GetControllerHapticsDesc)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ff0674;
+  constexpr static std::size_t addrs = 0x3fde22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15158,7 +15158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_HapticsState (*)(uint32_t)>(&::GlobalNamespace::OVRPlugin::GetControllerHapticsState)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ff0760;
+  constexpr static std::size_t addrs = 0x3fde318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15173,7 +15173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, ::GlobalNamespace::OVRPlugin_HapticsBuffer)>(
     &::GlobalNamespace::OVRPlugin::SetControllerHaptics)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff0824;
+  constexpr static std::size_t addrs = 0x3fde3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15188,7 +15188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::GetEyeRecommendedResolutionScale)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ff0904;
+  constexpr static std::size_t addrs = 0x3fde4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15202,7 +15202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::GetAppCpuStartToGpuEndTime)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ff09c0;
+  constexpr static std::size_t addrs = 0x3fde578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15215,7 +15215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::GetBoundaryConfigured)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff0a7c;
+  constexpr static std::size_t addrs = 0x3fde634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetBoundaryConfigured",
@@ -15229,7 +15229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_BoundaryTestResult (*)(::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_BoundaryType)>(&::GlobalNamespace::OVRPlugin::TestBoundaryNode)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ff0b3c;
+  constexpr static std::size_t addrs = 0x3fde6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15245,7 +15245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BoundaryTestResult (*)(
     ::GlobalNamespace::OVRPlugin_Vector3f, ::GlobalNamespace::OVRPlugin_BoundaryType)>(&::GlobalNamespace::OVRPlugin::TestBoundaryPoint)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3ff0c28;
+  constexpr static std::size_t addrs = 0x3fde7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15261,7 +15261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BoundaryGeometry (*)(::GlobalNamespace::OVRPlugin_BoundaryType)>(
     &::GlobalNamespace::OVRPlugin::GetBoundaryGeometry)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ff0d34;
+  constexpr static std::size_t addrs = 0x3fde8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15276,7 +15276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_BoundaryType, ::System::IntPtr, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin::GetBoundaryGeometry2)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3ff0e20;
+  constexpr static std::size_t addrs = 0x3fde9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15292,7 +15292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_AppPerfStats (*)()>(&::GlobalNamespace::OVRPlugin::GetAppPerfStats)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3ff0f04;
+  constexpr static std::size_t addrs = 0x3fdeabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetAppPerfStats",
@@ -15305,7 +15305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::ResetAppPerfStats)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3ff107c;
+  constexpr static std::size_t addrs = 0x3fdec34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "ResetAppPerfStats",
@@ -15318,7 +15318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::GetAppFramerate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ff11e0;
+  constexpr static std::size_t addrs = 0x3fded98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetAppFramerate",
@@ -15331,7 +15331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double_t)>(&::GlobalNamespace::OVRPlugin::SetHandNodePoseStateLatency)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff129c;
+  constexpr static std::size_t addrs = 0x3fdee54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15345,7 +15345,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)()>(&::GlobalNamespace::OVRPlugin::GetHandNodePoseStateLatency)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff136c;
+  constexpr static std::size_t addrs = 0x3fdef24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15358,7 +15358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::GlobalNamespace::OVRPlugin::SetControllerDrivenHandPoses)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff1438;
+  constexpr static std::size_t addrs = 0x3fdeff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15372,7 +15372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::GlobalNamespace::OVRPlugin::SetControllerDrivenHandPosesAreNatural)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff1504;
+  constexpr static std::size_t addrs = 0x3fdf0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15386,7 +15386,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::IsControllerDrivenHandPosesEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff15d0;
+  constexpr static std::size_t addrs = 0x3fdf188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15400,7 +15400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::AreControllerDrivenHandPosesNatural)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff16a0;
+  constexpr static std::size_t addrs = 0x3fdf258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15414,7 +15414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_EyeTextureFormat (*)()>(&::GlobalNamespace::OVRPlugin::GetDesiredEyeTextureFormat)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff1770;
+  constexpr static std::size_t addrs = 0x3fdf328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15427,7 +15427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_EyeTextureFormat)>(&::GlobalNamespace::OVRPlugin::SetDesiredEyeTextureFormat)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ff1830;
+  constexpr static std::size_t addrs = 0x3fdf3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -15441,7 +15441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::InitializeMixedReality)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ff18f8;
+  constexpr static std::size_t addrs = 0x3fdf4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "InitializeMixedReality",
@@ -15454,7 +15454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::ShutdownMixedReality)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ff19cc;
+  constexpr static std::size_t addrs = 0x3fdf584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "ShutdownMixedReality",
@@ -15467,7 +15467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::IsMixedRealityInitialized)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ff1aa0;
+  constexpr static std::size_t addrs = 0x3fdf658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15480,7 +15480,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin::GetExternalCameraCount)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff1b74;
+  constexpr static std::size_t addrs = 0x3fdf72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetExternalCameraCount",
@@ -15493,7 +15493,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::UpdateExternalCamera)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ff1c54;
+  constexpr static std::size_t addrs = 0x3fdf80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "UpdateExternalCamera",
@@ -15507,7 +15507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_CameraExtrinsics>, ::ByRef<::GlobalNamespace::OVRPlugin_CameraIntrinsics>)>(&::GlobalNamespace::OVRPlugin::GetMixedRealityCameraInfo)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3ff1d28;
+  constexpr static std::size_t addrs = 0x3fdf8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15524,7 +15524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, bool, ::GlobalNamespace::OVRPlugin_Fovf)>(
     &::GlobalNamespace::OVRPlugin::OverrideExternalCameraFov)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ff1e5c;
+  constexpr static std::size_t addrs = 0x3fdfa14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15539,7 +15539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin::GetUseOverriddenExternalCameraFov)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ff1f48;
+  constexpr static std::size_t addrs = 0x3fdfb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15554,7 +15554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, bool, ::GlobalNamespace::OVRPlugin_Posef)>(
     &::GlobalNamespace::OVRPlugin::OverrideExternalCameraStaticPose)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff2030;
+  constexpr static std::size_t addrs = 0x3fdfbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15569,7 +15569,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::OVRPlugin::GetUseOverriddenExternalCameraStaticPose)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ff2110;
+  constexpr static std::size_t addrs = 0x3fdfcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15583,7 +15583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::ResetDefaultExternalCamera)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff21f8;
+  constexpr static std::size_t addrs = 0x3fdfdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15597,7 +15597,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::StringW, ::ByRef<::GlobalNamespace::OVRPlugin_CameraIntrinsics>, ::ByRef<::GlobalNamespace::OVRPlugin_CameraExtrinsics>)>(&::GlobalNamespace::OVRPlugin::SetDefaultExternalCamera)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff22b8;
+  constexpr static std::size_t addrs = 0x3fdfe70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15614,7 +15614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::StringW, ::ByRef<::GlobalNamespace::OVRPlugin_CameraIntrinsics>, ::ByRef<::GlobalNamespace::OVRPlugin_CameraExtrinsics>)>(&::GlobalNamespace::OVRPlugin::SetExternalCameraProperties)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff2398;
+  constexpr static std::size_t addrs = 0x3fdff50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15630,7 +15630,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::GlobalNamespace::OVRPlugin::SetMultimodalHandsControllersSupported)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff2478;
+  constexpr static std::size_t addrs = 0x3fe0030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15644,7 +15644,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::IsMultimodalHandsControllersSupported)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff2558;
+  constexpr static std::size_t addrs = 0x3fe0110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15658,7 +15658,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::IsInsightPassthroughSupported)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3ff2628;
+  constexpr static std::size_t addrs = 0x3fe01e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15671,7 +15671,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::InitializeInsightPassthrough)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff2790;
+  constexpr static std::size_t addrs = 0x3fe0348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15684,7 +15684,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::ShutdownInsightPassthrough)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff2850;
+  constexpr static std::size_t addrs = 0x3fe0408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15697,7 +15697,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::IsInsightPassthroughInitialized)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff2910;
+  constexpr static std::size_t addrs = 0x3fe04c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15711,7 +15711,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin::GetInsightPassthroughInitializationState)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ff29d0;
+  constexpr static std::size_t addrs = 0x3fe0588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15726,7 +15726,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     int32_t, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::CreateInsightTriangleMesh)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3fe6d20;
+  constexpr static std::size_t addrs = 0x3fd48d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -15743,7 +15743,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin::DestroyInsightTriangleMesh)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3fe54fc;
+  constexpr static std::size_t addrs = 0x3fd30b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15758,7 +15758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, uint64_t, ::UnityEngine::Matrix4x4, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin::AddInsightPassthroughSurfaceGeometry)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3fe6ec8;
+  constexpr static std::size_t addrs = 0x3fd4a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15774,7 +15774,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin::DestroyInsightPassthroughGeometryInstance)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3fe5434;
+  constexpr static std::size_t addrs = 0x3fd2fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15789,7 +15789,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::OVRPlugin::UpdateInsightPassthroughGeometryTransform)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3fe7710;
+  constexpr static std::size_t addrs = 0x3fd52c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15805,7 +15805,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2)>(
     &::GlobalNamespace::OVRPlugin::SetInsightPassthroughStyle)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3fe7f80;
+  constexpr static std::size_t addrs = 0x3fd5b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -15821,7 +15821,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::GlobalNamespace::OVRPlugin_InsightPassthroughStyle)>(
     &::GlobalNamespace::OVRPlugin::SetInsightPassthroughStyle)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3ff2a8c;
+  constexpr static std::size_t addrs = 0x3fe0644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -15838,7 +15838,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::GlobalNamespace::OVRPlugin_PassthroughColorLutChannels, uint32_t, ::GlobalNamespace::OVRPlugin_PassthroughColorLutData, ::ByRef<uint64_t>)>(
         &::GlobalNamespace::OVRPlugin::CreatePassthroughColorLut)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3ff2ba4;
+  constexpr static std::size_t addrs = 0x3fe075c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15855,7 +15855,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin::DestroyPassthroughColorLut)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ff2cc4;
+  constexpr static std::size_t addrs = 0x3fe087c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15870,7 +15870,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::GlobalNamespace::OVRPlugin_PassthroughColorLutData)>(
     &::GlobalNamespace::OVRPlugin::UpdatePassthroughColorLut)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3ff2dac;
+  constexpr static std::size_t addrs = 0x3fe0964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15886,7 +15886,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::GlobalNamespace::OVRPlugin_InsightPassthroughKeyboardHandsIntensity)>(
     &::GlobalNamespace::OVRPlugin::SetInsightPassthroughKeyboardHandsIntensity)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff2eac;
+  constexpr static std::size_t addrs = 0x3fe0a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -15902,7 +15902,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags (*)()>(
     &::GlobalNamespace::OVRPlugin::GetPassthroughCapabilityFlags)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3ff2f8c;
+  constexpr static std::size_t addrs = 0x3fe0b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -15916,7 +15916,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_PassthroughCapabilities>)>(
     &::GlobalNamespace::OVRPlugin::GetPassthroughCapabilities)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff3140;
+  constexpr static std::size_t addrs = 0x3fe0cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -15931,7 +15931,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Vector3f (*)(::GlobalNamespace::OVRPlugin_BoundaryType)>(
     &::GlobalNamespace::OVRPlugin::GetBoundaryDimensions)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ff320c;
+  constexpr static std::size_t addrs = 0x3fe0dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15945,7 +15945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::GetBoundaryVisible)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff32d0;
+  constexpr static std::size_t addrs = 0x3fe0e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetBoundaryVisible",
@@ -15958,7 +15958,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::GlobalNamespace::OVRPlugin::SetBoundaryVisible)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3ff3390;
+  constexpr static std::size_t addrs = 0x3fe0f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -15972,7 +15972,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SystemHeadset (*)()>(&::GlobalNamespace::OVRPlugin::GetSystemHeadsetType)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ff3474;
+  constexpr static std::size_t addrs = 0x3fe102c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetSystemHeadsetType",
@@ -15985,7 +15985,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Controller (*)()>(&::GlobalNamespace::OVRPlugin::GetActiveController)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ff3530;
+  constexpr static std::size_t addrs = 0x3fe10e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetActiveController",
@@ -15998,7 +15998,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Controller (*)()>(&::GlobalNamespace::OVRPlugin::GetConnectedControllers)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ff35ec;
+  constexpr static std::size_t addrs = 0x3fe11a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetConnectedControllers",
@@ -16011,7 +16011,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Bool (*)(bool)>(&::GlobalNamespace::OVRPlugin::ToBool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3feb734;
+  constexpr static std::size_t addrs = 0x3fd92ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16025,7 +16025,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_TrackingOrigin (*)()>(&::GlobalNamespace::OVRPlugin::GetTrackingOriginType)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ff36a8;
+  constexpr static std::size_t addrs = 0x3fe1260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetTrackingOriginType",
@@ -16038,7 +16038,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_TrackingOrigin)>(&::GlobalNamespace::OVRPlugin::SetTrackingOriginType)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ff36f8;
+  constexpr static std::size_t addrs = 0x3fe12b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16052,7 +16052,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)()>(&::GlobalNamespace::OVRPlugin::GetTrackingCalibratedOrigin)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3ff375c;
+  constexpr static std::size_t addrs = 0x3fe1314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16065,7 +16065,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::SetTrackingCalibratedOrigin)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ff37d0;
+  constexpr static std::size_t addrs = 0x3fe1388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16078,7 +16078,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_RecenterFlags)>(&::GlobalNamespace::OVRPlugin::RecenterTrackingOrigin)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ff382c;
+  constexpr static std::size_t addrs = 0x3fe13e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16092,7 +16092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_foveatedRenderingSupported)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3ff3890;
+  constexpr static std::size_t addrs = 0x3fe1448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16105,7 +16105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_eyeTrackedFoveatedRenderingSupported)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff39d4;
+  constexpr static std::size_t addrs = 0x3fe158c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16119,7 +16119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ff3aa0;
+  constexpr static std::size_t addrs = 0x3fe1658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16133,7 +16133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ff3b8c;
+  constexpr static std::size_t addrs = 0x3fe1744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16147,7 +16147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingSupported)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff3904;
+  constexpr static std::size_t addrs = 0x3fe14bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16162,7 +16162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel (*)()>(
     &::GlobalNamespace::OVRPlugin::get_foveatedRenderingLevel)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3ff3c74;
+  constexpr static std::size_t addrs = 0x3fe182c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16176,7 +16176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel)>(
     &::GlobalNamespace::OVRPlugin::set_foveatedRenderingLevel)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3ff3d58;
+  constexpr static std::size_t addrs = 0x3fe1910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -16191,7 +16191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel (*)()>(
     &::GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingLevel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ff3e3c;
+  constexpr static std::size_t addrs = 0x3fe19f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16206,7 +16206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel)>(
     &::GlobalNamespace::OVRPlugin::set_fixedFoveatedRenderingLevel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ff3e88;
+  constexpr static std::size_t addrs = 0x3fe1a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16220,7 +16220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_useDynamicFoveatedRendering)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ff3edc;
+  constexpr static std::size_t addrs = 0x3fe1a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16234,7 +16234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_useDynamicFoveatedRendering)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ff3fc8;
+  constexpr static std::size_t addrs = 0x3fe1b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16248,7 +16248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_useDynamicFixedFoveatedRendering)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ff40b0;
+  constexpr static std::size_t addrs = 0x3fe1c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16262,7 +16262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_useDynamicFixedFoveatedRendering)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ff40fc;
+  constexpr static std::size_t addrs = 0x3fe1cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16276,7 +16276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_tiledMultiResSupported)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ff4150;
+  constexpr static std::size_t addrs = 0x3fe1d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16289,7 +16289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_TiledMultiResLevel (*)()>(&::GlobalNamespace::OVRPlugin::get_tiledMultiResLevel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ff419c;
+  constexpr static std::size_t addrs = 0x3fe1d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_tiledMultiResLevel",
@@ -16302,7 +16302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_TiledMultiResLevel)>(&::GlobalNamespace::OVRPlugin::set_tiledMultiResLevel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ff41e8;
+  constexpr static std::size_t addrs = 0x3fe1da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16316,7 +16316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_gpuUtilSupported)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff423c;
+  constexpr static std::size_t addrs = 0x3fe1df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_gpuUtilSupported",
@@ -16329,7 +16329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_gpuUtilLevel)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ff430c;
+  constexpr static std::size_t addrs = 0x3fe1ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_gpuUtilLevel",
@@ -16342,7 +16342,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (*)()>(&::GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3ff43fc;
+  constexpr static std::size_t addrs = 0x3fe1fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16356,7 +16356,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::get_systemDisplayFrequency)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3ff4680;
+  constexpr static std::size_t addrs = 0x3fe2238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16369,7 +16369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::OVRPlugin::set_systemDisplayFrequency)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff47cc;
+  constexpr static std::size_t addrs = 0x3fe2384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16383,7 +16383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_eyeFovPremultipliedAlphaModeEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff4898;
+  constexpr static std::size_t addrs = 0x3fe2450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16397,7 +16397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_eyeFovPremultipliedAlphaModeEnabled)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff4968;
+  constexpr static std::size_t addrs = 0x3fe2520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16412,7 +16412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Node, ::ByRef<::GlobalNamespace::OVRPlugin_Frustumf2>)>(
     &::GlobalNamespace::OVRPlugin::GetNodeFrustum2)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff4a48;
+  constexpr static std::size_t addrs = 0x3fe2600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16427,7 +16427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_AsymmetricFovEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff4b28;
+  constexpr static std::size_t addrs = 0x3fe26e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_AsymmetricFovEnabled",
@@ -16440,7 +16440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_EyeTextureArrayEnabled)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ff4bf8;
+  constexpr static std::size_t addrs = 0x3fe27b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16453,7 +16453,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_localDimmingSupported)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff4cb8;
+  constexpr static std::size_t addrs = 0x3fe2870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16466,7 +16466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_localDimming)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ff4d88;
+  constexpr static std::size_t addrs = 0x3fe2940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_localDimming",
@@ -16479,7 +16479,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OVRPlugin::set_localDimming)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ff4e78;
+  constexpr static std::size_t addrs = 0x3fe2a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16493,7 +16493,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Handedness (*)()>(&::GlobalNamespace::OVRPlugin::GetDominantHand)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff4f60;
+  constexpr static std::size_t addrs = 0x3fe2b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetDominantHand",
@@ -16506,7 +16506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW)>(&::GlobalNamespace::OVRPlugin::SendEvent)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3ff502c;
+  constexpr static std::size_t addrs = 0x3fe2be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16522,7 +16522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::GlobalNamespace::OVRPlugin_Quatf>, ::ByRef<::GlobalNamespace::OVRPlugin_Vector3f>)>(
     &::GlobalNamespace::OVRPlugin::SetHeadPoseModifier)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ff51c0;
+  constexpr static std::size_t addrs = 0x3fe2d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16538,7 +16538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::GlobalNamespace::OVRPlugin_Quatf>, ::ByRef<::GlobalNamespace::OVRPlugin_Vector3f>)>(
     &::GlobalNamespace::OVRPlugin::GetHeadPoseModifier)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3ff5298;
+  constexpr static std::size_t addrs = 0x3fe2e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16553,7 +16553,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_PerfMetrics)>(&::GlobalNamespace::OVRPlugin::IsPerfMetricsSupported)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff53e4;
+  constexpr static std::size_t addrs = 0x3fe2f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16568,7 +16568,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<float_t> (*)(::GlobalNamespace::OVRPlugin_PerfMetrics)>(
     &::GlobalNamespace::OVRPlugin::GetPerfMetricsFloat)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ff54c4;
+  constexpr static std::size_t addrs = 0x3fe307c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16583,7 +16583,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (*)(::GlobalNamespace::OVRPlugin_PerfMetrics)>(
     &::GlobalNamespace::OVRPlugin::GetPerfMetricsInt)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ff55c8;
+  constexpr static std::size_t addrs = 0x3fe3180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16597,7 +16597,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)()>(&::GlobalNamespace::OVRPlugin::GetTimeInSeconds)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ff56cc;
+  constexpr static std::size_t addrs = 0x3fe3284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetTimeInSeconds",
@@ -16611,7 +16611,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, bool)>(
     &::GlobalNamespace::OVRPlugin::SetColorScaleAndOffset)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3ff5798;
+  constexpr static std::size_t addrs = 0x3fe3350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16627,7 +16627,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&::GlobalNamespace::OVRPlugin::AddCustomMetadata)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ff58fc;
+  constexpr static std::size_t addrs = 0x3fe34b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16641,7 +16641,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Bool)>(&::GlobalNamespace::OVRPlugin::SetDeveloperMode)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ff59d4;
+  constexpr static std::size_t addrs = 0x3fe358c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16655,7 +16655,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::OVRPlugin::GetAdaptiveGPUPerformanceScale)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff5a9c;
+  constexpr static std::size_t addrs = 0x3fe3654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16668,7 +16668,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::GetHandTrackingEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff5b6c;
+  constexpr static std::size_t addrs = 0x3fe3724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetHandTrackingEnabled",
@@ -16682,7 +16682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, ::GlobalNamespace::OVRPlugin_Hand, ::ByRef<::GlobalNamespace::OVRPlugin_HandState>)>(&::GlobalNamespace::OVRPlugin::GetHandState)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x3ff5c3c;
+  constexpr static std::size_t addrs = 0x3fe37f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16699,7 +16699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_BoneId, ::GlobalNamespace::OVRPlugin_SkeletonType)>(
     &::GlobalNamespace::OVRPlugin::IsValidBone)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ff62e4;
+  constexpr static std::size_t addrs = 0x3fe3e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16715,7 +16715,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SkeletonType, ::ByRef<::GlobalNamespace::OVRPlugin_Skeleton>)>(
     &::GlobalNamespace::OVRPlugin::GetSkeleton)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ff630c;
+  constexpr static std::size_t addrs = 0x3fe3ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16731,7 +16731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SkeletonType, ::ByRef<::GlobalNamespace::OVRPlugin_Skeleton2>)>(
     &::GlobalNamespace::OVRPlugin::GetSkeleton2)> {
   constexpr static std::size_t size = 0x232c;
-  constexpr static std::size_t addrs = 0x3ff63ec;
+  constexpr static std::size_t addrs = 0x3fe3fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16746,7 +16746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_bodyTrackingSupported)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3fe99a0;
+  constexpr static std::size_t addrs = 0x3fd7558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -16759,7 +16759,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_bodyTrackingEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ff8718;
+  constexpr static std::size_t addrs = 0x3fe62d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_bodyTrackingEnabled",
@@ -16773,7 +16773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, ::ByRef<::GlobalNamespace::OVRPlugin_BodyState>)>(
     &::GlobalNamespace::OVRPlugin::GetBodyState)> {
   constexpr static std::size_t size = 0x2220;
-  constexpr static std::size_t addrs = 0x3ff87e8;
+  constexpr static std::size_t addrs = 0x3fe63a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16789,7 +16789,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_MeshType, ::ByRef<::GlobalNamespace::OVRPlugin_Mesh*>)>(
     &::GlobalNamespace::OVRPlugin::GetMesh)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3ffaa08;
+  constexpr static std::size_t addrs = 0x3fe85c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -16804,7 +16804,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin::StartKeyboardTracking)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ffabc4;
+  constexpr static std::size_t addrs = 0x3fe877c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16818,7 +16818,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::StopKeyboardTracking)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ffac8c;
+  constexpr static std::size_t addrs = 0x3fe8844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "StopKeyboardTracking",
@@ -16832,7 +16832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, ::ByRef<::GlobalNamespace::OVRPlugin_KeyboardState>)>(
     &::GlobalNamespace::OVRPlugin::GetKeyboardState)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ffad4c;
+  constexpr static std::size_t addrs = 0x3fe8904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16848,7 +16848,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags, ::ByRef<::GlobalNamespace::OVRPlugin_KeyboardDescription>)>(&::GlobalNamespace::OVRPlugin::GetSystemKeyboardDescription)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3ffae3c;
+  constexpr static std::size_t addrs = 0x3fe89f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16864,7 +16864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_VirtualKeyboardCreateInfo)>(
     &::GlobalNamespace::OVRPlugin::CreateVirtualKeyboard)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ffaf20;
+  constexpr static std::size_t addrs = 0x3fe8ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16878,7 +16878,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)()>(&::GlobalNamespace::OVRPlugin::DestroyVirtualKeyboard)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ffafdc;
+  constexpr static std::size_t addrs = 0x3fe8b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "DestroyVirtualKeyboard",
@@ -16892,7 +16892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputInfo, ::ByRef<::GlobalNamespace::OVRPlugin_Posef>)>(&::GlobalNamespace::OVRPlugin::SendVirtualKeyboardInput)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3ffb098;
+  constexpr static std::size_t addrs = 0x3fe8c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16908,7 +16908,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::StringW)>(
     &::GlobalNamespace::OVRPlugin::ChangeVirtualKeyboardTextContext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ffb190;
+  constexpr static std::size_t addrs = 0x3fe8d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16923,7 +16923,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_VirtualKeyboardSpaceCreateInfo, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::CreateVirtualKeyboardSpace)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ffb254;
+  constexpr static std::size_t addrs = 0x3fe8e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -16939,7 +16939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationInfo)>(
     &::GlobalNamespace::OVRPlugin::SuggestVirtualKeyboardLocation)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ffb340;
+  constexpr static std::size_t addrs = 0x3fe8ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16953,7 +16953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<float_t>)>(&::GlobalNamespace::OVRPlugin::GetVirtualKeyboardScale)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ffb428;
+  constexpr static std::size_t addrs = 0x3fe8fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16968,7 +16968,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStates>)>(
     &::GlobalNamespace::OVRPlugin::GetVirtualKeyboardModelAnimationStates)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x3ffb4f0;
+  constexpr static std::size_t addrs = 0x3fe90a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16983,7 +16983,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureIds>)>(
     &::GlobalNamespace::OVRPlugin::GetVirtualKeyboardDirtyTextures)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x3ffb97c;
+  constexpr static std::size_t addrs = 0x3fe9534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16998,7 +16998,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, ::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureData>)>(
     &::GlobalNamespace::OVRPlugin::GetVirtualKeyboardTextureData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ffbc60;
+  constexpr static std::size_t addrs = 0x3fe9818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17014,7 +17014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility>)>(
     &::GlobalNamespace::OVRPlugin::SetVirtualKeyboardModelVisibility)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ffbd38;
+  constexpr static std::size_t addrs = 0x3fe98f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17028,7 +17028,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_faceTrackingEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ffbdfc;
+  constexpr static std::size_t addrs = 0x3fe99b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_faceTrackingEnabled",
@@ -17041,7 +17041,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_faceTrackingSupported)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3fe98d0;
+  constexpr static std::size_t addrs = 0x3fd7488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -17055,7 +17055,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_FaceState>)>(
     &::GlobalNamespace::OVRPlugin::GetFaceStateInternal)> {
   constexpr static std::size_t size = 0x584;
-  constexpr static std::size_t addrs = 0x3ffbecc;
+  constexpr static std::size_t addrs = 0x3fe9a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17072,7 +17072,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_FaceState>)>(
     &::GlobalNamespace::OVRPlugin::GetFaceState)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3ffc450;
+  constexpr static std::size_t addrs = 0x3fea008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17088,7 +17088,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_eyeTrackingEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ffc5a0;
+  constexpr static std::size_t addrs = 0x3fea158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_eyeTrackingEnabled",
@@ -17101,7 +17101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::get_eyeTrackingSupported)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3fe9a70;
+  constexpr static std::size_t addrs = 0x3fd7628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "get_eyeTrackingSupported",
@@ -17115,7 +17115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Step, int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_EyeGazesState>)>(
     &::GlobalNamespace::OVRPlugin::GetEyeGazesState)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3ffc670;
+  constexpr static std::size_t addrs = 0x3fea228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17131,7 +17131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::StartEyeTracking)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ffc8e4;
+  constexpr static std::size_t addrs = 0x3fea49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "StartEyeTracking",
@@ -17144,7 +17144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::StopEyeTracking)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ffc9a4;
+  constexpr static std::size_t addrs = 0x3fea55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "StopEyeTracking",
@@ -17157,7 +17157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::StartFaceTracking)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ffca64;
+  constexpr static std::size_t addrs = 0x3fea61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "StartFaceTracking",
@@ -17170,7 +17170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::StopFaceTracking)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ffcb24;
+  constexpr static std::size_t addrs = 0x3fea6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "StopFaceTracking",
@@ -17183,7 +17183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::StartBodyTracking)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ffcbe4;
+  constexpr static std::size_t addrs = 0x3fea79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "StartBodyTracking",
@@ -17196,7 +17196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::StopBodyTracking)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ffcca4;
+  constexpr static std::size_t addrs = 0x3fea85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "StopBodyTracking",
@@ -17209,7 +17209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRPlugin::GetLocalTrackingSpaceRecenterCount)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ffcd64;
+  constexpr static std::size_t addrs = 0x3fea91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17223,7 +17223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlugin::GetSystemHmd3DofModeEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ffce30;
+  constexpr static std::size_t addrs = 0x3fea9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(),
@@ -17236,7 +17236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_ColorSpace)>(&::GlobalNamespace::OVRPlugin::SetClientColorDesc)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3ffcf00;
+  constexpr static std::size_t addrs = 0x3feaab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17250,7 +17250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_ColorSpace (*)()>(&::GlobalNamespace::OVRPlugin::GetHmdColorDesc)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3ffd014;
+  constexpr static std::size_t addrs = 0x3feabcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetHmdColorDesc",
@@ -17263,7 +17263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::GlobalNamespace::OVRPlugin_EventDataBuffer>)>(&::GlobalNamespace::OVRPlugin::PollEvent)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3ffd14c;
+  constexpr static std::size_t addrs = 0x3fead04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17277,7 +17277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::GlobalNamespace::OVRPlugin::GetNativeOpenXRInstance)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ffd33c;
+  constexpr static std::size_t addrs = 0x3feaef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetNativeOpenXRInstance",
@@ -17290,7 +17290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::GlobalNamespace::OVRPlugin::GetNativeOpenXRSession)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ffd418;
+  constexpr static std::size_t addrs = 0x3feafd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetNativeOpenXRSession",
@@ -17303,7 +17303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_Vector2f)>(&::GlobalNamespace::OVRPlugin::SetKeyboardOverlayUV)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ffd4f4;
+  constexpr static std::size_t addrs = 0x3feb0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17318,7 +17318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SpatialAnchorCreateInfo, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin::CreateSpatialAnchor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ffd5cc;
+  constexpr static std::size_t addrs = 0x3feb184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17334,7 +17334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::GlobalNamespace::OVRPlugin_SpaceComponentType, bool, double_t, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin::SetSpaceComponentStatus)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3ffd6a8;
+  constexpr static std::size_t addrs = 0x3feb260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17352,7 +17352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::GlobalNamespace::OVRPlugin_SpaceComponentType, ::ByRef<bool>, ::ByRef<bool>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceComponentStatus)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ffd88c;
+  constexpr static std::size_t addrs = 0x3feb444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17369,7 +17369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     uint64_t, ::GlobalNamespace::OVRPlugin_SpaceComponentType, ::ByRef<bool>, ::ByRef<bool>)>(&::GlobalNamespace::OVRPlugin::GetSpaceComponentStatusInternal)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3ffd914;
+  constexpr static std::size_t addrs = 0x3feb4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17387,7 +17387,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(uint64_t, ::ByRef<uint32_t>, ::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType, ::Array<::GlobalNamespace::OVRPlugin_SpaceComponentType>*>)>(
         &::GlobalNamespace::OVRPlugin::EnumerateSpaceSupportedComponents)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ffda28;
+  constexpr static std::size_t addrs = 0x3feb5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17404,7 +17404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     uint64_t, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation, ::GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::SaveSpace)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ffdb18;
+  constexpr static std::size_t addrs = 0x3feb6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17422,7 +17422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin::EraseSpace)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3ffdc0c;
+  constexpr static std::size_t addrs = 0x3feb7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17438,7 +17438,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::System::Guid>)>(&::GlobalNamespace::OVRPlugin::GetSpaceUuid)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ffdda0;
+  constexpr static std::size_t addrs = 0x3feb958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17454,7 +17454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_SpaceQueryInfo, ::ByRef<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin::QuerySpaces)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3ffde7c;
+  constexpr static std::size_t addrs = 0x3feba34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17470,7 +17470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_SpaceQueryResult>>,
                                                                                            ::Unity::Collections::Allocator)>(&::GlobalNamespace::OVRPlugin::RetrieveSpaceQueryResults)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3ffe0a4;
+  constexpr static std::size_t addrs = 0x3febc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17487,7 +17487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     uint64_t, ::ByRef<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceQueryResult, ::Array<::GlobalNamespace::OVRPlugin_SpaceQueryResult>*>>)>(&::GlobalNamespace::OVRPlugin::RetrieveSpaceQueryResults)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x3ffe254;
+  constexpr static std::size_t addrs = 0x3febe0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17504,7 +17504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::Unity::Collections::NativeArray_1<uint64_t>, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::SaveSpaceList)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3ffe5f0;
+  constexpr static std::size_t addrs = 0x3fec1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17520,7 +17520,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::GetSpaceUserId)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ffe714;
+  constexpr static std::size_t addrs = 0x3fec2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17535,7 +17535,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::CreateSpaceUser)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ffe7f0;
+  constexpr static std::size_t addrs = 0x3fec3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17550,7 +17550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin::DestroySpaceUser)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ffe8cc;
+  constexpr static std::size_t addrs = 0x3fec484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17565,7 +17565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
     ::Unity::Collections::NativeArray_1<uint64_t>, ::Unity::Collections::NativeArray_1<uint64_t>, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::ShareSpaces)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3ffe994;
+  constexpr static std::size_t addrs = 0x3fec54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17582,7 +17582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::GlobalNamespace::OVRPlugin_TrackingOrigin, ::ByRef<::GlobalNamespace::OVRPlugin_Posef>)>(
     &::GlobalNamespace::OVRPlugin::TryLocateSpace)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3ffead4;
+  constexpr static std::size_t addrs = 0x3fec68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17599,7 +17599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Posef (*)(uint64_t, ::GlobalNamespace::OVRPlugin_TrackingOrigin)>(
     &::GlobalNamespace::OVRPlugin::LocateSpace)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ffecb4;
+  constexpr static std::size_t addrs = 0x3fec86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17615,7 +17615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::GlobalNamespace::OVRPlugin_TrackingOrigin, ::ByRef<::GlobalNamespace::OVRPlugin_Posef>,
                                                                                            ::ByRef<::GlobalNamespace::OVRPlugin_SpaceLocationFlags>)>(&::GlobalNamespace::OVRPlugin::TryLocateSpace)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3ffed7c;
+  constexpr static std::size_t addrs = 0x3fec934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17632,7 +17632,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin::DestroySpace)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ffeee4;
+  constexpr static std::size_t addrs = 0x3feca9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17647,7 +17647,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::ArrayW<::System::Guid, ::Array<::System::Guid>*>>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceContainer)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3ffefac;
+  constexpr static std::size_t addrs = 0x3fecb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17663,7 +17663,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::GlobalNamespace::OVRPlugin_Rectf>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceBoundingBox2D)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3fff23c;
+  constexpr static std::size_t addrs = 0x3fecdf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17679,7 +17679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::GlobalNamespace::OVRPlugin_Boundsf>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceBoundingBox3D)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3fff318;
+  constexpr static std::size_t addrs = 0x3feced0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17694,7 +17694,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::StringW>)>(&::GlobalNamespace::OVRPlugin::GetSpaceSemanticLabels)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3fff3f8;
+  constexpr static std::size_t addrs = 0x3fecfb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17710,7 +17710,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::GlobalNamespace::OVRPlugin_RoomLayout>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceRoomLayout)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x3fff588;
+  constexpr static std::size_t addrs = 0x3fed140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17725,7 +17725,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin::GetSpaceBoundary2DCount)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3fff7e0;
+  constexpr static std::size_t addrs = 0x3fed398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17740,7 +17740,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceBoundary2D)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3fff8cc;
+  constexpr static std::size_t addrs = 0x3fed484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17756,7 +17756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceBoundary2D)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3fff950;
+  constexpr static std::size_t addrs = 0x3fed508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17773,7 +17773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> (*)(uint64_t, ::Unity::Collections::Allocator)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceBoundary2D)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3fffa78;
+  constexpr static std::size_t addrs = 0x3fed630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17789,7 +17789,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>)>(
     &::GlobalNamespace::OVRPlugin::GetSpaceBoundary2D)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x3fffc18;
+  constexpr static std::size_t addrs = 0x3fed7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17804,7 +17804,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<uint64_t>)>(&::GlobalNamespace::OVRPlugin::RequestSceneCapture)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3ffff40;
+  constexpr static std::size_t addrs = 0x3fedaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17819,7 +17819,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRPlugin::GetSpaceTriangleMeshCounts)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4000060;
+  constexpr static std::size_t addrs = 0x3fedc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17835,7 +17835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(uint64_t, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>, ::Unity::Collections::NativeArray_1<int32_t>)>(&::GlobalNamespace::OVRPlugin::GetSpaceTriangleMesh)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x4000220;
+  constexpr static std::size_t addrs = 0x3feddd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17852,7 +17852,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::ByRef<::GlobalNamespace::OVRPlugin_Sizei>)>(
     &::GlobalNamespace::OVRPlugin::GetLayerRecommendedResolution)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4000420;
+  constexpr static std::size_t addrs = 0x3fedfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17868,7 +17868,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::GlobalNamespace::OVRPlugin_Sizei>)>(
     &::GlobalNamespace::OVRPlugin::GetEyeLayerRecommendedResolution)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x40004fc;
+  constexpr static std::size_t addrs = 0x3fee0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -17882,7 +17882,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::GlobalNamespace::OVRPlugin::GetRenderModelPaths)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x40005c8;
+  constexpr static std::size_t addrs = 0x3fee180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "GetRenderModelPaths",
@@ -17896,7 +17896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::GlobalNamespace::OVRPlugin_RenderModelProperties>)>(
     &::GlobalNamespace::OVRPlugin::GetRenderModelProperties)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x40007e8;
+  constexpr static std::size_t addrs = 0x3fee3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17911,7 +17911,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(uint64_t)>(&::GlobalNamespace::OVRPlugin::LoadRenderModel)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x400098c;
+  constexpr static std::size_t addrs = 0x3fee544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17925,7 +17925,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRPlugin::OnEditorShutdown)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4000b68;
+  constexpr static std::size_t addrs = 0x3fee720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlugin*>::get(), "OnEditorShutdown",
@@ -17939,7 +17939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::ByRef<::GlobalNamespace::OVRPlugin_PassthroughPreferences>)>(
     &::GlobalNamespace::OVRPlugin::GetPassthroughPreferences)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4000c20;
+  constexpr static std::size_t addrs = 0x3fee7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17953,7 +17953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_LayerSharpenType)>(&::GlobalNamespace::OVRPlugin::SetEyeBufferSharpenType)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4000ce8;
+  constexpr static std::size_t addrs = 0x3fee8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

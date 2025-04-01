@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
-  /// @brief Method .ctor, addr 0x44ae388, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449bf48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressList, addr 0x44ae378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressList, addr 0x449bf38, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_AddressList();
 
-  /// @brief Method get_HostName, addr 0x44ae360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x449bf20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_AddressList, addr 0x44ae380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressList, addr 0x449bf40, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
-  /// @brief Method set_Aliases, addr 0x44ae370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Aliases, addr 0x449bf30, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_HostName, addr 0x44ae368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x449bf28, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
 protected:

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(
     ::UnityEngine::AddressableAssets::AddressablesImpl*, bool)>(&::UnityEngine::AddressableAssets::CleanBundleCacheOperation::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44fe4f0;
+  constexpr static std::size_t addrs = 0x44ec0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::Start)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x44fe598;
+  constexpr static std::size_t addrs = 0x44ec178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(bool, bool, ::StringW)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::CompleteInternal)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4500ea0;
+  constexpr static std::size_t addrs = 0x44eea80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4500f30;
+  constexpr static std::size_t addrs = 0x44eeb10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4501194;
+  constexpr static std::size_t addrs = 0x44eed74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::GetDependencies)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4501210;
+  constexpr static std::size_t addrs = 0x44eedf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::Execute)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x450132c;
+  constexpr static std::size_t addrs = 0x44eef0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(float_t)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::UnityEngine_ResourceManagement_IUpdateReceiver_Update)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x450222c;
+  constexpr static std::size_t addrs = 0x44efe0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::RemoveCacheEntries)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4501000;
+  constexpr static std::size_t addrs = 0x44eebe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::DetermineCacheDirsNotInUse)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x450226c;
+  constexpr static std::size_t addrs = 0x44efe4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(
     ::System::Collections::Generic::HashSet_1<::StringW>*)>(&::UnityEngine::AddressableAssets::CleanBundleCacheOperation::DetermineCacheDirsNotInUse)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x4501e20;
+  constexpr static std::size_t addrs = 0x44efa00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::GetCacheDirsInUse)> {
   constexpr static std::size_t size = 0x93c;
-  constexpr static std::size_t addrs = 0x45014e4;
+  constexpr static std::size_t addrs = 0x44ef0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

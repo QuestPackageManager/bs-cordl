@@ -68,16 +68,16 @@ public:
   /// @brief Field indirectReference, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_indirectReference, put = __cordl_internal_set_indirectReference)) ::Org::BouncyCastle::Asn1::DerInteger* indirectReference;
 
-  /// @brief Method Asn1Equals, addr 0x263cb38, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x2634cc8, size 0xe4, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x263cac4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x2634c54, size 0x74, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x263c970, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2634b00, size 0x104, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetObjFromVector, addr 0x263c774, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetObjFromVector, addr 0x2634904, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObjFromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int32_t index);
 
   static inline ::Org::BouncyCastle::Asn1::DerExternal* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference, ::Org::BouncyCastle::Asn1::DerInteger* indirectReference,
@@ -88,7 +88,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerExternal* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* vector);
 
-  /// @brief Method WriteEncodable, addr 0x263ca74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteEncodable, addr 0x2634c04, size 0x50, virtual false, abstract: false, final false
   static inline void WriteEncodable(::System::IO::MemoryStream* ms, ::Org::BouncyCastle::Asn1::Asn1Encodable* e);
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& __cordl_internal_get_dataValueDescriptor() const;
@@ -121,45 +121,45 @@ public:
 
   constexpr void __cordl_internal_set_indirectReference(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x263c8fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634a8c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference, ::Org::BouncyCastle::Asn1::DerInteger* indirectReference,
                     ::Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor, int32_t encoding, ::Org::BouncyCastle::Asn1::Asn1Object* externalData);
 
-  /// @brief Method .ctor, addr 0x263c89c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634a2c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference, ::Org::BouncyCastle::Asn1::DerInteger* indirectReference,
                     ::Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor, ::Org::BouncyCastle::Asn1::DerTaggedObject* externalData);
 
-  /// @brief Method .ctor, addr 0x26306d8, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628868, size 0x2e8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* vector);
 
-  /// @brief Method get_DataValueDescriptor, addr 0x263cc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataValueDescriptor, addr 0x2634dac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_DataValueDescriptor();
 
-  /// @brief Method get_DirectReference, addr 0x263cc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DirectReference, addr 0x2634dbc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DirectReference();
 
-  /// @brief Method get_Encoding, addr 0x263cc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x2634dcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Encoding();
 
-  /// @brief Method get_ExternalContent, addr 0x263cc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExternalContent, addr 0x2634dd4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_ExternalContent();
 
-  /// @brief Method get_IndirectReference, addr 0x263cc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IndirectReference, addr 0x2634de4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_IndirectReference();
 
-  /// @brief Method set_DataValueDescriptor, addr 0x263cc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataValueDescriptor, addr 0x2634db4, size 0x8, virtual false, abstract: false, final false
   inline void set_DataValueDescriptor(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method set_DirectReference, addr 0x263cc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DirectReference, addr 0x2634dc4, size 0x8, virtual false, abstract: false, final false
   inline void set_DirectReference(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method set_Encoding, addr 0x263c808, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x2634998, size 0x94, virtual false, abstract: false, final false
   inline void set_Encoding(int32_t value);
 
-  /// @brief Method set_ExternalContent, addr 0x263cc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExternalContent, addr 0x2634ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_ExternalContent(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method set_IndirectReference, addr 0x263cc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IndirectReference, addr 0x2634dec, size 0x8, virtual false, abstract: false, final false
   inline void set_IndirectReference(::Org::BouncyCastle::Asn1::DerInteger* value);
 
 protected:

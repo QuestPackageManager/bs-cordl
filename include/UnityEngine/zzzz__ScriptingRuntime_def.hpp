@@ -19,7 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE ScriptingRuntime : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllUserAssemblies, addr 0x48bb1b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllUserAssemblies, addr 0x48a8d90, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllUserAssemblies();
 
 protected:

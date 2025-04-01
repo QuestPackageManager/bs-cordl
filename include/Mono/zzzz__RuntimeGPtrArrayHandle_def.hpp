@@ -29,22 +29,22 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method DestroyAndFree, addr 0x3c63414, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAndFree, addr 0x3c50f10, size 0x1c, virtual false, abstract: false, final false
   static inline void DestroyAndFree(::ByRef<::Mono::RuntimeGPtrArrayHandle> h);
 
-  /// @brief Method GPtrArrayFree, addr 0x3c63410, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GPtrArrayFree, addr 0x3c50f0c, size 0x4, virtual false, abstract: false, final false
   static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray> value);
 
-  /// @brief Method Lookup, addr 0x3c633ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Lookup, addr 0x3c50ea8, size 0x64, virtual false, abstract: false, final false
   inline ::System::IntPtr Lookup(int32_t i);
 
-  /// @brief Method .ctor, addr 0x3c6336c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c50e68, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x3c633a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c50ea4, size 0x4, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x3c6338c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3c50e88, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []

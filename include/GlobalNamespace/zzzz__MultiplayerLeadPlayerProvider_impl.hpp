@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be1da4;
+  constexpr static std::size_t addrs = 0x3bcf894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be1b98;
+  constexpr static std::size_t addrs = 0x3bcf688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::Start)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3be4dbc;
+  constexpr static std::size_t addrs = 0x3bd28ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeadPlayerProvider*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::OnDestroy)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3be4e84;
+  constexpr static std::size_t addrs = 0x3bd2974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeadPlayerProvider*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::Update)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3be508c;
+  constexpr static std::size_t addrs = 0x3bd2b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeadPlayerProvider*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::StopProviding)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3be51d8;
+  constexpr static std::size_t addrs = 0x3bd2cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeadPlayerProvider*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::StartProviding)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3be5274;
+  constexpr static std::size_t addrs = 0x3bd2d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeadPlayerProvider*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::HandleStateChanged)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3be4e74;
+  constexpr static std::size_t addrs = 0x3bd2964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(
     ::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(&::GlobalNamespace::MultiplayerLeadPlayerProvider::HandleFirstPlayerDidChange)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3be5314;
+  constexpr static std::size_t addrs = 0x3bd2e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3be54fc;
+  constexpr static std::size_t addrs = 0x3bd2fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeadPlayerProvider*>::get(),

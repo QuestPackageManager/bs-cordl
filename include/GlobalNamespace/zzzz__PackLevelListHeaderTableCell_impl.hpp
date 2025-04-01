@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)(::StringW)>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::set_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c0d540;
+  constexpr static std::size_t addrs = 0x3bfb03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PackLevelListHeaderTableCell::*)()>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::get_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c0d564;
+  constexpr static std::size_t addrs = 0x3bfb060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(),
@@ -42,13 +42,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c0d588;
+  constexpr static std::size_t addrs = 0x3bfb084;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 11));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 22));
     return ___internal_method;
   }
 };
@@ -58,13 +58,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c0d614;
+  constexpr static std::size_t addrs = 0x3bfb110;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 12));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 23));
     return ___internal_method;
   }
 };
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)()>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c0d58c;
+  constexpr static std::size_t addrs = 0x3bfb088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)()>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c0d618;
+  constexpr static std::size_t addrs = 0x3bfb114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), ".ctor",
@@ -181,12 +181,12 @@ inline ::StringW GlobalNamespace::PackLevelListHeaderTableCell::get_text() {
 }
 inline void GlobalNamespace::PackLevelListHeaderTableCell::SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 11)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transitionType);
 }
 inline void GlobalNamespace::PackLevelListHeaderTableCell::HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackLevelListHeaderTableCell*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transitionType);
 }
 inline void GlobalNamespace::PackLevelListHeaderTableCell::RefreshVisuals() {

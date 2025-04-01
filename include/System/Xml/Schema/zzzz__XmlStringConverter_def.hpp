@@ -34,21 +34,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlStringConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x42f32e8, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42e0ea8, size 0x280, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42f3568, size 0x424, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42e1128, size 0x424, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x42f3090, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x42e0c50, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlStringConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString, addr 0x42f30e8, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42e0ca8, size 0x200, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x42f3028, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e0be8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

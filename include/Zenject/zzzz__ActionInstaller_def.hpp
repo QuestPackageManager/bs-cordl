@@ -33,7 +33,7 @@ public:
   /// @brief Field _installMethod, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  /// @brief Method InstallBindings, addr 0x4b5f054, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4b4cc48, size 0x28, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b5f07c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b4cc70, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b5f12c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4cd20, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b4e32c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3bf20, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
 protected:

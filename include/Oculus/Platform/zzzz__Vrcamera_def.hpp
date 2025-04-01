@@ -22,10 +22,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE Vrcamera : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x3f9a2b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x3f87e68, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetDataChannelMessageUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x3f9a324, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x3f87edc, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetSurfaceUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
 protected:
@@ -43,7 +43,7 @@ public:
   Vrcamera(Vrcamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

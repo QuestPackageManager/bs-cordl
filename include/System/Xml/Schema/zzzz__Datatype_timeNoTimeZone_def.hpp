@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_timeNoTimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43b333c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a0efc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

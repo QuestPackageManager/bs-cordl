@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x264ea3c;
+  constexpr static std::size_t addrs = 0x2646bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::SignatureSubpacket* (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)()>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::ReadPacket)> {
   constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x264ea64;
+  constexpr static std::size_t addrs = 0x2646bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::StringW)>(&::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::CheckData)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x264fc28;
+  constexpr static std::size_t addrs = 0x2647db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

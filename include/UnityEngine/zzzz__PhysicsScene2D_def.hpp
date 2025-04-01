@@ -46,79 +46,79 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::PhysicsScene2D>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::PhysicsScene2D>*();
 
-  /// @brief Method Equals, addr 0x4900438, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48ee018, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x49004b0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48ee090, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::PhysicsScene2D other);
 
-  /// @brief Method GetHashCode, addr 0x4900430, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48ee010, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetRayIntersection, addr 0x4900a34, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersection, addr 0x48ee614, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D GetRayIntersection(::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method GetRayIntersection, addr 0x4900ba0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersection, addr 0x48ee780, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetRayIntersection(::UnityEngine::Ray ray, float_t distance, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, int32_t layerMask);
 
-  /// @brief Method GetRayIntersectionArray_Internal, addr 0x4900bc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionArray_Internal, addr 0x48ee7a4, size 0x80, virtual false, abstract: false, final false
   static inline int32_t GetRayIntersectionArray_Internal(::UnityEngine::PhysicsScene2D physicsScene, ::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, float_t distance,
                                                          int32_t layerMask, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results);
 
-  /// @brief Method GetRayIntersectionArray_Internal_Injected, addr 0x4900c44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionArray_Internal_Injected, addr 0x48ee824, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetRayIntersectionArray_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene2D> physicsScene, ::ByRef<::UnityEngine::Vector3> origin,
                                                                   ::ByRef<::UnityEngine::Vector3> direction, float_t distance, int32_t layerMask,
                                                                   ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results);
 
-  /// @brief Method GetRayIntersection_Internal, addr 0x4900a88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersection_Internal, addr 0x48ee668, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D GetRayIntersection_Internal(::UnityEngine::PhysicsScene2D physicsScene, ::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, float_t distance,
                                                                         int32_t layerMask);
 
-  /// @brief Method GetRayIntersection_Internal_Injected, addr 0x4900b24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersection_Internal_Injected, addr 0x48ee704, size 0x7c, virtual false, abstract: false, final false
   static inline void GetRayIntersection_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene2D> physicsScene, ::ByRef<::UnityEngine::Vector3> origin, ::ByRef<::UnityEngine::Vector3> direction,
                                                           float_t distance, int32_t layerMask, ::ByRef<::UnityEngine::RaycastHit2D> ret);
 
-  /// @brief Method Raycast, addr 0x490071c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48ee2fc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, ::UnityEngine::ContactFilter2D contactFilter);
 
-  /// @brief Method Raycast, addr 0x49004c0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48ee0a0, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, int32_t layerMask);
 
-  /// @brief Method Raycast, addr 0x49007ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48ee3cc, size 0x30, virtual false, abstract: false, final false
   inline int32_t Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, ::UnityEngine::ContactFilter2D contactFilter,
                          ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results);
 
-  /// @brief Method Raycast, addr 0x4900910, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48ee4f0, size 0x30, virtual false, abstract: false, final false
   inline int32_t Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, ::UnityEngine::ContactFilter2D contactFilter,
                          ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results);
 
-  /// @brief Method RaycastArray_Internal, addr 0x490081c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RaycastArray_Internal, addr 0x48ee3fc, size 0x78, virtual false, abstract: false, final false
   static inline int32_t RaycastArray_Internal(::UnityEngine::PhysicsScene2D physicsScene, ::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance,
                                               ::UnityEngine::ContactFilter2D contactFilter, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results);
 
-  /// @brief Method RaycastArray_Internal_Injected, addr 0x4900894, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaycastArray_Internal_Injected, addr 0x48ee474, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t RaycastArray_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene2D> physicsScene, ::ByRef<::UnityEngine::Vector2> origin, ::ByRef<::UnityEngine::Vector2> direction,
                                                        float_t distance, ::ByRef<::UnityEngine::ContactFilter2D> contactFilter,
                                                        ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results);
 
-  /// @brief Method RaycastList_Internal, addr 0x4900940, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RaycastList_Internal, addr 0x48ee520, size 0x78, virtual false, abstract: false, final false
   static inline int32_t RaycastList_Internal(::UnityEngine::PhysicsScene2D physicsScene, ::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance,
                                              ::UnityEngine::ContactFilter2D contactFilter, ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results);
 
-  /// @brief Method RaycastList_Internal_Injected, addr 0x49009b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaycastList_Internal_Injected, addr 0x48ee598, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t RaycastList_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene2D> physicsScene, ::ByRef<::UnityEngine::Vector2> origin, ::ByRef<::UnityEngine::Vector2> direction,
                                                       float_t distance, ::ByRef<::UnityEngine::ContactFilter2D> contactFilter,
                                                       ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results);
 
-  /// @brief Method Raycast_Internal, addr 0x4900688, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Raycast_Internal, addr 0x48ee268, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D Raycast_Internal(::UnityEngine::PhysicsScene2D physicsScene, ::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance,
                                                              ::UnityEngine::ContactFilter2D contactFilter);
 
-  /// @brief Method Raycast_Internal_Injected, addr 0x4900770, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Raycast_Internal_Injected, addr 0x48ee350, size 0x7c, virtual false, abstract: false, final false
   static inline void Raycast_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene2D> physicsScene, ::ByRef<::UnityEngine::Vector2> origin, ::ByRef<::UnityEngine::Vector2> direction, float_t distance,
                                                ::ByRef<::UnityEngine::ContactFilter2D> contactFilter, ::ByRef<::UnityEngine::RaycastHit2D> ret);
 
-  /// @brief Method ToString, addr 0x490034c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48edf2c, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::PhysicsScene2D>"
@@ -132,7 +132,7 @@ public:
   constexpr PhysicsScene2D(int32_t m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18653 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

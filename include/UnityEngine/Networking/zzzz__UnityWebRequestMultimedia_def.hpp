@@ -25,7 +25,7 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestMultimedia : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioClip, addr 0x4af0248, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetAudioClip, addr 0x4adde28, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAudioClip(::StringW uri, ::UnityEngine::AudioType audioType);
 
 protected:
@@ -43,7 +43,7 @@ public:
   UnityWebRequestMultimedia(UnityWebRequestMultimedia const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19049 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

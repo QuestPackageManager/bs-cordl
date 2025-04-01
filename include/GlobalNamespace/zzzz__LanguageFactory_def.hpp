@@ -48,7 +48,7 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_1<::BGLib::Polyglot::Language>"
   constexpr operator ::Zenject::IFactory_1<::BGLib::Polyglot::Language>*() noexcept;
 
-  /// @brief Method Create, addr 0x271c894, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x2714ed8, size 0xd8, virtual true, abstract: false, final true
   inline ::BGLib::Polyglot::Language Create();
 
   static inline ::GlobalNamespace::LanguageFactory* New_ctor(::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager,
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x271c858, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2714e9c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::IPlatformUserModel* platformUserModel);
 
   /// @brief Convert to "::Zenject::IFactory"

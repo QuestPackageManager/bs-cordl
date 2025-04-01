@@ -38,7 +38,7 @@ public:
 
   __declspec(property(get = get_postInstallMethod)) ::System::Action_1<::Zenject::DiContainer*>* postInstallMethod;
 
-  /// @brief Method Awake, addr 0x4b4740c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4b35000, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Zenject::NoTransitionContext* New_ctor();
@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__noScenesTransitionInstaller(::UnityW<::Zenject::NoTransitionInstaller> value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4748c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b35080, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b47484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b35078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_installMethod, addr 0x4b4732c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_installMethod, addr 0x4b34f20, size 0x70, virtual false, abstract: false, final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
 
-  /// @brief Method get_postInstallMethod, addr 0x4b4739c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_postInstallMethod, addr 0x4b34f90, size 0x70, virtual false, abstract: false, final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
 
 protected:

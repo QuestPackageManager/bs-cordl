@@ -42,20 +42,20 @@ public:
   // Declarations
   __declspec(property(get = get_isReadable)) bool isReadable;
 
-  /// @brief Method Apply, addr 0x48a2f24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x4890b04, size 0xc, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method Apply, addr 0x48a2e98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x4890a78, size 0x8c, virtual false, abstract: false, final false
   inline void Apply(bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method ApplyImpl, addr 0x48a2730, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyImpl, addr 0x4890310, size 0x54, virtual false, abstract: false, final false
   inline void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method Internal_Create, addr 0x48a263c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x489021c, size 0xf4, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex);
 
-  /// @brief Method Internal_CreateImpl, addr 0x48a25a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x4890180, size 0x9c, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex);
 
@@ -84,48 +84,48 @@ public:
   static inline ::UnityEngine::Texture3D* New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex,
                                                    bool createUninitialized);
 
-  /// @brief Method SetPixels32, addr 0x48a27d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x48903b8, size 0x48, virtual false, abstract: false, final false
   inline void SetPixels32(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors);
 
-  /// @brief Method SetPixels32, addr 0x48a2784, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x4890364, size 0x54, virtual false, abstract: false, final false
   inline void SetPixels32(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors, int32_t miplevel);
 
-  /// @brief Method ValidateIsNotCrunched, addr 0x48a2a64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ValidateIsNotCrunched, addr 0x4890644, size 0x54, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x48a2820, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4890400, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x48a2914, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48904f4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x48a2874, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4890454, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x48a2978, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4890558, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x48a2c58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4890838, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  /// @brief Method .ctor, addr 0x48a2d10, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48908f0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized);
 
-  /// @brief Method .ctor, addr 0x48a2dd4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48909b4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, ::System::IntPtr nativeTex);
 
-  /// @brief Method .ctor, addr 0x48a2ab8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4890698, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x48a2ad8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48906b8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex);
 
-  /// @brief Method .ctor, addr 0x48a2af4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48906d4, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex, bool createUninitialized);
 
-  /// @brief Method get_isReadable, addr 0x48a2564, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x4890144, size 0x3c, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
 protected:

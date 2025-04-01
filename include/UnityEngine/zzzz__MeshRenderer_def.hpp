@@ -28,27 +28,27 @@ public:
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
-  /// @brief Method DontStripMeshRenderer, addr 0x48937b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshRenderer, addr 0x4881398, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
   static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48938f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48814d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_additionalVertexStreams, addr 0x48937bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams, addr 0x488139c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-  /// @brief Method get_enlightenVertexStream, addr 0x489383c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream, addr 0x488141c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-  /// @brief Method get_subMeshStartIndex, addr 0x48938bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex, addr 0x488149c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
-  /// @brief Method set_additionalVertexStreams, addr 0x48937f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams, addr 0x48813d8, size 0x44, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_enlightenVertexStream, addr 0x4893878, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream, addr 0x4881458, size 0x44, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
 
 protected:

@@ -37,21 +37,21 @@ public:
   /// @brief Field _type, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
-  /// @brief Method AddProperty, addr 0x3eea05c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method AddProperty, addr 0x3ed7c14, size 0x2b0, virtual false, abstract: false, final false
   inline void AddProperty(::Newtonsoft::Json::Serialization::JsonProperty* property);
 
-  /// @brief Method GetClosestMatchProperty, addr 0x3eea30c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetClosestMatchProperty, addr 0x3ed7ec4, size 0x40, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* GetClosestMatchProperty(::StringW propertyName);
 
-  /// @brief Method GetKeyForItem, addr 0x3ef5f78, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetKeyForItem, addr 0x3ee3b30, size 0x18, virtual true, abstract: false, final false
   inline ::StringW GetKeyForItem(::Newtonsoft::Json::Serialization::JsonProperty* item);
 
-  /// @brief Method GetProperty, addr 0x3ef5f90, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetProperty, addr 0x3ee3b48, size 0xec, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* GetProperty(::StringW propertyName, ::System::StringComparison comparisonType);
 
   static inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* New_ctor(::System::Type* type);
 
-  /// @brief Method TryGetProperty, addr 0x3ef607c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method TryGetProperty, addr 0x3ee3c34, size 0xdc, virtual false, abstract: false, final false
   inline bool TryGetProperty(::StringW key, ::ByRef<::Newtonsoft::Json::Serialization::JsonProperty*> item);
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>* const& __cordl_internal_get__list() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3ee9f00, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed7ab8, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:

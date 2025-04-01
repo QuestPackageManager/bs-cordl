@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchUnblockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f8c82c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7a3e4, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchUnblockFlowResult, addr 0x3f8c7f0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchUnblockFlowResult, addr 0x3f7a3a8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchUnblockFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f89a60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f77618, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithLaunchUnblockFlowResult(MessageWithLaunchUnblockFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

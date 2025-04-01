@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x224673c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x223e8cc, size 0x164, virtual false, abstract: false, final false
   static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ::ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
 
-  /// @brief Method SerializedName, addr 0x22466a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x223e834, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:

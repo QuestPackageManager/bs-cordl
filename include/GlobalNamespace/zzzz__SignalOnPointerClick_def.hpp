@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::SignalOnPointerClick* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x39d2db8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x39bfc50, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__inputFieldClickedSignal() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__inputFieldClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x39d2dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bfc70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"

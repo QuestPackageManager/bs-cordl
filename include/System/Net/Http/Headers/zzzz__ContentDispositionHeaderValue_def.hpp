@@ -45,23 +45,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x422b878, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4219438, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x422b940, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4219500, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x422b820, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x42193e0, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x422b9bc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x421957c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x422ba14, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x42195d4, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
 
   constexpr ::StringW const& __cordl_internal_get_dispositionType() const;
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
 
-  /// @brief Method .ctor, addr 0x422b504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42190c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x422b50c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42190cc, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method get_Parameters, addr 0x422b774, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x4219334, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
   /// @brief Convert to "::System::ICloneable"

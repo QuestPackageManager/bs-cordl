@@ -48,23 +48,23 @@ public:
   /// @brief Field _provider, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__provider, put = __cordl_internal_set__provider)) ::System::ComponentModel::IExtenderProvider* _provider;
 
-  /// @brief Method CanResetValue, addr 0x44610b0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x444ec70, size 0x28, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* comp);
 
-  /// @brief Method GetValue, addr 0x44613f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x444efb4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* comp);
 
   static inline ::System::ComponentModel::ExtendedPropertyDescriptor* New_ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType,
                                                                                ::System::ComponentModel::IExtenderProvider* provider,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method ResetValue, addr 0x446141c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x444efdc, size 0x28, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* comp);
 
-  /// @brief Method SetValue, addr 0x4461444, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x444f004, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x4461470, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x444f030, size 0x28, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* comp);
 
   constexpr ::System::ComponentModel::ReflectPropertyDescriptor* const& __cordl_internal_get__extenderInfo() const;
@@ -79,20 +79,20 @@ public:
 
   constexpr void __cordl_internal_set__provider(::System::ComponentModel::IExtenderProvider* value);
 
-  /// @brief Method .ctor, addr 0x4460de4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444e9a4, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType, ::System::ComponentModel::IExtenderProvider* provider,
                     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method get_ComponentType, addr 0x44610d8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x444ec98, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_DisplayName, addr 0x4461218, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x444edd8, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_IsReadOnly, addr 0x44610fc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x444ecbc, size 0xf8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x44611f4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x444edb4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:

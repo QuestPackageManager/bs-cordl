@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c23630;
+  constexpr static std::size_t addrs = 0x3c1112c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0::*)(int32_t)>(
     &::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0::_Init_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c23640;
+  constexpr static std::size_t addrs = 0x3c1113c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController::*)(
     ::GlobalNamespace::DisconnectedReason, ::System::Action*)>(&::GlobalNamespace::ConnectionErrorDialogViewController::Init)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3c23494;
+  constexpr static std::size_t addrs = 0x3c10f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController::*)()>(
     &::GlobalNamespace::ConnectionErrorDialogViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c23638;
+  constexpr static std::size_t addrs = 0x3c11134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectionErrorDialogViewController*>::get(),

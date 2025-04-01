@@ -98,33 +98,33 @@ public:
   // Declarations
   using BurstLogType = ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType;
 
-  /// @brief Method CompileAsyncDelegateMethod, addr 0x486e8b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompileAsyncDelegateMethod, addr 0x485c494, size 0x44, virtual false, abstract: false, final false
   static inline int32_t CompileAsyncDelegateMethod(::System::Object* delegateMethod, ::StringW compilerOptions);
 
-  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x486e8f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x485c4d8, size 0x3c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetAsyncCompiledAsyncDelegateMethod(int32_t userID);
 
-  /// @brief Method GetCurrentExecutionMode, addr 0x486e970, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentExecutionMode, addr 0x485c550, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetCurrentExecutionMode();
 
-  /// @brief Method GetDisassembly, addr 0x486e870, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDisassembly, addr 0x485c450, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetDisassembly(::System::Reflection::MethodInfo* m, ::StringW compilerOptions);
 
-  /// @brief Method GetOrCreateSharedMemory, addr 0x486e0ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedMemory, addr 0x485bccc, size 0x54, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetOrCreateSharedMemory(::ByRef<::UnityEngine::Hash128> key, uint32_t size_of, uint32_t alignment);
 
-  /// @brief Method LoadBurstLibrary, addr 0x486ea70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadBurstLibrary, addr 0x485c650, size 0x3c, virtual false, abstract: false, final false
   static inline bool LoadBurstLibrary(::StringW fullPathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x486e998, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x485c578, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
                          ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
 
-  /// @brief Method RuntimeLog, addr 0x486ea04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLog, addr 0x485c5e4, size 0x6c, virtual false, abstract: false, final false
   static inline void RuntimeLog(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
                                 ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
 
-  /// @brief Method SetCurrentExecutionMode, addr 0x486e934, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentExecutionMode, addr 0x485c514, size 0x3c, virtual false, abstract: false, final false
   static inline void SetCurrentExecutionMode(uint32_t environment);
 
 protected:

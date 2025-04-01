@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::FadeOutInstantly* New_ctor();
 
-  /// @brief Method Start, addr 0x408f844, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x407d3fc, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  /// @brief Method .ctor, addr 0x408f860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407d418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   FadeOutInstantly(FadeOutInstantly const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17867 };
 
   /// @brief Field _fadeInOut, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;

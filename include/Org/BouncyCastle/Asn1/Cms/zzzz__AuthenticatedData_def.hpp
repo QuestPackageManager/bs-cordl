@@ -94,13 +94,13 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method CalculateVersion, addr 0x23055f0, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method CalculateVersion, addr 0x22fd780, size 0x568, virtual false, abstract: false, final false
   static inline int32_t CalculateVersion(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* origInfo);
 
-  /// @brief Method GetInstance, addr 0x2305fdc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22fe16c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x2305ff4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22fe184, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
@@ -111,7 +111,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23061a4, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22fe334, size 0x1f0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_authAttrs() const;
@@ -168,40 +168,40 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x23054d4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd664, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm,
                     ::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapsulatedContent, ::Org::BouncyCastle::Asn1::Asn1Set* authAttrs, ::Org::BouncyCastle::Asn1::Asn1OctetString* mac,
                     ::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs);
 
-  /// @brief Method .ctor, addr 0x2305b58, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fdce8, size 0x304, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AuthAttrs, addr 0x230618c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthAttrs, addr 0x22fe31c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AuthAttrs();
 
-  /// @brief Method get_DigestAlgorithm, addr 0x230617c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithm, addr 0x22fe30c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
-  /// @brief Method get_EncapsulatedContentInfo, addr 0x2306184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncapsulatedContentInfo, addr 0x22fe314, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapsulatedContentInfo();
 
-  /// @brief Method get_Mac, addr 0x2306194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mac, addr 0x22fe324, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Mac();
 
-  /// @brief Method get_MacAlgorithm, addr 0x2306174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacAlgorithm, addr 0x22fe304, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MacAlgorithm();
 
-  /// @brief Method get_OriginatorInfo, addr 0x2306164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginatorInfo, addr 0x22fe2f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* get_OriginatorInfo();
 
-  /// @brief Method get_RecipientInfos, addr 0x230616c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecipientInfos, addr 0x22fe2fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_RecipientInfos();
 
-  /// @brief Method get_UnauthAttrs, addr 0x230619c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthAttrs, addr 0x22fe32c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnauthAttrs();
 
-  /// @brief Method get_Version, addr 0x230615c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x22fe2ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

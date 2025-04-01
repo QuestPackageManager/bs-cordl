@@ -64,25 +64,25 @@ public:
   // Declarations
   using _m_Counters_e__FixedBuffer = ::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer;
 
-  /// @brief Method AdjustSlot, addr 0x4a20394, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AdjustSlot, addr 0x4a0df74, size 0x2c, virtual false, abstract: false, final false
   inline void AdjustSlot(uint32_t index, bool increment);
 
-  /// @brief Method ContainsHash, addr 0x4a20448, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ContainsHash, addr 0x4a0e028, size 0x28, virtual false, abstract: false, final false
   inline bool ContainsHash(uint32_t hash);
 
-  /// @brief Method Hash1, addr 0x4a203c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Hash1, addr 0x4a0dfa0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t Hash1(uint32_t hash);
 
-  /// @brief Method Hash2, addr 0x4a203c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Hash2, addr 0x4a0dfa8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t Hash2(uint32_t hash);
 
-  /// @brief Method InsertHash, addr 0x4a203e0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InsertHash, addr 0x4a0dfc0, size 0x38, virtual false, abstract: false, final false
   inline void InsertHash(uint32_t hash);
 
-  /// @brief Method IsSlotEmpty, addr 0x4a203d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSlotEmpty, addr 0x4a0dfb0, size 0x10, virtual false, abstract: false, final false
   inline bool IsSlotEmpty(uint32_t index);
 
-  /// @brief Method RemoveHash, addr 0x4a20418, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RemoveHash, addr 0x4a0dff8, size 0x30, virtual false, abstract: false, final false
   inline void RemoveHash(uint32_t hash);
 
   // Ctor Parameters []

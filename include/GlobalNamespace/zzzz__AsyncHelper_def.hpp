@@ -48,10 +48,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a2b08, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229ac98, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a2e08, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x229af98, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -110,13 +110,13 @@ public:
   // Declarations
   using _AnyTaskTrueNonAlloc_d__2 = ::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2;
 
-  /// @brief Method AnyTaskTrueNonAlloc, addr 0x22a2a18, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AnyTaskTrueNonAlloc, addr 0x229aba8, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* AnyTaskTrueNonAlloc(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>* tasks);
 
   /// @brief Method RunSync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T RunSync(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask);
 
-  /// @brief Method RunSync, addr 0x22a2994, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RunSync, addr 0x229ab24, size 0x84, virtual false, abstract: false, final false
   static inline void RunSync(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
 
 protected:

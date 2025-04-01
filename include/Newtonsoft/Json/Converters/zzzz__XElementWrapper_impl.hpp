@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XElement* (::Newtonsoft::Json::Converters::XElementWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XElementWrapper::get_Element)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f53d14;
+  constexpr static std::size_t addrs = 0x3f418cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XElementWrapper*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XElementWrapper::*)(::System::Xml::Linq::XElement*)>(
     &::Newtonsoft::Json::Converters::XElementWrapper::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3f52df0;
+  constexpr static std::size_t addrs = 0x3f409a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XElementWrapper::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(
     &::Newtonsoft::Json::Converters::XElementWrapper::SetAttributeNode)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f53d8c;
+  constexpr static std::size_t addrs = 0x3f41944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* (
     ::Newtonsoft::Json::Converters::XElementWrapper::*)()>(&::Newtonsoft::Json::Converters::XElementWrapper::get_Attributes)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x3f53e30;
+  constexpr static std::size_t addrs = 0x3f419e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::XElementWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XElementWrapper::HasImplicitNamespaceAttribute)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x3f54378;
+  constexpr static std::size_t addrs = 0x3f41f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (
     ::Newtonsoft::Json::Converters::XElementWrapper::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&::Newtonsoft::Json::Converters::XElementWrapper::AppendChild)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3f54864;
+  constexpr static std::size_t addrs = 0x3f4241c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XElementWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XElementWrapper::get_Value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f5488c;
+  constexpr static std::size_t addrs = 0x3f42444;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XElementWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XElementWrapper::set_Value)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f548a8;
+  constexpr static std::size_t addrs = 0x3f42460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XElementWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XElementWrapper::get_LocalName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3f54914;
+  constexpr static std::size_t addrs = 0x3f424cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XElementWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XElementWrapper::get_NamespaceUri)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3f54938;
+  constexpr static std::size_t addrs = 0x3f424f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XElementWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XElementWrapper::GetPrefixOfNamespace)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3f54824;
+  constexpr static std::size_t addrs = 0x3f423dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::XElementWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XElementWrapper::get_IsEmpty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f5495c;
+  constexpr static std::size_t addrs = 0x3f42514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XElementWrapper*>::get(),

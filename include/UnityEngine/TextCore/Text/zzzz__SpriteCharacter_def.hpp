@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x493db60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492b740, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x493cc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x492a860, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -53,7 +53,7 @@ public:
   SpriteCharacter(SpriteCharacter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15254 };
 
   /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Name;

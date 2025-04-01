@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(
     &::GlobalNamespace::GraphicSettingsConditionalActivator::Start)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b3c5d8;
+  constexpr static std::size_t addrs = 0x3b29604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphicSettingsConditionalActivator*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(
     &::GlobalNamespace::GraphicSettingsConditionalActivator::GetGraphicsActivatorType)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b3c628;
+  constexpr static std::size_t addrs = 0x3b29654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphicSettingsConditionalActivator*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(
     &::GlobalNamespace::GraphicSettingsConditionalActivator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3c6b8;
+  constexpr static std::size_t addrs = 0x3b296e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphicSettingsConditionalActivator*>::get(),

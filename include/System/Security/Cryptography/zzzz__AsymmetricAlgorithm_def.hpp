@@ -37,21 +37,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x3cac238, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3c99d34, size 0x6c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x3cac234, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c99d30, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3cac2a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c99da0, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FromXmlString, addr 0x3cac3ac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x3c99ea8, size 0x38, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
   static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x3cac3e4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x3c99ee0, size 0x38, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method .ctor, addr 0x3cac22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c99d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_KeySize, addr 0x3cac2a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x3c99da4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_KeySize, addr 0x3cac2b0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x3c99dac, size 0xd4, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
 protected:

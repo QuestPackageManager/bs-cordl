@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set_refName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x42c8164, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b5d24, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RefName, addr 0x42c80c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x42b5c84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method set_RefName, addr 0x42c80cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x42b5c8c, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
 protected:

@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainLayer*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainLayer*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3aa8f6c, size 0x464, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a96040, size 0x464, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TerrainLayer* other);
 
-  /// @brief Method IsNull, addr 0x3aa8f0c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a95fe0, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_TerrainLayer* New_ctor(::UnityEngine::TerrainLayer* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::TerrainLayer> value);
 
-  /// @brief Method .ctor, addr 0x3aa8ee4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a95fb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TerrainLayer* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainLayer*>"

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x48dedb0;
+  constexpr static std::size_t addrs = 0x48cc990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x48dee9c;
+  constexpr static std::size_t addrs = 0x48cca7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*, ::System::Object*, bool)>(
     &::UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x48de790;
+  constexpr static std::size_t addrs = 0x48cc370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::NullFailureMessage)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x48dea40;
+  constexpr static std::size_t addrs = 0x48cc620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::BooleanFailureMessage)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x48de594;
+  constexpr static std::size_t addrs = 0x48cc174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

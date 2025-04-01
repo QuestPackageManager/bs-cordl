@@ -42,10 +42,10 @@ namespace UnityEngine {
 struct CORDL_TYPE UnitySynchronizationContext_WorkRequest {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48bf988, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48ad568, size 0xac, virtual false, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method .ctor, addr 0x48bf5bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ad19c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle);
 
   // Ctor Parameters []
@@ -107,38 +107,38 @@ public:
   /// @brief Field m_TrackedCount, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TrackedCount, put = __cordl_internal_set_m_TrackedCount)) int32_t m_TrackedCount;
 
-  /// @brief Method CreateCopy, addr 0x48bf744, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x48ad324, size 0x64, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method Exec, addr 0x48bf7a8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Exec, addr 0x48ad388, size 0x1e0, virtual false, abstract: false, final false
   inline void Exec();
 
-  /// @brief Method ExecutePendingTasks, addr 0x48bfb64, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ExecutePendingTasks, addr 0x48ad744, size 0xec, virtual false, abstract: false, final false
   static inline bool ExecutePendingTasks(int64_t millisecondsTimeout);
 
-  /// @brief Method ExecuteTasks, addr 0x48bfb0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ExecuteTasks, addr 0x48ad6ec, size 0x58, virtual false, abstract: false, final false
   static inline void ExecuteTasks();
 
-  /// @brief Method HasPendingTasks, addr 0x48bfa34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasPendingTasks, addr 0x48ad614, size 0x60, virtual false, abstract: false, final false
   inline bool HasPendingTasks();
 
-  /// @brief Method InitializeSynchronizationContext, addr 0x48bfa94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitializeSynchronizationContext, addr 0x48ad674, size 0x78, virtual false, abstract: false, final false
   static inline void InitializeSynchronizationContext();
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(int32_t mainThreadID);
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* queue, int32_t mainThreadID);
 
-  /// @brief Method OperationCompleted, addr 0x48bf5d4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OperationCompleted, addr 0x48ad1b4, size 0xc, virtual true, abstract: false, final false
   inline void OperationCompleted();
 
-  /// @brief Method OperationStarted, addr 0x48bf5c8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OperationStarted, addr 0x48ad1a8, size 0xc, virtual true, abstract: false, final false
   inline void OperationStarted();
 
-  /// @brief Method Post, addr 0x48bf5e0, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x48ad1c0, size 0x164, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
-  /// @brief Method Send, addr 0x48bf2a0, size 0x31c, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x48ace80, size 0x31c, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* const& __cordl_internal_get_m_AsyncWorkQueue() const;
@@ -165,10 +165,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TrackedCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48bf154, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48acd34, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t mainThreadID);
 
-  /// @brief Method .ctor, addr 0x48bf200, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48acde0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* queue, int32_t mainThreadID);
 
 protected:

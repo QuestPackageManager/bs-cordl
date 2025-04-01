@@ -45,21 +45,21 @@ public:
   /// @brief Field started, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) int64_t started;
 
-  /// @brief Method GetTimestamp, addr 0x4439638, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimestamp, addr 0x44271f8, size 0x4, virtual false, abstract: false, final false
   static inline int64_t GetTimestamp();
 
   static inline ::System::Diagnostics::Stopwatch* New_ctor();
 
-  /// @brief Method Reset, addr 0x44406c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x442e284, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0x44403a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x442df68, size 0x68, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartNew, addr 0x444033c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StartNew, addr 0x442defc, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Stopwatch* StartNew();
 
-  /// @brief Method Stop, addr 0x44406d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x442e290, size 0x78, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr int64_t const& __cordl_internal_get_elapsed() const;
@@ -80,23 +80,23 @@ public:
 
   constexpr void __cordl_internal_set_started(int64_t value);
 
-  /// @brief Method .ctor, addr 0x44403a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442df60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_Frequency();
 
   static inline bool getStaticF_IsHighResolution();
 
-  /// @brief Method get_Elapsed, addr 0x4440410, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_Elapsed, addr 0x442dfd0, size 0xf8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Elapsed();
 
-  /// @brief Method get_ElapsedMilliseconds, addr 0x4440578, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedMilliseconds, addr 0x442e138, size 0x144, virtual false, abstract: false, final false
   inline int64_t get_ElapsedMilliseconds();
 
-  /// @brief Method get_ElapsedTicks, addr 0x4440508, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedTicks, addr 0x442e0c8, size 0x70, virtual false, abstract: false, final false
   inline int64_t get_ElapsedTicks();
 
-  /// @brief Method get_IsRunning, addr 0x44406bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRunning, addr 0x442e27c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRunning();
 
   static inline void setStaticF_Frequency(int64_t value);

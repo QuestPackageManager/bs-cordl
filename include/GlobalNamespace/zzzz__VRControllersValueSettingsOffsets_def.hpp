@@ -61,28 +61,28 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x2704eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fd4f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alternativeHandling, addr 0x2704dd4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_alternativeHandling, addr 0x26fd418, size 0x28, virtual true, abstract: false, final false
   inline bool get_alternativeHandling();
 
-  /// @brief Method get_leftPositionOffset, addr 0x2704dfc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftPositionOffset, addr 0x26fd440, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftPositionOffset();
 
-  /// @brief Method get_leftRotationOffset, addr 0x2704e28, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftRotationOffset, addr 0x26fd46c, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftRotationOffset();
 
-  /// @brief Method get_positionOffset, addr 0x2704d8c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_positionOffset, addr 0x26fd3d0, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionOffset();
 
-  /// @brief Method get_rightPositionOffset, addr 0x2704e54, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightPositionOffset, addr 0x26fd498, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightPositionOffset();
 
-  /// @brief Method get_rightRotationOffset, addr 0x2704e80, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightRotationOffset, addr 0x26fd4c4, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightRotationOffset();
 
-  /// @brief Method get_rotationOffset, addr 0x2704db0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_rotationOffset, addr 0x26fd3f4, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rotationOffset();
 
 protected:
@@ -100,7 +100,7 @@ public:
   VRControllersValueSettingsOffsets(VRControllersValueSettingsOffsets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13316 };
 
   /// @brief Field _settingsManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

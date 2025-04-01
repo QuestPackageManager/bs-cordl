@@ -47,21 +47,21 @@ public:
   /// @brief Field _transform, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x39d1c30, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39beac8, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Rotate* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x39d1d80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x39bec18, size 0xc, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x39d1cf8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x39beb90, size 0x20, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
-  /// @brief Method Randomize, addr 0x39d1d18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Randomize, addr 0x39bebb0, size 0x68, virtual false, abstract: false, final false
   inline void Randomize();
 
-  /// @brief Method Update, addr 0x39d1d8c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39bec24, size 0xc4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__randomMaxMultiplier() const;
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x39d1e50, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bece8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

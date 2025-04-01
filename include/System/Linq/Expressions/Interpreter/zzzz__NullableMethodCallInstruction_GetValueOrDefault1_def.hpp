@@ -26,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1* New_ctor();
 
-  /// @brief Method Run, addr 0x41062b0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f3e70, size 0x54, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4106108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f3cc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConsumedStack, addr 0x41062a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f3e68, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
 protected:
@@ -50,7 +50,7 @@ public:
   NullableMethodCallInstruction_GetValueOrDefault1(NullableMethodCallInstruction_GetValueOrDefault1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14109 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

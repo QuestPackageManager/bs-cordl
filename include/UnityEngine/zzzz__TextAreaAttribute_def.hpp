@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_minLines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48b3540, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a1120, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48b3560, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a1140, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minLines, int32_t maxLines);
 
 protected:

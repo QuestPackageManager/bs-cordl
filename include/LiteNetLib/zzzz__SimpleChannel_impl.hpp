@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::SimpleChannel::*)(::LiteNetLib::NetPeer*)>(&::LiteNetLib::SimpleChannel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ac9374;
+  constexpr static std::size_t addrs = 0x3ab67e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::SimpleChannel::*)()>(&::LiteNetLib::SimpleChannel::SendNextPackets)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3ac9378;
+  constexpr static std::size_t addrs = 0x3ab67ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::SimpleChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::SimpleChannel::ProcessPacket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac94e8;
+  constexpr static std::size_t addrs = 0x3ab695c;
 
   inline static ::MethodInfo const* methodInfo() {
 

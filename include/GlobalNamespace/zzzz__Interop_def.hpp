@@ -471,22 +471,22 @@ public:
 
   __declspec(property(get = get_RawErrno)) int32_t RawErrno;
 
-  /// @brief Method GetErrorMessage, addr 0x3c619c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMessage, addr 0x3c4f4c4, size 0x64, virtual false, abstract: false, final false
   inline ::StringW GetErrorMessage();
 
-  /// @brief Method ToString, addr 0x3c61c14, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c4f710, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3c61a94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4f590, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t _cordl_errno);
 
-  /// @brief Method .ctor, addr 0x3c61b00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4f5fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Interop_Error error);
 
-  /// @brief Method get_Error, addr 0x3c61b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x3c4f608, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::Interop_Error get_Error();
 
-  /// @brief Method get_RawErrno, addr 0x3c6195c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_RawErrno, addr 0x3c4f458, size 0x6c, virtual false, abstract: false, final false
   inline int32_t get_RawErrno();
 
   // Ctor Parameters []
@@ -609,7 +609,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE Sys_Interop_DirectoryEntry {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x3c62580, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x3c5007c, size 0x124, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GetName(::System::Span_1<char16_t> buffer);
 
   // Ctor Parameters []
@@ -934,91 +934,91 @@ public:
   /// @brief Field CanSetHiddenFlag, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_CanSetHiddenFlag, put = setStaticF_CanSetHiddenFlag)) bool CanSetHiddenFlag;
 
-  /// @brief Method CloseDir, addr 0x3c61d28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CloseDir, addr 0x3c4f824, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CloseDir(::System::IntPtr dir);
 
-  /// @brief Method ConvertErrorPalToPlatform, addr 0x3c61b14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConvertErrorPalToPlatform, addr 0x3c4f610, size 0x4, virtual false, abstract: false, final false
   static inline int32_t ConvertErrorPalToPlatform(::GlobalNamespace::Interop_Error error);
 
-  /// @brief Method ConvertErrorPlatformToPal, addr 0x3c61afc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConvertErrorPlatformToPal, addr 0x3c4f5f8, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Interop_Error ConvertErrorPlatformToPal(int32_t platformErrno);
 
-  /// @brief Method CopyFile, addr 0x3c62074, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CopyFile, addr 0x3c4fb70, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t CopyFile(::Microsoft::Win32::SafeHandles::SafeFileHandle* source, ::Microsoft::Win32::SafeHandles::SafeFileHandle* destination);
 
-  /// @brief Method DoubleToString, addr 0x3c62528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoubleToString, addr 0x3c50024, size 0x4, virtual false, abstract: false, final false
   static inline int32_t DoubleToString(double_t value, ::cordl_internals::Ptr<uint8_t> format, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferLength);
 
-  /// @brief Method GetEGid, addr 0x3c62128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEGid, addr 0x3c4fc24, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetEGid();
 
-  /// @brief Method GetEUid, addr 0x3c6212c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEUid, addr 0x3c4fc28, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetEUid();
 
-  /// @brief Method GetLastErrorInfo, addr 0x3c617e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetLastErrorInfo, addr 0x3c4f2dc, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Interop_ErrorInfo GetLastErrorInfo();
 
-  /// @brief Method GetNonCryptographicallySecureRandomBytes, addr 0x3c61a90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNonCryptographicallySecureRandomBytes, addr 0x3c4f58c, size 0x4, virtual false, abstract: false, final false
   static inline void GetNonCryptographicallySecureRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
 
-  /// @brief Method GetReadDirRBufferSize, addr 0x3c61d20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetReadDirRBufferSize, addr 0x3c4f81c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetReadDirRBufferSize();
 
-  /// @brief Method LChflagsCanSetHiddenFlag, addr 0x3c62130, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LChflagsCanSetHiddenFlag, addr 0x3c4fc2c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t LChflagsCanSetHiddenFlag();
 
-  /// @brief Method LStat, addr 0x3c623a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LStat, addr 0x3c4fe9c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t LStat(::ByRef<uint8_t> path, ::ByRef<::GlobalNamespace::Sys_Interop_FileStatus> output);
 
-  /// @brief Method LStat, addr 0x3c61fe4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LStat, addr 0x3c4fae0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t LStat(::StringW path, ::ByRef<::GlobalNamespace::Sys_Interop_FileStatus> output);
 
-  /// @brief Method LStat, addr 0x3c623bc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method LStat, addr 0x3c4feb8, size 0x138, virtual false, abstract: false, final false
   static inline int32_t LStat(::System::ReadOnlySpan_1<char16_t> path, ::ByRef<::GlobalNamespace::Sys_Interop_FileStatus> output);
 
-  /// @brief Method Link, addr 0x3c62134, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Link, addr 0x3c4fc30, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Link(::StringW source, ::StringW link);
 
-  /// @brief Method MkDir, addr 0x3c62188, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MkDir, addr 0x3c4fc84, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t MkDir(::StringW path, int32_t mode);
 
-  /// @brief Method OpenDir, addr 0x3c61cec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OpenDir, addr 0x3c4f7e8, size 0x34, virtual false, abstract: false, final false
   static inline ::System::IntPtr OpenDir(::StringW path);
 
-  /// @brief Method ReadDirR, addr 0x3c61d24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReadDirR, addr 0x3c4f820, size 0x4, virtual false, abstract: false, final false
   static inline int32_t ReadDirR(::System::IntPtr dir, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize, ::ByRef<::GlobalNamespace::Sys_Interop_DirectoryEntry> outputEntry);
 
-  /// @brief Method ReadLink, addr 0x3c61d90, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ReadLink, addr 0x3c4f88c, size 0x218, virtual false, abstract: false, final false
   static inline ::StringW ReadLink(::StringW path);
 
-  /// @brief Method ReadLink, addr 0x3c61d44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReadLink, addr 0x3c4f840, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t ReadLink(::StringW path, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t bufferSize);
 
-  /// @brief Method Rename, addr 0x3c621c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Rename, addr 0x3c4fcc0, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Rename(::StringW oldPath, ::StringW newPath);
 
-  /// @brief Method RmDir, addr 0x3c62218, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RmDir, addr 0x3c4fd14, size 0x34, virtual false, abstract: false, final false
   static inline int32_t RmDir(::StringW path);
 
-  /// @brief Method Stat, addr 0x3c6224c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Stat, addr 0x3c4fd48, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t Stat(::ByRef<uint8_t> path, ::ByRef<::GlobalNamespace::Sys_Interop_FileStatus> output);
 
-  /// @brief Method Stat, addr 0x3c61fa8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Stat, addr 0x3c4faa4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t Stat(::StringW path, ::ByRef<::GlobalNamespace::Sys_Interop_FileStatus> output);
 
-  /// @brief Method Stat, addr 0x3c62268, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Stat, addr 0x3c4fd64, size 0x138, virtual false, abstract: false, final false
   static inline int32_t Stat(::System::ReadOnlySpan_1<char16_t> path, ::ByRef<::GlobalNamespace::Sys_Interop_FileStatus> output);
 
-  /// @brief Method StrError, addr 0x3c61b18, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method StrError, addr 0x3c4f614, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW StrError(int32_t platformErrno);
 
-  /// @brief Method StrErrorR, addr 0x3c61ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StrErrorR, addr 0x3c4f7e4, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<uint8_t> StrErrorR(int32_t platformErrno, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize);
 
-  /// @brief Method Symlink, addr 0x3c62020, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Symlink, addr 0x3c4fb1c, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Symlink(::StringW target, ::StringW linkPath);
 
-  /// @brief Method Unlink, addr 0x3c624f4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Unlink, addr 0x3c4fff0, size 0x34, virtual false, abstract: false, final false
   static inline int32_t Unlink(::StringW pathname);
 
   static inline bool getStaticF_CanSetHiddenFlag();
@@ -1061,22 +1061,22 @@ public:
 
   using Sys = ::GlobalNamespace::Interop_Sys;
 
-  /// @brief Method CheckIo, addr 0x3c61848, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CheckIo, addr 0x3c4f344, size 0x20, virtual false, abstract: false, final false
   static inline int32_t CheckIo(int32_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::Interop_ErrorInfo, ::GlobalNamespace::Interop_ErrorInfo>* errorRewriter);
 
-  /// @brief Method CheckIo, addr 0x3c61768, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckIo, addr 0x3c4f264, size 0x78, virtual false, abstract: false, final false
   static inline int64_t CheckIo(int64_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::Interop_ErrorInfo, ::GlobalNamespace::Interop_ErrorInfo>* errorRewriter);
 
-  /// @brief Method GetExceptionForIoErrno, addr 0x3c6127c, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method GetExceptionForIoErrno, addr 0x3c4ed78, size 0x4ec, virtual false, abstract: false, final false
   static inline ::System::Exception* GetExceptionForIoErrno(::GlobalNamespace::Interop_ErrorInfo errorInfo, ::StringW path, bool isDirectory);
 
-  /// @brief Method GetIOException, addr 0x3c618d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetIOException, addr 0x3c4f3d4, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Exception* GetIOException(::GlobalNamespace::Interop_ErrorInfo errorInfo);
 
-  /// @brief Method GetRandomBytes, addr 0x3c61a2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetRandomBytes, addr 0x3c4f528, size 0x64, virtual false, abstract: false, final false
   static inline void GetRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
 
-  /// @brief Method ThrowExceptionForIoErrno, addr 0x3c61224, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowExceptionForIoErrno, addr 0x3c4ed20, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowExceptionForIoErrno(::GlobalNamespace::Interop_ErrorInfo errorInfo, ::StringW path, bool isDirectory,
                                               ::System::Func_2<::GlobalNamespace::Interop_ErrorInfo, ::GlobalNamespace::Interop_ErrorInfo>* errorRewriter);
 

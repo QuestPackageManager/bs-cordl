@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::GlobalNamespace::PlayerDataModel*,
                                                              ::ByRef<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::CalculateBadgeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26dd284;
+  constexpr static std::size_t addrs = 0x26d5414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, float_t)>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::CalculateMax)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x26dd298;
+  constexpr static std::size_t addrs = 0x26d5428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, float_t)>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::CalculateMin)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x26dd818;
+  constexpr static std::size_t addrs = 0x26d59a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26dd274;
+  constexpr static std::size_t addrs = 0x26d5404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO*>::get(),

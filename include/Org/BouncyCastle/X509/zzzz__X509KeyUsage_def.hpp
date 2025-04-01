@@ -27,7 +27,7 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method ToAsn1Object, addr 0x25fd2fc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25f548c, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_usage() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_usage(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25fd2d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f5464, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:

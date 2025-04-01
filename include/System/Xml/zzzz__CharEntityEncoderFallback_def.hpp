@@ -44,15 +44,15 @@ public:
   /// @brief Field textContentMarks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_textContentMarks, put = __cordl_internal_set_textContentMarks)) ::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
 
-  /// @brief Method CanReplaceAt, addr 0x424f948, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CanReplaceAt, addr 0x423d508, size 0x80, virtual false, abstract: false, final false
   inline bool CanReplaceAt(int32_t index);
 
-  /// @brief Method CreateFallbackBuffer, addr 0x424f854, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x423d414, size 0x64, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
   static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
 
-  /// @brief Method Reset, addr 0x424f93c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x423d4fc, size 0xc, virtual false, abstract: false, final false
   inline void Reset(::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks, int32_t endMarkPos);
 
   constexpr int32_t const& __cordl_internal_get_curMarkPos() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x424f84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423d40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxCharCount, addr 0x424f92c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x423d4ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method set_StartOffset, addr 0x424f934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartOffset, addr 0x423d4f4, size 0x8, virtual false, abstract: false, final false
   inline void set_StartOffset(int32_t value);
 
 protected:

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)(int32_t)>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x408f704;
+  constexpr static std::size_t addrs = 0x407d2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x408f73c;
+  constexpr static std::size_t addrs = 0x407d2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::MoveNext)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x408f740;
+  constexpr static std::size_t addrs = 0x407d2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408f7fc;
+  constexpr static std::size_t addrs = 0x407d3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x408f804;
+  constexpr static std::size_t addrs = 0x407d3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408f83c;
+  constexpr static std::size_t addrs = 0x407d3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished::OnEnablePostInjection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x408f67c;
+  constexpr static std::size_t addrs = 0x407d234;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished::OnDisable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408f6fc;
+  constexpr static std::size_t addrs = 0x407d2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOnSceneTransitionFinished*>::get(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished::FadeCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x408f69c;
+  constexpr static std::size_t addrs = 0x407d254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOnSceneTransitionFinished*>::get(),
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408f72c;
+  constexpr static std::size_t addrs = 0x407d2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeInOnSceneTransitionFinished*>::get(),

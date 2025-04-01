@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::VRControllerTransformOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39e0c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cdb30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_alternativeHandling, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

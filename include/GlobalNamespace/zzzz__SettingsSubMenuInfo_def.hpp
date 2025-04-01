@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x3c29f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c17a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedMenuName, addr 0x3c29f80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localizedMenuName, addr 0x3c17a7c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedMenuName();
 
-  /// @brief Method get_viewController, addr 0x3c29f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x3c17a74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_viewController();
 
 protected:

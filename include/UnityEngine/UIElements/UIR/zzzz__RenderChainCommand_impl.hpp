@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)()>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::Reset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49c8658;
+  constexpr static std::size_t addrs = 0x49b6238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)(
     ::UnityEngine::UIElements::UIR::DrawParams*, float_t, ::ByRef<::System::Exception*>)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::ExecuteNonDrawMesh)> {
   constexpr static std::size_t size = 0xac0;
-  constexpr static std::size_t addrs = 0x49c6ab0;
+  constexpr static std::size_t addrs = 0x49b4690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)(
     ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, float_t)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::Blit)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x49c8aec;
+  constexpr static std::size_t addrs = 0x49b66cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::CombineScissorRects)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49c89e4;
+  constexpr static std::size_t addrs = 0x49b65c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectInt (*)(::UnityEngine::Rect, float_t)>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::RectPointsToPixelsAndFlipYAxis)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x49c867c;
+  constexpr static std::size_t addrs = 0x49b625c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)()>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49bb390;
+  constexpr static std::size_t addrs = 0x49a8f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(),

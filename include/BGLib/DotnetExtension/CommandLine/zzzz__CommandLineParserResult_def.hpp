@@ -54,7 +54,7 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <Contains>b__0, addr 0x22a8a98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Contains>b__0, addr 0x22a0c28, size 0x64, virtual false, abstract: false, final false
   inline bool _Contains_b__0(::System::Collections::Generic::KeyValuePair_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW> keyValuePair);
 
   constexpr ::StringW const& __cordl_internal_get_identifier() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a8370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a0500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,10 +121,10 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a8150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a02e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_Item>b__0, addr 0x22a8afc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <get_Item>b__0, addr 0x22a0c8c, size 0x14, virtual false, abstract: false, final false
   inline bool _get_Item_b__0(::StringW optionIdentifier);
 
 protected:
@@ -175,26 +175,26 @@ public:
 
   __declspec(property(get = get_Item)) ::StringW Item[];
 
-  /// @brief Method Contains, addr 0x22a829c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x22a042c, size 0xd4, virtual false, abstract: false, final false
   inline bool Contains(::StringW identifier);
 
-  /// @brief Method Contains, addr 0x22a81c8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x22a0358, size 0xd4, virtual false, abstract: false, final false
   inline bool Contains(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
-  /// @brief Method GetValueOrDefault, addr 0x22a8158, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetValueOrDefault, addr 0x22a02e8, size 0x70, virtual false, abstract: false, final false
   inline ::StringW GetValueOrDefault(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
-  /// @brief Method ToString, addr 0x22a8378, size 0x720, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22a0508, size 0x720, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x22a7538, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229f6c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW applicationPath, ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* parsed,
                     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* unexpectedArguments);
 
-  /// @brief Method get_Item, addr 0x22a7d08, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x229fe98, size 0x448, virtual false, abstract: false, final false
   inline ::StringW get_Item(::StringW identifier);
 
-  /// @brief Method get_Item, addr 0x22a7c34, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x229fdc4, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW get_Item(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
   // Ctor Parameters []

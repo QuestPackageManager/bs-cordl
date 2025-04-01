@@ -34,19 +34,19 @@ namespace Mono {
 class CORDL_TYPE X509PalImplMono : public ::Mono::X509PalImpl {
 public:
   // Declarations
-  /// @brief Method Import, addr 0x4117544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x4105104, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method Import, addr 0x4117540, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x4105100, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method Import, addr 0x411753c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x41050fc, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Mono::X509PalImplMono* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4116b10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41046d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

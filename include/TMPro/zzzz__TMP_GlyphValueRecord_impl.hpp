@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_xPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3a80;
+  constexpr static std::size_t addrs = 0x47d1660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphValueRecord>::get(), "get_xPlacement",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_xPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3a88;
+  constexpr static std::size_t addrs = 0x47d1668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_yPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3a90;
+  constexpr static std::size_t addrs = 0x47d1670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphValueRecord>::get(), "get_yPlacement",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_yPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3a98;
+  constexpr static std::size_t addrs = 0x47d1678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_xAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3aa0;
+  constexpr static std::size_t addrs = 0x47d1680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphValueRecord>::get(), "get_xAdvance",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_xAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3aa8;
+  constexpr static std::size_t addrs = 0x47d1688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_yAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3ab0;
+  constexpr static std::size_t addrs = 0x47d1690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphValueRecord>::get(), "get_yAdvance",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_yAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3ab8;
+  constexpr static std::size_t addrs = 0x47d1698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t, float_t, float_t, float_t)>(&::TMPro::TMP_GlyphValueRecord::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47e1438;
+  constexpr static std::size_t addrs = 0x47cf018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(::TMPro::GlyphValueRecord_Legacy)>(&::TMPro::TMP_GlyphValueRecord::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47e3ac0;
+  constexpr static std::size_t addrs = 0x47d16a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(
     &::TMPro::TMP_GlyphValueRecord::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47e3acc;
+  constexpr static std::size_t addrs = 0x47d16ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_GlyphValueRecord (*)(::TMPro::TMP_GlyphValueRecord, ::TMPro::TMP_GlyphValueRecord)>(
     &::TMPro::TMP_GlyphValueRecord::op_Addition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47e3b2c;
+  constexpr static std::size_t addrs = 0x47d170c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

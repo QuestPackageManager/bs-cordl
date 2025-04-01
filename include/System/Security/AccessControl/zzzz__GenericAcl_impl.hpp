@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::GenericAcl::*)()>(&::System::Security::AccessControl::GenericAcl::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cd0cfc;
+  constexpr static std::size_t addrs = 0x3cbe7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::GenericAcl*>::get(), ".ctor",
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cd363c;
+  constexpr static std::size_t addrs = 0x3cc1138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::GenericAcl*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cd3644;
+  constexpr static std::size_t addrs = 0x3cc1140;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::GenericAcl::*)(
     ::ArrayW<::System::Security::AccessControl::GenericAce*, ::Array<::System::Security::AccessControl::GenericAce*>*>, int32_t)>(&::System::Security::AccessControl::GenericAcl::CopyTo)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3cd3648;
+  constexpr static std::size_t addrs = 0x3cc1144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::GenericAcl::*)(::System::Array*, int32_t)>(
     &::System::Security::AccessControl::GenericAcl::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3cd37cc;
+  constexpr static std::size_t addrs = 0x3cc12c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceEnumerator* (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3cd15d4;
+  constexpr static std::size_t addrs = 0x3cbf0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::GenericAcl*>::get(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cd3850;
+  constexpr static std::size_t addrs = 0x3cc134c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

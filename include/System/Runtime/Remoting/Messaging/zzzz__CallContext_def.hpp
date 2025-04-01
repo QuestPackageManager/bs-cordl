@@ -25,21 +25,21 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE CallContext : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogicalGetData, addr 0x3cf3664, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LogicalGetData, addr 0x3ce1160, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Object* LogicalGetData(::StringW name);
 
-  /// @brief Method LogicalSetData, addr 0x3cf36c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogicalSetData, addr 0x3ce11bc, size 0x68, virtual false, abstract: false, final false
   static inline void LogicalSetData(::StringW name, ::System::Object* data);
 
   static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
 
-  /// @brief Method SetCurrentCallContext, addr 0x3cf365c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentCallContext, addr 0x3ce1158, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method SetLogicalCallContext, addr 0x3cddbb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLogicalCallContext, addr 0x3ccb6b4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
 
-  /// @brief Method .ctor, addr 0x3cf3654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce1150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

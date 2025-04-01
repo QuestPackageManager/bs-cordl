@@ -160,31 +160,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x412a5c0, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4118180, size 0x290, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x412a8f0, size 0x9c, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x41184b0, size 0x9c, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x412a850, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x4118410, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x412a98c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x411854c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x412a85c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x411841c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x412a894, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4118454, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x412a5bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x411817c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -229,7 +229,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  /// @brief Method .ctor, addr 0x412a588, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4118148, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
@@ -318,20 +318,20 @@ public:
 
   using _ReadReverseRdns_d__21 = ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21;
 
-  /// @brief Method FindAltNameMatch, addr 0x412a358, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindAltNameMatch, addr 0x4117f18, size 0x1c0, virtual false, abstract: false, final false
   static inline ::StringW FindAltNameMatch(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionBytes, ::Internal::Cryptography::Pal::GeneralNameType matchType, ::StringW otherOid);
 
-  /// @brief Method GetNameInfo, addr 0x4129894, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method GetNameInfo, addr 0x4117454, size 0x66c, virtual false, abstract: false, final false
   inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
-  /// @brief Method GetSimpleNameInfo, addr 0x4129f00, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleNameInfo, addr 0x4117ac0, size 0x458, virtual false, abstract: false, final false
   static inline ::StringW GetSimpleNameInfo(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method ReadReverseRdns, addr 0x412a518, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseRdns, addr 0x41180d8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   ReadReverseRdns(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method .ctor, addr 0x412916c, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4116d2c, size 0x728, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
   // Ctor Parameters []

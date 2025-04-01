@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRChaperone::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRChaperone::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x40808e8;
+  constexpr static std::size_t addrs = 0x406e4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::ChaperoneCalibrationState (::OVR::OpenVR::CVRChaperone::*)()>(
     &::OVR::OpenVR::CVRChaperone::GetCalibrationState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40809fc;
+  constexpr static std::size_t addrs = 0x406e5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRChaperone*>::get(), "GetCalibrationState",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::CVRChaperone::*)(::ByRef<float_t>, ::ByRef<float_t>)>(
     &::OVR::OpenVR::CVRChaperone::GetPlayAreaSize)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4080a20;
+  constexpr static std::size_t addrs = 0x406e5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::CVRChaperone::*)(::ByRef<::OVR::OpenVR::HmdQuad_t>)>(
     &::OVR::OpenVR::CVRChaperone::GetPlayAreaRect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4080a4c;
+  constexpr static std::size_t addrs = 0x406e604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRChaperone::*)()>(&::OVR::OpenVR::CVRChaperone::ReloadInfo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4080a70;
+  constexpr static std::size_t addrs = 0x406e628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRChaperone*>::get(), "ReloadInfo",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRChaperone::*)(::OVR::OpenVR::HmdColor_t)>(&::OVR::OpenVR::CVRChaperone::SetSceneColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4080a94;
+  constexpr static std::size_t addrs = 0x406e64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::OVR::OpenVR::CVRChaperone::*)(::ByRef<::OVR::OpenVR::HmdColor_t>, int32_t, float_t, ::ByRef<::OVR::OpenVR::HmdColor_t>)>(&::OVR::OpenVR::CVRChaperone::GetBoundsColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4080ab8;
+  constexpr static std::size_t addrs = 0x406e670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::CVRChaperone::*)()>(&::OVR::OpenVR::CVRChaperone::AreBoundsVisible)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4080adc;
+  constexpr static std::size_t addrs = 0x406e694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRChaperone*>::get(), "AreBoundsVisible",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRChaperone::*)(bool)>(&::OVR::OpenVR::CVRChaperone::ForceBoundsVisible)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4080b00;
+  constexpr static std::size_t addrs = 0x406e6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

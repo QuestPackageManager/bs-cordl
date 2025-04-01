@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::System::IO::TextWriter*)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3d52a04;
+  constexpr static std::size_t addrs = 0x3d40500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52bb8;
+  constexpr static std::size_t addrs = 0x3d406b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::get_FormatProvider)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d52bdc;
+  constexpr static std::size_t addrs = 0x3d406d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::get_NewLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52bfc;
+  constexpr static std::size_t addrs = 0x3d406f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::set_NewLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52c20;
+  constexpr static std::size_t addrs = 0x3d4071c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::Close)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d52c44;
+  constexpr static std::size_t addrs = 0x3d40740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(bool)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::Dispose)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d52c64;
+  constexpr static std::size_t addrs = 0x3d40760;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d52d18;
+  constexpr static std::size_t addrs = 0x3d40814;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(char16_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52d38;
+  constexpr static std::size_t addrs = 0x3d40834;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52d5c;
+  constexpr static std::size_t addrs = 0x3d40858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52d80;
+  constexpr static std::size_t addrs = 0x3d4087c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52da4;
+  constexpr static std::size_t addrs = 0x3d408a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52dc8;
+  constexpr static std::size_t addrs = 0x3d408c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52dec;
+  constexpr static std::size_t addrs = 0x3d408e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52e10;
+  constexpr static std::size_t addrs = 0x3d4090c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52e34;
+  constexpr static std::size_t addrs = 0x3d40930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d52e58;
+  constexpr static std::size_t addrs = 0x3d40954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)(char16_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d52e7c;
+  constexpr static std::size_t addrs = 0x3d40978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d52f2c;
+  constexpr static std::size_t addrs = 0x3d40a28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d52fdc;
+  constexpr static std::size_t addrs = 0x3d40ad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::FlushAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d530a4;
+  constexpr static std::size_t addrs = 0x3d40ba0;
 
   inline static ::MethodInfo const* methodInfo() {
 

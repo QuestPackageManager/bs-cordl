@@ -27,21 +27,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameServerListDetailTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _buttonBinder, offset 0x78, size 0x8
+  /// @brief Field _buttonBinder, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _joinServerButton, offset 0x68, size 0x8
+  /// @brief Field _joinServerButton, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__joinServerButton, put = __cordl_internal_set__joinServerButton)) ::UnityW<::UnityEngine::UI::Button> _joinServerButton;
 
-  /// @brief Field joinServerButtonWasPressedEvent, offset 0x70, size 0x8
+  /// @brief Field joinServerButtonWasPressedEvent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_joinServerButtonWasPressedEvent, put = __cordl_internal_set_joinServerButtonWasPressedEvent)) ::System::Action* joinServerButtonWasPressedEvent;
 
   static inline ::GlobalNamespace::GameServerListDetailTableCell* New_ctor();
 
-  /// @brief Method Start, addr 0x3c09eec, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3bf79dc, size 0xa4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__5_0, addr 0x3c09ff0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x3bf7ae0, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__5_0();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -62,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3c09f90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf7a80, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x3c09db4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x3bf78a4, size 0x9c, virtual false, abstract: false, final false
   inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x3c09e50, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x3bf7940, size 0x9c, virtual false, abstract: false, final false
   inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -88,25 +88,25 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4751 };
 
-  /// @brief Field _joinServerButton, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _joinServerButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinServerButton;
 
-  /// @brief Field joinServerButtonWasPressedEvent, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field joinServerButtonWasPressedEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___joinServerButtonWasPressedEvent;
 
-  /// @brief Field _buttonBinder, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x88, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____joinServerButton) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____joinServerButton) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ___joinServerButtonWasPressedEvent) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ___joinServerButtonWasPressedEvent) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____buttonBinder) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____buttonBinder) == 0x88, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListDetailTableCell, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListDetailTableCell, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerListDetailTableCell);

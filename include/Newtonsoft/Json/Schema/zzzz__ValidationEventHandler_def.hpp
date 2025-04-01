@@ -33,18 +33,18 @@ namespace Newtonsoft::Json::Schema {
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3f1a220, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3f07dd8, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3f1a248, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3f07e00, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3f1a20c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3f07dc4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e);
 
   static inline ::Newtonsoft::Json::Schema::ValidationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3f0e970, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efc528, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

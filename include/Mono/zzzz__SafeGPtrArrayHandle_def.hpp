@@ -31,16 +31,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x3c63690, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c5118c, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x3c63670, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5116c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x3c636c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c511c4, size 0x4, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x3c636ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3c511a8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IDisposable"

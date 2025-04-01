@@ -63,10 +63,10 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* New_ctor();
 
-  /// @brief Method <PreloadAsync>b__1_0, addr 0x22a1a2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <PreloadAsync>b__1_0, addr 0x2299bbc, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _PreloadAsync_b__1_0(::BGLib::AppFlow::Initialization::AsyncPreloader* preloader);
 
-  /// @brief Method .ctor, addr 0x22a1a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2299bb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* getStaticF___9();
@@ -111,10 +111,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a1a50, size 0x8ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2299be0, size 0x8ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a233c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x229a4cc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -178,10 +178,10 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x22a1904, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x2299a94, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method .ctor, addr 0x22a19c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2299b50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

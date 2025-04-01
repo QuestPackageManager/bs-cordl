@@ -46,10 +46,10 @@ public:
 
   static inline ::System::BitConverter___c* New_ctor();
 
-  /// @brief Method <ToString>b__38_0, addr 0x3d6508c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__38_0, addr 0x3d52b88, size 0x198, virtual false, abstract: false, final false
   inline void _ToString_b__38_0(::System::Span_1<char16_t> dst, ::System::ValueTuple_3<::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t> state);
 
-  /// @brief Method .ctor, addr 0x3d65084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d52b80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::BitConverter___c* getStaticF___9();
@@ -95,82 +95,82 @@ public:
   /// @brief Field IsLittleEndian, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_IsLittleEndian, put = setStaticF_IsLittleEndian)) bool IsLittleEndian;
 
-  /// @brief Method DoubleToInt64Bits, addr 0x3d64fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DoubleToInt64Bits, addr 0x3d52ab8, size 0x8, virtual false, abstract: false, final false
   static inline int64_t DoubleToInt64Bits(double_t value);
 
-  /// @brief Method GetBytes, addr 0x3d64670, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d5216c, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(bool value);
 
-  /// @brief Method GetBytes, addr 0x3d646d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d521d4, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(char16_t value);
 
-  /// @brief Method GetBytes, addr 0x3d64a80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d5257c, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(double_t value);
 
-  /// @brief Method GetBytes, addr 0x3d64a14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d52510, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(float_t value);
 
-  /// @brief Method GetBytes, addr 0x3d6473c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d52238, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int16_t value);
 
-  /// @brief Method GetBytes, addr 0x3d647a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d5229c, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t value);
 
-  /// @brief Method GetBytes, addr 0x3d64804, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d52300, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int64_t value);
 
-  /// @brief Method GetBytes, addr 0x3d64868, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d52364, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(uint16_t value);
 
-  /// @brief Method GetBytes, addr 0x3d648cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d523c8, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(uint32_t value);
 
-  /// @brief Method GetBytes, addr 0x3d649b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3d524ac, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(uint64_t value);
 
-  /// @brief Method Int32BitsToSingle, addr 0x3d64fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Int32BitsToSingle, addr 0x3d52ad0, size 0x8, virtual false, abstract: false, final false
   static inline float_t Int32BitsToSingle(int32_t value);
 
-  /// @brief Method Int64BitsToDouble, addr 0x3d64fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Int64BitsToDouble, addr 0x3d52ac0, size 0x8, virtual false, abstract: false, final false
   static inline double_t Int64BitsToDouble(int64_t value);
 
-  /// @brief Method SingleToInt32Bits, addr 0x3d64fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SingleToInt32Bits, addr 0x3d52ac8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t SingleToInt32Bits(float_t value);
 
-  /// @brief Method ToChar, addr 0x3d64aec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d525e8, size 0x4, virtual false, abstract: false, final false
   static inline char16_t ToChar(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToDouble, addr 0x3d64c9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d52798, size 0x14, virtual false, abstract: false, final false
   static inline double_t ToDouble(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToInt16, addr 0x3d64af0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d525ec, size 0x84, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToInt32, addr 0x3d64b74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d52670, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToInt64, addr 0x3d64bf8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d526f4, size 0x84, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToSingle, addr 0x3d64c88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d52784, size 0x14, virtual false, abstract: false, final false
   static inline float_t ToSingle(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToString, addr 0x3d64f94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d52a90, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW ToString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method ToString, addr 0x3d64cb0, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d527ac, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW ToString(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method ToUInt16, addr 0x3d64c7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d52778, size 0x4, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToUInt32, addr 0x3d64c80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d5277c, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToUInt64, addr 0x3d64c84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d52780, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method TryWriteBytes, addr 0x3d64930, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method TryWriteBytes, addr 0x3d5242c, size 0x80, virtual false, abstract: false, final false
   static inline bool TryWriteBytes(::System::Span_1<uint8_t> destination, uint32_t value);
 
   static inline bool getStaticF_IsLittleEndian();

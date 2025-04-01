@@ -179,54 +179,54 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*() noexcept;
 
-  /// @brief Method CleanUp, addr 0x3a55774, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x3a42848, size 0xc, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method GenerateTransform, addr 0x3a55288, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateTransform, addr 0x3a4235c, size 0x4ec, virtual false, abstract: false, final false
   inline void GenerateTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_Parameters* parameters);
 
-  /// @brief Method GetRotateBinding, addr 0x3a5484c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRotateBinding, addr 0x3a41920, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetRotateBinding();
 
-  /// @brief Method GetScaleBinding, addr 0x3a54854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetScaleBinding, addr 0x3a41928, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
 
-  /// @brief Method GetTranslateBinding, addr 0x3a54844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTranslateBinding, addr 0x3a41918, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetTranslateBinding();
 
-  /// @brief Method GetUpdatedPosition, addr 0x3a557a4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetUpdatedPosition, addr 0x3a42878, size 0x15c, virtual false, abstract: false, final false
   inline bool GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::ByRef<::UnityEngine::Vector3> inPosition);
 
-  /// @brief Method GetUpdatedRotation, addr 0x3a55900, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetUpdatedRotation, addr 0x3a429d4, size 0x1fc, virtual false, abstract: false, final false
   inline bool GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::ByRef<::UnityEngine::Quaternion> inRotation);
 
-  /// @brief Method HasRotateHandle, addr 0x3a547c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasRotateHandle, addr 0x3a41898, size 0x10, virtual false, abstract: false, final false
   inline bool HasRotateHandle();
 
-  /// @brief Method HasScaleHandle, addr 0x3a547d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasScaleHandle, addr 0x3a418a8, size 0x10, virtual false, abstract: false, final false
   inline bool HasScaleHandle();
 
-  /// @brief Method HasTranslateHandle, addr 0x3a547b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTranslateHandle, addr 0x3a41888, size 0x10, virtual false, abstract: false, final false
   inline bool HasTranslateHandle();
 
-  /// @brief Method IsEquivalentTo, addr 0x3a55afc, size 0x4e4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a42bd0, size 0x4e4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Handle* other);
 
-  /// @brief Method IsRotateHandleDisabled, addr 0x3a54804, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsRotateHandleDisabled, addr 0x3a418d8, size 0x20, virtual false, abstract: false, final false
   inline bool IsRotateHandleDisabled();
 
-  /// @brief Method IsScaleHandleDisabled, addr 0x3a54824, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScaleHandleDisabled, addr 0x3a418f8, size 0x20, virtual false, abstract: false, final false
   inline bool IsScaleHandleDisabled();
 
-  /// @brief Method IsSpecialRSTOrder, addr 0x3a55780, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSpecialRSTOrder, addr 0x3a42854, size 0x24, virtual false, abstract: false, final false
   static inline bool IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder);
 
-  /// @brief Method IsTranslateHandleDisabled, addr 0x3a547e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsTranslateHandleDisabled, addr 0x3a418b8, size 0x20, virtual false, abstract: false, final false
   inline bool IsTranslateHandleDisabled();
 
   static inline ::HoudiniEngineUnity::HEU_Handle* New_ctor();
 
-  /// @brief Method SetupHandle, addr 0x3a54880, size 0x7cc, virtual false, abstract: false, final false
+  /// @brief Method SetupHandle, addr 0x3a41954, size 0x7cc, virtual false, abstract: false, final false
   inline bool SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t handleIndex, ::StringW handleName, ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType handleType,
                           ::ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, ::HoudiniEngineUnity::HEU_Parameters* parameters);
 
@@ -302,31 +302,31 @@ public:
 
   constexpr void __cordl_internal_set__xyzOrder(::HoudiniEngineUnity::HAPI_XYZOrder value);
 
-  /// @brief Method .ctor, addr 0x3a55fe0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a430b4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConvertedTransformEuler, addr 0x3a547a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_ConvertedTransformEuler, addr 0x3a41874, size 0x14, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_TransformEuler get_ConvertedTransformEuler();
 
-  /// @brief Method get_HandleName, addr 0x3a54780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandleName, addr 0x3a41854, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HandleName();
 
-  /// @brief Method get_HandlePosition, addr 0x3a5485c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HandlePosition, addr 0x3a41930, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_HandlePosition();
 
-  /// @brief Method get_HandleRotation, addr 0x3a54868, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HandleRotation, addr 0x3a4193c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_HandleRotation();
 
-  /// @brief Method get_HandleScale, addr 0x3a54874, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HandleScale, addr 0x3a41948, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_HandleScale();
 
-  /// @brief Method get_HandleType, addr 0x3a54788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandleType, addr 0x3a4185c, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType get_HandleType();
 
-  /// @brief Method get_RSTOrder, addr 0x3a54790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RSTOrder, addr 0x3a41864, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_RSTOrder get_RSTOrder();
 
-  /// @brief Method get_XYZOrder, addr 0x3a54798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XYZOrder, addr 0x3a4186c, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_XYZOrder get_XYZOrder();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"

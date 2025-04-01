@@ -55,15 +55,15 @@ public:
   /// @brief Field _transform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method FollowPosition, addr 0x2250dbc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FollowPosition, addr 0x2248f4c, size 0xe8, virtual false, abstract: false, final false
   inline void FollowPosition(::UnityEngine::Vector3 followPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarShadowController* New_ctor();
 
-  /// @brief Method Start, addr 0x2250cf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2248e88, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2250d14, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2248ea4, size 0xa8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2250ea4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2249034, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

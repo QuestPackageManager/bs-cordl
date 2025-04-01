@@ -22,7 +22,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE DeviceApplicationIntegrity : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIntegrityToken, addr 0x3f96b80, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetIntegrityToken, addr 0x3f84738, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::StringW>* GetIntegrityToken(::StringW challenge_nonce);
 
 protected:
@@ -40,7 +40,7 @@ public:
   DeviceApplicationIntegrity(DeviceApplicationIntegrity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

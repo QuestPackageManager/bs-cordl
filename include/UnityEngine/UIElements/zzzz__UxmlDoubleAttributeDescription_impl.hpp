@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::*)()>(
     &::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aaf51c;
+  constexpr static std::size_t addrs = 0x4a9d0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::*)(::StringW, double_t)>(
     &::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aaf524;
+  constexpr static std::size_t addrs = 0x4a9d104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlDoubleAttributeDescription::*)()>(
     &::UnityEngine::UIElements::UxmlDoubleAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4aaf240;
+  constexpr static std::size_t addrs = 0x4a9ce20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::UxmlDoubleAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlDoubleAttributeDescription::GetValueFromBag)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4aaf2d8;
+  constexpr static std::size_t addrs = 0x4a9ceb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::StringW, double_t)>(
     &::UnityEngine::UIElements::UxmlDoubleAttributeDescription::ConvertValueToDouble)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4aaf424;
+  constexpr static std::size_t addrs = 0x4a9d004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

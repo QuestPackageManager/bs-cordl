@@ -23,16 +23,16 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Dispose, addr 0x4af1ae0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4adf6c0, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Release, addr 0x4af1a90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4adf670, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method ValidateCertificate, addr 0x4af1acc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x4adf6ac, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
-  /// @brief Method ValidateCertificateNative, addr 0x4af1ad4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateNative, addr 0x4adf6b4, size 0xc, virtual false, abstract: false, final false
   inline bool ValidateCertificateNative(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -56,7 +56,7 @@ public:
   CertificateHandler(CertificateHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18241 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

@@ -149,7 +149,7 @@ public:
   static ::UnityEngine::UI::Image_Type const Tiled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -216,7 +216,7 @@ public:
   static ::UnityEngine::UI::Image_FillMethod const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15063 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -271,7 +271,7 @@ public:
   static ::UnityEngine::UI::Image_OriginHorizontal const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15064 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -326,7 +326,7 @@ public:
   static ::UnityEngine::UI::Image_OriginVertical const Top;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15065 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -389,7 +389,7 @@ public:
   static ::UnityEngine::UI::Image_Origin90 const TopRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15066 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -452,7 +452,7 @@ public:
   static ::UnityEngine::UI::Image_Origin180 const Top;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15067 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -515,7 +515,7 @@ public:
   static ::UnityEngine::UI::Image_Origin360 const Top;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15068 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -678,99 +678,99 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
-  /// @brief Method AddQuad, addr 0x4977100, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x4964ce0, size 0x154, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uvMin,
                              ::UnityEngine::Vector2 uvMax);
 
-  /// @brief Method AddQuad, addr 0x4977254, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x4964e34, size 0xe4, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> quadPositions, ::UnityEngine::Color32 color,
                              ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> quadUVs);
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4977884, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4965464, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x4977888, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x4965468, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method DisableSpriteOptimizations, addr 0x49737c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DisableSpriteOptimizations, addr 0x49613a8, size 0x8, virtual false, abstract: false, final false
   inline void DisableSpriteOptimizations();
 
-  /// @brief Method GenerateFilledSprite, addr 0x49762f4, size 0x8e8, virtual false, abstract: false, final false
+  /// @brief Method GenerateFilledSprite, addr 0x4963ed4, size 0x8e8, virtual false, abstract: false, final false
   inline void GenerateFilledSprite(::UnityEngine::UI::VertexHelper* toFill, bool preserveAspect);
 
-  /// @brief Method GenerateSimpleSprite, addr 0x4974ad0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method GenerateSimpleSprite, addr 0x49626b0, size 0x2c4, virtual false, abstract: false, final false
   inline void GenerateSimpleSprite(::UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect);
 
-  /// @brief Method GenerateSlicedSprite, addr 0x4975074, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method GenerateSlicedSprite, addr 0x4962c54, size 0x528, virtual false, abstract: false, final false
   inline void GenerateSlicedSprite(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method GenerateSprite, addr 0x4974d94, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method GenerateSprite, addr 0x4962974, size 0x2e0, virtual false, abstract: false, final false
   inline void GenerateSprite(::UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect);
 
-  /// @brief Method GenerateTiledSprite, addr 0x497559c, size 0xd58, virtual false, abstract: false, final false
+  /// @brief Method GenerateTiledSprite, addr 0x496317c, size 0xd58, virtual false, abstract: false, final false
   inline void GenerateTiledSprite(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method GetAdjustedBorders, addr 0x4977040, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAdjustedBorders, addr 0x4964c20, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetAdjustedBorders(::UnityEngine::Vector4 border, ::UnityEngine::Rect adjustedRect);
 
-  /// @brief Method GetDrawingDimensions, addr 0x497449c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method GetDrawingDimensions, addr 0x496207c, size 0x3b0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
 
-  /// @brief Method IsRaycastLocationValid, addr 0x4977a44, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method IsRaycastLocationValid, addr 0x4965624, size 0x38c, virtual true, abstract: false, final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method MapCoordinate, addr 0x4977dd0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method MapCoordinate, addr 0x49659b0, size 0x258, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 MapCoordinate(::UnityEngine::Vector2 local, ::UnityEngine::Rect rect);
 
   static inline ::UnityEngine::UI::Image* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x49743b8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnAfterDeserialize, addr 0x4961f98, size 0x50, virtual true, abstract: false, final false
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x49743b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeSerialize, addr 0x4961f94, size 0x4, virtual true, abstract: false, final false
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x4976f38, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x4964b18, size 0x108, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x49781d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x4965db0, size 0x38, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x4976d50, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4964930, size 0x74, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4976d34, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4964914, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPopulateMesh, addr 0x497498c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x496256c, size 0x144, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method PreserveSpriteAspectRatio, addr 0x4974408, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PreserveSpriteAspectRatio, addr 0x4961fe8, size 0x94, virtual false, abstract: false, final false
   inline void PreserveSpriteAspectRatio(::ByRef<::UnityEngine::Rect> rect, ::UnityEngine::Vector2 spriteSize);
 
-  /// @brief Method RadialCut, addr 0x4977338, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RadialCut, addr 0x4964f18, size 0x120, virtual false, abstract: false, final false
   static inline bool RadialCut(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> xy, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> uv, float_t fill, bool invert,
                                int32_t corner);
 
-  /// @brief Method RadialCut, addr 0x4977458, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method RadialCut, addr 0x4965038, size 0x42c, virtual false, abstract: false, final false
   static inline void RadialCut(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> xy, float_t cos, float_t sin, bool invert, int32_t corner);
 
-  /// @brief Method RebuildImage, addr 0x4978028, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method RebuildImage, addr 0x4965c08, size 0x1a8, virtual false, abstract: false, final false
   static inline void RebuildImage(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method SetNativeSize, addr 0x497484c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method SetNativeSize, addr 0x496242c, size 0x140, virtual true, abstract: false, final false
   inline void SetNativeSize();
 
-  /// @brief Method TrackImage, addr 0x4976bdc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method TrackImage, addr 0x49647bc, size 0x158, virtual false, abstract: false, final false
   static inline void TrackImage(::UnityEngine::UI::Image* g);
 
-  /// @brief Method TrackSprite, addr 0x49736dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TrackSprite, addr 0x49612bc, size 0xec, virtual false, abstract: false, final false
   inline void TrackSprite();
 
-  /// @brief Method UnTrackImage, addr 0x4976dc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnTrackImage, addr 0x49649a4, size 0x80, virtual false, abstract: false, final false
   static inline void UnTrackImage(::UnityEngine::UI::Image* g);
 
-  /// @brief Method UpdateMaterial, addr 0x4976e44, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method UpdateMaterial, addr 0x4964a24, size 0xf4, virtual true, abstract: false, final false
   inline void UpdateMaterial();
 
   constexpr float_t const& __cordl_internal_get_m_AlphaHitTestMinimumThreshold() const;
@@ -857,13 +857,13 @@ public:
 
   constexpr void __cordl_internal_set_m_UseSpriteMesh(bool value);
 
-  /// @brief Method .ctor, addr 0x4973e00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49619e0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_sprite>g__ResetAlphaHitThresholdIfNeeded|11_0, addr 0x497364c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <set_sprite>g__ResetAlphaHitThresholdIfNeeded|11_0, addr 0x496122c, size 0x90, virtual false, abstract: false, final false
   inline void _set_sprite_g__ResetAlphaHitThresholdIfNeeded_11_0();
 
-  /// @brief Method <set_sprite>g__SpriteSupportsAlphaHitTest|11_1, addr 0x4978330, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method <set_sprite>g__SpriteSupportsAlphaHitTest|11_1, addr 0x4965f10, size 0x12c, virtual false, abstract: false, final false
   inline bool _set_sprite_g__SpriteSupportsAlphaHitTest_11_1();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* getStaticF_m_TrackedTexturelessImages();
@@ -880,85 +880,85 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF_s_Xy();
 
-  /// @brief Method get_activeSprite, addr 0x49737d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_activeSprite, addr 0x49613b4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_activeSprite();
 
-  /// @brief Method get_alphaHitTestMinimumThreshold, addr 0x4973d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alphaHitTestMinimumThreshold, addr 0x4961950, size 0x8, virtual false, abstract: false, final false
   inline float_t get_alphaHitTestMinimumThreshold();
 
-  /// @brief Method get_defaultETC1GraphicMaterial, addr 0x4973e40, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultETC1GraphicMaterial, addr 0x4961a20, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_defaultETC1GraphicMaterial();
 
-  /// @brief Method get_eventAlphaThreshold, addr 0x4973c14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_eventAlphaThreshold, addr 0x49617f4, size 0x10, virtual false, abstract: false, final false
   inline float_t get_eventAlphaThreshold();
 
-  /// @brief Method get_fillAmount, addr 0x4973a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fillAmount, addr 0x496164c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fillAmount();
 
-  /// @brief Method get_fillCenter, addr 0x4973964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fillCenter, addr 0x4961544, size 0x8, virtual false, abstract: false, final false
   inline bool get_fillCenter();
 
-  /// @brief Method get_fillClockwise, addr 0x4973b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fillClockwise, addr 0x49616e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_fillClockwise();
 
-  /// @brief Method get_fillMethod, addr 0x49739ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fillMethod, addr 0x49615cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Image_FillMethod get_fillMethod();
 
-  /// @brief Method get_fillOrigin, addr 0x4973b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fillOrigin, addr 0x496176c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fillOrigin();
 
-  /// @brief Method get_flexibleHeight, addr 0x4977a34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x4965614, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x497795c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x496553c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_hasBorder, addr 0x4974094, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_hasBorder, addr 0x4961c74, size 0xb8, virtual false, abstract: false, final false
   inline bool get_hasBorder();
 
-  /// @brief Method get_layoutPriority, addr 0x4977a3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x496561c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_mainTexture, addr 0x4973f1c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method get_mainTexture, addr 0x4961afc, size 0x178, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
-  /// @brief Method get_material, addr 0x4974284, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_material, addr 0x4961e64, size 0x12c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_minHeight, addr 0x4977964, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x4965544, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x497788c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x496546c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_multipliedPixelsPerUnit, addr 0x4974268, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_multipliedPixelsPerUnit, addr 0x4961e48, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_multipliedPixelsPerUnit();
 
-  /// @brief Method get_overrideSprite, addr 0x49737d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_overrideSprite, addr 0x49613b0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_overrideSprite();
 
-  /// @brief Method get_pixelsPerUnit, addr 0x4974174, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_pixelsPerUnit, addr 0x4961d54, size 0xf4, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnit();
 
-  /// @brief Method get_pixelsPerUnitMultiplier, addr 0x497414c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pixelsPerUnitMultiplier, addr 0x4961d2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnitMultiplier();
 
-  /// @brief Method get_preferredHeight, addr 0x497796c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x496554c, size 0xc8, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x4977894, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x4965474, size 0xc8, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_preserveAspect, addr 0x49738dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preserveAspect, addr 0x49614bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_preserveAspect();
 
-  /// @brief Method get_sprite, addr 0x4973644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x4961224, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_type, addr 0x49738d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x49614b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Image_Type get_type();
 
-  /// @brief Method get_useSpriteMesh, addr 0x4973d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useSpriteMesh, addr 0x4961958, size 0x8, virtual false, abstract: false, final false
   inline bool get_useSpriteMesh();
 
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
@@ -984,46 +984,46 @@ public:
 
   static inline void setStaticF_s_Xy(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method set_alphaHitTestMinimumThreshold, addr 0x4973c30, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method set_alphaHitTestMinimumThreshold, addr 0x4961810, size 0x140, virtual false, abstract: false, final false
   inline void set_alphaHitTestMinimumThreshold(float_t value);
 
-  /// @brief Method set_eventAlphaThreshold, addr 0x4973c24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_eventAlphaThreshold, addr 0x4961804, size 0xc, virtual false, abstract: false, final false
   inline void set_eventAlphaThreshold(float_t value);
 
-  /// @brief Method set_fillAmount, addr 0x4973a74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_fillAmount, addr 0x4961654, size 0x90, virtual false, abstract: false, final false
   inline void set_fillAmount(float_t value);
 
-  /// @brief Method set_fillCenter, addr 0x497396c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_fillCenter, addr 0x496154c, size 0x80, virtual false, abstract: false, final false
   inline void set_fillCenter(bool value);
 
-  /// @brief Method set_fillClockwise, addr 0x4973b0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_fillClockwise, addr 0x49616ec, size 0x80, virtual false, abstract: false, final false
   inline void set_fillClockwise(bool value);
 
-  /// @brief Method set_fillMethod, addr 0x49739f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_fillMethod, addr 0x49615d4, size 0x78, virtual false, abstract: false, final false
   inline void set_fillMethod(::UnityEngine::UI::Image_FillMethod value);
 
-  /// @brief Method set_fillOrigin, addr 0x4973b94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_fillOrigin, addr 0x4961774, size 0x80, virtual false, abstract: false, final false
   inline void set_fillOrigin(int32_t value);
 
-  /// @brief Method set_material, addr 0x49743b0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_material, addr 0x4961f90, size 0x4, virtual true, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_overrideSprite, addr 0x497384c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_overrideSprite, addr 0x496142c, size 0x88, virtual false, abstract: false, final false
   inline void set_overrideSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_pixelsPerUnitMultiplier, addr 0x4974154, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_pixelsPerUnitMultiplier, addr 0x4961d34, size 0x20, virtual false, abstract: false, final false
   inline void set_pixelsPerUnitMultiplier(float_t value);
 
-  /// @brief Method set_preserveAspect, addr 0x49738e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_preserveAspect, addr 0x49614c4, size 0x80, virtual false, abstract: false, final false
   inline void set_preserveAspect(bool value);
 
-  /// @brief Method set_sprite, addr 0x4966cd0, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x49548b0, size 0x2b4, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_type, addr 0x4966f84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x4954b64, size 0x80, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UI::Image_Type value);
 
-  /// @brief Method set_useSpriteMesh, addr 0x4973d80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_useSpriteMesh, addr 0x4961960, size 0x80, virtual false, abstract: false, final false
   inline void set_useSpriteMesh(bool value);
 
 protected:
@@ -1041,7 +1041,7 @@ public:
   Image(Image const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15069 };
 
   /// @brief Field m_Sprite, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___m_Sprite;

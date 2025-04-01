@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(
     &::System::Xml::Schema::XmlSchemaParticle::get_MinOccursString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x42ce6b8;
+  constexpr static std::size_t addrs = 0x42bc278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaParticle*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaParticle::set_MinOccursString)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x42ce730;
+  constexpr static std::size_t addrs = 0x42bc2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(
     &::System::Xml::Schema::XmlSchemaParticle::get_MaxOccursString)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x42ce884;
+  constexpr static std::size_t addrs = 0x42bc444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaParticle*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaParticle::set_MaxOccursString)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x42ce9a8;
+  constexpr static std::size_t addrs = 0x42bc568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::XmlSchemaParticle::*)()>(
     &::System::Xml::Schema::XmlSchemaParticle::get_MinOccurs)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42cebc4;
+  constexpr static std::size_t addrs = 0x42bc784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaParticle*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::System::Decimal)>(
     &::System::Xml::Schema::XmlSchemaParticle::set_MinOccurs)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x42cebd0;
+  constexpr static std::size_t addrs = 0x42bc790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::XmlSchemaParticle::*)()>(
     &::System::Xml::Schema::XmlSchemaParticle::get_MaxOccurs)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42cecfc;
+  constexpr static std::size_t addrs = 0x42bc8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaParticle*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::System::Decimal)>(
     &::System::Xml::Schema::XmlSchemaParticle::set_MaxOccurs)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x42ced08;
+  constexpr static std::size_t addrs = 0x42bc8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_IsEmpty)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x42cee6c;
+  constexpr static std::size_t addrs = 0x42bca2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(
     &::System::Xml::Schema::XmlSchemaParticle::get_NameString)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x42ceed8;
+  constexpr static std::size_t addrs = 0x42bca98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaParticle::*)()>(
     &::System::Xml::Schema::XmlSchemaParticle::GetQualifiedName)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x42cef20;
+  constexpr static std::size_t addrs = 0x42bcae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaParticle*>::get(),
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x42cf0a0;
+  constexpr static std::size_t addrs = 0x42bcc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaParticle*>::get(), ".ctor",

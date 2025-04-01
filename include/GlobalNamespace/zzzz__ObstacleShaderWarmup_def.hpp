@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::ObstacleShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x3b0096c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3aedcc0, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleMaterialSetter> const& __cordl_internal_get__obstacleMaterialSetter() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b009bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aedd10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

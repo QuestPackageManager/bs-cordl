@@ -18,7 +18,7 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE DefaultPropertyBagInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x49219f0, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x490f5d0, size 0x330, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

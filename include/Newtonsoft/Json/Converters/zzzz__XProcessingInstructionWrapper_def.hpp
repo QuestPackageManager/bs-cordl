@@ -30,19 +30,19 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method .ctor, addr 0x3f52d24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f408dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method get_LocalName, addr 0x3f538c8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x3f41480, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_ProcessingInstruction, addr 0x3f53850, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessingInstruction, addr 0x3f41408, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
 
-  /// @brief Method get_Value, addr 0x3f538e4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3f4149c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x3f53900, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3f414b8, size 0x6c, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

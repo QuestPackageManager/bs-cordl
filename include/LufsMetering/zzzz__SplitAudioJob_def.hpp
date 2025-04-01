@@ -28,11 +28,11 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Create, addr 0x3b81cb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3b6ed48, size 0x10, virtual false, abstract: false, final false
   static inline ::LufsMetering::SplitAudioJob Create(::Unity::Collections::NativeArray_1<float_t> interleavedData, ::Unity::Collections::NativeArray_1<float_t> channelData, int32_t numChannels,
                                                      int32_t channel);
 
-  /// @brief Method Execute, addr 0x3b81cc0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3b6ed58, size 0x1c, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"

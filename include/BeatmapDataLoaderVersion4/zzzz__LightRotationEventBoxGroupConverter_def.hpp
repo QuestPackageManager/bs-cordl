@@ -33,13 +33,13 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightRotationEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x2712dec, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x270b430, size 0x248, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                            ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x2712280, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a8c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:
@@ -57,7 +57,7 @@ public:
   LightRotationEventBoxGroupConverter(LightRotationEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

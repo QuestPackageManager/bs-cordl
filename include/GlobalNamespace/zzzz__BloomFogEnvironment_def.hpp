@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::BloomFogEnvironment* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x39e2570, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39cf408, size 0x40, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x39e25d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39cf468, size 0xa4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__fogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  /// @brief Method .ctor, addr 0x39e2898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cf730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fogParams, addr 0x39e2568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fogParams, addr 0x39cf400, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_fogParams();
 
 protected:
@@ -73,7 +73,7 @@ public:
   BloomFogEnvironment(BloomFogEnvironment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16234 };
 
   /// @brief Field _bloomFog, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;

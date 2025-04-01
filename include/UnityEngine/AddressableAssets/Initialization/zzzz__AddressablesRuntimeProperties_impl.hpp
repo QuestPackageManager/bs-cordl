@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x450c4fc;
+  constexpr static std::size_t addrs = 0x44fa0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetCachedValueCount)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x450c51c;
+  constexpr static std::size_t addrs = 0x44fa0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::SetPropertyValue)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x450c594;
+  constexpr static std::size_t addrs = 0x44fa174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::ClearCachedPropertyValues)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x450c624;
+  constexpr static std::size_t addrs = 0x44fa204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateProperty)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x450c69c;
+  constexpr static std::size_t addrs = 0x44fa27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44f8338;
+  constexpr static std::size_t addrs = 0x44e5f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, char16_t, char16_t, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   constexpr static std::size_t size = 0x594;
-  constexpr static std::size_t addrs = 0x450cad4;
+  constexpr static std::size_t addrs = 0x44fa6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

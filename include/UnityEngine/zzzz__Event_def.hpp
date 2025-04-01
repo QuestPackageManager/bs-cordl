@@ -95,53 +95,53 @@ public:
 
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::EventType type;
 
-  /// @brief Method CopyFrom, addr 0x48e1288, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x48cee68, size 0x70, virtual false, abstract: false, final false
   inline void CopyFrom(::UnityEngine::Event* e);
 
-  /// @brief Method CopyFromPtr, addr 0x48e0f3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CopyFromPtr, addr 0x48ceb1c, size 0x44, virtual false, abstract: false, final false
   inline void CopyFromPtr(::System::IntPtr ptr);
 
-  /// @brief Method Equals, addr 0x48e3228, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48d0e08, size 0x26c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Finalize, addr 0x48e11b0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48ced90, size 0xd8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetDoubleClickTime, addr 0x48e113c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleClickTime, addr 0x48ced1c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetDoubleClickTime();
 
-  /// @brief Method GetHashCode, addr 0x48e3128, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48d0d08, size 0x100, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Internal_Create, addr 0x48e0ec4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x48ceaa4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(int32_t displayIndex);
 
-  /// @brief Method Internal_Destroy, addr 0x48e0f00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x48ceae0, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
-  /// @brief Method Internal_MakeMasterEventCurrent, addr 0x48e0ff8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Internal_MakeMasterEventCurrent, addr 0x48cebd8, size 0xf4, virtual false, abstract: false, final false
   static inline void Internal_MakeMasterEventCurrent(int32_t displayIndex);
 
-  /// @brief Method Internal_SetNativeEvent, addr 0x48e0fbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetNativeEvent, addr 0x48ceb9c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_SetNativeEvent(::System::IntPtr ptr);
 
-  /// @brief Method Internal_Use, addr 0x48e0e88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Use, addr 0x48cea68, size 0x3c, virtual false, abstract: false, final false
   inline void Internal_Use();
 
-  /// @brief Method KeyboardEvent, addr 0x48e1544, size 0x1be4, virtual false, abstract: false, final false
+  /// @brief Method KeyboardEvent, addr 0x48cf124, size 0x1be4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Event* KeyboardEvent(::StringW key);
 
   static inline ::UnityEngine::Event* New_ctor();
 
   static inline ::UnityEngine::Event* New_ctor(int32_t displayIndex);
 
-  /// @brief Method PopEvent, addr 0x48e0f80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PopEvent, addr 0x48ceb60, size 0x3c, virtual false, abstract: false, final false
   static inline bool PopEvent(::UnityEngine::Event* outEvent);
 
-  /// @brief Method ToString, addr 0x48e3494, size 0x7b4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48d1074, size 0x7b4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Use, addr 0x48e3c48, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Use, addr 0x48d1828, size 0x1c4, virtual false, abstract: false, final false
   inline void Use();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -150,123 +150,123 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48e1164, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ced44, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48e10ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ceccc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t displayIndex);
 
   static inline ::UnityEngine::Event* getStaticF_s_Current();
 
   static inline ::UnityEngine::Event* getStaticF_s_MasterEvent();
 
-  /// @brief Method get_button, addr 0x48e09cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x48ce5ac, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_button();
 
-  /// @brief Method get_character, addr 0x48e0c08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_character, addr 0x48ce7e8, size 0x3c, virtual false, abstract: false, final false
   inline char16_t get_character();
 
-  /// @brief Method get_clickCount, addr 0x48e0bcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x48ce7ac, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
-  /// @brief Method get_commandName, addr 0x48e0e08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x48ce9e8, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_current, addr 0x48e133c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x48cef1c, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Event* get_current();
 
-  /// @brief Method get_delta, addr 0x48e0874, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x48ce454, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_delta();
 
-  /// @brief Method get_delta_Injected, addr 0x48e08c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_delta_Injected, addr 0x48ce4a0, size 0x44, virtual false, abstract: false, final false
   inline void get_delta_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_displayIndex, addr 0x48e0d08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x48ce8e8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_displayIndex();
 
-  /// @brief Method get_isDirectManipulationDevice, addr 0x48e14c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_isDirectManipulationDevice, addr 0x48cf0a8, size 0x7c, virtual false, abstract: false, final false
   inline bool get_isDirectManipulationDevice();
 
-  /// @brief Method get_isKey, addr 0x48e1418, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_isKey, addr 0x48ceff8, size 0x4c, virtual false, abstract: false, final false
   inline bool get_isKey();
 
-  /// @brief Method get_isMouse, addr 0x48e1464, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_isMouse, addr 0x48cf044, size 0x64, virtual false, abstract: false, final false
   inline bool get_isMouse();
 
-  /// @brief Method get_keyCode, addr 0x48e0c88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x48ce868, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
-  /// @brief Method get_modifiers, addr 0x48e0a08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_modifiers, addr 0x48ce5e8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  /// @brief Method get_mousePosition, addr 0x48e0758, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_mousePosition, addr 0x48ce338, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_mousePosition();
 
-  /// @brief Method get_mousePosition_Injected, addr 0x48e07a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_mousePosition_Injected, addr 0x48ce384, size 0x44, virtual false, abstract: false, final false
   inline void get_mousePosition_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_penStatus, addr 0x48e0b90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_penStatus, addr 0x48ce770, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::PenStatus get_penStatus();
 
-  /// @brief Method get_pointerType, addr 0x48e0990, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pointerType, addr 0x48ce570, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::PointerType get_pointerType();
 
-  /// @brief Method get_pressure, addr 0x48e0a88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x48ce668, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_pressure();
 
-  /// @brief Method get_rawType, addr 0x48e071c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rawType, addr 0x48ce2fc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::EventType get_rawType();
 
-  /// @brief Method get_shift, addr 0x48e12f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_shift, addr 0x48ceed8, size 0x44, virtual false, abstract: false, final false
   inline bool get_shift();
 
-  /// @brief Method get_tilt, addr 0x48e0b00, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_tilt, addr 0x48ce6e0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_tilt();
 
-  /// @brief Method get_tilt_Injected, addr 0x48e0b4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_tilt_Injected, addr 0x48ce72c, size 0x44, virtual false, abstract: false, final false
   inline void get_tilt_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_twist, addr 0x48e0ac4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x48ce6a4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_twist();
 
-  /// @brief Method get_type, addr 0x48e0d88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x48ce968, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::EventType get_type();
 
   static inline void setStaticF_s_Current(::UnityEngine::Event* value);
 
   static inline void setStaticF_s_MasterEvent(::UnityEngine::Event* value);
 
-  /// @brief Method set_character, addr 0x48e0c44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_character, addr 0x48ce824, size 0x44, virtual false, abstract: false, final false
   inline void set_character(char16_t value);
 
-  /// @brief Method set_commandName, addr 0x48e0e44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_commandName, addr 0x48cea24, size 0x44, virtual false, abstract: false, final false
   inline void set_commandName(::StringW value);
 
-  /// @brief Method set_current, addr 0x48e1384, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x48cef64, size 0x94, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::Event* value);
 
-  /// @brief Method set_delta, addr 0x48e0904, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x48ce4e4, size 0x48, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_delta_Injected, addr 0x48e094c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_delta_Injected, addr 0x48ce52c, size 0x44, virtual false, abstract: false, final false
   inline void set_delta_Injected(::ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_displayIndex, addr 0x48e0d44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_displayIndex, addr 0x48ce924, size 0x44, virtual false, abstract: false, final false
   inline void set_displayIndex(int32_t value);
 
-  /// @brief Method set_keyCode, addr 0x48e0cc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_keyCode, addr 0x48ce8a4, size 0x44, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::KeyCode value);
 
-  /// @brief Method set_modifiers, addr 0x48e0a44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_modifiers, addr 0x48ce624, size 0x44, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
-  /// @brief Method set_mousePosition, addr 0x48e07e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_mousePosition, addr 0x48ce3c8, size 0x48, virtual false, abstract: false, final false
   inline void set_mousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_mousePosition_Injected, addr 0x48e0830, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mousePosition_Injected, addr 0x48ce410, size 0x44, virtual false, abstract: false, final false
   inline void set_mousePosition_Injected(::ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_type, addr 0x48e0dc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x48ce9a4, size 0x44, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::EventType value);
 
 protected:

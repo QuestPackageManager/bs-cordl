@@ -28,16 +28,16 @@ public:
   /// @brief Field domainRegex, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_domainRegex, put = setStaticF_domainRegex)) ::System::Text::RegularExpressions::Regex* domainRegex;
 
-  /// @brief Method MakeInitialUrl, addr 0x4af03f0, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method MakeInitialUrl, addr 0x4addfd0, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
 
-  /// @brief Method MakeUriString, addr 0x4af0760, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method MakeUriString, addr 0x4ade340, size 0x3dc, virtual false, abstract: false, final false
   static inline ::StringW MakeUriString(::System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
 
-  /// @brief Method RedirectTo, addr 0x4af0304, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RedirectTo, addr 0x4addee4, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri);
 
-  /// @brief Method URLDecode, addr 0x4af0b3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method URLDecode, addr 0x4ade71c, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW URLDecode(::StringW encoded);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_domainRegex();
@@ -59,7 +59,7 @@ public:
   WebRequestUtils(WebRequestUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

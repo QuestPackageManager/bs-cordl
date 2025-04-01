@@ -143,7 +143,7 @@ public:
 
   static inline ::GlobalNamespace::MissionObjectiveChecker* New_ctor();
 
-  /// @brief Method SetCheckedMissionObjective, addr 0x3bc12a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetCheckedMissionObjective, addr 0x3baef28, size 0x10, virtual false, abstract: false, final false
   inline void SetCheckedMissionObjective(::GlobalNamespace::MissionObjective* missionObjective);
 
   constexpr int32_t const& __cordl_internal_get__checkedValue() const;
@@ -188,43 +188,43 @@ public:
 
   constexpr void __cordl_internal_set_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method .ctor, addr 0x3bc08ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae56c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_checkedValueDidChangeEvent, addr 0x3bc1114, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_checkedValueDidChangeEvent, addr 0x3baed94, size 0xb0, virtual false, abstract: false, final false
   inline void add_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method add_statusDidChangeEvent, addr 0x3bc0fb4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_statusDidChangeEvent, addr 0x3baec34, size 0xb0, virtual false, abstract: false, final false
   inline void add_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method get_checkedValue, addr 0x3bc12a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_checkedValue, addr 0x3baef20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_checkedValue();
 
-  /// @brief Method get_disableChecking, addr 0x3bc1284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disableChecking, addr 0x3baef04, size 0x8, virtual false, abstract: false, final false
   inline bool get_disableChecking();
 
-  /// @brief Method get_missionObjective, addr 0x3bc127c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjective, addr 0x3baeefc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method get_missionObjectiveType, addr 0x3bc1274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjectiveType, addr 0x3baeef4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> get_missionObjectiveType();
 
-  /// @brief Method get_status, addr 0x3bc1298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x3baef18, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjectiveChecker_Status get_status();
 
-  /// @brief Method remove_checkedValueDidChangeEvent, addr 0x3bc11c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_checkedValueDidChangeEvent, addr 0x3baee44, size 0xb0, virtual false, abstract: false, final false
   inline void remove_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method remove_statusDidChangeEvent, addr 0x3bc1064, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_statusDidChangeEvent, addr 0x3baece4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method set_checkedValue, addr 0x3bc01fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_checkedValue, addr 0x3bade7c, size 0x3c, virtual false, abstract: false, final false
   inline void set_checkedValue(int32_t value);
 
-  /// @brief Method set_disableChecking, addr 0x3bc128c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disableChecking, addr 0x3baef0c, size 0xc, virtual false, abstract: false, final false
   inline void set_disableChecking(bool value);
 
-  /// @brief Method set_status, addr 0x3bc00a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x3badd24, size 0x3c, virtual false, abstract: false, final false
   inline void set_status(::GlobalNamespace::MissionObjectiveChecker_Status value);
 
 protected:

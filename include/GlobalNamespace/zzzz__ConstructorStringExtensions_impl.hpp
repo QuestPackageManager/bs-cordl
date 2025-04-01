@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::ConstructorStringExtensions::ToConstructorString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x22b7720;
+  constexpr static std::size_t addrs = 0x22af8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Quaternion)>(&::GlobalNamespace::ConstructorStringExtensions::ToConstructorString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x22b77f0;
+  constexpr static std::size_t addrs = 0x22af980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Pose)>(&::GlobalNamespace::ConstructorStringExtensions::ToConstructorString)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x22b79a0;
+  constexpr static std::size_t addrs = 0x22afb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

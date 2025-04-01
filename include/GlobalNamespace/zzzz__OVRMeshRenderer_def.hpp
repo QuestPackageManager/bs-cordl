@@ -87,22 +87,22 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x4046114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x4033ccc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x4046100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x4033cb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x4046128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x4033ce0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x404611c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x4033cd4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x4046108, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x4033cc0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x4046130, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x4033ce8, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
   // Ctor Parameters []
@@ -311,21 +311,21 @@ public:
   /// @brief Field _systemGestureMaterial, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial)) ::UnityW<::UnityEngine::Material> _systemGestureMaterial;
 
-  /// @brief Method Awake, addr 0x4045734, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x40332ec, size 0x104, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x40459c4, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x403357c, size 0x484, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRMeshRenderer* New_ctor();
 
-  /// @brief Method ShouldInitialize, addr 0x40458d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x403348c, size 0xf0, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Start, addr 0x4045838, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x40333f0, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4045e48, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4033a00, size 0x2a8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
@@ -400,31 +400,31 @@ public:
 
   constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x40460f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4033ca8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x404570c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x40332c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x40456f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x40332b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_IsInitialized, addr 0x40456e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x403329c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x4045720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x40332d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x4045714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x40332cc, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x4045700, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x40332b8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_IsInitialized, addr 0x40456ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x40332a4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x4045728, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x40332e0, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
 protected:

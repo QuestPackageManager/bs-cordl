@@ -61,25 +61,25 @@ public:
 
   constexpr void __cordl_internal_set__packID_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22e1478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d9608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levels, addr 0x22e1458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levels, addr 0x22d95e8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> get_levels();
 
-  /// @brief Method get_minimumProtocolVersion, addr 0x22e1468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumProtocolVersion, addr 0x22d95f8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minimumProtocolVersion();
 
-  /// @brief Method get_packID, addr 0x22e1448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packID, addr 0x22d95d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
-  /// @brief Method set_levels, addr 0x22e1460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levels, addr 0x22d95f0, size 0x8, virtual false, abstract: false, final false
   inline void set_levels(::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> value);
 
-  /// @brief Method set_minimumProtocolVersion, addr 0x22e1470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumProtocolVersion, addr 0x22d9600, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumProtocolVersion(uint32_t value);
 
-  /// @brief Method set_packID, addr 0x22e1450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packID, addr 0x22d95e0, size 0x8, virtual false, abstract: false, final false
   inline void set_packID(::StringW value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   LevelPackInfo(LevelPackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14892 };
 
   /// @brief Field <packID>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____packID_k__BackingField;

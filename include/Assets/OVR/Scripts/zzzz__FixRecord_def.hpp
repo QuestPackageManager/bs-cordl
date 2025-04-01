@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_targetObject(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x4086510, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40740c8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 

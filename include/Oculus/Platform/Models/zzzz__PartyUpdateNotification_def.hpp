@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_UserName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3fa06b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8e268, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -107,7 +107,7 @@ public:
   PartyUpdateNotification(PartyUpdateNotification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15557 };
 
   /// @brief Field Action, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::PartyUpdateAction ___Action;

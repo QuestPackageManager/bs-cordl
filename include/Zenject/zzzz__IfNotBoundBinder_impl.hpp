@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4b1f134;
+  constexpr static std::size_t addrs = 0x4b0cd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindInfo* (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::get_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b1f15c;
+  constexpr static std::size_t addrs = 0x4b0cd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(), "get_BindInfo",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::set_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b1f164;
+  constexpr static std::size_t addrs = 0x4b0cd58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::IfNotBound)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4b1f16c;
+  constexpr static std::size_t addrs = 0x4b0cd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(), "IfNotBound",

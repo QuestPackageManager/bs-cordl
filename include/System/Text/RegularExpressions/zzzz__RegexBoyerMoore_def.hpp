@@ -52,15 +52,15 @@ public:
   /// @brief Field _culture, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture)) ::System::Globalization::CultureInfo* _culture;
 
-  /// @brief Method IsMatch, addr 0x4423d10, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x44118d0, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
-  /// @brief Method MatchPattern, addr 0x4423bec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x44117ac, size 0x124, virtual false, abstract: false, final false
   inline bool MatchPattern(::StringW text, int32_t index);
 
   static inline ::System::Text::RegularExpressions::RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Scan, addr 0x4423d7c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x441193c, size 0x2e4, virtual false, abstract: false, final false
   inline int32_t Scan(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
   constexpr bool const& __cordl_internal_get_CaseInsensitive() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method .ctor, addr 0x4423758, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4411318, size 0x494, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
 protected:

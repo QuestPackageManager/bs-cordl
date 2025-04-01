@@ -72,7 +72,7 @@ public:
   /// @brief Method AddToCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
 
-  /// @brief Method CreateCollection, addr 0x422cef8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateCollection, addr 0x421aab8, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
 
   /// @brief Method CreateCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x422cec8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421aa88, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method get_CustomToString, addr 0x422cf08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomToString, addr 0x421aac8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::StringW>* get_CustomToString();
 
-  /// @brief Method get_Separator, addr 0x422cf18, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Separator, addr 0x421aad8, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
-  /// @brief Method set_CustomToString, addr 0x422cf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CustomToString, addr 0x421aad0, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
 protected:

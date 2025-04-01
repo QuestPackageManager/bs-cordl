@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::*)()>(
     &::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3c04e8c;
+  constexpr static std::size_t addrs = 0x3bf297c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::*)()>(
     &::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0501c;
+  constexpr static std::size_t addrs = 0x3bf2b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller*>::get(),

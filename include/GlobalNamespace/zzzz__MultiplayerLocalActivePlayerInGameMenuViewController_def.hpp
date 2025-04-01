@@ -108,39 +108,39 @@ public:
   /// @brief Field didPressResumeButtonEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressResumeButtonEvent, put = __cordl_internal_set_didPressResumeButtonEvent)) ::System::Action* didPressResumeButtonEvent;
 
-  /// @brief Method Awake, addr 0x3bba6d0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ba81cc, size 0x1c4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisconnectButtonPressed, addr 0x3bbab04, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectButtonPressed, addr 0x3ba8600, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectButtonPressed();
 
-  /// @brief Method GiveUpButtonPressed, addr 0x3bbac04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GiveUpButtonPressed, addr 0x3ba8700, size 0x4c, virtual false, abstract: false, final false
   inline void GiveUpButtonPressed();
 
-  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3bbab38, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3ba8634, size 0xcc, virtual false, abstract: false, final false
   inline void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
 
-  /// @brief Method HideMenu, addr 0x3bba458, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HideMenu, addr 0x3ba7f54, size 0x44, virtual false, abstract: false, final false
   inline void HideMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bba944, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba8440, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ResumeButtonPressed, addr 0x3bbaacc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ResumeButtonPressed, addr 0x3ba85c8, size 0x38, virtual false, abstract: false, final false
   inline void ResumeButtonPressed();
 
-  /// @brief Method ShowMenu, addr 0x3bba408, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x3ba7f04, size 0x50, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method Start, addr 0x3bba894, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba8390, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3bba9e4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba84e0, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__32_0, addr 0x3bbac58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__32_0, addr 0x3ba8754, size 0x20, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__32_0();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -251,25 +251,25 @@ public:
 
   constexpr void __cordl_internal_set_didPressResumeButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bbac50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba874c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressDisconnectButtonEvent, addr 0x3bb9be4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressDisconnectButtonEvent, addr 0x3ba76e0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressDisconnectButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressGiveUpButtonEvent, addr 0x3bb9d1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressGiveUpButtonEvent, addr 0x3ba7818, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressGiveUpButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressResumeButtonEvent, addr 0x3bb9c80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressResumeButtonEvent, addr 0x3ba777c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressResumeButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressDisconnectButtonEvent, addr 0x3bba100, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressDisconnectButtonEvent, addr 0x3ba7bfc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressDisconnectButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressGiveUpButtonEvent, addr 0x3bba238, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressGiveUpButtonEvent, addr 0x3ba7d34, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressGiveUpButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressResumeButtonEvent, addr 0x3bba19c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressResumeButtonEvent, addr 0x3ba7c98, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressResumeButtonEvent(::System::Action* value);
 
 protected:

@@ -20,10 +20,10 @@ namespace System {
 class CORDL_TYPE UncNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x441ce7c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x440aa3c, size 0x2d0, virtual false, abstract: false, final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, uint16_t start, ::ByRef<int32_t> returnedEnd, bool notImplicitFile);
 
-  /// @brief Method ParseCanonicalName, addr 0x441ce78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x440aa38, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ::ByRef<bool> loopback);
 
 protected:

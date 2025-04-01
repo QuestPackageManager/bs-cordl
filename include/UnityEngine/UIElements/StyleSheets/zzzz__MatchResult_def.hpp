@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_success)) bool success;
 
-  /// @brief Method get_success, addr 0x49e9098, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_success, addr 0x49d6c78, size 0x10, virtual false, abstract: false, final false
   inline bool get_success();
 
   // Ctor Parameters []

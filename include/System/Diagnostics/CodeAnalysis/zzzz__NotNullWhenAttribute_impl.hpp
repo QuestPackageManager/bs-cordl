@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::*)(bool)>(
     &::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e84a4c;
+  constexpr static std::size_t addrs = 0x3e72604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::*)()>(
     &::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::get_ReturnValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84a74;
+  constexpr static std::size_t addrs = 0x3e7262c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

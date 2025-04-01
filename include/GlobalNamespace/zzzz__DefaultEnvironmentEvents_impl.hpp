@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BasicBeatmapEventType (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::get_eventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d74;
+  constexpr static std::size_t addrs = 0x26abf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d7c;
+  constexpr static std::size_t addrs = 0x26abf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::get_floatValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d84;
+  constexpr static std::size_t addrs = 0x26abf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d8c;
+  constexpr static std::size_t addrs = 0x26abf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::get_useDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d94;
+  constexpr static std::size_t addrs = 0x26abf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::get_distributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d9c;
+  constexpr static std::size_t addrs = 0x26abf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventDataBox_DistributionParamType (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::get_distributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3da4;
+  constexpr static std::size_t addrs = 0x26abf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3dac;
+  constexpr static std::size_t addrs = 0x26abf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_useFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3db4;
+  constexpr static std::size_t addrs = 0x26abf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter_IndexFilterRandomType (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_randomType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3dbc;
+  constexpr static std::size_t addrs = 0x26abf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_limit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3dc4;
+  constexpr static std::size_t addrs = 0x26abf54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_alsoAffectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3dcc;
+  constexpr static std::size_t addrs = 0x26abf5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_seed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3dd4;
+  constexpr static std::size_t addrs = 0x26abf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_chunks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3ddc;
+  constexpr static std::size_t addrs = 0x26abf6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3de4;
+  constexpr static std::size_t addrs = 0x26abf74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LightGroupSO> (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_lightGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3dec;
+  constexpr static std::size_t addrs = 0x26abf7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentColorType (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_environmentColorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3df4;
+  constexpr static std::size_t addrs = 0x26abf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3dfc;
+  constexpr static std::size_t addrs = 0x26abf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_brightnessDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e04;
+  constexpr static std::size_t addrs = 0x26abf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_brightnessFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e0c;
+  constexpr static std::size_t addrs = 0x26abf9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e14;
+  constexpr static std::size_t addrs = 0x26abfa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e1c;
+  constexpr static std::size_t addrs = 0x26abfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e24;
+  constexpr static std::size_t addrs = 0x26abfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationXDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e2c;
+  constexpr static std::size_t addrs = 0x26abfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationYDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e34;
+  constexpr static std::size_t addrs = 0x26abfc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationZDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e3c;
+  constexpr static std::size_t addrs = 0x26abfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e44;
+  constexpr static std::size_t addrs = 0x26abfd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e4c;
+  constexpr static std::size_t addrs = 0x26abfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e54;
+  constexpr static std::size_t addrs = 0x26abfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e5c;
+  constexpr static std::size_t addrs = 0x26abfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationXDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e64;
+  constexpr static std::size_t addrs = 0x26abff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -732,7 +732,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationYDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e6c;
+  constexpr static std::size_t addrs = 0x26abffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationZDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e74;
+  constexpr static std::size_t addrs = 0x26ac004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -762,7 +762,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e7c;
+  constexpr static std::size_t addrs = 0x26ac00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -777,7 +777,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_floatFxValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e84;
+  constexpr static std::size_t addrs = 0x26ac014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_floatFxDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e8c;
+  constexpr static std::size_t addrs = 0x26ac01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (
     ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_floatFxFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e94;
+  constexpr static std::size_t addrs = 0x26ac024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -822,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3e9c;
+  constexpr static std::size_t addrs = 0x26ac02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1245,7 +1245,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*, ::Array<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*>*> (
         ::GlobalNamespace::DefaultEnvironmentEvents::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents::get_basicBeatmapEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d24;
+  constexpr static std::size_t addrs = 0x26abeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultEnvironmentEvents*>::get(),
@@ -1260,7 +1260,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*, ::Array<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*>*> (::GlobalNamespace::DefaultEnvironmentEvents::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents::get_lightGroupEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d2c;
+  constexpr static std::size_t addrs = 0x26abebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultEnvironmentEvents*>::get(),
@@ -1273,7 +1273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DefaultEnvironmentEvents::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents::get_isEmpty)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26b3d34;
+  constexpr static std::size_t addrs = 0x26abec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultEnvironmentEvents*>::get(),
@@ -1286,7 +1286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3d6c;
+  constexpr static std::size_t addrs = 0x26abefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultEnvironmentEvents*>::get(), ".ctor",

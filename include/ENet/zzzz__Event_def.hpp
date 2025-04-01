@@ -44,28 +44,28 @@ public:
 
   __declspec(property(get = get_Type)) ::ENet::EventType Type;
 
-  /// @brief Method .ctor, addr 0x3ab1638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9e70c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ENet::ENetEvent event);
 
-  /// @brief Method get_ChannelID, addr 0x3ab16c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelID, addr 0x3a9e794, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_ChannelID();
 
-  /// @brief Method get_Data, addr 0x3ab16c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x3a9e79c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Data();
 
-  /// @brief Method get_NativeData, addr 0x3ab1620, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x3a9e6f4, size 0xc, virtual false, abstract: false, final false
   inline ::ENet::ENetEvent get_NativeData();
 
-  /// @brief Method get_Packet, addr 0x3ab16d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Packet, addr 0x3a9e7a4, size 0x8, virtual false, abstract: false, final false
   inline ::ENet::Packet get_Packet();
 
-  /// @brief Method get_Peer, addr 0x3ab164c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Peer, addr 0x3a9e720, size 0x38, virtual false, abstract: false, final false
   inline ::ENet::Peer get_Peer();
 
-  /// @brief Method get_Type, addr 0x3ab1644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3a9e718, size 0x8, virtual false, abstract: false, final false
   inline ::ENet::EventType get_Type();
 
-  /// @brief Method set_NativeData, addr 0x3ab162c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x3a9e700, size 0xc, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetEvent value);
 
   // Ctor Parameters []

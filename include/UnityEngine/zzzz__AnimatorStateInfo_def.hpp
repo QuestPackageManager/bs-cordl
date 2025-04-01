@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_normalizedTime)) float_t normalizedTime;
 
-  /// @brief Method get_normalizedTime, addr 0x485b894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedTime, addr 0x4849474, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedTime();
 
   // Ctor Parameters []

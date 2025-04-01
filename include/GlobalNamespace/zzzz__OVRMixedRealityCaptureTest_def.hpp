@@ -104,18 +104,18 @@ public:
   /// @brief Field inited, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
 
-  /// @brief Method Initialize, addr 0x404786c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4035424, size 0x224, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRMixedRealityCaptureTest* New_ctor();
 
-  /// @brief Method Start, addr 0x40477bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4035374, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4047ea0, size 0x764, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4035a58, size 0x764, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x4047a90, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x4035648, size 0x410, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
   constexpr ::GlobalNamespace::OVRMixedRealityCaptureTest_CameraMode const& __cordl_internal_get_currentMode() const;
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_inited(bool value);
 
-  /// @brief Method .ctor, addr 0x4048604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40361bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

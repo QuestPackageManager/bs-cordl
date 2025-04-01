@@ -27,15 +27,15 @@ namespace System::Data {
 class CORDL_TYPE ForeignKeyConstraintEnumerator : public ::System::Data::ConstraintEnumerator {
 public:
   // Declarations
-  /// @brief Method GetForeignKeyConstraint, addr 0x41669b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetForeignKeyConstraint, addr 0x4154574, size 0x78, virtual false, abstract: false, final false
   inline ::System::Data::ForeignKeyConstraint* GetForeignKeyConstraint();
 
-  /// @brief Method IsValidCandidate, addr 0x416693c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method IsValidCandidate, addr 0x41544fc, size 0x78, virtual true, abstract: false, final false
   inline bool IsValidCandidate(::System::Data::Constraint* constraint);
 
   static inline ::System::Data::ForeignKeyConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method .ctor, addr 0x4166938, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41544f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
 protected:

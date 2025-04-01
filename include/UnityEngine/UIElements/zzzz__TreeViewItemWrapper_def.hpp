@@ -32,16 +32,16 @@ public:
 
   __declspec(property(get = get_id)) int32_t id;
 
-  /// @brief Method .ctor, addr 0x4a1b208, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a08de8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TreeItem item, int32_t depth);
 
-  /// @brief Method get_childrenIds, addr 0x4a1b1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childrenIds, addr 0x4a08ddc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_childrenIds();
 
-  /// @brief Method get_hasChildren, addr 0x4a1b204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_hasChildren, addr 0x4a08de4, size 0x4, virtual false, abstract: false, final false
   inline bool get_hasChildren();
 
-  /// @brief Method get_id, addr 0x4a1b1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x4a08dd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   // Ctor Parameters []

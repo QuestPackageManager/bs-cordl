@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlWhitespace::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4357a74;
+  constexpr static std::size_t addrs = 0x4345634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_Name)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4357b10;
+  constexpr static std::size_t addrs = 0x43456d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_LocalName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4357b38;
+  constexpr static std::size_t addrs = 0x43456f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4357b60;
+  constexpr static std::size_t addrs = 0x4345720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_ParentNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4357b68;
+  constexpr static std::size_t addrs = 0x4345728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_Value)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4357bf0;
+  constexpr static std::size_t addrs = 0x43457b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::StringW)>(&::System::Xml::XmlWhitespace::set_Value)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4357c00;
+  constexpr static std::size_t addrs = 0x43457c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlWhitespace::*)(bool)>(&::System::Xml::XmlWhitespace::CloneNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4357c8c;
+  constexpr static std::size_t addrs = 0x434584c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlWhitespace::WriteTo)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4357ce8;
+  constexpr static std::size_t addrs = 0x43458a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlWhitespace::WriteContentTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4357d28;
+  constexpr static std::size_t addrs = 0x43458e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_IsText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4357d2c;
+  constexpr static std::size_t addrs = 0x43458ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

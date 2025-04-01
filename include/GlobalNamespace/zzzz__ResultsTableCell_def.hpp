@@ -31,24 +31,24 @@ namespace GlobalNamespace {
 class CORDL_TYPE ResultsTableCell : public ::GlobalNamespace::TableCellWithSeparator {
 public:
   // Declarations
-  /// @brief Field _border, offset 0x70, size 0x8
+  /// @brief Field _border, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__border, put = __cordl_internal_set__border)) ::UnityW<::UnityEngine::GameObject> _border;
 
-  /// @brief Field _nameText, offset 0x80, size 0x8
+  /// @brief Field _nameText, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText)) ::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-  /// @brief Field _orderText, offset 0x78, size 0x8
+  /// @brief Field _orderText, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__orderText, put = __cordl_internal_set__orderText)) ::UnityW<::TMPro::TextMeshProUGUI> _orderText;
 
-  /// @brief Field _rankText, offset 0x90, size 0x8
+  /// @brief Field _rankText, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__rankText, put = __cordl_internal_set__rankText)) ::UnityW<::TMPro::TextMeshProUGUI> _rankText;
 
-  /// @brief Field _scoreText, offset 0x88, size 0x8
+  /// @brief Field _scoreText, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
   static inline ::GlobalNamespace::ResultsTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x3b14314, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b01328, size 0x388, virtual false, abstract: false, final false
   inline void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__border() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b1469c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b016b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,35 +101,35 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5002 };
 
-  /// @brief Field _border, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _border, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____border;
 
-  /// @brief Field _orderText, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _orderText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____orderText;
 
-  /// @brief Field _nameText, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _nameText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
-  /// @brief Field _scoreText, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _scoreText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
-  /// @brief Field _rankText, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _rankText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____border) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____border) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____orderText) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____orderText) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____nameText) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____nameText) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____scoreText) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____scoreText) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____rankText) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____rankText) == 0xa0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsTableCell, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsTableCell, 0xa8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultsTableCell);

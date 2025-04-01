@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26bbc54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b3de4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
-  /// @brief Method get_bombsCount, addr 0x26bbc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombsCount, addr 0x26b3ddc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_cuttableNotesCount, addr 0x26bbc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableNotesCount, addr 0x26b3dc4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_cuttableScoringObjectsCount, addr 0x26bbc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0x26b3dcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableScoringObjectsCount();
 
-  /// @brief Method get_numberOfLines, addr 0x26bbc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x26b3dbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstaclesCount, addr 0x26bbc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesCount, addr 0x26b3dd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
 protected:

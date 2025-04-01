@@ -22,10 +22,10 @@ namespace System {
 class CORDL_TYPE PasteArguments : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendArgument, addr 0x441643c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method AppendArgument, addr 0x4403ffc, size 0x1dc, virtual false, abstract: false, final false
   static inline void AppendArgument(::System::Text::StringBuilder* stringBuilder, ::StringW argument);
 
-  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x4416618, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x44041d8, size 0xc8, virtual false, abstract: false, final false
   static inline bool ContainsNoWhitespaceOrQuotes(::StringW s);
 
 protected:

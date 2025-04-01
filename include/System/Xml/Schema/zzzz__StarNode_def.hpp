@@ -23,16 +23,16 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x43aa4b4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x4398074, size 0x9c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
   static inline ::System::Xml::Schema::StarNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43aa558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4398118, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x43aa550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x4398110, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:

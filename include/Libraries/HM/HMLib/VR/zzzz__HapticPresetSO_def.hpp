@@ -143,13 +143,13 @@ public:
 
   constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  /// @brief Method .ctor, addr 0x39e1954, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ce7ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOculusHapticsClip, addr 0x39d5f40, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOculusHapticsClip, addr 0x39c2dd8, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasOculusHapticsClip();
 
-  /// @brief Method get_hasPS5HapticsClip, addr 0x39d9070, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasPS5HapticsClip, addr 0x39c5f08, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasPS5HapticsClip();
 
 protected:

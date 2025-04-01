@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x3b07cb4;
+  constexpr static std::size_t addrs = 0x3af4cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x3b08098;
+  constexpr static std::size_t addrs = 0x3af50ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleAntiAliasingLevelChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b0837c;
+  constexpr static std::size_t addrs = 0x3af5390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleVrRenderingScaleChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b08398;
+  constexpr static std::size_t addrs = 0x3af53ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleFullscreenToggled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b083b4;
+  constexpr static std::size_t addrs = 0x3af53c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleShockwaveMaxParticlesChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b083d4;
+  constexpr static std::size_t addrs = 0x3af53e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleSmokeToggled)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b083f0;
+  constexpr static std::size_t addrs = 0x3af5404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleScreenDisplacementToggled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b08414;
+  constexpr static std::size_t addrs = 0x3af5428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleMainEffectChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b08434;
+  constexpr static std::size_t addrs = 0x3af5448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleMirrorChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b08450;
+  constexpr static std::size_t addrs = 0x3af5464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)()>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b0846c;
+  constexpr static std::size_t addrs = 0x3af5480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

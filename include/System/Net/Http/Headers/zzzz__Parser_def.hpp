@@ -112,10 +112,10 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Token : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x42272dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x4214e9c, size 0xf4, virtual false, abstract: false, final false
   static inline void Check(::StringW s);
 
-  /// @brief Method TryCheck, addr 0x422f944, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryCheck, addr 0x421d504, size 0x68, virtual false, abstract: false, final false
   static inline bool TryCheck(::StringW s);
 
 protected:
@@ -153,10 +153,10 @@ public:
 
   static inline ::System::Net::Http::Headers::DateTime_Parser___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x4232860, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x4220420, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x4232858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4220418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::DateTime_Parser___c* getStaticF___9();
@@ -198,7 +198,7 @@ public:
   /// @brief Field ToString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x42326d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4220294, size 0x64, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::DateTimeOffset> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
@@ -235,7 +235,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_EmailAddress : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x4232950, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4220510, size 0xe0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::StringW> result);
 
 protected:
@@ -268,7 +268,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Host : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x4232a30, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x42205f0, size 0xc8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::StringW> result);
 
 protected:
@@ -301,7 +301,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Int : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x4232af8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x42206b8, size 0x78, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<int32_t> result);
 
 protected:
@@ -334,7 +334,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Long : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x4232b70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4220730, size 0x78, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<int64_t> result);
 
 protected:
@@ -372,10 +372,10 @@ public:
 
   static inline ::System::Net::Http::Headers::MD5_Parser___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x4232e00, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x42209c0, size 0x94, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x4232df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42209b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::MD5_Parser___c* getStaticF___9();
@@ -417,7 +417,7 @@ public:
   /// @brief Field ToString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x4232be8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x42207a8, size 0xf0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
@@ -454,7 +454,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_TimeSpanSeconds : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x4232e94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4220a54, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::TimeSpan> result);
 
 protected:
@@ -487,7 +487,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Uri : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x4232f44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4220b04, size 0x6c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Uri*> result);
 
 protected:

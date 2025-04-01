@@ -55,10 +55,10 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter___c* New_ctor();
 
-  /// @brief Method <WriteType>b__7_0, addr 0x3f1a14c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <WriteType>b__7_0, addr 0x3f07d04, size 0xc, virtual false, abstract: false, final false
   inline bool _WriteType_b__7_0(::Newtonsoft::Json::Schema::JsonSchemaType v);
 
-  /// @brief Method .ctor, addr 0x3f1a144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f07cfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter___c* getStaticF___9();
@@ -109,23 +109,23 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter* New_ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method ReferenceOrWriteSchema, addr 0x3f19214, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReferenceOrWriteSchema, addr 0x3f06dcc, size 0xe4, virtual false, abstract: false, final false
   inline void ReferenceOrWriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteItems, addr 0x3f19c30, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method WriteItems, addr 0x3f077e8, size 0x4b8, virtual false, abstract: false, final false
   inline void WriteItems(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WritePropertyIfNotNull, addr 0x3f192f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WritePropertyIfNotNull, addr 0x3f06eb0, size 0x64, virtual false, abstract: false, final false
   inline void WritePropertyIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName, ::System::Object* value);
 
-  /// @brief Method WriteSchema, addr 0x3f0f950, size 0x1050, virtual false, abstract: false, final false
+  /// @brief Method WriteSchema, addr 0x3efd508, size 0x1050, virtual false, abstract: false, final false
   inline void WriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x3f198a0, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x3f07458, size 0x390, virtual false, abstract: false, final false
   inline void WriteSchemaDictionaryIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName,
                                              ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* properties);
 
-  /// @brief Method WriteType, addr 0x3f1935c, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method WriteType, addr 0x3f06f14, size 0x544, virtual false, abstract: false, final false
   inline void WriteType(::StringW propertyName, ::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaType type);
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchemaResolver* const& __cordl_internal_get__resolver() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__writer(::Newtonsoft::Json::JsonWriter* value);
 
-  /// @brief Method .ctor, addr 0x3f0f8e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efd498, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
 protected:

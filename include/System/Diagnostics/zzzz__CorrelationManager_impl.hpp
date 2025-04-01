@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::CorrelationManager::*)()>(&::System::Diagnostics::CorrelationManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44386fc;
+  constexpr static std::size_t addrs = 0x44262bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::CorrelationManager*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Stack* (::System::Diagnostics::CorrelationManager::*)()>(
     &::System::Diagnostics::CorrelationManager::get_LogicalOperationStack)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4438704;
+  constexpr static std::size_t addrs = 0x44262c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::CorrelationManager*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Stack* (::System::Diagnostics::CorrelationManager::*)()>(
     &::System::Diagnostics::CorrelationManager::GetLogicalOperationStack)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4438708;
+  constexpr static std::size_t addrs = 0x44262c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::CorrelationManager*>::get(),

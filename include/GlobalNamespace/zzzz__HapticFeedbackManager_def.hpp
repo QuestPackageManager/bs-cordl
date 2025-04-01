@@ -43,7 +43,7 @@ public:
 
   static inline ::GlobalNamespace::HapticFeedbackManager* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x39d44bc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PlayHapticFeedback, addr 0x39c1354, size 0x16c, virtual false, abstract: false, final false
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
   constexpr ::GlobalNamespace::IHapticFeedbackPlayer* const& __cordl_internal_get__advancedHapticFeedbackPlayer() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_hapticFeedbackEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x39d46f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c1588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

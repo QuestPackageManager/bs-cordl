@@ -38,10 +38,10 @@ public:
   /// @brief Field m_currentActivator, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_m_currentActivator, put = __cordl_internal_set_m_currentActivator)) ::UnityEngine::UIElements::ManipulatorActivationFilter m_currentActivator;
 
-  /// @brief Method CanStartManipulation, addr 0x4a4e784, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x4a3c364, size 0x174, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x4a4e8f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x4a3c4d8, size 0xb8, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IMouseEvent* e);
 
   static inline ::UnityEngine::UIElements::MouseManipulator* New_ctor();
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_currentActivator(::UnityEngine::UIElements::ManipulatorActivationFilter value);
 
-  /// @brief Method .ctor, addr 0x4a4e704, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3c2e4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activators, addr 0x4a4e6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activators, addr 0x4a3c2d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* get_activators();
 
-  /// @brief Method set_activators, addr 0x4a4e6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activators, addr 0x4a3c2dc, size 0x8, virtual false, abstract: false, final false
   inline void set_activators(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
 protected:

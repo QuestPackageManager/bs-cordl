@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4925a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491361c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4925a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4913624, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_GenerateProxy, addr 0x4925a80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateProxy, addr 0x4913660, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
-  /// @brief Method set_Name, addr 0x4925a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x491364c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Optional, addr 0x4925a74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x4913654, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   RequiredByNativeCodeAttribute(RequiredByNativeCodeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18726 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

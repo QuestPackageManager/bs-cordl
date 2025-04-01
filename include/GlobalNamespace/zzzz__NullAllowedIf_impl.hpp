@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullAllowedIf::*)(::StringW, ::System::Object*, ::GlobalNamespace::NullAllowed_Context)>(
     &::GlobalNamespace::NullAllowedIf::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22a2558;
+  constexpr static std::size_t addrs = 0x229a6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullAllowedIf::*)(
     ::StringW, ::GlobalNamespace::ComparisonOperation, ::System::Object*, ::GlobalNamespace::NullAllowed_Context)>(&::GlobalNamespace::NullAllowedIf::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x22a2598;
+  constexpr static std::size_t addrs = 0x229a728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NullAllowedIf::*)(::System::Object*, ::GlobalNamespace::NullAllowed_Context)>(
     &::GlobalNamespace::NullAllowedIf::IsNullAllowedFor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x22a25dc;
+  constexpr static std::size_t addrs = 0x229a76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

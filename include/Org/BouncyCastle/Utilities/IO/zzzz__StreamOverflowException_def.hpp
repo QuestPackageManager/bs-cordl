@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::StreamOverflowException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x25de538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d66c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25de540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d66d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25de548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d66d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

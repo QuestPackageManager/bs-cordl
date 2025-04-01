@@ -24,12 +24,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE QuestSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
   // Declarations
-  /// @brief Method ApplyGraphicSettings, addr 0x3b3c780, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method ApplyGraphicSettings, addr 0x3b297ac, size 0x2a4, virtual true, abstract: false, final false
   inline void ApplyGraphicSettings(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
   static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3cc18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b29c44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

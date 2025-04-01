@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGravitySensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x46132f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4600ed4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

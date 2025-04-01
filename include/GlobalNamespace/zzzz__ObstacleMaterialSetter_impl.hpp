@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(::BeatSaber::Settings::QualitySettings_ObstacleQuality, bool)>(
     &::GlobalNamespace::ObstacleMaterialSetter::Init)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3aff890;
+  constexpr static std::size_t addrs = 0x3aecbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(
     ::UnityEngine::Renderer*, ::BeatSaber::Settings::QualitySettings_ObstacleQuality, bool)>(&::GlobalNamespace::ObstacleMaterialSetter::SetCoreMaterial)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b0034c;
+  constexpr static std::size_t addrs = 0x3aed6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(
     ::UnityEngine::Renderer*, ::BeatSaber::Settings::QualitySettings_ObstacleQuality)>(&::GlobalNamespace::ObstacleMaterialSetter::SetFakeGlowMaterial)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b00448;
+  constexpr static std::size_t addrs = 0x3aed79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)()>(&::GlobalNamespace::ObstacleMaterialSetter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b00488;
+  constexpr static std::size_t addrs = 0x3aed7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleMaterialSetter*>::get(), ".ctor",

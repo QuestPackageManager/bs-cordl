@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(
     &::UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x48b48ac;
+  constexpr static std::size_t addrs = 0x48a248c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (*)(::System::Type*)>(
     &::UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x48b49e0;
+  constexpr static std::size_t addrs = 0x48a25c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetExecuteMode)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x48b4eb4;
+  constexpr static std::size_t addrs = 0x48a2a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::CheckIsEditorScript)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x48b4fc8;
+  constexpr static std::size_t addrs = 0x48a2ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetDefaultExecutionOrderFor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48b50d8;
+  constexpr static std::size_t addrs = 0x48a2cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

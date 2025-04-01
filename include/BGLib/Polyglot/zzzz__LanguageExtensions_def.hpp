@@ -25,16 +25,16 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToCultureInfoName, addr 0x22b11c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToCultureInfoName, addr 0x22a9350, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::Language lang);
 
-  /// @brief Method ToLanguage, addr 0x22b1278, size 0x1398, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0x22a9408, size 0x1398, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ToLanguage(::StringW serializedName);
 
-  /// @brief Method ToLanguage, addr 0x22b268c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0x22aa81c, size 0xe8, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ToLanguage(::UnityEngine::SystemLanguage systemLanguage, bool useFallbackLanguage);
 
-  /// @brief Method ToSerializedName, addr 0x22b1010, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToSerializedName, addr 0x22a91a0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW ToSerializedName(::BGLib::Polyglot::Language lang);
 
 protected:
@@ -52,7 +52,7 @@ public:
   LanguageExtensions(LanguageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

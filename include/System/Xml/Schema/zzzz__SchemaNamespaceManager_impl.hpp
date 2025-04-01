@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaNamespaceManager::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::SchemaNamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x42a5ef8;
+  constexpr static std::size_t addrs = 0x4293ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::SchemaNamespaceManager::*)(::StringW)>(
     &::System::Xml::Schema::SchemaNamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x42a5f20;
+  constexpr static std::size_t addrs = 0x4293ae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::SchemaNamespaceManager::*)(::StringW)>(
     &::System::Xml::Schema::SchemaNamespaceManager::LookupPrefix)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x42a6050;
+  constexpr static std::size_t addrs = 0x4293c10;
 
   inline static ::MethodInfo const* methodInfo() {
 

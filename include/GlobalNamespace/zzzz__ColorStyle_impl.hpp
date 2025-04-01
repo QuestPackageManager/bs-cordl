@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_useScriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a66d8;
+  constexpr static std::size_t addrs = 0x269e868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)(bool)>(&::GlobalNamespace::ColorStyle::set_useScriptableObjectColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a66e0;
+  constexpr static std::size_t addrs = 0x269e870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_color)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26a66ec;
+  constexpr static std::size_t addrs = 0x269e87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(), "get_color",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorStyle::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a6770;
+  constexpr static std::size_t addrs = 0x269e900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_globalLightTintIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a677c;
+  constexpr static std::size_t addrs = 0x269e90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)(float_t)>(&::GlobalNamespace::ColorStyle::set_globalLightTintIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6784;
+  constexpr static std::size_t addrs = 0x269e914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_gradient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a678c;
+  constexpr static std::size_t addrs = 0x269e91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(), "get_gradient",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)(bool)>(&::GlobalNamespace::ColorStyle::set_gradient)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a6794;
+  constexpr static std::size_t addrs = 0x269e924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_color0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26a67a0;
+  constexpr static std::size_t addrs = 0x269e930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(), "get_color0",
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorStyle::set_color0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a6824;
+  constexpr static std::size_t addrs = 0x269e9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_color1)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26a6830;
+  constexpr static std::size_t addrs = 0x269e9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(), "get_color1",
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorStyle::set_color1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a68b4;
+  constexpr static std::size_t addrs = 0x269ea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GradientDirection (::GlobalNamespace::ColorStyle::*)()>(
     &::GlobalNamespace::ColorStyle::get_gradientDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a68c0;
+  constexpr static std::size_t addrs = 0x269ea50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(), "get_gradientDirection",
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::GlobalNamespace::GradientDirection)>(
     &::GlobalNamespace::ColorStyle::set_gradientDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a68c8;
+  constexpr static std::size_t addrs = 0x269ea58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_flipGradientColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a68d0;
+  constexpr static std::size_t addrs = 0x269ea60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(), "get_flipGradientColors",
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26a68d8;
+  constexpr static std::size_t addrs = 0x269ea68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyle*>::get(), ".ctor",

@@ -31,19 +31,19 @@ public:
   /// @brief Field skipValidation, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_skipValidation, put = setStaticF_skipValidation)) bool skipValidation;
 
-  /// @brief Method AdjustPlatformSettings, addr 0x226f9e0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AdjustPlatformSettings, addr 0x2267b70, size 0x148, virtual false, abstract: false, final false
   static inline void AdjustPlatformSettings(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::HardwareCategory platform);
 
-  /// @brief Method CreateInstanceWithCurrentPlatformPreset, addr 0x22725d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceWithCurrentPlatformPreset, addr 0x226a768, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SettingsManager* CreateInstanceWithCurrentPlatformPreset();
 
-  /// @brief Method CreateUninitialized, addr 0x2272584, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateUninitialized, addr 0x226a714, size 0x54, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SettingsManager* CreateUninitialized();
 
-  /// @brief Method GetCurrentPlatformPreset, addr 0x2272664, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPlatformPreset, addr 0x226a7f4, size 0x10, virtual false, abstract: false, final false
   static inline ::ByRef<::BeatSaber::Settings::Settings> GetCurrentPlatformPreset();
 
-  /// @brief Method GetPlatformPreset, addr 0x226f734, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPreset, addr 0x22678c4, size 0x194, virtual false, abstract: false, final false
   static inline ::ByRef<::BeatSaber::Settings::Settings> GetPlatformPreset(::GlobalNamespace::HardwareCategory platform);
 
   static inline ::GlobalNamespace::SettingsManager* New_ctor();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::BeatSaber::Settings::Settings value);
 
-  /// @brief Method .ctor, addr 0x227257c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226a70c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_skipValidation();
@@ -76,7 +76,7 @@ public:
   SettingsManager(SettingsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18083 };
 
   /// @brief Field settings, offset: 0x10, size: 0xf0, def value: None
   ::BeatSaber::Settings::Settings ___settings;

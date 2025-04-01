@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39f5728;
+  constexpr static std::size_t addrs = 0x39e2778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::remove_didSelectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39f57d8;
+  constexpr static std::size_t addrs = 0x39e2828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::add_didDeselectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39f5888;
+  constexpr static std::size_t addrs = 0x39e28d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::remove_didDeselectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39f5938;
+  constexpr static std::size_t addrs = 0x39e2988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::TableViewWithDetailCell_IDataSource* (::GlobalNamespace::TableViewWithDetailCell::*)()>(
     &::GlobalNamespace::TableViewWithDetailCell::get_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f59e8;
+  constexpr static std::size_t addrs = 0x39e2a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(::GlobalNamespace::TableViewWithDetailCell_IDataSource*)>(
     &::GlobalNamespace::TableViewWithDetailCell::set_dataSource)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39f59f0;
+  constexpr static std::size_t addrs = 0x39e2a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TableViewWithDetailCell::*)(int32_t)>(
     &::GlobalNamespace::TableViewWithDetailCell::CellSize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39f5a18;
+  constexpr static std::size_t addrs = 0x39e2a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TableViewWithDetailCell::*)()>(
     &::GlobalNamespace::TableViewWithDetailCell::NumberOfCells)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39f5ab8;
+  constexpr static std::size_t addrs = 0x39e2b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::TableViewWithDetailCell::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::TableViewWithDetailCell::CellForIdx)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x39f5b6c;
+  constexpr static std::size_t addrs = 0x39e2bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)()>(&::GlobalNamespace::TableViewWithDetailCell::ReloadData)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39f5d4c;
+  constexpr static std::size_t addrs = 0x39e2d9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(int32_t)>(
     &::GlobalNamespace::TableViewWithDetailCell::ReloadData)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39f5d74;
+  constexpr static std::size_t addrs = 0x39e2dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(int32_t)>(
     &::GlobalNamespace::TableViewWithDetailCell::DidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x39f5db0;
+  constexpr static std::size_t addrs = 0x39e2e00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)()>(&::GlobalNamespace::TableViewWithDetailCell::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39f5ee0;
+  constexpr static std::size_t addrs = 0x39e2f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), ".ctor",

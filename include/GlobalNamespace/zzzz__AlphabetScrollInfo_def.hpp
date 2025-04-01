@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_character(char16_t value);
 
-  /// @brief Method .ctor, addr 0x39cebfc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bba94, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(char16_t character, int32_t cellIdx);
 
 protected:
@@ -93,7 +93,7 @@ public:
 
   static inline ::GlobalNamespace::AlphabetScrollInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39cebf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bba8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

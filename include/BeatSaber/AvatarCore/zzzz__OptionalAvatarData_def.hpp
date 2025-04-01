@@ -23,7 +23,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>*();
 
-  /// @brief Method Equals, addr 0x2255334, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x224d4c4, size 0xc0, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::AvatarCore::OptionalAvatarData other);
 
   /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"

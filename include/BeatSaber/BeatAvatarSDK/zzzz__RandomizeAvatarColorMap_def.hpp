@@ -46,14 +46,14 @@ public:
 
   constexpr void __cordl_internal_set__totalIndices_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2260150, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22582e0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex,
                     int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex);
 
-  /// @brief Method get_colorIndices, addr 0x22606d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorIndices, addr 0x2258868, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_colorIndices();
 
-  /// @brief Method get_totalIndices, addr 0x22606d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalIndices, addr 0x2258860, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalIndices();
 
 protected:
@@ -71,7 +71,7 @@ public:
   RandomizeAvatarColorMap(RandomizeAvatarColorMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18162 };
 
   /// @brief Field <totalIndices>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____totalIndices_k__BackingField;

@@ -95,85 +95,85 @@ public:
   /// @brief Field _table, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-  /// @brief Method Add, addr 0x4167394, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4154f54, size 0xc, virtual false, abstract: false, final false
   inline void Add(::System::Data::DataColumn* column);
 
-  /// @brief Method AddAt, addr 0x41673a0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method AddAt, addr 0x4154f60, size 0x25c, virtual false, abstract: false, final false
   inline void AddAt(int32_t index, ::System::Data::DataColumn* column);
 
-  /// @brief Method AddColumnsImplementingIChangeTrackingList, addr 0x4168d10, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddColumnsImplementingIChangeTrackingList, addr 0x41568d0, size 0xcc, virtual false, abstract: false, final false
   inline void AddColumnsImplementingIChangeTrackingList(::System::Data::DataColumn* dataColumn);
 
-  /// @brief Method ArrayAdd, addr 0x416793c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ArrayAdd, addr 0x41554fc, size 0x6c, virtual false, abstract: false, final false
   inline void ArrayAdd(::System::Data::DataColumn* column);
 
-  /// @brief Method ArrayAdd, addr 0x41678fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ArrayAdd, addr 0x41554bc, size 0x40, virtual false, abstract: false, final false
   inline void ArrayAdd(int32_t index, ::System::Data::DataColumn* column);
 
-  /// @brief Method ArrayRemove, addr 0x4167d04, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ArrayRemove, addr 0x41558c4, size 0x130, virtual false, abstract: false, final false
   inline void ArrayRemove(::System::Data::DataColumn* column);
 
-  /// @brief Method AssignName, addr 0x4167f38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AssignName, addr 0x4155af8, size 0x94, virtual false, abstract: false, final false
   inline ::StringW AssignName();
 
-  /// @brief Method BaseAdd, addr 0x4167624, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method BaseAdd, addr 0x41551e4, size 0x2d8, virtual false, abstract: false, final false
   inline void BaseAdd(::System::Data::DataColumn* column);
 
-  /// @brief Method BaseGroupSwitch, addr 0x4168300, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method BaseGroupSwitch, addr 0x4155ec0, size 0x1e0, virtual false, abstract: false, final false
   inline void BaseGroupSwitch(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> oldArray, int32_t oldLength,
                               ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> newArray, int32_t newLength);
 
-  /// @brief Method BaseRemove, addr 0x41684e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method BaseRemove, addr 0x41560a0, size 0xb8, virtual false, abstract: false, final false
   inline void BaseRemove(::System::Data::DataColumn* column);
 
-  /// @brief Method CanRegisterName, addr 0x4169338, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CanRegisterName, addr 0x4156ef8, size 0x64, virtual false, abstract: false, final false
   inline bool CanRegisterName(::StringW name);
 
-  /// @brief Method CanRemove, addr 0x4168598, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method CanRemove, addr 0x4156158, size 0x668, virtual false, abstract: false, final false
   inline bool CanRemove(::System::Data::DataColumn* column, bool fThrowException);
 
-  /// @brief Method CheckIChangeTracking, addr 0x4167cbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CheckIChangeTracking, addr 0x415587c, size 0x48, virtual false, abstract: false, final false
   inline void CheckIChangeTracking(::System::Data::DataColumn* column);
 
-  /// @brief Method Clear, addr 0x4168ddc, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x415699c, size 0x2d4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x41690b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x4156c70, size 0x94, virtual false, abstract: false, final false
   inline bool Contains(::StringW name);
 
-  /// @brief Method Contains, addr 0x4169144, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x4156d04, size 0x9c, virtual false, abstract: false, final false
   inline bool Contains(::StringW name, bool caseSensitive);
 
-  /// @brief Method IndexOf, addr 0x41691e0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x4156da0, size 0x100, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW columnName);
 
-  /// @brief Method IndexOfCaseInsensitive, addr 0x41671a0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method IndexOfCaseInsensitive, addr 0x4154d60, size 0x150, virtual false, abstract: false, final false
   inline int32_t IndexOfCaseInsensitive(::StringW name);
 
-  /// @brief Method MakeName, addr 0x4167fcc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MakeName, addr 0x4155b8c, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW MakeName(int32_t index);
 
   static inline ::System::Data::DataColumnCollection* New_ctor(::System::Data::DataTable* table);
 
-  /// @brief Method OnCollectionChanged, addr 0x41679a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnCollectionChanged, addr 0x4155568, size 0xa4, virtual false, abstract: false, final false
   inline void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-  /// @brief Method OnCollectionChanging, addr 0x41675fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnCollectionChanging, addr 0x41551bc, size 0x28, virtual false, abstract: false, final false
   inline void OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-  /// @brief Method OnColumnPropertyChanged, addr 0x41692e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnColumnPropertyChanged, addr 0x4156ea0, size 0x58, virtual false, abstract: false, final false
   inline void OnColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-  /// @brief Method RegisterColumnName, addr 0x4168084, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RegisterColumnName, addr 0x4155c44, size 0x1c0, virtual false, abstract: false, final false
   inline void RegisterColumnName(::StringW name, ::System::Data::DataColumn* column);
 
-  /// @brief Method Remove, addr 0x416939c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4156f5c, size 0x10c, virtual false, abstract: false, final false
   inline void Remove(::System::Data::DataColumn* column);
 
-  /// @brief Method RemoveColumnsImplementingIChangeTrackingList, addr 0x4167e34, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RemoveColumnsImplementingIChangeTrackingList, addr 0x41559f4, size 0x104, virtual false, abstract: false, final false
   inline void RemoveColumnsImplementingIChangeTrackingList(::System::Data::DataColumn* dataColumn);
 
-  /// @brief Method UnregisterName, addr 0x4168244, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method UnregisterName, addr 0x4155e04, size 0xbc, virtual false, abstract: false, final false
   inline void UnregisterName(::StringW name);
 
   constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& __cordl_internal_get_CollectionChanged() const;
@@ -248,40 +248,40 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x4166dc0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4154980, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table);
 
-  /// @brief Method add_CollectionChanged, addr 0x4167a4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_CollectionChanged, addr 0x415560c, size 0x9c, virtual false, abstract: false, final false
   inline void add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
-  /// @brief Method add_ColumnPropertyChanged, addr 0x4167b84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_ColumnPropertyChanged, addr 0x4155744, size 0x9c, virtual false, abstract: false, final false
   inline void add_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
-  /// @brief Method get_ColumnsImplementingIChangeTracking, addr 0x4166f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnsImplementingIChangeTracking, addr 0x4154ad0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> get_ColumnsImplementingIChangeTracking();
 
-  /// @brief Method get_ColumnsImplementingIChangeTrackingCount, addr 0x4166f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnsImplementingIChangeTrackingCount, addr 0x4154ad8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ColumnsImplementingIChangeTrackingCount();
 
-  /// @brief Method get_ColumnsImplementingIRevertibleChangeTrackingCount, addr 0x4166f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnsImplementingIRevertibleChangeTrackingCount, addr 0x4154ae0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ColumnsImplementingIRevertibleChangeTrackingCount();
 
-  /// @brief Method get_Item, addr 0x4166f28, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4154ae8, size 0x130, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x4167058, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4154c18, size 0x148, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* get_Item(::StringW name);
 
-  /// @brief Method get_Item, addr 0x41672f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4154eb0, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* get_Item(::StringW name, ::StringW ns);
 
-  /// @brief Method get_List, addr 0x4166f08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x4154ac8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
-  /// @brief Method remove_CollectionChanged, addr 0x4167ae8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_CollectionChanged, addr 0x41556a8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
-  /// @brief Method remove_ColumnPropertyChanged, addr 0x4167c20, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_ColumnPropertyChanged, addr 0x41557e0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
 protected:

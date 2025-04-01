@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IndexLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x49f8950, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e6530, size 0x168, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_arrowUssClassName();
@@ -59,7 +59,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_sortOrderLabel, addr 0x49f892c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_sortOrderLabel, addr 0x49e650c, size 0x24, virtual false, abstract: false, final false
   inline void set_sortOrderLabel(::StringW value);
 
 protected:

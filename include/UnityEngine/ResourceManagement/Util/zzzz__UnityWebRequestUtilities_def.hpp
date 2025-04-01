@@ -27,15 +27,15 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE UnityWebRequestUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsAssetBundleDownloaded, addr 0x479f6a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsAssetBundleDownloaded, addr 0x478d280, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* New_ctor();
 
-  /// @brief Method RequestHasErrors, addr 0x47a6484, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RequestHasErrors, addr 0x4794064, size 0x128, virtual false, abstract: false, final false
   static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq, ::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result);
 
-  /// @brief Method .ctor, addr 0x47a66ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479428c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   UnityWebRequestUtilities(UnityWebRequestUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

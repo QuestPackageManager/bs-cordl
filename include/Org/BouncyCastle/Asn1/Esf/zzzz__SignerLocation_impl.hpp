@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x232a67c;
+  constexpr static std::size_t addrs = 0x232280c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x232aa68;
+  constexpr static std::size_t addrs = 0x2322bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Org::BouncyCastle::Asn1::X500::DirectoryString*,
     ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*>)>(&::Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x232ab0c;
+  constexpr static std::size_t addrs = 0x2322c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)(
     ::Org::BouncyCastle::Asn1::DerUtf8String*, ::Org::BouncyCastle::Asn1::DerUtf8String*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x232ab90;
+  constexpr static std::size_t addrs = 0x2322d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignerLocation* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x232abe4;
+  constexpr static std::size_t addrs = 0x2322d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::get_Country)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232ac88;
+  constexpr static std::size_t addrs = 0x2322e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignerLocation*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::get_Locality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232ac90;
+  constexpr static std::size_t addrs = 0x2322e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignerLocation*>::get(),
@@ -126,7 +126,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)()>(
         &::Org::BouncyCastle::Asn1::Esf::SignerLocation::GetPostal)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x232ac98;
+  constexpr static std::size_t addrs = 0x2322e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignerLocation*>::get(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerUtf8String* (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::get_CountryName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x232ad98;
+  constexpr static std::size_t addrs = 0x2322f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignerLocation*>::get(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerUtf8String* (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::get_LocalityName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x232ae0c;
+  constexpr static std::size_t addrs = 0x2322f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignerLocation*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::get_PostalAddress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232ae80;
+  constexpr static std::size_t addrs = 0x2323010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignerLocation*>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SignerLocation::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerLocation::ToAsn1Object)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x232ae88;
+  constexpr static std::size_t addrs = 0x2323018;
 
   inline static ::MethodInfo const* methodInfo() {
 

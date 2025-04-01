@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName, addr 0x4456dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x444496c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_TypeName, addr 0x4456da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x4444964, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:

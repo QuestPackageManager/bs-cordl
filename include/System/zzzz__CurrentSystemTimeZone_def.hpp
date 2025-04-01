@@ -44,19 +44,19 @@ public:
   /// @brief Field m_ticksOffset, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ticksOffset, put = __cordl_internal_set_m_ticksOffset)) int64_t m_ticksOffset;
 
-  /// @brief Method CreateDaylightChanges, addr 0x3dd7b74, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method CreateDaylightChanges, addr 0x3dc5670, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Globalization::DaylightTime* CreateDaylightChanges(int32_t year);
 
-  /// @brief Method GetCachedDaylightChanges, addr 0x3dd7988, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCachedDaylightChanges, addr 0x3dc5484, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetCachedDaylightChanges(int32_t year);
 
-  /// @brief Method GetDaylightChanges, addr 0x3dd78bc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetDaylightChanges, addr 0x3dc53b8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method GetTimeZoneData, addr 0x3dd7fe0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneData, addr 0x3dc5adc, size 0x4, virtual false, abstract: false, final false
   static inline bool GetTimeZoneData(int32_t year, ::ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data, ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> names, ::ByRef<bool> daylight_inverted);
 
-  /// @brief Method GetUtcOffset, addr 0x3dd7e6c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x3dc5968, size 0x100, virtual true, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
   static inline ::System::CurrentSystemTimeZone* New_ctor();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ticksOffset(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3dd77cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc52c8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

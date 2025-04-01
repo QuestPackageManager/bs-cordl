@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DefaultValueTypeConverter::*)()>(&::System::Data::DefaultValueTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x417c13c;
+  constexpr static std::size_t addrs = 0x4169cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DefaultValueTypeConverter*>::get(), ".ctor",
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Data::DefaultValueTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::DefaultValueTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x417c144;
+  constexpr static std::size_t addrs = 0x4169d04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::DefaultValueTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::Data::DefaultValueTypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x417c2f0;
+  constexpr static std::size_t addrs = 0x4169eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 

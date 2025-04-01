@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_runMode(::GlobalNamespace::AppInitSetupData_RunMode value);
 
-  /// @brief Method .ctor, addr 0x2299cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2291e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

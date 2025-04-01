@@ -35,16 +35,16 @@ public:
 
   __declspec(property(get = get_combiningMarkPositionAdjustment)) ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment combiningMarkPositionAdjustment;
 
-  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x492fd44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x491d924, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint get_baseMarkGlyphAnchorPoint();
 
-  /// @brief Method get_baseMarkGlyphID, addr 0x492fd3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphID, addr 0x491d91c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseMarkGlyphID();
 
-  /// @brief Method get_combiningMarkGlyphID, addr 0x492fd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkGlyphID, addr 0x491d92c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_combiningMarkGlyphID();
 
-  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x492fd54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x491d934, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment get_combiningMarkPositionAdjustment();
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
                                        ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_CombiningMarkPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

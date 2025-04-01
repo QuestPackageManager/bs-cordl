@@ -27,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* New_ctor(int32_t value);
 
-  /// @brief Method ValueOf, addr 0x2319c7c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ValueOf, addr 0x2311e0c, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* ValueOf(int32_t value);
 
-  /// @brief Method .ctor, addr 0x231b558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23136e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* getStaticF_challengeResp();

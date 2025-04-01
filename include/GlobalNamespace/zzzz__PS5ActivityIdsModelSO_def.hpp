@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__progressActivities(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> value);
 
-  /// @brief Method .ctor, addr 0x26ef7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e7e30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_competetiveActivities, addr 0x26ef7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_competetiveActivities, addr 0x26e7e28, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> get_competetiveActivities();
 
-  /// @brief Method get_progressActivities, addr 0x26ef7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progressActivities, addr 0x26e7e20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> get_progressActivities();
 
 protected:
@@ -77,7 +77,7 @@ public:
   PS5ActivityIdsModelSO(PS5ActivityIdsModelSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13167 };
 
   /// @brief Field _progressActivities, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> ____progressActivities;

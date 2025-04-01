@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::DateTimeResult::Init)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3df199c;
+  constexpr static std::size_t addrs = 0x3ddf498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(int32_t, int32_t, int32_t)>(&::System::DateTimeResult::SetDate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3df19c0;
+  constexpr static std::size_t addrs = 0x3ddf4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)()>(&::System::DateTimeResult::SetBadFormatSpecifierFailure)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3df19cc;
+  constexpr static std::size_t addrs = 0x3ddf4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::DateTimeResult>::get(), "SetBadFormatSpecifierFailure",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::DateTimeResult::SetBadFormatSpecifierFailure)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3df1a60;
+  constexpr static std::size_t addrs = 0x3ddf55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)()>(&::System::DateTimeResult::SetBadDateTimeFailure)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3df1ac4;
+  constexpr static std::size_t addrs = 0x3ddf5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::DateTimeResult>::get(), "SetBadDateTimeFailure",
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW)>(&::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3df1b14;
+  constexpr static std::size_t addrs = 0x3ddf610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW, ::System::Object*)>(
     &::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3df1b20;
+  constexpr static std::size_t addrs = 0x3ddf61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW, ::System::Object*, ::StringW)>(
     &::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3df1b2c;
+  constexpr static std::size_t addrs = 0x3ddf628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

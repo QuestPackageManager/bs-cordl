@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Data::SyntaxErrorException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x418963c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41771fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4189634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41771f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4189644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4177204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

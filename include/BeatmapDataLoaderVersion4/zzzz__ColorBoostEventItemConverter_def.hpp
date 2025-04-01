@@ -38,7 +38,7 @@ public:
                       put = __cordl_internal_set__colorBoostEvents)) ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>
       _colorBoostEvents;
 
-  /// @brief Method Convert, addr 0x2712124, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270a768, size 0x130, virtual false, abstract: false, final false
   inline void Convert(::BeatmapSaveDataVersion4::BeatIndex* index, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
 
-  /// @brief Method .ctor, addr 0x2711fac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a5f0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -68,7 +68,7 @@ public:
   ColorBoostEventItemConverter(ColorBoostEventItemConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13485 };
 
   /// @brief Field _colorBoostEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> ____colorBoostEvents;

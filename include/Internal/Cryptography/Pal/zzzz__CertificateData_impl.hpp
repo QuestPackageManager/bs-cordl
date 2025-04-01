@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)(int32_t)>(
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x412a588;
+  constexpr static std::size_t addrs = 0x4118148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x412a5bc;
+  constexpr static std::size_t addrs = 0x411817c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x412a5c0;
+  constexpr static std::size_t addrs = 0x4118180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x412a850;
+  constexpr static std::size_t addrs = 0x4118410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x412a85c;
+  constexpr static std::size_t addrs = 0x411841c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x412a894;
+  constexpr static std::size_t addrs = 0x4118454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::
         System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x412a8f0;
+  constexpr static std::size_t addrs = 0x41184b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(
     &::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x412a98c;
+  constexpr static std::size_t addrs = 0x411854c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Cryptography::Pal::CertificateData::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Internal::Cryptography::Pal::CertificateData::_ctor)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x412916c;
+  constexpr static std::size_t addrs = 0x4116d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Internal::Cryptography::Pal::CertificateData::*)(
     ::System::Security::Cryptography::X509Certificates::X509NameType, bool)>(&::Internal::Cryptography::Pal::CertificateData::GetNameInfo)> {
   constexpr static std::size_t size = 0x66c;
-  constexpr static std::size_t addrs = 0x4129894;
+  constexpr static std::size_t addrs = 0x4117454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*)>(
     &::Internal::Cryptography::Pal::CertificateData::GetSimpleNameInfo)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x4129f00;
+  constexpr static std::size_t addrs = 0x4117ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Internal::Cryptography::Pal::GeneralNameType, ::StringW)>(
     &::Internal::Cryptography::Pal::CertificateData::FindAltNameMatch)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x412a358;
+  constexpr static std::size_t addrs = 0x4117f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<
     ::StringW, ::StringW>>* (*)(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*)>(&::Internal::Cryptography::Pal::CertificateData::ReadReverseRdns)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x412a518;
+  constexpr static std::size_t addrs = 0x41180d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

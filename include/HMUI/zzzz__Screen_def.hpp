@@ -82,21 +82,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x228ef20, size 0x530, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22870b0, size 0x530, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::Screen__TransitionCoroutine_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x228f4e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2287674, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x228f4ec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x228767c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x228f524, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22876b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x228ef1c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22870ac, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_newRootViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228eee0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2287070, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -241,13 +241,13 @@ public:
 
   static inline ::HMUI::Screen* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x228ef08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2287098, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetRootViewController, addr 0x228c094, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetRootViewController, addr 0x2284224, size 0xd0, virtual false, abstract: false, final false
   inline void SetRootViewController(::HMUI::ViewController* newRootViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method TransitionCoroutine, addr 0x228ee6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TransitionCoroutine, addr 0x2286ffc, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* TransitionCoroutine(::HMUI::ViewController* newRootViewController, ::HMUI::ViewController_AnimationType animationType);
 
   constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
@@ -262,10 +262,10 @@ public:
 
   constexpr void __cordl_internal_set__rootViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228ef14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22870a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isBeingDestroyed, addr 0x228ee64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isBeingDestroyed, addr 0x2286ff4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isBeingDestroyed();
 
 protected:

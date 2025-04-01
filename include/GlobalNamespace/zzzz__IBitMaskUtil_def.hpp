@@ -23,13 +23,13 @@ public:
   /// @brief Method FromBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method GetBase64Char, addr 0x2724d18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Char, addr 0x271d35c, size 0x44, virtual false, abstract: false, final false
   static inline char16_t GetBase64Char(uint64_t digit);
 
-  /// @brief Method GetBase64Digit, addr 0x2724cac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Digit, addr 0x271d2f0, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t GetBase64Digit(char16_t c);
 
-  /// @brief Method GetHexDigit, addr 0x2724c5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetHexDigit, addr 0x271d2a0, size 0x50, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);
 
   /// @brief Method NumberOfSetBits, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

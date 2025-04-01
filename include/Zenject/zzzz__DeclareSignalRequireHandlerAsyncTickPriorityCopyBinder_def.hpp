@@ -26,16 +26,16 @@ public:
   // Declarations
   static inline ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method OptionalSubscriber, addr 0x4b079f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OptionalSubscriber, addr 0x4af55e4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriber();
 
-  /// @brief Method OptionalSubscriberWithWarning, addr 0x4b07a0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OptionalSubscriberWithWarning, addr 0x4af5600, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriberWithWarning();
 
-  /// @brief Method RequireSubscriber, addr 0x4b079d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RequireSubscriber, addr 0x4af55c4, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* RequireSubscriber();
 
-  /// @brief Method .ctor, addr 0x4b07990, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af5584, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
 protected:

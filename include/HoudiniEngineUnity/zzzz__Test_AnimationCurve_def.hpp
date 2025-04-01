@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3aa8aa4, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a95b78, size 0xe0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_AnimationCurve* other);
 
-  /// @brief Method IsNull, addr 0x3aa8a94, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a95b68, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x3aa8a6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a95b40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"

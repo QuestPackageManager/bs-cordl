@@ -89,7 +89,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x40207e0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x400e398, size 0x98, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -135,7 +135,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x4020878, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x400e430, size 0x7c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -188,7 +188,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x40208f4, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x400e4ac, size 0x22c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -240,7 +240,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x4020b20, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x400e6d8, size 0x68, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -323,21 +323,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4020ba4, size 0x57c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x400e75c, size 0x57c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4021170, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x400ed28, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4021178, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x400ed30, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40211b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x400ed68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4020b88, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x400e740, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -394,10 +394,10 @@ public:
 
   constexpr void __cordl_internal_set__sceneAnchor_5__2(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  /// @brief Method <>m__Finally1, addr 0x4021120, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x400ecd8, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4020774, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400e32c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -505,15 +505,15 @@ public:
   /// @brief Field _meshFilter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Method CreateVolumeMesh, addr 0x4020714, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateVolumeMesh, addr 0x400e2cc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CreateVolumeMesh();
 
-  /// @brief Method IsJobDone, addr 0x402079c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsJobDone, addr 0x400e354, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsJobDone(::Unity::Jobs::JobHandle job);
 
   static inline ::GlobalNamespace::OVRSceneVolumeMeshFilter* New_ctor();
 
-  /// @brief Method Start, addr 0x4020648, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x400e200, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__IsCompleted_k__BackingField() const;
@@ -534,13 +534,13 @@ public:
 
   constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  /// @brief Method .ctor, addr 0x40207d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400e390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsCompleted, addr 0x4020634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x400e1ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method set_IsCompleted, addr 0x402063c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompleted, addr 0x400e1f4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
 protected:

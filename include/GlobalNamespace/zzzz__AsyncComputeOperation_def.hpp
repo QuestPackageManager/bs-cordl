@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__timeoutMs(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22bda90, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5c20, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method get_elapsedTime, addr 0x22bd9dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_elapsedTime, addr 0x22b5b6c, size 0x84, virtual false, abstract: false, final false
   inline double_t get_elapsedTime();
 
-  /// @brief Method get_hasTimedOut, addr 0x22bda60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hasTimedOut, addr 0x22b5bf0, size 0x30, virtual false, abstract: false, final false
   inline bool get_hasTimedOut();
 
 protected:
@@ -74,7 +74,7 @@ public:
   AsyncComputeOperation(AsyncComputeOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14685 };
 
   /// @brief Field _timeoutMs, offset: 0x10, size: 0x4, def value: None
   int32_t ____timeoutMs;

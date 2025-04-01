@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::SetProperty)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39f43b0;
+  constexpr static std::size_t addrs = 0x39e1400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f4408;
+  constexpr static std::size_t addrs = 0x39e1458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

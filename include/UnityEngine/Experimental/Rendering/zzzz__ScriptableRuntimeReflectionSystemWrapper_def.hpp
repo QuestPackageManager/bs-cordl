@@ -27,7 +27,7 @@ public:
 
   __declspec(property(get = get_implementation, put = set_implementation)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
 
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x48dd978, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x48cb558, size 0xc0, virtual false, abstract: false, final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(::ByRef<bool> result);
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method .ctor, addr 0x48dd960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cb540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_implementation, addr 0x48dd968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_implementation, addr 0x48cb548, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
-  /// @brief Method set_implementation, addr 0x48dd970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_implementation, addr 0x48cb550, size 0x8, virtual false, abstract: false, final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:

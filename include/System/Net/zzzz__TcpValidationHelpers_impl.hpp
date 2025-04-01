@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Net::TcpValidationHelpers::ValidatePortNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x449a148;
+  constexpr static std::size_t addrs = 0x4487d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

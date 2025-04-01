@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::PlayerSensitivityFlag, ::StringW>*>* (::GlobalNamespace::PlayerSensitivityDropdown::*)()>(
         &::GlobalNamespace::PlayerSensitivityDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3c1b528;
+  constexpr static std::size_t addrs = 0x3c09024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSensitivityDropdown::*)()>(&::GlobalNamespace::PlayerSensitivityDropdown::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c1b650;
+  constexpr static std::size_t addrs = 0x3c0914c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSensitivityDropdown*>::get(), ".ctor",

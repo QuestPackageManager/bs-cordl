@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogate::GetObjectData)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3cff1e8;
+  constexpr static std::size_t addrs = 0x3cecce4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::RemotingSurrogate::*)(::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext,
                                                                   ::System::Runtime::Serialization::ISurrogateSelector*)>(&::System::Runtime::Remoting::Messaging::RemotingSurrogate::SetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3cff2f8;
+  constexpr static std::size_t addrs = 0x3cecdf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::RemotingSurrogate::*)()>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cff330;
+  constexpr static std::size_t addrs = 0x3cece2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

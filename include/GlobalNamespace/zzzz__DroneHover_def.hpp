@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad9104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac6578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -137,21 +137,21 @@ public:
   __declspec(property(get = __cordl_internal_get__tiltTransforms,
                       put = __cordl_internal_set__tiltTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _tiltTransforms;
 
-  /// @brief Method GetNoise, addr 0x3ad8ff4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x3ac6468, size 0xf4, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
-  /// @brief Method GetNoiseVec3, addr 0x3ad8cb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetNoiseVec3, addr 0x3ac6128, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
   static inline ::GlobalNamespace::DroneHover* New_ctor();
 
-  /// @brief Method Start, addr 0x3ad8b6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ac5fe0, size 0x30, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ad8b9c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ac6010, size 0x118, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTiltTransform, addr 0x3ad8d30, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTiltTransform, addr 0x3ac61a4, size 0x2c4, virtual false, abstract: false, final false
   inline void UpdateTiltTransform();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set__tiltTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method .ctor, addr 0x3ad90e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac655c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

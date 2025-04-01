@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3d20e60, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3d0e95c, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method IncreaseCapacity, addr 0x3d20eb8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x3d0e9b4, size 0x218, virtual false, abstract: false, final false
   inline void IncreaseCapacity(int32_t index);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* New_ctor();
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set_objects(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3d19da0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0789c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d20d84, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0e880, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* sizedArray);
 
-  /// @brief Method get_Item, addr 0x3d19e08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3d07904, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Item, addr 0x3d19e80, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3d0797c, size 0xb8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, int32_t value);
 
 protected:

@@ -113,19 +113,19 @@ public:
 
   static inline ::GlobalNamespace::CreditsController___c* New_ctor();
 
-  /// @brief Method <OnDestroy>b__16_0, addr 0x2262f20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnDestroy>b__16_0, addr 0x225b0b0, size 0x18, virtual false, abstract: false, final false
   inline bool _OnDestroy_b__16_0(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <StartAsync>b__15_0, addr 0x2262e58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <StartAsync>b__15_0, addr 0x225afe8, size 0x18, virtual false, abstract: false, final false
   inline bool _StartAsync_b__15_0(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <StartAsync>b__15_1, addr 0x2262e70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <StartAsync>b__15_1, addr 0x225b000, size 0x20, virtual false, abstract: false, final false
   inline int32_t _StartAsync_b__15_1(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <StartAsync>b__15_2, addr 0x2262e90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <StartAsync>b__15_2, addr 0x225b020, size 0x90, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>* _StartAsync_b__15_2(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method .ctor, addr 0x2262e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225afe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::CreditsController___c* getStaticF___9();
@@ -163,7 +163,7 @@ public:
   CreditsController___c(CreditsController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -212,21 +212,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2262f3c, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225b0cc, size 0x220, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::CreditsController__ScrollCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226315c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x225b2ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2263164, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x225b2f4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226319c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x225b32c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2262f38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x225b0c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -271,7 +271,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollingSpeed_5__5(float_t value);
 
-  /// @brief Method .ctor, addr 0x2262770, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225a900, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -298,7 +298,7 @@ public:
   CreditsController__ScrollCoroutine_d__18(CreditsController__ScrollCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18811 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -351,10 +351,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22631a4, size 0x89c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225b334, size 0x89c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2263a40, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x225bbd0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -373,7 +373,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18812 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -465,45 +465,45 @@ public:
   /// @brief Field anchor, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_anchor, put = setStaticF_anchor)) ::UnityEngine::Vector2 anchor;
 
-  /// @brief Method Finish, addr 0x2262424, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x225a5b4, size 0x2ec, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method HandleHmdMounted, addr 0x2262850, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdMounted, addr 0x225a9e0, size 0x2c, virtual false, abstract: false, final false
   inline void HandleHmdMounted();
 
-  /// @brief Method HandleHmdUnmounted, addr 0x226287c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdUnmounted, addr 0x225aa0c, size 0x30, virtual false, abstract: false, final false
   inline void HandleHmdUnmounted();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x2262798, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x225a928, size 0x30, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x22627f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x225a988, size 0x2c, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::CreditsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2261d9c, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2259f2c, size 0x688, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PauseCredits, addr 0x22627c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PauseCredits, addr 0x225a958, size 0x30, virtual false, abstract: false, final false
   inline void PauseCredits();
 
-  /// @brief Method ScrollCoroutine, addr 0x2262710, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ScrollCoroutine, addr 0x225a8a0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ScrollCoroutine();
 
-  /// @brief Method SpawnAllCredits, addr 0x22628ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SpawnAllCredits, addr 0x225aa3c, size 0x98, virtual false, abstract: false, final false
   inline void SpawnAllCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* musicPackCredits);
 
-  /// @brief Method SpawnCredits, addr 0x2262944, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method SpawnCredits, addr 0x225aad4, size 0x450, virtual false, abstract: false, final false
   inline float_t SpawnCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* creditsToSpawn, float_t initialHeight);
 
-  /// @brief Method Start, addr 0x2261c5c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2259dec, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartAsync, addr 0x2261cdc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StartAsync, addr 0x2259e6c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartAsync();
 
-  /// @brief Method UnpauseCredits, addr 0x2262824, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UnpauseCredits, addr 0x225a9b4, size 0x2c, virtual false, abstract: false, final false
   inline void UnpauseCredits();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__afterMusicPacksCredits() const;
@@ -584,7 +584,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x2262d94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225af24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_anchor();
@@ -606,7 +606,7 @@ public:
   CreditsController(CreditsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18813 };
 
   /// @brief Field _creditsSceneSetupDataSO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> ____creditsSceneSetupDataSO;

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeStringFormatter___c::*)()>(&::ModestTree::TypeStringFormatter___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b03d78;
+  constexpr static std::size_t addrs = 0x4af196c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeStringFormatter___c*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ModestTree::TypeStringFormatter___c::*)(::System::Type*)>(
     &::ModestTree::TypeStringFormatter___c::_PrettyNameInternal_b__2_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b03d80;
+  constexpr static std::size_t addrs = 0x4af1974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::ModestTree::TypeStringFormatter::PrettyName)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4b01c44;
+  constexpr static std::size_t addrs = 0x4aef838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::ModestTree::TypeStringFormatter::PrettyNameInternal)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x4b03524;
+  constexpr static std::size_t addrs = 0x4af1118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::ModestTree::TypeStringFormatter::GetCSharpTypeName)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x4b03978;
+  constexpr static std::size_t addrs = 0x4af156c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

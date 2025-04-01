@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* (*)()>(
     &::Oculus::Platform::UserAgeCategory::Get)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f994ec;
+  constexpr static std::size_t addrs = 0x3f870a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::UserAgeCategory*>::get(), "Get",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::AppAgeCategory)>(&::Oculus::Platform::UserAgeCategory::Report)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3f9963c;
+  constexpr static std::size_t addrs = 0x3f871f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)(
     ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>*)>(&::GlobalNamespace::HowToPlayViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c296e8;
+  constexpr static std::size_t addrs = 0x3c171e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)(
     ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>*)>(&::GlobalNamespace::HowToPlayViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c29798;
+  constexpr static std::size_t addrs = 0x3c17294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::HowToPlayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3c29848;
+  constexpr static std::size_t addrs = 0x3c17344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)()>(&::GlobalNamespace::HowToPlayViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c29948;
+  constexpr static std::size_t addrs = 0x3c17444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HowToPlayViewController*>::get(), ".ctor",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)()>(
     &::GlobalNamespace::HowToPlayViewController::_DidActivate_b__6_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c29950;
+  constexpr static std::size_t addrs = 0x3c1744c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HowToPlayViewController*>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)()>(
     &::GlobalNamespace::HowToPlayViewController::_DidActivate_b__6_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c29970;
+  constexpr static std::size_t addrs = 0x3c1746c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HowToPlayViewController*>::get(),

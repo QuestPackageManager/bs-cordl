@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a3ea80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2c660, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3ea78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerDownEvent___c* getStaticF___9();
@@ -76,18 +76,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerDownEvent___c;
 
-  /// @brief Method Init, addr 0x4a3e5f4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2c1d4, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a3e644, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a2c224, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x4a3e798, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a2c378, size 0x284, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a3e748, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c328, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -49,27 +49,27 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x422c8cc, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x421a48c, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x422c980, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x421a540, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x422c8c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x421a484, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x422cde4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x421a9a4, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x422cd34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x421a8f4, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
 
-  /// @brief Method TryParse, addr 0x422ca10, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x421a5d0, size 0xec, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x422cafc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x421a6bc, size 0x1e8, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue,
                                      ::ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -85,15 +85,15 @@ public:
 
   constexpr void __cordl_internal_set__Tag_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x422c898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421a458, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any();
 
-  /// @brief Method get_IsWeak, addr 0x422c8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsWeak, addr 0x421a460, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsWeak();
 
-  /// @brief Method get_Tag, addr 0x422c8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x421a474, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
   /// @brief Convert to "::System::ICloneable"
@@ -101,10 +101,10 @@ public:
 
   static inline void setStaticF_any(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method set_IsWeak, addr 0x422c8a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsWeak, addr 0x421a468, size 0xc, virtual false, abstract: false, final false
   inline void set_IsWeak(bool value);
 
-  /// @brief Method set_Tag, addr 0x422c8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tag, addr 0x421a47c, size 0x8, virtual false, abstract: false, final false
   inline void set_Tag(::StringW value);
 
 protected:

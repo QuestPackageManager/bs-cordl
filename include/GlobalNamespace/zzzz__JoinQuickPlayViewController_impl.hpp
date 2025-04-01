@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::JoinQuickPlayViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7afe0;
+  constexpr static std::size_t addrs = 0x3b68078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::JoinQuickPlayViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7b090;
+  constexpr static std::size_t addrs = 0x3b68128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerModeSettings* (::GlobalNamespace::JoinQuickPlayViewController::*)()>(
     &::GlobalNamespace::JoinQuickPlayViewController::get_multiplayerModeSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7b140;
+  constexpr static std::size_t addrs = 0x3b681d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JoinQuickPlayViewController*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)(
     ::GlobalNamespace::QuickPlaySetupData*, ::GlobalNamespace::MultiplayerModeSettings*)>(&::GlobalNamespace::JoinQuickPlayViewController::Setup)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b7b148;
+  constexpr static std::size_t addrs = 0x3b681e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::JoinQuickPlayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3b7b1d8;
+  constexpr static std::size_t addrs = 0x3b68270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)(bool)>(
     &::GlobalNamespace::JoinQuickPlayViewController::ButtonPressed)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b7b2f8;
+  constexpr static std::size_t addrs = 0x3b68390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)()>(&::GlobalNamespace::JoinQuickPlayViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7b384;
+  constexpr static std::size_t addrs = 0x3b6841c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JoinQuickPlayViewController*>::get(), ".ctor",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)()>(
     &::GlobalNamespace::JoinQuickPlayViewController::_DidActivate_b__12_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7b38c;
+  constexpr static std::size_t addrs = 0x3b68424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JoinQuickPlayViewController*>::get(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoinQuickPlayViewController::*)()>(
     &::GlobalNamespace::JoinQuickPlayViewController::_DidActivate_b__12_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7b394;
+  constexpr static std::size_t addrs = 0x3b6842c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JoinQuickPlayViewController*>::get(),

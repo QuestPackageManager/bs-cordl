@@ -36,49 +36,49 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method Create, addr 0x486bbac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x485978c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name, ::UnityEngine::AudioSource* target);
 
-  /// @brief Method GetEvaluateOnSeek, addr 0x486bfd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetEvaluateOnSeek, addr 0x4859bb4, size 0x3c, virtual false, abstract: false, final false
   inline bool GetEvaluateOnSeek();
 
-  /// @brief Method GetHandle, addr 0x486be88, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x4859a68, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
-  /// @brief Method GetTarget, addr 0x486bf18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x4859af8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> GetTarget();
 
-  /// @brief Method InternalGetEvaluateOnSeek, addr 0x486c010, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetEvaluateOnSeek, addr 0x4859bf0, size 0x3c, virtual false, abstract: false, final false
   static inline bool InternalGetEvaluateOnSeek(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> output);
 
-  /// @brief Method InternalGetTarget, addr 0x486bf54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetTarget, addr 0x4859b34, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioSource> InternalGetTarget(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> output);
 
-  /// @brief Method InternalSetEvaluateOnSeek, addr 0x486c090, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalSetEvaluateOnSeek, addr 0x4859c70, size 0x44, virtual false, abstract: false, final false
   static inline void InternalSetEvaluateOnSeek(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> output, bool value);
 
-  /// @brief Method InternalSetTarget, addr 0x486bf90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalSetTarget, addr 0x4859b70, size 0x44, virtual false, abstract: false, final false
   static inline void InternalSetTarget(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> output, ::UnityEngine::AudioSource* target);
 
-  /// @brief Method SetEvaluateOnSeek, addr 0x486c04c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetEvaluateOnSeek, addr 0x4859c2c, size 0x44, virtual false, abstract: false, final false
   inline void SetEvaluateOnSeek(bool value);
 
-  /// @brief Method SetTarget, addr 0x486be44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetTarget, addr 0x4859a24, size 0x44, virtual false, abstract: false, final false
   inline void SetTarget(::UnityEngine::AudioSource* value);
 
-  /// @brief Method .ctor, addr 0x486bd54, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4859934, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
-  /// @brief Method get_Null, addr 0x486bcd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x48598b8, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioPlayableOutput get_Null();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
   constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
-  /// @brief Method op_Explicit, addr 0x486be94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x4859a74, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioPlayableOutput op_Explicit___UnityEngine__Audio__AudioPlayableOutput(::UnityEngine::Playables::PlayableOutput output);
 
-  /// @brief Method op_Implicit, addr 0x486bc54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4859834, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Audio::AudioPlayableOutput output);
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
   constexpr AudioPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17938 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -70,10 +70,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method OnAfterDeserialize, addr 0x4ab178c, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x4a9f36c, size 0x188, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x4ab1788, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x4a9f368, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_Classes() const;
@@ -124,25 +124,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  /// @brief Method get_classes, addr 0x4ab1668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_classes, addr 0x4a9f248, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_classes();
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x4ab16e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheetPaths, addr 0x4a9f2c8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_hasStylesheets, addr 0x4ab1770, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheets, addr 0x4a9f350, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method get_ruleIndex, addr 0x4ab1660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ruleIndex, addr 0x4a9f240, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_skipClone, addr 0x4ab1780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skipClone, addr 0x4a9f360, size 0x8, virtual false, abstract: false, final false
   inline bool get_skipClone();
 
-  /// @brief Method get_stylesheetPaths, addr 0x4ab1670, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheetPaths, addr 0x4a9f250, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_stylesheets, addr 0x4ab16f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x4a9f2d8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

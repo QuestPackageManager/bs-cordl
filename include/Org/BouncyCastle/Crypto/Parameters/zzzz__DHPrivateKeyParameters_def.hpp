@@ -36,13 +36,13 @@ public:
   /// @brief Field x, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::Org::BouncyCastle::Math::BigInteger* x;
 
-  /// @brief Method Equals, addr 0x23be0ac, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x23b623c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x23be148, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x23b62d8, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x23be1a0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x23b6330, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x23be038, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b61c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x23be060, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b61f0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method get_X, addr 0x23be0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x23b6234, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
 protected:

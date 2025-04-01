@@ -10,12 +10,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableCellWithSeparator::*)(::HMUI::ITableCellOwner*, int32_t)>(
     &::GlobalNamespace::TableCellWithSeparator::TableViewSetup)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39f563c;
+  constexpr static std::size_t addrs = 0x39e268c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableCellWithSeparator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableCellWithSeparator*>::get(), 17));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableCellWithSeparator*>::get(), 28));
     return ___internal_method;
   }
 };
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableCellWithSeparator::*)()>(&::GlobalNamespace::TableCellWithSeparator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f5720;
+  constexpr static std::size_t addrs = 0x39e2770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableCellWithSeparator*>::get(), ".ctor",
@@ -46,7 +46,7 @@ constexpr void GlobalNamespace::TableCellWithSeparator::__cordl_internal_set__se
 }
 inline void GlobalNamespace::TableCellWithSeparator::TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableCellWithSeparator*>::get(), 17)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableCellWithSeparator*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tableCellOwner, idx);
 }
 inline void GlobalNamespace::TableCellWithSeparator::_ctor() {

@@ -69,20 +69,20 @@ public:
 
   constexpr void __cordl_internal_set_staticPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x23c494c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bcadc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method .ctor, addr 0x23c4954, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bcae4, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey,
                     ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_EphemeralPrivateKey, addr 0x23c4b38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPrivateKey, addr 0x23bccc8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-  /// @brief Method get_EphemeralPublicKey, addr 0x23c4b40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0x23bccd0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
-  /// @brief Method get_StaticPrivateKey, addr 0x23c4b30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPrivateKey, addr 0x23bccc0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

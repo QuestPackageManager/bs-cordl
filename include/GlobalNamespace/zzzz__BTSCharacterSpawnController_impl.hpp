@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::get_isCharacterVisible)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2266fa4;
+  constexpr static std::size_t addrs = 0x225f134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::get_isSpawned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2266fbc;
+  constexpr static std::size_t addrs = 0x225f14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::Start)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x2266fc4;
+  constexpr static std::size_t addrs = 0x225f154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(), "Start",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::OnDestroy)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x22673e8;
+  constexpr static std::size_t addrs = 0x225f578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)(::GlobalNamespace::BTSCharacter*)>(
     &::GlobalNamespace::BTSCharacterSpawnController::HandleStartCharacterAnimation)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2267884;
+  constexpr static std::size_t addrs = 0x225fa14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidPause)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x226792c;
+  constexpr static std::size_t addrs = 0x225fabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseWillResume)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x226796c;
+  constexpr static std::size_t addrs = 0x225fafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidResume)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22679b0;
+  constexpr static std::size_t addrs = 0x225fb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::HandleLevelEndActionsLevelFailed)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22679d8;
+  constexpr static std::size_t addrs = 0x225fb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(
     &::GlobalNamespace::BTSCharacterSpawnController::HandleAnimationFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2267a00;
+  constexpr static std::size_t addrs = 0x225fb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(),
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2267a08;
+  constexpr static std::size_t addrs = 0x225fb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnController*>::get(), ".ctor",

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRPlayerController::add_TransformUpdated)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x404afd8;
+  constexpr static std::size_t addrs = 0x4038b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRPlayerController::remove_TransformUpdated)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x404b088;
+  constexpr static std::size_t addrs = 0x4038c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action*)>(
     &::GlobalNamespace::OVRPlayerController::add_CameraUpdated)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x404b138;
+  constexpr static std::size_t addrs = 0x4038cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action*)>(
     &::GlobalNamespace::OVRPlayerController::remove_CameraUpdated)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x404b1d4;
+  constexpr static std::size_t addrs = 0x4038d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action*)>(
     &::GlobalNamespace::OVRPlayerController::add_PreCharacterMove)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x404b270;
+  constexpr static std::size_t addrs = 0x4038e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action*)>(
     &::GlobalNamespace::OVRPlayerController::remove_PreCharacterMove)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x404b30c;
+  constexpr static std::size_t addrs = 0x4038ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRPlayerController::*)()>(
     &::GlobalNamespace::OVRPlayerController::get_InitialYRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404b3a8;
+  constexpr static std::size_t addrs = 0x4038f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(float_t)>(
     &::GlobalNamespace::OVRPlayerController::set_InitialYRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404b3b0;
+  constexpr static std::size_t addrs = 0x4038f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::Start)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x404b3b8;
+  constexpr static std::size_t addrs = 0x4038f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Start",
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::Awake)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x404b47c;
+  constexpr static std::size_t addrs = 0x4039034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Awake",
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x404b658;
+  constexpr static std::size_t addrs = 0x4039210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "OnEnable",
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::OnDisable)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x404b65c;
+  constexpr static std::size_t addrs = 0x4039214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "OnDisable",
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::Update)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x404b7f0;
+  constexpr static std::size_t addrs = 0x40393a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Update",
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::UpdateController)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x404b9dc;
+  constexpr static std::size_t addrs = 0x4039594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::UpdateMovement)> {
   constexpr static std::size_t size = 0xca4;
-  constexpr static std::size_t addrs = 0x404c104;
+  constexpr static std::size_t addrs = 0x4039cbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::GlobalNamespace::OVRCameraRig*)>(
     &::GlobalNamespace::OVRPlayerController::UpdateTransform)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x404cda8;
+  constexpr static std::size_t addrs = 0x403a960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::Jump)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x404cf30;
+  constexpr static std::size_t addrs = 0x403aae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Jump",
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::Stop)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x404cfb4;
+  constexpr static std::size_t addrs = 0x403ab6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Stop",
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlayerController::GetMoveScaleMultiplier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x404d05c;
+  constexpr static std::size_t addrs = 0x403ac14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(float_t)>(
     &::GlobalNamespace::OVRPlayerController::SetMoveScaleMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404d068;
+  constexpr static std::size_t addrs = 0x403ac20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::ByRef<float_t>)>(
     &::GlobalNamespace::OVRPlayerController::GetRotationScaleMultiplier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x404d070;
+  constexpr static std::size_t addrs = 0x403ac28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(float_t)>(
     &::GlobalNamespace::OVRPlayerController::SetRotationScaleMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404d07c;
+  constexpr static std::size_t addrs = 0x403ac34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::ByRef<bool>)>(
     &::GlobalNamespace::OVRPlayerController::GetSkipMouseRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x404d084;
+  constexpr static std::size_t addrs = 0x403ac3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(bool)>(
     &::GlobalNamespace::OVRPlayerController::SetSkipMouseRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x404d090;
+  constexpr static std::size_t addrs = 0x403ac48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::ByRef<bool>)>(
     &::GlobalNamespace::OVRPlayerController::GetHaltUpdateMovement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x404d09c;
+  constexpr static std::size_t addrs = 0x403ac54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(bool)>(
     &::GlobalNamespace::OVRPlayerController::SetHaltUpdateMovement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x404d0a8;
+  constexpr static std::size_t addrs = 0x403ac60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::ResetOrientation)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x404d0b4;
+  constexpr static std::size_t addrs = 0x403ac6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(),
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)()>(&::GlobalNamespace::OVRPlayerController::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x404d178;
+  constexpr static std::size_t addrs = 0x403ad30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), ".ctor",

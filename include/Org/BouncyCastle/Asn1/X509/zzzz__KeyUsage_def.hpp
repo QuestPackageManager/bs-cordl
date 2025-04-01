@@ -29,23 +29,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CORDL_TYPE KeyUsage : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
-  /// @brief Method FromExtensions, addr 0x260f488, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x2607618, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetInstance, addr 0x260f2e0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2607470, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method ToString, addr 0x260f564, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26076f4, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x260f3f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2607584, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor, addr 0x260f4fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260768c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:

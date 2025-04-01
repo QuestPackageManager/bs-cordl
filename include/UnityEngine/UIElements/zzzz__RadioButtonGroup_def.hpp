@@ -72,7 +72,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a10b88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fe768, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   /// @brief Field m_Choices, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Choices, put = __cordl_internal_set_m_Choices)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Choices;
 
-  /// @brief Method Init, addr 0x4a10bd0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49fe7b0, size 0x134, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits* New_ctor();
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Choices(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4a10d04, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fe8e4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,19 +190,19 @@ public:
 
   static inline ::UnityEngine::UIElements::RadioButtonGroup* New_ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices);
 
-  /// @brief Method RadioButtonValueChangedCallback, addr 0x4a1061c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RadioButtonValueChangedCallback, addr 0x49fe1fc, size 0xf8, virtual false, abstract: false, final false
   inline void RadioButtonValueChangedCallback(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4a10714, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x49fe2f4, size 0x60, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x4a10774, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x49fe354, size 0x200, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionAdded(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x4a10974, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x49fe554, size 0x174, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionRemoved(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UpdateRadioButtons, addr 0x4a101d8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method UpdateRadioButtons, addr 0x49fddb8, size 0x1ec, virtual false, abstract: false, final false
   inline void UpdateRadioButtons();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_RadioButtonContainer() const;
@@ -223,17 +223,17 @@ public:
 
   constexpr void __cordl_internal_set_m_RadioButtons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::RadioButton*>* value);
 
-  /// @brief Method .ctor, addr 0x4a103d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fdfb4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a103e0, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fdfc0, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices);
 
   static inline ::StringW getStaticF_containerUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_contentContainer, addr 0x4a103c4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x49fdfa4, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
@@ -243,7 +243,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_choices, addr 0x4a0fb30, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method set_choices, addr 0x49fd710, size 0x6a8, virtual false, abstract: false, final false
   inline void set_choices(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
 protected:

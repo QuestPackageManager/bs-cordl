@@ -39,18 +39,18 @@ public:
   /// @brief Field _transform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x3b9bf50, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b899d4, size 0x11c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Move, addr 0x3b9c070, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3b89af4, size 0x4c, virtual false, abstract: false, final false
   inline void Move(float_t value);
 
   static inline ::GlobalNamespace::MoveInDirectionEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b9c06c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b89af0, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b9c0bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b89b40, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveDirection() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b9c0c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b89b44, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

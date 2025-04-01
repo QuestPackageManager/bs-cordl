@@ -50,10 +50,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Encode, addr 0x264fd70, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2647f00, size 0x164, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetSecKeyData, addr 0x264fd60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSecKeyData, addr 0x2647ef0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecKeyData();
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2649674, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2641804, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x264fd10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2647ea0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method get_EncAlgorithm, addr 0x264fd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncAlgorithm, addr 0x2647ee0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_EncAlgorithm();
 
-  /// @brief Method get_S2k, addr 0x264fd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_S2k, addr 0x2647ee8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::S2k* get_S2k();
 
-  /// @brief Method get_Version, addr 0x264fd68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2647ef8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

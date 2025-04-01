@@ -40,19 +40,19 @@ namespace UnityEngine::InputSystem::LowLevel {
 class CORDL_TYPE InputDeviceCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4615118, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4602cf8, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4615140, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4602d20, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int64_t> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4615104, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4602ce4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int64_t> Invoke(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4615000, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4602be0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

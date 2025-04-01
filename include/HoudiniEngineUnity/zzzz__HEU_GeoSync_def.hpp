@@ -27,7 +27,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_GeoSync* New_ctor();
 
-  /// @brief Method SetupLoadTask, addr 0x3a6e5a4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetupLoadTask, addr 0x3a5b678, size 0x98, virtual true, abstract: false, final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr ::StringW const& __cordl_internal_get__filePath() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a6e650, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5b724, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

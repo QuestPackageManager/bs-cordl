@@ -21,7 +21,7 @@ namespace Zenject {
 class CORDL_TYPE ProviderUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTypeToInstantiate, addr 0x4b4c5b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeToInstantiate, addr 0x4b3a1ac, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeToInstantiate(::System::Type* contractType, ::System::Type* concreteType);
 
 protected:

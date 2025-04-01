@@ -34,41 +34,41 @@ public:
   /// @brief Field activeQualityLevelChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_activeQualityLevelChanged, put = setStaticF_activeQualityLevelChanged)) ::System::Action_2<int32_t, int32_t>* activeQualityLevelChanged;
 
-  /// @brief Method OnActiveQualityLevelChanged, addr 0x4884abc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnActiveQualityLevelChanged, addr 0x487269c, size 0x80, virtual false, abstract: false, final false
   static inline void OnActiveQualityLevelChanged(int32_t previousQualityLevel, int32_t currentQualityLevel);
 
   static inline ::System::Action_2<int32_t, int32_t>* getStaticF_activeQualityLevelChanged();
 
-  /// @brief Method get_INTERNAL_renderPipeline, addr 0x4884bdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_renderPipeline, addr 0x48727bc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_renderPipeline();
 
-  /// @brief Method get_activeColorSpace, addr 0x4884d48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeColorSpace, addr 0x4872928, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_activeColorSpace();
 
-  /// @brief Method get_antiAliasing, addr 0x4884b78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_antiAliasing, addr 0x4872758, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_antiAliasing();
 
-  /// @brief Method get_desiredColorSpace, addr 0x4883ac4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_desiredColorSpace, addr 0x48716a4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_desiredColorSpace();
 
-  /// @brief Method get_renderPipeline, addr 0x4884c40, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_renderPipeline, addr 0x4872820, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_renderPipeline();
 
   static inline void setStaticF_activeQualityLevelChanged(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method set_INTERNAL_renderPipeline, addr 0x4884c04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_renderPipeline, addr 0x48727e4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_renderPipeline(::UnityEngine::ScriptableObject* value);
 
-  /// @brief Method set_antiAliasing, addr 0x4884ba0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_antiAliasing, addr 0x4872780, size 0x3c, virtual false, abstract: false, final false
   static inline void set_antiAliasing(int32_t value);
 
-  /// @brief Method set_maxQueuedFrames, addr 0x4884d0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxQueuedFrames, addr 0x48728ec, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxQueuedFrames(int32_t value);
 
-  /// @brief Method set_renderPipeline, addr 0x4884cd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_renderPipeline, addr 0x48728b0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_renderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
-  /// @brief Method set_vSyncCount, addr 0x4884b3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_vSyncCount, addr 0x487271c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_vSyncCount(int32_t value);
 
 protected:

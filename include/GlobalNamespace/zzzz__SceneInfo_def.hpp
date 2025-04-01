@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x229fc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2297dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledRootObjects, addr 0x229fc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledRootObjects, addr 0x2297dc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledRootObjects();
 
-  /// @brief Method get_sceneName, addr 0x229fc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneName, addr 0x2297db8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sceneName();
 
 protected:

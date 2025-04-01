@@ -27,25 +27,25 @@ namespace GlobalNamespace {
 class CORDL_TYPE LeaderboardTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _fullComboText, offset 0x80, size 0x8
+  /// @brief Field _fullComboText, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__fullComboText, put = __cordl_internal_set__fullComboText)) ::UnityW<::TMPro::TextMeshProUGUI> _fullComboText;
 
-  /// @brief Field _normalColor, offset 0x88, size 0x10
+  /// @brief Field _normalColor, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor)) ::UnityEngine::Color _normalColor;
 
-  /// @brief Field _playerNameText, offset 0x70, size 0x8
+  /// @brief Field _playerNameText, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _playerNameText;
 
-  /// @brief Field _rankText, offset 0x68, size 0x8
+  /// @brief Field _rankText, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__rankText, put = __cordl_internal_set__rankText)) ::UnityW<::TMPro::TextMeshProUGUI> _rankText;
 
-  /// @brief Field _scoreText, offset 0x78, size 0x8
+  /// @brief Field _scoreText, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
-  /// @brief Field _separatorImage, offset 0xa8, size 0x8
+  /// @brief Field _separatorImage, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__separatorImage, put = __cordl_internal_set__separatorImage)) ::UnityW<::UnityEngine::UI::Image> _separatorImage;
 
-  /// @brief Field _specialScoreColor, offset 0x98, size 0x10
+  /// @brief Field _specialScoreColor, offset 0xa8, size 0x10
   __declspec(property(get = __cordl_internal_get__specialScoreColor, put = __cordl_internal_set__specialScoreColor)) ::UnityEngine::Color _specialScoreColor;
 
   __declspec(property(put = set_playerName)) ::StringW playerName;
@@ -104,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set__specialScoreColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3c0bda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf98a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_playerName, addr 0x3c0bba8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x3bf96a4, size 0x24, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x3c0bb14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x3bf9610, size 0x94, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x3c0bbcc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x3bf96c8, size 0xa0, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showFullCombo, addr 0x3c0bc8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showFullCombo, addr 0x3bf9788, size 0x20, virtual false, abstract: false, final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_showSeparator, addr 0x3c0bc6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x3bf9768, size 0x20, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_specialScore, addr 0x3c0bcac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_specialScore, addr 0x3bf97a8, size 0xf8, virtual false, abstract: false, final false
   inline void set_specialScore(bool value);
 
 protected:
@@ -142,45 +142,45 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4757 };
 
-  /// @brief Field _rankText, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _rankText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
-  /// @brief Field _playerNameText, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _playerNameText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
 
-  /// @brief Field _scoreText, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _scoreText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
-  /// @brief Field _fullComboText, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _fullComboText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____fullComboText;
 
-  /// @brief Field _normalColor, offset: 0x88, size: 0x10, def value: None
+  /// @brief Field _normalColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
 
-  /// @brief Field _specialScoreColor, offset: 0x98, size: 0x10, def value: None
+  /// @brief Field _specialScoreColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____specialScoreColor;
 
-  /// @brief Field _separatorImage, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _separatorImage, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____separatorImage;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____rankText) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____rankText) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____playerNameText) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____playerNameText) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____scoreText) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____scoreText) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____fullComboText) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____fullComboText) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____normalColor) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____normalColor) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____specialScoreColor) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____specialScoreColor) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____separatorImage) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____separatorImage) == 0xb8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardTableCell, 0xb0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardTableCell, 0xc0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardTableCell);

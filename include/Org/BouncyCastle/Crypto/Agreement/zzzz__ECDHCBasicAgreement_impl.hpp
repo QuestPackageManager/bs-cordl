@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::Init)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2692d98;
+  constexpr static std::size_t addrs = 0x268af28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::GetFieldSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2692e84;
+  constexpr static std::size_t addrs = 0x268b014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
         &::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::CalculateAgreement)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x2692ecc;
+  constexpr static std::size_t addrs = 0x268b05c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26930b8;
+  constexpr static std::size_t addrs = 0x268b248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

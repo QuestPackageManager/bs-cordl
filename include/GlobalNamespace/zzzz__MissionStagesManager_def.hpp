@@ -45,10 +45,10 @@ public:
 
   static inline ::GlobalNamespace::MissionStagesManager___c* New_ctor();
 
-  /// @brief Method <InitStages>b__6_0, addr 0x3c1a6d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <InitStages>b__6_0, addr 0x3c081cc, size 0x18, virtual false, abstract: false, final false
   inline int32_t _InitStages_b__6_0(::GlobalNamespace::MissionStage* stage);
 
-  /// @brief Method .ctor, addr 0x3c1a6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c081c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MissionStagesManager___c* getStaticF___9();
@@ -104,21 +104,21 @@ public:
 
   __declspec(property(get = get_firstLockedMissionStage)) ::UnityW<::GlobalNamespace::MissionStage> firstLockedMissionStage;
 
-  /// @brief Method InitStages, addr 0x3c1a45c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InitStages, addr 0x3c07f58, size 0x144, virtual false, abstract: false, final false
   inline void InitStages();
 
   static inline ::GlobalNamespace::MissionStagesManager* New_ctor();
 
-  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x3c1a3cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x3c07ec8, size 0x90, virtual false, abstract: false, final false
   inline void UpdateFirtsLockedMissionStage(int32_t numberOfClearedMissions);
 
-  /// @brief Method UpdateStageLockPosition, addr 0x3c1a5a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockPosition, addr 0x3c0809c, size 0xc, virtual false, abstract: false, final false
   inline void UpdateStageLockPosition();
 
-  /// @brief Method UpdateStageLockPositionAnimated, addr 0x3c18fc8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockPositionAnimated, addr 0x3c06ac4, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateStageLockPositionAnimated(bool animated, float_t animationDuration);
 
-  /// @brief Method UpdateStageLockText, addr 0x3c1a5ac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x3c080a8, size 0xb8, virtual false, abstract: false, final false
   inline void UpdateStageLockText(int32_t numberOfClearedMissions);
 
   constexpr ::UnityW<::GlobalNamespace::MissionStage> const& __cordl_internal_get__firstLockedMissionStage() const;
@@ -139,10 +139,10 @@ public:
 
   constexpr void __cordl_internal_set__missionStages(::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*> value);
 
-  /// @brief Method .ctor, addr 0x3c1a664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c08160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_firstLockedMissionStage, addr 0x3c1a3c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstLockedMissionStage, addr 0x3c07ec0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionStage> get_firstLockedMissionStage();
 
 protected:

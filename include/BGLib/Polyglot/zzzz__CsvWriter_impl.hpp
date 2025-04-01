@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(&::BGLib::Polyglot::CsvWriter::AppendRow)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x22b0758;
+  constexpr static std::size_t addrs = 0x22a88e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::BGLib::Polyglot::CsvWriter::AppendRowInternal)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x22b094c;
+  constexpr static std::size_t addrs = 0x22a8adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(&::BGLib::Polyglot::CsvWriter::AppendElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22b0d98;
+  constexpr static std::size_t addrs = 0x22a8f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::BGLib::Polyglot::CsvWriter::HasEscapeChars)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22b0ce4;
+  constexpr static std::size_t addrs = 0x22a8e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::BGLib::Polyglot::CsvWriter::AppendCSVLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22b0e1c;
+  constexpr static std::size_t addrs = 0x22a8fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::BGLib::Polyglot::CsvWriter::AppendCSVLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22b0e40;
+  constexpr static std::size_t addrs = 0x22a8fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

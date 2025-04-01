@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action_1<::BGLib::Polyglot::Language>*)>(
     &::GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7d488;
+  constexpr static std::size_t addrs = 0x3b6a520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action_1<::BGLib::Polyglot::Language>*)>(
     &::GlobalNamespace::SelectLanguageViewController::remove_didChangeLanguageEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7d538;
+  constexpr static std::size_t addrs = 0x3b6a5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action*)>(
     &::GlobalNamespace::SelectLanguageViewController::add_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b7d5e8;
+  constexpr static std::size_t addrs = 0x3b6a680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action*)>(
     &::GlobalNamespace::SelectLanguageViewController::remove_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b7d684;
+  constexpr static std::size_t addrs = 0x3b6a71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SelectLanguageViewController::DidActivate)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b7d720;
+  constexpr static std::size_t addrs = 0x3b6a7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b7d818;
+  constexpr static std::size_t addrs = 0x3b6a8b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b7d8f4;
+  constexpr static std::size_t addrs = 0x3b6a98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7d92c;
+  constexpr static std::size_t addrs = 0x3b6a9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), ".ctor",
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::_DidActivate_b__8_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b7d934;
+  constexpr static std::size_t addrs = 0x3b6a9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(),

@@ -34,18 +34,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method GetBlockSize, addr 0x2368654, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x23607e4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x2368600, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2360790, size 0xc, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::NullEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x236865c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x23607ec, size 0x130, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x236878c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x236091c, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_initialised() const;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_initialised(bool value);
 
-  /// @brief Method .ctor, addr 0x23685f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2360788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x236860c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x236079c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x236864c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x23607dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

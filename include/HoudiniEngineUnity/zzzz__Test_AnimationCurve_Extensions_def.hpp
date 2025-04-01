@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3aa8e2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a95f00, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_AnimationCurve* _ToTestObject_b__1_0(::UnityEngine::AnimationCurve* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3aa8e88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a95f5c, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_AnimationCurve* _ToTestObject_b__2_0(::UnityEngine::AnimationCurve* lod);
 
-  /// @brief Method .ctor, addr 0x3aa8e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a95ef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve_Extensions___c* getStaticF___9();
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_AnimationCurve_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3aa8be0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a95cb4, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_AnimationCurve*, ::Array<::HoudiniEngineUnity::Test_AnimationCurve*>*>
   ToTestObject(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3aa8b84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a95c58, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_AnimationCurve* ToTestObject(::UnityEngine::AnimationCurve* self);
 
-  /// @brief Method ToTestObject, addr 0x3aa8cd0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a95da4, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_AnimationCurve*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::AnimationCurve*>* self);
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_normalState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e70ac;
+  constexpr static std::size_t addrs = 0x44d4c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatTransitionSO*>::get(), "get_normalState",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_highlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e70b4;
+  constexpr static std::size_t addrs = 0x44d4c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatTransitionSO*>::get(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_pressedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e70bc;
+  constexpr static std::size_t addrs = 0x44d4c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatTransitionSO*>::get(), "get_pressedState",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_disabledState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e70c4;
+  constexpr static std::size_t addrs = 0x44d4ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatTransitionSO*>::get(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_selectedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e70cc;
+  constexpr static std::size_t addrs = 0x44d4cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatTransitionSO*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(
     &::GlobalNamespace::FloatTransitionSO::get_selectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e70d4;
+  constexpr static std::size_t addrs = 0x44d4cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44e70dc;
+  constexpr static std::size_t addrs = 0x44d4cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatTransitionSO*>::get(), ".ctor",

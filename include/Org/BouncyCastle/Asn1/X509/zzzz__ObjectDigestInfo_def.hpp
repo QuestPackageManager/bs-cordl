@@ -64,10 +64,10 @@ public:
   /// @brief Field otherObjectTypeID, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_otherObjectTypeID, put = __cordl_internal_set_otherObjectTypeID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherObjectTypeID;
 
-  /// @brief Method GetInstance, addr 0x260d21c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x26053ac, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x26107d4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2608964, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* New_ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID,
@@ -75,7 +75,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2610cac, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2608e3c, size 0x1bc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_digestAlgorithm() const;
@@ -102,22 +102,22 @@ public:
 
   constexpr void __cordl_internal_set_otherObjectTypeID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x2610b98, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2608d28, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> objectDigest);
 
-  /// @brief Method .ctor, addr 0x2610950, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2608ae0, size 0x248, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_DigestAlgorithm, addr 0x2610c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithm, addr 0x2608e2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
-  /// @brief Method get_DigestedObjectType, addr 0x2610c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestedObjectType, addr 0x2608e1c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerEnumerated* get_DigestedObjectType();
 
-  /// @brief Method get_ObjectDigest, addr 0x2610ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectDigest, addr 0x2608e34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_ObjectDigest();
 
-  /// @brief Method get_OtherObjectTypeID, addr 0x2610c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherObjectTypeID, addr 0x2608e24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OtherObjectTypeID();
 
 protected:

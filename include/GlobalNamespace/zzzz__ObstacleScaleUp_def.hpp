@@ -44,21 +44,21 @@ public:
   __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
                       put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
-  /// @brief Method Awake, addr 0x3b00490, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3aed7e4, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObstacleControllerDidInit, addr 0x3b00894, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidInit, addr 0x3aedbe8, size 0xc8, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
-  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x3b00764, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x3aedab8, size 0x130, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b00640, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aed994, size 0x124, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x3b00528, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x3aed87c, size 0x118, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScalePart() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3b0095c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aedcb0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

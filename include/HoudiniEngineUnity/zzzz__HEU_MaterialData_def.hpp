@@ -125,32 +125,32 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*() noexcept;
 
-  /// @brief Method GetMaterialAlpha, addr 0x3a63920, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialAlpha, addr 0x3a509f4, size 0x1d8, virtual false, abstract: false, final false
   static inline bool GetMaterialAlpha(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                       ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters, float_t defaultValue, ::ByRef<float_t> alpha);
 
-  /// @brief Method GetSupportedFileFormat, addr 0x3a63af8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedFileFormat, addr 0x3a50bcc, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW GetSupportedFileFormat(::HoudiniEngineUnity::HEU_SessionBase* session, ::ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
 
-  /// @brief Method GetTextureFileNameFromMaterialParam, addr 0x3a63258, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetTextureFileNameFromMaterialParam, addr 0x3a5032c, size 0x24c, virtual false, abstract: false, final false
   static inline ::StringW GetTextureFileNameFromMaterialParam(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::HoudiniEngineUnity::HAPI_ParmInfo parmInfo);
 
-  /// @brief Method IsEquivalentTo, addr 0x3a63c1c, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a50cf0, size 0x1b8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_MaterialData* other);
 
-  /// @brief Method IsExistingMaterial, addr 0x3a61ccc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsExistingMaterial, addr 0x3a4eda0, size 0x14, virtual false, abstract: false, final false
   inline bool IsExistingMaterial();
 
-  /// @brief Method IsTransparentMaterial, addr 0x3a62c00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsTransparentMaterial, addr 0x3a4fcd4, size 0x30, virtual false, abstract: false, final false
   static inline bool IsTransparentMaterial(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                            ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters);
 
   static inline ::HoudiniEngineUnity::HEU_MaterialData* New_ctor();
 
-  /// @brief Method UpdateMaterialFromHoudini, addr 0x3a61ce0, size 0xf20, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterialFromHoudini, addr 0x3a4edb4, size 0xf20, virtual false, abstract: false, final false
   inline void UpdateMaterialFromHoudini(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath);
 
-  /// @brief Method UseLegacyShaders, addr 0x3a62c7c, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method UseLegacyShaders, addr 0x3a4fd50, size 0x5dc, virtual false, abstract: false, final false
   inline void UseLegacyShaders(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath, ::HoudiniEngineUnity::HEU_SessionBase* session,
                                ::HoudiniEngineUnity::HAPI_NodeInfo nodeInfo, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parmInfos);
 
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set__materialSource(::HoudiniEngineUnity::HEU_MaterialData_Source value);
 
-  /// @brief Method .ctor, addr 0x3a63dd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a50ea8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"

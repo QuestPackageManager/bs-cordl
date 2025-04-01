@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BurstSliderGameNoteController> (
     ::GlobalNamespace::BurstSliderNoteDisappearingArrowController::*)()>(&::GlobalNamespace::BurstSliderNoteDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af61a0;
+  constexpr static std::size_t addrs = 0x3ae3b48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstSliderNoteDisappearingArrowController::*)()>(
     &::GlobalNamespace::BurstSliderNoteDisappearingArrowController::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3af61a8;
+  constexpr static std::size_t addrs = 0x3ae3b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

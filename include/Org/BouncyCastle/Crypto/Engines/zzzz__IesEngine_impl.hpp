@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::Org::BouncyCastle::Crypto::IBasicAgreement*, ::Org::BouncyCastle::Crypto::IDerivationFunction*, ::Org::BouncyCastle::Crypto::IMac*)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x23644f4;
+  constexpr static std::size_t addrs = 0x235c684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::IBasicAgreement*, ::Org::BouncyCastle::Crypto::IDerivationFunction*, ::Org::BouncyCastle::Crypto::IMac*, ::Org::BouncyCastle::Crypto::BufferedBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x23645e8;
+  constexpr static std::size_t addrs = 0x235c778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::IesEngine::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x23646e8;
+  constexpr static std::size_t addrs = 0x235c878;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::DecryptBlock)> {
   constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x23647b4;
+  constexpr static std::size_t addrs = 0x235c944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::EncryptBlock)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x2364fa8;
+  constexpr static std::size_t addrs = 0x235d138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::Org::BouncyCastle::Crypto::Parameters::KdfParameters*, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2364e50;
+  constexpr static std::size_t addrs = 0x235cfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x2365588;
+  constexpr static std::size_t addrs = 0x235d718;
 
   inline static ::MethodInfo const* methodInfo() {
 

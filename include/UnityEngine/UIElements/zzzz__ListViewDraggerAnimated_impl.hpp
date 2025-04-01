@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ListViewDraggerAnimated::*)()>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::get_isDragging)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2a870;
+  constexpr static std::size_t addrs = 0x4a18450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewDraggerAnimated*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(bool)>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::set_isDragging)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a2a878;
+  constexpr static std::size_t addrs = 0x4a18458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (::UnityEngine::UIElements::ListViewDraggerAnimated::*)()>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::get_draggedItem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2a884;
+  constexpr static std::size_t addrs = 0x4a18464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewDraggerAnimated*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ListViewDraggerAnimated::*)()>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::get_supportsDragEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2a88c;
+  constexpr static std::size_t addrs = 0x4a1846c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::UIElements::BaseVerticalCollectionView*)>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a2a894;
+  constexpr static std::size_t addrs = 0x4a18474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StartDragArgs (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(
     ::UnityEngine::Vector3)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::StartDrag)> {
   constexpr static std::size_t size = 0x764;
-  constexpr static std::size_t addrs = 0x4a2a8a0;
+  constexpr static std::size_t addrs = 0x4a18480;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::UpdateDrag)> {
   constexpr static std::size_t size = 0x8d8;
-  constexpr static std::size_t addrs = 0x4a2b344;
+  constexpr static std::size_t addrs = 0x4a18f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*, float_t)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::Animate)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x4a2b004;
+  constexpr static std::size_t addrs = 0x4a18be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::OnDrop)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x4a2bc1c;
+  constexpr static std::size_t addrs = 0x4a197fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(bool)>(
     &::UnityEngine::UIElements::ListViewDraggerAnimated::ClearDragAndDropUI)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a2c008;
+  constexpr static std::size_t addrs = 0x4a19be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(
     ::UnityEngine::Vector2, ::ByRef<::UnityEngine::UIElements::ListViewDragger_DragPosition>)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::TryGetDragPosition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a2c00c;
+  constexpr static std::size_t addrs = 0x4a19bec;
 
   inline static ::MethodInfo const* methodInfo() {
 

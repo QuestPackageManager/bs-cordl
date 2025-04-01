@@ -28,10 +28,10 @@ public:
 
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
-  /// @brief Method Equals, addr 0x48d0360, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48bdf40, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x48d0418, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48bdff8, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_DefaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x48d0330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bdf10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_Value, addr 0x48d0358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x48bdf38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

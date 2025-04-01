@@ -156,7 +156,7 @@ public:
 
   __declspec(property(get = get_type)) ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type;
 
-  /// @brief Method CreateTexture, addr 0x3b28154, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x3b15180, size 0xc4, virtual false, abstract: false, final false
   inline void CreateTexture(int32_t width, int32_t height);
 
   static inline ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type,
@@ -198,28 +198,28 @@ public:
 
   constexpr void __cordl_internal_set__type(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type value);
 
-  /// @brief Method .ctor, addr 0x3b28a60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b15a8c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type, ::UnityEngine::Color backgroundColor);
 
-  /// @brief Method get_backgroundColor, addr 0x3b28a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor, addr 0x3b15a80, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_backgroundColor();
 
-  /// @brief Method get_layerMask, addr 0x3b28a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layerMask, addr 0x3b15a60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_layerMask();
 
-  /// @brief Method get_name, addr 0x3b28a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x3b15a50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_path, addr 0x3b28a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x3b15a70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_texture, addr 0x3b28a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x3b15a58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_texture();
 
-  /// @brief Method get_type, addr 0x3b28a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x3b15a68, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type get_type();
 
-  /// @brief Method set_path, addr 0x3b28a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_path, addr 0x3b15a78, size 0x8, virtual false, abstract: false, final false
   inline void set_path(::StringW value);
 
 protected:
@@ -316,33 +316,33 @@ public:
   /// @brief Field texturesReadyEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_texturesReadyEvent, put = __cordl_internal_set_texturesReadyEvent)) ::System::Action* texturesReadyEvent;
 
-  /// @brief Method CreateClipQuad, addr 0x3b27e64, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method CreateClipQuad, addr 0x3b14e90, size 0x27c, virtual false, abstract: false, final false
   inline void CreateClipQuad();
 
-  /// @brief Method CreateTextures, addr 0x3b280e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateTextures, addr 0x3b1510c, size 0x74, virtual false, abstract: false, final false
   inline void CreateTextures(int32_t width, int32_t height);
 
-  /// @brief Method GetDistanceToHMD, addr 0x3b28218, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToHMD, addr 0x3b15244, size 0x30c, virtual false, abstract: false, final false
   inline float_t GetDistanceToHMD();
 
-  /// @brief Method InitCamera, addr 0x3b27d7c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitCamera, addr 0x3b14da8, size 0xe8, virtual false, abstract: false, final false
   inline void InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration);
 
-  /// @brief Method LateUpdate, addr 0x3b28978, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b159a4, size 0xa4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlaybackRenderer* New_ctor();
 
-  /// @brief Method OrientClipQuad, addr 0x3b28524, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OrientClipQuad, addr 0x3b15550, size 0x140, virtual false, abstract: false, final false
   inline void OrientClipQuad();
 
-  /// @brief Method RenderBackground, addr 0x3b28824, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RenderBackground, addr 0x3b15850, size 0x154, virtual false, abstract: false, final false
   inline void RenderBackground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot);
 
-  /// @brief Method RenderForeground, addr 0x3b28664, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RenderForeground, addr 0x3b15690, size 0x1c0, virtual false, abstract: false, final false
   inline void RenderForeground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot);
 
-  /// @brief Method Setup, addr 0x3b27310, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b1433c, size 0x88, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration, int32_t textureWidth,
                     int32_t textureHeight, ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> screenshots);
 
@@ -400,16 +400,16 @@ public:
 
   constexpr void __cordl_internal_set_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b28a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b15a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_texturesReadyEvent, addr 0x3b27c3c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_texturesReadyEvent, addr 0x3b14c68, size 0x9c, virtual false, abstract: false, final false
   inline void add_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method get_screenshots, addr 0x3b27d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenshots, addr 0x3b14da0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> get_screenshots();
 
-  /// @brief Method remove_texturesReadyEvent, addr 0x3b27cd8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_texturesReadyEvent, addr 0x3b14d04, size 0x9c, virtual false, abstract: false, final false
   inline void remove_texturesReadyEvent(::System::Action* value);
 
 protected:

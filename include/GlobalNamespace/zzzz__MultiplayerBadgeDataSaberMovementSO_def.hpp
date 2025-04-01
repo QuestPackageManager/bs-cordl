@@ -22,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerBadgeDataSaberMovementSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x26dee90, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x26d7020, size 0x2c, virtual true, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26deebc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d704c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

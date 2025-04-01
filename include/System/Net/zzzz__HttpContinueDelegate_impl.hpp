@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpContinueDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Net::HttpContinueDelegate::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x44aee88;
+  constexpr static std::size_t addrs = 0x449ca48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpContinueDelegate::*)(int32_t, ::System::Net::WebHeaderCollection*)>(
     &::System::Net::HttpContinueDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44aef14;
+  constexpr static std::size_t addrs = 0x449cad4;
 
   inline static ::MethodInfo const* methodInfo() {
 

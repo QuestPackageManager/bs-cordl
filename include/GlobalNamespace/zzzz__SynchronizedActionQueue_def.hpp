@@ -33,7 +33,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SynchronizedActionQueue_SynchronizedAction {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22edcdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e5e6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::System::Action* action);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr SynchronizedActionQueue_SynchronizedAction(float_t time, ::System::Action* action) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -79,15 +79,15 @@ public:
       get = __cordl_internal_get__synchronizedActionQueue,
       put = __cordl_internal_set__synchronizedActionQueue)) ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>* _synchronizedActionQueue;
 
-  /// @brief Method Clear, addr 0x22edbb4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x22e5d44, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method EnqueueAction, addr 0x22edc24, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueAction, addr 0x22e5db4, size 0xb8, virtual false, abstract: false, final false
   inline void EnqueueAction(float_t time, ::System::Action* action);
 
   static inline ::GlobalNamespace::SynchronizedActionQueue* New_ctor();
 
-  /// @brief Method Update, addr 0x22edce8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22e5e78, size 0x114, virtual false, abstract: false, final false
   inline void Update(float_t time);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>* const& __cordl_internal_get__synchronizedActionQueue() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>* value);
 
-  /// @brief Method .ctor, addr 0x22eddfc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e5f8c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   SynchronizedActionQueue(SynchronizedActionQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14978 };
 
   /// @brief Field _synchronizedActionQueue, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>* ____synchronizedActionQueue;

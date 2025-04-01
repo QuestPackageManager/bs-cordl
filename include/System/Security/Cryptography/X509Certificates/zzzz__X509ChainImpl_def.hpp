@@ -53,13 +53,13 @@ public:
   /// @brief Method Build, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Dispose, addr 0x444be80, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4439a40, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x444cc40, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x443a800, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x444cc44, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x443a804, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* New_ctor();
@@ -67,10 +67,10 @@ public:
   /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x444cc00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x443a7c0, size 0x40, virtual false, abstract: false, final false
   inline void ThrowIfContextInvalid();
 
-  /// @brief Method .ctor, addr 0x444cce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443a8a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ChainElements, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

@@ -54,10 +54,10 @@ public:
   /// @brief Field signature, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature)) ::Org::BouncyCastle::Asn1::DerBitString* signature;
 
-  /// @brief Method GetInstance, addr 0x231a3b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2312544, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x231a238, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23123c8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* poposkIn, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid,
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x231a420, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23125b0, size 0xc4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algorithmIdentifier() const;
@@ -86,19 +86,19 @@ public:
 
   constexpr void __cordl_internal_set_signature(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x231a3cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231255c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* poposkIn, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid, ::Org::BouncyCastle::Asn1::DerBitString* signature);
 
-  /// @brief Method .ctor, addr 0x2319eb8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2312048, size 0x204, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AlgorithmIdentifier, addr 0x231a410, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmIdentifier, addr 0x23125a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmIdentifier();
 
-  /// @brief Method get_PoposkInput, addr 0x231a408, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PoposkInput, addr 0x2312598, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* get_PoposkInput();
 
-  /// @brief Method get_Signature, addr 0x231a418, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x23125a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
 protected:

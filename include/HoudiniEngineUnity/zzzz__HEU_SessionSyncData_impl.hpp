@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionSyncData_Status (::HoudiniEngineUnity::HEU_SessionSyncData::*)()>(
     &::HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a69a80;
+  constexpr static std::size_t addrs = 0x3a56b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionSyncData::*)(::HoudiniEngineUnity::HEU_SessionSyncData_Status)>(
     &::HoudiniEngineUnity::HEU_SessionSyncData::set_SyncStatus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a69a94;
+  constexpr static std::size_t addrs = 0x3a56b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionSyncData::*)()>(&::HoudiniEngineUnity::HEU_SessionSyncData::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3a66ea4;
+  constexpr static std::size_t addrs = 0x3a53f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(), ".ctor",

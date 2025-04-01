@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::Mesh_Extents::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::TMPro::Mesh_Extents::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47d32e0;
+  constexpr static std::size_t addrs = 0x47c0ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::Mesh_Extents::*)()>(&::TMPro::Mesh_Extents::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x47d32ec;
+  constexpr static std::size_t addrs = 0x47c0ecc;
 
   inline static ::MethodInfo const* methodInfo() {
 

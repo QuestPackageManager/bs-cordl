@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x40bcaa0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x40aa660, size 0x58, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get__AddMethod_k__BackingField() const;
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_AddMethod, addr 0x40bca90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddMethod, addr 0x40aa650, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_AddMethod();
 
-  /// @brief Method get_ArgumentCount, addr 0x40bcaf8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentCount, addr 0x40aa6b8, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Arguments, addr 0x40bca98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x40aa658, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_Arguments();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -88,7 +88,7 @@ public:
   ElementInit(ElementInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13668 };
 
   /// @brief Field <AddMethod>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____AddMethod_k__BackingField;

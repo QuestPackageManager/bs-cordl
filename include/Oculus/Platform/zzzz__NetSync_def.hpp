@@ -27,10 +27,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE NetSync : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x3f98c90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x3f86848, size 0x74, virtual false, abstract: false, final false
   static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncConnection*>* callback);
 
-  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x3f98d04, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x3f868bc, size 0x74, virtual false, abstract: false, final false
   static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>* callback);
 
 protected:
@@ -48,7 +48,7 @@ public:
   NetSync(NetSync const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15455 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

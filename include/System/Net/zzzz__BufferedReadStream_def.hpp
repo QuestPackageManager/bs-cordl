@@ -53,10 +53,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x44c9a10, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x44b75d0, size 0x328, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x44c9d38, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x44b78f8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -142,11 +142,11 @@ public:
 
   static inline ::System::Net::BufferedReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
-  /// @brief Method ProcessReadAsync, addr 0x44c9860, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x44b7420, size 0x120, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBuffer, addr 0x44c9980, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryReadFromBuffer, addr 0x44b7540, size 0x90, virtual false, abstract: false, final false
   inline bool TryReadFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::ByRef<int32_t> result);
 
   constexpr ::System::Net::BufferOffsetSize* const& __cordl_internal_get_readBuffer() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_readBuffer(::System::Net::BufferOffsetSize* value);
 
-  /// @brief Method .ctor, addr 0x44c9838, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b73f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40d279c;
+  constexpr static std::size_t addrs = 0x40c035c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40d27a4;
+  constexpr static std::size_t addrs = 0x40c0364;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40d27ac;
+  constexpr static std::size_t addrs = 0x40c036c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction::Run)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x40d27ec;
+  constexpr static std::size_t addrs = 0x40c03ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

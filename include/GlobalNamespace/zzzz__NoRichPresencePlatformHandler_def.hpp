@@ -32,12 +32,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
 
-  /// @brief Method Clear, addr 0x3b3ab38, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x3b27b64, size 0x50, virtual true, abstract: false, final true
   inline void Clear();
 
   static inline ::GlobalNamespace::NoRichPresencePlatformHandler* New_ctor();
 
-  /// @brief Method SetPresence, addr 0x3b3aa90, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method SetPresence, addr 0x3b27abc, size 0xa8, virtual true, abstract: false, final true
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
 
   constexpr ::StringW const& __cordl_internal_get__currentPresenceApiName_k__BackingField() const;
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__currentPresenceApiName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b3ab88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b27bb4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentPresenceApiName, addr 0x3b3aa80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentPresenceApiName, addr 0x3b27aac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_currentPresenceApiName();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr ::GlobalNamespace::IRichPresencePlatformHandler* i___GlobalNamespace__IRichPresencePlatformHandler() noexcept;
 
-  /// @brief Method set_currentPresenceApiName, addr 0x3b3aa88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentPresenceApiName, addr 0x3b27ab4, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPresenceApiName(::StringW value);
 
 protected:

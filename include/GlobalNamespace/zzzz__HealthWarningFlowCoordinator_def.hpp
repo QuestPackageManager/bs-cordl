@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3c14d9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c02898, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
 protected:
@@ -182,10 +182,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c14dc4, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c028c0, size 0x154, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c14f18, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c02a14, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -238,10 +238,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c14f80, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c02a7c, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c152e0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c02ddc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -306,10 +306,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c15348, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c02e44, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c15640, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c0313c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -442,66 +442,66 @@ public:
   __declspec(property(get = __cordl_internal_get__viewControllerTitles,
                       put = __cordl_internal_set__viewControllerTitles)) ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* _viewControllerTitles;
 
-  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x3c14bbc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x3c026b8, size 0xa0, virtual false, abstract: false, final false
   inline void CheckPlayerSensitivityFlagAndContinueFlow();
 
-  /// @brief Method DidActivate, addr 0x3c13c4c, size 0x5c4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c01748, size 0x5c4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c14260, size 0x324, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c01d5c, size 0x324, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method EndOfLifeNoticeContinueFlow, addr 0x3c14a98, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EndOfLifeNoticeContinueFlow, addr 0x3c02594, size 0x38, virtual false, abstract: false, final false
   inline void EndOfLifeNoticeContinueFlow();
 
-  /// @brief Method GoToNextScene, addr 0x3c14ca0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GoToNextScene, addr 0x3c0279c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToNextScene();
 
-  /// @brief Method HandleEndOfLifeNoticeViewControllerDidFinish, addr 0x3c14ad0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleEndOfLifeNoticeViewControllerDidFinish, addr 0x3c025cc, size 0x5c, virtual false, abstract: false, final false
   inline void HandleEndOfLifeNoticeViewControllerDidFinish();
 
-  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x3c148ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x3c023e8, size 0xc4, virtual false, abstract: false, final false
   inline void HandleEulaViewControllerDidFinish(::GlobalNamespace::EulaViewController_ButtonType buttonType);
 
-  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x3c14d64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x3c02860, size 0x30, virtual false, abstract: false, final false
   inline void HandleExplicitContentWarningViewControllerDidFinish();
 
-  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x3c14a04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x3c02500, size 0x94, virtual false, abstract: false, final false
   inline void HandleHealthWarningViewControllerDidFinish();
 
-  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x3c14d60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x3c0285c, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoUserAgeWarningViewControllerDidFinish();
 
-  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x3c149b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x3c024ac, size 0x54, virtual false, abstract: false, final false
   inline void HandlePrivacyPolicyViewControllerDidFinish();
 
-  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguage, addr 0x3c14608, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguage, addr 0x3c02104, size 0x7c, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidChangeLanguage(::BGLib::Polyglot::Language language);
 
-  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton, addr 0x3c14684, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton, addr 0x3c02180, size 0x80, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidPressContinueButton();
 
-  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x3c147c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x3c022c4, size 0x30, virtual false, abstract: false, final false
   inline void HandleSelectRegionViewControllerDidPressContinueButton(::GlobalNamespace::SelectRegionViewController_Region region);
 
-  /// @brief Method HandleUserAgeCategoryArrived, addr 0x3c14c5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleUserAgeCategoryArrived, addr 0x3c02758, size 0x44, virtual false, abstract: false, final false
   inline void HandleUserAgeCategoryArrived();
 
   static inline ::GlobalNamespace::HealthWarningFlowCoordinator* New_ctor();
 
-  /// @brief Method ResolveMainViewController, addr 0x3c14210, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveMainViewController, addr 0x3c01d0c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolveMainViewController();
 
-  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x3c147f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x3c022f4, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolvePlayerAgreementsViewController();
 
-  /// @brief Method SaveLanguageAsync, addr 0x3c14704, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SaveLanguageAsync, addr 0x3c02200, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveLanguageAsync();
 
-  /// @brief Method TopViewControllerWillChange, addr 0x3c14584, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x3c02080, size 0x84, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method WaitForUserAgeCategory, addr 0x3c14b2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WaitForUserAgeCategory, addr 0x3c02628, size 0x90, virtual false, abstract: false, final false
   inline void WaitForUserAgeCategory();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
@@ -618,7 +618,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3c14d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c02890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

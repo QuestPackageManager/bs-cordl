@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f9e33c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8bef4, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -54,7 +54,7 @@ public:
   ChallengeEntryList(ChallengeEntryList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15518 };
 
   /// @brief Field TotalCount, offset: 0x28, size: 0x8, def value: None
   uint64_t ___TotalCount;

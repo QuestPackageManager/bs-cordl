@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPartyUpdateNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f8d9e4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7b59c, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyUpdateNotification* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetPartyUpdateNotification, addr 0x3f8d9a8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPartyUpdateNotification, addr 0x3f7b560, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
 
   static inline ::Oculus::Platform::MessageWithPartyUpdateNotification* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f89dd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f77988, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithPartyUpdateNotification(MessageWithPartyUpdateNotification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

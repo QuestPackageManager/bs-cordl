@@ -42,25 +42,25 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>*();
 
-  /// @brief Method Equals, addr 0x4a9233c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a7ff1c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a92310, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a7fef0, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleFontDefinition other);
 
-  /// @brief Method GetHashCode, addr 0x4a923c8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a7ffa8, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4a922ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7fecc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::FontDefinition f);
 
-  /// @brief Method .ctor, addr 0x4a922f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7fed8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::FontDefinition f, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x4a922e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x4a7fec4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x4a922b0, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x4a7fe90, size 0x34, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FontDefinition get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFontDefinition>"
@@ -69,7 +69,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__FontDefinition_();
 
-  /// @brief Method op_Implicit, addr 0x4a92304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a7fee4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleFontDefinition op_Implicit___UnityEngine__UIElements__StyleFontDefinition(::UnityEngine::UIElements::FontDefinition f);
 
   // Ctor Parameters []

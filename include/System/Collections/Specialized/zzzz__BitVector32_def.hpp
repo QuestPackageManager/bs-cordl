@@ -25,28 +25,28 @@ public:
   // Declarations
   __declspec(property(get = get_Item, put = set_Item)) bool Item[];
 
-  /// @brief Method CreateMask, addr 0x448d31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x447aedc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CreateMask();
 
-  /// @brief Method CreateMask, addr 0x448d324, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x447aee4, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CreateMask(int32_t previous);
 
-  /// @brief Method Equals, addr 0x448d390, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x447af50, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x448d408, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x447afc8, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x448d53c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x447b0fc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x448d46c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x447b02c, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::Specialized::BitVector32 value);
 
-  /// @brief Method get_Item, addr 0x448d2f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x447aeb0, size 0x10, virtual false, abstract: false, final false
   inline bool get_Item(int32_t bit);
 
-  /// @brief Method set_Item, addr 0x448d300, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x447aec0, size 0x1c, virtual false, abstract: false, final false
   inline void set_Item(int32_t bit, bool value);
 
   // Ctor Parameters []

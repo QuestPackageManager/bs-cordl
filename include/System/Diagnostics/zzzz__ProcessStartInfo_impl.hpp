@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x443f828;
+  constexpr static std::size_t addrs = 0x442d3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(), ".ctor",
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(::System::Diagnostics::Process*)>(
     &::System::Diagnostics::ProcessStartInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x443c708;
+  constexpr static std::size_t addrs = 0x442a2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::Collection_1<::StringW>* (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_ArgumentList)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x443f6b4;
+  constexpr static std::size_t addrs = 0x442d274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::get_Arguments)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x443f72c;
+  constexpr static std::size_t addrs = 0x442d2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(), "get_Arguments",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(::StringW)>(
     &::System::Diagnostics::ProcessStartInfo::set_Arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f838;
+  constexpr static std::size_t addrs = 0x442d3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Specialized::StringDictionary* (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_EnvironmentVariables)> {
   constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x443f198;
+  constexpr static std::size_t addrs = 0x442cd58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_RedirectStandardInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f840;
+  constexpr static std::size_t addrs = 0x442d400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(bool)>(
     &::System::Diagnostics::ProcessStartInfo::set_RedirectStandardInput)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x443f848;
+  constexpr static std::size_t addrs = 0x442d408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_RedirectStandardOutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f854;
+  constexpr static std::size_t addrs = 0x442d414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(bool)>(
     &::System::Diagnostics::ProcessStartInfo::set_RedirectStandardOutput)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x443f85c;
+  constexpr static std::size_t addrs = 0x442d41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_RedirectStandardError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f868;
+  constexpr static std::size_t addrs = 0x442d428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(bool)>(
     &::System::Diagnostics::ProcessStartInfo::set_RedirectStandardError)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x443f870;
+  constexpr static std::size_t addrs = 0x442d430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_StandardErrorEncoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f87c;
+  constexpr static std::size_t addrs = 0x442d43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_StandardOutputEncoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f884;
+  constexpr static std::size_t addrs = 0x442d444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::get_UseShellExecute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f88c;
+  constexpr static std::size_t addrs = 0x442d44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(bool)>(
     &::System::Diagnostics::ProcessStartInfo::set_UseShellExecute)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x443f894;
+  constexpr static std::size_t addrs = 0x442d454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::get_UserName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x443ee28;
+  constexpr static std::size_t addrs = 0x442c9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(), "get_UserName",
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecureString* (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_Password)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f8a0;
+  constexpr static std::size_t addrs = 0x442d460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(), "get_Password",
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::get_Domain)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x443f7d4;
+  constexpr static std::size_t addrs = 0x442d394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(), "get_Domain",
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::get_LoadUserProfile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f8a8;
+  constexpr static std::size_t addrs = 0x442d468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::get_FileName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x443d52c;
+  constexpr static std::size_t addrs = 0x442b0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(), "get_FileName",
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(::StringW)>(
     &::System::Diagnostics::ProcessStartInfo::set_FileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443f8b0;
+  constexpr static std::size_t addrs = 0x442d470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_WorkingDirectory)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x443f780;
+  constexpr static std::size_t addrs = 0x442d340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessStartInfo::*)(::System::Diagnostics::ProcessWindowStyle)>(
     &::System::Diagnostics::ProcessStartInfo::set_WindowStyle)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x443f8b8;
+  constexpr static std::size_t addrs = 0x442d478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::ProcessStartInfo::*)()>(&::System::Diagnostics::ProcessStartInfo::get_HaveEnvVars)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x443f188;
+  constexpr static std::size_t addrs = 0x442cd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Diagnostics::ProcessStartInfo::*)()>(
     &::System::Diagnostics::ProcessStartInfo::get_StandardInputEncoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443fa2c;
+  constexpr static std::size_t addrs = 0x442d5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessStartInfo*>::get(),

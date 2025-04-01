@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OrdinalComparer::*)(bool)>(&::System::OrdinalComparer::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e0eef8;
+  constexpr static std::size_t addrs = 0x3dfc9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalComparer::*)(::StringW, ::StringW)>(&::System::OrdinalComparer::Compare)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e0ef68;
+  constexpr static std::size_t addrs = 0x3dfca64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::OrdinalComparer::*)(::StringW, ::StringW)>(&::System::OrdinalComparer::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3e0efc0;
+  constexpr static std::size_t addrs = 0x3dfcabc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalComparer::*)(::StringW)>(&::System::OrdinalComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3e0f040;
+  constexpr static std::size_t addrs = 0x3dfcb3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::OrdinalComparer::*)(::System::Object*)>(&::System::OrdinalComparer::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e0f0c8;
+  constexpr static std::size_t addrs = 0x3dfcbc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalComparer::*)()>(&::System::OrdinalComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e0f160;
+  constexpr static std::size_t addrs = 0x3dfcc5c;
 
   inline static ::MethodInfo const* methodInfo() {
 

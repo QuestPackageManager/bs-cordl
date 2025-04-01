@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4462664;
+  constexpr static std::size_t addrs = 0x4450224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MarshalByValueComponent*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x446266c;
+  constexpr static std::size_t addrs = 0x445022c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ISite* (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::get_Site)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446270c;
+  constexpr static std::size_t addrs = 0x44502cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4462714;
+  constexpr static std::size_t addrs = 0x44502d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MarshalByValueComponent*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)(bool)>(
     &::System::ComponentModel::MarshalByValueComponent::Dispose)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x4462780;
+  constexpr static std::size_t addrs = 0x4450340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::MarshalByValueComponent::*)(::System::Type*)>(
     &::System::ComponentModel::MarshalByValueComponent::GetService)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4462a08;
+  constexpr static std::size_t addrs = 0x44505c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::ToString)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4462abc;
+  constexpr static std::size_t addrs = 0x445067c;
 
   inline static ::MethodInfo const* methodInfo() {
 

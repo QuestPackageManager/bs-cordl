@@ -31,7 +31,7 @@ public:
 
   __declspec(property(put = set_text)) ::StringW text;
 
-  /// @brief Method Awake, addr 0x3c350fc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c22bf8, size 0xb0, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method DecButtonPressed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecSettingsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c352e4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c22de0, size 0xfc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x3c35518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c23014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_enableDec, addr 0x3c3501c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x3c22b18, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x3c35064, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x3c22b60, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
-  /// @brief Method set_text, addr 0x3c350ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3c22ba8, size 0x2c, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   IncDecSettingsController(IncDecSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18970 };
 
   /// @brief Field _stepValuePicker, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____stepValuePicker;

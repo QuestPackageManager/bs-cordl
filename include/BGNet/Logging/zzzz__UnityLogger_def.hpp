@@ -26,21 +26,21 @@ public:
   /// @brief Convert operator to "::BGNet::Logging::Debug_ILogger"
   constexpr operator ::BGNet::Logging::Debug_ILogger*() noexcept;
 
-  /// @brief Method LogError, addr 0x22f56ec, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x22ed87c, size 0x58, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0x22f5744, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x22ed8d4, size 0x88, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogInfo, addr 0x22f56e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0x22ed878, size 0x4, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x22f57cc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x22ed95c, size 0x58, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::BGNet::Logging::UnityLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f4eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ed044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGNet::Logging::Debug_ILogger"
@@ -61,7 +61,7 @@ public:
   UnityLogger(UnityLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

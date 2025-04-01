@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_LayerMask_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x3aa8584, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a95658, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_LayerMask* ToTestObject(::UnityEngine::LayerMask self);
 
 protected:

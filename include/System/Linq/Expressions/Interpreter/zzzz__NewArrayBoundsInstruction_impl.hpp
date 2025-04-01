@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)(::System::Type*, int32_t)>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x40cf014;
+  constexpr static std::size_t addrs = 0x40bcbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40cf044;
+  constexpr static std::size_t addrs = 0x40bcc04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40cf04c;
+  constexpr static std::size_t addrs = 0x40bcc0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40cf054;
+  constexpr static std::size_t addrs = 0x40bcc14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::Run)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x40cf094;
+  constexpr static std::size_t addrs = 0x40bcc54;
 
   inline static ::MethodInfo const* methodInfo() {
 

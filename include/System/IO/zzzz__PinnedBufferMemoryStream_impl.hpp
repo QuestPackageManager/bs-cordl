@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::IO::PinnedBufferMemoryStream::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d48b88;
+  constexpr static std::size_t addrs = 0x3d36684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::PinnedBufferMemoryStream::*)(::System::Span_1<uint8_t>)>(
     &::System::IO::PinnedBufferMemoryStream::Read)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d48e8c;
+  constexpr static std::size_t addrs = 0x3d36988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(
     &::System::IO::PinnedBufferMemoryStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d490b4;
+  constexpr static std::size_t addrs = 0x3d36bb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)()>(&::System::IO::PinnedBufferMemoryStream::Finalize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3d493a0;
+  constexpr static std::size_t addrs = 0x3d36e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(bool)>(&::System::IO::PinnedBufferMemoryStream::Dispose)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d49444;
+  constexpr static std::size_t addrs = 0x3d36f40;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::HMUI::PercentSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x39ff29c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x39ec2fc, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x39ff328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ec388, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,7 +43,7 @@ public:
   PercentSlider(PercentSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16056 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

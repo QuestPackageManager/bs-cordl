@@ -46,10 +46,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ad9bfc, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ac7070, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ad9eb8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ac732c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -128,21 +128,21 @@ public:
   /// @brief Field lastSessionStartTime, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_lastSessionStartTime, put = __cordl_internal_set_lastSessionStartTime)) float_t lastSessionStartTime;
 
-  /// @brief Method LogSessionEventAfterPlatformInit, addr 0x3ad998c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LogSessionEventAfterPlatformInit, addr 0x3ac6e00, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LogSessionEventAfterPlatformInit(bool hasFocus);
 
-  /// @brief Method LogSessionEventOnFocus, addr 0x3ad9980, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LogSessionEventOnFocus, addr 0x3ac6df4, size 0xc, virtual false, abstract: false, final false
   inline void LogSessionEventOnFocus(bool hasFocus);
 
-  /// @brief Method LogSessionFinish, addr 0x3ad9b1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LogSessionFinish, addr 0x3ac6f90, size 0xd8, virtual false, abstract: false, final false
   inline void LogSessionFinish();
 
-  /// @brief Method LogSessionStart, addr 0x3ad9a64, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method LogSessionStart, addr 0x3ac6ed8, size 0xb8, virtual false, abstract: false, final false
   inline void LogSessionStart();
 
   static inline ::GlobalNamespace::GameSessionAnalyticsManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x3ad9930, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x3ac6da4, size 0x50, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_lastSessionStartTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad9bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac7068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

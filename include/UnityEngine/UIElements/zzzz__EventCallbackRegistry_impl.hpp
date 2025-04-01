@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventCallbackList* (*)(::UnityEngine::UIElements::EventCallbackList*)>(
     &::UnityEngine::UIElements::EventCallbackRegistry::GetCallbackList)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a34a14;
+  constexpr static std::size_t addrs = 0x4a225f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::EventCallbackList*)>(
     &::UnityEngine::UIElements::EventCallbackRegistry::ReleaseCallbackList)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a34a7c;
+  constexpr static std::size_t addrs = 0x4a2265c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventCallbackRegistry::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a34ae4;
+  constexpr static std::size_t addrs = 0x4a226c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackRegistry*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventCallbackList* (::UnityEngine::UIElements::EventCallbackRegistry::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry::GetCallbackListForWriting)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4a34b00;
+  constexpr static std::size_t addrs = 0x4a226e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackRegistry*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventCallbackList* (::UnityEngine::UIElements::EventCallbackRegistry::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry::GetCallbackListForReading)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a34bb8;
+  constexpr static std::size_t addrs = 0x4a22798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackRegistry*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventCallbackRegistry::*)(
     int64_t, ::System::Delegate*, ::UnityEngine::UIElements::TrickleDown)>(&::UnityEngine::UIElements::EventCallbackRegistry::UnregisterCallback)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a34bd4;
+  constexpr static std::size_t addrs = 0x4a227b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventCallbackRegistry::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::PropagationPhase)>(&::UnityEngine::UIElements::EventCallbackRegistry::InvokeCallbacks)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4a34c28;
+  constexpr static std::size_t addrs = 0x4a22808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventCallbackRegistry::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry::HasTrickleDownHandlers)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a34dcc;
+  constexpr static std::size_t addrs = 0x4a229ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackRegistry*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventCallbackRegistry::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry::HasBubbleHandlers)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a34dec;
+  constexpr static std::size_t addrs = 0x4a229cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackRegistry*>::get(),

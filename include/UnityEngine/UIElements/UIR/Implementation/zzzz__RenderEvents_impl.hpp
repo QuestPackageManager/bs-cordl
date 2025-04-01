@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, uint32_t, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::ProcessOnClippingChanged)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x49cbfa4;
+  constexpr static std::size_t addrs = 0x49b9b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, uint32_t, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::ProcessOnOpacityChanged)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x49cc674;
+  constexpr static std::size_t addrs = 0x49ba254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, uint32_t, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::ProcessOnColorChanged)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49ccb98;
+  constexpr static std::size_t addrs = 0x49ba778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, uint32_t, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::ProcessOnTransformOrSizeChanged)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x49cce64;
+  constexpr static std::size_t addrs = 0x49baa44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, uint32_t, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::ProcessOnVisualsChanged)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x49cd32c;
+  constexpr static std::size_t addrs = 0x49baf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::GetTransformIDTransformInfo)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x49cd92c;
+  constexpr static std::size_t addrs = 0x49bb50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::GetClipRectIDClipInfo)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x49cda74;
+  constexpr static std::size_t addrs = 0x49bb654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint32_t (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, int32_t, bool)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::DepthFirstOnChildAdded)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x49cdbf8;
+  constexpr static std::size_t addrs = 0x49bb7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::DepthFirstOnChildRemoving)> {
   constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x49cf164;
+  constexpr static std::size_t addrs = 0x49bcd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::UIElements::UIR::UIRenderDevice*, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::DepthFirstOnClippingChanged)> {
   constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x49cc08c;
+  constexpr static std::size_t addrs = 0x49b9c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            bool, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>, bool)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::DepthFirstOnOpacityChanged)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x49cc754;
+  constexpr static std::size_t addrs = 0x49ba334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, uint32_t, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::OnColorChanged)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x49ccc20;
+  constexpr static std::size_t addrs = 0x49ba800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,7 +248,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, uint32_t, ::UnityEngine::UIElements::UIR::UIRenderDevice*, bool,
     bool, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(&::UnityEngine::UIElements::UIR::Implementation::RenderEvents::DepthFirstOnTransformOrSizeChanged)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x49ccf20;
+  constexpr static std::size_t addrs = 0x49bab00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -271,7 +271,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, uint32_t, bool, bool, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
         &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::DepthFirstOnVisualsChanged)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x49cd4ec;
+  constexpr static std::size_t addrs = 0x49bb0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::UpdateTextCoreSettings)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x49cf840;
+  constexpr static std::size_t addrs = 0x49bd420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::IsElementHierarchyHidden)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x49cd42c;
+  constexpr static std::size_t addrs = 0x49bb00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::GetLastDeepestChild)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49ce26c;
+  constexpr static std::size_t addrs = 0x49bbe4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::Implementation::ClipMethod (*)(
     ::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIR::Implementation::RenderEvents::DetermineSelfClipMethod)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49cf738;
+  constexpr static std::size_t addrs = 0x49bd318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::UpdateLocalFlipsWinding)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x49ce144;
+  constexpr static std::size_t addrs = 0x49bbd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::UpdateWorldFlipsWinding)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49cfe24;
+  constexpr static std::size_t addrs = 0x49bda04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::UpdateZeroScaling)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x49cfc64;
+  constexpr static std::size_t addrs = 0x49bd844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::NeedsTransformID)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x49ce2e8;
+  constexpr static std::size_t addrs = 0x49bbec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::NeedsColorID)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x49ce324;
+  constexpr static std::size_t addrs = 0x49bbf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::NeedsTextCoreSettings)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49cfe78;
+  constexpr static std::size_t addrs = 0x49bda58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::InitColorIDs)> {
   constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x49ce344;
+  constexpr static std::size_t addrs = 0x49bbf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::Implementation::RenderEvents::SetColorValues)> {
   constexpr static std::size_t size = 0x788;
-  constexpr static std::size_t addrs = 0x49ce9dc;
+  constexpr static std::size_t addrs = 0x49bc5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

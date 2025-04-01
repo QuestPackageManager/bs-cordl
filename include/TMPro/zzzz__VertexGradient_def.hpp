@@ -22,10 +22,10 @@ namespace TMPro {
 struct CORDL_TYPE VertexGradient {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x47d2cd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c08b4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x47d2cf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c08d8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr VertexGradient(::UnityEngine::Color topLeft, ::UnityEngine::Color topRight, ::UnityEngine::Color bottomLeft, ::UnityEngine::Color bottomRight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14437 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

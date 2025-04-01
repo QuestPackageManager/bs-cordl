@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::get_startSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26fd900;
+  constexpr static std::size_t addrs = 0x26f5f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeSettings*>::get(), "get_startSongTime",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(float_t)>(&::GlobalNamespace::PracticeSettings::set_startSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26fd908;
+  constexpr static std::size_t addrs = 0x26f5f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::get_songSpeedMul)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26fd910;
+  constexpr static std::size_t addrs = 0x26f5f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeSettings*>::get(), "get_songSpeedMul",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(float_t)>(&::GlobalNamespace::PracticeSettings::set_songSpeedMul)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26fd918;
+  constexpr static std::size_t addrs = 0x26f5f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PracticeSettings::*)()>(
     &::GlobalNamespace::PracticeSettings::get_startInAdvanceAndClearNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26fd920;
+  constexpr static std::size_t addrs = 0x26f5f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(bool)>(
     &::GlobalNamespace::PracticeSettings::set_startInAdvanceAndClearNotes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26fd928;
+  constexpr static std::size_t addrs = 0x26f5f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PracticeSettings* (*)()>(&::GlobalNamespace::PracticeSettings::get_defaultPracticeSettings)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26fd934;
+  constexpr static std::size_t addrs = 0x26f5f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeSettings*>::get(),
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26f77b8;
+  constexpr static std::size_t addrs = 0x26efdfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeSettings*>::get(), ".ctor",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(::GlobalNamespace::PracticeSettings*)>(
     &::GlobalNamespace::PracticeSettings::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26fd9b8;
+  constexpr static std::size_t addrs = 0x26f5ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(float_t, float_t)>(&::GlobalNamespace::PracticeSettings::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26fbd10;
+  constexpr static std::size_t addrs = 0x26f4354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::ResetToDefault)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26fd9a0;
+  constexpr static std::size_t addrs = 0x26f5fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeSettings*>::get(), "ResetToDefault",

@@ -35,22 +35,22 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method GetPoint, addr 0x487ec40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x486c820, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPoint(float_t distance);
 
-  /// @brief Method ToString, addr 0x487ec54, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x486c834, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x487ec64, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x486c844, size 0x188, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x487eb68, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486c748, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction);
 
-  /// @brief Method get_direction, addr 0x487ec38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x486c818, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_direction();
 
-  /// @brief Method get_origin, addr 0x487ec30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_origin, addr 0x486c810, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_origin();
 
   /// @brief Convert to "::System::IFormattable"

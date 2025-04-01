@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270e534;
+  constexpr static std::size_t addrs = 0x2706b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationBaseData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_usePreviousEventTranslationValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x270e53c;
+  constexpr static std::size_t addrs = 0x2706b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270e54c;
+  constexpr static std::size_t addrs = 0x2706b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationBaseData*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_translation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270e554;
+  constexpr static std::size_t addrs = 0x2706b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationBaseData*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)(
     float_t, bool, ::BeatmapSaveDataCommon::EaseType, float_t)>(&::BeatmapSaveDataVersion3::LightTranslationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x270e55c;
+  constexpr static std::size_t addrs = 0x2706ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

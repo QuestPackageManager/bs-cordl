@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d5f4;
+  constexpr static std::size_t addrs = 0x3b3a620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::*)(
     ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::_InitEnvironmentInfo_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b4d604;
+  constexpr static std::size_t addrs = 0x3b3a630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b49f18;
+  constexpr static std::size_t addrs = 0x3b36f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b4a3f8;
+  constexpr static std::size_t addrs = 0x3b37424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_gameMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4cfbc;
+  constexpr static std::size_t addrs = 0x3b39fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::StringW)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_gameMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4cfc4;
+  constexpr static std::size_t addrs = 0x3b39ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b4cfcc;
+  constexpr static std::size_t addrs = 0x3b39ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b4cfe0;
+  constexpr static std::size_t addrs = 0x3b3a00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevel* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_beatmapLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4cff4;
+  constexpr static std::size_t addrs = 0x3b3a020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_beatmapLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4cffc;
+  constexpr static std::size_t addrs = 0x3b3a028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PracticeSettings* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d004;
+  constexpr static std::size_t addrs = 0x3b3a030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::PracticeSettings*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d00c;
+  constexpr static std::size_t addrs = 0x3b3a038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_usingOverrideColorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d014;
+  constexpr static std::size_t addrs = 0x3b3a040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(bool)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_usingOverrideColorScheme)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b4d01c;
+  constexpr static std::size_t addrs = 0x3b3a048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d028;
+  constexpr static std::size_t addrs = 0x3b3a054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d030;
+  constexpr static std::size_t addrs = 0x3b3a05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_usingOverrideEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d038;
+  constexpr static std::size_t addrs = 0x3b3a064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(bool)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_usingOverrideEnvironment)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b4d040;
+  constexpr static std::size_t addrs = 0x3b3a06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_targetEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d04c;
+  constexpr static std::size_t addrs = 0x3b3a078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_targetEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d054;
+  constexpr static std::size_t addrs = 0x3b3a080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_originalEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d05c;
+  constexpr static std::size_t addrs = 0x3b3a088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_originalEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d064;
+  constexpr static std::size_t addrs = 0x3b3a090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d06c;
+  constexpr static std::size_t addrs = 0x3b3a098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d074;
+  constexpr static std::size_t addrs = 0x3b3a0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevelsEntitlementModel*, ::StringW, bool, bool, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3b47850;
+  constexpr static std::size_t addrs = 0x3b3487c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -466,7 +466,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevelsEntitlementModel*, bool, bool, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3b4ad38;
+  constexpr static std::size_t addrs = 0x3b37d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Finish)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b4d5cc;
+  constexpr static std::size_t addrs = 0x3b3a5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
     ::GlobalNamespace::OverrideEnvironmentSettings*, ::GlobalNamespace::EnvironmentsListModel*)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitEnvironmentInfo)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3b4d07c;
+  constexpr static std::size_t addrs = 0x3b3a0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
     ::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitColorInfo)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3b4d2c0;
+  constexpr static std::size_t addrs = 0x3b3a2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
     ::GlobalNamespace::PlayerSpecificSettings*, ::StringW, bool)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitAndSetupScenes)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3b4d314;
+  constexpr static std::size_t addrs = 0x3b3a340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d5fc;
+  constexpr static std::size_t addrs = 0x3b3a628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

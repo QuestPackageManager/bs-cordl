@@ -112,31 +112,31 @@ public:
 
   static inline ::GlobalNamespace::OVRProfile* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4014178, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001d30, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eyeDepth, addr 0x4014104, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeDepth, addr 0x4001cbc, size 0x50, virtual false, abstract: false, final false
   inline float_t get_eyeDepth();
 
-  /// @brief Method get_eyeHeight, addr 0x40140b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeHeight, addr 0x4001c6c, size 0x50, virtual false, abstract: false, final false
   inline float_t get_eyeHeight();
 
-  /// @brief Method get_id, addr 0x4013ec0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x4001a78, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_ipd, addr 0x4013f80, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_ipd, addr 0x4001b38, size 0x134, virtual false, abstract: false, final false
   inline float_t get_ipd();
 
-  /// @brief Method get_locale, addr 0x4013f40, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_locale, addr 0x4001af8, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_locale();
 
-  /// @brief Method get_neckHeight, addr 0x4014154, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_neckHeight, addr 0x4001d0c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_neckHeight();
 
-  /// @brief Method get_state, addr 0x4014170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x4001d28, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRProfile_State get_state();
 
-  /// @brief Method get_userName, addr 0x4013f00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x4001ab8, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
 protected:

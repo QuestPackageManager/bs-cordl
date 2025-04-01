@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::PerformanceCountersElement::*)()>(
     &::System::Net::Configuration::PerformanceCountersElement::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4414df0;
+  constexpr static std::size_t addrs = 0x44029b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::PerformanceCountersElement*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (
     ::System::Net::Configuration::PerformanceCountersElement::*)()>(&::System::Net::Configuration::PerformanceCountersElement::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4414e28;
+  constexpr static std::size_t addrs = 0x44029e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -78,10 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c* New_ctor();
 
-  /// @brief Method <ProcessMatchedRules>b__24_0, addr 0x49b1438, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <ProcessMatchedRules>b__24_0, addr 0x499f018, size 0x44, virtual false, abstract: false, final false
   inline int32_t _ProcessMatchedRules_b__24_0(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
-  /// @brief Method .ctor, addr 0x49b1430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499f010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c* getStaticF___9();
@@ -156,47 +156,47 @@ public:
   __declspec(property(get = __cordl_internal_get_m_UpdateList,
                       put = __cordl_internal_set_m_UpdateList)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_UpdateList;
 
-  /// @brief Method AddChangedElement, addr 0x49af07c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddChangedElement, addr 0x499cc5c, size 0x80, virtual false, abstract: false, final false
   inline void AddChangedElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method CancelAnimationsWithNoTransitionProperty, addr 0x49af5b8, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method CancelAnimationsWithNoTransitionProperty, addr 0x499d198, size 0x2c8, virtual false, abstract: false, final false
   inline void CancelAnimationsWithNoTransitionProperty(::UnityEngine::UIElements::VisualElement* element, ::ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method Clear, addr 0x49af514, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x499d0f4, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ForceUpdateTransitions, addr 0x49b1044, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ForceUpdateTransitions, addr 0x499ec24, size 0x294, virtual false, abstract: false, final false
   inline void ForceUpdateTransitions(::UnityEngine::UIElements::VisualElement* element);
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* New_ctor();
 
-  /// @brief Method OnProcessMatchResult, addr 0x49b00a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnProcessMatchResult, addr 0x499dc84, size 0x30, virtual false, abstract: false, final false
   static inline void OnProcessMatchResult(::UnityEngine::UIElements::VisualElement* current, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo info);
 
-  /// @brief Method PrepareTraversal, addr 0x49af8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PrepareTraversal, addr 0x499d4cc, size 0x8, virtual false, abstract: false, final false
   inline void PrepareTraversal(float_t pixelsPerPoint);
 
-  /// @brief Method ProcessMatchedRules, addr 0x49b07b8, size 0x7b8, virtual false, abstract: false, final false
+  /// @brief Method ProcessMatchedRules, addr 0x499e398, size 0x7b8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ComputedStyle ProcessMatchedRules(::UnityEngine::UIElements::VisualElement* element,
                                                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchingSelectors);
 
-  /// @brief Method ProcessMatchedVariables, addr 0x49b12d8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ProcessMatchedVariables, addr 0x499eeb8, size 0xfc, virtual false, abstract: false, final false
   inline void ProcessMatchedVariables(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleRule* rule);
 
-  /// @brief Method ProcessTransitions, addr 0x49b0f70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ProcessTransitions, addr 0x499eb50, size 0xd4, virtual false, abstract: false, final false
   inline void ProcessTransitions(::UnityEngine::UIElements::VisualElement* element, ::ByRef<::UnityEngine::UIElements::ComputedStyle> oldStyle,
                                  ::ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method PropagateToChildren, addr 0x49aff30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method PropagateToChildren, addr 0x499db10, size 0xd0, virtual false, abstract: false, final false
   inline void PropagateToChildren(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method PropagateToParents, addr 0x49b0000, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PropagateToParents, addr 0x499dbe0, size 0xa4, virtual false, abstract: false, final false
   inline void PropagateToParents(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ShouldSkipElement, addr 0x49b0734, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ShouldSkipElement, addr 0x499e314, size 0x84, virtual false, abstract: false, final false
   inline bool ShouldSkipElement(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method TraverseRecursive, addr 0x49b00d4, size 0x660, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x499dcb4, size 0x660, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
   constexpr float_t const& __cordl_internal_get__currentPixelsPerPoint_k__BackingField() const;
@@ -247,13 +247,13 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x49af9b8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d598, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentPixelsPerPoint, addr 0x49aff20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentPixelsPerPoint, addr 0x499db00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentPixelsPerPoint();
 
-  /// @brief Method set_currentPixelsPerPoint, addr 0x49aff28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentPixelsPerPoint, addr 0x499db08, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPixelsPerPoint(float_t value);
 
 protected:

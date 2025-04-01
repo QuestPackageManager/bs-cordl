@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x23ffd08;
+  constexpr static std::size_t addrs = 0x23f7e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x23ffd9c;
+  constexpr static std::size_t addrs = 0x23f7f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23ff87c;
+  constexpr static std::size_t addrs = 0x23f7a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::GetLdsVersion)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23ffe80;
+  constexpr static std::size_t addrs = 0x23f8010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::GetUnicodeVersion)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23ffea0;
+  constexpr static std::size_t addrs = 0x23f8030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x23ffec0;
+  constexpr static std::size_t addrs = 0x23f8050;
 
   inline static ::MethodInfo const* methodInfo() {
 

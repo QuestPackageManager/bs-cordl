@@ -119,7 +119,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <InNamespaces>b__0, addr 0x4b0ee3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <InNamespaces>b__0, addr 0x4afca30, size 0xd4, virtual false, abstract: false, final false
   inline bool _InNamespaces_b__0(::System::Type* t);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* const& __cordl_internal_get_namespaces() const;
@@ -128,13 +128,13 @@ public:
 
   constexpr void __cordl_internal_set_namespaces(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0ef18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afcb0c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0ef6c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afcb60, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0ea78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc66c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -177,7 +177,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass13_1* New_ctor();
 
-  /// @brief Method <InNamespaces>b__1, addr 0x4b0f124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <InNamespaces>b__1, addr 0x4afcd18, size 0x8, virtual false, abstract: false, final false
   inline bool _InNamespaces_b__1(::StringW n);
 
   constexpr ::System::Type* const& __cordl_internal_get_t() const;
@@ -186,13 +186,13 @@ public:
 
   constexpr void __cordl_internal_set_t(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0f12c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afcd20, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f180, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afcd74, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0ef10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afcb04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,7 +235,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <WithSuffix>b__0, addr 0x4b0f338, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <WithSuffix>b__0, addr 0x4afcf2c, size 0x38, virtual false, abstract: false, final false
   inline bool _WithSuffix_b__0(::System::Type* t);
 
   constexpr ::StringW const& __cordl_internal_get_suffix() const;
@@ -244,13 +244,13 @@ public:
 
   constexpr void __cordl_internal_set_suffix(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b0f370, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afcf64, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f3c4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afcfb8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0eb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc73c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -293,7 +293,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method <WithPrefix>b__0, addr 0x4b0f57c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <WithPrefix>b__0, addr 0x4afd170, size 0x38, virtual false, abstract: false, final false
   inline bool _WithPrefix_b__0(::System::Type* t);
 
   constexpr ::StringW const& __cordl_internal_get_prefix() const;
@@ -302,13 +302,13 @@ public:
 
   constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b0f5b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afd1a8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f608, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afd1fc, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0ec18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -351,7 +351,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <MatchingRegex>b__0, addr 0x4b0f7c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <MatchingRegex>b__0, addr 0x4afd3b4, size 0x3c, virtual false, abstract: false, final false
   inline bool _MatchingRegex_b__0(::System::Type* t);
 
   constexpr ::System::Text::RegularExpressions::Regex* const& __cordl_internal_get_regex() const;
@@ -360,13 +360,13 @@ public:
 
   constexpr void __cordl_internal_set_regex(::System::Text::RegularExpressions::Regex* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0f7fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afd3f0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0f850, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afd444, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0ed64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -409,7 +409,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <DerivingFromOrEqual>b__0, addr 0x4b0fa08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <DerivingFromOrEqual>b__0, addr 0x4afd5fc, size 0x68, virtual false, abstract: false, final false
   inline bool _DerivingFromOrEqual_b__0(::System::Type* type);
 
   constexpr ::System::Type* const& __cordl_internal_get_parentType() const;
@@ -418,13 +418,13 @@ public:
 
   constexpr void __cordl_internal_set_parentType(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0fa70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afd664, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0fac4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afd6b8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0e5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc1e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -467,7 +467,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <DerivingFrom>b__0, addr 0x4b0fc7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <DerivingFrom>b__0, addr 0x4afd870, size 0x68, virtual false, abstract: false, final false
   inline bool _DerivingFrom_b__0(::System::Type* type);
 
   constexpr ::System::Type* const& __cordl_internal_get_parentType() const;
@@ -476,13 +476,13 @@ public:
 
   constexpr void __cordl_internal_set_parentType(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0fce4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afd8d8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0fd38, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afd92c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0e6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc2b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -525,7 +525,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <WithAttribute>b__0, addr 0x4b0fef0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <WithAttribute>b__0, addr 0x4afdae4, size 0xc8, virtual false, abstract: false, final false
   inline bool _WithAttribute_b__0(::System::Type* t);
 
   constexpr ::System::Type* const& __cordl_internal_get_attribute() const;
@@ -534,13 +534,13 @@ public:
 
   constexpr void __cordl_internal_set_attribute(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0ffb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afdbac, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b1000c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afdc00, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0e7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc3d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -583,7 +583,7 @@ public:
 
   static inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <WithoutAttribute>b__0, addr 0x4b101c4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <WithoutAttribute>b__0, addr 0x4afddb8, size 0xd4, virtual false, abstract: false, final false
   inline bool _WithoutAttribute_b__0(::System::Type* t);
 
   constexpr ::System::Type* const& __cordl_internal_get_attribute() const;
@@ -592,13 +592,13 @@ public:
 
   constexpr void __cordl_internal_set_attribute(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4b10298, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afde8c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b102ec, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afdee0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0e908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc4fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -715,63 +715,63 @@ public:
   /// @brief Method DerivingFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConventionFilterTypesBinder* DerivingFrom();
 
-  /// @brief Method DerivingFrom, addr 0x4b0e5f8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DerivingFrom, addr 0x4afc1ec, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* DerivingFrom(::System::Type* parentType);
 
   /// @brief Method DerivingFromOrEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConventionFilterTypesBinder* DerivingFromOrEqual();
 
-  /// @brief Method DerivingFromOrEqual, addr 0x4b0e528, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DerivingFromOrEqual, addr 0x4afc11c, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* DerivingFromOrEqual(::System::Type* parentType);
 
-  /// @brief Method InNamespace, addr 0x4b0e934, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InNamespace, addr 0x4afc528, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* InNamespace(::StringW ns);
 
-  /// @brief Method InNamespaces, addr 0x4b0e9ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InNamespaces, addr 0x4afc5a0, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* InNamespaces(::ArrayW<::StringW, ::Array<::StringW>*> namespaces);
 
-  /// @brief Method InNamespaces, addr 0x4b0e9b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method InNamespaces, addr 0x4afc5a4, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* InNamespaces(::System::Collections::Generic::IEnumerable_1<::StringW>* namespaces);
 
-  /// @brief Method IsInNamespace, addr 0x4b0ed6c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsInNamespace, addr 0x4afc960, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsInNamespace(::System::Type* type, ::StringW requiredNs);
 
-  /// @brief Method MatchingRegex, addr 0x4b0ec20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MatchingRegex, addr 0x4afc814, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* MatchingRegex(::StringW pattern);
 
-  /// @brief Method MatchingRegex, addr 0x4b0ec28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MatchingRegex, addr 0x4afc81c, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* MatchingRegex(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options);
 
-  /// @brief Method MatchingRegex, addr 0x4b0ec9c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method MatchingRegex, addr 0x4afc890, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* MatchingRegex(::System::Text::RegularExpressions::Regex* regex);
 
   static inline ::Zenject::ConventionFilterTypesBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo);
 
-  /// @brief Method Where, addr 0x4b0e910, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Where, addr 0x4afc504, size 0x24, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* Where(::System::Func_2<::System::Type*, bool>* predicate);
 
   /// @brief Method WithAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConventionFilterTypesBinder* WithAttribute();
 
-  /// @brief Method WithAttribute, addr 0x4b0e6c8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method WithAttribute, addr 0x4afc2bc, size 0x11c, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* WithAttribute(::System::Type* attribute);
 
   /// @brief Method WithAttributeWhere, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConventionFilterTypesBinder* WithAttributeWhere(::System::Func_2<T, bool>* predicate);
 
-  /// @brief Method WithPrefix, addr 0x4b0eb50, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WithPrefix, addr 0x4afc744, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* WithPrefix(::StringW prefix);
 
-  /// @brief Method WithSuffix, addr 0x4b0ea80, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WithSuffix, addr 0x4afc674, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* WithSuffix(::StringW suffix);
 
   /// @brief Method WithoutAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConventionFilterTypesBinder* WithoutAttribute();
 
-  /// @brief Method WithoutAttribute, addr 0x4b0e7ec, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method WithoutAttribute, addr 0x4afc3e0, size 0x11c, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* WithoutAttribute(::System::Type* attribute);
 
-  /// @brief Method .ctor, addr 0x4b0e500, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc0f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ConventionBindInfo* bindInfo);
 
 protected:

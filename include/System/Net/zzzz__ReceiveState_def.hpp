@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_ValidThrough(int32_t value);
 
-  /// @brief Method .ctor, addr 0x449e6bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448c27c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::CommandStream* connection);
 
 protected:

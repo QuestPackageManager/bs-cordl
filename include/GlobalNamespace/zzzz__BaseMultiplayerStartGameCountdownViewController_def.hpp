@@ -55,24 +55,24 @@ public:
   /// @brief Field playerActiveStateChangedEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_playerActiveStateChangedEvent, put = __cordl_internal_set_playerActiveStateChangedEvent)) ::System::Action_1<bool>* playerActiveStateChangedEvent;
 
-  /// @brief Method DidActivate, addr 0x3c2c274, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c19d70, size 0x98, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c2c30c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c19e08, size 0x1c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c2c328, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c19e24, size 0x1c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetLevelGameplaySetupData, addr 0x3c2c050, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetLevelGameplaySetupData, addr 0x3c19b4c, size 0x164, virtual false, abstract: false, final false
   inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method SetLobbyPlayerData, addr 0x3c2c1b4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetLobbyPlayerData, addr 0x3c19cb0, size 0xc0, virtual true, abstract: false, final false
   inline void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method <DidActivate>b__9_0, addr 0x3c2c3a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__9_0, addr 0x3c19ea0, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_0(bool value);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
@@ -105,13 +105,13 @@ public:
 
   constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3c2c344, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c19e40, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerActiveStateChangedEvent, addr 0x3c2bef0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerActiveStateChangedEvent, addr 0x3c199ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x3c2bfa0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x3c19a9c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
 protected:

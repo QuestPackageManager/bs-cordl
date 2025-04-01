@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::SaveLanguagePreference::*)()>(&::BGLib::Polyglot::SaveLanguagePreference::Start)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22b6418;
+  constexpr static std::size_t addrs = 0x22ae5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::SaveLanguagePreference*>::get(), "Start",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::SaveLanguagePreference::*)(::BGLib::Polyglot::LocalizationModel*)>(
     &::BGLib::Polyglot::SaveLanguagePreference::OnLocalize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22b6468;
+  constexpr static std::size_t addrs = 0x22ae5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::SaveLanguagePreference::*)()>(&::BGLib::Polyglot::SaveLanguagePreference::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22b6490;
+  constexpr static std::size_t addrs = 0x22ae620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::SaveLanguagePreference*>::get(), ".ctor",

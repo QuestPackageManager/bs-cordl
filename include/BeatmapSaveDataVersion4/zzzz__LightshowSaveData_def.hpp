@@ -272,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set_waypointsData(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
 
-  /// @brief Method .ctor, addr 0x270cbfc, size 0x730, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705240, size 0x730, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -290,7 +290,7 @@ public:
   LightshowSaveData(LightshowSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13384 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };

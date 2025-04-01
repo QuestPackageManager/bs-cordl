@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x26e05ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x26d873c, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
 protected:

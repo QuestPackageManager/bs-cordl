@@ -53,15 +53,15 @@ public:
   /// @brief Field m_Thickness, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Thickness, put = __cordl_internal_set_m_Thickness)) float_t m_Thickness;
 
-  /// @brief Method CopyShape, addr 0x475a058, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x4747c38, size 0x9c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method GetFace, addr 0x475a0f4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetFace, addr 0x4747cd4, size 0xc4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetFace(::UnityEngine::Vector2 vertex1, ::UnityEngine::Vector2 vertex2, float_t depth);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Arch* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x475a1b8, size 0xb44, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x4747d98, size 0xb44, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   constexpr float_t const& __cordl_internal_get_m_ArchDegrees() const;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Thickness(float_t value);
 
-  /// @brief Method .ctor, addr 0x475acfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47488dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   Arch(Arch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14340 };
 
   /// @brief Field m_Thickness, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Thickness;

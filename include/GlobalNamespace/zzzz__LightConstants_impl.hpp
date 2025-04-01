@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(
     &::GlobalNamespace::LightConstants::GetLightmapLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x39efca0;
+  constexpr static std::size_t addrs = 0x39dcb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(
     &::GlobalNamespace::LightConstants::GetLightProbeLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x39efd48;
+  constexpr static std::size_t addrs = 0x39dcbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::LightConstants::GetComputeFieldPropertyId)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39efdf0;
+  constexpr static std::size_t addrs = 0x39dcc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

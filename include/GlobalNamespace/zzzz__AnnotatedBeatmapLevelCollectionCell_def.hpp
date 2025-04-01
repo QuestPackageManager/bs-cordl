@@ -69,10 +69,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c09480, size 0x618, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bf6f70, size 0x618, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c09a98, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bf7588, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -162,77 +162,77 @@ public:
   // Declarations
   using _RefreshAvailabilityAsync_d__23 = ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23;
 
-  /// @brief Field _beatmapLevelPack, offset 0xd8, size 0x8
+  /// @brief Field _beatmapLevelPack, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelPack, put = __cordl_internal_set__beatmapLevelPack)) ::GlobalNamespace::BeatmapLevelPack* _beatmapLevelPack;
 
-  /// @brief Field _cancellationTokenSource, offset 0xe0, size 0x8
+  /// @brief Field _cancellationTokenSource, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
-  /// @brief Field <cellIndex>k__BackingField, offset 0xd0, size 0x4
+  /// @brief Field <cellIndex>k__BackingField, offset 0xe0, size 0x4
   __declspec(property(get = __cordl_internal_get__cellIndex_k__BackingField, put = __cordl_internal_set__cellIndex_k__BackingField)) int32_t _cellIndex_k__BackingField;
 
-  /// @brief Field _coverImage, offset 0x60, size 0x8
+  /// @brief Field _coverImage, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage)) ::UnityW<::HMUI::ImageView> _coverImage;
 
-  /// @brief Field _defaultCoverSprite, offset 0xc8, size 0x8
+  /// @brief Field _defaultCoverSprite, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultCoverSprite, put = __cordl_internal_set__defaultCoverSprite)) ::UnityW<::UnityEngine::Sprite> _defaultCoverSprite;
 
-  /// @brief Field _downloadIconObject, offset 0x70, size 0x8
+  /// @brief Field _downloadIconObject, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__downloadIconObject, put = __cordl_internal_set__downloadIconObject)) ::UnityW<::UnityEngine::GameObject> _downloadIconObject;
 
-  /// @brief Field _highlightedColor0, offset 0xa8, size 0x10
+  /// @brief Field _highlightedColor0, offset 0xb8, size 0x10
   __declspec(property(get = __cordl_internal_get__highlightedColor0, put = __cordl_internal_set__highlightedColor0)) ::UnityEngine::Color _highlightedColor0;
 
-  /// @brief Field _highlightedColor1, offset 0xb8, size 0x10
+  /// @brief Field _highlightedColor1, offset 0xc8, size 0x10
   __declspec(property(get = __cordl_internal_get__highlightedColor1, put = __cordl_internal_set__highlightedColor1)) ::UnityEngine::Color _highlightedColor1;
 
-  /// @brief Field _infoText, offset 0x58, size 0x8
+  /// @brief Field _infoText, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__infoText, put = __cordl_internal_set__infoText)) ::UnityW<::TMPro::TextMeshProUGUI> _infoText;
 
-  /// @brief Field _newBadgeObject, offset 0x78, size 0x8
+  /// @brief Field _newBadgeObject, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__newBadgeObject, put = __cordl_internal_set__newBadgeObject)) ::UnityW<::UnityEngine::GameObject> _newBadgeObject;
 
-  /// @brief Field _selectedColor0, offset 0x88, size 0x10
+  /// @brief Field _selectedColor0, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedColor0, put = __cordl_internal_set__selectedColor0)) ::UnityEngine::Color _selectedColor0;
 
-  /// @brief Field _selectedColor1, offset 0x98, size 0x10
+  /// @brief Field _selectedColor1, offset 0xa8, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedColor1, put = __cordl_internal_set__selectedColor1)) ::UnityEngine::Color _selectedColor1;
 
-  /// @brief Field _selectionImage, offset 0x68, size 0x8
+  /// @brief Field _selectionImage, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__selectionImage, put = __cordl_internal_set__selectionImage)) ::UnityW<::HMUI::ImageView> _selectionImage;
 
-  /// @brief Field _updatedBadgeObject, offset 0x80, size 0x8
+  /// @brief Field _updatedBadgeObject, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__updatedBadgeObject, put = __cordl_internal_set__updatedBadgeObject)) ::UnityW<::UnityEngine::GameObject> _updatedBadgeObject;
 
   __declspec(property(get = get_cellIndex, put = set_cellIndex)) int32_t cellIndex;
 
-  /// @brief Method CancelAsyncOperations, addr 0x3c09444, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x3bf6f34, size 0x14, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method GetInfoText, addr 0x3c0914c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInfoText, addr 0x3bf6c3c, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW GetInfoText(::StringW name, int32_t songs, int32_t purchased);
 
-  /// @brief Method HighlightDidChange, addr 0x3c093a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3bf6e90, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method InternalToggle, addr 0x3c09288, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x3bf6d78, size 0x18, virtual true, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* New_ctor();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x3c093a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x3bf6e94, size 0xa0, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel);
 
-  /// @brief Method RefreshVisuals, addr 0x3c092a4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3bf6d94, size 0xfc, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3c092a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3bf6d90, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x3c09008, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3bf6af8, size 0x144, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, bool isPromoted, bool isUpdated, bool interactable);
 
-  /// @brief Method SetDownloadIconVisible, addr 0x3c0923c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadIconVisible, addr 0x3bf6d2c, size 0x4c, virtual false, abstract: false, final false
   inline void SetDownloadIconVisible(bool visible);
 
   constexpr ::GlobalNamespace::BeatmapLevelPack* const& __cordl_internal_get__beatmapLevelPack() const;
@@ -319,13 +319,13 @@ public:
 
   constexpr void __cordl_internal_set__updatedBadgeObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3c09458, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf6f48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellIndex, addr 0x3c08ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellIndex, addr 0x3bf6ae8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellIndex();
 
-  /// @brief Method set_cellIndex, addr 0x3c09000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cellIndex, addr 0x3bf6af0, size 0x8, virtual false, abstract: false, final false
   inline void set_cellIndex(int32_t value);
 
 protected:
@@ -345,80 +345,80 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4746 };
 
-  /// @brief Field _infoText, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _infoText, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____infoText;
 
-  /// @brief Field _coverImage, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _coverImage, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____coverImage;
 
-  /// @brief Field _selectionImage, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _selectionImage, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____selectionImage;
 
-  /// @brief Field _downloadIconObject, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _downloadIconObject, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____downloadIconObject;
 
-  /// @brief Field _newBadgeObject, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _newBadgeObject, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____newBadgeObject;
 
-  /// @brief Field _updatedBadgeObject, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _updatedBadgeObject, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____updatedBadgeObject;
 
-  /// @brief Field _selectedColor0, offset: 0x88, size: 0x10, def value: None
+  /// @brief Field _selectedColor0, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedColor0;
 
-  /// @brief Field _selectedColor1, offset: 0x98, size: 0x10, def value: None
+  /// @brief Field _selectedColor1, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedColor1;
 
-  /// @brief Field _highlightedColor0, offset: 0xa8, size: 0x10, def value: None
+  /// @brief Field _highlightedColor0, offset: 0xb8, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightedColor0;
 
-  /// @brief Field _highlightedColor1, offset: 0xb8, size: 0x10, def value: None
+  /// @brief Field _highlightedColor1, offset: 0xc8, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightedColor1;
 
-  /// @brief Field _defaultCoverSprite, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _defaultCoverSprite, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____defaultCoverSprite;
 
-  /// @brief Field <cellIndex>k__BackingField, offset: 0xd0, size: 0x4, def value: None
+  /// @brief Field <cellIndex>k__BackingField, offset: 0xe0, size: 0x4, def value: None
   int32_t ____cellIndex_k__BackingField;
 
-  /// @brief Field _beatmapLevelPack, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelPack, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ____beatmapLevelPack;
 
-  /// @brief Field _cancellationTokenSource, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _cancellationTokenSource, offset: 0xf0, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____infoText) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____infoText) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____coverImage) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____coverImage) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____selectionImage) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____selectionImage) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____downloadIconObject) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____downloadIconObject) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____newBadgeObject) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____newBadgeObject) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____updatedBadgeObject) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____updatedBadgeObject) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____selectedColor0) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____selectedColor0) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____selectedColor1) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____selectedColor1) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____highlightedColor0) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____highlightedColor0) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____highlightedColor1) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____highlightedColor1) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____defaultCoverSprite) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____defaultCoverSprite) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____cellIndex_k__BackingField) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____cellIndex_k__BackingField) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____beatmapLevelPack) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____beatmapLevelPack) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____cancellationTokenSource) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, ____cancellationTokenSource) == 0xf0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, 0xe8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, 0xf8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell);

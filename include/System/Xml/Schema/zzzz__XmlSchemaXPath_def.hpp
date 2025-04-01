@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set_xpath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42cc7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ba3b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XPath, addr 0x42cc7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XPath, addr 0x42ba3a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XPath();
 
-  /// @brief Method set_XPath, addr 0x42cc7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XPath, addr 0x42ba3ac, size 0x8, virtual false, abstract: false, final false
   inline void set_XPath(::StringW value);
 
 protected:

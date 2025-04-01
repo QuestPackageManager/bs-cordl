@@ -57,7 +57,7 @@ public:
 
   static inline ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList* New_ctor();
 
-  /// @brief Method SetActive, addr 0x3b9a338, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x3b87dbc, size 0x7c, virtual false, abstract: false, final false
   inline void SetActive(bool active);
 
   constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b9a554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b87fd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x3b9a540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3b87fc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method set_isActive, addr 0x3b9a548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x3b87fcc, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
 protected:
@@ -165,15 +165,15 @@ public:
       get = __cordl_internal_get__valueToListMap,
       put = __cordl_internal_set__valueToListMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>* _valueToListMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b9a3e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b87e64, size 0x158, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
-  /// @brief Method Initialize, addr 0x3b9a180, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b87c04, size 0x1b8, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   static inline ::GlobalNamespace::GameObjectIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9a3b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b87e38, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__valueToListMap(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>* value);
 
-  /// @brief Method .ctor, addr 0x3b9a538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b87fbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -45,33 +45,33 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_UpdateRegistry* s_Instance;
 
-  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild, addr 0x4818dc4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild, addr 0x48069a4, size 0x158, virtual false, abstract: false, final false
   inline bool InternalRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild, addr 0x4818c4c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild, addr 0x480682c, size 0x158, virtual false, abstract: false, final false
   inline bool InternalRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild, addr 0x48192ec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild, addr 0x4806ecc, size 0xdc, virtual false, abstract: false, final false
   inline void InternalUnRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild, addr 0x4819210, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild, addr 0x4806df0, size 0xdc, virtual false, abstract: false, final false
   inline void InternalUnRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
   static inline ::TMPro::TMP_UpdateRegistry* New_ctor();
 
-  /// @brief Method PerformUpdateForCanvasRendererObjects, addr 0x4818f1c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method PerformUpdateForCanvasRendererObjects, addr 0x4806afc, size 0x25c, virtual false, abstract: false, final false
   inline void PerformUpdateForCanvasRendererObjects();
 
-  /// @brief Method PerformUpdateForMeshRendererObjects, addr 0x4819178, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PerformUpdateForMeshRendererObjects, addr 0x4806d58, size 0x68, virtual false, abstract: false, final false
   inline void PerformUpdateForMeshRendererObjects();
 
-  /// @brief Method RegisterCanvasElementForGraphicRebuild, addr 0x4818da4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RegisterCanvasElementForGraphicRebuild, addr 0x4806984, size 0x20, virtual false, abstract: false, final false
   static inline void RegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method RegisterCanvasElementForLayoutRebuild, addr 0x4818c2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RegisterCanvasElementForLayoutRebuild, addr 0x480680c, size 0x20, virtual false, abstract: false, final false
   static inline void RegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method UnRegisterCanvasElementForRebuild, addr 0x48191e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterCanvasElementForRebuild, addr 0x4806dc0, size 0x30, virtual false, abstract: false, final false
   static inline void UnRegisterCanvasElementForRebuild(::UnityEngine::UI::ICanvasElement* element);
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_m_GraphicQueueLookup() const;
@@ -98,12 +98,12 @@ public:
 
   constexpr void __cordl_internal_set_m_LayoutRebuildQueue(::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* value);
 
-  /// @brief Method .ctor, addr 0x4818ae0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48066c0, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_UpdateRegistry* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x4818a6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x480664c, size 0x74, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_UpdateRegistry* get_instance();
 
   static inline void setStaticF_s_Instance(::TMPro::TMP_UpdateRegistry* value);
@@ -123,7 +123,7 @@ public:
   TMP_UpdateRegistry(TMP_UpdateRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14579 };
 
   /// @brief Field m_LayoutRebuildQueue, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* ___m_LayoutRebuildQueue;

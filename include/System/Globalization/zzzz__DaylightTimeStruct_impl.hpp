@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::DaylightTimeStruct::*)(::System::DateTime, ::System::DateTime, ::System::TimeSpan)>(
     &::System::Globalization::DaylightTimeStruct::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3da0904;
+  constexpr static std::size_t addrs = 0x3d8e400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

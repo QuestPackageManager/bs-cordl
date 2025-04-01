@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::Asttree::*)()>(
     &::System::Xml::Schema::Asttree::get_SubtreeArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43a25ac;
+  constexpr static std::size_t addrs = 0x439016c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Asttree*>::get(), "get_SubtreeArray",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Asttree::*)(::StringW, bool, ::System::Xml::XmlNamespaceManager*)>(
     &::System::Xml::Schema::Asttree::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x43a25b4;
+  constexpr static std::size_t addrs = 0x4390174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsNameTest)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43a2dd0;
+  constexpr static std::size_t addrs = 0x4390990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsAttribute)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43a1794;
+  constexpr static std::size_t addrs = 0x438f354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsDescendantOrSelf)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43a2e04;
+  constexpr static std::size_t addrs = 0x43909c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsSelf)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43a256c;
+  constexpr static std::size_t addrs = 0x439012c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Asttree::*)(::StringW, bool, ::System::Xml::XmlNamespaceManager*)>(
     &::System::Xml::Schema::Asttree::CompileXPath)> {
   constexpr static std::size_t size = 0x7cc;
-  constexpr static std::size_t addrs = 0x43a2604;
+  constexpr static std::size_t addrs = 0x43901c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Asttree::*)(::MS::Internal::Xml::XPath::Axis*, ::System::Xml::XmlNamespaceManager*)>(
     &::System::Xml::Schema::Asttree::SetURN)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x43a2e44;
+  constexpr static std::size_t addrs = 0x4390a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -25,12 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE TableCellWithSeparator : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _separator, offset 0x68, size 0x8
+  /// @brief Field _separator, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) ::UnityW<::UnityEngine::GameObject> _separator;
 
   static inline ::GlobalNamespace::TableCellWithSeparator* New_ctor();
 
-  /// @brief Method TableViewSetup, addr 0x39f563c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method TableViewSetup, addr 0x39e268c, size 0xe4, virtual true, abstract: false, final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x39f5720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e2770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,17 +57,17 @@ public:
   TableCellWithSeparator(TableCellWithSeparator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16009 };
 
-  /// @brief Field _separator, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _separator, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____separator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::TableCellWithSeparator, ____separator) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TableCellWithSeparator, ____separator) == 0x78, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TableCellWithSeparator, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TableCellWithSeparator, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TableCellWithSeparator);

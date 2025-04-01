@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a3f478, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2d058, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3f470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2d050, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* getStaticF___9();
@@ -81,15 +81,15 @@ public:
 
   __declspec(property(get = get_isHandledByDraggable, put = set_isHandledByDraggable)) bool isHandledByDraggable;
 
-  /// @brief Method Init, addr 0x4a3ebc8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2c7a8, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a3ec18, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a2c7f8, size 0x10c, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x4a3ed74, size 0x6a0, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a2c954, size 0x6a0, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr bool const& __cordl_internal_get__isHandledByDraggable_k__BackingField() const;
@@ -98,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set__isHandledByDraggable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4a3ed24, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c904, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isHandledByDraggable, addr 0x4a3ebb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isHandledByDraggable, addr 0x4a2c794, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
-  /// @brief Method set_isHandledByDraggable, addr 0x4a3ebbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isHandledByDraggable, addr 0x4a2c79c, size 0xc, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
 protected:

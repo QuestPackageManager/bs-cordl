@@ -46,21 +46,21 @@ public:
   /// @brief Field _staticColor, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__staticColor, put = __cordl_internal_set__staticColor)) ::UnityEngine::Color _staticColor;
 
-  /// @brief Method Awake, addr 0x3b9a8c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b88344, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x3b9a8f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3b88374, size 0x30, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::AlphaFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method SetColor, addr 0x3b9a938, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x3b883bc, size 0xdc, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetValue, addr 0x3b9a920, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b883a4, size 0x18, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b9aa14, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b88498, size 0x18, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__staticColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b9aa2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b884b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

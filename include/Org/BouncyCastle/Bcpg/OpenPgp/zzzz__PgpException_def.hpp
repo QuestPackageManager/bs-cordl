@@ -30,16 +30,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x252d650, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25257e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2529700, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2521890, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x252d6a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525838, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method get_UnderlyingException, addr 0x252d718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingException, addr 0x25258a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_UnderlyingException();
 
 protected:

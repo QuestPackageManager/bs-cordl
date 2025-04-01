@@ -99,80 +99,80 @@ public:
   /// @brief Field s_blitShader, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_blitShader, put = setStaticF_s_blitShader)) ::UnityW<::UnityEngine::Shader> s_blitShader;
 
-  /// @brief Method ClosePaintElement, addr 0x49cb3dc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ClosePaintElement, addr 0x49b8fbc, size 0x23c, virtual false, abstract: false, final false
   static inline void ClosePaintElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter_ClosingInfo closingInfo,
                                        ::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method ComputeTransformMatrix, addr 0x49c8e78, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ComputeTransformMatrix, addr 0x49b6a58, size 0x124, virtual false, abstract: false, final false
   static inline void ComputeTransformMatrix(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* ancestor, ::ByRef<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method CreateBlitShader, addr 0x49cb1bc, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CreateBlitShader, addr 0x49b8d9c, size 0x220, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateBlitShader(float_t colorConversion);
 
-  /// @brief Method DoUpdateOpacityId, addr 0x49cb6c8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method DoUpdateOpacityId, addr 0x49b92a8, size 0x114, virtual false, abstract: false, final false
   static inline void DoUpdateOpacityId(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::MeshHandle* mesh);
 
-  /// @brief Method FindClosingCommandInsertionPoint, addr 0x49cabd8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FindClosingCommandInsertionPoint, addr 0x49b87b8, size 0x164, virtual false, abstract: false, final false
   static inline void FindClosingCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                       ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method FindCommandInsertionPoint, addr 0x49ca8b8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method FindCommandInsertionPoint, addr 0x49b8498, size 0x1b0, virtual false, abstract: false, final false
   static inline void FindCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method GetBlitMaterial, addr 0x49cae24, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method GetBlitMaterial, addr 0x49b8a04, size 0x2b8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetBlitMaterial(::UnityEngine::UIElements::VisualElement_RenderTargetMode mode);
 
-  /// @brief Method GetVerticesTransformInfo, addr 0x49c8d00, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetVerticesTransformInfo, addr 0x49b68e0, size 0x178, virtual false, abstract: false, final false
   static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement* ve, ::ByRef<::UnityEngine::Matrix4x4> transform);
 
-  /// @brief Method InjectClosingCommandInBetween, addr 0x49cad3c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InjectClosingCommandInBetween, addr 0x49b891c, size 0xe8, virtual false, abstract: false, final false
   static inline void InjectClosingCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                                    ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev, ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectClosingMeshDrawCommand, addr 0x49cb0dc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InjectClosingMeshDrawCommand, addr 0x49b8cbc, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* InjectClosingMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve,
                                                                                                  ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdPrev,
                                                                                                  ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdNext,
                                                                                                  ::UnityEngine::UIElements::UIR::MeshHandle* mesh, int32_t indexCount, int32_t indexOffset,
                                                                                                  ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture, int32_t stencilRef);
 
-  /// @brief Method InjectCommandInBetween, addr 0x49cab40, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InjectCommandInBetween, addr 0x49b8720, size 0x98, virtual false, abstract: false, final false
   static inline void InjectCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                             ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev, ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectMeshDrawCommand, addr 0x49caa68, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InjectMeshDrawCommand, addr 0x49b8648, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* InjectMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve,
                                                                                           ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdPrev,
                                                                                           ::ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdNext,
                                                                                           ::UnityEngine::UIElements::UIR::MeshHandle* mesh, int32_t indexCount, int32_t indexOffset,
                                                                                           ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture, int32_t stencilRef);
 
-  /// @brief Method InvokeGenerateVisualContent, addr 0x49ca6e4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method InvokeGenerateVisualContent, addr 0x49b82c4, size 0xec, virtual false, abstract: false, final false
   static inline void InvokeGenerateVisualContent(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
-  /// @brief Method IsParentOrAncestorOf, addr 0x49c8f9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsParentOrAncestorOf, addr 0x49b6b7c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsParentOrAncestorOf(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method NudgeVerticesToNewSpace, addr 0x49cb7dc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method NudgeVerticesToNewSpace, addr 0x49b93bc, size 0x384, virtual false, abstract: false, final false
   static inline bool NudgeVerticesToNewSpace(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderChain* renderChain,
                                              ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method PaintElement, addr 0x49c9028, size 0x142c, virtual false, abstract: false, final false
+  /// @brief Method PaintElement, addr 0x49b6c08, size 0x142c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter_ClosingInfo
   PaintElement(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method PrepareNudgeVertices, addr 0x49cbb60, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method PrepareNudgeVertices, addr 0x49b9740, size 0x10c, virtual false, abstract: false, final false
   static inline void PrepareNudgeVertices(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device, ::UnityEngine::UIElements::UIR::MeshHandle* mesh,
                                           ::ByRef<::System::IntPtr> src, ::ByRef<::System::IntPtr> dst, ::ByRef<int32_t> count);
 
-  /// @brief Method ResetCommands, addr 0x49ca454, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method ResetCommands, addr 0x49b8034, size 0x290, virtual false, abstract: false, final false
   static inline void ResetCommands(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UpdateOpacityId, addr 0x49cb618, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateOpacityId, addr 0x49b91f8, size 0xb0, virtual false, abstract: false, final false
   static inline void UpdateOpacityId(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method UpdateOrAllocate, addr 0x49ca7d0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateOrAllocate, addr 0x49b83b0, size 0xe8, virtual false, abstract: false, final false
   static inline void UpdateOrAllocate(::ByRef<::UnityEngine::UIElements::UIR::MeshHandle*> data, int32_t vertexCount, int32_t indexCount, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
                                       ::ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> verts, ::ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indices,
                                       ::ByRef<uint16_t> indexOffset, ::ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);

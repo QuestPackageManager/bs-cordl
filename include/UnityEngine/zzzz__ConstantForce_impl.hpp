@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_force)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x491744c;
+  constexpr static std::size_t addrs = 0x490502c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConstantForce*>::get(), "get_force",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_force)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49174ec;
+  constexpr static std::size_t addrs = 0x49050cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_relativeForce)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4917584;
+  constexpr static std::size_t addrs = 0x4905164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConstantForce*>::get(), "get_relativeForce",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_relativeForce)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4917624;
+  constexpr static std::size_t addrs = 0x4905204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_torque)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x49176bc;
+  constexpr static std::size_t addrs = 0x490529c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConstantForce*>::get(), "get_torque",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_torque)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x491775c;
+  constexpr static std::size_t addrs = 0x490533c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_relativeTorque)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x49177f4;
+  constexpr static std::size_t addrs = 0x49053d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConstantForce*>::get(), "get_relativeTorque",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_relativeTorque)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4917894;
+  constexpr static std::size_t addrs = 0x4905474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491792c;
+  constexpr static std::size_t addrs = 0x490550c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConstantForce*>::get(), ".ctor",
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::get_force_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x49174a8;
+  constexpr static std::size_t addrs = 0x4905088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::set_force_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4917540;
+  constexpr static std::size_t addrs = 0x4905120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::get_relativeForce_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x49175e0;
+  constexpr static std::size_t addrs = 0x49051c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::set_relativeForce_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4917678;
+  constexpr static std::size_t addrs = 0x4905258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::get_torque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4917718;
+  constexpr static std::size_t addrs = 0x49052f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::set_torque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x49177b0;
+  constexpr static std::size_t addrs = 0x4905390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::get_relativeTorque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4917850;
+  constexpr static std::size_t addrs = 0x4905430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConstantForce::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConstantForce::set_relativeTorque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x49178e8;
+  constexpr static std::size_t addrs = 0x49054c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

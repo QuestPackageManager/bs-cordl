@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_autoCorrection)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4aa74f4;
+  constexpr static std::size_t addrs = 0x4a950d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(
     &::UnityEngine::UIElements::ITextEdition::set_autoCorrection)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4aa75bc;
+  constexpr static std::size_t addrs = 0x4a9519c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_hideMobileInput)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4aa767c;
+  constexpr static std::size_t addrs = 0x4a9525c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(
     &::UnityEngine::UIElements::ITextEdition::set_hideMobileInput)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4aa7744;
+  constexpr static std::size_t addrs = 0x4a95324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TouchScreenKeyboardType (::UnityEngine::UIElements::ITextEdition::*)()>(
     &::UnityEngine::UIElements::ITextEdition::get_keyboardType)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4aa7804;
+  constexpr static std::size_t addrs = 0x4a953e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(::UnityEngine::TouchScreenKeyboardType)>(
     &::UnityEngine::UIElements::ITextEdition::set_keyboardType)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4aa78cc;
+  constexpr static std::size_t addrs = 0x4a954ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

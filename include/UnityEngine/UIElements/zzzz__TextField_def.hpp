@@ -62,7 +62,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TextField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49fc5cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ea1ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   /// @brief Field m_Multiline, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Multiline, put = __cordl_internal_set_m_Multiline)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Multiline;
 
-  /// @brief Method Init, addr 0x49fc614, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49ea1f4, size 0x1b8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TextField_UxmlTraits* New_ctor();
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Multiline(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x49fc7cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ea3ac, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription* getStaticF_k_Value();
@@ -160,16 +160,16 @@ public:
 
   static inline ::UnityEngine::UIElements::TextField_TextInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x49fc9cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49ea5ac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW StringToValue(::StringW str);
 
-  /// @brief Method .ctor, addr 0x49fbf90, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e9b70, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_isPasswordField, addr 0x49fc954, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_isPasswordField, addr 0x49ea534, size 0x78, virtual true, abstract: false, final false
   inline void set_isPasswordField(bool value);
 
-  /// @brief Method set_multiline, addr 0x49fbb54, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method set_multiline, addr 0x49e9734, size 0x230, virtual false, abstract: false, final false
   inline void set_multiline(bool value);
 
 protected:
@@ -223,7 +223,7 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) ::StringW value;
 
-  /// @brief Method ExecuteDefaultAction, addr 0x49fc2dc, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x49e9ebc, size 0x15c, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TextField* New_ctor();
@@ -232,28 +232,28 @@ public:
 
   static inline ::UnityEngine::UIElements::TextField* New_ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar);
 
-  /// @brief Method OnViewDataReady, addr 0x49fc438, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x49ea018, size 0xb4, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x49fc168, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x49e9d48, size 0x114, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::StringW newValue);
 
-  /// @brief Method StringToValue, addr 0x49fc4f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49ea0d4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW StringToValue(::StringW str);
 
-  /// @brief Method UpdateTextFromValue, addr 0x49fc27c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method UpdateTextFromValue, addr 0x49e9e5c, size 0x60, virtual true, abstract: false, final false
   inline void UpdateTextFromValue();
 
-  /// @brief Method ValueToString, addr 0x49fc4ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x49ea0cc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ValueToString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49fbd84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e9964, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49fbd9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e997c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x49fbdb0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e9990, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -262,10 +262,10 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_textInput, addr 0x49fbab0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_textInput, addr 0x49e9690, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextField_TextInput* get_textInput();
 
-  /// @brief Method get_value, addr 0x49fbffc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x49e9bdc, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_value();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -274,10 +274,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_multiline, addr 0x49fbb34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_multiline, addr 0x49e9714, size 0x20, virtual false, abstract: false, final false
   inline void set_multiline(bool value);
 
-  /// @brief Method set_value, addr 0x49fc044, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x49e9c24, size 0x124, virtual true, abstract: false, final false
   inline void set_value(::StringW value);
 
 protected:

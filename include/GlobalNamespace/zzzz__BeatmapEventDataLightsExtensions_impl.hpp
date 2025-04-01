@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentColorType (*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventDataLightsExtensions::LightColorTypeFromEventDataValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22470a4;
+  constexpr static std::size_t addrs = 0x223f234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentColorType (*)(int32_t)>(
     &::GlobalNamespace::BeatmapEventDataLightsExtensions::GetLightColorTypeFromEventDataValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22470dc;
+  constexpr static std::size_t addrs = 0x223f26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventDataLightsExtensions::HasLightFadeEventDataValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2247100;
+  constexpr static std::size_t addrs = 0x223f290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventDataLightsExtensions::HasFixedDurationLightSwitchEventDataValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2247138;
+  constexpr static std::size_t addrs = 0x223f2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::BeatmapEventDataLightsExtensions::HasFixedDurationLightSwitchEventDataValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2247170;
+  constexpr static std::size_t addrs = 0x223f300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

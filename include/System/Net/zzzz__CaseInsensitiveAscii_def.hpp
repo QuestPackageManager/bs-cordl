@@ -37,21 +37,21 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x44b2c4c, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x44a080c, size 0x170, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* firstObject, ::System::Object* secondObject);
 
-  /// @brief Method Equals, addr 0x44b2eac, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x44a0a6c, size 0x180, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* firstObject, ::System::Object* secondObject);
 
-  /// @brief Method FastGetHashCode, addr 0x44b2dbc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FastGetHashCode, addr 0x44a097c, size 0xf0, virtual false, abstract: false, final false
   inline int32_t FastGetHashCode(::StringW myString);
 
-  /// @brief Method GetHashCode, addr 0x44b2b34, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x44a06f4, size 0x118, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* myObject);
 
   static inline ::System::Net::CaseInsensitiveAscii* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44b302c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a0bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_AsciiToLower();

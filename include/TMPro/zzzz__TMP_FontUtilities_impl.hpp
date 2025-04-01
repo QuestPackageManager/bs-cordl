@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(::TMPro::TMP_FontAsset*, uint32_t, ::ByRef<::TMPro::TMP_Character*>)>(
     &::TMPro::TMP_FontUtilities::SearchForCharacter)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x47e290c;
+  constexpr static std::size_t addrs = 0x47d04ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(
     ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*, uint32_t, ::ByRef<::TMPro::TMP_Character*>)>(&::TMPro::TMP_FontUtilities::SearchForCharacter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e2c78;
+  constexpr static std::size_t addrs = 0x47d0858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(::TMPro::TMP_FontAsset*, uint32_t, ::ByRef<::TMPro::TMP_Character*>)>(
     &::TMPro::TMP_FontUtilities::SearchForCharacterInternal)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x47e29ec;
+  constexpr static std::size_t addrs = 0x47d05cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(
     ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*, uint32_t, ::ByRef<::TMPro::TMP_Character*>)>(&::TMPro::TMP_FontUtilities::SearchForCharacterInternal)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47e2c7c;
+  constexpr static std::size_t addrs = 0x47d085c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

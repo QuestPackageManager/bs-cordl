@@ -21,7 +21,7 @@ namespace System {
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ByDesign, addr 0x3e129d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ByDesign, addr 0x3e004d4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Exception* get_ByDesign();
 
 protected:

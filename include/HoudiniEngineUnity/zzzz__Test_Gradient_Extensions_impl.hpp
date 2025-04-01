@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_Gradient_Extensions___c::*)()>(
     &::HoudiniEngineUnity::Test_Gradient_Extensions___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa89ac;
+  constexpr static std::size_t addrs = 0x3a95a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Gradient_Extensions___c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Gradient* (
     ::HoudiniEngineUnity::Test_Gradient_Extensions___c::*)(::UnityEngine::Gradient*)>(&::HoudiniEngineUnity::Test_Gradient_Extensions___c::_ToTestObject_b__1_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3aa89b4;
+  constexpr static std::size_t addrs = 0x3a95a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Gradient* (
     ::HoudiniEngineUnity::Test_Gradient_Extensions___c::*)(::UnityEngine::Gradient*)>(&::HoudiniEngineUnity::Test_Gradient_Extensions___c::_ToTestObject_b__2_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3aa8a10;
+  constexpr static std::size_t addrs = 0x3a95ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Gradient* (*)(::UnityEngine::Gradient*)>(
     &::HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3aa870c;
+  constexpr static std::size_t addrs = 0x3a957e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_Gradient*, ::Array<::HoudiniEngineUnity::Test_Gradient*>*> (*)(
     ::ArrayW<::UnityEngine::Gradient*, ::Array<::UnityEngine::Gradient*>*>)>(&::HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3aa8768;
+  constexpr static std::size_t addrs = 0x3a9583c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>*)>(
         &::HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3aa8858;
+  constexpr static std::size_t addrs = 0x3a9592c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -32,16 +32,16 @@ public:
 
   __declspec(property(get = get_Separation)) float_t Separation;
 
-  /// @brief Method get_Impulse, addr 0x491d430, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Impulse, addr 0x490b010, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Impulse();
 
-  /// @brief Method get_Normal, addr 0x491d424, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Normal, addr 0x490b004, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Normal();
 
-  /// @brief Method get_Position, addr 0x491d410, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x490aff0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Separation, addr 0x491d41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Separation, addr 0x490affc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Separation();
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
                              uint32_t m_InternalFaceIndex1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15773 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

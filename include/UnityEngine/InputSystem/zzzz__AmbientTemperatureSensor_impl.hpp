@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::get_ambientTemperature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d5f04;
+  constexpr static std::size_t addrs = 0x45c3ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::AmbientTemperatureSensor*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::set_ambientTemperature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d5f0c;
+  constexpr static std::size_t addrs = 0x45c3aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::AmbientTemperatureSensor* (*)()>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45d5f14;
+  constexpr static std::size_t addrs = 0x45c3af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::AmbientTemperatureSensor*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::AmbientTemperatureSensor*)>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45d5f5c;
+  constexpr static std::size_t addrs = 0x45c3b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45d5fa8;
+  constexpr static std::size_t addrs = 0x45c3b88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45d5ffc;
+  constexpr static std::size_t addrs = 0x45c3bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45d6080;
+  constexpr static std::size_t addrs = 0x45c3c60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d60f8;
+  constexpr static std::size_t addrs = 0x45c3cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::AmbientTemperatureSensor*>::get(),

@@ -40,15 +40,15 @@ public:
   /// @brief Field rootDepth, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_rootDepth, put = __cordl_internal_set_rootDepth)) int32_t rootDepth;
 
-  /// @brief Method MoveToChild, addr 0x43a1630, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method MoveToChild, addr 0x438f1f0, size 0x164, virtual false, abstract: false, final false
   inline bool MoveToChild(::StringW name, ::StringW URN, int32_t depth, ::System::Xml::Schema::ForwardAxis* parent);
 
-  /// @brief Method MoveToParent, addr 0x43a1524, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x438f0e4, size 0x10c, virtual false, abstract: false, final false
   inline void MoveToParent(int32_t depth, ::System::Xml::Schema::ForwardAxis* parent);
 
   static inline ::System::Xml::Schema::AxisElement* New_ctor(::System::Xml::Schema::DoubleLinkAxis* node, int32_t depth);
 
-  /// @brief Method SetDepth, addr 0x43a151c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDepth, addr 0x438f0dc, size 0x8, virtual false, abstract: false, final false
   inline void SetDepth(int32_t depth);
 
   constexpr int32_t const& __cordl_internal_get_curDepth() const;
@@ -75,10 +75,10 @@ public:
 
   constexpr void __cordl_internal_set_rootDepth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43a14e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438f0a8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DoubleLinkAxis* node, int32_t depth);
 
-  /// @brief Method get_CurNode, addr 0x43a14e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurNode, addr 0x438f0a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_CurNode();
 
 protected:

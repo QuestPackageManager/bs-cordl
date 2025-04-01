@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseOverEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a3b19c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a28d7c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseOverEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3b194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a28d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseOverEvent___c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseOverEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a3b0f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a28cd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

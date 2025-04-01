@@ -81,7 +81,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::MultiColumnListView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a0c9c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fa5a8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   /// @brief Field m_SortingEnabled, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SortingEnabled, put = __cordl_internal_set_m_SortingEnabled)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_SortingEnabled;
 
-  /// @brief Method Init, addr 0x4a0ca10, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49fa5f0, size 0x170, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::MultiColumnListView_UxmlTraits* New_ctor();
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SortingEnabled(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4a0cb80, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fa760, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -231,23 +231,23 @@ public:
 
   __declspec(property(get = get_viewController)) ::UnityEngine::UIElements::MultiColumnListViewController* viewController;
 
-  /// @brief Method CreateViewController, addr 0x4a0c700, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x49fa2e0, size 0x78, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method CreateVirtualizationController, addr 0x4a0c964, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CreateVirtualizationController, addr 0x49fa544, size 0x48, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
   static inline ::UnityEngine::UIElements::MultiColumnListView* New_ctor();
 
   static inline ::UnityEngine::UIElements::MultiColumnListView* New_ctor(::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method RaiseColumnSortingChanged, addr 0x4a0c47c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseColumnSortingChanged, addr 0x49fa05c, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseColumnSortingChanged();
 
-  /// @brief Method RaiseHeaderContextMenuPopulate, addr 0x4a0c9ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseHeaderContextMenuPopulate, addr 0x49fa58c, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseHeaderContextMenuPopulate(::UnityEngine::UIElements::ContextualMenuPopulateEvent* evt, ::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method SetViewController, addr 0x4a0c778, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method SetViewController, addr 0x49fa358, size 0x1ec, virtual true, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::CollectionViewController* controller);
 
   constexpr ::System::Action* const& __cordl_internal_get_columnSortingChanged() const;
@@ -286,28 +286,28 @@ public:
 
   constexpr void __cordl_internal_set_m_SortingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x4a0c4f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fa0d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a0c550, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fa130, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method get_columns, addr 0x4a0c250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x49f9e30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Columns* get_columns();
 
-  /// @brief Method get_sortColumnDescriptions, addr 0x4a0c2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortColumnDescriptions, addr 0x49f9e84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SortColumnDescriptions* get_sortColumnDescriptions();
 
-  /// @brief Method get_viewController, addr 0x4a0c1cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x49f9dac, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MultiColumnListViewController* get_viewController();
 
-  /// @brief Method set_columns, addr 0x4a0c258, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_columns, addr 0x49f9e38, size 0x4c, virtual false, abstract: false, final false
   inline void set_columns(::UnityEngine::UIElements::Columns* value);
 
-  /// @brief Method set_sortColumnDescriptions, addr 0x4a0c2ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_sortColumnDescriptions, addr 0x49f9e8c, size 0x90, virtual false, abstract: false, final false
   inline void set_sortColumnDescriptions(::UnityEngine::UIElements::SortColumnDescriptions* value);
 
-  /// @brief Method set_sortingEnabled, addr 0x4a0c498, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_sortingEnabled, addr 0x49fa078, size 0x60, virtual false, abstract: false, final false
   inline void set_sortingEnabled(bool value);
 
 protected:

@@ -26,19 +26,19 @@ public:
   /// @brief Field s_priority, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_priority, put = setStaticF_s_priority)) ::ArrayW<int32_t, ::Array<int32_t>*> s_priority;
 
-  /// @brief Method IsArithmetical, addr 0x418a6f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsArithmetical, addr 0x41782b0, size 0x24, virtual false, abstract: false, final false
   static inline bool IsArithmetical(int32_t op);
 
-  /// @brief Method IsLogical, addr 0x418a714, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsLogical, addr 0x41782d4, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsLogical(int32_t op);
 
-  /// @brief Method IsRelational, addr 0x418a740, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRelational, addr 0x4178300, size 0x10, virtual false, abstract: false, final false
   static inline bool IsRelational(int32_t op);
 
-  /// @brief Method Priority, addr 0x418a750, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Priority, addr 0x4178310, size 0xac, virtual false, abstract: false, final false
   static inline int32_t Priority(int32_t op);
 
-  /// @brief Method ToString, addr 0x418a7fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x41783bc, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t op);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_looks();

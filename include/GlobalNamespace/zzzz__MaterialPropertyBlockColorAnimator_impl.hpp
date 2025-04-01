@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MaterialPropertyBlockColorAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorAnimator::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f3c98;
+  constexpr static std::size_t addrs = 0x39e0ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorAnimator*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorAnimator::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MaterialPropertyBlockColorAnimator::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f3ca4;
+  constexpr static std::size_t addrs = 0x39e0cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorAnimator::SetProperty)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39f3cb0;
+  constexpr static std::size_t addrs = 0x39e0d00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorAnimator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39f3d48;
+  constexpr static std::size_t addrs = 0x39e0d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorAnimator*>::get(),

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocatorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44eaa5c;
+  constexpr static std::size_t addrs = 0x44d863c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocalHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44eaa64;
+  constexpr static std::size_t addrs = 0x44d8644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (
     ::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(&::AddressablesInternalBridge::Runtime::CatalogLocationData::get_CatalogLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44eaa6c;
+  constexpr static std::size_t addrs = 0x44d864c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)(
     ::StringW, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::AddressablesInternalBridge::Runtime::CatalogLocationData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x44ea410;
+  constexpr static std::size_t addrs = 0x44d7ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -83,21 +83,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bfecd8, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bec7c8, size 0x10c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::TutorialController__OutroCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bfede4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bec8d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bfedec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bec8dc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bfee24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bec914, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bfecd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bec7c4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TutorialController> value);
 
-  /// @brief Method .ctor, addr 0x3bfec80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bec770, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -213,24 +213,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
   constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
 
-  /// @brief Method HandleIntroTutorialDidFinishEvent, addr 0x3bfeb44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleIntroTutorialDidFinishEvent, addr 0x3bec634, size 0x1c, virtual false, abstract: false, final false
   inline void HandleIntroTutorialDidFinishEvent();
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x3bfeca8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x3bec798, size 0x24, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandleTutorialSongControllerSongDidFinishEvent, addr 0x3bfebe0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialSongControllerSongDidFinishEvent, addr 0x3bec6d0, size 0x40, virtual false, abstract: false, final false
   inline void HandleTutorialSongControllerSongDidFinishEvent();
 
   static inline ::GlobalNamespace::TutorialController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bfe97c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bec46c, size 0x1c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OutroCoroutine, addr 0x3bfec20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OutroCoroutine, addr 0x3bec710, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* OutroCoroutine();
 
-  /// @brief Method Start, addr 0x3bfe7e4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bec2d4, size 0x198, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioFading> const& __cordl_internal_get__audioFading() const;
@@ -293,22 +293,22 @@ public:
 
   constexpr void __cordl_internal_set_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bfeccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bec7bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelDidStartEvent, addr 0x3bfe6ac, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelDidStartEvent, addr 0x3bec19c, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method add_levelWillStartIntroEvent, addr 0x3bfe574, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelWillStartIntroEvent, addr 0x3bec064, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelStartController"
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
-  /// @brief Method remove_levelDidStartEvent, addr 0x3bfe748, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDidStartEvent, addr 0x3bec238, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelWillStartIntroEvent, addr 0x3bfe610, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelWillStartIntroEvent, addr 0x3bec100, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelWillStartIntroEvent(::System::Action* value);
 
 protected:

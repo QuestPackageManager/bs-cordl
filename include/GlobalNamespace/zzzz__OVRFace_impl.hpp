@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(
     &::GlobalNamespace::OVRFace::get_FaceExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403f984;
+  constexpr static std::size_t addrs = 0x402d53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(), "get_FaceExpressions",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)(::GlobalNamespace::OVRFaceExpressions*)>(
     &::GlobalNamespace::OVRFace::set_FaceExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403f98c;
+  constexpr static std::size_t addrs = 0x402d544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_BlendShapeStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403f994;
+  constexpr static std::size_t addrs = 0x402d54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)(float_t)>(&::GlobalNamespace::OVRFace::set_BlendShapeStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403f99c;
+  constexpr static std::size_t addrs = 0x402d554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(
     &::GlobalNamespace::OVRFace::RetrieveSkinnedMeshRenderer)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x403f9a4;
+  constexpr static std::size_t addrs = 0x402d55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(
     &::GlobalNamespace::OVRFace::get_SkinnedMesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403f9ec;
+  constexpr static std::size_t addrs = 0x402d5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(), "get_SkinnedMesh",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Awake)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x403f9f4;
+  constexpr static std::size_t addrs = 0x402d5ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(
     &::GlobalNamespace::OVRFace::SearchFaceExpressions)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x403faf8;
+  constexpr static std::size_t addrs = 0x402d6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(), "SearchFaceExpressions",
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Start)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x403ce2c;
+  constexpr static std::size_t addrs = 0x402a9e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Update)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x403fb50;
+  constexpr static std::size_t addrs = 0x402d708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRFaceExpressions_FaceExpression (::GlobalNamespace::OVRFace::*)(int32_t)>(
     &::GlobalNamespace::OVRFace::GetFaceExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403fc44;
+  constexpr static std::size_t addrs = 0x402d7fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFace::*)(int32_t, ::ByRef<float_t>)>(&::GlobalNamespace::OVRFace::GetWeightValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x403fc4c;
+  constexpr static std::size_t addrs = 0x402d804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x403cffc;
+  constexpr static std::size_t addrs = 0x402abb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(), ".ctor",

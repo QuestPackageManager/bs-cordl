@@ -29,31 +29,31 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultyMaskExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Contains, addr 0x2246b8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x223ed1c, size 0x18, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Contains, addr 0x2246ba4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x223ed34, size 0x10, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
 
-  /// @brief Method DifferenceFrom, addr 0x2246bb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DifferenceFrom, addr 0x223ed44, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t DifferenceFrom(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
 
-  /// @brief Method FromMask, addr 0x224698c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromMask, addr 0x223eb1c, size 0x48, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDifficulty FromMask(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method FromMaskMaybe, addr 0x22468ac, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method FromMaskMaybe, addr 0x223ea3c, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> FromMaskMaybe(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method LocalizedKey, addr 0x22469d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x223eb64, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method ShortLocalizedKey, addr 0x2246ab0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ShortLocalizedKey, addr 0x223ec40, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW ShortLocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method ToHexString, addr 0x2246c24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToHexString, addr 0x223edb4, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method ToMask, addr 0x22468a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToMask, addr 0x223ea30, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDifficultyMask ToMask(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:

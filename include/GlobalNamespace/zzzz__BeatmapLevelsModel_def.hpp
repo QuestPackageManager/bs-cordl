@@ -143,10 +143,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelsModel___c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method <CreateBeatmapLevelPack>b__0, addr 0x26d0ff4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateBeatmapLevelPack>b__0, addr 0x26c9184, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* _CreateBeatmapLevelPack_b__0(::GlobalNamespace::BeatmapLevelSO* l);
 
-  /// @brief Method <CreateBeatmapLevelPack>b__1, addr 0x26d105c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <CreateBeatmapLevelPack>b__1, addr 0x26c91ec, size 0x3c, virtual false, abstract: false, final false
   inline bool _CreateBeatmapLevelPack_b__1(::GlobalNamespace::BeatmapLevel* l);
 
   constexpr ::StringW const& __cordl_internal_get_censoredLocalizedSongName() const;
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_pack(::UnityW<::GlobalNamespace::PackDefinitionSO> value);
 
-  /// @brief Method .ctor, addr 0x26d0fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9158, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,10 +219,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d1098, size 0x45c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c9228, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26d14f4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c9684, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -312,10 +312,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d1570, size 0x47c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c9700, size 0x47c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26d19ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c9b7c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -456,27 +456,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d1a6c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c9bfc, size 0xd4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<PackDefinitionSO>.GetEnumerator, addr 0x26d1b88, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<PackDefinitionSO>.GetEnumerator, addr 0x26c9d18, size 0xac, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* System_Collections_Generic_IEnumerable_PackDefinitionSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<PackDefinitionSO>.get_Current, addr 0x26d1b40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<PackDefinitionSO>.get_Current, addr 0x26c9cd0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::PackDefinitionSO> System_Collections_Generic_IEnumerator_PackDefinitionSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d1c34, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26c9dc4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d1b48, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26c9cd8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d1b80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26c9d10, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d1a68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26c9bf8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -539,7 +539,7 @@ public:
 
   constexpr void __cordl_internal_set_include(::GlobalNamespace::PackDefinitionSO_Tags value);
 
-  /// @brief Method .ctor, addr 0x26d0c84, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8e14, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
@@ -694,36 +694,36 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x26d0ae8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x26c8c78, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataExistsAsync(::StringW levelID, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                     ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ClearLoadedBeatmapLevelsCaches, addr 0x26d0864, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClearLoadedBeatmapLevelsCaches, addr 0x26c89f4, size 0xa4, virtual false, abstract: false, final false
   inline void ClearLoadedBeatmapLevelsCaches();
 
-  /// @brief Method CreateBeatmapLevelPack, addr 0x26d0cbc, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CreateBeatmapLevelPack, addr 0x26c8e4c, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevelPack*>
   CreateBeatmapLevelPack(::GlobalNamespace::PackDefinitionSO* pack, ::GlobalNamespace::PlayerSensitivityFlag desiredSensitivityFlag, ::StringW censoredLocalizedSongName);
 
-  /// @brief Method Dispose, addr 0x26d07c4, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x26c8954, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAllPacks, addr 0x26d09a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAllPacks, addr 0x26c8b30, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* GetAllPacks();
 
-  /// @brief Method GetBeatmapLevel, addr 0x26d09bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevel, addr 0x26c8b4c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* GetBeatmapLevel(::StringW levelId);
 
-  /// @brief Method GetLevelPack, addr 0x26d0988, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPack, addr 0x26c8b18, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetLevelPack(::StringW levelPackId);
 
-  /// @brief Method GetLevelPackForLevelId, addr 0x26d0970, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackForLevelId, addr 0x26c8b00, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetLevelPackForLevelId(::StringW levelId);
 
-  /// @brief Method LoadAllBeatmapLevelPacks, addr 0x26d031c, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method LoadAllBeatmapLevelPacks, addr 0x26c84ac, size 0x4a8, virtual false, abstract: false, final false
   inline void LoadAllBeatmapLevelPacks();
 
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x26d09d4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x26c8b64, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>*
   LoadBeatmapLevelDataAsync(::StringW levelID, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::System::Threading::CancellationToken cancellationToken);
 
@@ -731,17 +731,17 @@ public:
                                                                 ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::BGLib::Polyglot::LocalizationModel* localizationModel,
                                                                 ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method ReloadAllBeatmapLevelPacks, addr 0x26d0cb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReloadAllBeatmapLevelPacks, addr 0x26c8e48, size 0x4, virtual false, abstract: false, final false
   inline void ReloadAllBeatmapLevelPacks();
 
-  /// @brief Method ReloadCustomLevelPackCollectionAsync, addr 0x26d0908, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReloadCustomLevelPackCollectionAsync, addr 0x26c8a98, size 0x68, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelsRepository*>* ReloadCustomLevelPackCollectionAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SelectPacks, addr 0x26d0bfc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SelectPacks, addr 0x26c8d8c, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* SelectPacks(::GlobalNamespace::PackDefinitionSO_Tags include,
                                                                                                                    ::GlobalNamespace::PackDefinitionSO_Tags exclude);
 
-  /// @brief Method <CreateBeatmapLevelPack>g__ShouldBeKeptIntact|31_2, addr 0x26d0fd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <CreateBeatmapLevelPack>g__ShouldBeKeptIntact|31_2, addr 0x26c9160, size 0x24, virtual false, abstract: false, final false
   static inline bool _CreateBeatmapLevelPack_g__ShouldBeKeptIntact_31_2(::GlobalNamespace::PlayerSensitivityFlag desiredSensitivityFlag, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
   constexpr ::GlobalNamespace::BeatmapLevelsRepository* const& __cordl_internal_get__allExistingBeatmapLevelsRepository() const;
@@ -810,24 +810,24 @@ public:
 
   constexpr void __cordl_internal_set_ostAndExtrasBeatmapLevelsRepository(::GlobalNamespace::BeatmapLevelsRepository* value);
 
-  /// @brief Method .ctor, addr 0x26d0030, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c81c0, size 0x2ec, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsEntitlementModel* entitlementChecker, ::GlobalNamespace::IBeatmapLevelLoader* beatmapLevelLoader,
                     ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::BGLib::Polyglot::LocalizationModel* localizationModel,
                     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method add_newPackWasCreatedFromDefinitionEvent, addr 0x26cfed0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_newPackWasCreatedFromDefinitionEvent, addr 0x26c8060, size 0xb0, virtual false, abstract: false, final false
   inline void add_newPackWasCreatedFromDefinitionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method get_entitlements, addr 0x26cfec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entitlements, addr 0x26c8058, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IEntitlementModel* get_entitlements();
 
-  /// @brief Method get_packDefinitions, addr 0x26cfec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packDefinitions, addr 0x26c8050, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* get_packDefinitions();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_newPackWasCreatedFromDefinitionEvent, addr 0x26cff80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_newPackWasCreatedFromDefinitionEvent, addr 0x26c8110, size 0xb0, virtual false, abstract: false, final false
   inline void remove_newPackWasCreatedFromDefinitionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
 protected:

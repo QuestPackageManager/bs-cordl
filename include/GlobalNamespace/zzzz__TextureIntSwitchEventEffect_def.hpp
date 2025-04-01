@@ -120,18 +120,18 @@ public:
   __declspec(property(get = __cordl_internal_get__valueToTextureMap,
                       put = __cordl_internal_set__valueToTextureMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* _valueToTextureMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x3ba80fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b95bf8, size 0x18, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
-  /// @brief Method Initialize, addr 0x3ba7e60, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b9595c, size 0x1b0, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   static inline ::GlobalNamespace::TextureIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba80e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b95bdc, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureByIndex, addr 0x3ba8010, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureByIndex, addr 0x3b95b0c, size 0xd0, virtual false, abstract: false, final false
   inline void SetTextureByIndex(int32_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set__valueToTextureMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method .ctor, addr 0x3ba8114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b95c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

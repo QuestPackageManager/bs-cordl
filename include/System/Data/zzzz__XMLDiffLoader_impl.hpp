@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::LoadDiffGram)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x419d1a8;
+  constexpr static std::size_t addrs = 0x418ad68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataTable*)>(
     &::System::Data::XMLDiffLoader::CreateTablesHierarchy)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x419d9c4;
+  constexpr static std::size_t addrs = 0x418b584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataTable*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::LoadDiffGram)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x419dd48;
+  constexpr static std::size_t addrs = 0x418b908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::ProcessDiffs)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x419d34c;
+  constexpr static std::size_t addrs = 0x418af0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Collections::ArrayList*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::ProcessDiffs)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x419df40;
+  constexpr static std::size_t addrs = 0x418bb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::ProcessErrors)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x419d624;
+  constexpr static std::size_t addrs = 0x418b1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Collections::ArrayList*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::ProcessErrors)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x419e20c;
+  constexpr static std::size_t addrs = 0x418bdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XMLDiffLoader::*)(::StringW, ::StringW)>(
     &::System::Data::XMLDiffLoader::GetTable)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x419f5e4;
+  constexpr static std::size_t addrs = 0x418d1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::XMLDiffLoader::*)(
     ::System::Data::DataSet*, ::ByRef<::System::Data::DataTable*>, ::ByRef<int32_t>, ::System::Xml::XmlReader*)>(&::System::Data::XMLDiffLoader::ReadOldRowData)> {
   constexpr static std::size_t size = 0xec8;
-  constexpr static std::size_t addrs = 0x419e71c;
+  constexpr static std::size_t addrs = 0x418c2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::SkipWhitespaces)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x419e6bc;
+  constexpr static std::size_t addrs = 0x418c27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XMLDiffLoader::*)()>(&::System::Data::XMLDiffLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x419f7b8;
+  constexpr static std::size_t addrs = 0x418d378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XMLDiffLoader*>::get(), ".ctor",

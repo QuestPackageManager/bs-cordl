@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a3afbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a28b9c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3afb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a28b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent___c* getStaticF___9();
@@ -79,21 +79,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseLeaveWindowEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a3accc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a288ac, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x4a3ab88, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a28768, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a3abd8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a287b8, size 0xa4, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x4a3adfc, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a289dc, size 0x15c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a3ac7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2885c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

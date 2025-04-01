@@ -150,7 +150,7 @@ public:
   MockPlayerInstance___c__DisplayClass17_0_1(MockPlayerInstance___c__DisplayClass17_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18114 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MockPlayerInstance* _____4__this;
@@ -172,10 +172,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c3c818, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2a314, size 0x254, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c3ca6c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2a568, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -192,7 +192,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18115 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -234,10 +234,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c3cad4, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2a5d0, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c3cd58, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2a854, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -256,7 +256,7 @@ public:
                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18116 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -307,10 +307,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c3cdc0, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2a8bc, size 0x178, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c3cf38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2aa34, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -327,7 +327,7 @@ public:
                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18117 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -416,31 +416,31 @@ public:
   /// @brief Method ConnectToServer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ConnectToServer(::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams);
 
-  /// @brief Method Dispose, addr 0x3c3c694, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c2a190, size 0xb4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x3c3c5d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x3c2a0d0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
   static inline ::GlobalNamespace::MockPlayerInstance* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                 ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method RunAsync, addr 0x3c3c438, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method RunAsync, addr 0x3c29f34, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken token);
 
-  /// @brief Method Stop, addr 0x3c3c544, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x3c2a040, size 0x90, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method Tick, addr 0x3c3c420, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x3c29f1c, size 0x18, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method WhenReady, addr 0x3c3c50c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReady, addr 0x3c2a008, size 0x1c, virtual true, abstract: false, final true
   inline void WhenReady(::System::Action* action);
 
-  /// @brief Method WhenReadyAsync, addr 0x3c3c528, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReadyAsync, addr 0x3c2a024, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
-  /// @brief Method <DisposeAsync>b__22_0, addr 0x3c3c750, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__22_0, addr 0x3c2a24c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DisposeAsync_b__22_0();
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
@@ -497,23 +497,23 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method <.ctor>b__15_0, addr 0x3c3c748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_0, addr 0x3c2a244, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_0(::GlobalNamespace::ConnectionFailedReason r);
 
-  /// @brief Method <.ctor>b__15_1, addr 0x3c3c74c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_1, addr 0x3c2a248, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_1(::GlobalNamespace::DisconnectedReason r);
 
-  /// @brief Method .ctor, addr 0x3c3c0bc, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c29bb8, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method get_id, addr 0x3c3c0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3c29ba0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_userId, addr 0x3c3c0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x3c29ba8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3c3c0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x3c29bb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"
@@ -537,7 +537,7 @@ public:
   MockPlayerInstance(MockPlayerInstance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18118 };
 
   /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id;

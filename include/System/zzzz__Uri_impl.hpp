@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri_UriInfo::*)()>(&::System::Uri_UriInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44196e0;
+  constexpr static std::size_t addrs = 0x44072a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri_UriInfo*>::get(), ".ctor",
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri_MoreInfo::*)()>(&::System::Uri_MoreInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44196e8;
+  constexpr static std::size_t addrs = 0x44072a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri_MoreInfo*>::get(), ".ctor",
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsImplicitFile)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c7848;
+  constexpr static std::size_t addrs = 0x43b5408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsImplicitFile",
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsUncOrDosPath)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43c7854;
+  constexpr static std::size_t addrs = 0x43b5414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsUncOrDosPath",
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsDosPath)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c7864;
+  constexpr static std::size_t addrs = 0x43b5424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsDosPath",
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsUncPath)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c7870;
+  constexpr static std::size_t addrs = 0x43b5430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsUncPath",
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri_Flags (::System::Uri::*)()>(&::System::Uri::get_HostType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c787c;
+  constexpr static std::size_t addrs = 0x43b543c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_HostType",
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UriParser* (::System::Uri::*)()>(&::System::Uri::get_Syntax)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c7888;
+  constexpr static std::size_t addrs = 0x43b5448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Syntax",
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsNotAbsoluteUri)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43c7890;
+  constexpr static std::size_t addrs = 0x43b5450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsNotAbsoluteUri",
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::UriParser*)>(&::System::Uri::IriParsingStatic)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43c78a0;
+  constexpr static std::size_t addrs = 0x43b5460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_AllowIdn)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x43c792c;
+  constexpr static std::size_t addrs = 0x43b54ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_AllowIdn",
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::System::UriParser*, ::System::Uri_Flags)>(&::System::Uri::AllowIdnStatic)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43c79f8;
+  constexpr static std::size_t addrs = 0x43b55b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::StringW)>(&::System::Uri::IsIntranet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c7acc;
+  constexpr static std::size_t addrs = 0x43b568c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_UserDrivenParsing)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c7ad4;
+  constexpr static std::size_t addrs = 0x43b5694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_UserDrivenParsing",
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)()>(&::System::Uri::SetUserDrivenParsing)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43c7ae0;
+  constexpr static std::size_t addrs = 0x43b56a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "SetUserDrivenParsing",
@@ -477,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::System::Uri::*)()>(&::System::Uri::get_SecuredPathIndex)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43c7af4;
+  constexpr static std::size_t addrs = 0x43b56b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_SecuredPathIndex",
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::System::Uri_Flags)>(&::System::Uri::NotAny)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43c79e8;
+  constexpr static std::size_t addrs = 0x43b55a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -504,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::System::Uri_Flags)>(&::System::Uri::InFact)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43c7b50;
+  constexpr static std::size_t addrs = 0x43b5710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -518,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Uri_Flags, ::System::Uri_Flags)>(&::System::Uri::StaticNotAny)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c7ac0;
+  constexpr static std::size_t addrs = 0x43b5680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Uri_Flags, ::System::Uri_Flags)>(&::System::Uri::StaticInFact)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c7b60;
+  constexpr static std::size_t addrs = 0x43b5720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri_UriInfo* (::System::Uri::*)()>(&::System::Uri::EnsureUriInfo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43c7b6c;
+  constexpr static std::size_t addrs = 0x43b572c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "EnsureUriInfo",
@@ -561,7 +561,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)()>(&::System::Uri::EnsureParseRemaining)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43c8118;
+  constexpr static std::size_t addrs = 0x43b5cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "EnsureParseRemaining",
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(bool)>(&::System::Uri::EnsureHostString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43c8d18;
+  constexpr static std::size_t addrs = 0x43b68d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::StringW)>(&::System::Uri::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43c916c;
+  constexpr static std::size_t addrs = 0x43b6d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::StringW, ::System::UriKind)>(&::System::Uri::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43c93a4;
+  constexpr static std::size_t addrs = 0x43b6f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -617,7 +617,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::System::Uri*, ::StringW)>(&::System::Uri::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x43c9428;
+  constexpr static std::size_t addrs = 0x43b6fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -631,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::System::Uri*, ::StringW, bool)>(&::System::Uri::CreateUri)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x43c94f8;
+  constexpr static std::size_t addrs = 0x43b70b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -646,7 +646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::System::Uri*, ::System::Uri*)>(&::System::Uri::_ctor)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x43c9cbc;
+  constexpr static std::size_t addrs = 0x43b787c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -661,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ParsingError (*)(::System::Uri*, ::StringW, bool, ::ByRef<::StringW>)>(&::System::Uri::GetCombinedString)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x43c9ec8;
+  constexpr static std::size_t addrs = 0x43b7a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UriFormatException* (*)(::System::ParsingError)>(&::System::Uri::GetException)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x43cab8c;
+  constexpr static std::size_t addrs = 0x43b874c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Uri::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Uri::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x43cad2c;
+  constexpr static std::size_t addrs = 0x43b88ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -707,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Uri::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43cae2c;
+  constexpr static std::size_t addrs = 0x43b89ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -723,7 +723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Uri::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Uri::GetObjectData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x43cae30;
+  constexpr static std::size_t addrs = 0x43b89f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_AbsolutePath)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x43caf0c;
+  constexpr static std::size_t addrs = 0x43b8acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_AbsolutePath",
@@ -751,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_PrivateAbsolutePath)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x43cafcc;
+  constexpr static std::size_t addrs = 0x43b8b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_PrivateAbsolutePath",
@@ -764,7 +764,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_AbsoluteUri)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x43cb074;
+  constexpr static std::size_t addrs = 0x43b8c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_AbsoluteUri",
@@ -777,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_LocalPath)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43cb170;
+  constexpr static std::size_t addrs = 0x43b8d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_LocalPath",
@@ -790,7 +790,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_Authority)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x43cb7c8;
+  constexpr static std::size_t addrs = 0x43b9388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Authority",
@@ -803,7 +803,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UriHostNameType (::System::Uri::*)()>(&::System::Uri::get_HostNameType)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x43cb83c;
+  constexpr static std::size_t addrs = 0x43b93fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_HostNameType",
@@ -816,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsDefaultPort)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x43cb934;
+  constexpr static std::size_t addrs = 0x43b94f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsDefaultPort",
@@ -829,7 +829,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsFile)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x43cb9dc;
+  constexpr static std::size_t addrs = 0x43b959c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsFile",
@@ -842,7 +842,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsLoopback)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43cba9c;
+  constexpr static std::size_t addrs = 0x43b965c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsLoopback",
@@ -855,7 +855,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_PathAndQuery)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43cbb1c;
+  constexpr static std::size_t addrs = 0x43b96dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_PathAndQuery",
@@ -868,7 +868,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Uri::*)()>(&::System::Uri::get_Segments)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x43cbbe4;
+  constexpr static std::size_t addrs = 0x43b97a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Segments",
@@ -881,7 +881,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsUnc)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x43cbde4;
+  constexpr static std::size_t addrs = 0x43b99a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsUnc",
@@ -894,7 +894,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_Host)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x43cbe58;
+  constexpr static std::size_t addrs = 0x43b9a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Host",
@@ -907,7 +907,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::UriParser*)>(&::System::Uri::StaticIsFile)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x43cbecc;
+  constexpr static std::size_t addrs = 0x43b9a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -921,7 +921,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)()>(&::System::Uri::get_InitializeLock)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x43cbee4;
+  constexpr static std::size_t addrs = 0x43b9aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_InitializeLock",
@@ -934,7 +934,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Uri::InitializeUriConfig)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x43cbfb0;
+  constexpr static std::size_t addrs = 0x43b9b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "InitializeUriConfig",
@@ -947,7 +947,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::GetLocalPath)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x43cb1dc;
+  constexpr static std::size_t addrs = 0x43b8d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "GetLocalPath",
@@ -960,7 +960,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Uri::*)()>(&::System::Uri::get_Port)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x43cc6f0;
+  constexpr static std::size_t addrs = 0x43ba2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Port",
@@ -973,7 +973,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_Query)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x43cc7b4;
+  constexpr static std::size_t addrs = 0x43ba374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Query",
@@ -986,7 +986,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_Fragment)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x43cc8b4;
+  constexpr static std::size_t addrs = 0x43ba474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Fragment",
@@ -999,7 +999,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_Scheme)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x43cc9b4;
+  constexpr static std::size_t addrs = 0x43ba574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_Scheme",
@@ -1012,7 +1012,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_OriginalStringSwitched)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x43cca24;
+  constexpr static std::size_t addrs = 0x43ba5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_OriginalStringSwitched",
@@ -1025,7 +1025,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_OriginalString)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43ca240;
+  constexpr static std::size_t addrs = 0x43b7e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_OriginalString",
@@ -1038,7 +1038,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_DnsSafeHost)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x43cca6c;
+  constexpr static std::size_t addrs = 0x43ba62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_DnsSafeHost",
@@ -1051,7 +1051,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_IsAbsoluteUri)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43c94e8;
+  constexpr static std::size_t addrs = 0x43b70a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_IsAbsoluteUri",
@@ -1064,7 +1064,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_UserEscaped)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43cccb8;
+  constexpr static std::size_t addrs = 0x43ba878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_UserEscaped",
@@ -1077,7 +1077,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::get_UserInfo)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x43cccc4;
+  constexpr static std::size_t addrs = 0x43ba884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_UserInfo",
@@ -1090,7 +1090,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Uri::IsGenDelim)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43ccd38;
+  constexpr static std::size_t addrs = 0x43ba8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1104,7 +1104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Uri::CheckSchemeName)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x43ccd68;
+  constexpr static std::size_t addrs = 0x43ba928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1118,7 +1118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Uri::IsHexDigit)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x43ccf50;
+  constexpr static std::size_t addrs = 0x43bab10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1132,7 +1132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(char16_t)>(&::System::Uri::FromHex)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x43ccf8c;
+  constexpr static std::size_t addrs = 0x43bab4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1146,7 +1146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Uri::*)()>(&::System::Uri::GetHashCode)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x43cd038;
+  constexpr static std::size_t addrs = 0x43babf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1160,7 +1160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)()>(&::System::Uri::ToString)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x43cd20c;
+  constexpr static std::size_t addrs = 0x43badcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1174,7 +1174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Uri*, ::System::Uri*)>(&::System::Uri::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43cd4ec;
+  constexpr static std::size_t addrs = 0x43bb0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1189,7 +1189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Uri*, ::System::Uri*)>(&::System::Uri::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x43c9b54;
+  constexpr static std::size_t addrs = 0x43b7714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1204,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::System::Object*)>(&::System::Uri::Equals)> {
   constexpr static std::size_t size = 0x584;
-  constexpr static std::size_t addrs = 0x43cd520;
+  constexpr static std::size_t addrs = 0x43bb0e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1218,7 +1218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Uri::CheckForColonInFirstPathSegment)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x43cdb58;
+  constexpr static std::size_t addrs = 0x43bb718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1232,7 +1232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Uri::InternalEscapeString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43cdc10;
+  constexpr static std::size_t addrs = 0x43bb7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1247,7 +1247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ParsingError (*)(::StringW, ::ByRef<::System::Uri_Flags>, ::ByRef<::System::UriParser*>)>(
     &::System::Uri::ParseScheme)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x43cdcec;
+  constexpr static std::size_t addrs = 0x43bb8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1263,7 +1263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UriFormatException* (::System::Uri::*)()>(&::System::Uri::ParseMinimal)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43ce31c;
+  constexpr static std::size_t addrs = 0x43bbedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "ParseMinimal",
@@ -1276,7 +1276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ParsingError (::System::Uri::*)()>(&::System::Uri::PrivateParseMinimal)> {
   constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x43ce39c;
+  constexpr static std::size_t addrs = 0x43bbf5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "PrivateParseMinimal",
@@ -1289,7 +1289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::StringW, uint16_t)>(&::System::Uri::PrivateParseMinimalIri)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x43cf890;
+  constexpr static std::size_t addrs = 0x43bd450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1303,7 +1303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::System::Uri_Flags)>(&::System::Uri::CreateUriInfo)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x43c7b90;
+  constexpr static std::size_t addrs = 0x43b5750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1317,7 +1317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)()>(&::System::Uri::CreateHostString)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x43c8d78;
+  constexpr static std::size_t addrs = 0x43b6938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "CreateHostString",
@@ -1331,7 +1331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint16_t, uint16_t, ::ByRef<::System::Uri_Flags>, ::ByRef<::StringW>)>(
     &::System::Uri::CreateHostStringHelper)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x43cfd94;
+  constexpr static std::size_t addrs = 0x43bd954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1348,7 +1348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)()>(&::System::Uri::GetHostViaCustomSyntax)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x43cf964;
+  constexpr static std::size_t addrs = 0x43bd524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "GetHostViaCustomSyntax",
@@ -1361,7 +1361,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriComponents, ::System::UriFormat)>(&::System::Uri::GetParts)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43caf08;
+  constexpr static std::size_t addrs = 0x43b8ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1376,7 +1376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriComponents)>(&::System::Uri::GetEscapedParts)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43d0534;
+  constexpr static std::size_t addrs = 0x43be0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1390,7 +1390,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriComponents, ::System::UriFormat)>(&::System::Uri::GetUnescapedParts)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43cc620;
+  constexpr static std::size_t addrs = 0x43ba1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1406,7 +1406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriComponents, uint16_t, ::System::UriFormat)>(
     &::System::Uri::ReCreateParts)> {
   constexpr static std::size_t size = 0xcb4;
-  constexpr static std::size_t addrs = 0x43d0b94;
+  constexpr static std::size_t addrs = 0x43be754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1422,7 +1422,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriComponents)>(&::System::Uri::GetUriPartsFromUserString)> {
   constexpr static std::size_t size = 0x598;
-  constexpr static std::size_t addrs = 0x43d05fc;
+  constexpr static std::size_t addrs = 0x43be1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1436,7 +1436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)()>(&::System::Uri::ParseRemaining)> {
   constexpr static std::size_t size = 0xbf0;
-  constexpr static std::size_t addrs = 0x43c8128;
+  constexpr static std::size_t addrs = 0x43b5ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "ParseRemaining",
@@ -1450,7 +1450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(
     ::cordl_internals::Ptr<char16_t>, uint16_t, ::ByRef<::System::ParsingError>, ::ByRef<::System::Uri_Flags>, ::ByRef<::System::UriParser*>)>(&::System::Uri::ParseSchemeCheckImplicitFile)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x43cddc0;
+  constexpr static std::size_t addrs = 0x43bb980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1468,7 +1468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<int64_t>, uint16_t, ::ByRef<::System::UriParser*>)>(
     &::System::Uri::CheckKnownSchemes)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x43d1f5c;
+  constexpr static std::size_t addrs = 0x43bfb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1485,7 +1485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ParsingError (*)(::cordl_internals::Ptr<char16_t>, uint16_t, ::ByRef<::System::UriParser*>)>(
     &::System::Uri::CheckSchemeSyntax)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x43ca108;
+  constexpr static std::size_t addrs = 0x43b7cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1503,7 +1503,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                               ::ByRef<::System::Uri_Flags>, ::System::UriParser*, ::ByRef<::StringW>)>(
     &::System::Uri::CheckAuthorityHelper)> {
   constexpr static std::size_t size = 0xe28;
-  constexpr static std::size_t addrs = 0x43cea68;
+  constexpr static std::size_t addrs = 0x43bc628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1523,7 +1523,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Uri::*)(::cordl_internals::Ptr<char16_t>, uint16_t, int32_t, int32_t, bool, bool, ::System::UriParser*, ::StringW, ::ByRef<::System::Uri_Flags>, ::ByRef<bool>,
                                         ::ByRef<::StringW>, ::ByRef<::System::ParsingError>)>(&::System::Uri::CheckAuthorityHelperHandleDnsIri)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x43d24d8;
+  constexpr static std::size_t addrs = 0x43c0098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1545,7 +1545,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                           ::ByRef<::System::Uri_Flags>, ::ByRef<::StringW>, ::ByRef<::System::ParsingError>)>(
     &::System::Uri::CheckAuthorityHelperHandleAnyHostIri)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x43d282c;
+  constexpr static std::size_t addrs = 0x43c03ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1564,7 +1564,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::StringW, ::ByRef<uint16_t>, uint16_t, char16_t)>(&::System::Uri::FindEndOfComponent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43d1eb8;
+  constexpr static std::size_t addrs = 0x43bfa78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1580,7 +1580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::cordl_internals::Ptr<char16_t>, ::ByRef<uint16_t>, uint16_t, char16_t)>(
     &::System::Uri::FindEndOfComponent)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x43d2c50;
+  constexpr static std::size_t addrs = 0x43c0810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1597,7 +1597,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri_Check (::System::Uri::*)(::cordl_internals::Ptr<char16_t>, ::ByRef<uint16_t>, uint16_t, char16_t)>(
     &::System::Uri::CheckCanonical)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x43cff70;
+  constexpr static std::size_t addrs = 0x43bdb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1614,7 +1614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (::System::Uri::*)(::ArrayW<char16_t, ::Array<char16_t>*>, ::ByRef<int32_t>, ::System::UriFormat)>(&::System::Uri::GetCanonicalPath)> {
   constexpr static std::size_t size = 0x670;
-  constexpr static std::size_t addrs = 0x43d1848;
+  constexpr static std::size_t addrs = 0x43bf408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1631,7 +1631,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<char16_t>, int32_t, ::ByRef<int32_t>, char16_t, char16_t, char16_t)>(
     &::System::Uri::UnescapeOnly)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x43d2ce8;
+  constexpr static std::size_t addrs = 0x43c08a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1649,7 +1649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>, uint16_t, ::ByRef<int32_t>, ::System::UriParser*)>(&::System::Uri::Compress)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x43cc14c;
+  constexpr static std::size_t addrs = 0x43b9d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1665,7 +1665,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Uri::CalculateCaseInsensitiveHashCode)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43cd16c;
+  constexpr static std::size_t addrs = 0x43bad2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1679,7 +1679,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Uri*, ::StringW, ::System::UriFormat)>(&::System::Uri::CombineUri)> {
   constexpr static std::size_t size = 0x924;
-  constexpr static std::size_t addrs = 0x43ca268;
+  constexpr static std::size_t addrs = 0x43b7e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1694,7 +1694,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::get_HasAuthority)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43d2f04;
+  constexpr static std::size_t addrs = 0x43c0ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "get_HasAuthority",
@@ -1707,7 +1707,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Uri::IsLWS)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43cea30;
+  constexpr static std::size_t addrs = 0x43bc5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1721,7 +1721,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Uri::IsAsciiLetter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43ccea8;
+  constexpr static std::size_t addrs = 0x43baa68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1735,7 +1735,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Uri::IsAsciiLetterOrDigit)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43cced4;
+  constexpr static std::size_t addrs = 0x43baa94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1749,7 +1749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Uri::IsBidiControlCharacter)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43d2f10;
+  constexpr static std::size_t addrs = 0x43c0ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1763,7 +1763,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::cordl_internals::Ptr<char16_t>, int32_t, int32_t)>(&::System::Uri::StripBidiControlCharacter)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x43d2af0;
+  constexpr static std::size_t addrs = 0x43c06b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1778,7 +1778,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::StringW, bool, ::System::UriKind)>(&::System::Uri::CreateThis)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x43c91ec;
+  constexpr static std::size_t addrs = 0x43b6dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1794,7 +1794,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::System::ParsingError, ::System::UriKind, ::ByRef<::System::UriFormatException*>)>(
     &::System::Uri::InitializeUri)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x43d2f40;
+  constexpr static std::size_t addrs = 0x43c0b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1810,7 +1810,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::StringW)>(&::System::Uri::CheckForConfigLoad)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43d3408;
+  constexpr static std::size_t addrs = 0x43c0fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1824,7 +1824,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::StringW)>(&::System::Uri::CheckForUnicode)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x43d34ec;
+  constexpr static std::size_t addrs = 0x43c10ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1838,7 +1838,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::StringW)>(&::System::Uri::CheckForEscapedUnreserved)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x43d3614;
+  constexpr static std::size_t addrs = 0x43c11d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1852,7 +1852,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::UriKind, ::ByRef<::System::Uri*>)>(&::System::Uri::TryCreate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43cdaa4;
+  constexpr static std::size_t addrs = 0x43bb664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1867,7 +1867,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Uri*, ::StringW, ::ByRef<::System::Uri*>)>(&::System::Uri::TryCreate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43d3a38;
+  constexpr static std::size_t addrs = 0x43c15f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1882,7 +1882,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Uri*, ::System::Uri*, ::ByRef<::System::Uri*>)>(&::System::Uri::TryCreate)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x43d3b08;
+  constexpr static std::size_t addrs = 0x43c16c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1897,7 +1897,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriComponents, ::System::UriFormat)>(&::System::Uri::GetComponents)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x43d036c;
+  constexpr static std::size_t addrs = 0x43bdf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1912,7 +1912,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::IsWellFormedOriginalString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x43d3ea0;
+  constexpr static std::size_t addrs = 0x43c1a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "IsWellFormedOriginalString",
@@ -1925,7 +1925,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::UriKind)>(&::System::Uri::IsWellFormedUriString)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x43d434c;
+  constexpr static std::size_t addrs = 0x43c1f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1940,7 +1940,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)()>(&::System::Uri::InternalIsWellFormedOriginalString)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x43d3ee4;
+  constexpr static std::size_t addrs = 0x43c1aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Uri*>::get(), "InternalIsWellFormedOriginalString",
@@ -1953,7 +1953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Uri::UnescapeDataString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x43d43e8;
+  constexpr static std::size_t addrs = 0x43c1fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1967,7 +1967,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Uri::EscapeUriString)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x43d4588;
+  constexpr static std::size_t addrs = 0x43c2148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1982,7 +1982,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::StringW, int32_t, int32_t, ::System::UriComponents)>(
     &::System::Uri::EscapeUnescapeIri)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x43d1f0c;
+  constexpr static std::size_t addrs = 0x43bfacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1998,7 +1998,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::System::Uri_Flags, ::System::UriParser*, ::StringW)>(&::System::Uri::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43d46b0;
+  constexpr static std::size_t addrs = 0x43c2270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2015,7 +2015,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (*)(::StringW, bool, ::System::UriKind, ::ByRef<::System::UriFormatException*>)>(
     &::System::Uri::CreateHelper)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x43d37d8;
+  constexpr static std::size_t addrs = 0x43c1398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2032,7 +2032,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Uri* (*)(::System::Uri*, ::System::Uri*, ::ByRef<::StringW>, ::ByRef<bool>, ::ByRef<::System::UriFormatException*>)>(&::System::Uri::ResolveHelper)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x43c9680;
+  constexpr static std::size_t addrs = 0x43b7240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2049,7 +2049,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriFormat)>(&::System::Uri::GetRelativeSerializationString)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x43d3c84;
+  constexpr static std::size_t addrs = 0x43c1844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2063,7 +2063,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Uri::*)(::System::UriComponents, ::System::UriFormat)>(&::System::Uri::GetComponentsHelper)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x43cd2d8;
+  constexpr static std::size_t addrs = 0x43bae98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2078,7 +2078,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::System::Uri*)>(&::System::Uri::IsBaseOf)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43d46f0;
+  constexpr static std::size_t addrs = 0x43c22b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2092,7 +2092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Uri::*)(::System::Uri*)>(&::System::Uri::IsBaseOfHelper)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x43d47a4;
+  constexpr static std::size_t addrs = 0x43c2364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2106,7 +2106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Uri::*)(::System::Uri*)>(&::System::Uri::CreateThisFromUri)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x43c9b9c;
+  constexpr static std::size_t addrs = 0x43b775c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

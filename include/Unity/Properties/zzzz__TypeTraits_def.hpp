@@ -21,7 +21,7 @@ namespace Unity::Properties {
 class CORDL_TYPE TypeTraits : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsContainer, addr 0x491fe14, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsContainer, addr 0x490d9f4, size 0x140, virtual false, abstract: false, final false
   static inline bool IsContainer(::System::Type* type);
 
 protected:

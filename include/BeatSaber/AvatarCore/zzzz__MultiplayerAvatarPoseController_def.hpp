@@ -62,10 +62,10 @@ public:
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* New_ctor();
 
-  /// @brief Method Start, addr 0x2254484, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x224c614, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x225449c, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x224c62c, size 0x4e8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& __cordl_internal_get__avatarPoseRestriction() const;
@@ -110,16 +110,16 @@ public:
 
   constexpr void __cordl_internal_set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x2254984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224cb14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdatePoseEvent, addr 0x224fe04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePoseEvent, addr 0x2247f94, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method remove_didUpdatePoseEvent, addr 0x224ff80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePoseEvent, addr 0x2248110, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method set_connectedPlayer, addr 0x225447c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0x224c60c, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
 protected:

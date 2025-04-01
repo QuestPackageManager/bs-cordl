@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_accessToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x408e128, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407bce0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW accessToken);
 
 protected:
@@ -48,7 +48,7 @@ public:
   GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18765 };
 
   /// @brief Field accessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___accessToken;

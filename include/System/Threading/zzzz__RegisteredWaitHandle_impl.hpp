@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(
     ::System::Threading::WaitHandle*, ::System::Threading::WaitOrTimerCallback*, ::System::Object*, ::System::TimeSpan, bool)>(&::System::Threading::RegisteredWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e68004;
+  constexpr static std::size_t addrs = 0x3e55b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(
     &::System::Threading::RegisteredWaitHandle::Wait)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x3e6a8f8;
+  constexpr static std::size_t addrs = 0x3e583f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(
     &::System::Threading::RegisteredWaitHandle::DoCallBack)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3e6ae18;
+  constexpr static std::size_t addrs = 0x3e58914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::RegisteredWaitHandle::*)(::System::Threading::WaitHandle*)>(
     &::System::Threading::RegisteredWaitHandle::Unregister)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3e6af1c;
+  constexpr static std::size_t addrs = 0x3e58a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

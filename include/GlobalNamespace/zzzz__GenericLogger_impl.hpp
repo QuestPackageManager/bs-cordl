@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GenericLogger_ScopedStopwatch::*)(::StringW)>(
     &::GlobalNamespace::GenericLogger_ScopedStopwatch::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39cd6dc;
+  constexpr static std::size_t addrs = 0x39ba574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GenericLogger_ScopedStopwatch::*)()>(
     &::GlobalNamespace::GenericLogger_ScopedStopwatch::Dispose)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39cd7b8;
+  constexpr static std::size_t addrs = 0x39ba650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GenericLogger_ScopedStopwatch*>::get(),
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::IVerboseLogger*, ::StringW)>(&::GlobalNamespace::GenericLogger::Format)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x39cd438;
+  constexpr static std::size_t addrs = 0x39ba2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IVerboseLogger*, ::StringW)>(&::GlobalNamespace::GenericLogger::Log)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39cd524;
+  constexpr static std::size_t addrs = 0x39ba3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::GenericLogger::LogWithTimestamp)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x39cd59c;
+  constexpr static std::size_t addrs = 0x39ba434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

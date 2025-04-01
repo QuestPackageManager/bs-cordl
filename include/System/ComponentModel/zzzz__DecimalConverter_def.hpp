@@ -39,31 +39,31 @@ public:
 
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method CanConvertTo, addr 0x445e7e4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x444c3a4, size 0xc4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x445e8a8, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x444c468, size 0x320, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method FromString, addr 0x445ecb4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x444c874, size 0xac, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x445ebc8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x444c788, size 0xec, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::DecimalConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x445ed60, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x444c920, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x445ee48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444ca08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x445e770, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x444c330, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x445e778, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x444c338, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:

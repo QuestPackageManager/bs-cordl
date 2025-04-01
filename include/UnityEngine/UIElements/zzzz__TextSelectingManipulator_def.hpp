@@ -92,54 +92,54 @@ public:
 
   __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4a9f128, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4a8cd08, size 0x24c, virtual false, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HasFocus, addr 0x4a9f0d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasFocus, addr 0x4a8ccb4, size 0x18, virtual false, abstract: false, final false
   inline bool HasFocus();
 
-  /// @brief Method HasSelection, addr 0x4a9ef54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HasSelection, addr 0x4a8cb34, size 0x1c, virtual false, abstract: false, final false
   inline bool HasSelection();
 
-  /// @brief Method MoveDistanceQualifiesForDrag, addr 0x4aa0008, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MoveDistanceQualifiesForDrag, addr 0x4a8dbe8, size 0x24, virtual false, abstract: false, final false
   inline bool MoveDistanceQualifiesForDrag(::UnityEngine::Vector2 start, ::UnityEngine::Vector2 current);
 
   static inline ::UnityEngine::UIElements::TextSelectingManipulator* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnBlurEvent, addr 0x4a9f5a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnBlurEvent, addr 0x4a8d188, size 0xb0, virtual false, abstract: false, final false
   inline void OnBlurEvent(::UnityEngine::UIElements::BlurEvent* evt);
 
-  /// @brief Method OnCursorIndexChange, addr 0x4a9ef70, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnCursorIndexChange, addr 0x4a8cb50, size 0x148, virtual false, abstract: false, final false
   inline void OnCursorIndexChange();
 
-  /// @brief Method OnExecuteCommandEvent, addr 0x4a9feec, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnExecuteCommandEvent, addr 0x4a8dacc, size 0x118, virtual false, abstract: false, final false
   inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
 
-  /// @brief Method OnFocusEvent, addr 0x4a9f374, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method OnFocusEvent, addr 0x4a8cf54, size 0x234, virtual false, abstract: false, final false
   inline void OnFocusEvent(::UnityEngine::UIElements::FocusEvent* evt);
 
-  /// @brief Method OnKeyDown, addr 0x4a9fa34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x4a8d614, size 0x70, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x4a9f658, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDownEvent, addr 0x4a8d238, size 0x3dc, virtual false, abstract: false, final false
   inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMoveEvent, addr 0x4a9faa4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMoveEvent, addr 0x4a8d684, size 0x20c, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUpEvent, addr 0x4a9fcb0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUpEvent, addr 0x4a8d890, size 0xbc, virtual false, abstract: false, final false
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnRevealCursor, addr 0x4a9edec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnRevealCursor, addr 0x4a8c9cc, size 0x20, virtual false, abstract: false, final false
   inline void OnRevealCursor();
 
-  /// @brief Method OnSelectIndexChange, addr 0x4a9ee0c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnSelectIndexChange, addr 0x4a8c9ec, size 0x148, virtual false, abstract: false, final false
   inline void OnSelectIndexChange();
 
-  /// @brief Method OnValidateCommandEvent, addr 0x4a9fd6c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method OnValidateCommandEvent, addr 0x4a8d94c, size 0x180, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
 
-  /// @brief Method RevealCursor, addr 0x4a9f0b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RevealCursor, addr 0x4a8cc98, size 0x1c, virtual false, abstract: false, final false
   inline bool RevealCursor();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_ClickStartPosition() const;
@@ -196,25 +196,25 @@ public:
 
   constexpr void __cordl_internal_set_selectAllOnMouseUp(bool value);
 
-  /// @brief Method .ctor, addr 0x4a9eb58, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c738, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method get_cursorIndex, addr 0x4a9ed84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_cursorIndex, addr 0x4a8c964, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_cursorIndex();
 
-  /// @brief Method get_isClicking, addr 0x4a9eb38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isClicking, addr 0x4a8c718, size 0x8, virtual false, abstract: false, final false
   inline bool get_isClicking();
 
-  /// @brief Method get_selectIndex, addr 0x4a9edb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectIndex, addr 0x4a8c998, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectIndex();
 
-  /// @brief Method set_cursorIndex, addr 0x4a9ed9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_cursorIndex, addr 0x4a8c97c, size 0x1c, virtual false, abstract: false, final false
   inline void set_cursorIndex(int32_t value);
 
-  /// @brief Method set_isClicking, addr 0x4a9eb40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_isClicking, addr 0x4a8c720, size 0x18, virtual false, abstract: false, final false
   inline void set_isClicking(bool value);
 
-  /// @brief Method set_selectIndex, addr 0x4a9edd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectIndex, addr 0x4a8c9b0, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectIndex(int32_t value);
 
 protected:

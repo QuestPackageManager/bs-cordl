@@ -29,13 +29,13 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRExtendedDisplay FnTable;
 
-  /// @brief Method GetDXGIOutputInfo, addr 0x407ff38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDXGIOutputInfo, addr 0x406daf0, size 0x2c, virtual false, abstract: false, final false
   inline void GetDXGIOutputInfo(::ByRef<int32_t> pnAdapterIndex, ::ByRef<int32_t> pnAdapterOutputIndex);
 
-  /// @brief Method GetEyeOutputViewport, addr 0x407ff04, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetEyeOutputViewport, addr 0x406dabc, size 0x34, virtual false, abstract: false, final false
   inline void GetEyeOutputViewport(::OVR::OpenVR::EVREye eEye, ::ByRef<uint32_t> pnX, ::ByRef<uint32_t> pnY, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight);
 
-  /// @brief Method GetWindowBounds, addr 0x407fed0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetWindowBounds, addr 0x406da88, size 0x34, virtual false, abstract: false, final false
   inline void GetWindowBounds(::ByRef<int32_t> pnX, ::ByRef<int32_t> pnY, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::CVRExtendedDisplay* New_ctor(::System::IntPtr pInterface);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRExtendedDisplay value);
 
-  /// @brief Method .ctor, addr 0x407fdbc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406d974, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:

@@ -32,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SetGlobalShaderFloat* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x39f5024, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e2074, size 0x20, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x39f4ff0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e2040, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x39f5010, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39e2060, size 0x14, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__propertyId() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method .ctor, addr 0x39f5044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e2094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

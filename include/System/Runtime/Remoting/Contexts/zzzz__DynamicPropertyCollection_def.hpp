@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3ced3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cdaea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,18 +109,18 @@ public:
   /// @brief Field _properties, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties)) ::System::Collections::ArrayList* _properties;
 
-  /// @brief Method FindProperty, addr 0x3ced244, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FindProperty, addr 0x3cdad40, size 0x164, virtual false, abstract: false, final false
   inline int32_t FindProperty(::StringW name);
 
   static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* New_ctor();
 
-  /// @brief Method NotifyMessage, addr 0x3ceb544, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method NotifyMessage, addr 0x3cd9040, size 0x658, virtual false, abstract: false, final false
   inline void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
 
-  /// @brief Method RegisterDynamicProperty, addr 0x3ceaf1c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method RegisterDynamicProperty, addr 0x3cd8a18, size 0x2e4, virtual false, abstract: false, final false
   inline bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
 
-  /// @brief Method UnregisterDynamicProperty, addr 0x3ceb278, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDynamicProperty, addr 0x3cd8d74, size 0x16c, virtual false, abstract: false, final false
   inline bool UnregisterDynamicProperty(::StringW name);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__properties() const;
@@ -129,10 +129,10 @@ public:
 
   constexpr void __cordl_internal_set__properties(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x3ceb3e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd8ee0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasProperties, addr 0x3cead18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_HasProperties, addr 0x3cd8814, size 0x30, virtual false, abstract: false, final false
   inline bool get_HasProperties();
 
 protected:

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::*)()>(
     &::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b031f8;
+  constexpr static std::size_t addrs = 0x3af020c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::*)(::StringW)>(
     &::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b03200;
+  constexpr static std::size_t addrs = 0x3af0214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* (
     ::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::*)()>(&::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::get_playerOverallStatsDataFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b03208;
+  constexpr static std::size_t addrs = 0x3af021c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::*)(
     ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*)>(&::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::set_playerOverallStatsDataFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b03210;
+  constexpr static std::size_t addrs = 0x3af0224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::*)(
     ::StringW, ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*)>(&::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b02c3c;
+  constexpr static std::size_t addrs = 0x3aefc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PlayerStatisticsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x3b026b4;
+  constexpr static std::size_t addrs = 0x3aef6c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlayerStatisticsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b03028;
+  constexpr static std::size_t addrs = 0x3af003c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController::*)(
     ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*)>(&::GlobalNamespace::PlayerStatisticsViewController::UpdateView)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x3b02c44;
+  constexpr static std::size_t addrs = 0x3aefc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::PlayerStatisticsViewController::HandleStatsScopeSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b030c4;
+  constexpr static std::size_t addrs = 0x3af00d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStatisticsViewController::*)()>(
     &::GlobalNamespace::PlayerStatisticsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b03114;
+  constexpr static std::size_t addrs = 0x3af0128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStatisticsViewController*>::get(),
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* (
     ::GlobalNamespace::PlayerStatisticsViewController::*)()>(&::GlobalNamespace::PlayerStatisticsViewController::_DidActivate_b__14_1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b0311c;
+  constexpr static std::size_t addrs = 0x3af0130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStatisticsViewController*>::get(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* (
     ::GlobalNamespace::PlayerStatisticsViewController::*)()>(&::GlobalNamespace::PlayerStatisticsViewController::_DidActivate_b__14_2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b03148;
+  constexpr static std::size_t addrs = 0x3af015c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStatisticsViewController*>::get(),
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* (
     ::GlobalNamespace::PlayerStatisticsViewController::*)()>(&::GlobalNamespace::PlayerStatisticsViewController::_DidActivate_b__14_3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b03174;
+  constexpr static std::size_t addrs = 0x3af0188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStatisticsViewController*>::get(),
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* (
     ::GlobalNamespace::PlayerStatisticsViewController::*)()>(&::GlobalNamespace::PlayerStatisticsViewController::_DidActivate_b__14_4)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b031a0;
+  constexpr static std::size_t addrs = 0x3af01b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStatisticsViewController*>::get(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* (
     ::GlobalNamespace::PlayerStatisticsViewController::*)()>(&::GlobalNamespace::PlayerStatisticsViewController::_DidActivate_b__14_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b031cc;
+  constexpr static std::size_t addrs = 0x3af01e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStatisticsViewController*>::get(),

@@ -53,10 +53,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerPlayerPlacement___c* New_ctor();
 
-  /// @brief Method <SortPlayers>b__4_0, addr 0x3bec900, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method <SortPlayers>b__4_0, addr 0x3bda3f0, size 0x128, virtual false, abstract: false, final false
   inline int32_t _SortPlayers_b__4_0(::GlobalNamespace::IConnectedPlayer* p1, ::GlobalNamespace::IConnectedPlayer* p2);
 
-  /// @brief Method .ctor, addr 0x3bec8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bda3e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MultiplayerPlayerPlacement___c* getStaticF___9();
@@ -99,22 +99,22 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::MultiplayerPlayerPlacement___c;
 
-  /// @brief Method GetAngleBetweenPlayersWithEvenAdjustment, addr 0x3be688c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetAngleBetweenPlayersWithEvenAdjustment, addr 0x3bd437c, size 0x2c, virtual false, abstract: false, final false
   static inline float_t GetAngleBetweenPlayersWithEvenAdjustment(int32_t numberOfPlayers, ::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method GetLocalPlayerIndex, addr 0x3bec614, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetLocalPlayerIndex, addr 0x3bda104, size 0x288, virtual false, abstract: false, final false
   static inline int32_t GetLocalPlayerIndex(::System::Collections::Generic::IList_1<::GlobalNamespace::IConnectedPlayer*>* otherPlayers, ::GlobalNamespace::IConnectedPlayer* localPlayer);
 
-  /// @brief Method GetOuterCirclePositionAngleForPlayer, addr 0x3be68fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetOuterCirclePositionAngleForPlayer, addr 0x3bd43ec, size 0x14, virtual false, abstract: false, final false
   static inline float_t GetOuterCirclePositionAngleForPlayer(int32_t playerIndex, int32_t localPlayerIndex, float_t angleBetweenPlayers);
 
-  /// @brief Method GetOuterCircleRadius, addr 0x3be68b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetOuterCircleRadius, addr 0x3bd43a8, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetOuterCircleRadius(float_t angleBetweenPlayers, float_t innerCircleRadius);
 
-  /// @brief Method GetPlayerWorldPosition, addr 0x3be6910, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerWorldPosition, addr 0x3bd4400, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetPlayerWorldPosition(float_t outerCircleRadius, float_t outerCirclePositionAngle, ::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method SortPlayers, addr 0x3bec51c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SortPlayers, addr 0x3bda00c, size 0xf8, virtual false, abstract: false, final false
   static inline void SortPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* players);
 
 protected:

@@ -45,22 +45,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4b000a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aedc98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x4b000cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aedcc0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x4b000f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x4aedcec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x4b00108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x4aedcfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x4b00100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x4aedcf4, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x4b00110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x4aedd04, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18519 };
 
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BaseType_k__BackingField;

@@ -40,14 +40,14 @@ public:
   /// @brief Field certValue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_certValue, put = __cordl_internal_set_certValue)) ::Org::BouncyCastle::Asn1::Asn1Object* certValue;
 
-  /// @brief Method GetInstance, addr 0x240fccc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2407e5c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID, ::Org::BouncyCastle::Asn1::Asn1Object* certValue);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x240fee4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2408074, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_certID() const;
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_certValue(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x240fea8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2408038, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID, ::Org::BouncyCastle::Asn1::Asn1Object* certValue);
 
-  /// @brief Method .ctor, addr 0x240fd70, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2407f00, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertID, addr 0x240fed4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertID, addr 0x2408064, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CertID();
 
-  /// @brief Method get_CertValue, addr 0x240fedc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertValue, addr 0x240806c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_CertValue();
 
 protected:

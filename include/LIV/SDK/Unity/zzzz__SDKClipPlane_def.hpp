@@ -22,10 +22,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKClipPlane {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3ad6540, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ac39b4, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3ad59cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac2e40, size 0x34, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKClipPlane get_empty();
 
   // Ctor Parameters []

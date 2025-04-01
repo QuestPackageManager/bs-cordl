@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x492434c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4911f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

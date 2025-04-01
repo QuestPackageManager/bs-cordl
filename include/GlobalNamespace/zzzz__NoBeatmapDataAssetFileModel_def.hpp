@@ -61,10 +61,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d9dd0, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d1f60, size 0x2d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26da0a8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26d2238, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -130,14 +130,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
 
-  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x26d9c38, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x26d1dc8, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::NoBeatmapDataAssetFileModel* New_ctor();
 
-  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x26d9d28, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x26d1eb8, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                 ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
@@ -148,16 +148,16 @@ public:
 
   constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method .ctor, addr 0x26d9dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d1f58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x26d9ad8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x26d1c68, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x26d9b88, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x26d1d18, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
 protected:

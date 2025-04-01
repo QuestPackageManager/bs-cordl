@@ -41,7 +41,7 @@ public:
   /// @brief Method OnSceneLoaded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method SetMaterial, addr 0x47126ac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x470028c, size 0xe4, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* material);
 
   constexpr bool const& __cordl_internal_get_manageVisibility() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_manageVisibility(bool value);
 
-  /// @brief Method .ctor, addr 0x4712910, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47004f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   EntityBehaviour(EntityBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14239 };
 
   /// @brief Field manageVisibility, offset: 0x20, size: 0x1, def value: None
   bool ___manageVisibility;

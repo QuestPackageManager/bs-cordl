@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AddInstruction_AddInt32::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::AddInstruction_AddInt32::Run)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x40cc790;
+  constexpr static std::size_t addrs = 0x40ba350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AddInstruction_AddInt32::*)()>(&::GlobalNamespace::AddInstruction_AddInt32::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40cc610;
+  constexpr static std::size_t addrs = 0x40ba1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AddInstruction_AddInt32*>::get(), ".ctor",

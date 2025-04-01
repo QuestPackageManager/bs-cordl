@@ -139,7 +139,7 @@ namespace System::Globalization {
 struct CORDL_TYPE HebrewNumber_HebrewValue {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3da0e44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d8e940, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::HebrewNumber_HebrewToken token, int16_t value);
 
   // Ctor Parameters []
@@ -321,13 +321,13 @@ public:
                       put = setStaticF_s_numberPasingState)) ::ArrayW<::System::Globalization::HebrewNumber_HS, ::Array<::System::Globalization::HebrewNumber_HS>*>
       s_numberPasingState;
 
-  /// @brief Method IsDigit, addr 0x3d9ea84, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x3d8c580, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method ParseByChar, addr 0x3d9eb60, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ParseByChar, addr 0x3d8c65c, size 0x198, virtual false, abstract: false, final false
   static inline ::System::Globalization::HebrewNumberParsingState ParseByChar(char16_t ch, ::ByRef<::System::Globalization::HebrewNumberParsingContext> context);
 
-  /// @brief Method ToString, addr 0x3da0910, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d8e40c, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t Number);
 
   static inline ::ArrayW<::System::Globalization::HebrewNumber_HebrewValue, ::Array<::System::Globalization::HebrewNumber_HebrewValue>*> getStaticF_s_hebrewValues();

@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x244e67c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244680c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x244e680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2446810, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x244e684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2446814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

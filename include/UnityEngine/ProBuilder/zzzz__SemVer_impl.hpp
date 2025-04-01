@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_major)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740c00;
+  constexpr static std::size_t addrs = 0x472e7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_major",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_minor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740c08;
+  constexpr static std::size_t addrs = 0x472e7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_minor",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_patch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740c10;
+  constexpr static std::size_t addrs = 0x472e7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_patch",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_build)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740c18;
+  constexpr static std::size_t addrs = 0x472e7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_build",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_type)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4740c20;
+  constexpr static std::size_t addrs = 0x472e800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_type",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_metadata)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4740c70;
+  constexpr static std::size_t addrs = 0x472e850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_metadata",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_date)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4740cc0;
+  constexpr static std::size_t addrs = 0x472e8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_date",
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::SemVer* (::UnityEngine::ProBuilder::SemVer::*)()>(
     &::UnityEngine::ProBuilder::SemVer::get_MajorMinorPatch)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4740d10;
+  constexpr static std::size_t addrs = 0x472e8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "get_MajorMinorPatch",
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4740e00;
+  constexpr static std::size_t addrs = 0x472e9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), ".ctor",
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::SemVer::*)(::StringW, ::StringW)>(&::UnityEngine::ProBuilder::SemVer::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4740e34;
+  constexpr static std::size_t addrs = 0x472ea14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::SemVer::*)(int32_t, int32_t, int32_t, int32_t, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::ProBuilder::SemVer::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4740d94;
+  constexpr static std::size_t addrs = 0x472e974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::IsValid)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47412b8;
+  constexpr static std::size_t addrs = 0x472ee98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SemVer*>::get(), "IsValid",
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::SemVer::*)(::System::Object*)>(&::UnityEngine::ProBuilder::SemVer::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47412e8;
+  constexpr static std::size_t addrs = 0x472eec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::GetHashCode)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x4741558;
+  constexpr static std::size_t addrs = 0x472f138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::SemVer::*)(::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::Equals)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x4741358;
+  constexpr static std::size_t addrs = 0x472ef38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)(::System::Object*)>(&::UnityEngine::ProBuilder::SemVer::CompareTo)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4741720;
+  constexpr static std::size_t addrs = 0x472f300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::ProBuilder::SemVer::WrapNoValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4741930;
+  constexpr static std::size_t addrs = 0x472f510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)(::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::CompareTo)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x4741784;
+  constexpr static std::size_t addrs = 0x472f364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::op_Equality)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4741940;
+  constexpr static std::size_t addrs = 0x472f520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::op_Inequality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4741954;
+  constexpr static std::size_t addrs = 0x472f534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::op_LessThan)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x474197c;
+  constexpr static std::size_t addrs = 0x472f55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::op_GreaterThan)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47419a0;
+  constexpr static std::size_t addrs = 0x472f580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x47419bc;
+  constexpr static std::size_t addrs = 0x472f59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(
     &::UnityEngine::ProBuilder::SemVer::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47419fc;
+  constexpr static std::size_t addrs = 0x472f5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)(::StringW)>(&::UnityEngine::ProBuilder::SemVer::ToString)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x4741a50;
+  constexpr static std::size_t addrs = 0x472f630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::ToString)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x4741c80;
+  constexpr static std::size_t addrs = 0x472f860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::UnityEngine::ProBuilder::SemVer*>)>(
     &::UnityEngine::ProBuilder::SemVer::TryGetVersionInfo)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x4740edc;
+  constexpr static std::size_t addrs = 0x472eabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::ProBuilder::SemVer::GetBuildNumber)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4741eb0;
+  constexpr static std::size_t addrs = 0x472fa90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

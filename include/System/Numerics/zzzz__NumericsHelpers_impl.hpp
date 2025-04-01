@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(double_t, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<uint64_t>, ::ByRef<bool>)>(
     &::System::Numerics::NumericsHelpers::GetDoubleParts)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42378b0;
+  constexpr static std::size_t addrs = 0x4225470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(int32_t, int32_t, uint64_t)>(&::System::Numerics::NumericsHelpers::GetDoubleFromParts)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x423a2fc;
+  constexpr static std::size_t addrs = 0x4227ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::System::Numerics::NumericsHelpers::DangerousMakeTwosComplement)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4238118;
+  constexpr static std::size_t addrs = 0x4225cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint32_t, uint32_t)>(&::System::Numerics::NumericsHelpers::MakeUlong)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4238798;
+  constexpr static std::size_t addrs = 0x4226358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int32_t)>(&::System::Numerics::NumericsHelpers::Abs)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42394d4;
+  constexpr static std::size_t addrs = 0x4227094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::Numerics::NumericsHelpers::CombineHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423e710;
+  constexpr static std::size_t addrs = 0x422c2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Numerics::NumericsHelpers::CombineHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42385c0;
+  constexpr static std::size_t addrs = 0x4226180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Numerics::NumericsHelpers::CbitHighZero)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x423a284;
+  constexpr static std::size_t addrs = 0x4227e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::System::Numerics::NumericsHelpers::CbitHighZero)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x423e6ec;
+  constexpr static std::size_t addrs = 0x422c2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -23,10 +23,10 @@ public:
 
   static inline ::UnityEngine::ExitGUIException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x48edc14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48db7f4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48e9b28, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d7708, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -91,15 +91,15 @@ public:
 
   __declspec(property(get = get_timeSinceHeadNoteJump)) float_t timeSinceHeadNoteJump;
 
-  /// @brief Method Init, addr 0x3b845b0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b71fe4, size 0x118, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SliderData* sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
-  /// @brief Method ManualUpdate, addr 0x3b85d88, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b737bc, size 0x480, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::SliderMovement* New_ctor();
 
-  /// @brief Method StartMovement, addr 0x3b8516c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartMovement, addr 0x3b72ba0, size 0x28, virtual false, abstract: false, final false
   inline void StartMovement();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -192,34 +192,34 @@ public:
 
   constexpr void __cordl_internal_set_tailDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b89af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b77528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_headDidMovePastCutMarkEvent, addr 0x3b85380, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_headDidMovePastCutMarkEvent, addr 0x3b72db4, size 0x9c, virtual false, abstract: false, final false
   inline void add_headDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method add_movementDidFinishEvent, addr 0x3b852e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_movementDidFinishEvent, addr 0x3b72d18, size 0x9c, virtual false, abstract: false, final false
   inline void add_movementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_movementDidMoveEvent, addr 0x3b8998c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_movementDidMoveEvent, addr 0x3b773c0, size 0xb0, virtual false, abstract: false, final false
   inline void add_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_tailDidMovePastCutMarkEvent, addr 0x3b8541c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_tailDidMovePastCutMarkEvent, addr 0x3b72e50, size 0x9c, virtual false, abstract: false, final false
   inline void add_tailDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method get_timeSinceHeadNoteJump, addr 0x3b89aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeSinceHeadNoteJump, addr 0x3b77520, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeSinceHeadNoteJump();
 
-  /// @brief Method remove_headDidMovePastCutMarkEvent, addr 0x3b859c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidMovePastCutMarkEvent, addr 0x3b733f8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_headDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method remove_movementDidFinishEvent, addr 0x3b85928, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_movementDidFinishEvent, addr 0x3b7335c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_movementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_movementDidMoveEvent, addr 0x3b89a3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_movementDidMoveEvent, addr 0x3b77470, size 0xb0, virtual false, abstract: false, final false
   inline void remove_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_tailDidMovePastCutMarkEvent, addr 0x3b85a60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_tailDidMovePastCutMarkEvent, addr 0x3b73494, size 0x9c, virtual false, abstract: false, final false
   inline void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
 
 protected:

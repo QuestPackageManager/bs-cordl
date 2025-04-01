@@ -59,7 +59,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RadioButton_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a0f934, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fd514, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x4a0f97c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49fd55c, size 0x11c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::RadioButton_UxmlTraits* New_ctor();
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4a0fa98, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fd678, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -174,32 +174,32 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBoxOption"
   constexpr operator ::UnityEngine::UIElements::IGroupBoxOption*() noexcept;
 
-  /// @brief Method InitLabel, addr 0x4a0f630, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x49fd210, size 0x7c, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor(::StringW label);
 
-  /// @brief Method OnOptionAttachToPanel, addr 0x4a0f558, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnOptionAttachToPanel, addr 0x49fd138, size 0x6c, virtual false, abstract: false, final false
   inline void OnOptionAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnOptionDetachFromPanel, addr 0x4a0f5c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnOptionDetachFromPanel, addr 0x49fd1a4, size 0x6c, virtual false, abstract: false, final false
   inline void OnOptionDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4a0f700, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x49fd2e0, size 0x20, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ToggleValue, addr 0x4a0f6ac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x49fd28c, size 0x40, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UnityEngine.UIElements.IGroupBoxOption.SetSelected, addr 0x4a0f6ec, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBoxOption.SetSelected, addr 0x49fd2cc, size 0x14, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBoxOption_SetSelected(bool selected);
 
-  /// @brief Method UpdateCheckmark, addr 0x4a0f1dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCheckmark, addr 0x49fcdbc, size 0xf4, virtual false, abstract: false, final false
   inline void UpdateCheckmark();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x4a0f720, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x49fd300, size 0xa4, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_CheckmarkBackground() const;
@@ -208,10 +208,10 @@ public:
 
   constexpr void __cordl_internal_set_m_CheckmarkBackground(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4a0f2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fceb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a0f2d8, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fceb8, size 0x280, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkBackgroundUssClassName();
@@ -226,7 +226,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_value, addr 0x4a0f0b0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x49fcc90, size 0x48, virtual true, abstract: false, final false
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBoxOption"
@@ -244,7 +244,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_value, addr 0x4a0f0f8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x49fccd8, size 0xe4, virtual true, abstract: false, final false
   inline void set_value(bool value);
 
 protected:

@@ -30,16 +30,16 @@ public:
 
   static inline ::UnityEngine::Timeline::RuntimeClipBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48323d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x481ffb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_duration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_intervalEnd, addr 0x4832a28, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_intervalEnd, addr 0x4820608, size 0x84, virtual true, abstract: false, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalStart, addr 0x48329b8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_intervalStart, addr 0x4820598, size 0x70, virtual true, abstract: false, final false
   inline int64_t get_intervalStart();
 
   /// @brief Method get_start, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -60,7 +60,7 @@ public:
   RuntimeClipBase(RuntimeClipBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

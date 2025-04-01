@@ -37,7 +37,7 @@ public:
   /// @brief Field publicKeyParamSet, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
 
-  /// @brief Method LookupParameters, addr 0x23c2e84, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method LookupParameters, addr 0x23bb014, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* LookupParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23c2dfc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23baf8c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor, addr 0x23c2e48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bafd8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Parameters, addr 0x23c2fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x23bb17c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* get_Parameters();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x23c2ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x23bb184, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:

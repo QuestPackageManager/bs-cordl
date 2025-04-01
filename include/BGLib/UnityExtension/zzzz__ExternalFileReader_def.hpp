@@ -45,10 +45,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22bae60, size 0x714, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b2ff0, size 0x714, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22bb700, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22b3890, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -112,7 +112,7 @@ public:
   // Declarations
   using _ExistsAsync_d__0 = ::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0;
 
-  /// @brief Method ExistsAsync, addr 0x22bad6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ExistsAsync, addr 0x22b2efc, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ExistsAsync(::StringW filePath);
 
 protected:

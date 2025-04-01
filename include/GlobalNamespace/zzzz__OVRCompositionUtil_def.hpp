@@ -34,27 +34,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRCompositionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BuildBoundaryMesh, addr 0x3fa5c7c, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method BuildBoundaryMesh, addr 0x3f93834, size 0x484, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> BuildBoundaryMesh(::GlobalNamespace::OVRBoundary_BoundaryType boundaryType, float_t topY, float_t bottomY);
 
-  /// @brief Method GetMaximumBoundaryDistance, addr 0x3fa5660, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetMaximumBoundaryDistance, addr 0x3f93218, size 0x1c0, virtual false, abstract: false, final false
   static inline float_t GetMaximumBoundaryDistance(::UnityEngine::Camera* camera, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
-  /// @brief Method GetWorldPosition, addr 0x3fa55cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetWorldPosition, addr 0x3f93184, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 trackingSpacePosition);
 
-  /// @brief Method GetWorldPosition, addr 0x3fa5590, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWorldPosition, addr 0x3f93148, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Vector3 trackingSpacePosition);
 
   static inline ::GlobalNamespace::OVRCompositionUtil* New_ctor();
 
-  /// @brief Method SafeDestroy, addr 0x3fa551c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x3f930d4, size 0x74, virtual false, abstract: false, final false
   static inline void SafeDestroy(::ByRef<::UnityEngine::GameObject*> obj);
 
-  /// @brief Method SafeDestroy, addr 0x3fa5480, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x3f93038, size 0x9c, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::GameObject* obj);
 
-  /// @brief Method .ctor, addr 0x3fa6100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f93cb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

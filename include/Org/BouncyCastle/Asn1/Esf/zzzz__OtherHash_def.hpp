@@ -46,10 +46,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetHashValue, addr 0x2326b34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetHashValue, addr 0x231ecc4, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashValue();
 
-  /// @brief Method GetInstance, addr 0x2324d94, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x231cf24, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash);
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
 
-  /// @brief Method ToAsn1Object, addr 0x2326b84, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x231ed14, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* const& __cordl_internal_get_otherHash() const;
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_sha1Hash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x232696c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231eafc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash);
 
-  /// @brief Method .ctor, addr 0x23269e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231eb70, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method .ctor, addr 0x232677c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231e90c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
 
-  /// @brief Method get_HashAlgorithm, addr 0x2326a98, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x231ec28, size 0x9c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

@@ -119,7 +119,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2402508, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23fa698, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth);
@@ -130,7 +130,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
-  /// @brief Method ToAsn1Object, addr 0x240273c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23fa8cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObject* const& __cordl_internal_get_declaration() const;
@@ -139,28 +139,28 @@ public:
 
   constexpr void __cordl_internal_set_declaration(::Org::BouncyCastle::Asn1::Asn1TaggedObject* value);
 
-  /// @brief Method .ctor, addr 0x240248c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fa61c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth);
 
-  /// @brief Method .ctor, addr 0x2402274, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fa404, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(bool fullAge, ::StringW country);
 
-  /// @brief Method .ctor, addr 0x24021cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fa35c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t notYoungerThan);
 
-  /// @brief Method .ctor, addr 0x2402684, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fa814, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
-  /// @brief Method get_DateOfBirth, addr 0x24027d8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_DateOfBirth, addr 0x23fa968, size 0x38, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_DateOfBirth();
 
-  /// @brief Method get_FullAgeAtCountry, addr 0x24027a0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_FullAgeAtCountry, addr 0x23fa930, size 0x38, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_FullAgeAtCountry();
 
-  /// @brief Method get_NotYoungerThan, addr 0x2402760, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_NotYoungerThan, addr 0x23fa8f0, size 0x40, virtual true, abstract: false, final false
   inline int32_t get_NotYoungerThan();
 
-  /// @brief Method get_Type, addr 0x2402744, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x23fa8d4, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

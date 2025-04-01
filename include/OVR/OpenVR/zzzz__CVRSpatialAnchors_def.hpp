@@ -39,17 +39,17 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x20
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRSpatialAnchors FnTable;
 
-  /// @brief Method CreateSpatialAnchorFromDescriptor, addr 0x40840a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorFromDescriptor, addr 0x4071c5c, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromDescriptor(::StringW pchDescriptor, ::ByRef<uint32_t> pHandleOut);
 
-  /// @brief Method CreateSpatialAnchorFromPose, addr 0x40840cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorFromPose, addr 0x4071c84, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromPose(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose,
                                                                           ::ByRef<uint32_t> pHandleOut);
 
-  /// @brief Method GetSpatialAnchorDescriptor, addr 0x4084118, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetSpatialAnchorDescriptor, addr 0x4071cd0, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorDescriptor(uint32_t unHandle, ::System::Text::StringBuilder* pchDescriptorOut, ::ByRef<uint32_t> punDescriptorBufferLenInOut);
 
-  /// @brief Method GetSpatialAnchorPose, addr 0x40840f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSpatialAnchorPose, addr 0x4071cac, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorPose(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut);
 
   static inline ::OVR::OpenVR::CVRSpatialAnchors* New_ctor(::System::IntPtr pInterface);
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRSpatialAnchors value);
 
-  /// @brief Method .ctor, addr 0x4083f98, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4071b50, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:

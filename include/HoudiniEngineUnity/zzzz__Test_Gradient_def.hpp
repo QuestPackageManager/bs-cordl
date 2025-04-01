@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Gradient*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Gradient*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3aa8618, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a956ec, size 0xf4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Gradient* other);
 
-  /// @brief Method IsNull, addr 0x3aa8608, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a956dc, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Gradient* New_ctor(::UnityEngine::Gradient* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::Gradient* value);
 
-  /// @brief Method .ctor, addr 0x3aa85e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a956b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Gradient* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>"

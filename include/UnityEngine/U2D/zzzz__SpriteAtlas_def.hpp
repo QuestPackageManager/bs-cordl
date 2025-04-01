@@ -29,36 +29,36 @@ public:
 
   __declspec(property(get = get_tag)) ::StringW tag;
 
-  /// @brief Method CanBindTo, addr 0x48c9ee4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CanBindTo, addr 0x48b7ac4, size 0x44, virtual false, abstract: false, final false
   inline bool CanBindTo(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetSprite, addr 0x48c9f28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSprite, addr 0x48b7b08, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> GetSprite(::StringW name);
 
-  /// @brief Method GetSprites, addr 0x48c9f6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSprites, addr 0x48b7b4c, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetSprites(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);
 
-  /// @brief Method GetSprites, addr 0x48c9ff4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSprites, addr 0x48b7bd4, size 0x54, virtual false, abstract: false, final false
   inline int32_t GetSprites(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites, ::StringW name);
 
-  /// @brief Method GetSpritesScripting, addr 0x48c9fb0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesScripting, addr 0x48b7b90, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetSpritesScripting(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);
 
-  /// @brief Method GetSpritesWithNameScripting, addr 0x48ca048, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesWithNameScripting, addr 0x48b7c28, size 0x54, virtual false, abstract: false, final false
   inline int32_t GetSpritesWithNameScripting(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites, ::StringW name);
 
   static inline ::UnityEngine::U2D::SpriteAtlas* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48ca09c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b7c7c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isVariant, addr 0x48c9e30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isVariant, addr 0x48b7a10, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isVariant();
 
-  /// @brief Method get_spriteCount, addr 0x48c9ea8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spriteCount, addr 0x48b7a88, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_spriteCount();
 
-  /// @brief Method get_tag, addr 0x48c9e6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_tag, addr 0x48b7a4c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_tag();
 
 protected:

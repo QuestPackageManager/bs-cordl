@@ -34,31 +34,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Zenject::SignalSubscriptionId>"
   constexpr operator ::System::IEquatable_1<::Zenject::SignalSubscriptionId>*();
 
-  /// @brief Method Equals, addr 0x4b098d8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4af74cc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* that);
 
-  /// @brief Method Equals, addr 0x4b09968, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4af755c, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::Zenject::SignalSubscriptionId that);
 
-  /// @brief Method GetHashCode, addr 0x4b09890, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4af7484, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4b09870, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af7464, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindingId signalId, ::System::Object* callback);
 
-  /// @brief Method get_Callback, addr 0x4b09888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callback, addr 0x4af747c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Callback();
 
-  /// @brief Method get_SignalId, addr 0x4b0987c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SignalId, addr 0x4af7470, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_SignalId();
 
   /// @brief Convert to "::System::IEquatable_1<::Zenject::SignalSubscriptionId>"
   constexpr ::System::IEquatable_1<::Zenject::SignalSubscriptionId>* i___System__IEquatable_1___Zenject__SignalSubscriptionId_();
 
-  /// @brief Method op_Equality, addr 0x4b09a18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4af760c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right);
 
-  /// @brief Method op_Inequality, addr 0x4b09a48, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4af763c, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right);
 
   // Ctor Parameters []

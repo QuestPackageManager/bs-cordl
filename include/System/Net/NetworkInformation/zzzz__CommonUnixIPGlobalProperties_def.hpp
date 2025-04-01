@@ -24,13 +24,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43fbdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e9984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x43fbc38, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x43e97f8, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
-  /// @brief Method getdomainname, addr 0x43fbbac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method getdomainname, addr 0x43e976c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t getdomainname(::ArrayW<uint8_t, ::Array<uint8_t>*> name, int32_t len);
 
 protected:

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::GetKeySize)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x23ba894;
+  constexpr static std::size_t addrs = 0x23b2a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x23baa38;
+  constexpr static std::size_t addrs = 0x23b2bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t)>(&::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23baaa8;
+  constexpr static std::size_t addrs = 0x23b2c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* (
     ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)()>(&::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::Build)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23bab24;
+  constexpr static std::size_t addrs = 0x23b2cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

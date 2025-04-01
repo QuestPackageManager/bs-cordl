@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue___c::*)()>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42318dc;
+  constexpr static std::size_t addrs = 0x421f49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeHeaderValue___c*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::MediaTypeHeaderValue___c::*)(
     ::System::Net::Http::Headers::NameValueHeaderValue*)>(&::System::Net::Http::Headers::MediaTypeHeaderValue___c::_get_CharSet_b__6_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42318e4;
+  constexpr static std::size_t addrs = 0x421f4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x42284fc;
+  constexpr static std::size_t addrs = 0x42160bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::System::Net::Http::Headers::MediaTypeHeaderValue*)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x4231088;
+  constexpr static std::size_t addrs = 0x421ec48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4231368;
+  constexpr static std::size_t addrs = 0x421ef28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeHeaderValue*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::get_CharSet)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x42270ac;
+  constexpr static std::size_t addrs = 0x4214c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeHeaderValue*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::set_CharSet)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4228528;
+  constexpr static std::size_t addrs = 0x42160e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::set_MediaType)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4230f30;
+  constexpr static std::size_t addrs = 0x421eaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* (
     ::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&::System::Net::Http::Headers::MediaTypeHeaderValue::get_Parameters)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x42312f0;
+  constexpr static std::size_t addrs = 0x421eeb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeHeaderValue*>::get(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42314f8;
+  constexpr static std::size_t addrs = 0x421f0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeHeaderValue*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4231550;
+  constexpr static std::size_t addrs = 0x421f110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4231618;
+  constexpr static std::size_t addrs = 0x421f1d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4231694;
+  constexpr static std::size_t addrs = 0x421f254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::Net::Http::Headers::MediaTypeHeaderValue*>)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4231700;
+  constexpr static std::size_t addrs = 0x421f2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::Net::Http::Headers::Token> (*)(
     ::System::Net::Http::Headers::Lexer*, ::ByRef<::StringW>)>(&::System::Net::Http::Headers::MediaTypeHeaderValue::TryParseMediaType)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4231370;
+  constexpr static std::size_t addrs = 0x421ef30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::QuaternionSerializable (*)()>(&::GlobalNamespace::QuaternionSerializable::get_identity)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2729bc0;
+  constexpr static std::size_t addrs = 0x2722204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuaternionSerializable>::get(), "get_identity",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Quaternion, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::QuaternionSerializable::ToSmallest)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x2729d88;
+  constexpr static std::size_t addrs = 0x27223cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(int32_t, int32_t, int32_t)>(&::GlobalNamespace::QuaternionSerializable::FromSmallest)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x272a170;
+  constexpr static std::size_t addrs = 0x27227b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuaternionSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::QuaternionSerializable::Serialize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x272684c;
+  constexpr static std::size_t addrs = 0x271ee90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuaternionSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::QuaternionSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2726620;
+  constexpr static std::size_t addrs = 0x271ec64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::QuaternionSerializable::*)(::GlobalNamespace::QuaternionSerializable)>(
     &::GlobalNamespace::QuaternionSerializable::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x272a244;
+  constexpr static std::size_t addrs = 0x2722888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::QuaternionSerializable::*)(::System::Object*)>(
     &::GlobalNamespace::QuaternionSerializable::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x272a278;
+  constexpr static std::size_t addrs = 0x27228bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::QuaternionSerializable::*)(::GlobalNamespace::QuaternionSerializable)>(
     &::GlobalNamespace::QuaternionSerializable::Approximately)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x272a310;
+  constexpr static std::size_t addrs = 0x2722954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::QuaternionSerializable::*)()>(&::GlobalNamespace::QuaternionSerializable::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x272a3a0;
+  constexpr static std::size_t addrs = 0x27229e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::QuaternionSerializable::*)()>(&::GlobalNamespace::QuaternionSerializable::GetSize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x272a3dc;
+  constexpr static std::size_t addrs = 0x2722a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuaternionSerializable>::get(), "GetSize",
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuaternionSerializable::*)(::UnityEngine::Quaternion)>(
     &::GlobalNamespace::QuaternionSerializable::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2729c24;
+  constexpr static std::size_t addrs = 0x2722268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuaternionSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::QuaternionSerializable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x272a460;
+  constexpr static std::size_t addrs = 0x2722aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::QuaternionSerializable::*)()>(&::GlobalNamespace::QuaternionSerializable::ToString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x272a46c;
+  constexpr static std::size_t addrs = 0x2722ab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::GlobalNamespace::QuaternionSerializable)>(
     &::GlobalNamespace::QuaternionSerializable::op_Implicit___UnityEngine__Quaternion)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x272a390;
+  constexpr static std::size_t addrs = 0x27229d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::QuaternionSerializable (*)(::UnityEngine::Quaternion)>(
     &::GlobalNamespace::QuaternionSerializable::op_Implicit___GlobalNamespace__QuaternionSerializable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2726c44;
+  constexpr static std::size_t addrs = 0x271f288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::QuaternionSerializable (*)(
     ::GlobalNamespace::QuaternionSerializable, ::GlobalNamespace::QuaternionSerializable)>(&::GlobalNamespace::QuaternionSerializable::op_Addition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x272a4ac;
+  constexpr static std::size_t addrs = 0x2722af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::QuaternionSerializable (*)(
     ::GlobalNamespace::QuaternionSerializable, ::GlobalNamespace::QuaternionSerializable)>(&::GlobalNamespace::QuaternionSerializable::op_Subtraction)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x272a4c8;
+  constexpr static std::size_t addrs = 0x2722b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

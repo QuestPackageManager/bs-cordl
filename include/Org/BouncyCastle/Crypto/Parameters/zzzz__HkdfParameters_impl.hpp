@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x23c3954;
+  constexpr static std::size_t addrs = 0x23bbae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23c3ab0;
+  constexpr static std::size_t addrs = 0x23bbc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::SkipExtractParameters)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x23c3ac0;
+  constexpr static std::size_t addrs = 0x23bbc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::DefaultParameters)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23c3b30;
+  constexpr static std::size_t addrs = 0x23bbcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::GetIkm)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23c3b94;
+  constexpr static std::size_t addrs = 0x23bbd24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::get_SkipExtract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c3bf0;
+  constexpr static std::size_t addrs = 0x23bbd80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::GetSalt)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23c3bf8;
+  constexpr static std::size_t addrs = 0x23bbd88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::HkdfParameters::GetInfo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23c3c54;
+  constexpr static std::size_t addrs = 0x23bbde4;
 
   inline static ::MethodInfo const* methodInfo() {
 

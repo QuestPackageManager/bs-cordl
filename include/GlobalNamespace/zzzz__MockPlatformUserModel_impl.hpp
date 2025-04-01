@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformUserModel::*)(::System::Action_1<::GlobalNamespace::UserInfo*>*)>(
     &::GlobalNamespace::MockPlatformUserModel::add_platformUserInfoDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x408c82c;
+  constexpr static std::size_t addrs = 0x407a3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformUserModel::*)(::System::Action_1<::GlobalNamespace::UserInfo*>*)>(
     &::GlobalNamespace::MockPlatformUserModel::remove_platformUserInfoDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x408c8dc;
+  constexpr static std::size_t addrs = 0x407a494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlatformUserModel::*)()>(
     &::GlobalNamespace::MockPlatformUserModel::get_CanXPlatformAccessTokenBeCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408c98c;
+  constexpr static std::size_t addrs = 0x407a544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* (
     ::GlobalNamespace::MockPlatformUserModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformUserModel::GetUserInfo)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x408c994;
+  constexpr static std::size_t addrs = 0x407a54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* (
     ::GlobalNamespace::MockPlatformUserModel::*)(bool)>(&::GlobalNamespace::MockPlatformUserModel::GetUserFriendsUserIds)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x408caa0;
+  constexpr static std::size_t addrs = 0x407a658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* (
     ::GlobalNamespace::MockPlatformUserModel::*)()>(&::GlobalNamespace::MockPlatformUserModel::GetUserAuthToken)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x408cb5c;
+  constexpr static std::size_t addrs = 0x407a714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformUserModel*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* (
     ::GlobalNamespace::MockPlatformUserModel::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(&::GlobalNamespace::MockPlatformUserModel::GetUserNamesForUserIds)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x408cc14;
+  constexpr static std::size_t addrs = 0x407a7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::GlobalNamespace::MockPlatformUserModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformUserModel::RequestXPlatformAccessToken)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x408cc80;
+  constexpr static std::size_t addrs = 0x407a838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (::GlobalNamespace::MockPlatformUserModel::*)()>(
     &::GlobalNamespace::MockPlatformUserModel::GetUsersSystemLanguage)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x408cd20;
+  constexpr static std::size_t addrs = 0x407a8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformUserModel*>::get(),
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformUserModel::*)()>(&::GlobalNamespace::MockPlatformUserModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408cd7c;
+  constexpr static std::size_t addrs = 0x407a934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformUserModel*>::get(), ".ctor",

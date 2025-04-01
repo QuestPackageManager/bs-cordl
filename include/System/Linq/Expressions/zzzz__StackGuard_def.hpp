@@ -74,7 +74,7 @@ public:
   StackGuard___c__3_2(StackGuard___c__3_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,7 +100,7 @@ public:
   /// @brief Method RunOnEmptyStackCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename R> inline R RunOnEmptyStackCore(::System::Func_2<::System::Object*, R>* action, ::System::Object* state);
 
-  /// @brief Method TryEnterOnCurrentStack, addr 0x40ca564, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryEnterOnCurrentStack, addr 0x40b8124, size 0x60, virtual false, abstract: false, final false
   inline bool TryEnterOnCurrentStack();
 
   constexpr int32_t const& __cordl_internal_get__executionStackCount() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__executionStackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40ca5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b8184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   StackGuard(StackGuard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13732 };
 
   /// @brief Field _executionStackCount, offset: 0x10, size: 0x4, def value: None
   int32_t ____executionStackCount;

@@ -36,24 +36,24 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE DataTableConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x3f4a5ec, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x3f381a4, size 0x94, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* valueType);
 
-  /// @brief Method CreateRow, addr 0x3f49ed4, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method CreateRow, addr 0x3f37a8c, size 0x540, virtual false, abstract: false, final false
   static inline void CreateRow(::Newtonsoft::Json::JsonReader* reader, ::System::Data::DataTable* dt, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method GetColumnDataType, addr 0x3f4a414, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnDataType, addr 0x3f37fcc, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Type* GetColumnDataType(::Newtonsoft::Json::JsonReader* reader);
 
   static inline ::Newtonsoft::Json::Converters::DataTableConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3f49bcc, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f37784, size 0x308, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3f493c0, size 0x80c, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f36f78, size 0x80c, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3f49024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f36bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

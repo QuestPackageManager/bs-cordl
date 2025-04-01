@@ -37,7 +37,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE MultiplierValuesRecorder_MultiplierValue {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3bf4df4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be28e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t multiplier, float_t time);
 
   // Ctor Parameters []
@@ -91,15 +91,15 @@ public:
 
   __declspec(property(get = get_multiplierValues)) ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplierValuesRecorder_MultiplierValue>* multiplierValues;
 
-  /// @brief Method HandleScoreControllerMultiplierDidChange, addr 0x3bf4cfc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreControllerMultiplierDidChange, addr 0x3be27ec, size 0xf8, virtual false, abstract: false, final false
   inline void HandleScoreControllerMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
   static inline ::GlobalNamespace::MultiplierValuesRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bf4bfc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3be26ec, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bf4b08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be25f8, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -120,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x3bf4e00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be28f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_multiplierValues, addr 0x3bf4b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplierValues, addr 0x3be25f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplierValuesRecorder_MultiplierValue>* get_multiplierValues();
 
 protected:

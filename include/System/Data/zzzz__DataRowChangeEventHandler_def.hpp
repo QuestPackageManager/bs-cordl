@@ -27,12 +27,12 @@ namespace System::Data {
 class CORDL_TYPE DataRowChangeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x41741cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4161d8c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataRowChangeEventArgs* e);
 
   static inline ::System::Data::DataRowChangeEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x41740c8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4161c88, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

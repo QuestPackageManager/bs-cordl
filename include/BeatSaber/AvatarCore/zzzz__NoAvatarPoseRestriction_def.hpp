@@ -30,11 +30,11 @@ public:
 
   static inline ::BeatSaber::AvatarCore::NoAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method RestrictPose, addr 0x2254bc8, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0x224cd58, size 0x2c, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
                            ::ByRef<::UnityEngine::Vector3> newHeadPosition, ::ByRef<::UnityEngine::Vector3> newLeftHandPosition, ::ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
-  /// @brief Method .ctor, addr 0x2254bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224cd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"

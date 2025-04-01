@@ -59,25 +59,25 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x48b0d74, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x489e954, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x48b0dfc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x489e9dc, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Vector2Int other);
 
-  /// @brief Method FloorToInt, addr 0x48b0c8c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FloorToInt, addr 0x489e86c, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x48b0e24, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x489ea04, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x48b0e6c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x489ea4c, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x48b0e7c, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x489ea5c, size 0x178, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x48b0c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489e854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y);
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Down();
@@ -92,10 +92,10 @@ public:
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Zero();
 
-  /// @brief Method get_x, addr 0x48b0c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x489e834, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x48b0c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x489e844, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
@@ -104,10 +104,10 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x48b0d54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x489e934, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs);
 
-  /// @brief Method op_Implicit, addr 0x48b0c7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x489e85c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector2Int v);
 
   static inline void setStaticF_s_Down(::UnityEngine::Vector2Int value);
@@ -122,10 +122,10 @@ public:
 
   static inline void setStaticF_s_Zero(::UnityEngine::Vector2Int value);
 
-  /// @brief Method set_x, addr 0x48b0c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x489e83c, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x48b0c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x489e84c, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
   // Ctor Parameters []

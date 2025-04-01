@@ -24,21 +24,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsToggle>> {
 public:
   // Declarations
-  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x44e6ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x44d4768, size 0x8, virtual false, abstract: false, final false
   inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x44e6b18, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x44d46d8, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x44e695c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d451c, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x44e6a04, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x44d45c4, size 0x114, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x44e6bb0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d4770, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

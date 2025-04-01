@@ -31,25 +31,25 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x4a3da68, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x4a2b648, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x4a3dabc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method DispatchEvent, addr 0x4a2b69c, size 0x48, virtual true, abstract: false, final false
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::PointerEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method SendEventToTarget, addr 0x4a3dd44, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SendEventToTarget, addr 0x4a2b924, size 0xa0, virtual false, abstract: false, final false
   static inline void SendEventToTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SetBestTargetForEvent, addr 0x4a3db04, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method SetBestTargetForEvent, addr 0x4a2b6e4, size 0x240, virtual false, abstract: false, final false
   static inline void SetBestTargetForEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method UpdateElementUnderPointer, addr 0x4a3dde4, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateElementUnderPointer, addr 0x4a2b9c4, size 0x2ac, virtual false, abstract: false, final false
   static inline void UpdateElementUnderPointer(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel,
                                                ::ByRef<::UnityEngine::UIElements::VisualElement*> elementUnderPointer);
 
-  /// @brief Method .ctor, addr 0x4a30520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1e100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"

@@ -35,13 +35,13 @@ namespace UnityEngine {
 struct CORDL_TYPE TextGenerationSettings {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x495f7dc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x494d3bc, size 0x138, virtual false, abstract: false, final false
   inline bool CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right);
 
-  /// @brief Method CompareVector2, addr 0x495f914, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompareVector2, addr 0x494d4f4, size 0xc8, virtual false, abstract: false, final false
   inline bool CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right);
 
-  /// @brief Method Equals, addr 0x495f9dc, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x494d5bc, size 0x220, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextGenerationSettings other);
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
                                    ::UnityEngine::Vector2 generationExtents, ::UnityEngine::Vector2 pivot, bool generateOutOfBounds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18405 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

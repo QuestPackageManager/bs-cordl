@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_x509verify_callback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Unity::UnityTls_unitytls_x509verify_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118260;
+  constexpr static std::size_t addrs = 0x4105e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_x509verify_callback*>::get(),
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<void>, ::Mono::Unity::UnityTls_unitytls_x509_ref, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::UnityTls_unitytls_x509verify_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118300;
+  constexpr static std::size_t addrs = 0x4105ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118314;
+  constexpr static std::size_t addrs = 0x4105ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*>::get(),
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41183b4;
+  constexpr static std::size_t addrs = 0x4105f74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41183c8;
+  constexpr static std::size_t addrs = 0x4105f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*>::get(),
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118468;
+  constexpr static std::size_t addrs = 0x4106028;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x411847c;
+  constexpr static std::size_t addrs = 0x410603c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*>::get(),
@@ -293,7 +293,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x411851c;
+  constexpr static std::size_t addrs = 0x41060dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118530;
+  constexpr static std::size_t addrs = 0x41060f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,7 +347,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key_ref>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::Invoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41185d0;
+  constexpr static std::size_t addrs = 0x4106190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41185ec;
+  constexpr static std::size_t addrs = 0x41061ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +403,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<void>, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x411868c;
+  constexpr static std::size_t addrs = 0x410624c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x41186a8;
+  constexpr static std::size_t addrs = 0x4106268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls_unitytls_errorstate (
     ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::*)()>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118730;
+  constexpr static std::size_t addrs = 0x41062f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118744;
+  constexpr static std::size_t addrs = 0x4106304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -521,7 +521,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>, ::Mono::Unity::UnityTls_unitytls_error_code)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41187e4;
+  constexpr static std::size_t addrs = 0x41063a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41187f8;
+  constexpr static std::size_t addrs = 0x41063b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -576,7 +576,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118898;
+  constexpr static std::size_t addrs = 0x4106458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -613,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41188ac;
+  constexpr static std::size_t addrs = 0x410646c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -631,7 +631,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x411894c;
+  constexpr static std::size_t addrs = 0x410650c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118960;
+  constexpr static std::size_t addrs = 0x4106520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -686,7 +686,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118a00;
+  constexpr static std::size_t addrs = 0x41065c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -723,7 +723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4118a14;
+  constexpr static std::size_t addrs = 0x41065d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -739,7 +739,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::*)(
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118ab0;
+  constexpr static std::size_t addrs = 0x4106670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -774,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4118ac4;
+  constexpr static std::size_t addrs = 0x4106684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -791,7 +791,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Unity::UnityTls_unitytls_x509_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118b50;
+  constexpr static std::size_t addrs = 0x4106710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -828,7 +828,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118b64;
+  constexpr static std::size_t addrs = 0x4106724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -847,7 +847,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118c04;
+  constexpr static std::size_t addrs = 0x41067c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -884,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4118c18;
+  constexpr static std::size_t addrs = 0x41067d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -903,7 +903,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118ca4;
+  constexpr static std::size_t addrs = 0x4106864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -940,7 +940,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4118cb8;
+  constexpr static std::size_t addrs = 0x4106878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -957,7 +957,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::*)(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118d54;
+  constexpr static std::size_t addrs = 0x4106914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -993,7 +993,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118d68;
+  constexpr static std::size_t addrs = 0x4106928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1010,7 +1010,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>, ::Mono::Unity::UnityTls_unitytls_x509_ref, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118e08;
+  constexpr static std::size_t addrs = 0x41069c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1047,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4118e1c;
+  constexpr static std::size_t addrs = 0x41069dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1065,7 +1065,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118ebc;
+  constexpr static std::size_t addrs = 0x4106a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1103,7 +1103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4118ed0;
+  constexpr static std::size_t addrs = 0x4106a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1119,7 +1119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::*)(
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4118f6c;
+  constexpr static std::size_t addrs = 0x4106b2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1154,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4118f80;
+  constexpr static std::size_t addrs = 0x4106b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1173,7 +1173,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509verify_callback*, ::cordl_internals::Ptr<void>,
         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x411900c;
+  constexpr static std::size_t addrs = 0x4106bcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1211,7 +1211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4119020;
+  constexpr static std::size_t addrs = 0x4106be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1231,7 +1231,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::Mono::Unity::UnityTls_unitytls_x509verify_callback*, ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x41190ac;
+  constexpr static std::size_t addrs = 0x4106c6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1269,7 +1269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x41190c4;
+  constexpr static std::size_t addrs = 0x4106c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1288,7 +1288,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                           uint64_t, uint64_t, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4119150;
+  constexpr static std::size_t addrs = 0x4106d10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1328,7 +1328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x411918c;
+  constexpr static std::size_t addrs = 0x4106d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1347,7 +1347,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr,
         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4119218;
+  constexpr static std::size_t addrs = 0x4106dd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1386,7 +1386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4119254;
+  constexpr static std::size_t addrs = 0x4106e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1404,7 +1404,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41192f4;
+  constexpr static std::size_t addrs = 0x4106eb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1444,7 +1444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4119308;
+  constexpr static std::size_t addrs = 0x4106ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1462,7 +1462,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*, ::cordl_internals::Ptr<void>,
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41193a8;
+  constexpr static std::size_t addrs = 0x4106f68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1501,7 +1501,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41193bc;
+  constexpr static std::size_t addrs = 0x4106f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1519,7 +1519,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*, ::cordl_internals::Ptr<void>,
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x411945c;
+  constexpr static std::size_t addrs = 0x410701c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1558,7 +1558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4119470;
+  constexpr static std::size_t addrs = 0x4107030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1576,7 +1576,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*, ::cordl_internals::Ptr<void>,
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4119510;
+  constexpr static std::size_t addrs = 0x41070d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1615,7 +1615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4119524;
+  constexpr static std::size_t addrs = 0x41070e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1633,7 +1633,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_ciphersuite>, ::System::IntPtr,
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41195c4;
+  constexpr static std::size_t addrs = 0x4107184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1671,7 +1671,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41195d8;
+  constexpr static std::size_t addrs = 0x4107198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1690,7 +1690,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4119678;
+  constexpr static std::size_t addrs = 0x4107238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1728,7 +1728,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x411968c;
+  constexpr static std::size_t addrs = 0x410724c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1747,7 +1747,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x411972c;
+  constexpr static std::size_t addrs = 0x41072ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1785,7 +1785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4119740;
+  constexpr static std::size_t addrs = 0x4107300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1804,7 +1804,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
         &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41197e0;
+  constexpr static std::size_t addrs = 0x41073a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1842,7 +1842,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41197f4;
+  constexpr static std::size_t addrs = 0x41073b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1859,7 +1859,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4119894;
+  constexpr static std::size_t addrs = 0x4107454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1896,7 +1896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41198a8;
+  constexpr static std::size_t addrs = 0x4107468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1913,7 +1913,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4119948;
+  constexpr static std::size_t addrs = 0x4107508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1950,7 +1950,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x411995c;
+  constexpr static std::size_t addrs = 0x410751c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1968,7 +1968,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41199fc;
+  constexpr static std::size_t addrs = 0x41075bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2005,7 +2005,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4119a10;
+  constexpr static std::size_t addrs = 0x41075d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2021,7 +2021,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::*)(
     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4119aac;
+  constexpr static std::size_t addrs = 0x410766c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2056,7 +2056,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::*)(
     ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4119ac0;
+  constexpr static std::size_t addrs = 0x4107680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2074,7 +2074,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
     &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4119b60;
+  constexpr static std::size_t addrs = 0x4107720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2111,7 +2111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_interface_struct::*)()>(
     &::Mono::Unity::UnityTls_unitytls_interface_struct::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41186a0;
+  constexpr static std::size_t addrs = 0x4106260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_interface_struct*>::get(),
@@ -2580,7 +2580,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Mono::Unity::UnityTls::GetUnityTlsInterface)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4118244;
+  constexpr static std::size_t addrs = 0x4105e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get(), "GetUnityTlsInterface",
@@ -2593,7 +2593,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Mono::Unity::UnityTls::get_IsSupported)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4118248;
+  constexpr static std::size_t addrs = 0x4105e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get(), "get_IsSupported",
@@ -2606,7 +2606,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls_unitytls_interface_struct* (*)()>(&::Mono::Unity::UnityTls::get_NativeInterface)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4117fc0;
+  constexpr static std::size_t addrs = 0x4105b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get(), "get_NativeInterface",

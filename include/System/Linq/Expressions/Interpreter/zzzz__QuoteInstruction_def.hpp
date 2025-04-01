@@ -74,23 +74,23 @@ public:
                       put = __cordl_internal_set__variables)) ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
                                                                                                            ::System::Linq::Expressions::Interpreter::LocalVariable*>* _variables;
 
-  /// @brief Method GetBox, addr 0x41079b4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetBox, addr 0x40f5574, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::IStrongBox* GetBox(::System::Linq::Expressions::ParameterExpression* variable);
 
   static inline ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*
   New_ctor(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables,
            ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method VisitBlock, addr 0x41075b8, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method VisitBlock, addr 0x40f5178, size 0x194, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitBlock(::System::Linq::Expressions::BlockExpression* node);
 
-  /// @brief Method VisitCatchBlock, addr 0x410774c, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method VisitCatchBlock, addr 0x40f530c, size 0x19c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::CatchBlock* VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node);
 
   /// @brief Method VisitLambda, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Linq::Expressions::Expression* VisitLambda(::System::Linq::Expressions::Expression_1<T>* node);
 
-  /// @brief Method VisitParameter, addr 0x41078e8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method VisitParameter, addr 0x40f54a8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* node);
 
   constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame* const& __cordl_internal_get__frame() const;
@@ -114,7 +114,7 @@ public:
   constexpr void
   __cordl_internal_set__variables(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* value);
 
-  /// @brief Method .ctor, addr 0x4107524, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f50e4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables,
                     ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
@@ -133,7 +133,7 @@ public:
   QuoteInstruction_ExpressionQuoter(QuoteInstruction_ExpressionQuoter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14121 };
 
   /// @brief Field _variables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* ____variables;
@@ -181,7 +181,7 @@ public:
   New_ctor(::System::Linq::Expressions::Expression* operand,
            ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables);
 
-  /// @brief Method Run, addr 0x4107480, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f5040, size 0xa4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
@@ -199,14 +199,14 @@ public:
 
   constexpr void __cordl_internal_set__operand(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x410740c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f4fcc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* operand,
                     ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables);
 
-  /// @brief Method get_InstructionName, addr 0x4107440, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f5000, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4107438, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f4ff8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -224,7 +224,7 @@ public:
   QuoteInstruction(QuoteInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14122 };
 
   /// @brief Field _operand, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____operand;

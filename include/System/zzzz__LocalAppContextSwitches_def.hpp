@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(LocalAppContextSwitches)
 // Forward declare root types
 namespace System {
@@ -18,19 +19,15 @@ namespace System {
 class CORDL_TYPE LocalAppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field DontThrowOnInvalidSurrogatePairs, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_DontThrowOnInvalidSurrogatePairs, put = setStaticF_DontThrowOnInvalidSurrogatePairs)) bool DontThrowOnInvalidSurrogatePairs;
+  /// @brief Field s_allowArbitraryTypeInstantiation, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_s_allowArbitraryTypeInstantiation, put = setStaticF_s_allowArbitraryTypeInstantiation)) int32_t s_allowArbitraryTypeInstantiation;
 
-  /// @brief Field IgnoreEmptyKeySequences, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_IgnoreEmptyKeySequences, put = setStaticF_IgnoreEmptyKeySequences)) bool IgnoreEmptyKeySequences;
+  static inline int32_t getStaticF_s_allowArbitraryTypeInstantiation();
 
-  static inline bool getStaticF_DontThrowOnInvalidSurrogatePairs();
+  /// @brief Method get_AllowArbitraryTypeInstantiation, addr 0x413121c, size 0x80, virtual false, abstract: false, final false
+  static inline bool get_AllowArbitraryTypeInstantiation();
 
-  static inline bool getStaticF_IgnoreEmptyKeySequences();
-
-  static inline void setStaticF_DontThrowOnInvalidSurrogatePairs(bool value);
-
-  static inline void setStaticF_IgnoreEmptyKeySequences(bool value);
+  static inline void setStaticF_s_allowArbitraryTypeInstantiation(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -47,7 +44,7 @@ public:
   LocalAppContextSwitches(LocalAppContextSwitches const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

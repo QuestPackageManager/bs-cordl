@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithUserAccountAgeCategory::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithUserAccountAgeCategory::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f8a1f0;
+  constexpr static std::size_t addrs = 0x3f77da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (::Oculus::Platform::MessageWithUserAccountAgeCategory::*)()>(
     &::Oculus::Platform::MessageWithUserAccountAgeCategory::GetUserAccountAgeCategory)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f8e328;
+  constexpr static std::size_t addrs = 0x3f7bee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (
     ::Oculus::Platform::MessageWithUserAccountAgeCategory::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithUserAccountAgeCategory::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f8e364;
+  constexpr static std::size_t addrs = 0x3f7bf1c;
 
   inline static ::MethodInfo const* methodInfo() {
 

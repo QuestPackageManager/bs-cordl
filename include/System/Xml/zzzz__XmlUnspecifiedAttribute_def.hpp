@@ -35,27 +35,27 @@ public:
   /// @brief Field fSpecified, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_fSpecified, put = __cordl_internal_set_fSpecified)) bool fSpecified;
 
-  /// @brief Method AppendChild, addr 0x4357a34, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x43455f4, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* AppendChild(::System::Xml::XmlNode* newChild);
 
-  /// @brief Method CloneNode, addr 0x4357884, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x4345444, size 0x130, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method InsertAfter, addr 0x43579f4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method InsertAfter, addr 0x43455b4, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* InsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
 
-  /// @brief Method InsertBefore, addr 0x43579d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method InsertBefore, addr 0x4345594, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* InsertBefore(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
 
   static inline ::System::Xml::XmlUnspecifiedAttribute* New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method RemoveChild, addr 0x4357a14, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method RemoveChild, addr 0x43455d4, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* RemoveChild(::System::Xml::XmlNode* oldChild);
 
-  /// @brief Method SetSpecified, addr 0x4357a68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetSpecified, addr 0x4345628, size 0xc, virtual false, abstract: false, final false
   inline void SetSpecified(bool f);
 
-  /// @brief Method WriteTo, addr 0x4357a54, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x4345614, size 0x14, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr bool const& __cordl_internal_get_fSpecified() const;
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_fSpecified(bool value);
 
-  /// @brief Method .ctor, addr 0x4357874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4345434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Specified, addr 0x435787c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Specified, addr 0x434543c, size 0x8, virtual true, abstract: false, final false
   inline bool get_Specified();
 
-  /// @brief Method set_InnerText, addr 0x43579b4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x4345574, size 0x20, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
 protected:

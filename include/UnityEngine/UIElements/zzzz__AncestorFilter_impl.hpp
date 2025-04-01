@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)()>(&::UnityEngine::UIElements::AncestorFilter::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a20470;
+  constexpr static std::size_t addrs = 0x4a0e050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::AncestorFilter*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)(int32_t)>(&::UnityEngine::UIElements::AncestorFilter::AddHash)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4a204f0;
+  constexpr static std::size_t addrs = 0x4a0e0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::AncestorFilter::*)(::UnityEngine::UIElements::StyleComplexSelector*)>(
     &::UnityEngine::UIElements::AncestorFilter::IsCandidate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a20584;
+  constexpr static std::size_t addrs = 0x4a0e164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::AncestorFilter::PushElement)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x4a205dc;
+  constexpr static std::size_t addrs = 0x4a0e1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)()>(&::UnityEngine::UIElements::AncestorFilter::PopElement)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4a2080c;
+  constexpr static std::size_t addrs = 0x4a0e3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::AncestorFilter*>::get(), "PopElement",

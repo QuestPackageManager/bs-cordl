@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MirrorRendererSO_CameraTransformData::*)(
     ::GlobalNamespace::MirrorRendererSO_CameraTransformData)>(&::GlobalNamespace::MirrorRendererSO_CameraTransformData::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4092acc;
+  constexpr static std::size_t addrs = 0x408068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MirrorRendererSO_CameraTransformData::*)(::System::Object*)>(
     &::GlobalNamespace::MirrorRendererSO_CameraTransformData::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4092b74;
+  constexpr static std::size_t addrs = 0x4080734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MirrorRendererSO_CameraTransformData::*)()>(
     &::GlobalNamespace::MirrorRendererSO_CameraTransformData::GetHashCode)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4092c04;
+  constexpr static std::size_t addrs = 0x40807c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::GlobalNamespace::MirrorRendererSO_CameraTransformData, ::GlobalNamespace::MirrorRendererSO_CameraTransformData)>(&::GlobalNamespace::MirrorRendererSO_CameraTransformData::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4092d2c;
+  constexpr static std::size_t addrs = 0x40808ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::GlobalNamespace::MirrorRendererSO_CameraTransformData, ::GlobalNamespace::MirrorRendererSO_CameraTransformData)>(&::GlobalNamespace::MirrorRendererSO_CameraTransformData::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4092d5c;
+  constexpr static std::size_t addrs = 0x408091c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x409200c;
+  constexpr static std::size_t addrs = 0x407fbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "OnValidate",
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4092084;
+  constexpr static std::size_t addrs = 0x407fc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "Awake",
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::ValidateParams)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4092010;
+  constexpr static std::size_t addrs = 0x407fbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "ValidateParams",
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::LayerMask, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::GlobalNamespace::MirrorRendererSO::Init)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4092088;
+  constexpr static std::size_t addrs = 0x407fc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::PrepareForNextFrame)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x409129c;
+  constexpr static std::size_t addrs = 0x407ee5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Texture> (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::RenderMirrorTexture)> {
   constexpr static std::size_t size = 0x878;
-  constexpr static std::size_t addrs = 0x4091724;
+  constexpr static std::size_t addrs = 0x407f2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -248,7 +248,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::MirrorRendererSO::RenderMirror)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x4092464;
+  constexpr static std::size_t addrs = 0x4080024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x40927d8;
+  constexpr static std::size_t addrs = 0x4080398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "OnDisable",
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Camera*, ::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::MirrorRendererSO::CreateOrUpdateMirrorCamera)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x40920a0;
+  constexpr static std::size_t addrs = 0x407fc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::MirrorRendererSO::Plane)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x409234c;
+  constexpr static std::size_t addrs = 0x407ff0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::MirrorRendererSO::CameraSpacePlane)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x40926ac;
+  constexpr static std::size_t addrs = 0x408026c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector4)>(
     &::GlobalNamespace::MirrorRendererSO::CalculateReflectionMatrix)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4092378;
+  constexpr static std::size_t addrs = 0x407ff38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x40929fc;
+  constexpr static std::size_t addrs = 0x40805bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), ".ctor",

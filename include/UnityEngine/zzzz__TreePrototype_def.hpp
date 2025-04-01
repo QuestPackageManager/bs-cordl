@@ -41,13 +41,13 @@ public:
 
   __declspec(property(get = get_prefab, put = set_prefab)) ::UnityW<::UnityEngine::GameObject> prefab;
 
-  /// @brief Method Equals, addr 0x492a84c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x491842c, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x492a8b0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4918490, size 0x110, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TreePrototype* other);
 
-  /// @brief Method GetHashCode, addr 0x492a9c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49185a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TreePrototype* New_ctor();
@@ -70,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Prefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x492a844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4918424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bendFactor, addr 0x492a82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bendFactor, addr 0x491840c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bendFactor();
 
-  /// @brief Method get_navMeshLod, addr 0x492a83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_navMeshLod, addr 0x491841c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_navMeshLod();
 
-  /// @brief Method get_prefab, addr 0x492a81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefab, addr 0x49183fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_prefab();
 
-  /// @brief Method set_bendFactor, addr 0x492a834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bendFactor, addr 0x4918414, size 0x8, virtual false, abstract: false, final false
   inline void set_bendFactor(float_t value);
 
-  /// @brief Method set_prefab, addr 0x492a824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prefab, addr 0x4918404, size 0x8, virtual false, abstract: false, final false
   inline void set_prefab(::UnityEngine::GameObject* value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   TreePrototype(TreePrototype const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18134 };
 
   /// @brief Field m_Prefab, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_Prefab;

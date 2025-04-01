@@ -75,21 +75,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x404f8c4, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x403d47c, size 0x11c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x404f9e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x403d598, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x404f9e8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x403d5a0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x404fa20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x403d5d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x404f8c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x403d478, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRRuntimeController> value);
 
-  /// @brief Method .ctor, addr 0x404f7e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403d39c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -207,30 +207,30 @@ public:
   /// @brief Field rightControllerModelPath, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath)) ::StringW rightControllerModelPath;
 
-  /// @brief Method InputFocusAquired, addr 0x404f80c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x403d3c4, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x404f818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x403d3d0, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
-  /// @brief Method IsModelSupported, addr 0x404eed8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsModelSupported, addr 0x403ca90, size 0x16c, virtual false, abstract: false, final false
   inline bool IsModelSupported(::StringW modelPath);
 
-  /// @brief Method LoadControllerModel, addr 0x404f52c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method LoadControllerModel, addr 0x403d0e4, size 0x2b8, virtual false, abstract: false, final false
   inline bool LoadControllerModel(::StringW modelPath);
 
   static inline ::GlobalNamespace::OVRRuntimeController* New_ctor();
 
-  /// @brief Method Start, addr 0x404ed58, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x403c910, size 0x180, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x404f0a4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x403cc5c, size 0x108, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateControllerAnimation, addr 0x404f1ac, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerAnimation, addr 0x403cd64, size 0x380, virtual false, abstract: false, final false
   inline void UpdateControllerAnimation();
 
-  /// @brief Method UpdateControllerModel, addr 0x404f044, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerModel, addr 0x403cbfc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateControllerModel();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* const& __cordl_internal_get_m_animationNodes() const;
@@ -293,7 +293,7 @@ public:
 
   constexpr void __cordl_internal_set_m_supportAnimation(bool value);
 
-  /// @brief Method .ctor, addr 0x404f820, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403d3d8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_leftControllerModelPath();

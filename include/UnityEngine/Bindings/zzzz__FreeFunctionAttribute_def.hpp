@@ -25,13 +25,13 @@ public:
 
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name, bool isThreadSafe);
 
-  /// @brief Method .ctor, addr 0x4925898, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4913478, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49258b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4913498, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x49258d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49134b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isThreadSafe);
 
 protected:
@@ -49,7 +49,7 @@ public:
   FreeFunctionAttribute(FreeFunctionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

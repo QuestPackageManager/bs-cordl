@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x486cef8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x485aad8, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x486ce5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485aa3c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr markerPtr);
 
   /// @brief Convert to "::System::IDisposable"
@@ -79,13 +79,13 @@ public:
   // Declarations
   using AutoScope = ::Unity::Profiling::ProfilerMarker_AutoScope;
 
-  /// @brief Method Auto, addr 0x486ce04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x485a9e4, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker_AutoScope Auto();
 
-  /// @brief Method .ctor, addr 0x486cda4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485a984, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Profiling::ProfilerCategory category, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x486ccf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485a8d4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters []

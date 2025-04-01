@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Vector3> (::GlobalNamespace::OVRLocatable_TrackingSpacePose::*)()>(
     &::GlobalNamespace::OVRLocatable_TrackingSpacePose::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3faac94;
+  constexpr static std::size_t addrs = 0x3f9884c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable_TrackingSpacePose>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Quaternion> (::GlobalNamespace::OVRLocatable_TrackingSpacePose::*)()>(
     &::GlobalNamespace::OVRLocatable_TrackingSpacePose::get_Rotation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3faaca0;
+  constexpr static std::size_t addrs = 0x3f98858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable_TrackingSpacePose>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable_TrackingSpacePose::*)()>(
     &::GlobalNamespace::OVRLocatable_TrackingSpacePose::get_IsPositionTracked)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3faacb4;
+  constexpr static std::size_t addrs = 0x3f9886c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable_TrackingSpacePose>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable_TrackingSpacePose::*)()>(
     &::GlobalNamespace::OVRLocatable_TrackingSpacePose::get_IsRotationTracked)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3faad10;
+  constexpr static std::size_t addrs = 0x3f988c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable_TrackingSpacePose>::get(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRLocatable_TrackingSpacePose::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::GlobalNamespace::OVRPlugin_SpaceLocationFlags)>(&::GlobalNamespace::OVRLocatable_TrackingSpacePose::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3faa9dc;
+  constexpr static std::size_t addrs = 0x3f98594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Vector3> (::GlobalNamespace::OVRLocatable_TrackingSpacePose::*)(
     ::UnityEngine::Camera*)>(&::GlobalNamespace::OVRLocatable_TrackingSpacePose::ComputeWorldPosition)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3faad6c;
+  constexpr static std::size_t addrs = 0x3f98924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Quaternion> (::GlobalNamespace::OVRLocatable_TrackingSpacePose::*)(
     ::UnityEngine::Camera*)>(&::GlobalNamespace::OVRLocatable_TrackingSpacePose::ComputeWorldRotation)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3fab584;
+  constexpr static std::size_t addrs = 0x3f9913c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRLocatable::*)()>(
     &::GlobalNamespace::OVRLocatable::IOVRAnchorComponent_OVRLocatable__get_Type)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3faa21c;
+  constexpr static std::size_t addrs = 0x3f97dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRLocatable::*)()>(
     &::GlobalNamespace::OVRLocatable::IOVRAnchorComponent_OVRLocatable__get_Handle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3faa274;
+  constexpr static std::size_t addrs = 0x3f97e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRLocatable (::GlobalNamespace::OVRLocatable::*)(::GlobalNamespace::OVRAnchor)>(
     &::GlobalNamespace::OVRLocatable::IOVRAnchorComponent_OVRLocatable__FromAnchor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3faa2c8;
+  constexpr static std::size_t addrs = 0x3f97e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable::*)()>(&::GlobalNamespace::OVRLocatable::get_IsNull)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3faa35c;
+  constexpr static std::size_t addrs = 0x3f97f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable>::get(), "get_IsNull",
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable::*)()>(&::GlobalNamespace::OVRLocatable::get_IsEnabled)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3faa3b8;
+  constexpr static std::size_t addrs = 0x3f97f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable>::get(), "get_IsEnabled",
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRLocatable::*)(bool, double_t)>(
     &::GlobalNamespace::OVRLocatable::SetEnabledAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3faa4a4;
+  constexpr static std::size_t addrs = 0x3f9805c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable::*)(::GlobalNamespace::OVRLocatable)>(
     &::GlobalNamespace::OVRLocatable::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3faa5a4;
+  constexpr static std::size_t addrs = 0x3f9815c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRLocatable, ::GlobalNamespace::OVRLocatable)>(
     &::GlobalNamespace::OVRLocatable::op_Equality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3faa60c;
+  constexpr static std::size_t addrs = 0x3f981c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRLocatable, ::GlobalNamespace::OVRLocatable)>(
     &::GlobalNamespace::OVRLocatable::op_Inequality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3faa678;
+  constexpr static std::size_t addrs = 0x3f98230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable::*)(::System::Object*)>(&::GlobalNamespace::OVRLocatable::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3faa6e8;
+  constexpr static std::size_t addrs = 0x3f982a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRLocatable::*)()>(&::GlobalNamespace::OVRLocatable::GetHashCode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3faa778;
+  constexpr static std::size_t addrs = 0x3f98330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRLocatable::*)()>(&::GlobalNamespace::OVRLocatable::ToString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3faa808;
+  constexpr static std::size_t addrs = 0x3f983c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRLocatable::*)()>(
     &::GlobalNamespace::OVRLocatable::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3faa26c;
+  constexpr static std::size_t addrs = 0x3f97e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable>::get(), "get_Type",
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRLocatable::*)()>(&::GlobalNamespace::OVRLocatable::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3faa8b0;
+  constexpr static std::size_t addrs = 0x3f98468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLocatable>::get(), "get_Handle",
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRLocatable::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRLocatable::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3faa2f8;
+  constexpr static std::size_t addrs = 0x3f97eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable::*)(::ByRef<::GlobalNamespace::OVRLocatable_TrackingSpacePose>)>(
     &::GlobalNamespace::OVRLocatable::TryGetSceneAnchorPose)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3faa8b8;
+  constexpr static std::size_t addrs = 0x3f98470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRLocatable::*)(::ByRef<::GlobalNamespace::OVRLocatable_TrackingSpacePose>)>(
     &::GlobalNamespace::OVRLocatable::TryGetSpatialAnchorPose)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3faab68;
+  constexpr static std::size_t addrs = 0x3f98720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

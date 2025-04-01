@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::BrowsableAttribute::*)(bool)>(&::System::ComponentModel::BrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4453e60;
+  constexpr static std::size_t addrs = 0x4441a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::get_Browsable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4453e88;
+  constexpr static std::size_t addrs = 0x4441a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BrowsableAttribute*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::BrowsableAttribute::Equals)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4453e90;
+  constexpr static std::size_t addrs = 0x4441a50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4453f74;
+  constexpr static std::size_t addrs = 0x4441b34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4453fe0;
+  constexpr static std::size_t addrs = 0x4441ba0;
 
   inline static ::MethodInfo const* methodInfo() {
 

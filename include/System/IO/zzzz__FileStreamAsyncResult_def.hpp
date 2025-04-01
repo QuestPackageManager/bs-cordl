@@ -73,7 +73,7 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method CBWrapper, addr 0x3d8b9b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CBWrapper, addr 0x3d794b0, size 0x94, virtual false, abstract: false, final false
   static inline void CBWrapper(::System::IAsyncResult* ares);
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -132,19 +132,19 @@ public:
 
   constexpr void __cordl_internal_set_wh(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x3d8b8e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d793e4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method get_AsyncState, addr 0x3d8ba48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x3d79544, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x3d8ba58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x3d79554, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x3d8ba50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x3d7954c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x3d8ba60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x3d7955c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"

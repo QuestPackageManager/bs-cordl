@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40f6bac;
+  constexpr static std::size_t addrs = 0x40e476c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f6bd4;
+  constexpr static std::size_t addrs = 0x40e4794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40f6bdc;
+  constexpr static std::size_t addrs = 0x40e479c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::Run)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x40f6c1c;
+  constexpr static std::size_t addrs = 0x40e47dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

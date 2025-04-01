@@ -26,18 +26,18 @@ public:
   // Declarations
   __declspec(property(get = get_isReady)) bool isReady;
 
-  /// @brief Method GetBezierCurveData, addr 0x22bcd24, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method GetBezierCurveData, addr 0x22b4eb4, size 0x1c4, virtual true, abstract: false, final false
   inline ::BGLib::UnityExtension::BezierCurves::CurveData GetBezierCurveData();
 
   static inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurve* New_ctor();
 
-  /// @brief Method SetBezierCurveData, addr 0x22bcee8, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method SetBezierCurveData, addr 0x22b5078, size 0x1bc, virtual true, abstract: false, final false
   inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData newValue);
 
-  /// @brief Method .ctor, addr 0x22bd0a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5234, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x22bcd1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isReady, addr 0x22b4eac, size 0x8, virtual true, abstract: false, final false
   inline bool get_isReady();
 
 protected:

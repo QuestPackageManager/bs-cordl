@@ -27,24 +27,24 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x3f69908, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f574c0, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::ApplicationOptions* New_ctor();
 
-  /// @brief Method SetDeeplinkMessage, addr 0x3f693f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDeeplinkMessage, addr 0x3f56fa8, size 0x68, virtual false, abstract: false, final false
   inline void SetDeeplinkMessage(::StringW value);
 
-  /// @brief Method SetDestinationApiName, addr 0x3f694f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationApiName, addr 0x3f570b0, size 0x68, virtual false, abstract: false, final false
   inline void SetDestinationApiName(::StringW value);
 
-  /// @brief Method SetLobbySessionId, addr 0x3f69600, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLobbySessionId, addr 0x3f571b8, size 0x68, virtual false, abstract: false, final false
   inline void SetLobbySessionId(::StringW value);
 
-  /// @brief Method SetMatchSessionId, addr 0x3f69708, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMatchSessionId, addr 0x3f572c0, size 0x68, virtual false, abstract: false, final false
   inline void SetMatchSessionId(::StringW value);
 
-  /// @brief Method SetRoomId, addr 0x3f69810, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRoomId, addr 0x3f573c8, size 0x68, virtual false, abstract: false, final false
   inline void SetRoomId(uint64_t value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3f69324, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f56edc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x3f698fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3f574b4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::ApplicationOptions* options);
 
 protected:
@@ -74,7 +74,7 @@ public:
   ApplicationOptions(ApplicationOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15318 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;
