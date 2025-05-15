@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair::*)()>(
     &::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair::get_pricePerBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e8d6c;
+  constexpr static std::size_t addrs = 0x26ec83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair::*)()>(
     &::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair::get_levelsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e8d74;
+  constexpr static std::size_t addrs = 0x26ec844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair::*)()>(
     &::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e8d7c;
+  constexpr static std::size_t addrs = 0x26ec84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SonyLevelPacksPriceModel::*)()>(
     &::GlobalNamespace::SonyLevelPacksPriceModel::get_pricePerLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e8c9c;
+  constexpr static std::size_t addrs = 0x26ec76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelPacksPriceModel*>::get(),
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair*, ::Array<::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair*>*> (
         ::GlobalNamespace::SonyLevelPacksPriceModel::*)()>(&::GlobalNamespace::SonyLevelPacksPriceModel::get_pricePairBundlePairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e8ca4;
+  constexpr static std::size_t addrs = 0x26ec774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelPacksPriceModel*>::get(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair* (
     ::GlobalNamespace::SonyLevelPacksPriceModel::*)(int32_t)>(&::GlobalNamespace::SonyLevelPacksPriceModel::GetPricePerBundlePair)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26e8cac;
+  constexpr static std::size_t addrs = 0x26ec77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLevelPacksPriceModel::*)()>(&::GlobalNamespace::SonyLevelPacksPriceModel::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26e8d08;
+  constexpr static std::size_t addrs = 0x26ec7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelPacksPriceModel*>::get(), ".ctor",

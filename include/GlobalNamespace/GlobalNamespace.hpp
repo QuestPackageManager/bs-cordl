@@ -190,6 +190,8 @@ module;
 #include "GlobalNamespace/BeatmapLevelPack.hpp"
 #include "GlobalNamespace/BeatmapLevelPackGroup.hpp"
 #include "GlobalNamespace/BeatmapLevelPackSO.hpp"
+#include "GlobalNamespace/BeatmapLevelPromoIdAttribute.hpp"
+#include "GlobalNamespace/BeatmapLevelPromoIdFilter.hpp"
 #include "GlobalNamespace/BeatmapLevelSO.hpp"
 #include "GlobalNamespace/BeatmapLevelSelectionMask.hpp"
 #include "GlobalNamespace/BeatmapLevelsEntitlementModel.hpp"

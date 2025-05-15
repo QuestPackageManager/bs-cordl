@@ -48,7 +48,7 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_1<::BGLib::Polyglot::Language>"
   constexpr operator ::Zenject::IFactory_1<::BGLib::Polyglot::Language>*() noexcept;
 
-  /// @brief Method Create, addr 0x2714ed8, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x2718a3c, size 0xd8, virtual true, abstract: false, final true
   inline ::BGLib::Polyglot::Language Create();
 
   static inline ::GlobalNamespace::LanguageFactory* New_ctor(::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager,
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x2714e9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718a00, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::IPlatformUserModel* platformUserModel);
 
   /// @brief Convert to "::Zenject::IFactory"
@@ -96,7 +96,7 @@ public:
   LanguageFactory(LanguageFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17792 };
 
   /// @brief Field _playerDataModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;

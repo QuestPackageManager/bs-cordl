@@ -30,13 +30,13 @@ public:
 
   static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
-  /// @brief Method ToString, addr 0x44d86a4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x44dd618, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValidateAsset, addr 0x44d8694, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x44dd608, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x44d869c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x44dd610, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_AllowedLabels() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CachedToString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44d866c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dd5e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
 protected:
@@ -69,7 +69,7 @@ public:
   AssetReferenceUILabelRestriction(AssetReferenceUILabelRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16144 };
 
   /// @brief Field m_AllowedLabels, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___m_AllowedLabels;

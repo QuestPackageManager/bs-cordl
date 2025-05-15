@@ -246,7 +246,7 @@ public:
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x494be84, size 0xac8, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x4951ee4, size 0xac8, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -397,10 +397,10 @@ public:
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x494bb20, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x4951b80, size 0x1e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x494b938, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x4951998, size 0x1e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);
@@ -566,7 +566,7 @@ public:
   TextShaderUtilities(TextShaderUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -44,7 +44,7 @@ public:
   /// @brief Field listeners, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_listeners, put = setStaticF_listeners)) ::System::Diagnostics::TraceListenerCollection* listeners;
 
-  /// @brief Method InitializeSettings, addr 0x4427684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettings, addr 0x442c5f8, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeSettings();
 
   static inline ::StringW getStaticF_appName();
@@ -59,16 +59,16 @@ public:
 
   static inline ::System::Diagnostics::TraceListenerCollection* getStaticF_listeners();
 
-  /// @brief Method get_AutoFlush, addr 0x4426ee4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x442be58, size 0x60, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_IndentLevel, addr 0x442794c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IndentLevel, addr 0x442c8c0, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_IndentLevel();
 
-  /// @brief Method get_IndentSize, addr 0x44279a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IndentSize, addr 0x442c918, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_IndentSize();
 
-  /// @brief Method get_Listeners, addr 0x4426c54, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x442bbc8, size 0x244, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_appName(::StringW value);

@@ -55,10 +55,10 @@ public:
   /// @brief Method AllocateRect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AllocateRect(int32_t width, int32_t height, ::ByRef<::UnityEngine::RectInt> uvs);
 
-  /// @brief Method Dispose, addr 0x49a90d8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49af138, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a9144, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49af1a4, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* New_ctor();
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x49a915c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49af1bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerCopyTexture();
@@ -86,7 +86,7 @@ public:
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_disposed, addr 0x49a90c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49af124, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Method get_texture, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -103,7 +103,7 @@ public:
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
-  /// @brief Method set_disposed, addr 0x49a90cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49af12c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

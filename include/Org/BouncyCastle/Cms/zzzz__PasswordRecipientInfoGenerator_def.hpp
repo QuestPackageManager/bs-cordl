@@ -57,7 +57,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x267912c, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x267cbdc, size 0x4a0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator* New_ctor();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_keyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x267910c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267cbbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Helper();
@@ -90,13 +90,13 @@ public:
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 
-  /// @brief Method set_KeyDerivationAlgorithm, addr 0x2679114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyDerivationAlgorithm, addr 0x267cbc4, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyDerivationAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey, addr 0x267911c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x267cbcc, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID, addr 0x2679124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x267cbd4, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
 protected:

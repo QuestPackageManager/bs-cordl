@@ -21,11 +21,11 @@ namespace System::Dynamic {
 class CORDL_TYPE DeleteIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x40f79c0, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x40fc934, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackDeleteIndex, addr 0x40f7a7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackDeleteIndex, addr 0x40fc9f0, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteIndex(::System::Dynamic::DynamicMetaObject* target,
                                                                    ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes);
 
@@ -49,7 +49,7 @@ public:
   DeleteIndexBinder(DeleteIndexBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ namespace Mono::Net::Security {
 class CORDL_TYPE NoReflectionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x4113a38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x41189ac, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Object* GetProvider();
 
 protected:

@@ -52,10 +52,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PerformanceConfigurationStats_BoolStats {
 public:
   // Declarations
-  /// @brief Method CreateLogValue, addr 0x3b1bd3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x3b20cb0, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x3b1bc78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b20bec, size 0x1c, virtual false, abstract: false, final false
   inline void Update(bool value);
 
   // Ctor Parameters []
@@ -97,10 +97,10 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::PerformanceConfigurationStats_IntStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x3b1bddc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x3b20d50, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x3b1bb60, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b20ad4, size 0x8c, virtual false, abstract: false, final false
   inline void Update(int32_t value);
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats_IntStats getStaticF_kInitial();
@@ -146,10 +146,10 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::PerformanceConfigurationStats_FloatStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x3b1beec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x3b20e60, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x3b1bbec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b20b60, size 0x8c, virtual false, abstract: false, final false
   inline void Update(float_t value);
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats_FloatStats getStaticF_kInitial();
@@ -268,7 +268,7 @@ public:
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats* New_ctor();
 
-  /// @brief Method Update, addr 0x3b1b994, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b20908, size 0x1cc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::PerformanceConfigurationStats_FloatStats const& __cordl_internal_get_batteryLevel() const;
@@ -313,7 +313,7 @@ public:
 
   constexpr void __cordl_internal_set_processorFrequency(::GlobalNamespace::PerformanceConfigurationStats_IntStats value);
 
-  /// @brief Method .ctor, addr 0x3b1bc94, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b20c08, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

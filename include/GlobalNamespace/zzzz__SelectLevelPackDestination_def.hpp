@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  /// @brief Method .ctor, addr 0x26ab7bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26af26c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
 protected:

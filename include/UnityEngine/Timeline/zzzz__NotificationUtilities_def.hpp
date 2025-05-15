@@ -45,22 +45,22 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE NotificationUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateNotificationsPlayable, addr 0x48283bc, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method CreateNotificationsPlayable, addr 0x482d330, size 0x880, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*>
   CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers,
                               ::UnityEngine::Playables::IPlayableAsset* asset, ::UnityEngine::Playables::PlayableDirector* director);
 
-  /// @brief Method CreateNotificationsPlayable, addr 0x48283b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateNotificationsPlayable, addr 0x482d324, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*>
   CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers,
                               ::UnityEngine::Playables::PlayableDirector* director);
 
-  /// @brief Method CreateNotificationsPlayable, addr 0x4828c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateNotificationsPlayable, addr 0x482dbb0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*>
   CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers,
                               ::UnityEngine::Timeline::TimelineAsset* timelineAsset);
 
-  /// @brief Method TrackTypeSupportsNotifications, addr 0x4828c44, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method TrackTypeSupportsNotifications, addr 0x482dbb8, size 0x18c, virtual false, abstract: false, final false
   static inline bool TrackTypeSupportsNotifications(::System::Type* type);
 
 protected:
@@ -78,7 +78,7 @@ public:
   NotificationUtilities(NotificationUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

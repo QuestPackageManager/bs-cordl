@@ -33,21 +33,21 @@ public:
                       put = setStaticF_s_RuntimeTargetMapping)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>*
       s_RuntimeTargetMapping;
 
-  /// @brief Method GetAddressablesPlatformInternal, addr 0x44f1d1c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformInternal, addr 0x44f6c90, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x44f1df0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x44f6d64, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetPlatform, addr 0x44f1f10, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPlatform, addr 0x44f6e84, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
 
-  /// @brief Method GetPlatformPathSubFolder, addr 0x44e5e94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPathSubFolder, addr 0x44eae08, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPathSubFolder();
 
   static inline ::UnityEngine::AddressableAssets::PlatformMappingService* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44f1f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f6f08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();
@@ -69,7 +69,7 @@ public:
   PlatformMappingService(PlatformMappingService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

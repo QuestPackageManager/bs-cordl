@@ -65,7 +65,7 @@ public:
   SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17478 };
 
   /// @brief Field m_Value, offset: 0x18, size: 0x8, def value: None
   TElement ___m_Value;
@@ -126,7 +126,7 @@ public:
   SetPropertyBagBase_2(SetPropertyBagBase_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17479 };
 
   /// @brief Field m_Property, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>* ___m_Property;

@@ -24,18 +24,18 @@ namespace Zenject {
 class CORDL_TYPE ScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
-  /// @brief Method AsCached, addr 0x4b0ce08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsCached, addr 0x4b12e68, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached();
 
-  /// @brief Method AsSingle, addr 0x4b0ce28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AsSingle, addr 0x4b12e88, size 0x28, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle();
 
-  /// @brief Method AsTransient, addr 0x4b0ce50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsTransient, addr 0x4b12eb0, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient();
 
   static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x4b0cc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b12cb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

@@ -54,24 +54,24 @@ public:
   /// @brief Field _table, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-  /// @brief Method AddCache, addr 0x415da04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddCache, addr 0x4162978, size 0x48, virtual false, abstract: false, final false
   inline void AddCache(::System::Data::DataRelation* relation);
 
-  /// @brief Method AddCore, addr 0x415da4c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method AddCore, addr 0x41629c0, size 0xc0, virtual true, abstract: false, final false
   inline void AddCore(::System::Data::DataRelation* relation);
 
-  /// @brief Method EnsureDataSet, addr 0x415d678, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EnsureDataSet, addr 0x41625ec, size 0x44, virtual false, abstract: false, final false
   inline void EnsureDataSet();
 
-  /// @brief Method GetDataSet, addr 0x415d6bc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetDataSet, addr 0x4162630, size 0x24, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* GetDataSet();
 
   static inline ::GlobalNamespace::DataRelationCollection_DataTableRelationCollection* New_ctor(::System::Data::DataTable* table, bool fParentCollection);
 
-  /// @brief Method RemoveCache, addr 0x415db0c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RemoveCache, addr 0x4162a80, size 0xd4, virtual false, abstract: false, final false
   inline void RemoveCache(::System::Data::DataRelation* relation);
 
-  /// @brief Method RemoveCore, addr 0x415dbe0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method RemoveCore, addr 0x4162b54, size 0xc0, virtual true, abstract: false, final false
   inline void RemoveCore(::System::Data::DataRelation* relation);
 
   constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& __cordl_internal_get_RelationPropertyChanged() const;
@@ -98,22 +98,22 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x415d5cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4162540, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, bool fParentCollection);
 
-  /// @brief Method add_RelationPropertyChanged, addr 0x415d8cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_RelationPropertyChanged, addr 0x4162840, size 0x9c, virtual false, abstract: false, final false
   inline void add_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
-  /// @brief Method get_Item, addr 0x415d6e0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4162654, size 0x100, virtual true, abstract: false, final false
   inline ::System::Data::DataRelation* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x415d7e0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4162754, size 0xec, virtual true, abstract: false, final false
   inline ::System::Data::DataRelation* get_Item(::StringW name);
 
-  /// @brief Method get_List, addr 0x415d670, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x41625e4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
-  /// @brief Method remove_RelationPropertyChanged, addr 0x415d968, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_RelationPropertyChanged, addr 0x41628dc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
 protected:

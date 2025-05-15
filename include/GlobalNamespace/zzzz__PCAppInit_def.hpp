@@ -52,18 +52,18 @@ public:
   /// @brief Field _settingsApplicator, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2717e48, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x271b9ac, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x2718174, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x271bcd8, size 0x244, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PCAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x2717eb0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x271ba14, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x2717f50, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x271bab4, size 0x224, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x27183b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271bf1c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   PCAppInit(PCAppInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17802 };
 
   /// @brief Field kMissingOpenXRRuntimeErrorSubtitle offset 0xffffffff size 0x8
   static constexpr ::ConstString kMissingOpenXRRuntimeErrorSubtitle{ u"LABEL_MISSING_OPEN_XR_RUNTIME_ERROR" };

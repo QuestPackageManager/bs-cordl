@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set__width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2707738, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b29c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width);
 
-  /// @brief Method get_duration, addr 0x2707728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x270b28c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x2707718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x270b27c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_time, addr 0x2707710, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x270b274, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x2707720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x270b284, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType get_type();
 
-  /// @brief Method get_width, addr 0x2707730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x270b294, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:
@@ -115,7 +115,7 @@ public:
   ObstacleData(ObstacleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13439 };
 
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None
   float_t ____time;

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::SerializeField* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48ada1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b3a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

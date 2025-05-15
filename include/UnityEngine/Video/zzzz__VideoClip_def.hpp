@@ -41,48 +41,48 @@ public:
 
   __declspec(property(get = get_width)) uint32_t width;
 
-  /// @brief Method GetAudioChannelCount, addr 0x4ae2060, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioChannelCount, addr 0x4ae80c0, size 0x44, virtual false, abstract: false, final false
   inline uint16_t GetAudioChannelCount(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioLanguage, addr 0x4ae20e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioLanguage, addr 0x4ae8148, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetAudioLanguage(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioSampleRate, addr 0x4ae20a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioSampleRate, addr 0x4ae8104, size 0x44, virtual false, abstract: false, final false
   inline uint32_t GetAudioSampleRate(uint16_t audioTrackIdx);
 
   static inline ::UnityEngine::Video::VideoClip* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ae1db0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae7e10, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioTrackCount, addr 0x4ae2024, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioTrackCount, addr 0x4ae8084, size 0x3c, virtual false, abstract: false, final false
   inline uint16_t get_audioTrackCount();
 
-  /// @brief Method get_frameCount, addr 0x4ae1e44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x4ae7ea4, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t get_frameCount();
 
-  /// @brief Method get_frameRate, addr 0x4ae1e80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameRate, addr 0x4ae7ee0, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_frameRate();
 
-  /// @brief Method get_height, addr 0x4ae1f34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x4ae7f94, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_height();
 
-  /// @brief Method get_length, addr 0x4ae1ebc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x4ae7f1c, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_length();
 
-  /// @brief Method get_originalPath, addr 0x4ae1e08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_originalPath, addr 0x4ae7e68, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_originalPath();
 
-  /// @brief Method get_pixelAspectRatioDenominator, addr 0x4ae1fac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioDenominator, addr 0x4ae800c, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioDenominator();
 
-  /// @brief Method get_pixelAspectRatioNumerator, addr 0x4ae1f70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioNumerator, addr 0x4ae7fd0, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioNumerator();
 
-  /// @brief Method get_sRGB, addr 0x4ae1fe8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sRGB, addr 0x4ae8048, size 0x3c, virtual false, abstract: false, final false
   inline bool get_sRGB();
 
-  /// @brief Method get_width, addr 0x4ae1ef8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x4ae7f58, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_width();
 
 protected:
@@ -100,7 +100,7 @@ public:
   VideoClip(VideoClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18531 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

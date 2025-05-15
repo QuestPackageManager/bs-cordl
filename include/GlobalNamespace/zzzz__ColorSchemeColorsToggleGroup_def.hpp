@@ -83,42 +83,42 @@ public:
   __declspec(property(get = __cordl_internal_get_selectedColorDidChangeEvent,
                       put = __cordl_internal_set_selectedColorDidChangeEvent)) ::System::Action_1<::UnityEngine::Color>* selectedColorDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x3bf435c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bf92d0, size 0x2f8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x3bf46b0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x3bf9624, size 0x1c8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
 
-  /// @brief Method HandleToggleWasSelected, addr 0x3bf4670, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleWasSelected, addr 0x3bf95e4, size 0x40, virtual false, abstract: false, final false
   inline void HandleToggleWasSelected(::GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
 
   static inline ::GlobalNamespace::ColorSchemeColorsToggleGroup* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bf4654, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bf95c8, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColorScheme, addr 0x3bf427c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x3bf91f0, size 0xe0, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method <Awake>b__17_0, addr 0x3bf4880, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_0, addr 0x3bf97f4, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_0(bool isOn);
 
-  /// @brief Method <Awake>b__17_1, addr 0x3bf4890, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_1, addr 0x3bf9804, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_1(bool isOn);
 
-  /// @brief Method <Awake>b__17_2, addr 0x3bf48a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_2, addr 0x3bf9814, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_2(bool isOn);
 
-  /// @brief Method <Awake>b__17_3, addr 0x3bf48b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_3, addr 0x3bf9824, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_3(bool isOn);
 
-  /// @brief Method <Awake>b__17_4, addr 0x3bf48c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_4, addr 0x3bf9834, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_4(bool isOn);
 
-  /// @brief Method <Awake>b__17_5, addr 0x3bf48d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_5, addr 0x3bf9844, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_5(bool isOn);
 
-  /// @brief Method <Awake>b__17_6, addr 0x3bf48e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_6, addr 0x3bf9854, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_6(bool isOn);
 
   constexpr ::GlobalNamespace::ColorScheme* const& __cordl_internal_get__colorScheme() const;
@@ -187,19 +187,19 @@ public:
 
   constexpr void __cordl_internal_set_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x3bf4878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf97ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectedColorDidChangeEvent, addr 0x3bf401c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectedColorDidChangeEvent, addr 0x3bf8f90, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method get_color, addr 0x3bf417c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3bf90f0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x3bf40cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x3bf9040, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method set_color, addr 0x3bf41cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3bf9140, size 0x18, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

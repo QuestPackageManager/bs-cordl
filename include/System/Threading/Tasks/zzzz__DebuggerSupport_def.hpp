@@ -47,31 +47,31 @@ public:
   /// @brief Field s_activeTasksLock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_activeTasksLock, put = setStaticF_s_activeTasksLock)) ::System::Object* s_activeTasksLock;
 
-  /// @brief Method AddToActiveTasks, addr 0x3e5b620, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddToActiveTasks, addr 0x3e60594, size 0x94, virtual false, abstract: false, final false
   static inline void AddToActiveTasks(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method AddToActiveTasksNonInlined, addr 0x3e5b6b4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method AddToActiveTasksNonInlined, addr 0x3e60628, size 0x158, virtual false, abstract: false, final false
   static inline void AddToActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method RemoveFromActiveTasks, addr 0x3e5b89c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromActiveTasks, addr 0x3e60810, size 0x94, virtual false, abstract: false, final false
   static inline void RemoveFromActiveTasks(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method RemoveFromActiveTasksNonInlined, addr 0x3e5b930, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromActiveTasksNonInlined, addr 0x3e608a4, size 0x158, virtual false, abstract: false, final false
   static inline void RemoveFromActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TraceOperationCompletion, addr 0x3e5b610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x3e60584, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::Internal::Runtime::Augments::AsyncStatus status);
 
-  /// @brief Method TraceOperationCreation, addr 0x3e5b60c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x3e60580, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceOperationRelation, addr 0x3e5b614, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationRelation, addr 0x3e60588, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationRelation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::CausalityRelation relation);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x3e5b61c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x3e60590, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x3e5b618, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkStart, addr 0x3e6058c, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task,
                                                ::System::Threading::Tasks::CausalitySynchronousWork work);
 
@@ -79,7 +79,7 @@ public:
 
   static inline ::System::Object* getStaticF_s_activeTasksLock();
 
-  /// @brief Method get_LoggingOn, addr 0x3e5b604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoggingOn, addr 0x3e60578, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
   static inline void setStaticF_s_activeTasks(::System::Collections::Generic::LowLevelDictionary_2<int32_t, ::System::Threading::Tasks::Task*>* value);

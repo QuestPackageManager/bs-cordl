@@ -94,7 +94,7 @@ public:
   MultiplayerSyncStateManager_5___c(MultiplayerSyncStateManager_5___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -279,7 +279,7 @@ public:
   MultiplayerSyncStateManager_5(MultiplayerSyncStateManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17362 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

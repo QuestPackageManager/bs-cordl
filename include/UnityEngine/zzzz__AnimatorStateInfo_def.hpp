@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_normalizedTime)) float_t normalizedTime;
 
-  /// @brief Method get_normalizedTime, addr 0x4849474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedTime, addr 0x484e3e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedTime();
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
                               int32_t m_Loop) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16875 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

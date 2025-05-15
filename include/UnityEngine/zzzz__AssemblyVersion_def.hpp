@@ -23,16 +23,16 @@ namespace UnityEngine {
 struct CORDL_TYPE AssemblyVersion {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x48a36b8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48a9718, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x48a3760, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48a97c0, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x48a350c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48a956c, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method op_Equality, addr 0x48a34dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48a953c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::AssemblyVersion lhs, ::UnityEngine::AssemblyVersion rhs);
 
   // Ctor Parameters []

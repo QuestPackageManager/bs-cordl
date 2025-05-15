@@ -236,15 +236,15 @@ public:
   __declspec(property(get = __cordl_internal_get_textMeshPros, put = __cordl_internal_set_textMeshPros)) ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>
       textMeshPros;
 
-  /// @brief Method EnableObjects, addr 0x3b30008, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x3b34f7c, size 0x114, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::GhostEffectBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPlay, addr 0x3b2fe78, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x3b34dec, size 0x190, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x3b3011c, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b35090, size 0x430, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvasGroups() const;
@@ -361,7 +361,7 @@ public:
 
   constexpr void __cordl_internal_set_textMeshPros(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b3054c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b354c0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

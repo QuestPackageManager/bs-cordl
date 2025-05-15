@@ -35,7 +35,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IHashCodeProvider"
   constexpr operator ::System::Collections::IHashCodeProvider*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x3db5d9c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3dbad10, size 0xd4, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor();
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x3db5c9c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbac10, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3db5d18, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbac8c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   /// @brief Convert to "::System::Collections::IHashCodeProvider"

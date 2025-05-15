@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithShareMediaResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ShareMediaResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7bc1c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f80b90, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ShareMediaResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetShareMediaResult, addr 0x3f7bbe0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetShareMediaResult, addr 0x3f80b54, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();
 
   static inline ::Oculus::Platform::MessageWithShareMediaResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f77c48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7cbbc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithShareMediaResult(MessageWithShareMediaResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

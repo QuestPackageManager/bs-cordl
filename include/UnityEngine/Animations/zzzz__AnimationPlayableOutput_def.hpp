@@ -36,37 +36,37 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method Create, addr 0x484fb4c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4854ac0, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name, ::UnityEngine::Animator* target);
 
-  /// @brief Method GetHandle, addr 0x4851cb4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x4856c28, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
-  /// @brief Method GetTarget, addr 0x4851d44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x4856cb8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> GetTarget();
 
-  /// @brief Method InternalGetTarget, addr 0x4851d80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetTarget, addr 0x4856cf4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Animator> InternalGetTarget(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
-  /// @brief Method InternalSetTarget, addr 0x4851dbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalSetTarget, addr 0x4856d30, size 0x44, virtual false, abstract: false, final false
   static inline void InternalSetTarget(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle, ::UnityEngine::Animator* target);
 
-  /// @brief Method SetTarget, addr 0x4851c70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetTarget, addr 0x4856be4, size 0x44, virtual false, abstract: false, final false
   inline void SetTarget(::UnityEngine::Animator* value);
 
-  /// @brief Method .ctor, addr 0x4851b80, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4856af4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
-  /// @brief Method get_Null, addr 0x4851b04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x4856a78, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationPlayableOutput get_Null();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
   constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
-  /// @brief Method op_Explicit, addr 0x4851cc0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x4856c34, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationPlayableOutput op_Explicit___UnityEngine__Animations__AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutput output);
 
-  /// @brief Method op_Implicit, addr 0x484fbf4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4854b68, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   // Ctor Parameters []
@@ -77,7 +77,7 @@ public:
   constexpr AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16905 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -36,7 +36,7 @@ public:
   /// @brief Field _prefabProvider, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider)) ::Zenject::IPrefabProvider* _prefabProvider;
 
-  /// @brief Method CreateGameObject, addr 0x4b3c5e0, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x4b42640, size 0x1c0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::ByRef<bool> shouldMakeActive);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x4b3c5a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b42604, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
 protected:

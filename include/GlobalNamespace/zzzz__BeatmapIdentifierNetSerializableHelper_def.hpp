@@ -27,11 +27,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapIdentifierNetSerializableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToBeatmapKey, addr 0x26c0fac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToBeatmapKey, addr 0x26c4a5c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable,
                                                            ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method ToIdentifier, addr 0x26c1038, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ToIdentifier, addr 0x26c4ae8, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKeyNetSerializable* ToIdentifier(::GlobalNamespace::BeatmapKey beatmapKey);
 
 protected:

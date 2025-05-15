@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t, ::Array<int32_t>*>, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::MergeVertices)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x4784d34;
+  constexpr static std::size_t addrs = 0x4789ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::SplitVertices)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4785044;
+  constexpr static std::size_t addrs = 0x4789fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::SplitVertices)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x47850cc;
+  constexpr static std::size_t addrs = 0x478a040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, float_t)>(&::UnityEngine::ProBuilder::MeshOperations::VertexEditing::WeldVertices)> {
   constexpr static std::size_t size = 0xcf4;
-  constexpr static std::size_t addrs = 0x47854dc;
+  constexpr static std::size_t addrs = 0x478a450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                 float_t, ::ByRef<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*>)>(
         &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::ExplodeVertex)> {
   constexpr static std::size_t size = 0xb8c;
-  constexpr static std::size_t addrs = 0x47861d0;
+  constexpr static std::size_t addrs = 0x478b144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::EdgeLookup, int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::AlignEdgeWithDirection)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4786d5c;
+  constexpr static std::size_t addrs = 0x478bcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__noMainEffect(::UnityW<::GlobalNamespace::MainEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x407d964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40828d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   DeactivateMainEffectOnPS4(DeactivateMainEffectOnPS4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17874 };
 
   /// @brief Field _noMainEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ____noMainEffect;

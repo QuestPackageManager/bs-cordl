@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BlurEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a232c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a29324, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BlurEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a232bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2931c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BlurEvent___c* getStaticF___9();
@@ -78,10 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BlurEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x4a23170, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x4a291d0, size 0x8c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a23218, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a29278, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

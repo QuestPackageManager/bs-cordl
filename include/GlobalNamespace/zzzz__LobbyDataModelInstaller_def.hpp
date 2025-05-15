@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LobbyDataModelInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3bf0f10, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf5e84, size 0x37c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LobbyDataModelInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bf128c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf6200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

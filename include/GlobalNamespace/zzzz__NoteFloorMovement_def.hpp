@@ -82,18 +82,18 @@ public:
 
   __declspec(property(get = get_worldRotation)) ::UnityEngine::Quaternion worldRotation;
 
-  /// @brief Method Init, addr 0x3ae8518, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3aed48c, size 0x74, virtual false, abstract: false, final false
   inline void Init(float_t worldRotation, float_t beatTime, ::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset);
 
-  /// @brief Method ManualUpdate, addr 0x3ae892c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3aed8a0, size 0x398, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ManualUpdate();
 
   static inline ::GlobalNamespace::NoteFloorMovement* New_ctor();
 
-  /// @brief Method SetToStart, addr 0x3ae87a4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method SetToStart, addr 0x3aed718, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SetToStart();
 
-  /// @brief Method ShouldMove, addr 0x3ae858c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ShouldMove, addr 0x3aed500, size 0x218, virtual false, abstract: false, final false
   inline bool ShouldMove();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -156,25 +156,25 @@ public:
 
   constexpr void __cordl_internal_set__worldRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x3ae8cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aedc38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distanceToPlayer, addr 0x3ae83f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_distanceToPlayer, addr 0x3aed364, size 0x40, virtual false, abstract: false, final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_endPos, addr 0x3ae8430, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_endPos, addr 0x3aed3a4, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPos();
 
-  /// @brief Method get_inverseWorldRotation, addr 0x3ae8500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWorldRotation, addr 0x3aed474, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_localPosition, addr 0x3ae850c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x3aed480, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_noteTime, addr 0x3ae84ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteTime, addr 0x3aed460, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteTime();
 
-  /// @brief Method get_worldRotation, addr 0x3ae84f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldRotation, addr 0x3aed468, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
 protected:

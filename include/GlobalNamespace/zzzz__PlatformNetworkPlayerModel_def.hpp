@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e6dad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e72a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
@@ -59,7 +59,7 @@ public:
   PlatformNetworkPlayerModel_CreatePartyConfig(PlatformNetworkPlayerModel_CreatePartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,15 +78,15 @@ public:
 
   __declspec(property(get = get_friends)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* friends;
 
-  /// @brief Method DestroyPartyConnection, addr 0x3e6dab8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method DestroyPartyConnection, addr 0x3e72a2c, size 0x18, virtual true, abstract: false, final false
   inline void DestroyPartyConnection();
 
   static inline ::GlobalNamespace::PlatformNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e6daa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e72a14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_friends, addr 0x3e6daa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_friends, addr 0x3e72a1c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_friends();
 
 protected:
@@ -104,7 +104,7 @@ public:
   PlatformNetworkPlayerModel(PlatformNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

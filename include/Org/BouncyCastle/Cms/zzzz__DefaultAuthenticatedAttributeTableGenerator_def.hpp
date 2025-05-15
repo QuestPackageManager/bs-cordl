@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method CreateStandardAttributeTable, addr 0x2672050, size 0x52c, virtual true, abstract: false, final false
+  /// @brief Method CreateStandardAttributeTable, addr 0x2675b00, size 0x52c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetAttributes, addr 0x267257c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x267602c, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x2671f68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675a18, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2671fd0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675a80, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"

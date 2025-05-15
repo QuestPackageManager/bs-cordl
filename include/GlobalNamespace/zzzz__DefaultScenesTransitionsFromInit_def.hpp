@@ -72,10 +72,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x271465c, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x27181c0, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2714920, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2718484, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -95,7 +95,7 @@ public:
                                                                                                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17786 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -143,7 +143,7 @@ public:
 
   static inline ::GlobalNamespace::DefaultScenesTransitionsFromInit___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <TransitionToNextScene>g__OnFinishCallback|0, addr 0x27145cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <TransitionToNextScene>g__OnFinishCallback|0, addr 0x2718130, size 0x90, virtual false, abstract: false, final false
   inline void _TransitionToNextScene_g__OnFinishCallback_0(::Zenject::DiContainer* _);
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get___4__this() const;
@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_onFinishShaderWarmup(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2714514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   DefaultScenesTransitionsFromInit___c__DisplayClass9_0(DefaultScenesTransitionsFromInit___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17787 };
 
   /// @brief Field onFinishShaderWarmup, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___onFinishShaderWarmup;
@@ -240,10 +240,10 @@ public:
 
   static inline ::GlobalNamespace::DefaultScenesTransitionsFromInit* New_ctor();
 
-  /// @brief Method TransitionToNextScene, addr 0x27142f4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x2717e58, size 0x220, virtual false, abstract: false, final false
   inline void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene, ::System::Action* onFinishShaderWarmup);
 
-  /// @brief Method TransitionToStartupErrorScene, addr 0x271451c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TransitionToStartupErrorScene, addr 0x2718080, size 0xa8, virtual false, abstract: false, final false
   inline void TransitionToStartupErrorScene(::StringW title, ::StringW subtitle);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO> const& __cordl_internal_get__beatmapEditorScenesTransitionSetupData() const;
@@ -288,10 +288,10 @@ public:
 
   constexpr void __cordl_internal_set__startupErrorScenesTransitionSetupData(::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x27145c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x27142ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x2717e50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> get_mainMenuScenesTransitionSetupData();
 
 protected:
@@ -309,7 +309,7 @@ public:
   DefaultScenesTransitionsFromInit(DefaultScenesTransitionsFromInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17788 };
 
   /// @brief Field _healthWarningScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> ____healthWarningScenesTransitionSetupData;

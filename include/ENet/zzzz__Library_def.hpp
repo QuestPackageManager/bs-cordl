@@ -25,22 +25,22 @@ namespace ENet {
 class CORDL_TYPE Library : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CRC64, addr 0x3aa2550, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CRC64, addr 0x3aa74c4, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t CRC64(::System::IntPtr buffers, int32_t bufferCount);
 
-  /// @brief Method Deinitialize, addr 0x3aa24e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x3aa745c, size 0x4, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method InitOpenSSL, addr 0x3aa20a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InitOpenSSL, addr 0x3aa7018, size 0x24, virtual false, abstract: false, final false
   static inline void InitOpenSSL();
 
-  /// @brief Method Initialize, addr 0x3aa21cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3aa7140, size 0x90, virtual false, abstract: false, final false
   static inline bool Initialize();
 
-  /// @brief Method Initialize, addr 0x3aa232c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3aa72a0, size 0xf8, virtual false, abstract: false, final false
   static inline bool Initialize(::ENet::Callbacks* callbacks);
 
-  /// @brief Method get_Time, addr 0x3aa2038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x3aa6fac, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t get_Time();
 
 protected:
@@ -58,7 +58,7 @@ public:
   Library(Library const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17760 };
 
   /// @brief Field maxChannelCount offset 0xffffffff size 0x4
   static constexpr uint32_t maxChannelCount{ static_cast<uint32_t>(0xffu) };

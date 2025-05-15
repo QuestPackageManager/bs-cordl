@@ -62,19 +62,19 @@ public:
 
   constexpr void __cordl_internal_set_isDecimal(bool value);
 
-  /// @brief Method .ctor, addr 0x4394be8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4399b5c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4394b80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4399af4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t dim);
 
-  /// @brief Method get_Dvalue, addr 0x4394fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dvalue, addr 0x4399f50, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> get_Dvalue();
 
-  /// @brief Method get_IsDecimal, addr 0x4394fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDecimal, addr 0x4399f3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDecimal();
 
-  /// @brief Method set_IsDecimal, addr 0x4394fd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDecimal, addr 0x4399f44, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDecimal(bool value);
 
 protected:
@@ -149,18 +149,18 @@ public:
   /// @brief Field xsdtype, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_xsdtype, put = __cordl_internal_set_xsdtype)) ::System::Xml::Schema::XmlSchemaDatatype* xsdtype;
 
-  /// @brief Method Equals, addr 0x4394d58, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4399ccc, size 0x270, virtual false, abstract: false, final false
   inline bool Equals(::System::Xml::Schema::TypedObject* other);
 
-  /// @brief Method ListDValueEquals, addr 0x4394c44, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ListDValueEquals, addr 0x4399bb8, size 0x114, virtual false, abstract: false, final false
   inline bool ListDValueEquals(::System::Xml::Schema::TypedObject* other);
 
   static inline ::System::Xml::Schema::TypedObject* New_ctor(::System::Object* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype);
 
-  /// @brief Method SetDecimal, addr 0x4394910, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method SetDecimal, addr 0x4399884, size 0x270, virtual false, abstract: false, final false
   inline void SetDecimal();
 
-  /// @brief Method ToString, addr 0x4394908, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x439987c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_dim() const;
@@ -199,25 +199,25 @@ public:
 
   constexpr void __cordl_internal_set_xsdtype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method .ctor, addr 0x43947ac, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4399720, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype);
 
-  /// @brief Method get_Dim, addr 0x4394754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dim, addr 0x43996c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Dim();
 
-  /// @brief Method get_Dvalue, addr 0x4394780, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Dvalue, addr 0x43996f4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> get_Dvalue();
 
-  /// @brief Method get_IsDecimal, addr 0x4394764, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDecimal, addr 0x43996d8, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsDecimal();
 
-  /// @brief Method get_IsList, addr 0x439475c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsList, addr 0x43996d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsList();
 
-  /// @brief Method get_Type, addr 0x43947a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4399718, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Type();
 
-  /// @brief Method get_Value, addr 0x439479c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4399710, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

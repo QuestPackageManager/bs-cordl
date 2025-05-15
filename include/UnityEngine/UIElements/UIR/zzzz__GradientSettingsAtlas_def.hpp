@@ -48,10 +48,10 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE GradientSettingsAtlas_RawTexture {
 public:
   // Declarations
-  /// @brief Method WriteRawFloat4Packed, addr 0x49a2d64, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method WriteRawFloat4Packed, addr 0x49a8dc4, size 0xa8, virtual false, abstract: false, final false
   inline void WriteRawFloat4Packed(float_t f0, float_t f1, float_t f2, float_t f3, int32_t destX, int32_t destY);
 
-  /// @brief Method WriteRawInt2Packed, addr 0x49a2e0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WriteRawInt2Packed, addr 0x49a8e6c, size 0x90, virtual false, abstract: false, final false
   inline void WriteRawInt2Packed(int32_t v0, int32_t v1, int32_t destX, int32_t destY);
 
   // Ctor Parameters []
@@ -139,27 +139,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x49a28e4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x49a8944, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Add(int32_t count);
 
-  /// @brief Method Commit, addr 0x49a2eb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x49a8f10, size 0x64, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method Dispose, addr 0x49a2710, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49a8770, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a277c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49a87dc, size 0x78, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* New_ctor(int32_t length);
 
-  /// @brief Method PrepareAtlas, addr 0x49a2f14, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method PrepareAtlas, addr 0x49a8f74, size 0x15c, virtual false, abstract: false, final false
   inline void PrepareAtlas();
 
-  /// @brief Method Reset, addr 0x49a2824, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49a8884, size 0xb8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Write, addr 0x49a29c0, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x49a8a20, size 0x3a4, virtual false, abstract: false, final false
   inline void Write(::UnityEngine::UIElements::UIR::Alloc alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings, ::Array<::UnityEngine::UIElements::GradientSettings>*> settings,
                     ::UnityEngine::UIElements::UIR::GradientRemap* remap);
 
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RawAtlas(::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture value);
 
-  /// @brief Method .ctor, addr 0x49a27f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a8854, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerCommit();
@@ -214,16 +214,16 @@ public:
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_MustCommit, addr 0x49a2e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MustCommit, addr 0x49a8efc, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustCommit();
 
-  /// @brief Method get_atlas, addr 0x49a28dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x49a893c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
-  /// @brief Method get_disposed, addr 0x49a26fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49a875c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_length, addr 0x49a26f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x49a8754, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IDisposable"
@@ -235,10 +235,10 @@ public:
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
-  /// @brief Method set_MustCommit, addr 0x49a2ea4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MustCommit, addr 0x49a8f04, size 0xc, virtual false, abstract: false, final false
   inline void set_MustCommit(bool value);
 
-  /// @brief Method set_disposed, addr 0x49a2704, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49a8764, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

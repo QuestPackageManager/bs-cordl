@@ -66,7 +66,7 @@ public:
                                             ::StringW Address, bool UseSsl, ::StringW CertificatePath, ::StringW Certificate, ::StringW PrivateKeyPath, ::StringW PrivateKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17764 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -238,16 +238,16 @@ public:
 
   static inline ::IgnoranceCore::IgnoranceServer* New_ctor();
 
-  /// @brief Method SetupRingBuffersIfNull, addr 0x3aa40e4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetupRingBuffersIfNull, addr 0x3aa9058, size 0x230, virtual false, abstract: false, final false
   inline void SetupRingBuffersIfNull();
 
-  /// @brief Method Start, addr 0x3aa3d48, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3aa8cbc, size 0x39c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3aa4314, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3aa9288, size 0x9c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ThreadWorker, addr 0x3aa43b0, size 0x11c0, virtual false, abstract: false, final false
+  /// @brief Method ThreadWorker, addr 0x3aa9324, size 0x11c0, virtual false, abstract: false, final false
   inline void ThreadWorker(::System::Object* parameters);
 
   constexpr ::StringW const& __cordl_internal_get_BindAddress() const;
@@ -400,10 +400,10 @@ public:
 
   constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x3aa5570, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaa4e4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAlive, addr 0x3aa3d34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x3aa8ca8, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
 protected:
@@ -421,7 +421,7 @@ public:
   IgnoranceServer(IgnoranceServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17765 };
 
   /// @brief Field BindAddress, offset: 0x10, size: 0x8, def value: None
   ::StringW ___BindAddress;

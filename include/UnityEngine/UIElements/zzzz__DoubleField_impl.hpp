@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::DoubleField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498cea4;
+  constexpr static std::size_t addrs = 0x4992f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlFactory*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::DoubleField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498ceec;
+  constexpr static std::size_t addrs = 0x4992f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlTraits*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DoubleField* (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(
     &::UnityEngine::UIElements::DoubleField_DoubleInput::get_parentDoubleField)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x498cf34;
+  constexpr static std::size_t addrs = 0x4992f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(
     &::UnityEngine::UIElements::DoubleField_DoubleInput::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x498ccc0;
+  constexpr static std::size_t addrs = 0x4992d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(
     &::UnityEngine::UIElements::DoubleField_DoubleInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x498cfb4;
+  constexpr static std::size_t addrs = 0x4993014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, double_t)>(&::UnityEngine::UIElements::DoubleField_DoubleInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x498d00c;
+  constexpr static std::size_t addrs = 0x499306c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(double_t)>(
     &::UnityEngine::UIElements::DoubleField_DoubleInput::ValueToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x498d1a0;
+  constexpr static std::size_t addrs = 0x4993200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(::StringW)>(
     &::UnityEngine::UIElements::DoubleField_DoubleInput::StringToValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x498d1ec;
+  constexpr static std::size_t addrs = 0x499324c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DoubleField_DoubleInput* (::UnityEngine::UIElements::DoubleField::*)()>(
     &::UnityEngine::UIElements::DoubleField::get_doubleInput)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x498c94c;
+  constexpr static std::size_t addrs = 0x49929ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField::*)(double_t)>(
     &::UnityEngine::UIElements::DoubleField::ValueToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x498c9d0;
+  constexpr static std::size_t addrs = 0x4992a30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::DoubleField::*)(::StringW)>(
     &::UnityEngine::UIElements::DoubleField::StringToValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x498ca88;
+  constexpr static std::size_t addrs = 0x4992ae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)()>(&::UnityEngine::UIElements::DoubleField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x498cb64;
+  constexpr static std::size_t addrs = 0x4992bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), ".ctor",
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)(::StringW, int32_t)>(
     &::UnityEngine::UIElements::DoubleField::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x498cb70;
+  constexpr static std::size_t addrs = 0x4992bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DoubleField::*)(::StringW)>(&::UnityEngine::UIElements::DoubleField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x498cd54;
+  constexpr static std::size_t addrs = 0x4992db4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, double_t)>(&::UnityEngine::UIElements::DoubleField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x498cd78;
+  constexpr static std::size_t addrs = 0x4992dd8;
 
   inline static ::MethodInfo const* methodInfo() {
 

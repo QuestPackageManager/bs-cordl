@@ -66,7 +66,7 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TspAlgorithms* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cb01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ceacc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IList* getStaticF_Allowed();

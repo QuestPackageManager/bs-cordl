@@ -43,7 +43,7 @@ public:
   /// @brief Field pitable, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_pitable, put = setStaticF_pitable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> pitable;
 
-  /// @brief Method ECB, addr 0x3caf860, size 0x970, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x3cb47d4, size 0x970, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
   static inline ::System::Security::Cryptography::RC2Transform* New_ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_j(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3caf308, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb427c, size 0x558, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_pitable();

@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAchievementUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetAchievementUpdate, addr 0x3f78d78, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementUpdate, addr 0x3f7dcec, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f78db4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7dd28, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAchievementUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f76d80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7bcf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithAchievementUpdate(MessageWithAchievementUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

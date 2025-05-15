@@ -19,18 +19,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE ServerAppVersionFileManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BuildFilePath, addr 0x22e34a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildFilePath, addr 0x22e6f58, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW BuildFilePath(::StringW directoryPath);
 
   static inline ::GlobalNamespace::ServerAppVersionFileManager* New_ctor();
 
-  /// @brief Method ReadAppVersion, addr 0x22e3518, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReadAppVersion, addr 0x22e6fc8, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW ReadAppVersion(::StringW directoryPath);
 
-  /// @brief Method WriteAppVersion, addr 0x22e348c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteAppVersion, addr 0x22e6f3c, size 0x1c, virtual false, abstract: false, final false
   static inline void WriteAppVersion(::StringW directoryPath, ::StringW appVersion);
 
-  /// @brief Method .ctor, addr 0x22e352c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e6fdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   ServerAppVersionFileManager(ServerAppVersionFileManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14968 };
 
   /// @brief Field kFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kFileName{ u"app_version.txt" };

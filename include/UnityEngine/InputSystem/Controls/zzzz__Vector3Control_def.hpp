@@ -44,21 +44,21 @@ public:
 
   __declspec(property(get = get_z, put = set_z)) ::UnityEngine::InputSystem::Controls::AxisControl* z;
 
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x4560074, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method CalculateOptimizedControlDataType, addr 0x4564fe8, size 0x1a8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
 
-  /// @brief Method EvaluateMagnitude, addr 0x455ffac, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x4564f20, size 0xc8, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method FinishSetup, addr 0x455fcd4, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x4564c48, size 0xe4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::Vector3Control* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x455fdb8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x4564d2c, size 0xec, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x455fea4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x4564e18, size 0x108, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::Vector3 value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__x_k__BackingField() const;
@@ -79,25 +79,25 @@ public:
 
   constexpr void __cordl_internal_set__z_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x455fc4c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4564bc0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_x, addr 0x455fc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x4564b90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
-  /// @brief Method get_y, addr 0x455fc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x4564ba0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
-  /// @brief Method get_z, addr 0x455fc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x4564bb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
 
-  /// @brief Method set_x, addr 0x455fc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x4564b98, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_y, addr 0x455fc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x4564ba8, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_z, addr 0x455fc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x4564bb8, size 0x8, virtual false, abstract: false, final false
   inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:

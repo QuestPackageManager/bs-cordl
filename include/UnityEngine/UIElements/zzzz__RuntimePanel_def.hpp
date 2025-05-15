@@ -50,10 +50,10 @@ public:
 
   static inline ::UnityEngine::UIElements::RuntimePanel___c* New_ctor();
 
-  /// @brief Method <.ctor>b__5_0, addr 0x4a355a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__5_0, addr 0x4a3b608, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__5_0(::UnityEngine::UIElements::FocusEvent* e, ::UnityEngine::UIElements::RuntimePanel* p);
 
-  /// @brief Method .ctor, addr 0x4a355a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3b600, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::RuntimePanel___c* getStaticF___9();
@@ -104,15 +104,15 @@ public:
   /// @brief Field s_EventDispatcher, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_EventDispatcher, put = setStaticF_s_EventDispatcher)) ::UnityEngine::UIElements::EventDispatcher* s_EventDispatcher;
 
-  /// @brief Method Create, addr 0x4a34ea8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4a3af08, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::RuntimePanel* Create(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::RuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method OnElementFocus, addr 0x4a35480, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnElementFocus, addr 0x4a3b4e0, size 0x78, virtual false, abstract: false, final false
   inline void OnElementFocus(::UnityEngine::UIElements::FocusEvent* evt);
 
-  /// @brief Method Update, addr 0x4a352f8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x4a3b358, size 0x80, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PanelSettings() const;
@@ -121,12 +121,12 @@ public:
 
   constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
-  /// @brief Method .ctor, addr 0x4a34f00, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3af60, size 0x2e0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* getStaticF_s_EventDispatcher();
 
-  /// @brief Method get_panelSettings, addr 0x4a34ea0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panelSettings, addr 0x4a3af00, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
   static inline void setStaticF_s_EventDispatcher(::UnityEngine::UIElements::EventDispatcher* value);

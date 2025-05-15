@@ -182,12 +182,12 @@ namespace UnityEngine {
 class CORDL_TYPE RectTransform_ReapplyDrivenProperties : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48b1768, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48b77c8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::RectTransform* driven);
 
   static inline ::UnityEngine::RectTransform_ReapplyDrivenProperties* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48b16cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b772c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -251,139 +251,139 @@ public:
 
   __declspec(property(get = get_sizeDelta, put = set_sizeDelta)) ::UnityEngine::Vector2 sizeDelta;
 
-  /// @brief Method ForceUpdateRectTransforms, addr 0x48b0e60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ForceUpdateRectTransforms, addr 0x48b6ec0, size 0x3c, virtual false, abstract: false, final false
   inline void ForceUpdateRectTransforms();
 
-  /// @brief Method GetLocalCorners, addr 0x48b0e9c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetLocalCorners, addr 0x48b6efc, size 0xe0, virtual false, abstract: false, final false
   inline void GetLocalCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> fourCornersArray);
 
-  /// @brief Method GetParentSize, addr 0x48b1344, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetParentSize, addr 0x48b73a4, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetParentSize();
 
-  /// @brief Method GetRectInParentSpace, addr 0x48b14b4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetRectInParentSpace, addr 0x48b7514, size 0x1cc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetRectInParentSpace();
 
-  /// @brief Method GetWorldCorners, addr 0x48b0f7c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetWorldCorners, addr 0x48b6fdc, size 0x154, virtual false, abstract: false, final false
   inline void GetWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> fourCornersArray);
 
   static inline ::UnityEngine::RectTransform* New_ctor();
 
-  /// @brief Method SendReapplyDrivenProperties, addr 0x48b1448, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SendReapplyDrivenProperties, addr 0x48b74a8, size 0x6c, virtual false, abstract: false, final false
   static inline void SendReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
 
-  /// @brief Method SetInsetAndSizeFromParentEdge, addr 0x48b113c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetInsetAndSizeFromParentEdge, addr 0x48b719c, size 0x110, virtual false, abstract: false, final false
   inline void SetInsetAndSizeFromParentEdge(::UnityEngine::RectTransform_Edge edge, float_t inset, float_t size);
 
-  /// @brief Method SetSizeWithCurrentAnchors, addr 0x48b124c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetSizeWithCurrentAnchors, addr 0x48b72ac, size 0xf8, virtual false, abstract: false, final false
   inline void SetSizeWithCurrentAnchors(::UnityEngine::RectTransform_Axis axis, float_t size);
 
-  /// @brief Method .ctor, addr 0x48b16bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b771c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_reapplyDrivenProperties, addr 0x48b01d0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_reapplyDrivenProperties, addr 0x48b6230, size 0xb8, virtual false, abstract: false, final false
   static inline void add_reapplyDrivenProperties(::UnityEngine::RectTransform_ReapplyDrivenProperties* value);
 
   static inline ::UnityEngine::RectTransform_ReapplyDrivenProperties* getStaticF_reapplyDrivenProperties();
 
-  /// @brief Method get_anchorMax, addr 0x48b04f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_anchorMax, addr 0x48b6558, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_anchorMax();
 
-  /// @brief Method get_anchorMax_Injected, addr 0x48b0544, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_anchorMax_Injected, addr 0x48b65a4, size 0x44, virtual false, abstract: false, final false
   inline void get_anchorMax_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_anchorMin, addr 0x48b03dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_anchorMin, addr 0x48b643c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_anchorMin();
 
-  /// @brief Method get_anchorMin_Injected, addr 0x48b0428, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_anchorMin_Injected, addr 0x48b6488, size 0x44, virtual false, abstract: false, final false
   inline void get_anchorMin_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_anchoredPosition, addr 0x48b0614, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_anchoredPosition, addr 0x48b6674, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_anchoredPosition();
 
-  /// @brief Method get_anchoredPosition3D, addr 0x48b0968, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_anchoredPosition3D, addr 0x48b69c8, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_anchoredPosition3D();
 
-  /// @brief Method get_anchoredPosition_Injected, addr 0x48b0660, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_anchoredPosition_Injected, addr 0x48b66c0, size 0x44, virtual false, abstract: false, final false
   inline void get_anchoredPosition_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_drivenByObject, addr 0x48b0d60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_drivenByObject, addr 0x48b6dc0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_drivenByObject();
 
-  /// @brief Method get_drivenProperties, addr 0x48b0de0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_drivenProperties, addr 0x48b6e40, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::DrivenTransformProperties get_drivenProperties();
 
-  /// @brief Method get_offsetMax, addr 0x48b0bc4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_offsetMax, addr 0x48b6c24, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_offsetMax();
 
-  /// @brief Method get_offsetMin, addr 0x48b0a7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_offsetMin, addr 0x48b6adc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_offsetMin();
 
-  /// @brief Method get_pivot, addr 0x48b084c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_pivot, addr 0x48b68ac, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pivot();
 
-  /// @brief Method get_pivot_Injected, addr 0x48b0898, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pivot_Injected, addr 0x48b68f8, size 0x44, virtual false, abstract: false, final false
   inline void get_pivot_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_rect, addr 0x48b0340, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rect, addr 0x48b63a0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rect();
 
-  /// @brief Method get_rect_Injected, addr 0x48b0398, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rect_Injected, addr 0x48b63f8, size 0x44, virtual false, abstract: false, final false
   inline void get_rect_Injected(::ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method get_sizeDelta, addr 0x48b0730, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_sizeDelta, addr 0x48b6790, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_sizeDelta();
 
-  /// @brief Method get_sizeDelta_Injected, addr 0x48b077c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_sizeDelta_Injected, addr 0x48b67dc, size 0x44, virtual false, abstract: false, final false
   inline void get_sizeDelta_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method remove_reapplyDrivenProperties, addr 0x48b0288, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method remove_reapplyDrivenProperties, addr 0x48b62e8, size 0xb8, virtual false, abstract: false, final false
   static inline void remove_reapplyDrivenProperties(::UnityEngine::RectTransform_ReapplyDrivenProperties* value);
 
   static inline void setStaticF_reapplyDrivenProperties(::UnityEngine::RectTransform_ReapplyDrivenProperties* value);
 
-  /// @brief Method set_anchorMax, addr 0x48b0588, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_anchorMax, addr 0x48b65e8, size 0x48, virtual false, abstract: false, final false
   inline void set_anchorMax(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_anchorMax_Injected, addr 0x48b05d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_anchorMax_Injected, addr 0x48b6630, size 0x44, virtual false, abstract: false, final false
   inline void set_anchorMax_Injected(::ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_anchorMin, addr 0x48b046c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_anchorMin, addr 0x48b64cc, size 0x48, virtual false, abstract: false, final false
   inline void set_anchorMin(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_anchorMin_Injected, addr 0x48b04b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_anchorMin_Injected, addr 0x48b6514, size 0x44, virtual false, abstract: false, final false
   inline void set_anchorMin_Injected(::ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_anchoredPosition, addr 0x48b06a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_anchoredPosition, addr 0x48b6704, size 0x48, virtual false, abstract: false, final false
   inline void set_anchoredPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_anchoredPosition3D, addr 0x48b09f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_anchoredPosition3D, addr 0x48b6a58, size 0x30, virtual false, abstract: false, final false
   inline void set_anchoredPosition3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_anchoredPosition_Injected, addr 0x48b06ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_anchoredPosition_Injected, addr 0x48b674c, size 0x44, virtual false, abstract: false, final false
   inline void set_anchoredPosition_Injected(::ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_drivenByObject, addr 0x48b0d9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_drivenByObject, addr 0x48b6dfc, size 0x44, virtual false, abstract: false, final false
   inline void set_drivenByObject(::UnityEngine::Object* value);
 
-  /// @brief Method set_drivenProperties, addr 0x48b0e1c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_drivenProperties, addr 0x48b6e7c, size 0x44, virtual false, abstract: false, final false
   inline void set_drivenProperties(::UnityEngine::DrivenTransformProperties value);
 
-  /// @brief Method set_offsetMax, addr 0x48b0c64, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_offsetMax, addr 0x48b6cc4, size 0xfc, virtual false, abstract: false, final false
   inline void set_offsetMax(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_offsetMin, addr 0x48b0ad0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method set_offsetMin, addr 0x48b6b30, size 0xf4, virtual false, abstract: false, final false
   inline void set_offsetMin(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pivot, addr 0x48b08dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_pivot, addr 0x48b693c, size 0x48, virtual false, abstract: false, final false
   inline void set_pivot(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pivot_Injected, addr 0x48b0924, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_pivot_Injected, addr 0x48b6984, size 0x44, virtual false, abstract: false, final false
   inline void set_pivot_Injected(::ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_sizeDelta, addr 0x48b07c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_sizeDelta, addr 0x48b6820, size 0x48, virtual false, abstract: false, final false
   inline void set_sizeDelta(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_sizeDelta_Injected, addr 0x48b0808, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sizeDelta_Injected, addr 0x48b6868, size 0x44, virtual false, abstract: false, final false
   inline void set_sizeDelta_Injected(::ByRef<::UnityEngine::Vector2> value);
 
 protected:

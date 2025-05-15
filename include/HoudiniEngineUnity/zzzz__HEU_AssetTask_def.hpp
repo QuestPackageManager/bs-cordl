@@ -133,25 +133,25 @@ public:
   /// @brief Field _position, offset 0x48, size 0xc
   __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) ::UnityEngine::Vector3 _position;
 
-  /// @brief Method CompleteTask, addr 0x3a5c7e0, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method CompleteTask, addr 0x3a61754, size 0x230, virtual true, abstract: false, final false
   inline void CompleteTask(::HoudiniEngineUnity::HEU_Task_TaskResult result);
 
-  /// @brief Method CookCompletedCallback, addr 0x3a5ca10, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x3a61984, size 0x80, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
-  /// @brief Method CookCompletedCallback, addr 0x3a5ca90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x3a61a04, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
 
-  /// @brief Method CookCompletedCallback, addr 0x3a5caa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x3a61a14, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
 
-  /// @brief Method DoTask, addr 0x3a5bfec, size 0x59c, virtual true, abstract: false, final false
+  /// @brief Method DoTask, addr 0x3a60f60, size 0x59c, virtual true, abstract: false, final false
   inline void DoTask();
 
-  /// @brief Method GetTaskSession, addr 0x3a5bf38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetTaskSession, addr 0x3a60eac, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
 
-  /// @brief Method KillTask, addr 0x3a5c5b0, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method KillTask, addr 0x3a61524, size 0x230, virtual true, abstract: false, final false
   inline void KillTask();
 
   static inline ::HoudiniEngineUnity::HEU_AssetTask* New_ctor();
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3a5cab0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a61a24, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

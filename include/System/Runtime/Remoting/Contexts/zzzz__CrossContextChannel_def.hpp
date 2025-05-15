@@ -50,14 +50,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3cdb9a0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3ce0914, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextChannel_ContextRestoreSink*
   New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
-  /// @brief Method SyncProcessMessage, addr 0x3cdb6ec, size 0x2b4, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3ce0660, size 0x2b4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessage* const& __cordl_internal_get__call() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cdb6a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce061c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
@@ -134,16 +134,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3cdb274, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3ce01e8, size 0x434, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextChannel* New_ctor();
 
-  /// @brief Method SyncProcessMessage, addr 0x3cdaeac, size 0x3c8, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3cdfe20, size 0x3c8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3cdb6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce0658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

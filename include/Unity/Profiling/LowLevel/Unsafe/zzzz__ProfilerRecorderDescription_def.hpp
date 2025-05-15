@@ -95,10 +95,10 @@ public:
 
   constexpr void __cordl_internal_set_unitType(::Unity::Profiling::ProfilerMarkerDataUnit value);
 
-  /// @brief Method get_Category, addr 0x485b088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x48610e8, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerCategory get_Category();
 
-  /// @brief Method get_Name, addr 0x485b090, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48610f0, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   // Ctor Parameters []

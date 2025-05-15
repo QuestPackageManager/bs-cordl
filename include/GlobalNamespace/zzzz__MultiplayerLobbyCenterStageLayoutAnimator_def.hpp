@@ -44,18 +44,18 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Move, addr 0x3c089cc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3c0d940, size 0x138, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x3c08948, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x3c0d8bc, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown, addr 0x3c08b04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x3c0da78, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method <Move>b__7_0, addr 0x3c08bac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Move>b__7_0, addr 0x3c0db20, size 0x1c, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3c08ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0db18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -25,16 +25,16 @@ public:
   // Declarations
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type;
 
-  /// @brief Method SetType, addr 0x49d83dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetType, addr 0x49de43c, size 0x54, virtual false, abstract: false, final false
   inline void SetType(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
-  /// @brief Method .ctor, addr 0x49d83c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49de428, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type);
 
-  /// @brief Method get_type, addr 0x49d6f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x49dcf78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType get_type();
 
-  /// @brief Method set_type, addr 0x49d83d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x49de438, size 0x4, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
   // Ctor Parameters []

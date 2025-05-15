@@ -27,10 +27,10 @@ namespace BeatSaber::AvatarCore {
 class CORDL_TYPE BinaryReadWriteHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadColor, addr 0x224b5d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x224f080, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
-  /// @brief Method Write, addr 0x224b548, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x224eff8, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
 
 protected:
@@ -48,7 +48,7 @@ public:
   BinaryReadWriteHelper(BinaryReadWriteHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

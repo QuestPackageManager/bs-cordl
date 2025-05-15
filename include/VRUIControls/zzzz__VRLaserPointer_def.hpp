@@ -40,13 +40,13 @@ public:
 
   static inline ::VRUIControls::VRLaserPointer* New_ctor();
 
-  /// @brief Method SetFadeDistance, addr 0x4aeb9f8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetFadeDistance, addr 0x4af1a58, size 0xf8, virtual false, abstract: false, final false
   inline void SetFadeDistance(float_t distance);
 
-  /// @brief Method SetLocalPosition, addr 0x4aeb968, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPosition, addr 0x4af19c8, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetLocalScale, addr 0x4aeb9b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalScale, addr 0x4af1a10, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalScale(::UnityEngine::Vector3 scale);
 
   constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x4aebaf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af1b50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fadeStartNormalizedDistanceId();
@@ -81,7 +81,7 @@ public:
   VRLaserPointer(VRLaserPointer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18265 };
 
   /// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____renderer;

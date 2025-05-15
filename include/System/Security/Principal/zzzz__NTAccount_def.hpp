@@ -34,18 +34,18 @@ public:
   /// @brief Field _value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
 
-  /// @brief Method Equals, addr 0x3cb476c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3cb96e0, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x3cb486c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3cb97e0, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::Principal::NTAccount* New_ctor(::StringW name);
 
-  /// @brief Method ToString, addr 0x3cb4894, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cb9808, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0x3cb48a0, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method Translate, addr 0x3cb9814, size 0x218, virtual true, abstract: false, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
   constexpr ::StringW const& __cordl_internal_get__value() const;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cb4684, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb95f8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Value, addr 0x3cb4764, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3cb96d8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method op_Equality, addr 0x3cb4804, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3cb9778, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::NTAccount* left, ::System::Security::Principal::NTAccount* right);
 
 protected:

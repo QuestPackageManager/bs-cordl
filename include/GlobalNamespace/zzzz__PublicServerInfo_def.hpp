@@ -26,13 +26,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PublicServerInfo {
 public:
   // Declarations
-  /// @brief Method Deserialize, addr 0x22e0ba8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x22e4658, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x22e0b68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x22e4618, size 0x40, virtual false, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x22e0b5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e460c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW code, int32_t currentPlayerCount);
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr PublicServerInfo(::StringW code, int32_t currentPlayerCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

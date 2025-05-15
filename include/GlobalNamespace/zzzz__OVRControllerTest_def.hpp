@@ -64,18 +64,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE BoolMonitor_OVRControllerTest_BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4028cd4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x402dc48, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4028cf4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x402dc68, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4028cc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x402dc34, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4028c38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402dbac, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -131,12 +131,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x4028b64, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x402dad8, size 0xd4, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(::ByRef<::System::Text::StringBuilder*> sb);
 
   static inline ::GlobalNamespace::OVRControllerTest_BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x4028ad4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x402da48, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x4028a5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402d9d0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* generator, float_t displayTimeout);
 
 protected:
@@ -347,103 +347,103 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerTest___c* New_ctor();
 
-  /// @brief Method <Start>b__4_0, addr 0x4028d80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_0, addr 0x402dcf4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_0();
 
-  /// @brief Method <Start>b__4_1, addr 0x4028dd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_1, addr 0x402dd4c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_1();
 
-  /// @brief Method <Start>b__4_10, addr 0x40290f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_10, addr 0x402e064, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_10();
 
-  /// @brief Method <Start>b__4_11, addr 0x4029148, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_11, addr 0x402e0bc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_11();
 
-  /// @brief Method <Start>b__4_12, addr 0x40291a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_12, addr 0x402e114, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_12();
 
-  /// @brief Method <Start>b__4_13, addr 0x40291f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_13, addr 0x402e16c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_13();
 
-  /// @brief Method <Start>b__4_14, addr 0x4029250, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_14, addr 0x402e1c4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_14();
 
-  /// @brief Method <Start>b__4_15, addr 0x40292a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_15, addr 0x402e21c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_15();
 
-  /// @brief Method <Start>b__4_16, addr 0x4029300, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_16, addr 0x402e274, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_16();
 
-  /// @brief Method <Start>b__4_17, addr 0x4029358, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_17, addr 0x402e2cc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_17();
 
-  /// @brief Method <Start>b__4_18, addr 0x40293b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_18, addr 0x402e324, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_18();
 
-  /// @brief Method <Start>b__4_19, addr 0x4029408, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_19, addr 0x402e37c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_19();
 
-  /// @brief Method <Start>b__4_2, addr 0x4028e30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_2, addr 0x402dda4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_2();
 
-  /// @brief Method <Start>b__4_20, addr 0x4029460, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_20, addr 0x402e3d4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_20();
 
-  /// @brief Method <Start>b__4_21, addr 0x40294b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_21, addr 0x402e42c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_21();
 
-  /// @brief Method <Start>b__4_22, addr 0x4029510, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_22, addr 0x402e484, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_22();
 
-  /// @brief Method <Start>b__4_23, addr 0x4029568, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_23, addr 0x402e4dc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_23();
 
-  /// @brief Method <Start>b__4_24, addr 0x40295c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_24, addr 0x402e534, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_24();
 
-  /// @brief Method <Start>b__4_25, addr 0x4029618, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_25, addr 0x402e58c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_25();
 
-  /// @brief Method <Start>b__4_26, addr 0x4029670, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_26, addr 0x402e5e4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_26();
 
-  /// @brief Method <Start>b__4_27, addr 0x40296c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_27, addr 0x402e63c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_27();
 
-  /// @brief Method <Start>b__4_28, addr 0x4029720, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_28, addr 0x402e694, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_28();
 
-  /// @brief Method <Start>b__4_29, addr 0x4029778, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_29, addr 0x402e6ec, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_29();
 
-  /// @brief Method <Start>b__4_3, addr 0x4028e88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_3, addr 0x402ddfc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_3();
 
-  /// @brief Method <Start>b__4_30, addr 0x40297d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_30, addr 0x402e744, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_30();
 
-  /// @brief Method <Start>b__4_4, addr 0x4028ee0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_4, addr 0x402de54, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_4();
 
-  /// @brief Method <Start>b__4_5, addr 0x4028f38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_5, addr 0x402deac, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_5();
 
-  /// @brief Method <Start>b__4_6, addr 0x4028f90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_6, addr 0x402df04, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_6();
 
-  /// @brief Method <Start>b__4_7, addr 0x4028fe8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_7, addr 0x402df5c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_7();
 
-  /// @brief Method <Start>b__4_8, addr 0x4029040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_8, addr 0x402dfb4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_8();
 
-  /// @brief Method <Start>b__4_9, addr 0x4029098, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_9, addr 0x402e00c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_9();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x4029828, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x402e79c, size 0x108, virtual false, abstract: false, final false
   inline bool __cctor_b__9_0();
 
-  /// @brief Method .ctor, addr 0x4028d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402dcec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRControllerTest___c* getStaticF___9();
@@ -625,10 +625,10 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerTest* New_ctor();
 
-  /// @brief Method Start, addr 0x4025eec, size 0x2160, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x402ae60, size 0x2160, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x402804c, size 0x8d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x402cfc0, size 0x8d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_data() const;
@@ -649,7 +649,7 @@ public:
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x402891c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402d890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRControllerTest_BoolMonitor* getStaticF_controllers();

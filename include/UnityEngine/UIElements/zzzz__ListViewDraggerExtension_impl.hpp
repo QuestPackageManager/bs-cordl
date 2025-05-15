@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(
         &::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromId)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x4a1259c;
+  constexpr static std::size_t addrs = 0x4a185fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(
         &::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromIndex)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x4a16bc8;
+  constexpr static std::size_t addrs = 0x4a1cc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

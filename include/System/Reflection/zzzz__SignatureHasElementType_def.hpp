@@ -58,13 +58,13 @@ public:
   /// @brief Method GetArrayRank, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetArrayRank();
 
-  /// @brief Method GetGenericArguments, addr 0x3d21940, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetGenericArguments, addr 0x3d268b4, size 0x8c, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetGenericArguments();
 
-  /// @brief Method GetGenericTypeDefinition, addr 0x3d218f4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method GetGenericTypeDefinition, addr 0x3d26868, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Type* GetGenericTypeDefinition();
 
-  /// @brief Method HasElementTypeImpl, addr 0x3d218a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasElementTypeImpl, addr 0x3d2681c, size 0x8, virtual true, abstract: false, final true
   inline bool HasElementTypeImpl();
 
   /// @brief Method IsArrayImpl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -78,7 +78,7 @@ public:
 
   static inline ::System::Reflection::SignatureHasElementType* New_ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method ToString, addr 0x3d21b1c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x3d26a90, size 0x54, virtual true, abstract: false, final true
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::SignatureType* const& __cordl_internal_get__elementType() const;
@@ -87,31 +87,31 @@ public:
 
   constexpr void __cordl_internal_set__elementType(::System::Reflection::SignatureType* value);
 
-  /// @brief Method .ctor, addr 0x3d21154, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d260c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method get_ContainsGenericParameters, addr 0x3d218c8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_ContainsGenericParameters, addr 0x3d2683c, size 0x24, virtual true, abstract: false, final true
   inline bool get_ContainsGenericParameters();
 
-  /// @brief Method get_ElementType, addr 0x3d218ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ElementType, addr 0x3d26860, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::SignatureType* get_ElementType();
 
-  /// @brief Method get_GenericParameterPosition, addr 0x3d21a58, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_GenericParameterPosition, addr 0x3d269cc, size 0x4c, virtual true, abstract: false, final true
   inline int32_t get_GenericParameterPosition();
 
-  /// @brief Method get_GenericTypeArguments, addr 0x3d219cc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method get_GenericTypeArguments, addr 0x3d26940, size 0x8c, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_GenericTypeArguments();
 
-  /// @brief Method get_IsConstructedGenericType, addr 0x3d218b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsConstructedGenericType, addr 0x3d26824, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsConstructedGenericType();
 
-  /// @brief Method get_IsGenericMethodParameter, addr 0x3d218c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsGenericMethodParameter, addr 0x3d26834, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsGenericMethodParameter();
 
-  /// @brief Method get_IsGenericParameter, addr 0x3d218b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsGenericParameter, addr 0x3d2682c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsGenericParameter();
 
-  /// @brief Method get_IsGenericTypeDefinition, addr 0x3d218a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsGenericTypeDefinition, addr 0x3d26814, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsGenericTypeDefinition();
 
   /// @brief Method get_IsSZArray, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -120,10 +120,10 @@ public:
   /// @brief Method get_IsVariableBoundArray, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsVariableBoundArray();
 
-  /// @brief Method get_Name, addr 0x3d21aa4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x3d26a18, size 0x54, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x3d21af8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Namespace, addr 0x3d26a6c, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_Namespace();
 
   /// @brief Method get_Suffix, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

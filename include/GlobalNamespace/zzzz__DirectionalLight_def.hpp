@@ -41,10 +41,10 @@ public:
 
   static inline ::GlobalNamespace::DirectionalLight* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39d86b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39dd62c, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39d85ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39dd560, size 0xcc, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
@@ -65,14 +65,14 @@ public:
 
   constexpr void __cordl_internal_set_radius(float_t value);
 
-  /// @brief Method .ctor, addr 0x39d8738, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dd6ac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* getStaticF__lights();
 
   static inline ::UnityW<::GlobalNamespace::DirectionalLight> getStaticF__mainLight();
 
-  /// @brief Method get_lights, addr 0x39d8594, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x39dd508, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* get_lights();
 
   static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* value);
@@ -94,7 +94,7 @@ public:
   DirectionalLight(DirectionalLight const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16284 };
 
   /// @brief Field kMaxLights offset 0xffffffff size 0x4
   static constexpr int32_t kMaxLights{ static_cast<int32_t>(0x5) };

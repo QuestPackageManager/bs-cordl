@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::ConnectionManagementSection::*)()>(
     &::System::Net::Configuration::ConnectionManagementSection::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44026a0;
+  constexpr static std::size_t addrs = 0x4407614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (
     ::System::Net::Configuration::ConnectionManagementSection::*)()>(&::System::Net::Configuration::ConnectionManagementSection::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44026d8;
+  constexpr static std::size_t addrs = 0x440764c;
 
   inline static ::MethodInfo const* methodInfo() {
 

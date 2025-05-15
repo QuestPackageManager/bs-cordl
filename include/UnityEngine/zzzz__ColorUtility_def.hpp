@@ -22,7 +22,7 @@ namespace UnityEngine {
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToHtmlStringRGB, addr 0x48980c4, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ToHtmlStringRGB, addr 0x489e124, size 0x3e8, virtual false, abstract: false, final false
   static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
 protected:

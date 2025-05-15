@@ -86,7 +86,7 @@ public:
   /// @brief Field x509Crls, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_x509Crls, put = __cordl_internal_set_x509Crls)) ::Org::BouncyCastle::X509::Store::IX509Store* x509Crls;
 
-  /// @brief Method Generate, addr 0x25c86ec, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x25cc19c, size 0x664, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampToken* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber, ::System::DateTime genTime);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
@@ -96,25 +96,25 @@ public:
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
                                                                             ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method SetAccuracyMicros, addr 0x25ca970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMicros, addr 0x25ce420, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMicros(int32_t accuracyMicros);
 
-  /// @brief Method SetAccuracyMillis, addr 0x25ca968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMillis, addr 0x25ce418, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMillis(int32_t accuracyMillis);
 
-  /// @brief Method SetAccuracySeconds, addr 0x25ca960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracySeconds, addr 0x25ce410, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracySeconds(int32_t accuracySeconds);
 
-  /// @brief Method SetCertificates, addr 0x25ca950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCertificates, addr 0x25ce400, size 0x8, virtual false, abstract: false, final false
   inline void SetCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certificates);
 
-  /// @brief Method SetCrls, addr 0x25ca958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCrls, addr 0x25ce408, size 0x8, virtual false, abstract: false, final false
   inline void SetCrls(::Org::BouncyCastle::X509::Store::IX509Store* crls);
 
-  /// @brief Method SetOrdering, addr 0x25ca978, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOrdering, addr 0x25ce428, size 0xc, virtual false, abstract: false, final false
   inline void SetOrdering(bool ordering);
 
-  /// @brief Method SetTsa, addr 0x25ca984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTsa, addr 0x25ce434, size 0x8, virtual false, abstract: false, final false
   inline void SetTsa(::Org::BouncyCastle::Asn1::X509::GeneralName* tsa);
 
   constexpr int32_t const& __cordl_internal_get_accuracyMicros() const;
@@ -195,10 +195,10 @@ public:
 
   constexpr void __cordl_internal_set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  /// @brief Method .ctor, addr 0x25ca534, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cdfe4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID);
 
-  /// @brief Method .ctor, addr 0x25ca540, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cdff0, size 0x410, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID,
                     ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 

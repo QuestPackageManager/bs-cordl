@@ -116,6 +116,8 @@ module;
 #include "UnityEngine/ClassLibraryInitializer.hpp"
 #include "UnityEngine/ClosestPointCommand.hpp"
 #include "UnityEngine/Cloth.hpp"
+#include "UnityEngine/ClothSkinningCoefficient.hpp"
+#include "UnityEngine/ClothSphereColliderPair.hpp"
 #include "UnityEngine/Collider.hpp"
 #include "UnityEngine/Collider2D.hpp"
 #include "UnityEngine/ColliderHit.hpp"

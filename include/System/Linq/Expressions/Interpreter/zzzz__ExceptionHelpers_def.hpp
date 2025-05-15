@@ -21,7 +21,7 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UnwrapAndRethrow, addr 0x40e1428, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnwrapAndRethrow, addr 0x40e639c, size 0x1c, virtual false, abstract: false, final false
   static inline void UnwrapAndRethrow(::System::Reflection::TargetInvocationException* exception);
 
 protected:
@@ -39,7 +39,7 @@ public:
   ExceptionHelpers(ExceptionHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

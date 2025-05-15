@@ -37,27 +37,27 @@ public:
   /// @brief Field _tasks, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _tasks;
 
-  /// @brief Method AddTask, addr 0x3a62a30, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddTask, addr 0x3a679a4, size 0xe8, virtual false, abstract: false, final false
   inline void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
 
-  /// @brief Method CreateInstance, addr 0x3a6264c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3a675c0, size 0x4, virtual false, abstract: false, final false
   static inline void CreateInstance();
 
-  /// @brief Method Finalize, addr 0x3a62650, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3a675c4, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* New_ctor();
 
-  /// @brief Method Register, addr 0x3a6265c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3a675d0, size 0x4, virtual false, abstract: false, final false
   inline void Register();
 
-  /// @brief Method RemoveTask, addr 0x3a62b18, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RemoveTask, addr 0x3a67a8c, size 0xe8, virtual false, abstract: false, final false
   inline void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
 
-  /// @brief Method Unregister, addr 0x3a62658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x3a675cc, size 0x4, virtual false, abstract: false, final false
   inline void Unregister();
 
-  /// @brief Method Update, addr 0x3a62660, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a675d4, size 0x3d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* const& __cordl_internal_get__pendingAdd() const;
@@ -78,12 +78,12 @@ public:
 
   constexpr void __cordl_internal_set__tasks(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* value);
 
-  /// @brief Method .ctor, addr 0x3a62c00, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a67b74, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x3a62604, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3a67578, size 0x48, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
 
   static inline void setStaticF__instance(::HoudiniEngineUnity::HEU_ThreadManager* value);

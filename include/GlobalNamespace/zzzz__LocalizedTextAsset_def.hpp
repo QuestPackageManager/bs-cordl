@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedText(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x3b11ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16a4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,10 +119,10 @@ public:
 
   static inline ::GlobalNamespace::LocalizedTextAsset___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b11b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16ab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__6_0, addr 0x3b11b44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__6_0, addr 0x3b16ab8, size 0x20, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__6_0(::GlobalNamespace::LocalizedTextAsset_TextInfo* t);
 
   static inline ::GlobalNamespace::LocalizedTextAsset___c* getStaticF___9();
@@ -174,10 +174,10 @@ public:
 
   constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x3b11ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16a3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__1, addr 0x3b11b64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__1, addr 0x3b16ad8, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__1(::GlobalNamespace::LocalizedTextAsset_TextInfo* t);
 
 protected:
@@ -247,13 +247,13 @@ public:
 
   constexpr void __cordl_internal_set__textInfos(::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*, ::Array<::GlobalNamespace::LocalizedTextAsset_TextInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b11ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x3b117c4, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x3b16738, size 0x304, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
-  /// @brief Method get_textInfos, addr 0x3b117bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textInfos, addr 0x3b16730, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*, ::Array<::GlobalNamespace::LocalizedTextAsset_TextInfo*>*> get_textInfos();
 
 protected:

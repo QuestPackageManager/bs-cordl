@@ -51,7 +51,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ListView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49ecf60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2fc0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ListView_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49ecfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f3008, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,10 +145,10 @@ public:
 
   __declspec(property(get = get_unbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* unbindItem;
 
-  /// @brief Method CreateViewController, addr 0x49ece9c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x49f2efc, size 0x54, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x49ece5c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x49f2ebc, size 0x40, virtual true, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
   static inline ::UnityEngine::UIElements::ListView* New_ctor();
@@ -177,19 +177,19 @@ public:
 
   constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x49ecef0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2f50, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bindItem, addr 0x49ece44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x49f2ea4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_destroyItem, addr 0x49ece54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x49f2eb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_makeItem, addr 0x49ece3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x49f2e9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_unbindItem, addr 0x49ece4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x49f2eac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlBooleanConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlBooleanConverter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x42ddde8;
+  constexpr static std::size_t addrs = 0x42e2d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlBooleanConverter::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42dde50;
+  constexpr static std::size_t addrs = 0x42e2dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBooleanConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlBooleanConverter::ToBoolean)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42ddea8;
+  constexpr static std::size_t addrs = 0x42e2e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBooleanConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBooleanConverter::ToBoolean)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x42ddf4c;
+  constexpr static std::size_t addrs = 0x42e2ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBooleanConverter::*)(bool)>(
     &::System::Xml::Schema::XmlBooleanConverter::ToString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42de22c;
+  constexpr static std::size_t addrs = 0x42e31a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBooleanConverter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlBooleanConverter::ToString)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x42de284;
+  constexpr static std::size_t addrs = 0x42e31f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBooleanConverter::*)(bool, ::System::Type*)>(
     &::System::Xml::Schema::XmlBooleanConverter::ChangeType)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x42de53c;
+  constexpr static std::size_t addrs = 0x42e34b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlBooleanConverter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlBooleanConverter::ChangeType)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x42de85c;
+  constexpr static std::size_t addrs = 0x42e37d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlBooleanConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlBooleanConverter::ChangeType)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x42deb90;
+  constexpr static std::size_t addrs = 0x42e3b04;
 
   inline static ::MethodInfo const* methodInfo() {
 

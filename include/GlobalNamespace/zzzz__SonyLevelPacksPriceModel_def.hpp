@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__pricePerBundle(float_t value);
 
-  /// @brief Method .ctor, addr 0x26e8d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ec84c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelsCount, addr 0x26e8d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsCount, addr 0x26ec844, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelsCount();
 
-  /// @brief Method get_pricePerBundle, addr 0x26e8d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pricePerBundle, addr 0x26ec83c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pricePerBundle();
 
 protected:
@@ -118,7 +118,7 @@ public:
 
   __declspec(property(get = get_pricePerLevel)) float_t pricePerLevel;
 
-  /// @brief Method GetPricePerBundlePair, addr 0x26e8cac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetPricePerBundlePair, addr 0x26ec77c, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair* GetPricePerBundlePair(int32_t levelsCount);
 
   static inline ::GlobalNamespace::SonyLevelPacksPriceModel* New_ctor();
@@ -138,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set__pricePerLevel(float_t value);
 
-  /// @brief Method .ctor, addr 0x26e8d08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ec7d8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pricePairBundlePairs, addr 0x26e8ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pricePairBundlePairs, addr 0x26ec774, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair*, ::Array<::GlobalNamespace::SonyLevelPacksPriceModel_PricePerBundlePair*>*> get_pricePairBundlePairs();
 
-  /// @brief Method get_pricePerLevel, addr 0x26e8c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pricePerLevel, addr 0x26ec76c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pricePerLevel();
 
 protected:

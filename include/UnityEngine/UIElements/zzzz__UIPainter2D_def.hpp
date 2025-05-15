@@ -21,13 +21,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIPainter2D : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x4a3c590, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4a425f0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(bool computeBBox);
 
-  /// @brief Method Destroy, addr 0x4a3c5cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x4a4262c, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr handle);
 
-  /// @brief Method Reset, addr 0x4a3c608, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a42668, size 0x3c, virtual false, abstract: false, final false
   static inline void Reset(::System::IntPtr handle);
 
 protected:

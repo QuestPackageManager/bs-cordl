@@ -76,7 +76,7 @@ public:
   static ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop const SinglePassInstanced;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17419 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -131,7 +131,7 @@ public:
   static ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid const Multiview;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17420 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -186,7 +186,7 @@ public:
   static ::Unity::XR::Oculus::OculusSettings_FoveationMethod const FixedFoveatedRendering;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -279,10 +279,10 @@ public:
   /// @brief Field s_Settings, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Settings, put = setStaticF_s_Settings)) ::UnityW<::Unity::XR::Oculus::OculusSettings> s_Settings;
 
-  /// @brief Method Awake, addr 0x4832b44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4837ab8, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetStereoRenderingMode, addr 0x482f2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetStereoRenderingMode, addr 0x4834260, size 0x8, virtual false, abstract: false, final false
   inline uint16_t GetStereoRenderingMode();
 
   static inline ::Unity::XR::Oculus::OculusSettings* New_ctor();
@@ -401,7 +401,7 @@ public:
 
   constexpr void __cordl_internal_set_m_StereoRenderingModeDesktop(::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop value);
 
-  /// @brief Method .ctor, addr 0x4832b90, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4837b04, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::Unity::XR::Oculus::OculusSettings> getStaticF_s_Settings();
@@ -423,7 +423,7 @@ public:
   OculusSettings(OculusSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17422 };
 
   /// @brief Field m_StereoRenderingModeDesktop, offset: 0x18, size: 0x4, def value: None
   ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop ___m_StereoRenderingModeDesktop;

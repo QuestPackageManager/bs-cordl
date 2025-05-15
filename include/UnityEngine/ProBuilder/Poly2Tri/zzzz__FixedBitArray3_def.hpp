@@ -54,28 +54,28 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method Clear, addr 0x46f7f20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x46fce94, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x46fa440, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x46ff3b4, size 0x50, virtual false, abstract: false, final false
   inline void Clear(bool value);
 
-  /// @brief Method Contains, addr 0x46fa380, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x46ff2f4, size 0x74, virtual false, abstract: false, final false
   inline bool Contains(bool value);
 
-  /// @brief Method Enumerate, addr 0x46fa490, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Enumerate, addr 0x46ff404, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<bool>* Enumerate();
 
-  /// @brief Method GetEnumerator, addr 0x46fa540, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x46ff4b4, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<bool>* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x46fa3f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x46ff368, size 0x4c, virtual false, abstract: false, final false
   inline int32_t IndexOf(bool value);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x46fa5e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x46ff55c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Item, addr 0x46f42ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x46f9260, size 0x64, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
@@ -84,7 +84,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
-  /// @brief Method set_Item, addr 0x46f469c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x46f9610, size 0x68, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
 
   // Ctor Parameters []
@@ -96,7 +96,7 @@ public:
   constexpr FixedBitArray3(bool _0, bool _1, bool _2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17854 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
@@ -167,27 +167,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x46fa5f0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x46ff564, size 0x70, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator, addr 0x46fa6fc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator, addr 0x46ff670, size 0xac, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<bool>* System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Boolean>.get_Current, addr 0x46fa660, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Boolean>.get_Current, addr 0x46ff5d4, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IEnumerator_System_Boolean__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x46fa7a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x46ff71c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x46fa668, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x46ff5dc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x46fa6a0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x46ff614, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x46fa5ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x46ff560, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
-  /// @brief Method .ctor, addr 0x46fa50c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ff480, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
@@ -259,7 +259,7 @@ public:
   FixedBitArray3__Enumerate_d__10(FixedBitArray3__Enumerate_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17853 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;

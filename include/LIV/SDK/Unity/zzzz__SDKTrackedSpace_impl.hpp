@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKTrackedSpace (*)()>(&::LIV::SDK::Unity::SDKTrackedSpace::get_empty)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ac31bc;
+  constexpr static std::size_t addrs = 0x3ac8130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTrackedSpace>::get(), "get_empty",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKTrackedSpace::*)()>(&::LIV::SDK::Unity::SDKTrackedSpace::ToString)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3ac32e4;
+  constexpr static std::size_t addrs = 0x3ac8258;
 
   inline static ::MethodInfo const* methodInfo() {
 

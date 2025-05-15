@@ -41,15 +41,15 @@ public:
   /// @brief Field _yAngle, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__yAngle, put = __cordl_internal_set__yAngle)) float_t _yAngle;
 
-  /// @brief Method FixedUpdate, addr 0x3b97b4c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b9cac0, size 0x178, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x3b97cc4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b9cc38, size 0x88, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FlyingGameHUDRotation* New_ctor();
 
-  /// @brief Method Start, addr 0x3b97a70, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9c9e4, size 0xdc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BeatLineManager> const& __cordl_internal_get__beatLineManager() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__yAngle(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b97d4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9ccc0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

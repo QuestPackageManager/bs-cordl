@@ -41,10 +41,10 @@ public:
   /// @brief Field contentsOfAdmissions, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_contentsOfAdmissions, put = __cordl_internal_set_contentsOfAdmissions)) ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions;
 
-  /// @brief Method GetContentsOfAdmissions, addr 0x23fa24c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetContentsOfAdmissions, addr 0x23fdcfc, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*, ::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>*> GetContentsOfAdmissions();
 
-  /// @brief Method GetInstance, addr 0x23f9e3c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23fd8ec, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
@@ -52,7 +52,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23fa130, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23fdbe0, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& __cordl_internal_get_admissionAuthority() const;
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set_contentsOfAdmissions(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x23fa104, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fdbb4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority, ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions);
 
-  /// @brief Method .ctor, addr 0x23f9fb8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fda68, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AdmissionAuthority, addr 0x23fa244, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AdmissionAuthority, addr 0x23fdcf4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_AdmissionAuthority();
 
 protected:

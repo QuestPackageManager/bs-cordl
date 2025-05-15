@@ -53,22 +53,22 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x4ae6f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aecfd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onProcessMousePressEvent, addr 0x4ae6cb0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onProcessMousePressEvent, addr 0x4aecd10, size 0xb0, virtual true, abstract: false, final true
   inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_pointerDidClickEvent, addr 0x4ae6e10, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_pointerDidClickEvent, addr 0x4aece70, size 0xb0, virtual true, abstract: false, final true
   inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Convert to "::GlobalNamespace::IVRInputModule"
   constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
 
-  /// @brief Method remove_onProcessMousePressEvent, addr 0x4ae6d60, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onProcessMousePressEvent, addr 0x4aecdc0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_pointerDidClickEvent, addr 0x4ae6ec0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_pointerDidClickEvent, addr 0x4aecf20, size 0xb0, virtual true, abstract: false, final true
   inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   NoVRInputModule(NoVRInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18253 };
 
   /// @brief Field onProcessMousePressEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___onProcessMousePressEvent;

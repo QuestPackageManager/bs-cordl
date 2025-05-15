@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_EmitDefaultValue, addr 0x4230c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x4235bb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
-  /// @brief Method get_IsRequired, addr 0x4230c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x4235ba8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_Name, addr 0x4230c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4235b98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x4230c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x4235ba0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -91,7 +91,7 @@ public:
   DataMemberAttribute(DataMemberAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19250 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;

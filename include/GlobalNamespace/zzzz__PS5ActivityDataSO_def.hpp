@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__activityId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e7df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb8c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activityId, addr 0x26e7e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activityId, addr 0x26eb8e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_activityId();
 
 protected:

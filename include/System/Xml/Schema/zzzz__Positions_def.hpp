@@ -35,7 +35,7 @@ public:
   /// @brief Field positions, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions)) ::System::Collections::ArrayList* positions;
 
-  /// @brief Method Add, addr 0x4396e2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x439bda0, size 0x90, virtual false, abstract: false, final false
   inline int32_t Add(int32_t symbol, ::System::Object* particle);
 
   static inline ::System::Xml::Schema::Positions* New_ctor();
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_positions(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x4396f70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439bee4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x4396f4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x439bec0, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x4396ebc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x439be30, size 0x90, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Position get_Item(int32_t pos);
 
 protected:

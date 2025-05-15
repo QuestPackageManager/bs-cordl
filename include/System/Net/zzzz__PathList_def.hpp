@@ -48,10 +48,10 @@ public:
 
   static inline ::System::Net::PathList_PathListComparer* New_ctor();
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x44b0370, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x44b52e4, size 0x168, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
-  /// @brief Method .ctor, addr 0x44b04d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b544c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::PathList_PathListComparer* getStaticF_StaticInstance();
@@ -104,10 +104,10 @@ public:
   /// @brief Field m_list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_list, put = __cordl_internal_set_m_list)) ::System::Collections::SortedList* m_list;
 
-  /// @brief Method GetCookiesCount, addr 0x44ac960, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method GetCookiesCount, addr 0x44b18d4, size 0x44c, virtual false, abstract: false, final false
   inline int32_t GetCookiesCount();
 
-  /// @brief Method GetEnumerator, addr 0x44afc14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x44b4b88, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Net::PathList* New_ctor();
@@ -118,22 +118,22 @@ public:
 
   constexpr void __cordl_internal_set_m_list(::System::Collections::SortedList* value);
 
-  /// @brief Method .ctor, addr 0x44ac8c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b1834, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x44ae5c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x44b3538, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x44acdd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x44b1d44, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::StringW s);
 
-  /// @brief Method get_SyncRoot, addr 0x44acdac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x44b1d20, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x44ae430, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x44b33a4, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method set_Item, addr 0x44acdf4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x44b1d68, size 0xfc, virtual false, abstract: false, final false
   inline void set_Item(::StringW s, ::System::Object* value);
 
 protected:

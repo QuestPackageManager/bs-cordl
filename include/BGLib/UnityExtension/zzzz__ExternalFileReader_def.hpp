@@ -45,10 +45,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22b2ff0, size 0x714, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b6aa0, size 0x714, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22b3890, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22b7340, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -67,7 +67,7 @@ public:
                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17173 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -112,7 +112,7 @@ public:
   // Declarations
   using _ExistsAsync_d__0 = ::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0;
 
-  /// @brief Method ExistsAsync, addr 0x22b2efc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ExistsAsync, addr 0x22b69ac, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ExistsAsync(::StringW filePath);
 
 protected:
@@ -130,7 +130,7 @@ public:
   ExternalFileReader(ExternalFileReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

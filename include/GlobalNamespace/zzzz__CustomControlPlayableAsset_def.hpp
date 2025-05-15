@@ -29,10 +29,10 @@ public:
 
   static inline ::GlobalNamespace::CustomControlPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b2f360, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b342d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3b2f358, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3b342cc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

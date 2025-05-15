@@ -33,7 +33,7 @@ public:
   /// @brief Field _gameCoreSceneInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
 
-  /// @brief Method Init, addr 0x3b36a74, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b3b9e8, size 0x1d8, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO* New_ctor();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  /// @brief Method .ctor, addr 0x3b36c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3bbc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

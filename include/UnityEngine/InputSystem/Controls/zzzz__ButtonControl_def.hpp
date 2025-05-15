@@ -36,7 +36,7 @@ public:
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  /// @brief Method IsValueConsideredPressed, addr 0x455ceb4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsValueConsideredPressed, addr 0x4561e28, size 0x6c, virtual false, abstract: false, final false
   inline bool IsValueConsideredPressed(float_t value);
 
   static inline ::UnityEngine::InputSystem::Controls::ButtonControl* New_ctor();
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  /// @brief Method .ctor, addr 0x455c53c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45614b0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonPressPoint();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonReleaseThreshold();
 
-  /// @brief Method get_isPressed, addr 0x455cf20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x4561e94, size 0xa0, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x455ce48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x4561dbc, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_wasPressedThisFrame, addr 0x455cfc0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_wasPressedThisFrame, addr 0x4561f34, size 0x128, virtual false, abstract: false, final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame, addr 0x455d0e8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_wasReleasedThisFrame, addr 0x456205c, size 0x128, virtual false, abstract: false, final false
   inline bool get_wasReleasedThisFrame();
 
   static inline void setStaticF_s_GlobalDefaultButtonPressPoint(float_t value);

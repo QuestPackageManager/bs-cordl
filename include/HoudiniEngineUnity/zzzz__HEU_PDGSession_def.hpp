@@ -150,100 +150,100 @@ public:
   /// @brief Field _pdgState, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__pdgState, put = __cordl_internal_set__pdgState)) ::HoudiniEngineUnity::HAPI_PDG_State _pdgState;
 
-  /// @brief Method AddAsset, addr 0x3a4e4c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddAsset, addr 0x3a5343c, size 0x4, virtual false, abstract: false, final false
   inline void AddAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* asset);
 
-  /// @brief Method AddEventMessage, addr 0x3a4ed44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddEventMessage, addr 0x3a53cb8, size 0x1c, virtual false, abstract: false, final false
   inline void AddEventMessage(::StringW msg);
 
-  /// @brief Method CancelCook, addr 0x3a4d2fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CancelCook, addr 0x3a52270, size 0x4, virtual false, abstract: false, final false
   inline void CancelCook(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
 
-  /// @brief Method CleanUp, addr 0x3a4e4d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x3a53444, size 0xfc, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method ClearErrorState, addr 0x3a4e96c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ClearErrorState, addr 0x3a538e0, size 0x4c, virtual false, abstract: false, final false
   inline void ClearErrorState();
 
-  /// @brief Method ClearEventMessages, addr 0x3a4ed80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ClearEventMessages, addr 0x3a53cf4, size 0x20, virtual false, abstract: false, final false
   inline void ClearEventMessages();
 
-  /// @brief Method ClearWorkItemResult, addr 0x3a4ed40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ClearWorkItemResult, addr 0x3a53cb4, size 0x4, virtual false, abstract: false, final false
   inline void ClearWorkItemResult(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t contextID, ::HoudiniEngineUnity::HAPI_PDG_EventInfo eventInfo,
                                   ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method CookTOPNetworkOutputNode, addr 0x3a4d234, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CookTOPNetworkOutputNode, addr 0x3a521a8, size 0x4, virtual false, abstract: false, final false
   inline void CookTOPNetworkOutputNode(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
 
-  /// @brief Method CookTOPNode, addr 0x3a4d150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CookTOPNode, addr 0x3a520c4, size 0x8, virtual false, abstract: false, final false
   inline bool CookTOPNode(int32_t nodeID);
 
-  /// @brief Method DirtyAll, addr 0x3a4d178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DirtyAll, addr 0x3a520ec, size 0x8, virtual false, abstract: false, final false
   inline bool DirtyAll(int32_t nodeID);
 
-  /// @brief Method DirtyTOPNode, addr 0x3a4d128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DirtyTOPNode, addr 0x3a5209c, size 0x8, virtual false, abstract: false, final false
   inline bool DirtyTOPNode(int32_t nodeID);
 
-  /// @brief Method GetEventMessages, addr 0x3a4ed60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetEventMessages, addr 0x3a53cd4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetEventMessages();
 
-  /// @brief Method GetHAPIPDGSession, addr 0x3a4e9b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetHAPIPDGSession, addr 0x3a5392c, size 0x68, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetHAPIPDGSession(bool bCreate);
 
-  /// @brief Method GetPDGSession, addr 0x3a4adc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPDGSession, addr 0x3a4fd38, size 0x74, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_PDGSession* GetPDGSession();
 
-  /// @brief Method GetTOPAssetLinkAndNode, addr 0x3a4e5d8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetTOPAssetLinkAndNode, addr 0x3a5354c, size 0x100, virtual false, abstract: false, final false
   inline bool GetTOPAssetLinkAndNode(int32_t nodeID, ::ByRef<::HoudiniEngineUnity::HEU_PDGAssetLink*> assetLink, ::ByRef<::HoudiniEngineUnity::HEU_TOPNodeData*> topNode);
 
   static inline ::HoudiniEngineUnity::HEU_PDGSession* New_ctor();
 
-  /// @brief Method NotifyTOPNodeCookedWorkItem, addr 0x3a4e7a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NotifyTOPNodeCookedWorkItem, addr 0x3a53718, size 0x48, virtual false, abstract: false, final false
   inline void NotifyTOPNodeCookedWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method NotifyTOPNodeCookingWorkItem, addr 0x3a4e8cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NotifyTOPNodeCookingWorkItem, addr 0x3a53840, size 0x4c, virtual false, abstract: false, final false
   inline void NotifyTOPNodeCookingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int32_t inc);
 
-  /// @brief Method NotifyTOPNodeErrorWorkItem, addr 0x3a4e7ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NotifyTOPNodeErrorWorkItem, addr 0x3a53760, size 0x48, virtual false, abstract: false, final false
   inline void NotifyTOPNodeErrorWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method NotifyTOPNodePDGStateClear, addr 0x3a4e710, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NotifyTOPNodePDGStateClear, addr 0x3a53684, size 0x48, virtual false, abstract: false, final false
   inline void NotifyTOPNodePDGStateClear(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method NotifyTOPNodeScheduledWorkItem, addr 0x3a4e880, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NotifyTOPNodeScheduledWorkItem, addr 0x3a537f4, size 0x4c, virtual false, abstract: false, final false
   inline void NotifyTOPNodeScheduledWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int32_t inc);
 
-  /// @brief Method NotifyTOPNodeTotalWorkItem, addr 0x3a4e758, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NotifyTOPNodeTotalWorkItem, addr 0x3a536cc, size 0x4c, virtual false, abstract: false, final false
   inline void NotifyTOPNodeTotalWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int32_t inc);
 
-  /// @brief Method NotifyTOPNodeWaitingWorkItem, addr 0x3a4e834, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NotifyTOPNodeWaitingWorkItem, addr 0x3a537a8, size 0x4c, virtual false, abstract: false, final false
   inline void NotifyTOPNodeWaitingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int32_t inc);
 
-  /// @brief Method PauseCook, addr 0x3a4d298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PauseCook, addr 0x3a5220c, size 0x4, virtual false, abstract: false, final false
   inline void PauseCook(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
 
-  /// @brief Method ProcessPDGEvent, addr 0x3a4e5d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ProcessPDGEvent, addr 0x3a53548, size 0x4, virtual false, abstract: false, final false
   inline void ProcessPDGEvent(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t contextID, ::ByRef<::HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
 
-  /// @brief Method ReinitializePDGContext, addr 0x3a4e5d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReinitializePDGContext, addr 0x3a53544, size 0x4, virtual false, abstract: false, final false
   inline void ReinitializePDGContext();
 
-  /// @brief Method RemoveAsset, addr 0x3a4ae38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveAsset, addr 0x3a4fdac, size 0x4, virtual false, abstract: false, final false
   inline void RemoveAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* asset);
 
-  /// @brief Method ResetPDGEventInfo, addr 0x3a4e918, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ResetPDGEventInfo, addr 0x3a5388c, size 0x14, virtual false, abstract: false, final false
   static inline void ResetPDGEventInfo(::ByRef<::HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
 
-  /// @brief Method SetErrorState, addr 0x3a4e92c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetErrorState, addr 0x3a538a0, size 0x40, virtual false, abstract: false, final false
   inline void SetErrorState(::StringW msg, bool bLogIt);
 
-  /// @brief Method SetTOPNodePDGState, addr 0x3a4e6d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetTOPNodePDGState, addr 0x3a5364c, size 0x38, virtual false, abstract: false, final false
   inline void SetTOPNodePDGState(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::HoudiniEngineUnity::HEU_TOPNodeData_PDGState pdgState);
 
-  /// @brief Method Update, addr 0x3a4e4cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a53440, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePDGContext, addr 0x3a4e5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdatePDGContext, addr 0x3a53540, size 0x4, virtual false, abstract: false, final false
   inline void UpdatePDGContext();
 
   constexpr ::StringW const& __cordl_internal_get__errorMsg() const;
@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set__pdgState(::HoudiniEngineUnity::HAPI_PDG_State value);
 
-  /// @brief Method .ctor, addr 0x3a4e36c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a532e0, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::HEU_PDGSession* getStaticF__pdgSession();

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::CustomRenderTexture*)>(
     &::UnityEngine::CustomRenderTextureManager::InvokeOnTextureLoaded_Internal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x486e668;
+  constexpr static std::size_t addrs = 0x48746c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::CustomRenderTexture*)>(
     &::UnityEngine::CustomRenderTextureManager::InvokeOnTextureUnloaded_Internal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x486e6d4;
+  constexpr static std::size_t addrs = 0x4874734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

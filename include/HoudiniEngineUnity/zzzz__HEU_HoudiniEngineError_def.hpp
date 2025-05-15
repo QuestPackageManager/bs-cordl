@@ -26,7 +26,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* New_ctor(::StringW errorMsg);
 
-  /// @brief Method ToString, addr 0x3a3adb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a3fd24, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__errorMsg() const;
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__errorMsg(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a3acac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3fc20, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3a3ad28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3fc9c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMsg);
 
 protected:

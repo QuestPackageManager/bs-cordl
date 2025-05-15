@@ -24,18 +24,18 @@ namespace Zenject {
 class CORDL_TYPE ZenjectManagersInstaller : public ::Zenject::Installer_1<::Zenject::ZenjectManagersInstaller*> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x4b2753c, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4b2d59c, size 0x1bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ZenjectManagersInstaller* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4b27740, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b2d7a0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b27790, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2d7f0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b276f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2d758, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -42,7 +42,7 @@ public:
   constexpr TrailElementCollection_InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18836 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -84,28 +84,28 @@ public:
   /// @brief Field _totalDistance, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__totalDistance, put = __cordl_internal_set__totalDistance)) float_t _totalDistance;
 
-  /// @brief Method GetElement, addr 0x40845b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x408952c, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TrailElement* GetElement(int32_t index);
 
-  /// @brief Method InitSnapshots, addr 0x4082a84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InitSnapshots, addr 0x40879f8, size 0x90, virtual false, abstract: false, final false
   inline void InitSnapshots(::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method Interpolate, addr 0x4083efc, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x4088e70, size 0x294, virtual false, abstract: false, final false
   inline void Interpolate(float_t t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState> lerpState, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Vector3> normal,
                           ::ByRef<float_t> time);
 
-  /// @brief Method MoveTailToHead, addr 0x4082fc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method MoveTailToHead, addr 0x4087f3c, size 0x9c, virtual false, abstract: false, final false
   inline void MoveTailToHead();
 
   static inline ::GlobalNamespace::TrailElementCollection* New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method SetHeadData, addr 0x4082f14, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetHeadData, addr 0x4087e88, size 0xb4, virtual false, abstract: false, final false
   inline void SetHeadData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method UpdateDistances, addr 0x4083064, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UpdateDistances, addr 0x4087fd8, size 0x7c, virtual false, abstract: false, final false
   inline void UpdateDistances();
 
-  /// @brief Method UpdateLerpState, addr 0x40844a0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateLerpState, addr 0x4089414, size 0x118, virtual false, abstract: false, final false
   inline void UpdateLerpState(float_t t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState> interpolationState);
 
   constexpr int32_t const& __cordl_internal_get__capacity() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__totalDistance(float_t value);
 
-  /// @brief Method .ctor, addr 0x40826d4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4087648, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
 protected:
@@ -150,7 +150,7 @@ public:
   TrailElementCollection(TrailElementCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18837 };
 
   /// @brief Field _capacity, offset: 0x10, size: 0x4, def value: None
   int32_t ____capacity;

@@ -46,13 +46,13 @@ public:
   // Declarations
   static inline ::Zenject::SignalSubscription_Pool* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4af725c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afd2bc, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af72ac, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afd30c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af7214, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afd274, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,24 +107,24 @@ public:
   /// @brief Convert operator to "::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*,::Zenject::SignalDeclaration*>"
   constexpr operator ::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*>*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4af6e40, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4afcea0, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Invoke, addr 0x4af62a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4afc308, size 0x24, virtual false, abstract: false, final false
   inline void Invoke(::System::Object* signal);
 
   static inline ::Zenject::SignalSubscription* New_ctor(::Zenject::SignalSubscription_Pool* pool);
 
-  /// @brief Method OnDeclarationDespawned, addr 0x4af5d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDeclarationDespawned, addr 0x4afbde8, size 0x8, virtual false, abstract: false, final false
   inline void OnDeclarationDespawned();
 
-  /// @brief Method OnDespawned, addr 0x4af6e14, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method OnDespawned, addr 0x4afce74, size 0x2c, virtual true, abstract: false, final true
   inline void OnDespawned();
 
-  /// @brief Method OnSpawned, addr 0x4af6dd0, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method OnSpawned, addr 0x4afce30, size 0x44, virtual true, abstract: false, final true
   inline void OnSpawned(::System::Action_1<::System::Object*>* callback, ::Zenject::SignalDeclaration* declaration);
 
-  /// @brief Method SetDefaults, addr 0x4af6db4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x4afce14, size 0x10, virtual false, abstract: false, final false
   inline void SetDefaults();
 
   constexpr ::System::Action_1<::System::Object*>* const& __cordl_internal_get__callback() const;
@@ -151,16 +151,16 @@ public:
 
   constexpr void __cordl_internal_set__signalId(::Zenject::BindingId value);
 
-  /// @brief Method __zenCreate, addr 0x4af6edc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afcf3c, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af6fac, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afd00c, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af6d80, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afcde0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalSubscription_Pool* pool);
 
-  /// @brief Method get_SignalId, addr 0x4af6dc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SignalId, addr 0x4afce24, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_SignalId();
 
   /// @brief Convert to "::System::IDisposable"

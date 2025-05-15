@@ -1,273 +1,459 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/JsonWriter.hpp"
-#include "Newtonsoft/Json/zzzz__DateFormatHandling_impl.hpp"
-#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_impl.hpp"
-#include "Newtonsoft/Json/zzzz__FloatFormatHandling_impl.hpp"
-#include "Newtonsoft/Json/zzzz__Formatting_impl.hpp"
-#include "Newtonsoft/Json/zzzz__JsonContainerType_impl.hpp"
-#include "Newtonsoft/Json/zzzz__JsonPosition_impl.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_impl.hpp"
-#include "Newtonsoft/Json/zzzz__StringEscapeHandling_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
-#include "System/Threading/zzzz__CancellationToken_impl.hpp"
-#include "System/zzzz__DateTime_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
-#include "System/zzzz__Object_impl.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
 #include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateFormatHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__FloatFormatHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__FloatFormatHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
+#include "Newtonsoft/Json/zzzz__Formatting_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonContainerType_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonPosition_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriterException_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "Newtonsoft/Json/zzzz__StringEscapeHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__StringEscapeHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__WriteState_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter_State::JsonWriter_State(int32_t value__) noexcept {
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonWriter_State::JsonWriter_State(
+    int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonWriter_State::JsonWriter_State() {}
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::Start{ static_cast<int32_t>(0x0) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::Property{ static_cast<int32_t>(0x1) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::ObjectStart{ static_cast<int32_t>(0x2) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::Object{ static_cast<int32_t>(0x3) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::ArrayStart{ static_cast<int32_t>(0x4) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::Array{ static_cast<int32_t>(0x5) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::ConstructorStart{ static_cast<int32_t>(0x6) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::Constructor{ static_cast<int32_t>(0x7) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::Closed{ static_cast<int32_t>(0x8) };
-constexpr ::Newtonsoft::Json::JsonWriter_State Newtonsoft::Json::JsonWriter_State::Error{ static_cast<int32_t>(0x9) };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d.MoveNext
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::Start{static_cast<int32_t>(0x0)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::Property{static_cast<int32_t>(0x1)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::ObjectStart{static_cast<int32_t>(0x2)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::Object{static_cast<int32_t>(0x3)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::ArrayStart{static_cast<int32_t>(0x4)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::Array{static_cast<int32_t>(0x5)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::ConstructorStart{
+        static_cast<int32_t>(0x6)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::Constructor{static_cast<int32_t>(0x7)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::Closed{static_cast<int32_t>(0x8)};
+constexpr ::Newtonsoft::Json::JsonWriter_State
+    Newtonsoft::Json::JsonWriter_State::Error{static_cast<int32_t>(0x9)};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::*)()>(
-    &::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::*)()>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::MoveNext)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3eb62ac;
+  constexpr static std::size_t addrs = 0x3ebb220;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d.SetStateMachine
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::
+                SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb653c;
+  constexpr static std::size_t addrs = 0x3ebb4b0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(), "SetStateMachine",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::MoveNext() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(), "SetStateMachine",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::SetStateMachine(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d>::get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LevelsToComplete", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "CancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task, ::Newtonsoft::Json::JsonWriter* __4__this,
-    int32_t LevelsToComplete, ::System::Threading::CancellationToken CancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->task = task;
-  this->__4__this = __4__this;
-  this->LevelsToComplete = LevelsToComplete;
-  this->CancellationToken = CancellationToken;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::*)()>(
-    &::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::MoveNext)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x3eb65a4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::get(),
-                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb6914;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::get(), "SetStateMachine",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-    return ___internal_method;
-  }
-};
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::get(), "SetStateMachine",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "token", ty: "::Newtonsoft::Json::JsonToken", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "CancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "LevelsToComplete", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
-// Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task, ::Newtonsoft::Json::JsonWriter* __4__this,
-    ::Newtonsoft::Json::JsonToken token, ::System::Threading::CancellationToken CancellationToken, int32_t LevelsToComplete,
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->task = task;
-  this->__4__this = __4__this;
-  this->token = token;
-  this->CancellationToken = CancellationToken;
-  this->LevelsToComplete = LevelsToComplete;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::*)()>(
-    &::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::MoveNext)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x3eb697c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::get(),
-                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb6dd8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::get(), "SetStateMachine",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-    return ___internal_method;
-  }
-};
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::get(), "SetStateMachine",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "CancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "token", ty: "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "LevelsToComplete", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "task", ty:
+// "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "LevelsToComplete",
+// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "CancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
 // modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task, ::Newtonsoft::Json::JsonWriter* __4__this,
-    ::System::Threading::CancellationToken CancellationToken, ::Newtonsoft::Json::JsonToken token, int32_t LevelsToComplete,
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d(
+            int32_t __1__state,
+            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+                __t__builder,
+            ::System::Threading::Tasks::Task *task,
+            ::Newtonsoft::Json::JsonWriter *__4__this, int32_t LevelsToComplete,
+            ::System::Threading::CancellationToken CancellationToken,
+            ::System::Runtime::CompilerServices::
+                ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->task = task;
+  this->__4__this = __4__this;
+  this->LevelsToComplete = LevelsToComplete;
+  this->CancellationToken = CancellationToken;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitEnd_11_2_d() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::*)()>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::
+                MoveNext)> {
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x3ebb518;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::
+            get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::
+                SetStateMachine)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3ebb888;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::
+            get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
+    return ___internal_method;
+  }
+};
+inline void Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::MoveNext() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
+}
+inline void Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::SetStateMachine(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d>::get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "task", ty:
+// "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "token", ty:
+// "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "CancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "LevelsToComplete", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d(
+            int32_t __1__state,
+            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+                __t__builder,
+            ::System::Threading::Tasks::Task *task,
+            ::Newtonsoft::Json::JsonWriter *__4__this,
+            ::Newtonsoft::Json::JsonToken token,
+            ::System::Threading::CancellationToken CancellationToken,
+            int32_t LevelsToComplete,
+            ::System::Runtime::CompilerServices::
+                ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->task = task;
+  this->__4__this = __4__this;
+  this->token = token;
+  this->CancellationToken = CancellationToken;
+  this->LevelsToComplete = LevelsToComplete;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitIndent_11_1_d() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::*)()>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::
+                MoveNext)> {
+  constexpr static std::size_t size = 0x45c;
+  constexpr static std::size_t addrs = 0x3ebb8f0;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::
+            get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::
+                SetStateMachine)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3ebbd4c;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::
+            get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
+    return ___internal_method;
+  }
+};
+inline void Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::MoveNext() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::
+          get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
+}
+inline void Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::SetStateMachine(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d>::
+          get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "task", ty:
+// "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "CancellationToken",
+// ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "token", ty: "::Newtonsoft::Json::JsonToken",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "LevelsToComplete",
+// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d(
+            int32_t __1__state,
+            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+                __t__builder,
+            ::System::Threading::Tasks::Task *task,
+            ::Newtonsoft::Json::JsonWriter *__4__this,
+            ::System::Threading::CancellationToken CancellationToken,
+            ::Newtonsoft::Json::JsonToken token, int32_t LevelsToComplete,
+            ::System::Runtime::CompilerServices::
+                ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->task = task;
@@ -278,68 +464,130 @@ constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitPropert
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d.MoveNext
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitProperty_11_0_d() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::*)()>(
-    &::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::*)()>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::
+                MoveNext)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x3eb6e40;
+  constexpr static std::size_t addrs = 0x3ebbdb4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::get(),
-                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::
+            get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d.SetStateMachine
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::
+            JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::
+                SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb7220;
+  constexpr static std::size_t addrs = 0x3ebc194;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::get(), "SetStateMachine",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::
+                JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::
+            get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::MoveNext() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::
+          get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::get(), "SetStateMachine",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void
+Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::
+    SetStateMachine(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::
+              JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d>::
+          get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "CancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "LevelsToComplete", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_token_5__2", ty: "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonWriter* __4__this, ::System::Threading::CancellationToken CancellationToken,
-    int32_t LevelsToComplete, ::Newtonsoft::Json::JsonToken _token_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "CancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "LevelsToComplete", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "_token_5__2", ty:
+// "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d(
+            int32_t __1__state,
+            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+                __t__builder,
+            ::Newtonsoft::Json::JsonWriter *__4__this,
+            ::System::Threading::CancellationToken CancellationToken,
+            int32_t LevelsToComplete, ::Newtonsoft::Json::JsonToken _token_5__2,
+            ::System::Runtime::CompilerServices::
+                ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -349,62 +597,109 @@ constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaini
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1.MoveNext
+constexpr ::Newtonsoft::Json::
+    JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d::
+        JsonWriter___InternalWriteEndAsync_g__AwaitRemaining_11_3_d() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::*)()>(
-    &::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::*)()>(
+        &::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x3eb7288;
+  constexpr static std::size_t addrs = 0x3ebc1fc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(),
-                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1.SetStateMachine
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::
+            SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb7530;
+  constexpr static std::size_t addrs = 0x3ebc4a4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
     return ___internal_method;
   }
 };
 inline void Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(),
-                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void
+Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1>::get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::operator ::
+    System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::JsonWriter__AutoCompleteAsync_d__1(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonWriter* __4__this, ::System::Threading::CancellationToken cancellationToken,
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::
+    JsonWriter__AutoCompleteAsync_d__1(
+        int32_t __1__state,
+        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+            __t__builder,
+        ::Newtonsoft::Json::JsonWriter *__4__this,
+        ::System::Threading::CancellationToken cancellationToken,
+        ::System::Runtime::CompilerServices::
+            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -412,66 +707,117 @@ constexpr ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::JsonWriter__Au
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::JsonWriter__AutoCompleteAsync_d__1() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20.MoveNext
+constexpr ::Newtonsoft::Json::JsonWriter__AutoCompleteAsync_d__1::
+    JsonWriter__AutoCompleteAsync_d__1() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::*)()>(
-    &::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::*)()>(
+        &::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::
+            MoveNext)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3eb7598;
+  constexpr static std::size_t addrs = 0x3ebc50c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::
+            get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20.SetStateMachine
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::
+            SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb77a0;
+  constexpr static std::size_t addrs = 0x3ebc714;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::
+            get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void
+Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::MoveNext() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void
+Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20>::get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::
+operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "token", ty: "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "container", ty: "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::JsonWriter__InternalWriteStartAsync_d__20(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonWriter* __4__this, ::Newtonsoft::Json::JsonToken token,
-    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::JsonContainerType container,
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "token", ty: "::Newtonsoft::Json::JsonToken", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "container", ty:
+// "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::
+    JsonWriter__InternalWriteStartAsync_d__20(
+        int32_t __1__state,
+        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+            __t__builder,
+        ::Newtonsoft::Json::JsonWriter *__4__this,
+        ::Newtonsoft::Json::JsonToken token,
+        ::System::Threading::CancellationToken cancellationToken,
+        ::Newtonsoft::Json::JsonContainerType container,
+        ::System::Runtime::CompilerServices::
+            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -481,67 +827,124 @@ constexpr ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::JsonWri
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::JsonWriter__InternalWriteStartAsync_d__20() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32.MoveNext
+constexpr ::Newtonsoft::Json::JsonWriter__InternalWriteStartAsync_d__20::
+    JsonWriter__InternalWriteStartAsync_d__20() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::*)()>(
-    &::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::*)()>(
+        &::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::
+            MoveNext)> {
   constexpr static std::size_t size = 0x6d0;
-  constexpr static std::size_t addrs = 0x3eb7808;
+  constexpr static std::size_t addrs = 0x3ebc77c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::
+            get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32.SetStateMachine
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::
+            SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb7f94;
+  constexpr static std::size_t addrs = 0x3ebcf08;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::
+            get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void
+Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::MoveNext() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::
+          get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void
+Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32>::
+          get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::
+operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "reader", ty: "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_date_5__2", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::JsonWriter__WriteConstructorDateAsync_d__32(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken,
-    ::Newtonsoft::Json::JsonWriter* __4__this, ::System::DateTime _date_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "reader", ty:
+// "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "_date_5__2", ty: "::System::DateTime", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::
+    JsonWriter__WriteConstructorDateAsync_d__32(
+        int32_t __1__state,
+        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+            __t__builder,
+        ::Newtonsoft::Json::JsonReader *reader,
+        ::System::Threading::CancellationToken cancellationToken,
+        ::Newtonsoft::Json::JsonWriter *__4__this,
+        ::System::DateTime _date_5__2,
+        ::System::Runtime::CompilerServices::
+            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
+                __u__1,
+        ::System::Runtime::CompilerServices::
+            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->reader = reader;
@@ -552,67 +955,120 @@ constexpr ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::JsonW
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::JsonWriter__WriteConstructorDateAsync_d__32() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30.MoveNext
+constexpr ::Newtonsoft::Json::JsonWriter__WriteConstructorDateAsync_d__32::
+    JsonWriter__WriteConstructorDateAsync_d__32() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::*)()>(
-    &::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::*)()>(
+        &::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::MoveNext)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x3eb7ffc;
+  constexpr static std::size_t addrs = 0x3ebcf70;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(),
-                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30.SetStateMachine
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::
+            SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb8638;
+  constexpr static std::size_t addrs = 0x3ebd5ac;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
     return ___internal_method;
   }
 };
 inline void Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(),
-                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void
+Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30>::get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::operator ::
+    System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "reader", ty: "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "writeDateConstructorAsDate", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "writeComments", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "writeChildren", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_initialDepth_5__2", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::JsonWriter__WriteTokenAsync_d__30(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonWriter* __4__this, ::Newtonsoft::Json::JsonReader* reader,
-    bool writeDateConstructorAsDate, ::System::Threading::CancellationToken cancellationToken, bool writeComments, bool writeChildren, int32_t _initialDepth_5__2,
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "reader", ty: "::Newtonsoft::Json::JsonReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "writeDateConstructorAsDate",
+// ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "writeComments", ty: "bool",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "writeChildren", ty:
+// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_initialDepth_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::
+    JsonWriter__WriteTokenAsync_d__30(
+        int32_t __1__state,
+        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+            __t__builder,
+        ::Newtonsoft::Json::JsonWriter *__4__this,
+        ::Newtonsoft::Json::JsonReader *reader, bool writeDateConstructorAsDate,
+        ::System::Threading::CancellationToken cancellationToken,
+        bool writeComments, bool writeChildren, int32_t _initialDepth_5__2,
+        ::System::Runtime::CompilerServices::
+            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
+        ::System::Runtime::CompilerServices::
+            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
+                __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -626,65 +1082,119 @@ constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::JsonWriter__Wri
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::JsonWriter__WriteTokenAsync_d__30() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31.MoveNext
+constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenAsync_d__30::
+    JsonWriter__WriteTokenAsync_d__30() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::*)()>(
-    &::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::*)()>(
+        &::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::
+            MoveNext)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x3eb86a0;
+  constexpr static std::size_t addrs = 0x3ebd614;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::
+            get(),
+        "MoveNext", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31.SetStateMachine
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (
+        ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
+        &::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::
+            SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb8b24;
+  constexpr static std::size_t addrs = 0x3ebda98;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::
+            get(),
+        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Runtime::CompilerServices::IAsyncStateMachine
+                    *>::get()})));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void
+Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::MoveNext() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::
+          get(),
+      "MoveNext", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void
+Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31>::
+          get(),
+      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *,
+                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to
+/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::
+operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
+Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
+      static_cast<void *>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "reader", ty: "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_initialDepth_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::JsonWriter__WriteTokenSyncReadingAsync_d__31(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonWriter* __4__this, ::Newtonsoft::Json::JsonReader* reader,
-    ::System::Threading::CancellationToken cancellationToken, int32_t _initialDepth_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "reader", ty: "::Newtonsoft::Json::JsonReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "_initialDepth_5__2", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::
+    JsonWriter__WriteTokenSyncReadingAsync_d__31(
+        int32_t __1__state,
+        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
+            __t__builder,
+        ::Newtonsoft::Json::JsonWriter *__4__this,
+        ::Newtonsoft::Json::JsonReader *reader,
+        ::System::Threading::CancellationToken cancellationToken,
+        int32_t _initialDepth_5__2,
+        ::System::Runtime::CompilerServices::
+            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
+                __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -694,125 +1204,196 @@ constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::Json
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::JsonWriter__WriteTokenSyncReadingAsync_d__31() {}
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.AutoCompleteAsync
+constexpr ::Newtonsoft::Json::JsonWriter__WriteTokenSyncReadingAsync_d__31::
+    JsonWriter__WriteTokenSyncReadingAsync_d__31() {}
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.AutoCompleteAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::AutoCompleteAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::AutoCompleteAsync)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3eac3ec;
+  constexpr static std::size_t addrs = 0x3eb1360;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "AutoCompleteAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.AutoCompleteAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.AutoCompleteAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::AutoCompleteAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::AutoCompleteAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3eac664;
+  constexpr static std::size_t addrs = 0x3eb15d8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "AutoCompleteAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.CloseAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::CloseAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::CloseAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eac734;
+  constexpr static std::size_t addrs = 0x3eb16a8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 5));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.FlushAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::FlushAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::FlushAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eac808;
+  constexpr static std::size_t addrs = 0x3eb177c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 6));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteEndAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eac8dc;
+  constexpr static std::size_t addrs = 0x3eb1850;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 7));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteIndentAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteIndentAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteIndentAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteIndentAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eac9b8;
+  constexpr static std::size_t addrs = 0x3eb192c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 8));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            8));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueDelimiterAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueDelimiterAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValueDelimiterAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueDelimiterAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eaca8c;
+  constexpr static std::size_t addrs = 0x3eb1a00;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 9));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            9));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteIndentSpaceAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteIndentSpaceAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteIndentSpaceAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteIndentSpaceAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eacb60;
+  constexpr static std::size_t addrs = 0x3eb1ad4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 10));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            10));
     return ___internal_method;
   }
 };
@@ -820,4070 +1401,7058 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteRawAsync)> {
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteRawAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eacc34;
+  constexpr static std::size_t addrs = 0x3eb1ba8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 11));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            11));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteEndAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eacd10;
+  constexpr static std::size_t addrs = 0x3eb1c84;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 12));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            12));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndInternalAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteEndInternalAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteEndInternalAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndInternalAsync)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3eacde4;
+  constexpr static std::size_t addrs = 0x3eb1d58;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteEndInternalAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteEndInternalAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteEndAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteEndAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonContainerType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::InternalWriteEndAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::Newtonsoft::Json::JsonContainerType,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteEndAsync)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3eacf60;
+  constexpr static std::size_t addrs = 0x3eb1ed4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteEndAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteEndAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndArrayAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteEndArrayAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteEndArrayAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndArrayAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ead790;
+  constexpr static std::size_t addrs = 0x3eb2704;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 13));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndConstructorAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteEndConstructorAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteEndConstructorAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndConstructorAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ead864;
+  constexpr static std::size_t addrs = 0x3eb27d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 14));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndObjectAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteEndObjectAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteEndObjectAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndObjectAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ead938;
+  constexpr static std::size_t addrs = 0x3eb28ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 15));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            15));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteNullAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteNullAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteNullAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteNullAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eada0c;
+  constexpr static std::size_t addrs = 0x3eb2980;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 16));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            16));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WritePropertyNameAsync
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WritePropertyNameAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WritePropertyNameAsync)> {
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WritePropertyNameAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eadae0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 17));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WritePropertyNameAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::StringW, bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WritePropertyNameAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eadbbc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 18));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWritePropertyNameAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::InternalWritePropertyNameAsync)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ea0f20;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWritePropertyNameAsync", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteStartArrayAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteStartArrayAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eadca8;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 19));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteStartAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::Newtonsoft::Json::JsonContainerType, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonWriter::InternalWriteStartAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ea1b38;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteStartAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteCommentAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteCommentAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eadd7c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 20));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteCommentAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::InternalWriteCommentAsync)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ea047c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteCommentAsync", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteRawValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteRawValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eade58;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 21));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteStartConstructorAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteStartConstructorAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eadf34;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 22));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteStartObjectAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteStartObjectAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eae010;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 23));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eae0e4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3eae0f0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eae180;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Object*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
-  constexpr static std::size_t size = 0x78c;
-  constexpr static std::size_t addrs = 0x3eae18c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, bool, bool, bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3eae918;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 24));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteTokenSyncReadingAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteTokenSyncReadingAsync)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3eaea2c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenSyncReadingAsync", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteConstructorDateAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteConstructorDateAsync)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3eaeb04;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteConstructorDateAsync", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(bool, ::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaebdc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 25));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<bool>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaecb8;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 26));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(uint8_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaed94;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 27));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint8_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaee70;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 28));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaef4c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 29));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(char16_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaf028;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 30));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<char16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaf104;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 31));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::DateTime, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaf1e0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 32));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::DateTime>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eaf2bc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 33));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::DateTimeOffset, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eaf3a8;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 34));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::DateTimeOffset>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3eaf494;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 35));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Decimal, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eaf58c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 36));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::Decimal>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3eaf678;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 37));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(double_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaf794;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 38));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<double_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eaf870;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 39));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(float_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eaf95c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 40));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<float_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eafa38;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 41));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Guid, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eafb14;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 42));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::Guid>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3eafc00;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 43));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(int32_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eafcf8;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 44));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int32_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eafdd4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 45));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(int64_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eafeb0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 46));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int64_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eaff8c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 47));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Object*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0078;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 48));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(int8_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0154;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 49));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int8_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0230;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 50));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(int16_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb030c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 51));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb03e8;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 52));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb04c4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 53));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::TimeSpan, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb05a0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 54));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::TimeSpan>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eb067c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 55));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(uint32_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0768;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 56));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint32_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0844;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 57));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(uint64_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0920;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 58));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint64_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3eb09fc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 59));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Uri*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0ae8;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 60));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(uint16_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0bc4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 61));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0ca0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 62));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteUndefinedAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteUndefinedAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eb0d7c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 63));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteWhitespaceAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonWriter::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::WriteWhitespaceAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb0e50;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 64));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::InternalWriteValueAsync)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ea2954;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteValueAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.SetWriteStateAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Object*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::SetWriteStateAsync)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3eb0f44;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "SetWriteStateAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task* (*)(::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode, ::System::Object*, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
-  constexpr static std::size_t size = 0x1148;
-  constexpr static std::size_t addrs = 0x3eb1198;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteValueAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.BuildStateArray
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                         ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*> (*)()>(&::Newtonsoft::Json::JsonWriter::BuildStateArray)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3eb2530;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "BuildStateArray",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_CloseOutput
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::get_CloseOutput)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2a38;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_CloseOutput",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_CloseOutput
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(&::Newtonsoft::Json::JsonWriter::set_CloseOutput)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eb2a40;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_CloseOutput",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_AutoCompleteOnClose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::get_AutoCompleteOnClose)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2a4c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                               "get_AutoCompleteOnClose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_AutoCompleteOnClose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(&::Newtonsoft::Json::JsonWriter::set_AutoCompleteOnClose)> {
-  constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x3eb2a54;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_AutoCompleteOnClose",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            17));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WritePropertyNameAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, bool, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WritePropertyNameAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb2b30;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            18));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWritePropertyNameAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWritePropertyNameAsync)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x3ea5e94;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWritePropertyNameAsync",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::StringW>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteStartArrayAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteStartArrayAsync)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x3eb2c1c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            19));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteStartAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::Newtonsoft::Json::JsonToken,
+               ::Newtonsoft::Json::JsonContainerType,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteStartAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3ea6aac;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteStartAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteCommentAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteCommentAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb2cf0;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            20));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteCommentAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteCommentAsync)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3ea53f0;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteCommentAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteRawValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteRawValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb2dcc;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            21));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteStartConstructorAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteStartConstructorAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb2ea8;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            22));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteStartObjectAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteStartObjectAsync)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x3eb2f84;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            23));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader *,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3eb3058;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::Newtonsoft::Json::JsonReader *, bool,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x3eb3064;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3eb30f4;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::Newtonsoft::Json::JsonToken, ::System::Object *,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
+  constexpr static std::size_t size = 0x78c;
+  constexpr static std::size_t addrs = 0x3eb3100;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Object *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteTokenAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::Newtonsoft::Json::JsonReader *, bool, bool, bool,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteTokenAsync)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x3eb388c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            24));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteTokenSyncReadingAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader *,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteTokenSyncReadingAsync)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x3eb39a0;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteTokenSyncReadingAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteConstructorDateAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader *,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteConstructorDateAsync)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x3eb3a78;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteConstructorDateAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(bool, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb3b50;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            25));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<bool>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb3c2c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            26));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(uint8_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb3d08;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            27));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint8_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb3de4;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            28));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::ArrayW<uint8_t, ::Array<uint8_t> *>,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb3ec0;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            29));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(char16_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb3f9c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            30));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<char16_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb4078;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            31));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::DateTime, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb4154;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            32));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Nullable_1<::System::DateTime>,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb4230;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            33));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::DateTimeOffset,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb431c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            34));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Nullable_1<::System::DateTimeOffset>,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3eb4408;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            35));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Decimal, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb4500;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            36));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Nullable_1<::System::Decimal>,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x3eb45ec;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            37));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(double_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb4708;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            38));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<double_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb47e4;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            39));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(float_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb48d0;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            40));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<float_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb49ac;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            41));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Guid, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb4a88;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            42));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::Guid>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3eb4b74;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            43));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(int32_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb4c6c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            44));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int32_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb4d48;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            45));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(int64_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb4e24;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            46));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int64_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb4f00;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            47));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Object *, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb4fec;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            48));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(int8_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb50c8;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            49));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int8_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb51a4;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            50));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(int16_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5280;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            51));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int16_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb535c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            52));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5438;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            53));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::TimeSpan, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5514;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            54));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Nullable_1<::System::TimeSpan>,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb55f0;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            55));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(uint32_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb56dc;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            56));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint32_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb57b8;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            57));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(uint64_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5894;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            58));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint64_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3eb5970;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            59));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Uri *, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5a5c;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            60));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(uint16_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5b38;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            61));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint16_t>,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5c14;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            62));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteUndefinedAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteUndefinedAsync)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x3eb5cf0;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            63));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteWhitespaceAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::StringW, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteWhitespaceAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3eb5dc4;
+
+  inline static const ::MethodInfo *methodInfo() {
+
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            64));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken,
+                                           ::System::Threading::
+                                               CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteValueAsync)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3ea78c8;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteValueAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.SetWriteStateAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::Newtonsoft::Json::JsonToken, ::System::Object *,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::SetWriteStateAsync)> {
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x3eb5eb8;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "SetWriteStateAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Object *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+            *)(::Newtonsoft::Json::JsonWriter *,
+               ::Newtonsoft::Json::Utilities::PrimitiveTypeCode,
+               ::System::Object *, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueAsync)> {
+  constexpr static std::size_t size = 0x1148;
+  constexpr static std::size_t addrs = 0x3eb610c;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteValueAsync", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Object *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.BuildStateArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::ArrayW<
+        ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                 ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+        ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                         ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *> (
+            *)()>(&::Newtonsoft::Json::JsonWriter::BuildStateArray)> {
+  constexpr static std::size_t size = 0x278;
+  constexpr static std::size_t addrs = 0x3eb74a4;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "BuildStateArray", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_CloseOutput
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<bool (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_CloseOutput)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3eb79ac;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_CloseOutput", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_CloseOutput
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(
+        &::Newtonsoft::Json::JsonWriter::set_CloseOutput)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3eb79b4;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_CloseOutput", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                bool>::get()})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_AutoCompleteOnClose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<bool (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_AutoCompleteOnClose)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3eb79c0;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_AutoCompleteOnClose", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_AutoCompleteOnClose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(
+        &::Newtonsoft::Json::JsonWriter::set_AutoCompleteOnClose)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3eb79c8;
+
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_AutoCompleteOnClose", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                bool>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_Top
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::get_Top)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_Top)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3e9fea4;
+  constexpr static std::size_t addrs = 0x3ea4e18;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Top",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_Top", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_WriteState
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_WriteState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::WriteState (::Newtonsoft::Json::JsonWriter::*)()>(
-    &::Newtonsoft::Json::JsonWriter::get_WriteState)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::WriteState (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_WriteState)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3eb2a60;
+  constexpr static std::size_t addrs = 0x3eb79d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_WriteState",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_WriteState", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_ContainerPath
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_ContainerPath
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::get_ContainerPath)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::StringW (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_ContainerPath)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3eb2b10;
+  constexpr static std::size_t addrs = 0x3eb7a84;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_ContainerPath",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_ContainerPath", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_Path
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::get_Path)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::StringW (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_Path)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3eb2bbc;
+  constexpr static std::size_t addrs = 0x3eb7b30;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Path",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_Path", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_Formatting
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_Formatting
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Formatting (::Newtonsoft::Json::JsonWriter::*)()>(
-    &::Newtonsoft::Json::JsonWriter::get_Formatting)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::Formatting (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_Formatting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2cd8;
+  constexpr static std::size_t addrs = 0x3eb7c4c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Formatting",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_Formatting", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_Formatting
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_Formatting
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::Formatting)>(
-    &::Newtonsoft::Json::JsonWriter::set_Formatting)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::Formatting)>(
+        &::Newtonsoft::Json::JsonWriter::set_Formatting)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eb2ce0;
+  constexpr static std::size_t addrs = 0x3eb7c54;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_Formatting", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Formatting>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_Formatting", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::Formatting>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_DateFormatHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_DateFormatHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DateFormatHandling (::Newtonsoft::Json::JsonWriter::*)()>(
-    &::Newtonsoft::Json::JsonWriter::get_DateFormatHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::DateFormatHandling (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_DateFormatHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2d40;
+  constexpr static std::size_t addrs = 0x3eb7cb4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_DateFormatHandling",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_DateFormatHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_DateFormatHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_DateFormatHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::DateFormatHandling)>(
-    &::Newtonsoft::Json::JsonWriter::set_DateFormatHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::DateFormatHandling)>(
+        &::Newtonsoft::Json::JsonWriter::set_DateFormatHandling)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eb2d48;
+  constexpr static std::size_t addrs = 0x3eb7cbc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_DateFormatHandling", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DateFormatHandling>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_DateFormatHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::DateFormatHandling>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_DateTimeZoneHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_DateTimeZoneHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DateTimeZoneHandling (::Newtonsoft::Json::JsonWriter::*)()>(
-    &::Newtonsoft::Json::JsonWriter::get_DateTimeZoneHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::DateTimeZoneHandling (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_DateTimeZoneHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2da8;
+  constexpr static std::size_t addrs = 0x3eb7d1c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                               "get_DateTimeZoneHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_DateTimeZoneHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_DateTimeZoneHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_DateTimeZoneHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::DateTimeZoneHandling)>(
-    &::Newtonsoft::Json::JsonWriter::set_DateTimeZoneHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::DateTimeZoneHandling)>(
+        &::Newtonsoft::Json::JsonWriter::set_DateTimeZoneHandling)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eb2db0;
+  constexpr static std::size_t addrs = 0x3eb7d24;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_DateTimeZoneHandling", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DateTimeZoneHandling>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_DateTimeZoneHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::DateTimeZoneHandling>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_StringEscapeHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_StringEscapeHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::StringEscapeHandling (::Newtonsoft::Json::JsonWriter::*)()>(
-    &::Newtonsoft::Json::JsonWriter::get_StringEscapeHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::StringEscapeHandling (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_StringEscapeHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2e10;
+  constexpr static std::size_t addrs = 0x3eb7d84;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                               "get_StringEscapeHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_StringEscapeHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_StringEscapeHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_StringEscapeHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::StringEscapeHandling)>(
-    &::Newtonsoft::Json::JsonWriter::set_StringEscapeHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::StringEscapeHandling)>(
+        &::Newtonsoft::Json::JsonWriter::set_StringEscapeHandling)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3eb2e18;
+  constexpr static std::size_t addrs = 0x3eb7d8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_StringEscapeHandling", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::StringEscapeHandling>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_StringEscapeHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::StringEscapeHandling>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.OnStringEscapeHandlingChanged
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.OnStringEscapeHandlingChanged
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::OnStringEscapeHandlingChanged)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::OnStringEscapeHandlingChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb2e84;
+  constexpr static std::size_t addrs = 0x3eb7df8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 65));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            65));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_FloatFormatHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_FloatFormatHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::FloatFormatHandling (::Newtonsoft::Json::JsonWriter::*)()>(
-    &::Newtonsoft::Json::JsonWriter::get_FloatFormatHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::FloatFormatHandling (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_FloatFormatHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2e88;
+  constexpr static std::size_t addrs = 0x3eb7dfc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                               "get_FloatFormatHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_FloatFormatHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_FloatFormatHandling
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_FloatFormatHandling
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::FloatFormatHandling)>(
-    &::Newtonsoft::Json::JsonWriter::set_FloatFormatHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::FloatFormatHandling)>(
+        &::Newtonsoft::Json::JsonWriter::set_FloatFormatHandling)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eb2e90;
+  constexpr static std::size_t addrs = 0x3eb7e04;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_FloatFormatHandling", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::FloatFormatHandling>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_FloatFormatHandling", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::FloatFormatHandling>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_DateFormatString
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.get_DateFormatString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::get_DateFormatString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::StringW (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_DateFormatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2ef0;
+  constexpr static std::size_t addrs = 0x3eb7e64;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_DateFormatString",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_DateFormatString", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_DateFormatString
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.set_DateFormatString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::set_DateFormatString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::set_DateFormatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2ef8;
+  constexpr static std::size_t addrs = 0x3eb7e6c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_DateFormatString", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_DateFormatString", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::StringW>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.get_Culture
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (::Newtonsoft::Json::JsonWriter::*)()>(
-    &::Newtonsoft::Json::JsonWriter::get_Culture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Globalization::CultureInfo *(
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::get_Culture)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ea2a20;
+  constexpr static std::size_t addrs = 0x3ea7994;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Culture",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "get_Culture", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.set_Culture
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Globalization::CultureInfo*)>(
-    &::Newtonsoft::Json::JsonWriter::set_Culture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Globalization::CultureInfo *)>(
+        &::Newtonsoft::Json::JsonWriter::set_Culture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb2f00;
+  constexpr static std::size_t addrs = 0x3eb7e74;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_Culture", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "set_Culture", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Globalization::CultureInfo *>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3eb2f08;
+  constexpr static std::size_t addrs = 0x3eb7e7c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        ".ctor", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.UpdateScopeWithFinishedValue
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.UpdateScopeWithFinishedValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::UpdateScopeWithFinishedValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::UpdateScopeWithFinishedValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3eb0f2c;
+  constexpr static std::size_t addrs = 0x3eb5ea0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                               "UpdateScopeWithFinishedValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "UpdateScopeWithFinishedValue",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.Push
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonContainerType)>(
-    &::Newtonsoft::Json::JsonWriter::Push)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonContainerType)>(
+        &::Newtonsoft::Json::JsonWriter::Push)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3eb2f34;
+  constexpr static std::size_t addrs = 0x3eb7ea8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "Push", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "Push", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.Pop
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonContainerType (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::Pop)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::JsonContainerType (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::Pop)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ead2a0;
+  constexpr static std::size_t addrs = 0x3eb2214;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "Pop",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "Pop", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.Peek
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonContainerType (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::Peek)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::JsonContainerType (
+        ::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::Peek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eacf58;
+  constexpr static std::size_t addrs = 0x3eb1ecc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "Peek",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "Peek", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.Flush
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::Flush)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::Flush)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 66));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            66));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.Close
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::Close)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3eb30bc;
+  constexpr static std::size_t addrs = 0x3eb8030;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 67));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            67));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteStartObject
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteStartObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteStartObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteStartObject)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eb310c;
+  constexpr static std::size_t addrs = 0x3eb8080;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 68));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            68));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndObject
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteEndObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteEndObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb3158;
+  constexpr static std::size_t addrs = 0x3eb80cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 69));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            69));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteStartArray
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteStartArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteStartArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteStartArray)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eb3164;
+  constexpr static std::size_t addrs = 0x3eb80d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 70));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            70));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteEndArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb3170;
+  constexpr static std::size_t addrs = 0x3eb80e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 71));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            71));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteStartConstructor
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteStartConstructor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::WriteStartConstructor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::WriteStartConstructor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eb3178;
+  constexpr static std::size_t addrs = 0x3eb80ec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 72));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            72));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEndConstructor
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteEndConstructor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteEndConstructor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteEndConstructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb3184;
+  constexpr static std::size_t addrs = 0x3eb80f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 73));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            73));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WritePropertyName
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WritePropertyName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::WritePropertyName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::WritePropertyName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3eb318c;
+  constexpr static std::size_t addrs = 0x3eb8100;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 74));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            74));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WritePropertyName
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WritePropertyName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW, bool)>(&::Newtonsoft::Json::JsonWriter::WritePropertyName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW, bool)>(
+        &::Newtonsoft::Json::JsonWriter::WritePropertyName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3eb31ac;
+  constexpr static std::size_t addrs = 0x3eb8120;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 75));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            75));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEnd
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteEnd)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb31bc;
+  constexpr static std::size_t addrs = 0x3eb8130;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 76));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            76));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteToken
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*)>(
-    &::Newtonsoft::Json::JsonWriter::WriteToken)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonReader *)>(
+        &::Newtonsoft::Json::JsonWriter::WriteToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb32a0;
+  constexpr static std::size_t addrs = 0x3eb8214;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteToken", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteToken
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, bool)>(
-    &::Newtonsoft::Json::JsonWriter::WriteToken)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonReader *, bool)>(
+        &::Newtonsoft::Json::JsonWriter::WriteToken)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3eab588;
+  constexpr static std::size_t addrs = 0x3eb04fc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteToken", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                bool>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteToken
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Object*)>(
-    &::Newtonsoft::Json::JsonWriter::WriteToken)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonToken, ::System::Object *)>(
+        &::Newtonsoft::Json::JsonWriter::WriteToken)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x3eb32a8;
+  constexpr static std::size_t addrs = 0x3eb821c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteToken", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Object *>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteToken
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken)>(
-    &::Newtonsoft::Json::JsonWriter::WriteToken)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb3984;
+  constexpr static std::size_t addrs = 0x3eb88f8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteToken", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteToken
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, bool, bool, bool)>(
-    &::Newtonsoft::Json::JsonWriter::WriteToken)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonReader *, bool, bool, bool)>(
+        &::Newtonsoft::Json::JsonWriter::WriteToken)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3eb398c;
+  constexpr static std::size_t addrs = 0x3eb8900;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 77));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            77));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.IsWriteTokenIncomplete
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.IsWriteTokenIncomplete
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*, bool, int32_t)>(
-    &::Newtonsoft::Json::JsonWriter::IsWriteTokenIncomplete)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<bool (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonReader *, bool, int32_t)>(
+        &::Newtonsoft::Json::JsonWriter::IsWriteTokenIncomplete)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3eb3ce4;
+  constexpr static std::size_t addrs = 0x3eb8c58;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "IsWriteTokenIncomplete", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "IsWriteTokenIncomplete", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                int32_t>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.CalculateWriteTokenInitialDepth
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.CalculateWriteTokenInitialDepth
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*)>(
-    &::Newtonsoft::Json::JsonWriter::CalculateWriteTokenInitialDepth)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonReader *)>(
+        &::Newtonsoft::Json::JsonWriter::CalculateWriteTokenInitialDepth)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3eb3bac;
+  constexpr static std::size_t addrs = 0x3eb8b20;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CalculateWriteTokenInitialDepth", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "CalculateWriteTokenInitialDepth",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.CalculateWriteTokenFinalDepth
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.CalculateWriteTokenFinalDepth
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*)>(
-    &::Newtonsoft::Json::JsonWriter::CalculateWriteTokenFinalDepth)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonReader *)>(
+        &::Newtonsoft::Json::JsonWriter::CalculateWriteTokenFinalDepth)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3eb3d54;
+  constexpr static std::size_t addrs = 0x3eb8cc8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CalculateWriteTokenFinalDepth", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "CalculateWriteTokenFinalDepth",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteConstructorDate
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteConstructorDate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonReader*)>(
-    &::Newtonsoft::Json::JsonWriter::WriteConstructorDate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonReader *)>(
+        &::Newtonsoft::Json::JsonWriter::WriteConstructorDate)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3eb3c18;
+  constexpr static std::size_t addrs = 0x3eb8b8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteConstructorDate", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteConstructorDate", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonReader *>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEnd
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonContainerType)>(
-    &::Newtonsoft::Json::JsonWriter::WriteEnd)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonContainerType)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEnd)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb31c4;
+  constexpr static std::size_t addrs = 0x3eb8138;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteEnd", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteEnd", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.AutoCompleteAll
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.AutoCompleteAll
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::AutoCompleteAll)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::AutoCompleteAll)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3eb30cc;
+  constexpr static std::size_t addrs = 0x3eb8040;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteAll",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "AutoCompleteAll", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.GetCloseTokenForType
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.GetCloseTokenForType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonToken (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonContainerType)>(
-    &::Newtonsoft::Json::JsonWriter::GetCloseTokenForType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::JsonToken (
+        ::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonContainerType)>(
+        &::Newtonsoft::Json::JsonWriter::GetCloseTokenForType)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ead370;
+  constexpr static std::size_t addrs = 0x3eb22e4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "GetCloseTokenForType", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "GetCloseTokenForType", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.AutoCompleteClose
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.AutoCompleteClose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonContainerType)>(
-    &::Newtonsoft::Json::JsonWriter::AutoCompleteClose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonContainerType)>(
+        &::Newtonsoft::Json::JsonWriter::AutoCompleteClose)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3eb3dbc;
+  constexpr static std::size_t addrs = 0x3eb8d30;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteClose", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "AutoCompleteClose", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.CalculateLevelsToComplete
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.CalculateLevelsToComplete
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonContainerType)>(
-    &::Newtonsoft::Json::JsonWriter::CalculateLevelsToComplete)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<int32_t (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonContainerType)>(
+        &::Newtonsoft::Json::JsonWriter::CalculateLevelsToComplete)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3ead1a8;
+  constexpr static std::size_t addrs = 0x3eb211c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CalculateLevelsToComplete", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "CalculateLevelsToComplete", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.UpdateCurrentState
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.UpdateCurrentState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::UpdateCurrentState)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::UpdateCurrentState)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3ead6dc;
+  constexpr static std::size_t addrs = 0x3eb2650;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "UpdateCurrentState",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "UpdateCurrentState", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteEnd
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::JsonWriter::WriteEnd)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonToken)>(
+        &::Newtonsoft::Json::JsonWriter::WriteEnd)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb3e78;
+  constexpr static std::size_t addrs = 0x3eb8dec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 78));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            78));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteIndent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteIndent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteIndent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb3e7c;
+  constexpr static std::size_t addrs = 0x3eb8df0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 79));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            79));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValueDelimiter
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteValueDelimiter
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteValueDelimiter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteValueDelimiter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb3e80;
+  constexpr static std::size_t addrs = 0x3eb8df4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 80));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            80));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteIndentSpace
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteIndentSpace
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteIndentSpace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteIndentSpace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb3e84;
+  constexpr static std::size_t addrs = 0x3eb8df8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 81));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            81));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.AutoComplete
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken)>(
-    &::Newtonsoft::Json::JsonWriter::AutoComplete)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonToken)>(
+        &::Newtonsoft::Json::JsonWriter::AutoComplete)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3eb3e88;
+  constexpr static std::size_t addrs = 0x3eb8dfc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoComplete", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "AutoComplete", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteNull
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteNull)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteNull)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4090;
+  constexpr static std::size_t addrs = 0x3eb9004;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 82));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            82));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteUndefined
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteUndefined
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::WriteUndefined)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::WriteUndefined)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb40c4;
+  constexpr static std::size_t addrs = 0x3eb9038;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 83));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            83));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteRaw
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::WriteRaw)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb40e0;
+  constexpr static std::size_t addrs = 0x3eb9054;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 84));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            84));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteRawValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::WriteRawValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::WriteRawValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3eb40e8;
+  constexpr static std::size_t addrs = 0x3eb905c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 85));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            85));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4138;
+  constexpr static std::size_t addrs = 0x3eb90ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 86));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            86));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int32_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int32_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4154;
+  constexpr static std::size_t addrs = 0x3eb90c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 87));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            87));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint32_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint32_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4170;
+  constexpr static std::size_t addrs = 0x3eb90e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 88));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            88));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int64_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int64_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb418c;
+  constexpr static std::size_t addrs = 0x3eb9100;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 89));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            89));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint64_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint64_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb41a8;
+  constexpr static std::size_t addrs = 0x3eb911c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 90));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            90));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(float_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(float_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb41c4;
+  constexpr static std::size_t addrs = 0x3eb9138;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 91));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            91));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(double_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(double_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb41e0;
+  constexpr static std::size_t addrs = 0x3eb9154;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 92));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            92));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb41fc;
+  constexpr static std::size_t addrs = 0x3eb9170;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 93));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            93));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int16_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int16_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4218;
+  constexpr static std::size_t addrs = 0x3eb918c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 94));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            94));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint16_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint16_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4234;
+  constexpr static std::size_t addrs = 0x3eb91a8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 95));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            95));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(char16_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(char16_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4250;
+  constexpr static std::size_t addrs = 0x3eb91c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 96));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            96));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint8_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(uint8_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb426c;
+  constexpr static std::size_t addrs = 0x3eb91e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 97));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            97));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int8_t)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(int8_t)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4288;
+  constexpr static std::size_t addrs = 0x3eb91fc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 98));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            98));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Decimal)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Decimal)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb42a4;
+  constexpr static std::size_t addrs = 0x3eb9218;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 99));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            99));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::DateTime)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::DateTime)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb42c0;
+  constexpr static std::size_t addrs = 0x3eb9234;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 100));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            100));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::DateTimeOffset)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::DateTimeOffset)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb42dc;
+  constexpr static std::size_t addrs = 0x3eb9250;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 101));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            101));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Guid)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Guid)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb42f8;
+  constexpr static std::size_t addrs = 0x3eb926c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 102));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            102));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::TimeSpan)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::TimeSpan)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb4314;
+  constexpr static std::size_t addrs = 0x3eb9288;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 103));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            103));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int32_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<int32_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3eb4330;
+  constexpr static std::size_t addrs = 0x3eb92a4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 104));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            104));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint32_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<uint32_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3eb43ac;
+  constexpr static std::size_t addrs = 0x3eb9320;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 105));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            105));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int64_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<int64_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3eb4428;
+  constexpr static std::size_t addrs = 0x3eb939c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 106));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            106));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint64_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<uint64_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3eb44b4;
+  constexpr static std::size_t addrs = 0x3eb9428;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 107));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            107));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<float_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<float_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3eb4540;
+  constexpr static std::size_t addrs = 0x3eb94b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 108));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            108));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<double_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<double_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3eb45c0;
+  constexpr static std::size_t addrs = 0x3eb9534;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 109));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            109));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<bool>)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<bool>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3eb464c;
+  constexpr static std::size_t addrs = 0x3eb95c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 110));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            110));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int16_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<int16_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3eb46d0;
+  constexpr static std::size_t addrs = 0x3eb9644;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 111));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            111));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint16_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<uint16_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3eb474c;
+  constexpr static std::size_t addrs = 0x3eb96c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 112));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            112));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<char16_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<char16_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3eb47c8;
+  constexpr static std::size_t addrs = 0x3eb973c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 113));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            113));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<uint8_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<uint8_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3eb4844;
+  constexpr static std::size_t addrs = 0x3eb97b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 114));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            114));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<int8_t>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<int8_t>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3eb48c0;
+  constexpr static std::size_t addrs = 0x3eb9834;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 115));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            115));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::Decimal>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<::System::Decimal>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3eb493c;
+  constexpr static std::size_t addrs = 0x3eb98b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 116));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            116));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::DateTime>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<::System::DateTime>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3eb49bc;
+  constexpr static std::size_t addrs = 0x3eb9930;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 117));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            117));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<::System::DateTimeOffset>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3eb4a48;
+  constexpr static std::size_t addrs = 0x3eb99bc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 118));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            118));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::Guid>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<::System::Guid>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3eb4ac8;
+  constexpr static std::size_t addrs = 0x3eb9a3c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 119));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            119));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Nullable_1<::System::TimeSpan>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::System::Nullable_1<::System::TimeSpan>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3eb4b4c;
+  constexpr static std::size_t addrs = 0x3eb9ac0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 120));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            120));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::ArrayW<uint8_t, ::Array<uint8_t> *>)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3eb4bd8;
+  constexpr static std::size_t addrs = 0x3eb9b4c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 121));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            121));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Uri*)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Uri *)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3eb4c08;
+  constexpr static std::size_t addrs = 0x3eb9b7c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 122));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            122));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Object*)>(&::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::System::Object *)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3eb4cb4;
+  constexpr static std::size_t addrs = 0x3eb9c28;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 123));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            123));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteComment
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::WriteComment)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::WriteComment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb5f10;
+  constexpr static std::size_t addrs = 0x3ebae84;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 124));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            124));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteWhitespace
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.WriteWhitespace
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::WriteWhitespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::WriteWhitespace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb5f20;
+  constexpr static std::size_t addrs = 0x3ebae94;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 125));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            125));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.System_IDisposable_Dispose
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3eb5f84;
+  constexpr static std::size_t addrs = 0x3ebaef8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "System.IDisposable.Dispose", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(&::Newtonsoft::Json::JsonWriter::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(bool)>(
+        &::Newtonsoft::Json::JsonWriter::Dispose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3eb5ff4;
+  constexpr static std::size_t addrs = 0x3ebaf68;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo *methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 126));
+    static auto *___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            126));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode, ::System::Object*)>(
-    &::Newtonsoft::Json::JsonWriter::WriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::Newtonsoft::Json::JsonWriter *,
+                         ::Newtonsoft::Json::Utilities::PrimitiveTypeCode,
+                         ::System::Object *)>(
+        &::Newtonsoft::Json::JsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0x1128;
-  constexpr static std::size_t addrs = 0x3eb4de8;
+  constexpr static std::size_t addrs = 0x3eb9d5c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteValue", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "WriteValue", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Object *>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.ResolveConvertibleValue
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.ResolveConvertibleValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IConvertible*, ::ByRef<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>, ::ByRef<::System::Object*>)>(&::Newtonsoft::Json::JsonWriter::ResolveConvertibleValue)> {
+    static_cast<void (*)(
+        ::System::IConvertible *,
+        ::ByRef<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>,
+        ::ByRef<::System::Object *>)>(
+        &::Newtonsoft::Json::JsonWriter::ResolveConvertibleValue)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3eb22e0;
+  constexpr static std::size_t addrs = 0x3eb7254;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "ResolveConvertibleValue", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IConvertible*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "ResolveConvertibleValue", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::IConvertible *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<
+                ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::ByRef<::System::Object *>>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.CreateUnsupportedTypeException
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.CreateUnsupportedTypeException
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonWriterException* (*)(::Newtonsoft::Json::JsonWriter*, ::System::Object*)>(
-    &::Newtonsoft::Json::JsonWriter::CreateUnsupportedTypeException)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::JsonWriterException
+                    *(*)(::Newtonsoft::Json::JsonWriter *, ::System::Object *)>(
+        &::Newtonsoft::Json::JsonWriter::CreateUnsupportedTypeException)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3eb2478;
+  constexpr static std::size_t addrs = 0x3eb73ec;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CreateUnsupportedTypeException", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonWriter*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "CreateUnsupportedTypeException",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonWriter *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Object *>::get()})));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.SetWriteState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Object*)>(
-    &::Newtonsoft::Json::JsonWriter::SetWriteState)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonToken, ::System::Object *)>(
+        &::Newtonsoft::Json::JsonWriter::SetWriteState)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3eb6018;
+  constexpr static std::size_t addrs = 0x3ebaf8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "SetWriteState", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "SetWriteState", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Object *>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteEnd
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteEnd
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonContainerType)>(
-    &::Newtonsoft::Json::JsonWriter::InternalWriteEnd)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonContainerType)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteEnd)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb3160;
+  constexpr static std::size_t addrs = 0x3eb80d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteEnd", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteEnd", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWritePropertyName
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWritePropertyName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::InternalWritePropertyName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWritePropertyName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3eb319c;
+  constexpr static std::size_t addrs = 0x3eb8110;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWritePropertyName",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWritePropertyName", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::StringW>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteRaw
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteRaw
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::InternalWriteRaw)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteRaw)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eb40e4;
+  constexpr static std::size_t addrs = 0x3eb9058;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteRaw",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteRaw", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteStart
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteStart
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken, ::Newtonsoft::Json::JsonContainerType)>(
-    &::Newtonsoft::Json::JsonWriter::InternalWriteStart)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonToken, ::Newtonsoft::Json::JsonContainerType)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteStart)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3eb3118;
+  constexpr static std::size_t addrs = 0x3eb808c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteStart", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteStart", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonContainerType>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteValue
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::Newtonsoft::Json::JsonToken)>(
-    &::Newtonsoft::Json::JsonWriter::InternalWriteValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(
+        ::Newtonsoft::Json::JsonToken)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3eb40ac;
+  constexpr static std::size_t addrs = 0x3eb9020;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteValue", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteValue", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteWhitespace
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteWhitespace
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonWriter::InternalWriteWhitespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)(::StringW)>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteWhitespace)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eb5f24;
+  constexpr static std::size_t addrs = 0x3ebae98;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteWhitespace", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteWhitespace", std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::StringW>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter.InternalWriteComment
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter.InternalWriteComment
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(&::Newtonsoft::Json::JsonWriter::InternalWriteComment)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Newtonsoft::Json::JsonWriter::*)()>(
+        &::Newtonsoft::Json::JsonWriter::InternalWriteComment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb5f18;
+  constexpr static std::size_t addrs = 0x3ebae8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteComment",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "InternalWriteComment", std::span<const Il2CppClass *const, 0>(),
+        ::std::span<const Il2CppType *const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitProperty_11_0
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitProperty_11_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Threading::Tasks::Task*, int32_t, ::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitProperty_11_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::Tasks::Task *, int32_t,
+               ::Newtonsoft::Json::JsonToken,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::
+            _InternalWriteEndAsync_g__AwaitProperty_11_0)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ead40c;
+  constexpr static std::size_t addrs = 0x3eb2380;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitProperty|11_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "<InternalWriteEndAsync>g__AwaitProperty|11_0",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::Tasks::Task *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitIndent_11_1
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitIndent_11_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Threading::Tasks::Task*, int32_t, ::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(
-    &::Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitIndent_11_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::Tasks::Task *, int32_t,
+               ::Newtonsoft::Json::JsonToken,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::
+            _InternalWriteEndAsync_g__AwaitIndent_11_1)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3ead4f8;
+  constexpr static std::size_t addrs = 0x3eb246c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitIndent|11_1", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "<InternalWriteEndAsync>g__AwaitIndent|11_1",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::Tasks::Task *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitEnd_11_2
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitEnd_11_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(::System::Threading::Tasks::Task*, int32_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitEnd_11_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(::System::Threading::Tasks::Task *, int32_t,
+               ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::
+            _InternalWriteEndAsync_g__AwaitEnd_11_2)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ead5f0;
+  constexpr static std::size_t addrs = 0x3eb2564;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitEnd|11_2", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "<InternalWriteEndAsync>g__AwaitEnd|11_2",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::Tasks::Task *>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitRemaining_11_3
+//  Writing Method size for method:
+//  ::Newtonsoft::Json::JsonWriter._InternalWriteEndAsync_g__AwaitRemaining_11_3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::Newtonsoft::Json::JsonWriter::*)(int32_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitRemaining_11_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task *(
+        ::Newtonsoft::Json::JsonWriter::
+            *)(int32_t, ::System::Threading::CancellationToken)>(
+        &::Newtonsoft::Json::JsonWriter::
+            _InternalWriteEndAsync_g__AwaitRemaining_11_3)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3eb61d0;
+  constexpr static std::size_t addrs = 0x3ebb144;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitRemaining|11_3", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static const ::MethodInfo *methodInfo() {
+    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Newtonsoft::Json::JsonWriter *>::get(),
+        "<InternalWriteEndAsync>g__AwaitRemaining|11_3",
+        std::span<const Il2CppClass *const, 0>(),
+        ::std::array<const Il2CppType *, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Threading::CancellationToken>::get()})));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& Newtonsoft::Json::JsonWriter::__cordl_internal_get__stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::System::Collections::Generic::List_1<
+    ::Newtonsoft::Json::JsonPosition> *&
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__stack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____stack;
 }
-constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::System::Collections::Generic::List_1<
+    ::Newtonsoft::Json::JsonPosition> *const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__stack() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____stack;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__stack(
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>
+        *value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+  il2cpp_functions::gc_wbarrier_set_field(
+      this, static_cast<void **>(static_cast<void *>(&this->____stack)),
+      cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Newtonsoft::Json::JsonPosition& Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::JsonPosition &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentPosition() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____currentPosition;
 }
-constexpr ::Newtonsoft::Json::JsonPosition const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::JsonPosition const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentPosition() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____currentPosition;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__currentPosition(::Newtonsoft::Json::JsonPosition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void
+Newtonsoft::Json::JsonWriter::__cordl_internal_set__currentPosition(
+    ::Newtonsoft::Json::JsonPosition value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____currentPosition = value;
 }
-constexpr ::Newtonsoft::Json::JsonWriter_State& Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::JsonWriter_State &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____currentState;
 }
-constexpr ::Newtonsoft::Json::JsonWriter_State const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::JsonWriter_State const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__currentState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____currentState;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__currentState(::Newtonsoft::Json::JsonWriter_State value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__currentState(
+    ::Newtonsoft::Json::JsonWriter_State value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____currentState = value;
 }
-constexpr ::Newtonsoft::Json::Formatting& Newtonsoft::Json::JsonWriter::__cordl_internal_get__formatting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::Formatting &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__formatting() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____formatting;
 }
-constexpr ::Newtonsoft::Json::Formatting const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__formatting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::Formatting const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__formatting() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____formatting;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__formatting(::Newtonsoft::Json::Formatting value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__formatting(
+    ::Newtonsoft::Json::Formatting value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____formatting = value;
 }
-constexpr bool& Newtonsoft::Json::JsonWriter::__cordl_internal_get__CloseOutput_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr bool &Newtonsoft::Json::JsonWriter::
+    __cordl_internal_get__CloseOutput_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____CloseOutput_k__BackingField;
 }
-constexpr bool const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__CloseOutput_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr bool const &Newtonsoft::Json::JsonWriter::
+    __cordl_internal_get__CloseOutput_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____CloseOutput_k__BackingField;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__CloseOutput_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void
+Newtonsoft::Json::JsonWriter::__cordl_internal_set__CloseOutput_k__BackingField(
+    bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____CloseOutput_k__BackingField = value;
 }
-constexpr bool& Newtonsoft::Json::JsonWriter::__cordl_internal_get__AutoCompleteOnClose_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr bool &Newtonsoft::Json::JsonWriter::
+    __cordl_internal_get__AutoCompleteOnClose_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____AutoCompleteOnClose_k__BackingField;
 }
-constexpr bool const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__AutoCompleteOnClose_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr bool const &Newtonsoft::Json::JsonWriter::
+    __cordl_internal_get__AutoCompleteOnClose_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____AutoCompleteOnClose_k__BackingField;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__AutoCompleteOnClose_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void Newtonsoft::Json::JsonWriter::
+    __cordl_internal_set__AutoCompleteOnClose_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____AutoCompleteOnClose_k__BackingField = value;
 }
-constexpr ::Newtonsoft::Json::DateFormatHandling& Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::DateFormatHandling &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____dateFormatHandling;
 }
-constexpr ::Newtonsoft::Json::DateFormatHandling const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::DateFormatHandling const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatHandling() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____dateFormatHandling;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__dateFormatHandling(::Newtonsoft::Json::DateFormatHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void
+Newtonsoft::Json::JsonWriter::__cordl_internal_set__dateFormatHandling(
+    ::Newtonsoft::Json::DateFormatHandling value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____dateFormatHandling = value;
 }
-constexpr ::Newtonsoft::Json::DateTimeZoneHandling& Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateTimeZoneHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::DateTimeZoneHandling &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateTimeZoneHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____dateTimeZoneHandling;
 }
-constexpr ::Newtonsoft::Json::DateTimeZoneHandling const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateTimeZoneHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::DateTimeZoneHandling const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateTimeZoneHandling()
+    const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____dateTimeZoneHandling;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__dateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void
+Newtonsoft::Json::JsonWriter::__cordl_internal_set__dateTimeZoneHandling(
+    ::Newtonsoft::Json::DateTimeZoneHandling value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____dateTimeZoneHandling = value;
 }
-constexpr ::Newtonsoft::Json::StringEscapeHandling& Newtonsoft::Json::JsonWriter::__cordl_internal_get__stringEscapeHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::StringEscapeHandling &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__stringEscapeHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____stringEscapeHandling;
 }
-constexpr ::Newtonsoft::Json::StringEscapeHandling const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__stringEscapeHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::StringEscapeHandling const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__stringEscapeHandling()
+    const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____stringEscapeHandling;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__stringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void
+Newtonsoft::Json::JsonWriter::__cordl_internal_set__stringEscapeHandling(
+    ::Newtonsoft::Json::StringEscapeHandling value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____stringEscapeHandling = value;
 }
-constexpr ::Newtonsoft::Json::FloatFormatHandling& Newtonsoft::Json::JsonWriter::__cordl_internal_get__floatFormatHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::FloatFormatHandling &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__floatFormatHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____floatFormatHandling;
 }
-constexpr ::Newtonsoft::Json::FloatFormatHandling const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__floatFormatHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::Newtonsoft::Json::FloatFormatHandling const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__floatFormatHandling()
+    const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____floatFormatHandling;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__floatFormatHandling(::Newtonsoft::Json::FloatFormatHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr void
+Newtonsoft::Json::JsonWriter::__cordl_internal_set__floatFormatHandling(
+    ::Newtonsoft::Json::FloatFormatHandling value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   this->____floatFormatHandling = value;
 }
-constexpr ::StringW& Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::StringW &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatString() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____dateFormatString;
 }
-constexpr ::StringW const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::StringW const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__dateFormatString() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____dateFormatString;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__dateFormatString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dateFormatString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+Newtonsoft::Json::JsonWriter::__cordl_internal_set__dateFormatString(
+    ::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+  il2cpp_functions::gc_wbarrier_set_field(
+      this,
+      static_cast<void **>(static_cast<void *>(&this->____dateFormatString)),
+      cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Globalization::CultureInfo*& Newtonsoft::Json::JsonWriter::__cordl_internal_get__culture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::System::Globalization::CultureInfo *&
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__culture() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____culture;
 }
-constexpr ::System::Globalization::CultureInfo* const& Newtonsoft::Json::JsonWriter::__cordl_internal_get__culture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+constexpr ::System::Globalization::CultureInfo *const &
+Newtonsoft::Json::JsonWriter::__cordl_internal_get__culture() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
   return this->____culture;
 }
-constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__culture(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____culture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::JsonWriter::__cordl_internal_set__culture(
+    ::System::Globalization::CultureInfo *value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+  il2cpp_functions::gc_wbarrier_set_field(
+      this, static_cast<void **>(static_cast<void *>(&this->____culture)),
+      cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Newtonsoft::Json::JsonWriter::setStaticF_StateArray(::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                                                                         ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>
-                                                                    value) {
-  ::cordl_internals::setStaticField<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                                             ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>,
-                                    "StateArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get>(
-      std::forward<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                            ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>>(value));
+inline void Newtonsoft::Json::JsonWriter::setStaticF_StateArray(
+    ::ArrayW<
+        ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                 ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+        ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                         ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>
+        value) {
+  ::cordl_internals::setStaticField<
+      ::ArrayW<
+          ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                   ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+          ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                           ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>,
+      "StateArray",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get>(
+      std::forward<::ArrayW<
+          ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                   ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+          ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                           ::Array<::Newtonsoft::Json::JsonWriter_State> *>>
+              *>>(value));
 }
-inline ::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>
+inline ::ArrayW<
+    ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+             ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+    ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                     ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>
 Newtonsoft::Json::JsonWriter::getStaticF_StateArray() {
-  return ::cordl_internals::getStaticField<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                                                    ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>,
-                                           "StateArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get>();
+  return ::cordl_internals::getStaticField<
+      ::ArrayW<
+          ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                   ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+          ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                           ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>,
+      "StateArray",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get>();
 }
-inline void Newtonsoft::Json::JsonWriter::setStaticF_StateArrayTemplate(::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                                                                                 ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>
-                                                                            value) {
-  ::cordl_internals::setStaticField<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                                             ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>,
-                                    "StateArrayTemplate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get>(
-      std::forward<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                            ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>>(value));
+inline void Newtonsoft::Json::JsonWriter::setStaticF_StateArrayTemplate(
+    ::ArrayW<
+        ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                 ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+        ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                         ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>
+        value) {
+  ::cordl_internals::setStaticField<
+      ::ArrayW<
+          ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                   ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+          ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                           ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>,
+      "StateArrayTemplate",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get>(
+      std::forward<::ArrayW<
+          ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                   ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+          ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                           ::Array<::Newtonsoft::Json::JsonWriter_State> *>>
+              *>>(value));
 }
-inline ::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>
+inline ::ArrayW<
+    ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+             ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+    ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                     ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>
 Newtonsoft::Json::JsonWriter::getStaticF_StateArrayTemplate() {
-  return ::cordl_internals::getStaticField<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                                                    ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>,
-                                           "StateArrayTemplate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get>();
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::AutoCompleteAsync(::Newtonsoft::Json::JsonToken tokenBeingWritten, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, tokenBeingWritten, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::AutoCompleteAsync(::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::CloseAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::FlushAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteEndAsync(::Newtonsoft::Json::JsonToken token, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, token, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteIndentAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 8)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueDelimiterAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteIndentSpaceAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 10)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteRawAsync(::StringW json, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, json, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteEndAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 12)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteEndInternalAsync(::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteEndInternalAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::InternalWriteEndAsync(::Newtonsoft::Json::JsonContainerType type, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteEndAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, type, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteEndArrayAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteEndConstructorAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 14)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteEndObjectAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 15)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteNullAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 16)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WritePropertyNameAsync(::StringW name, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 17)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, name, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WritePropertyNameAsync(::StringW name, bool escape, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 18)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, name, escape, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::InternalWritePropertyNameAsync(::StringW name, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWritePropertyNameAsync", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, name, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteStartArrayAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 19)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::InternalWriteStartAsync(::Newtonsoft::Json::JsonToken token, ::Newtonsoft::Json::JsonContainerType container,
-                                                                                               ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteStartAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, token, container, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteCommentAsync(::StringW text, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 20)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, text, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::InternalWriteCommentAsync(::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteCommentAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteRawValueAsync(::StringW json, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 21)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, json, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteStartConstructorAsync(::StringW name, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 22)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, name, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteStartObjectAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 23)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteTokenAsync(::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, reader, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteTokenAsync(::Newtonsoft::Json::JsonReader* reader, bool writeChildren,
-                                                                                       ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, reader, writeChildren, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteTokenAsync(::Newtonsoft::Json::JsonToken token, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, token, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteTokenAsync(::Newtonsoft::Json::JsonToken token, ::System::Object* value,
-                                                                                       ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, token, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteTokenAsync(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments,
-                                                                                       ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 24)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, reader, writeChildren, writeDateConstructorAsDate, writeComments, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteTokenSyncReadingAsync(::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteTokenSyncReadingAsync", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, reader, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteConstructorDateAsync(::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteConstructorDateAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, reader, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(bool value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 25)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<bool> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 26)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(uint8_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 27)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<uint8_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 28)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 29)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(char16_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 30)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<char16_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 31)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::DateTime value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 32)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<::System::DateTime> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 33)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::DateTimeOffset value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 34)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<::System::DateTimeOffset> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 35)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Decimal value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 36)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<::System::Decimal> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 37)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(double_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 38)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<double_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 39)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(float_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 40)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<float_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 41)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Guid value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 42)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<::System::Guid> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 43)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(int32_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 44)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<int32_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 45)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(int64_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 46)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<int64_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 47)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Object* value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 48)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(int8_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 49)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<int8_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 50)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(int16_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 51)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<int16_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 52)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 53)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::TimeSpan value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 54)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<::System::TimeSpan> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 55)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(uint32_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 56)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<uint32_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 57)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(uint64_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 58)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<uint64_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 59)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Uri* value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 60)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(uint16_t value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 61)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::System::Nullable_1<uint16_t> value, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 62)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteUndefinedAsync(::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 63)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteWhitespaceAsync(::StringW ws, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 64)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, ws, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::InternalWriteValueAsync(::Newtonsoft::Json::JsonToken token, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteValueAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, token, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::SetWriteStateAsync(::Newtonsoft::Json::JsonToken token, ::System::Object* value,
-                                                                                          ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "SetWriteStateAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, token, value, cancellationToken);
-}
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::WriteValueAsync(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode,
-                                                                                       ::System::Object* value, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteValueAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(nullptr, ___internal_method, writer, typeCode, value, cancellationToken);
-}
-inline ::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>
+  return ::cordl_internals::getStaticField<
+      ::ArrayW<
+          ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                   ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+          ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                           ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>,
+      "StateArrayTemplate",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get>();
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::AutoCompleteAsync(
+    ::Newtonsoft::Json::JsonToken tokenBeingWritten,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "AutoCompleteAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, tokenBeingWritten, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::AutoCompleteAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "AutoCompleteAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::CloseAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      5)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::FlushAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      6)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteEndAsync(
+    ::Newtonsoft::Json::JsonToken token,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      7)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    token, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteIndentAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      8)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueDelimiterAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      9)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteIndentSpaceAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      10)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteRawAsync(
+    ::StringW json, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      11)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    json, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteEndAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      12)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteEndInternalAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteEndInternalAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::InternalWriteEndAsync(
+    ::Newtonsoft::Json::JsonContainerType type,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteEndAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    type, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteEndArrayAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      13)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteEndConstructorAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      14)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteEndObjectAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      15)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteNullAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      16)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WritePropertyNameAsync(
+    ::StringW name, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      17)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    name, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WritePropertyNameAsync(
+    ::StringW name, bool escape,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      18)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, name, escape, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::InternalWritePropertyNameAsync(
+    ::StringW name, ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWritePropertyNameAsync",
+      std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::StringW>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    name, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteStartArrayAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      19)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::InternalWriteStartAsync(
+    ::Newtonsoft::Json::JsonToken token,
+    ::Newtonsoft::Json::JsonContainerType container,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteStartAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, token, container, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteCommentAsync(
+    ::StringW text, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      20)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    text, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::InternalWriteCommentAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteCommentAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteRawValueAsync(
+    ::StringW json, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      21)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    json, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteStartConstructorAsync(
+    ::StringW name, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      22)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    name, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteStartObjectAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      23)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteTokenAsync(
+    ::Newtonsoft::Json::JsonReader *reader,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    reader, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteTokenAsync(
+    ::Newtonsoft::Json::JsonReader *reader, bool writeChildren,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, reader, writeChildren, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteTokenAsync(
+    ::Newtonsoft::Json::JsonToken token,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    token, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteTokenAsync(
+    ::Newtonsoft::Json::JsonToken token, ::System::Object *value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteTokenAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Object *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, token, value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteTokenAsync(
+    ::Newtonsoft::Json::JsonReader *reader, bool writeChildren,
+    bool writeDateConstructorAsDate, bool writeComments,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      24)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, reader, writeChildren,
+      writeDateConstructorAsDate, writeComments, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteTokenSyncReadingAsync(
+    ::Newtonsoft::Json::JsonReader *reader,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteTokenSyncReadingAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    reader, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteConstructorDateAsync(
+    ::Newtonsoft::Json::JsonReader *reader,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteConstructorDateAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    reader, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    bool value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      25)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<bool> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      26)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    uint8_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      27)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<uint8_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      28)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::ArrayW<uint8_t, ::Array<uint8_t> *> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      29)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    char16_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      30)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<char16_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      31)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::DateTime value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      32)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<::System::DateTime> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      33)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::DateTimeOffset value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      34)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<::System::DateTimeOffset> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      35)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Decimal value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      36)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<::System::Decimal> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      37)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    double_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      38)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<double_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      39)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    float_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      40)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<float_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      41)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Guid value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      42)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<::System::Guid> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      43)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    int32_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      44)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<int32_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      45)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    int64_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      46)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<int64_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      47)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Object *value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      48)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    int8_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      49)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<int8_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      50)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    int16_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      51)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<int16_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      52)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::StringW value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      53)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::TimeSpan value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      54)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<::System::TimeSpan> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      55)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    uint32_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      56)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<uint32_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      57)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    uint64_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      58)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<uint64_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      59)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Uri *value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      60)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    uint16_t value, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      61)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::System::Nullable_1<uint16_t> value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      62)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteUndefinedAsync(
+    ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      63)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteWhitespaceAsync(
+    ::StringW ws, ::System::Threading::CancellationToken cancellationToken) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      64)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    ws, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::InternalWriteValueAsync(
+    ::Newtonsoft::Json::JsonToken token,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteValueAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    token, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::SetWriteStateAsync(
+    ::Newtonsoft::Json::JsonToken token, ::System::Object *value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "SetWriteStateAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Object *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, token, value, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::WriteValueAsync(
+    ::Newtonsoft::Json::JsonWriter *writer,
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode,
+    ::System::Object *value,
+    ::System::Threading::CancellationToken cancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteValueAsync", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonWriter *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Object *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      nullptr, ___internal_method, writer, typeCode, value, cancellationToken);
+}
+inline ::ArrayW<
+    ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+             ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+    ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                     ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>
 Newtonsoft::Json::JsonWriter::BuildStateArray() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "BuildStateArray",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>,
-                                                      ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State, ::Array<::Newtonsoft::Json::JsonWriter_State>*>>*>,
-                                             false>(nullptr, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "BuildStateArray", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::ArrayW<
+          ::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                   ::Array<::Newtonsoft::Json::JsonWriter_State> *>,
+          ::Array<::ArrayW<::Newtonsoft::Json::JsonWriter_State,
+                           ::Array<::Newtonsoft::Json::JsonWriter_State> *>> *>,
+      false>(nullptr, ___internal_method);
 }
 inline bool Newtonsoft::Json::JsonWriter::get_CloseOutput() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_CloseOutput",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_CloseOutput", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::set_CloseOutput(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_CloseOutput",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_CloseOutput", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              bool>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline bool Newtonsoft::Json::JsonWriter::get_AutoCompleteOnClose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_AutoCompleteOnClose",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_AutoCompleteOnClose", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::set_AutoCompleteOnClose(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_AutoCompleteOnClose",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_AutoCompleteOnClose", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              bool>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline int32_t Newtonsoft::Json::JsonWriter::get_Top() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Top",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_Top", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
+      this, ___internal_method);
 }
-inline ::Newtonsoft::Json::WriteState Newtonsoft::Json::JsonWriter::get_WriteState() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_WriteState",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::WriteState, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::WriteState
+Newtonsoft::Json::JsonWriter::get_WriteState() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_WriteState", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::WriteState,
+                                             false>(this, ___internal_method);
 }
 inline ::StringW Newtonsoft::Json::JsonWriter::get_ContainerPath() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_ContainerPath",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_ContainerPath", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
+      this, ___internal_method);
 }
 inline ::StringW Newtonsoft::Json::JsonWriter::get_Path() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Path",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_Path", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
+      this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Formatting Newtonsoft::Json::JsonWriter::get_Formatting() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Formatting",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Formatting, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::Formatting
+Newtonsoft::Json::JsonWriter::get_Formatting() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_Formatting", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Formatting,
+                                             false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::set_Formatting(::Newtonsoft::Json::Formatting value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_Formatting", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Formatting>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::set_Formatting(
+    ::Newtonsoft::Json::Formatting value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_Formatting", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::Formatting>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::DateFormatHandling Newtonsoft::Json::JsonWriter::get_DateFormatHandling() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_DateFormatHandling",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::DateFormatHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::DateFormatHandling
+Newtonsoft::Json::JsonWriter::get_DateFormatHandling() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_DateFormatHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::Newtonsoft::Json::DateFormatHandling, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::set_DateFormatHandling(::Newtonsoft::Json::DateFormatHandling value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_DateFormatHandling", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DateFormatHandling>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::set_DateFormatHandling(
+    ::Newtonsoft::Json::DateFormatHandling value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_DateFormatHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::DateFormatHandling>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::DateTimeZoneHandling Newtonsoft::Json::JsonWriter::get_DateTimeZoneHandling() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_DateTimeZoneHandling",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::DateTimeZoneHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::DateTimeZoneHandling
+Newtonsoft::Json::JsonWriter::get_DateTimeZoneHandling() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_DateTimeZoneHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::Newtonsoft::Json::DateTimeZoneHandling, false>(this,
+                                                       ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_DateTimeZoneHandling", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DateTimeZoneHandling>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::set_DateTimeZoneHandling(
+    ::Newtonsoft::Json::DateTimeZoneHandling value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_DateTimeZoneHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::DateTimeZoneHandling>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::StringEscapeHandling Newtonsoft::Json::JsonWriter::get_StringEscapeHandling() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_StringEscapeHandling",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::StringEscapeHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::StringEscapeHandling
+Newtonsoft::Json::JsonWriter::get_StringEscapeHandling() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_StringEscapeHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::Newtonsoft::Json::StringEscapeHandling, false>(this,
+                                                       ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::set_StringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_StringEscapeHandling", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::StringEscapeHandling>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::set_StringEscapeHandling(
+    ::Newtonsoft::Json::StringEscapeHandling value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_StringEscapeHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::StringEscapeHandling>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::OnStringEscapeHandlingChanged() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 65)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      65)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline ::Newtonsoft::Json::FloatFormatHandling Newtonsoft::Json::JsonWriter::get_FloatFormatHandling() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_FloatFormatHandling",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::FloatFormatHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::FloatFormatHandling
+Newtonsoft::Json::JsonWriter::get_FloatFormatHandling() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_FloatFormatHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::Newtonsoft::Json::FloatFormatHandling, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::set_FloatFormatHandling(::Newtonsoft::Json::FloatFormatHandling value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_FloatFormatHandling", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::FloatFormatHandling>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::set_FloatFormatHandling(
+    ::Newtonsoft::Json::FloatFormatHandling value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_FloatFormatHandling", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::FloatFormatHandling>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline ::StringW Newtonsoft::Json::JsonWriter::get_DateFormatString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_DateFormatString",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_DateFormatString", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
+      this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::set_DateFormatString(::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_DateFormatString", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::set_DateFormatString(::StringW value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_DateFormatString", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::StringW>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline ::System::Globalization::CultureInfo* Newtonsoft::Json::JsonWriter::get_Culture() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "get_Culture",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Globalization::CultureInfo*, false>(this, ___internal_method);
+inline ::System::Globalization::CultureInfo *
+Newtonsoft::Json::JsonWriter::get_Culture() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "get_Culture", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::System::Globalization::CultureInfo *, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::set_Culture(::System::Globalization::CultureInfo* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "set_Culture", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::set_Culture(
+    ::System::Globalization::CultureInfo *value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "set_Culture", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Globalization::CultureInfo *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      ".ctor", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::UpdateScopeWithFinishedValue() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                             "UpdateScopeWithFinishedValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "UpdateScopeWithFinishedValue", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::Push(::Newtonsoft::Json::JsonContainerType value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "Push", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::Push(
+    ::Newtonsoft::Json::JsonContainerType value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "Push", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::JsonContainerType Newtonsoft::Json::JsonWriter::Pop() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "Pop",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonContainerType, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::JsonContainerType
+Newtonsoft::Json::JsonWriter::Pop() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "Pop", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::Newtonsoft::Json::JsonContainerType, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::JsonContainerType Newtonsoft::Json::JsonWriter::Peek() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "Peek",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonContainerType, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::JsonContainerType
+Newtonsoft::Json::JsonWriter::Peek() {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "Peek", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<
+      ::Newtonsoft::Json::JsonContainerType, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::Flush() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 66)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      66)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::Close() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 67)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      67)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteStartObject() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 68)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      68)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteEndObject() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 69)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      69)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteStartArray() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 70)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      70)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteEndArray() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 71)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      71)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteStartConstructor(::StringW name) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 72)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
+inline void
+Newtonsoft::Json::JsonWriter::WriteStartConstructor(::StringW name) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      72)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, name);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteEndConstructor() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 73)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      73)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WritePropertyName(::StringW name) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 74)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      74)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, name);
 }
-inline void Newtonsoft::Json::JsonWriter::WritePropertyName(::StringW name, bool escape) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 75)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, escape);
+inline void Newtonsoft::Json::JsonWriter::WritePropertyName(::StringW name,
+                                                            bool escape) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      75)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, name, escape);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteEnd() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 76)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      76)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonReader* reader) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+inline void Newtonsoft::Json::JsonWriter::WriteToken(
+    ::Newtonsoft::Json::JsonReader *reader) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteToken", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, reader);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonReader* reader, bool writeChildren) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, writeChildren);
+inline void
+Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonReader *reader,
+                                         bool writeChildren) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteToken", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              bool>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, reader, writeChildren);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonToken token, ::System::Object* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonToken token,
+                                         ::System::Object *value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteToken", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Object *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, token, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonToken token) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteToken", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token);
+inline void
+Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonToken token) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteToken", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, token);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteToken(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 77)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, writeChildren, writeDateConstructorAsDate, writeComments);
+inline void Newtonsoft::Json::JsonWriter::WriteToken(
+    ::Newtonsoft::Json::JsonReader *reader, bool writeChildren,
+    bool writeDateConstructorAsDate, bool writeComments) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      77)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, reader, writeChildren,
+      writeDateConstructorAsDate, writeComments);
 }
-inline bool Newtonsoft::Json::JsonWriter::IsWriteTokenIncomplete(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, int32_t initialDepth) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "IsWriteTokenIncomplete", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, reader, writeChildren, initialDepth);
+inline bool Newtonsoft::Json::JsonWriter::IsWriteTokenIncomplete(
+    ::Newtonsoft::Json::JsonReader *reader, bool writeChildren,
+    int32_t initialDepth) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "IsWriteTokenIncomplete", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              int32_t>::get()})));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(
+      this, ___internal_method, reader, writeChildren, initialDepth);
 }
-inline int32_t Newtonsoft::Json::JsonWriter::CalculateWriteTokenInitialDepth(::Newtonsoft::Json::JsonReader* reader) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CalculateWriteTokenInitialDepth", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, reader);
+inline int32_t Newtonsoft::Json::JsonWriter::CalculateWriteTokenInitialDepth(
+    ::Newtonsoft::Json::JsonReader *reader) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "CalculateWriteTokenInitialDepth",
+      std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
+      this, ___internal_method, reader);
 }
-inline int32_t Newtonsoft::Json::JsonWriter::CalculateWriteTokenFinalDepth(::Newtonsoft::Json::JsonReader* reader) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CalculateWriteTokenFinalDepth", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, reader);
+inline int32_t Newtonsoft::Json::JsonWriter::CalculateWriteTokenFinalDepth(
+    ::Newtonsoft::Json::JsonReader *reader) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "CalculateWriteTokenFinalDepth", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
+      this, ___internal_method, reader);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteConstructorDate(::Newtonsoft::Json::JsonReader* reader) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteConstructorDate", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+inline void Newtonsoft::Json::JsonWriter::WriteConstructorDate(
+    ::Newtonsoft::Json::JsonReader *reader) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteConstructorDate", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonReader *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, reader);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteEnd(::Newtonsoft::Json::JsonContainerType type) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteEnd", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
+inline void Newtonsoft::Json::JsonWriter::WriteEnd(
+    ::Newtonsoft::Json::JsonContainerType type) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteEnd", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, type);
 }
 inline void Newtonsoft::Json::JsonWriter::AutoCompleteAll() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteAll",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "AutoCompleteAll", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline ::Newtonsoft::Json::JsonToken Newtonsoft::Json::JsonWriter::GetCloseTokenForType(::Newtonsoft::Json::JsonContainerType type) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "GetCloseTokenForType", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonToken, false>(this, ___internal_method, type);
+inline ::Newtonsoft::Json::JsonToken
+Newtonsoft::Json::JsonWriter::GetCloseTokenForType(
+    ::Newtonsoft::Json::JsonContainerType type) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "GetCloseTokenForType", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonToken,
+                                             false>(this, ___internal_method,
+                                                    type);
 }
-inline void Newtonsoft::Json::JsonWriter::AutoCompleteClose(::Newtonsoft::Json::JsonContainerType type) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoCompleteClose", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
+inline void Newtonsoft::Json::JsonWriter::AutoCompleteClose(
+    ::Newtonsoft::Json::JsonContainerType type) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "AutoCompleteClose", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, type);
 }
-inline int32_t Newtonsoft::Json::JsonWriter::CalculateLevelsToComplete(::Newtonsoft::Json::JsonContainerType type) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CalculateLevelsToComplete", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, type);
+inline int32_t Newtonsoft::Json::JsonWriter::CalculateLevelsToComplete(
+    ::Newtonsoft::Json::JsonContainerType type) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "CalculateLevelsToComplete", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get()})));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
+      this, ___internal_method, type);
 }
 inline void Newtonsoft::Json::JsonWriter::UpdateCurrentState() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "UpdateCurrentState",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "UpdateCurrentState", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteEnd(::Newtonsoft::Json::JsonToken token) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 78)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token);
+inline void
+Newtonsoft::Json::JsonWriter::WriteEnd(::Newtonsoft::Json::JsonToken token) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      78)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, token);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteIndent() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 79)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      79)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValueDelimiter() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 80)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      80)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteIndentSpace() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 81)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      81)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::AutoComplete(::Newtonsoft::Json::JsonToken tokenBeingWritten) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "AutoComplete", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tokenBeingWritten);
+inline void Newtonsoft::Json::JsonWriter::AutoComplete(
+    ::Newtonsoft::Json::JsonToken tokenBeingWritten) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "AutoComplete", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, tokenBeingWritten);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteNull() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 82)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      82)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteUndefined() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 83)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      83)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteRaw(::StringW json) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 84)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, json);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      84)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, json);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteRawValue(::StringW json) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 85)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, json);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      85)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, json);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(::StringW value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 86)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      86)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(int32_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 87)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      87)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(uint32_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 88)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      88)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(int64_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 89)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      89)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(uint64_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 90)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      90)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(float_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 91)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      91)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(double_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 92)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      92)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(bool value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 93)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      93)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(int16_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 94)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      94)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(uint16_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 95)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      95)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(char16_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 96)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      96)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(uint8_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 97)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      97)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(int8_t value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 98)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      98)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Decimal value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 99)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      99)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::DateTime value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 100)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      100)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::DateTimeOffset value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 101)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::DateTimeOffset value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      101)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Guid value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 102)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      102)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::TimeSpan value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 103)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      103)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int32_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 104)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int32_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      104)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint32_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 105)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint32_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      105)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int64_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 106)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int64_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      106)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint64_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 107)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint64_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      107)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<float_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 108)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<float_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      108)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<double_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 109)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<double_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      109)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<bool> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 110)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<bool> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      110)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int16_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 111)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int16_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      111)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint16_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 112)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint16_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      112)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<char16_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 113)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<char16_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      113)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint8_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 114)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<uint8_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      114)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int8_t> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 115)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void
+Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<int8_t> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      115)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<::System::Decimal> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 116)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(
+    ::System::Nullable_1<::System::Decimal> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      116)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<::System::DateTime> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 117)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(
+    ::System::Nullable_1<::System::DateTime> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      117)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<::System::DateTimeOffset> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 118)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(
+    ::System::Nullable_1<::System::DateTimeOffset> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      118)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<::System::Guid> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 119)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(
+    ::System::Nullable_1<::System::Guid> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      119)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Nullable_1<::System::TimeSpan> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 120)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(
+    ::System::Nullable_1<::System::TimeSpan> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      120)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 121)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(
+    ::ArrayW<uint8_t, ::Array<uint8_t> *> value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      121)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Uri* value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 122)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Uri *value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      122)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Object* value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 123)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(::System::Object *value) {
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      123)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteComment(::StringW text) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 124)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      124)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, text);
 }
 inline void Newtonsoft::Json::JsonWriter::WriteWhitespace(::StringW ws) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 125)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ws);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      125)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, ws);
 }
 inline void Newtonsoft::Json::JsonWriter::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                             "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "System.IDisposable.Dispose", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
 inline void Newtonsoft::Json::JsonWriter::Dispose(bool disposing) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), 126)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(
+          reinterpret_cast<Il2CppObject *>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      126)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, disposing);
 }
-inline void Newtonsoft::Json::JsonWriter::WriteValue(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode, ::System::Object* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "WriteValue", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonWriter*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, writer, typeCode, value);
+inline void Newtonsoft::Json::JsonWriter::WriteValue(
+    ::Newtonsoft::Json::JsonWriter *writer,
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode,
+    ::System::Object *value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "WriteValue", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonWriter *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Object *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      nullptr, ___internal_method, writer, typeCode, value);
 }
-inline void Newtonsoft::Json::JsonWriter::ResolveConvertibleValue(::System::IConvertible* convertible, ::ByRef<::Newtonsoft::Json::Utilities::PrimitiveTypeCode> typeCode,
-                                                                  ::ByRef<::System::Object*> value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "ResolveConvertibleValue", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IConvertible*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, convertible, typeCode, value);
+inline void Newtonsoft::Json::JsonWriter::ResolveConvertibleValue(
+    ::System::IConvertible *convertible,
+    ::ByRef<::Newtonsoft::Json::Utilities::PrimitiveTypeCode> typeCode,
+    ::ByRef<::System::Object *> value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "ResolveConvertibleValue", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::IConvertible *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::ByRef<::Newtonsoft::Json::Utilities::PrimitiveTypeCode>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::ByRef<::System::Object *>>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      nullptr, ___internal_method, convertible, typeCode, value);
 }
-inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriter::CreateUnsupportedTypeException(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "CreateUnsupportedTypeException", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonWriter*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonWriterException*, false>(nullptr, ___internal_method, writer, value);
+inline ::Newtonsoft::Json::JsonWriterException *
+Newtonsoft::Json::JsonWriter::CreateUnsupportedTypeException(
+    ::Newtonsoft::Json::JsonWriter *writer, ::System::Object *value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "CreateUnsupportedTypeException",
+      std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonWriter *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Object *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<
+      ::Newtonsoft::Json::JsonWriterException *, false>(
+      nullptr, ___internal_method, writer, value);
 }
-inline void Newtonsoft::Json::JsonWriter::SetWriteState(::Newtonsoft::Json::JsonToken token, ::System::Object* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "SetWriteState", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token, value);
+inline void
+Newtonsoft::Json::JsonWriter::SetWriteState(::Newtonsoft::Json::JsonToken token,
+                                            ::System::Object *value) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "SetWriteState", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Object *>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, token, value);
 }
-inline void Newtonsoft::Json::JsonWriter::InternalWriteEnd(::Newtonsoft::Json::JsonContainerType container) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteEnd", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
+inline void Newtonsoft::Json::JsonWriter::InternalWriteEnd(
+    ::Newtonsoft::Json::JsonContainerType container) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteEnd", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, container);
 }
-inline void Newtonsoft::Json::JsonWriter::InternalWritePropertyName(::StringW name) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWritePropertyName", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
+inline void
+Newtonsoft::Json::JsonWriter::InternalWritePropertyName(::StringW name) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWritePropertyName", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::StringW>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, name);
 }
 inline void Newtonsoft::Json::JsonWriter::InternalWriteRaw() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteRaw",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteRaw", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline void Newtonsoft::Json::JsonWriter::InternalWriteStart(::Newtonsoft::Json::JsonToken token, ::Newtonsoft::Json::JsonContainerType container) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteStart", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonContainerType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token, container);
+inline void Newtonsoft::Json::JsonWriter::InternalWriteStart(
+    ::Newtonsoft::Json::JsonToken token,
+    ::Newtonsoft::Json::JsonContainerType container) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteStart", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonContainerType>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, token, container);
 }
-inline void Newtonsoft::Json::JsonWriter::InternalWriteValue(::Newtonsoft::Json::JsonToken token) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteValue", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token);
+inline void Newtonsoft::Json::JsonWriter::InternalWriteValue(
+    ::Newtonsoft::Json::JsonToken token) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteValue", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, token);
 }
-inline void Newtonsoft::Json::JsonWriter::InternalWriteWhitespace(::StringW ws) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteWhitespace", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ws);
+inline void
+Newtonsoft::Json::JsonWriter::InternalWriteWhitespace(::StringW ws) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteWhitespace", std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::StringW>::get()})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(
+      this, ___internal_method, ws);
 }
 inline void Newtonsoft::Json::JsonWriter::InternalWriteComment() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "InternalWriteComment",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "InternalWriteComment", std::span<const Il2CppClass *const, 0>(),
+      ::std::span<const Il2CppType *const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this,
+                                                          ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitProperty_11_0(::System::Threading::Tasks::Task* task, int32_t LevelsToComplete,
-                                                                                                                    ::Newtonsoft::Json::JsonToken token,
-                                                                                                                    ::System::Threading::CancellationToken CancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitProperty|11_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, task, LevelsToComplete, token, CancellationToken);
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitProperty_11_0(
+    ::System::Threading::Tasks::Task *task, int32_t LevelsToComplete,
+    ::Newtonsoft::Json::JsonToken token,
+    ::System::Threading::CancellationToken CancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "<InternalWriteEndAsync>g__AwaitProperty|11_0",
+      std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::Tasks::Task *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    task, LevelsToComplete,
+                                                    token, CancellationToken);
 }
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitIndent_11_1(::System::Threading::Tasks::Task* task, int32_t LevelsToComplete,
-                                                                                                                  ::Newtonsoft::Json::JsonToken token,
-                                                                                                                  ::System::Threading::CancellationToken CancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitIndent|11_1", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, task, LevelsToComplete, token, CancellationToken);
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitIndent_11_1(
+    ::System::Threading::Tasks::Task *task, int32_t LevelsToComplete,
+    ::Newtonsoft::Json::JsonToken token,
+    ::System::Threading::CancellationToken CancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "<InternalWriteEndAsync>g__AwaitIndent|11_1",
+      std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::Tasks::Task *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(this, ___internal_method,
+                                                    task, LevelsToComplete,
+                                                    token, CancellationToken);
 }
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitEnd_11_2(::System::Threading::Tasks::Task* task, int32_t LevelsToComplete,
-                                                                                                               ::System::Threading::CancellationToken CancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitEnd|11_2", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, task, LevelsToComplete, CancellationToken);
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitEnd_11_2(
+    ::System::Threading::Tasks::Task *task, int32_t LevelsToComplete,
+    ::System::Threading::CancellationToken CancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "<InternalWriteEndAsync>g__AwaitEnd|11_2",
+      std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::Tasks::Task *>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, task, LevelsToComplete, CancellationToken);
 }
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitRemaining_11_3(int32_t LevelsToComplete,
-                                                                                                                     ::System::Threading::CancellationToken CancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonWriter*>::get(), "<InternalWriteEndAsync>g__AwaitRemaining|11_3", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, LevelsToComplete, CancellationToken);
+inline ::System::Threading::Tasks::Task *
+Newtonsoft::Json::JsonWriter::_InternalWriteEndAsync_g__AwaitRemaining_11_3(
+    int32_t LevelsToComplete,
+    ::System::Threading::CancellationToken CancellationToken) {
+  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Newtonsoft::Json::JsonWriter *>::get(),
+      "<InternalWriteEndAsync>g__AwaitRemaining|11_3",
+      std::span<const Il2CppClass *const, 0>(),
+      ::std::array<const Il2CppType *, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Threading::CancellationToken>::get()})));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
+                                             false>(
+      this, ___internal_method, LevelsToComplete, CancellationToken);
 }
-inline ::Newtonsoft::Json::JsonWriter* Newtonsoft::Json::JsonWriter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::JsonWriter*>());
+inline ::Newtonsoft::Json::JsonWriter *
+Newtonsoft::Json::JsonWriter::New_ctor() {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::Newtonsoft::Json::JsonWriter *>());
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr Newtonsoft::Json::JsonWriter::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr Newtonsoft::Json::JsonWriter::operator ::System::
+    IDisposable *() noexcept {
+  return static_cast<::System::IDisposable *>(static_cast<void *>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Newtonsoft::Json::JsonWriter::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr ::System::IDisposable *
+Newtonsoft::Json::JsonWriter::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable *>(static_cast<void *>(this));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonWriter::JsonWriter() {}

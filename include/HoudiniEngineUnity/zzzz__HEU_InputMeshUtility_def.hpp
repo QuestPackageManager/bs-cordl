@@ -36,37 +36,37 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_InputMeshUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetMeshDetailAttribute, addr 0x3a7d728, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SetMeshDetailAttribute, addr 0x3a8269c, size 0x1f8, virtual false, abstract: false, final false
   static inline bool SetMeshDetailAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, int32_t tupleSize, ::UnityEngine::Vector3 data,
                                             ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
 
-  /// @brief Method SetMeshPointAttribute, addr 0x3a7d59c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method SetMeshPointAttribute, addr 0x3a82510, size 0x18c, virtual false, abstract: false, final false
   static inline bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ArrayW<::StringW, ::Array<::StringW>*> data,
                                            ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
 
-  /// @brief Method SetMeshPointAttribute, addr 0x3a7d0fc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method SetMeshPointAttribute, addr 0x3a82070, size 0x270, virtual false, abstract: false, final false
   static inline bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, int32_t tupleSize,
                                            ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> data, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo,
                                            bool bConvertToHoudiniCoordinateSystem);
 
-  /// @brief Method SetMeshPointAttribute, addr 0x3a7d36c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetMeshPointAttribute, addr 0x3a822e0, size 0x230, virtual false, abstract: false, final false
   static inline bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, int32_t tupleSize,
                                            ::ArrayW<::UnityEngine::Vector3Int, ::Array<::UnityEngine::Vector3Int>*> data, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
 
-  /// @brief Method SetMeshPointAttribute, addr 0x3a7d920, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SetMeshPointAttribute, addr 0x3a82894, size 0x1e4, virtual false, abstract: false, final false
   static inline bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, int32_t tupleSize,
                                            ::ArrayW<float_t, ::Array<float_t>*> data, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
 
-  /// @brief Method SetMeshVertexAttribute, addr 0x3a7db0c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SetMeshVertexAttribute, addr 0x3a82a80, size 0x28c, virtual false, abstract: false, final false
   static inline bool SetMeshVertexAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, int32_t tupleSize,
                                             ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> data, ::ArrayW<int32_t, ::Array<int32_t>*> indices,
                                             ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);
 
-  /// @brief Method SetMeshVertexFloatAttribute, addr 0x3a7dd98, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetMeshVertexFloatAttribute, addr 0x3a82d0c, size 0x210, virtual false, abstract: false, final false
   static inline bool SetMeshVertexFloatAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, int32_t tupleSize,
                                                  ::ArrayW<float_t, ::Array<float_t>*> data, ::ArrayW<int32_t, ::Array<int32_t>*> indices, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
 
-  /// @brief Method UploadMeshIntoHoudiniNode, addr 0x3a7dfa8, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method UploadMeshIntoHoudiniNode, addr 0x3a82f1c, size 0x64c, virtual false, abstract: false, final false
   static inline bool UploadMeshIntoHoudiniNode(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetNodeID, int32_t objectID, int32_t geoID, ::ByRef<::UnityEngine::Mesh*> mesh);
 
 protected:

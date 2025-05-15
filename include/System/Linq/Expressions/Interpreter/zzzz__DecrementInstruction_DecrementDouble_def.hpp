@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DecrementInstruction_DecrementDouble* New_ctor();
 
-  /// @brief Method Run, addr 0x40c184c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c67c0, size 0xb4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c1394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c6308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   DecrementInstruction_DecrementDouble(DecrementInstruction_DecrementDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptCallbackExample::*)(::StringW)>(
     &::GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackWithMsg)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39ffba4;
+  constexpr static std::size_t addrs = 0x3a04b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptCallbackExample::*)()>(
     &::GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackNoMsg)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39ffc3c;
+  constexpr static std::size_t addrs = 0x3a04bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ScriptCallbackExample*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptCallbackExample::*)()>(&::GlobalNamespace::HEU_ScriptCallbackExample::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ffca4;
+  constexpr static std::size_t addrs = 0x3a04c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ScriptCallbackExample*>::get(), ".ctor",

@@ -47,15 +47,15 @@ public:
                       put = setStaticF__contractCache)) ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*>,
                                                                                                      ::Newtonsoft::Json::Serialization::JsonContract*>* _contractCache;
 
-  /// @brief Method GetNameTable, addr 0x3ed4578, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetNameTable, addr 0x3ed94ec, size 0x58, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::DefaultJsonNameTable* GetNameTable();
 
   static inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* New_ctor();
 
-  /// @brief Method ResolveContract, addr 0x3ed4254, size 0x324, virtual true, abstract: false, final false
+  /// @brief Method ResolveContract, addr 0x3ed91c8, size 0x324, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x3ed40c0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed9034, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::DefaultJsonNameTable* getStaticF_NameTable();

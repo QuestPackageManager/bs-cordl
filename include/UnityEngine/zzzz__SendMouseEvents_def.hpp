@@ -44,13 +44,13 @@ namespace UnityEngine {
 struct CORDL_TYPE SendMouseEvents_HitInfo {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x48e69cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x48eca2c, size 0xb4, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::SendMouseEvents_HitInfo lhs, ::UnityEngine::SendMouseEvents_HitInfo rhs);
 
-  /// @brief Method SendMessage, addr 0x48e69a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x48eca08, size 0x24, virtual false, abstract: false, final false
   inline void SendMessage(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x48e6908, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48ec968, size 0xa0, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::SendMouseEvents_HitInfo exists);
 
   // Ctor Parameters []
@@ -62,7 +62,7 @@ public:
   constexpr SendMouseEvents_HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -121,16 +121,16 @@ public:
   /// @brief Field s_MouseUsed, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_s_MouseUsed, put = setStaticF_s_MouseUsed)) bool s_MouseUsed;
 
-  /// @brief Method DoSendMouseEvents, addr 0x48e5b78, size 0x968, virtual false, abstract: false, final false
+  /// @brief Method DoSendMouseEvents, addr 0x48ebbd8, size 0x968, virtual false, abstract: false, final false
   static inline void DoSendMouseEvents(int32_t skipRTCameras);
 
-  /// @brief Method SendEvents, addr 0x48e64e0, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x48ec540, size 0x428, virtual false, abstract: false, final false
   static inline void SendEvents(int32_t i, ::UnityEngine::SendMouseEvents_HitInfo hit);
 
-  /// @brief Method SetMouseMoved, addr 0x48e5b1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMouseMoved, addr 0x48ebb7c, size 0x5c, virtual false, abstract: false, final false
   static inline void SetMouseMoved();
 
-  /// @brief Method UpdateMouse, addr 0x48e5958, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateMouse, addr 0x48eb9b8, size 0x1c4, virtual false, abstract: false, final false
   static inline void UpdateMouse();
 
   static inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> getStaticF_m_Cameras();
@@ -184,7 +184,7 @@ public:
   SendMouseEvents(SendMouseEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

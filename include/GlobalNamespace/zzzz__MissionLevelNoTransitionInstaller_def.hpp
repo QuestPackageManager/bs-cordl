@@ -82,7 +82,7 @@ public:
   /// @brief Field _settingsManager, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method InstallBindings, addr 0x3b33e90, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b38e04, size 0x158, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* New_ctor();
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b343a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3931c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

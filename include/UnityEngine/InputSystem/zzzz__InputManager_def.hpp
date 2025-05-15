@@ -426,25 +426,25 @@ public:
   // Declarations
   __declspec(property(get = get_count)) int32_t count;
 
-  /// @brief Method Add, addr 0x45d0800, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x45d5774, size 0x13c, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, uint32_t groupIndex);
 
-  /// @brief Method Clear, addr 0x45d093c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x45d58b0, size 0x68, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CompactArrays, addr 0x45d079c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CompactArrays, addr 0x45d5710, size 0x64, virtual false, abstract: false, final false
   inline void CompactArrays();
 
-  /// @brief Method Remove, addr 0x45d0af8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x45d5a6c, size 0xb8, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, bool deferRemoval);
 
-  /// @brief Method RemoveAt, addr 0x45d1150, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x45d60c4, size 0xb0, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t i);
 
-  /// @brief Method SortMonitorsByIndex, addr 0x45d0d60, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SortMonitorsByIndex, addr 0x45d5cd4, size 0x13c, virtual false, abstract: false, final false
   inline void SortMonitorsByIndex();
 
-  /// @brief Method get_count, addr 0x45d10d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x45d604c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
   // Ctor Parameters []
@@ -513,10 +513,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputManager___c* New_ctor();
 
-  /// @brief Method <MakeDeviceNameUnique>b__144_0, addr 0x45d1264, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <MakeDeviceNameUnique>b__144_0, addr 0x45d61d8, size 0x64, virtual false, abstract: false, final false
   inline ::StringW _MakeDeviceNameUnique_b__144_0(::UnityEngine::InputSystem::InputDevice* x);
 
-  /// @brief Method .ctor, addr 0x45d125c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45d61d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::InputManager___c* getStaticF___9();
@@ -666,27 +666,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x45d130c, size 0x6c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x45d6280, size 0x6c4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x45d1bf8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x45d6b6c, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x45d1bb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x45d6b24, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x45d1c9c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x45d6c10, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x45d1bb8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x45d6b2c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x45d1bf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x45d6b64, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x45d12c8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x45d623c, size 0x44, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -754,25 +754,25 @@ public:
 
   constexpr void __cordl_internal_set_basedOn(::StringW value);
 
-  /// @brief Method <>m__Finally1, addr 0x45d19d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x45d6944, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x45d1a20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x45d6994, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method <>m__Finally3, addr 0x45d1a70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally3, addr 0x45d69e4, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally3();
 
-  /// @brief Method <>m__Finally4, addr 0x45d1ac0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally4, addr 0x45d6a34, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally4();
 
-  /// @brief Method <>m__Finally5, addr 0x45d1b10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally5, addr 0x45d6a84, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally5();
 
-  /// @brief Method <>m__Finally6, addr 0x45d1b60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally6, addr 0x45d6ad4, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally6();
 
-  /// @brief Method .ctor, addr 0x45c97a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ce718, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -1062,286 +1062,286 @@ public:
 
   __declspec(property(get = get_updateMask, put = set_updateMask)) ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask;
 
-  /// @brief Method AddAvailableDevicesMatchingDescription, addr 0x45c809c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method AddAvailableDevicesMatchingDescription, addr 0x45cd010, size 0x398, virtual false, abstract: false, final false
   inline void AddAvailableDevicesMatchingDescription(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher, ::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  /// @brief Method AddAvailableDevicesThatAreNowRecognized, addr 0x45c65a0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method AddAvailableDevicesThatAreNowRecognized, addr 0x45cb514, size 0x284, virtual false, abstract: false, final false
   inline void AddAvailableDevicesThatAreNowRecognized();
 
-  /// @brief Method AddDevice, addr 0x45ca4dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddDevice, addr 0x45cf450, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description);
 
-  /// @brief Method AddDevice, addr 0x45ca6ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddDevice, addr 0x45cf660, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, ::UnityEngine::InputSystem::Utilities::InternedString layout,
                                                             ::StringW deviceName, int32_t deviceId, ::UnityEngine::InputSystem::InputDevice_DeviceFlags deviceFlags);
 
-  /// @brief Method AddDevice, addr 0x45ca520, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method AddDevice, addr 0x45cf494, size 0x1cc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, bool throwIfNoLayoutFound, ::StringW deviceName, int32_t deviceId,
                                                             ::UnityEngine::InputSystem::InputDevice_DeviceFlags deviceFlags);
 
-  /// @brief Method AddDevice, addr 0x45c1078, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddDevice, addr 0x45c5fec, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::StringW layout, ::StringW name, ::UnityEngine::InputSystem::Utilities::InternedString variants);
 
-  /// @brief Method AddDevice, addr 0x45c8fb0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddDevice, addr 0x45cdf24, size 0x198, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Utilities::InternedString layout, int32_t deviceId, ::StringW deviceName,
                                                             ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription,
                                                             ::UnityEngine::InputSystem::InputDevice_DeviceFlags deviceFlags, ::UnityEngine::InputSystem::Utilities::InternedString variants);
 
-  /// @brief Method AddDevice, addr 0x45c99d0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddDevice, addr 0x45ce944, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::System::Type* type, ::StringW name);
 
-  /// @brief Method AddDevice, addr 0x45c8a7c, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method AddDevice, addr 0x45cd9f0, size 0x534, virtual false, abstract: false, final false
   inline void AddDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method AddDeviceUsage, addr 0x45c11b8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddDeviceUsage, addr 0x45c612c, size 0x12c, virtual false, abstract: false, final false
   inline void AddDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
 
-  /// @brief Method AddStateChangeMonitor, addr 0x45d0668, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddStateChangeMonitor, addr 0x45d55dc, size 0x134, virtual false, abstract: false, final false
   inline void AddStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex,
                                     uint32_t groupIndex);
 
-  /// @brief Method AddStateChangeMonitorTimeout, addr 0x45d0bb0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddStateChangeMonitorTimeout, addr 0x45d5b24, size 0x94, virtual false, abstract: false, final false
   inline void AddStateChangeMonitorTimeout(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, double_t time,
                                            int64_t monitorIndex, int32_t timerIndex);
 
-  /// @brief Method ApplySettings, addr 0x45c5b44, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method ApplySettings, addr 0x45caab8, size 0x598, virtual false, abstract: false, final false
   inline void ApplySettings();
 
-  /// @brief Method AssignUniqueDeviceId, addr 0x45c9c34, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method AssignUniqueDeviceId, addr 0x45ceba8, size 0x184, virtual false, abstract: false, final false
   inline void AssignUniqueDeviceId(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Destroy, addr 0x45cd430, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x45d23a4, size 0x10c, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method DontMakeCurrentlyUpdatingDeviceCurrent, addr 0x45cfd00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DontMakeCurrentlyUpdatingDeviceCurrent, addr 0x45d4c74, size 0x8, virtual false, abstract: false, final false
   inline void DontMakeCurrentlyUpdatingDeviceCurrent();
 
-  /// @brief Method EnableOrDisableDevice, addr 0x45ca0a0, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method EnableOrDisableDevice, addr 0x45cf014, size 0x43c, virtual false, abstract: false, final false
   inline void EnableOrDisableDevice(::UnityEngine::InputSystem::InputDevice* device, bool enable, ::UnityEngine::InputSystem::InputManager_DeviceDisableScope scope);
 
   /// @brief Method ExecuteGlobalCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TCommand> inline int64_t ExecuteGlobalCommand(::ByRef<TCommand> command);
 
-  /// @brief Method FindOrRegisterDeviceLayoutForType, addr 0x45c9580, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FindOrRegisterDeviceLayoutForType, addr 0x45ce4f4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindOrRegisterDeviceLayoutForType(::System::Type* type);
 
-  /// @brief Method FireStateChangeNotifications, addr 0x45d0f8c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method FireStateChangeNotifications, addr 0x45d5f00, size 0x14c, virtual false, abstract: false, final false
   inline void FireStateChangeNotifications();
 
-  /// @brief Method FireStateChangeNotifications, addr 0x45d0250, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method FireStateChangeNotifications, addr 0x45d51c4, size 0x418, virtual false, abstract: false, final false
   inline void FireStateChangeNotifications(int32_t deviceIndex, double_t internalTime, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method FlipBuffersForDeviceIfNecessary, addr 0x45cffb8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FlipBuffersForDeviceIfNecessary, addr 0x45d4f2c, size 0xa4, virtual false, abstract: false, final false
   inline bool FlipBuffersForDeviceIfNecessary(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method FlushDisconnectedDevices, addr 0x45ca8e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FlushDisconnectedDevices, addr 0x45cf854, size 0x54, virtual false, abstract: false, final false
   inline void FlushDisconnectedDevices();
 
   /// @brief Method GetControls, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> inline int32_t GetControls(::StringW path, ::ByRef<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls);
 
-  /// @brief Method GetDevice, addr 0x45cb214, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDevice, addr 0x45d0188, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* GetDevice(::StringW nameOrLayout);
 
-  /// @brief Method GetUnsupportedDevices, addr 0x45cb30c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetUnsupportedDevices, addr 0x45d0280, size 0x1e0, virtual false, abstract: false, final false
   inline int32_t GetUnsupportedDevices(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>* descriptions);
 
-  /// @brief Method Initialize, addr 0x45cb690, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45d0604, size 0x3c, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime, ::UnityEngine::InputSystem::InputSettings* settings);
 
-  /// @brief Method InitializeData, addr 0x45cb6cc, size 0x1480, virtual false, abstract: false, final false
+  /// @brief Method InitializeData, addr 0x45d0640, size 0x1480, virtual false, abstract: false, final false
   inline void InitializeData();
 
-  /// @brief Method InitializeDefaultState, addr 0x45cd968, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method InitializeDefaultState, addr 0x45d28dc, size 0x1b0, virtual false, abstract: false, final false
   inline void InitializeDefaultState(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method InitializeDeviceState, addr 0x45c9db8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method InitializeDeviceState, addr 0x45ced2c, size 0x2ac, virtual false, abstract: false, final false
   inline void InitializeDeviceState(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method InstallBeforeUpdateHookIfNecessary, addr 0x45c68dc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method InstallBeforeUpdateHookIfNecessary, addr 0x45cb850, size 0xfc, virtual false, abstract: false, final false
   inline void InstallBeforeUpdateHookIfNecessary();
 
-  /// @brief Method InstallGlobals, addr 0x45cd220, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method InstallGlobals, addr 0x45d2194, size 0x210, virtual false, abstract: false, final false
   inline void InstallGlobals();
 
-  /// @brief Method InstallRuntime, addr 0x45ccb4c, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method InstallRuntime, addr 0x45d1ac0, size 0x6d4, virtual false, abstract: false, final false
   inline void InstallRuntime(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime);
 
-  /// @brief Method InvokeAfterUpdateCallback, addr 0x45cfb28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InvokeAfterUpdateCallback, addr 0x45d4a9c, size 0x68, virtual false, abstract: false, final false
   inline void InvokeAfterUpdateCallback(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method IsControlOrChildUsingLayoutRecursive, addr 0x45c7c1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsControlOrChildUsingLayoutRecursive, addr 0x45ccb90, size 0xf4, virtual false, abstract: false, final false
   inline bool IsControlOrChildUsingLayoutRecursive(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  /// @brief Method IsControlUsingLayout, addr 0x45c7b4c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsControlUsingLayout, addr 0x45ccac0, size 0xd0, virtual false, abstract: false, final false
   inline bool IsControlUsingLayout(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  /// @brief Method IsDeviceLayoutMarkedAsSupportedInSettings, addr 0x45c9620, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceLayoutMarkedAsSupportedInSettings, addr 0x45ce594, size 0x108, virtual false, abstract: false, final false
   inline bool IsDeviceLayoutMarkedAsSupportedInSettings(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
-  /// @brief Method ListControlLayouts, addr 0x45c9728, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ListControlLayouts, addr 0x45ce69c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* ListControlLayouts(::StringW basedOn);
 
-  /// @brief Method MakeDeviceNameUnique, addr 0x45c9ab4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method MakeDeviceNameUnique, addr 0x45cea28, size 0x180, virtual false, abstract: false, final false
   inline void MakeDeviceNameUnique(::UnityEngine::InputSystem::InputDevice* device);
 
   static inline ::UnityEngine::InputSystem::InputManager* New_ctor();
 
-  /// @brief Method NotifyUsageChanged, addr 0x45c992c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NotifyUsageChanged, addr 0x45ce8a0, size 0xa4, virtual false, abstract: false, final false
   inline void NotifyUsageChanged(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method OnBeforeUpdate, addr 0x45ce0d8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x45d304c, size 0x1c0, virtual false, abstract: false, final false
   inline void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method OnFocusChanged, addr 0x45ce298, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method OnFocusChanged, addr 0x45d320c, size 0x240, virtual false, abstract: false, final false
   inline void OnFocusChanged(bool focus);
 
-  /// @brief Method OnNativeDeviceDiscovered, addr 0x45cdb18, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method OnNativeDeviceDiscovered, addr 0x45d2a8c, size 0x3d4, virtual false, abstract: false, final false
   inline void OnNativeDeviceDiscovered(int32_t deviceId, ::StringW deviceDescriptor);
 
-  /// @brief Method OnUpdate, addr 0x45ce4f4, size 0x1380, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x45d3468, size 0x1380, virtual false, abstract: false, final false
   inline void OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method PerformLayoutPostRegistration, addr 0x45c71a4, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method PerformLayoutPostRegistration, addr 0x45cc118, size 0x464, virtual false, abstract: false, final false
   inline void PerformLayoutPostRegistration(::UnityEngine::InputSystem::Utilities::InternedString layoutName,
                                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> baseLayouts, bool isReplacement,
                                             bool isKnownToBeDeviceLayout, bool isOverride);
 
-  /// @brief Method ProcessStateChangeMonitorTimeouts, addr 0x45cf874, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method ProcessStateChangeMonitorTimeouts, addr 0x45d47e8, size 0x2b4, virtual false, abstract: false, final false
   inline void ProcessStateChangeMonitorTimeouts();
 
-  /// @brief Method ProcessStateChangeMonitors, addr 0x45cfd58, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ProcessStateChangeMonitors, addr 0x45d4ccc, size 0x260, virtual false, abstract: false, final false
   inline bool ProcessStateChangeMonitors(int32_t deviceIndex, ::cordl_internals::Ptr<void> newStateFromEvent, ::cordl_internals::Ptr<void> oldStateOfDevice, uint32_t newStateSizeInBytes,
                                          uint32_t newStateOffsetInBytes);
 
-  /// @brief Method QueueEvent, addr 0x45cb4ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method QueueEvent, addr 0x45d0460, size 0xcc, virtual false, abstract: false, final false
   inline void QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
   /// @brief Method QueueEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEvent> inline void QueueEvent(::ByRef<TEvent> inputEvent);
 
-  /// @brief Method QueueEvent, addr 0x45c136c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method QueueEvent, addr 0x45c62e0, size 0x4, virtual false, abstract: false, final false
   inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method ReallocateStateBuffers, addr 0x45c6108, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ReallocateStateBuffers, addr 0x45cb07c, size 0x18c, virtual false, abstract: false, final false
   inline void ReallocateStateBuffers();
 
-  /// @brief Method RecreateDevice, addr 0x45c7d10, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method RecreateDevice, addr 0x45ccc84, size 0x150, virtual false, abstract: false, final false
   inline void RecreateDevice(::UnityEngine::InputSystem::InputDevice* oldDevice, ::UnityEngine::InputSystem::Utilities::InternedString newLayout);
 
-  /// @brief Method RecreateDevicesUsingLayout, addr 0x45c78e8, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method RecreateDevicesUsingLayout, addr 0x45cc85c, size 0x264, virtual false, abstract: false, final false
   inline void RecreateDevicesUsingLayout(::UnityEngine::InputSystem::Utilities::InternedString layout, bool isKnownToBeDeviceLayout);
 
-  /// @brief Method RecreateDevicesUsingLayoutWithInferiorMatch, addr 0x45c7e60, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method RecreateDevicesUsingLayoutWithInferiorMatch, addr 0x45ccdd4, size 0x23c, virtual false, abstract: false, final false
   inline void RecreateDevicesUsingLayoutWithInferiorMatch(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher deviceMatcher);
 
-  /// @brief Method RegisterControlLayout, addr 0x45c0bac, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method RegisterControlLayout, addr 0x45c5b20, size 0x4cc, virtual false, abstract: false, final false
   inline void RegisterControlLayout(::StringW json, ::StringW name, bool isOverride);
 
-  /// @brief Method RegisterControlLayout, addr 0x45c6bf8, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterControlLayout, addr 0x45cbb6c, size 0x5ac, virtual false, abstract: false, final false
   inline void RegisterControlLayout(::StringW name, ::System::Type* type);
 
-  /// @brief Method RegisterControlLayoutBuilder, addr 0x45c775c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method RegisterControlLayoutBuilder, addr 0x45cc6d0, size 0x18c, virtual false, abstract: false, final false
   inline void RegisterControlLayoutBuilder(::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>* method, ::StringW name, ::StringW baseLayout);
 
-  /// @brief Method RegisterControlLayoutMatcher, addr 0x45c7608, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RegisterControlLayoutMatcher, addr 0x45cc57c, size 0x154, virtual false, abstract: false, final false
   inline void RegisterControlLayoutMatcher(::StringW layoutName, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
 
-  /// @brief Method RegisterControlLayoutMatcher, addr 0x45c8434, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method RegisterControlLayoutMatcher, addr 0x45cd3a8, size 0x21c, virtual false, abstract: false, final false
   inline void RegisterControlLayoutMatcher(::System::Type* type, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
 
   /// @brief Method RegisterPrecompiledLayout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline void RegisterPrecompiledLayout(::StringW metadata);
 
-  /// @brief Method RemoveControlLayout, addr 0x45c9148, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method RemoveControlLayout, addr 0x45ce0bc, size 0x210, virtual false, abstract: false, final false
   inline void RemoveControlLayout(::StringW name);
 
-  /// @brief Method RemoveDevice, addr 0x45c06c4, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method RemoveDevice, addr 0x45c5638, size 0x480, virtual false, abstract: false, final false
   inline void RemoveDevice(::UnityEngine::InputSystem::InputDevice* device, bool keepOnListOfAvailableDevices);
 
-  /// @brief Method RemoveDeviceUsage, addr 0x45c1370, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method RemoveDeviceUsage, addr 0x45c62e4, size 0x12c, virtual false, abstract: false, final false
   inline void RemoveDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
 
-  /// @brief Method RemoveStateChangeMonitor, addr 0x45d09a4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RemoveStateChangeMonitor, addr 0x45d5918, size 0x154, virtual false, abstract: false, final false
   inline void RemoveStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex);
 
-  /// @brief Method RemoveStateChangeMonitorTimeout, addr 0x45d0c44, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RemoveStateChangeMonitorTimeout, addr 0x45d5bb8, size 0x11c, virtual false, abstract: false, final false
   inline void RemoveStateChangeMonitorTimeout(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, int32_t timerIndex);
 
-  /// @brief Method RemoveStateChangeMonitors, addr 0x45ca7b8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RemoveStateChangeMonitors, addr 0x45cf72c, size 0x128, virtual false, abstract: false, final false
   inline void RemoveStateChangeMonitors(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ResetControlPathsRecursive, addr 0x45cd8c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ResetControlPathsRecursive, addr 0x45d283c, size 0xa0, virtual false, abstract: false, final false
   static inline void ResetControlPathsRecursive(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ResetDevice, addr 0x45ca934, size 0x5c4, virtual false, abstract: false, final false
+  /// @brief Method ResetDevice, addr 0x45cf8a8, size 0x5c4, virtual false, abstract: false, final false
   inline void ResetDevice(::UnityEngine::InputSystem::InputDevice* device, bool alsoResetDontResetControls, ::System::Nullable_1<bool> issueResetCommand);
 
-  /// @brief Method RestoreDevicesAfterDomainReloadIfNecessary, addr 0x45cdeec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RestoreDevicesAfterDomainReloadIfNecessary, addr 0x45d2e60, size 0x4, virtual false, abstract: false, final false
   inline void RestoreDevicesAfterDomainReloadIfNecessary();
 
-  /// @brief Method SetDeviceUsage, addr 0x45c97d8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetDeviceUsage, addr 0x45ce74c, size 0x154, virtual false, abstract: false, final false
   inline void SetDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
 
-  /// @brief Method ShouldRunDeviceInBackground, addr 0x45ca064, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShouldRunDeviceInBackground, addr 0x45cefd8, size 0x3c, virtual false, abstract: false, final false
   inline bool ShouldRunDeviceInBackground(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ShouldRunUpdate, addr 0x45ce4d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ShouldRunUpdate, addr 0x45d344c, size 0x1c, virtual false, abstract: false, final false
   inline bool ShouldRunUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method SignalStateChangeMonitor, addr 0x45d0e9c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SignalStateChangeMonitor, addr 0x45d5e10, size 0xf0, virtual false, abstract: false, final false
   inline void SignalStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor);
 
-  /// @brief Method SortStateChangeMonitorsIfNecessary, addr 0x45cfd08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SortStateChangeMonitorsIfNecessary, addr 0x45d4c7c, size 0x50, virtual false, abstract: false, final false
   inline void SortStateChangeMonitorsIfNecessary(int32_t deviceIndex);
 
-  /// @brief Method TryFindMatchingControlLayout, addr 0x45c8650, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method TryFindMatchingControlLayout, addr 0x45cd5c4, size 0x42c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingControlLayout(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription, int32_t deviceId);
 
-  /// @brief Method TryGetDevice, addr 0x45cb2b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method TryGetDevice, addr 0x45d0228, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryGetDevice(::System::Type* layoutType);
 
-  /// @brief Method TryGetDevice, addr 0x45cb0f0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method TryGetDevice, addr 0x45d0064, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryGetDevice(::StringW nameOrLayout);
 
-  /// @brief Method TryGetDeviceById, addr 0x45c0548, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetDeviceById, addr 0x45c54bc, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryGetDeviceById(int32_t id);
 
-  /// @brief Method TryLoadControlLayout, addr 0x45c0b9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TryLoadControlLayout, addr 0x45c5b10, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadControlLayout(::UnityEngine::InputSystem::Utilities::InternedString name);
 
-  /// @brief Method TryLoadControlLayout, addr 0x45c9358, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method TryLoadControlLayout, addr 0x45ce2cc, size 0x228, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadControlLayout(::System::Type* type);
 
-  /// @brief Method TryMatchDisconnectedDevice, addr 0x45cdef0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method TryMatchDisconnectedDevice, addr 0x45d2e64, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryMatchDisconnectedDevice(::StringW deviceDescriptor);
 
-  /// @brief Method UninstallGlobals, addr 0x45cd53c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method UninstallGlobals, addr 0x45d24b0, size 0x38c, virtual false, abstract: false, final false
   inline void UninstallGlobals();
 
-  /// @brief Method Update, addr 0x45cb5b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x45d052c, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Update, addr 0x45cb5e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x45d0558, size 0xac, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method UpdateState, addr 0x45cfb90, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method UpdateState, addr 0x45d4b04, size 0x170, virtual false, abstract: false, final false
   inline bool UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr,
                           ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method UpdateState, addr 0x45caef8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateState, addr 0x45cfe6c, size 0x1f8, virtual false, abstract: false, final false
   inline bool UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::cordl_internals::Ptr<void> statePtr,
                           uint32_t stateOffsetInDevice, uint32_t stateSize, double_t internalTime, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method WarnAboutDevicesFailingToRecreateAfterDomainReload, addr 0x45ce0d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WarnAboutDevicesFailingToRecreateAfterDomainReload, addr 0x45d3048, size 0x4, virtual false, abstract: false, final false
   inline void WarnAboutDevicesFailingToRecreateAfterDomainReload();
 
-  /// @brief Method WriteStateChange, addr 0x45d005c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method WriteStateChange, addr 0x45d4fd0, size 0x1f4, virtual false, abstract: false, final false
   inline void WriteStateChange(::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers buffers, int32_t deviceIndex,
                                ::ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock> deviceStateBlock, uint32_t stateOffsetInDevice, ::cordl_internals::Ptr<void> statePtr,
                                uint32_t stateSizeInBytes, bool flippedBuffers);
 
-  /// @brief Method <TryFindMatchingControlLayout>b__72_0, addr 0x45d10e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <TryFindMatchingControlLayout>b__72_0, addr 0x45d605c, size 0x68, virtual false, abstract: false, final false
   inline int64_t _TryFindMatchingControlLayout_b__72_0(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandRef);
 
   constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& __cordl_internal_get_m_AfterUpdateListeners() const;
@@ -1584,109 +1584,109 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
 
-  /// @brief Method .ctor, addr 0x45d10e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45d6054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onAfterUpdate, addr 0x45c6a30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method add_onAfterUpdate, addr 0x45cb9a4, size 0x58, virtual false, abstract: false, final false
   inline void add_onAfterUpdate(::System::Action* value);
 
-  /// @brief Method add_onBeforeUpdate, addr 0x45c687c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method add_onBeforeUpdate, addr 0x45cb7f0, size 0x60, virtual false, abstract: false, final false
   inline void add_onBeforeUpdate(::System::Action* value);
 
-  /// @brief Method add_onDeviceChange, addr 0x45be3ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method add_onDeviceChange, addr 0x45c3360, size 0x58, virtual false, abstract: false, final false
   inline void add_onDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
 
-  /// @brief Method add_onDeviceCommand, addr 0x45c6490, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method add_onDeviceCommand, addr 0x45cb404, size 0x58, virtual false, abstract: false, final false
   inline void add_onDeviceCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* value);
 
-  /// @brief Method add_onDeviceStateChange, addr 0x45c63e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method add_onDeviceStateChange, addr 0x45cb354, size 0x58, virtual false, abstract: false, final false
   inline void add_onDeviceStateChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method add_onEvent, addr 0x45be394, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method add_onEvent, addr 0x45c3308, size 0x58, virtual false, abstract: false, final false
   inline void add_onEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method add_onFindControlLayoutForDevice, addr 0x45c6540, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method add_onFindControlLayoutForDevice, addr 0x45cb4b4, size 0x60, virtual false, abstract: false, final false
   inline void add_onFindControlLayoutForDevice(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* value);
 
-  /// @brief Method add_onLayoutChange, addr 0x45be444, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method add_onLayoutChange, addr 0x45c33b8, size 0x58, virtual false, abstract: false, final false
   inline void add_onLayoutChange(::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>* value);
 
-  /// @brief Method add_onSettingsChange, addr 0x45c6ae0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method add_onSettingsChange, addr 0x45cba54, size 0x58, virtual false, abstract: false, final false
   inline void add_onSettingsChange(::System::Action* value);
 
-  /// @brief Method get_composites, addr 0x45c58a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_composites, addr 0x45ca814, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::TypeTable get_composites();
 
-  /// @brief Method get_defaultUpdateType, addr 0x45c6294, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultUpdateType, addr 0x45cb208, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_defaultUpdateType();
 
-  /// @brief Method get_devices, addr 0x45bfa54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_devices, addr 0x45c49c8, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_devices();
 
-  /// @brief Method get_gameHasFocus, addr 0x45c6ba0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_gameHasFocus, addr 0x45cbb14, size 0x34, virtual false, abstract: false, final false
   inline bool get_gameHasFocus();
 
-  /// @brief Method get_gameIsPlaying, addr 0x45c6b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameIsPlaying, addr 0x45cbb0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameIsPlaying();
 
-  /// @brief Method get_gameShouldGetInputRegardlessOfFocus, addr 0x45c6bd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_gameShouldGetInputRegardlessOfFocus, addr 0x45cbb48, size 0x24, virtual false, abstract: false, final false
   inline bool get_gameShouldGetInputRegardlessOfFocus();
 
-  /// @brief Method get_interactions, addr 0x45c5898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactions, addr 0x45ca80c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::TypeTable get_interactions();
 
-  /// @brief Method get_isProcessingEvents, addr 0x45c6b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isProcessingEvents, addr 0x45cbb04, size 0x8, virtual false, abstract: false, final false
   inline bool get_isProcessingEvents();
 
-  /// @brief Method get_metrics, addr 0x45c58a8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method get_metrics, addr 0x45ca81c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputMetrics get_metrics();
 
-  /// @brief Method get_pollingFrequency, addr 0x45c62b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pollingFrequency, addr 0x45cb224, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pollingFrequency();
 
-  /// @brief Method get_processors, addr 0x45c5890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processors, addr 0x45ca804, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::TypeTable get_processors();
 
-  /// @brief Method get_settings, addr 0x45c5a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x45ca9b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputSettings> get_settings();
 
-  /// @brief Method get_updateMask, addr 0x45c60dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateMask, addr 0x45cb050, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_updateMask();
 
-  /// @brief Method remove_onAfterUpdate, addr 0x45c6a88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onAfterUpdate, addr 0x45cb9fc, size 0x58, virtual false, abstract: false, final false
   inline void remove_onAfterUpdate(::System::Action* value);
 
-  /// @brief Method remove_onBeforeUpdate, addr 0x45c69d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onBeforeUpdate, addr 0x45cb94c, size 0x58, virtual false, abstract: false, final false
   inline void remove_onBeforeUpdate(::System::Action* value);
 
-  /// @brief Method remove_onDeviceChange, addr 0x45be658, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onDeviceChange, addr 0x45c35cc, size 0x58, virtual false, abstract: false, final false
   inline void remove_onDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
 
-  /// @brief Method remove_onDeviceCommand, addr 0x45c64e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onDeviceCommand, addr 0x45cb45c, size 0x58, virtual false, abstract: false, final false
   inline void remove_onDeviceCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* value);
 
-  /// @brief Method remove_onDeviceStateChange, addr 0x45c6438, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onDeviceStateChange, addr 0x45cb3ac, size 0x58, virtual false, abstract: false, final false
   inline void remove_onDeviceStateChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method remove_onEvent, addr 0x45be600, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onEvent, addr 0x45c3574, size 0x58, virtual false, abstract: false, final false
   inline void remove_onEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method remove_onFindControlLayoutForDevice, addr 0x45c6824, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onFindControlLayoutForDevice, addr 0x45cb798, size 0x58, virtual false, abstract: false, final false
   inline void remove_onFindControlLayoutForDevice(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* value);
 
-  /// @brief Method remove_onLayoutChange, addr 0x45be6b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onLayoutChange, addr 0x45c3624, size 0x58, virtual false, abstract: false, final false
   inline void remove_onLayoutChange(::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>* value);
 
-  /// @brief Method remove_onSettingsChange, addr 0x45c6b38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method remove_onSettingsChange, addr 0x45cbaac, size 0x58, virtual false, abstract: false, final false
   inline void remove_onSettingsChange(::System::Action* value);
 
-  /// @brief Method set_pollingFrequency, addr 0x45c62b8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method set_pollingFrequency, addr 0x45cb22c, size 0x128, virtual false, abstract: false, final false
   inline void set_pollingFrequency(float_t value);
 
-  /// @brief Method set_settings, addr 0x45c5a4c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_settings, addr 0x45ca9c0, size 0xf8, virtual false, abstract: false, final false
   inline void set_settings(::UnityEngine::InputSystem::InputSettings* value);
 
-  /// @brief Method set_updateMask, addr 0x45c60e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_updateMask, addr 0x45cb058, size 0x24, virtual false, abstract: false, final false
   inline void set_updateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
 
 protected:

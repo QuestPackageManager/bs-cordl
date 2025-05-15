@@ -27,10 +27,10 @@ public:
 
   static inline ::GlobalNamespace::OVRAudioSourceTest* New_ctor();
 
-  /// @brief Method Start, addr 0x4024bd0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4029b44, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4024cd0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4029c44, size 0x1b0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_nextActionTime() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_period(float_t value);
 
-  /// @brief Method .ctor, addr 0x4024e80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4029df4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

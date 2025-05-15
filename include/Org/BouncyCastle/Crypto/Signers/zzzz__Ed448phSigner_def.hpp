@@ -53,24 +53,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x23cf544, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x23d2ff4, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0x23cf608, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23d30b8, size 0x234, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x23cf320, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23d2dd0, size 0xd4, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed448phSigner* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method Reset, addr 0x23cf3f4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x23d2ea4, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x23cf498, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x23d2f48, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method VerifySignature, addr 0x23cf83c, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23d32ec, size 0x1a8, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_context() const;
@@ -103,10 +103,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x23cf238, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d2ce8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method get_AlgorithmName, addr 0x23cf2e0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23d2d90, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"

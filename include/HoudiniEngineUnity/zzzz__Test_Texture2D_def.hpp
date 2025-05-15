@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a968e8, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9b85c, size 0x108, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Texture2D* other);
 
-  /// @brief Method IsNull, addr 0x3a96888, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a9b7fc, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Texture2D* New_ctor(::UnityEngine::Texture2D* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x3a96860, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9b7d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture2D* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>"

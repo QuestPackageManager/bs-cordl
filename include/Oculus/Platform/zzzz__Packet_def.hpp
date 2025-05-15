@@ -37,15 +37,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3f7cd28, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3f81c9c, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x3f7cc94, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f81c08, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::Packet* New_ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method ReadBytes, addr 0x3f7caf8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x3f81a6c, size 0x13c, virtual false, abstract: false, final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_packetHandle() const;
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_size(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f7ca78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f819ec, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method get_SenderID, addr 0x3f7cc34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SenderID, addr 0x3f81ba8, size 0x58, virtual false, abstract: false, final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size, addr 0x3f7cc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x3f81c00, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Size();
 
   /// @brief Convert to "::System::IDisposable"
@@ -87,7 +87,7 @@ public:
   Packet(Packet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15434 };
 
   /// @brief Field size, offset: 0x10, size: 0x8, def value: None
   uint64_t ___size;

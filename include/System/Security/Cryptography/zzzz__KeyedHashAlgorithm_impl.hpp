@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::KeyedHashAlgorithm::*)()>(
     &::System::Security::Cryptography::KeyedHashAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9c798;
+  constexpr static std::size_t addrs = 0x3ca170c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::KeyedHashAlgorithm*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::KeyedHashAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::KeyedHashAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c9c750;
+  constexpr static std::size_t addrs = 0x3ca16c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::KeyedHashAlgorithm::*)()>(
     &::System::Security::Cryptography::KeyedHashAlgorithm::get_Key)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3c9ce50;
+  constexpr static std::size_t addrs = 0x3ca1dc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::KeyedHashAlgorithm::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::KeyedHashAlgorithm::set_Key)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3c9cec8;
+  constexpr static std::size_t addrs = 0x3ca1e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

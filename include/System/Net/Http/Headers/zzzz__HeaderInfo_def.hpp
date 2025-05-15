@@ -72,7 +72,7 @@ public:
   /// @brief Method AddToCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
 
-  /// @brief Method CreateCollection, addr 0x421aab8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateCollection, addr 0x421fa2c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
 
   /// @brief Method CreateCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x421aa88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421f9fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method get_CustomToString, addr 0x421aac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomToString, addr 0x421fa3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::StringW>* get_CustomToString();
 
-  /// @brief Method get_Separator, addr 0x421aad8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Separator, addr 0x421fa4c, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
-  /// @brief Method set_CustomToString, addr 0x421aad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CustomToString, addr 0x421fa44, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   HeaderInfo(HeaderInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16717 };
 
   /// @brief Field AllowsMany, offset: 0x10, size: 0x1, def value: None
   bool ___AllowsMany;

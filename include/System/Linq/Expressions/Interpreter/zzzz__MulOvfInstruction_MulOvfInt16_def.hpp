@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MulOvfInstruction_MulOvfInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x40e8af4, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40eda68, size 0x24c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40e8ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40eda38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   MulOvfInstruction_MulOvfInt16(MulOvfInstruction_MulOvfInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14005 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

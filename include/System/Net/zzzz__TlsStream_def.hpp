@@ -51,37 +51,37 @@ public:
   /// @brief Field _sslStream, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__sslStream, put = __cordl_internal_set__sslStream)) ::System::Net::Security::SslStream* _sslStream;
 
-  /// @brief Method AuthenticateAsClient, addr 0x4487de0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AuthenticateAsClient, addr 0x448cd54, size 0x100, virtual false, abstract: false, final false
   inline void AuthenticateAsClient();
 
-  /// @brief Method BeginAuthenticateAsClient, addr 0x4487ee0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method BeginAuthenticateAsClient, addr 0x448ce54, size 0x118, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginAuthenticateAsClient(::System::AsyncCallback* asyncCallback, ::System::Object* state);
 
-  /// @brief Method BeginRead, addr 0x44880ac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x448d020, size 0x24, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x448801c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x448cf90, size 0x24, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x44880f4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x448d068, size 0x34, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EndAuthenticateAsClient, addr 0x4487ff8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndAuthenticateAsClient, addr 0x448cf6c, size 0x24, virtual false, abstract: false, final false
   inline void EndAuthenticateAsClient(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndRead, addr 0x44880d0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x448d044, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x4488040, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x448cfb4, size 0x24, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* result);
 
   static inline ::System::Net::TlsStream* New_ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,
                                                    ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates);
 
-  /// @brief Method Read, addr 0x4488088, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x448cffc, size 0x24, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Write, addr 0x4488064, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x448cfd8, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* const& __cordl_internal_get__clientCertificates() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__sslStream(::System::Net::Security::SslStream* value);
 
-  /// @brief Method .ctor, addr 0x4487d14, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448cc88, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,
                     ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates);
 

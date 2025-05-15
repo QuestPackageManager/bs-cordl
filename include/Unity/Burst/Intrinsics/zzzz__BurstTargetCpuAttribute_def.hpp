@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetCpu(::Unity::Burst::BurstTargetCpu value);
 
-  /// @brief Method .ctor, addr 0x4522d9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4527d10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::BurstTargetCpu TargetCpu);
 
 protected:
@@ -51,7 +51,7 @@ public:
   BurstTargetCpuAttribute(BurstTargetCpuAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14642 };
 
   /// @brief Field TargetCpu, offset: 0x10, size: 0x4, def value: None
   ::Unity::Burst::BurstTargetCpu ___TargetCpu;

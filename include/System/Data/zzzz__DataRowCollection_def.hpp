@@ -42,15 +42,15 @@ namespace System::Data {
 class CORDL_TYPE DataRowCollection_DataRowTree : public ::System::Data::RBTree_1<::System::Data::DataRow*> {
 public:
   // Declarations
-  /// @brief Method CompareNode, addr 0x41624d4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method CompareNode, addr 0x4167448, size 0x2c, virtual true, abstract: false, final false
   inline int32_t CompareNode(::System::Data::DataRow* record1, ::System::Data::DataRow* record2);
 
-  /// @brief Method CompareSateliteTreeNode, addr 0x4162500, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method CompareSateliteTreeNode, addr 0x4167474, size 0x2c, virtual true, abstract: false, final false
   inline int32_t CompareSateliteTreeNode(::System::Data::DataRow* record1, ::System::Data::DataRow* record2);
 
   static inline ::System::Data::DataRowCollection_DataRowTree* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4161e34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4166da8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,37 +98,37 @@ public:
   /// @brief Field _table, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-  /// @brief Method Add, addr 0x4161ed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4166e44, size 0x20, virtual false, abstract: false, final false
   inline void Add(::System::Data::DataRow* row);
 
-  /// @brief Method AddWithColumnEvents, addr 0x4162190, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddWithColumnEvents, addr 0x4167104, size 0x60, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* AddWithColumnEvents(::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method ArrayAdd, addr 0x41621f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ArrayAdd, addr 0x4167164, size 0x68, virtual false, abstract: false, final false
   inline void ArrayAdd(::System::Data::DataRow* row);
 
-  /// @brief Method ArrayClear, addr 0x41622d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ArrayClear, addr 0x4167244, size 0x50, virtual false, abstract: false, final false
   inline void ArrayClear();
 
-  /// @brief Method ArrayInsert, addr 0x4162258, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ArrayInsert, addr 0x41671cc, size 0x78, virtual false, abstract: false, final false
   inline void ArrayInsert(::System::Data::DataRow* row, int32_t pos);
 
-  /// @brief Method ArrayRemove, addr 0x4162320, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ArrayRemove, addr 0x4167294, size 0x94, virtual false, abstract: false, final false
   inline void ArrayRemove(::System::Data::DataRow* row);
 
-  /// @brief Method CopyTo, addr 0x41623b4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x4167328, size 0x68, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* ar, int32_t index);
 
-  /// @brief Method CopyTo, addr 0x416241c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x4167390, size 0x68, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> array, int32_t index);
 
-  /// @brief Method DiffInsertAt, addr 0x4161ef0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method DiffInsertAt, addr 0x4166e64, size 0x208, virtual false, abstract: false, final false
   inline void DiffInsertAt(::System::Data::DataRow* row, int32_t pos);
 
-  /// @brief Method GetEnumerator, addr 0x4162484, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x41673f8, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x41620f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x416706c, size 0x98, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::Data::DataRow* row);
 
   static inline ::System::Data::DataRowCollection* New_ctor(::System::Data::DataTable* table);
@@ -151,13 +151,13 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x4161da0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4166d14, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table);
 
-  /// @brief Method get_Count, addr 0x4161e80, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4166df4, size 0x50, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x41567c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x415b734, size 0x58, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* get_Item(int32_t index);
 
 protected:

@@ -19,7 +19,7 @@ namespace UnityEngine::Scripting::APIUpdating {
 struct CORDL_TYPE MovedFromAttributeData {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x48ba504, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x48c0564, size 0x38, virtual false, abstract: false, final false
   inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
   // Ctor Parameters []

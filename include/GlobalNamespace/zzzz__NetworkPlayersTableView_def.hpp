@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType value);
 
-  /// @brief Method .ctor, addr 0x3c0cbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c11b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -247,27 +247,27 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method AddPlayers, addr 0x3c0c55c, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method AddPlayers, addr 0x3c114d0, size 0x698, virtual false, abstract: false, final false
   inline void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
 
-  /// @brief Method CellForIdx, addr 0x3c0bec0, size 0x5d4, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x3c10e34, size 0x5d4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x3c0be70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x3c10de4, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method HandleCellWasPressed, addr 0x3c0d090, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleCellWasPressed, addr 0x3c12004, size 0x4, virtual false, abstract: false, final false
   inline void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
 
-  /// @brief Method HasVisibleOptions, addr 0x3c0cbfc, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method HasVisibleOptions, addr 0x3c11b70, size 0x350, virtual false, abstract: false, final false
   static inline bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
 
   static inline ::GlobalNamespace::NetworkPlayersTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3c0be78, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x3c10dec, size 0x48, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetParties, addr 0x3c0cf4c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetParties, addr 0x3c11ec0, size 0x144, virtual false, abstract: false, final false
   inline void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers,
                          ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
 
@@ -325,7 +325,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x3c0d094, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c12008, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"

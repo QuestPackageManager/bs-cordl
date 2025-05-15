@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrByte* New_ctor();
 
-  /// @brief Method Run, addr 0x40c5008, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c9f7c, size 0xe4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c5250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ca1c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   ExclusiveOrInstruction_ExclusiveOrByte(ExclusiveOrInstruction_ExclusiveOrByte const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

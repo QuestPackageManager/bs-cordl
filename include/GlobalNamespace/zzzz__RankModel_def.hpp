@@ -84,7 +84,7 @@ public:
   static ::GlobalNamespace::RankModel_Rank const SSS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,10 +109,10 @@ public:
   // Declarations
   using Rank = ::GlobalNamespace::RankModel_Rank;
 
-  /// @brief Method GetRankForScore, addr 0x2720e40, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetRankForScore, addr 0x27249a4, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::RankModel_Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
 
-  /// @brief Method GetRankName, addr 0x2720d84, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRankName, addr 0x27248e8, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetRankName(::GlobalNamespace::RankModel_Rank rank);
 
 protected:
@@ -130,7 +130,7 @@ public:
   RankModel(RankModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

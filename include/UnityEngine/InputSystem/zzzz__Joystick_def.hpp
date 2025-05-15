@@ -65,18 +65,18 @@ public:
 
   __declspec(property(get = get_twist, put = set_twist)) ::UnityEngine::InputSystem::Controls::AxisControl* twist;
 
-  /// @brief Method FinishSetup, addr 0x458089c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x4585810, size 0x13c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x45809d8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x458594c, size 0x4c, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Joystick* New_ctor();
 
-  /// @brief Method OnAdded, addr 0x4580a24, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnAdded, addr 0x4585998, size 0x78, virtual true, abstract: false, final false
   inline void OnAdded();
 
-  /// @brief Method OnRemoved, addr 0x4580a9c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x4585a10, size 0x118, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector2Control* const& __cordl_internal_get__hatswitch_k__BackingField() const;
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x4580bb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4585b28, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Joystick* getStaticF__current_k__BackingField();
@@ -112,22 +112,22 @@ public:
 
   static inline ::ArrayW<::UnityEngine::InputSystem::Joystick*, ::Array<::UnityEngine::InputSystem::Joystick*>*> getStaticF_s_Joysticks();
 
-  /// @brief Method get_all, addr 0x458081c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x4585790, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Joystick*> get_all();
 
-  /// @brief Method get_current, addr 0x4580788, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x45856fc, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Joystick* get_current();
 
-  /// @brief Method get_hatswitch, addr 0x4580778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hatswitch, addr 0x45856ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_hatswitch();
 
-  /// @brief Method get_stick, addr 0x4580758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stick, addr 0x45856cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::StickControl* get_stick();
 
-  /// @brief Method get_trigger, addr 0x4580748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trigger, addr 0x45856bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trigger();
 
-  /// @brief Method get_twist, addr 0x4580768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x45856dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Joystick* value);
@@ -136,19 +136,19 @@ public:
 
   static inline void setStaticF_s_Joysticks(::ArrayW<::UnityEngine::InputSystem::Joystick*, ::Array<::UnityEngine::InputSystem::Joystick*>*> value);
 
-  /// @brief Method set_current, addr 0x45807d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x4585744, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Joystick* value);
 
-  /// @brief Method set_hatswitch, addr 0x4580780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hatswitch, addr 0x45856f4, size 0x8, virtual false, abstract: false, final false
   inline void set_hatswitch(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method set_stick, addr 0x4580760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stick, addr 0x45856d4, size 0x8, virtual false, abstract: false, final false
   inline void set_stick(::UnityEngine::InputSystem::Controls::StickControl* value);
 
-  /// @brief Method set_trigger, addr 0x4580750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trigger, addr 0x45856c4, size 0x8, virtual false, abstract: false, final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_twist, addr 0x4580770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_twist, addr 0x45856e4, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:

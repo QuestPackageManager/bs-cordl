@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::Prime::ConfidenceFactor (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4e92c;
+  constexpr static std::size_t addrs = 0x3c538a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::Prime::PrimalityTest* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c4e934;
+  constexpr static std::size_t addrs = 0x3c538a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4e9a0;
+  constexpr static std::size_t addrs = 0x3c53914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4e9a8;
+  constexpr static std::size_t addrs = 0x3c5391c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),

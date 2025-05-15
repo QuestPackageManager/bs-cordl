@@ -26,7 +26,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method GetHandle, addr 0x48cb248, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x48d12a8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"

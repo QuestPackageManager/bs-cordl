@@ -49,18 +49,18 @@ public:
   /// @brief Field _separator, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
 
-  /// @brief Method CreateUIElements, addr 0x3ba30fc, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElements, addr 0x3ba8070, size 0x398, virtual false, abstract: false, final false
   inline void CreateUIElements();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x3ba3564, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x3ba84d8, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
 
   static inline ::GlobalNamespace::MissionObjectivesGameUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba3494, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba8408, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ba3064, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba7fd8, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__elementWidth() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__separator(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ba3568, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba84dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

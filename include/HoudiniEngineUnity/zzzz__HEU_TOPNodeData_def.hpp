@@ -143,18 +143,18 @@ public:
   /// @brief Field _workResults, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__workResults, put = __cordl_internal_set__workResults)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults;
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x3a4df84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x3a52ef8, size 0x24, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x3a4e224, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x3a53198, size 0x58, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x3a4e190, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x3a53104, size 0x4c, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
   static inline ::HoudiniEngineUnity::HEU_TOPNodeData* New_ctor();
 
-  /// @brief Method Reset, addr 0x3a4e16c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3a530e0, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__nodeID() const;
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value);
 
-  /// @brief Method .ctor, addr 0x3a4c784, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a516f8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

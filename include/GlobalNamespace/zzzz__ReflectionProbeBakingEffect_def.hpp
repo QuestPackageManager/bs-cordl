@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::ReflectionProbeBakingEffect* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x39d95b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x39de524, size 0x74, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x39d9624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39de598, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   ReflectionProbeBakingEffect(ReflectionProbeBakingEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16290 };
 
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;

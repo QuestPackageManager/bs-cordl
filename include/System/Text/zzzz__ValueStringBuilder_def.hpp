@@ -28,46 +28,46 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method Append, addr 0x3c87738, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c8c6ac, size 0x7c, virtual false, abstract: false, final false
   inline void Append(char16_t c);
 
-  /// @brief Method Append, addr 0x3c87c50, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c8cbc4, size 0x128, virtual false, abstract: false, final false
   inline void Append(char16_t c, int32_t count);
 
-  /// @brief Method Append, addr 0x3c87834, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c8c7a8, size 0xac, virtual false, abstract: false, final false
   inline void Append(::StringW s);
 
-  /// @brief Method Append, addr 0x3c87d78, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c8ccec, size 0xe0, virtual false, abstract: false, final false
   inline void Append(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method AppendSlow, addr 0x3c878e0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AppendSlow, addr 0x3c8c854, size 0x12c, virtual false, abstract: false, final false
   inline void AppendSlow(::StringW s);
 
-  /// @brief Method AppendSpan, addr 0x3c87e58, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AppendSpan, addr 0x3c8cdcc, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Span_1<char16_t> AppendSpan(int32_t length);
 
-  /// @brief Method Dispose, addr 0x3c87f14, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c8ce88, size 0xf8, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Grow, addr 0x3c87a0c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x3c8c980, size 0x244, virtual false, abstract: false, final false
   inline void Grow(int32_t requiredAdditionalCapacity);
 
-  /// @brief Method GrowAndAppend, addr 0x3c877b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GrowAndAppend, addr 0x3c8c728, size 0x80, virtual false, abstract: false, final false
   inline void GrowAndAppend(char16_t c);
 
-  /// @brief Method ToString, addr 0x3c87584, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c8c4f8, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryCopyTo, addr 0x3c87650, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryCopyTo, addr 0x3c8c5c4, size 0xe8, virtual false, abstract: false, final false
   inline bool TryCopyTo(::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method .ctor, addr 0x3c87548, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8c4bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<char16_t> initialBuffer);
 
-  /// @brief Method get_Item, addr 0x3c87560, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c8c4d4, size 0x24, virtual false, abstract: false, final false
   inline ::ByRef<char16_t> get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x3c87558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3c8c4cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []

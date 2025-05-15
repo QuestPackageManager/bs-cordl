@@ -27,7 +27,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x489fb54, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x48a5bb4, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"

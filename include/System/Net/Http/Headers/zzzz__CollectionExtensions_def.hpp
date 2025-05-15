@@ -31,7 +31,7 @@ public:
   /// @brief Method SequenceEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool SequenceEqual(::System::Collections::Generic::List_1<TSource>* first, ::System::Collections::Generic::List_1<TSource>* second);
 
-  /// @brief Method SetValue, addr 0x4218bf8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x421db6c, size 0x1b8, virtual false, abstract: false, final false
   static inline void SetValue(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters, ::StringW key, ::StringW value);
 
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -55,7 +55,7 @@ public:
   CollectionExtensions(CollectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

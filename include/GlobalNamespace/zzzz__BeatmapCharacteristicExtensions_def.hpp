@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapCharacteristicExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SerializedName, addr 0x26b2908, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x26b63b8, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
 protected:

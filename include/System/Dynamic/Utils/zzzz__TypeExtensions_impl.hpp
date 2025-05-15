@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::System::Dynamic::Utils::TypeExtensions::GetAnyStaticMethodValidated)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x40ff1b0;
+  constexpr static std::size_t addrs = 0x4104124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MethodInfo*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::System::Dynamic::Utils::TypeExtensions::MatchesArgumentTypes)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x40ff254;
+  constexpr static std::size_t addrs = 0x41041c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::MethodBase*)>(&::System::Dynamic::Utils::TypeExtensions::GetReturnType)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x40ff39c;
+  constexpr static std::size_t addrs = 0x4104310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeExtensions::GetTypeCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40ff440;
+  constexpr static std::size_t addrs = 0x41043b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> (*)(
     ::System::Reflection::MethodBase*)>(&::System::Dynamic::Utils::TypeExtensions::GetParametersCached)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x40fe8e4;
+  constexpr static std::size_t addrs = 0x4103858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

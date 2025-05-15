@@ -33,18 +33,18 @@ public:
   /// @brief Field _wasEnabled, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__wasEnabled, put = __cordl_internal_set__wasEnabled)) bool _wasEnabled;
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x39b99d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x39be94c, size 0x40, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x39b9bc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x39beb34, size 0x24, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39b9a18, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39be98c, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x39b97c4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39be738, size 0x214, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__wasEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x39b9be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39beb58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16394 };
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;

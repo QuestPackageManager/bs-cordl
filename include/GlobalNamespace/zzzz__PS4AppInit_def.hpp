@@ -57,10 +57,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x27193a0, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x271cf04, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x271958c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x271d0f0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -77,7 +77,7 @@ public:
                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17807 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -142,24 +142,24 @@ public:
                       put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler)) ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>
       _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2718f58, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x271cabc, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InitializeModules, addr 0x2718e30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitializeModules, addr 0x271c994, size 0x68, virtual false, abstract: false, final false
   static inline int32_t InitializeModules();
 
-  /// @brief Method InstallBindings, addr 0x271912c, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x271cc90, size 0x214, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS4AppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x2718e98, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x271c9fc, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x2718fc0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x271cb24, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x2719060, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x271cbc4, size 0xcc, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> const& __cordl_internal_get__activePublisherSKUSettingsSO() const;
@@ -198,10 +198,10 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method <>n__0, addr 0x2719398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x271cefc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x2719340, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271cea4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,7 +219,7 @@ public:
   PS4AppInit(PS4AppInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17808 };
 
   /// @brief Field _mainSystemInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;

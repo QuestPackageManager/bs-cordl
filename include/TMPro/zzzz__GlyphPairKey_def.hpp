@@ -22,10 +22,10 @@ namespace TMPro {
 struct CORDL_TYPE GlyphPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x47d17fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d6770, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex);
 
-  /// @brief Method .ctor, addr 0x47c947c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47ce3f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphPairAdjustmentRecord* record);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr GlyphPairKey(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex, uint32_t key) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14497 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

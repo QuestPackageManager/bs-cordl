@@ -29,19 +29,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x48df854, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x48e58b4, size 0x5c, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x48df7f4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x48e5854, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x48df8b0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48e5910, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x48df7cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x48e582c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create();
 
-  /// @brief Method Internal_Destroy, addr 0x48df944, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x48e59a4, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
   static inline ::UnityEngine::ObjectGUIState* New_ctor();
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48df784, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e57e4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -73,7 +73,7 @@ public:
   ObjectGUIState(ObjectGUIState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16665 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

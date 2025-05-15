@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::BooleanSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x44261f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442b164, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:

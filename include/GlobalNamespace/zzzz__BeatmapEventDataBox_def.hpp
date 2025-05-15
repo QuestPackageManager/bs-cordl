@@ -137,21 +137,21 @@ public:
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
-  /// @brief Method BeatDistributionParamToStep, addr 0x26b7bb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BeatDistributionParamToStep, addr 0x26bb660, size 0x20, virtual false, abstract: false, final false
   static inline float_t BeatDistributionParamToStep(float_t distributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType distributionParamType, int32_t count);
 
-  /// @brief Method EventDistributionParamToStep, addr 0x26b7b44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EventDistributionParamToStep, addr 0x26bb5f4, size 0x6c, virtual false, abstract: false, final false
   static inline float_t EventDistributionParamToStep(int32_t index, float_t distributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType distributionParamType, int32_t count,
                                                      ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method GetBeatStep, addr 0x26b7ac4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBeatStep, addr 0x26bb574, size 0x54, virtual false, abstract: false, final false
   static inline float_t GetBeatStep(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType distributionParamType, float_t distributionParam,
                                     float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetBeatStep, addr 0x26b7aa4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBeatStep, addr 0x26bb554, size 0x20, virtual false, abstract: false, final false
   inline float_t GetBeatStep(float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetDistribution, addr 0x26b7b18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDistribution, addr 0x26bb5c8, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetDistribution(bool isFirstBaseDataEvent, int32_t distributionOrderIndex);
 
   static inline ::GlobalNamespace::BeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set__indexFilter_k__BackingField(::GlobalNamespace::IndexFilter* value);
 
-  /// @brief Method .ctor, addr 0x26b7a04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bb4b4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType);
@@ -220,7 +220,7 @@ public:
   /// @brief Method get_beatStep, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_indexFilter, addr 0x26b79fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x26bb4ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter* get_indexFilter();
 
   /// @brief Method get_subtypeIdentifier, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

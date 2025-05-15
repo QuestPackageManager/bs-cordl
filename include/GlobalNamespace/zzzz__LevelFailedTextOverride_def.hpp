@@ -90,13 +90,13 @@ public:
 
   constexpr void __cordl_internal_set__overrideText(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22663a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269e50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_language, addr 0x2266390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x2269e40, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_language();
 
-  /// @brief Method get_overrideText, addr 0x2266398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideText, addr 0x2269e48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_overrideText();
 
 protected:
@@ -114,7 +114,7 @@ public:
   LevelFailedTextOverride_LanguageOverride(LevelFailedTextOverride_LanguageOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19070 };
 
   /// @brief Field _language, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::Language ____language;
@@ -144,7 +144,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <Start>b__0, addr 0x22663b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__0, addr 0x2269e60, size 0x24, virtual false, abstract: false, final false
   inline bool _Start_b__0(::GlobalNamespace::LevelFailedTextOverride_LanguageOverride* data);
 
   constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_selectedLanguage() const;
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_selectedLanguage(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x22663a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269e58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,7 +171,7 @@ public:
   LevelFailedTextOverride___c__DisplayClass6_0(LevelFailedTextOverride___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19071 };
 
   /// @brief Field selectedLanguage, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::Language ___selectedLanguage;
@@ -194,10 +194,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22663d4, size 0xbc8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2269e84, size 0xbc8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2266f9c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x226aa4c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -222,7 +222,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*>> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19072 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -307,7 +307,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextOverride* New_ctor();
 
-  /// @brief Method Start, addr 0x22662f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2269da8, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -355,7 +355,7 @@ public:
   constexpr void
   __cordl_internal_set__perLanguageOverrides(::ArrayW<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*, ::Array<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>*> value);
 
-  /// @brief Method .ctor, addr 0x2266388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -373,7 +373,7 @@ public:
   LevelFailedTextOverride(LevelFailedTextOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19073 };
 
   /// @brief Field _perLanguageOverrides, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*, ::Array<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>*> ____perLanguageOverrides;

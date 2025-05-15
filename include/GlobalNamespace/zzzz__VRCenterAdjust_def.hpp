@@ -32,25 +32,25 @@ public:
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2eb4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b33ac0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b2ea80, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b339f4, size 0xcc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b2e9b4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b33928, size 0xcc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetRoom, addr 0x3b2e808, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x3b3377c, size 0xc4, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method SetRoomTransformOffset, addr 0x3b2e8cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetRoomTransformOffset, addr 0x3b33840, size 0xbc, virtual false, abstract: false, final false
   inline void SetRoomTransformOffset();
 
-  /// @brief Method Start, addr 0x3b2e7a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b33718, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b2e988, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b338fc, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& __cordl_internal_get__settingsApplicator() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b2eb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b33ac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

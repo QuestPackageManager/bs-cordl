@@ -62,13 +62,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c* New_ctor();
 
-  /// @brief Method <Awake>b__11_0, addr 0x479ee30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__11_0, addr 0x47a3da4, size 0x5c, virtual false, abstract: false, final false
   inline void _Awake_b__11_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method <RegisterEventHandler>b__8_0, addr 0x479ee28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterEventHandler>b__8_0, addr 0x47a3d9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterEventHandler_b__8_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
 
-  /// @brief Method .ctor, addr 0x479ee20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a3d94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c* getStaticF___9();
@@ -98,7 +98,7 @@ public:
   DiagnosticEventCollectorSingleton___c(DiagnosticEventCollectorSingleton___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -141,27 +141,27 @@ public:
   /// @brief Field s_editorConnectionGuid, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_editorConnectionGuid, put = setStaticF_s_editorConnectionGuid)) ::System::Guid s_editorConnectionGuid;
 
-  /// @brief Method Awake, addr 0x479ea14, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x47a3988, size 0xe0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetGameObjectName, addr 0x479e178, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetGameObjectName, addr 0x47a30ec, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetGameObjectName();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton* New_ctor();
 
-  /// @brief Method PostEvent, addr 0x479e7f8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method PostEvent, addr 0x47a376c, size 0x21c, virtual false, abstract: false, final false
   inline void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method RegisterEventHandler, addr 0x479e1b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x47a312c, size 0xcc, virtual false, abstract: false, final false
   static inline bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _cordl_register, bool create);
 
-  /// @brief Method RegisterEventHandler, addr 0x479e284, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x47a31f8, size 0x4d0, virtual false, abstract: false, final false
   inline void RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method UnregisterEventHandler, addr 0x479e754, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterEventHandler, addr 0x47a36c8, size 0xa4, virtual false, abstract: false, final false
   inline void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method Update, addr 0x479eaf4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x47a3a68, size 0x1c8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_fpsAvg() const;
@@ -200,12 +200,12 @@ public:
 
   constexpr void __cordl_internal_set_s_EventHandlers(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
 
-  /// @brief Method .ctor, addr 0x479ecbc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a3c30, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_s_editorConnectionGuid();
 
-  /// @brief Method get_PlayerConnectionGuid, addr 0x479e07c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerConnectionGuid, addr 0x47a2ff0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
   static inline void setStaticF_s_editorConnectionGuid(::System::Guid value);
@@ -225,7 +225,7 @@ public:
   DiagnosticEventCollectorSingleton(DiagnosticEventCollectorSingleton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15695 };
 
   /// @brief Field m_CreatedEvents, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* ___m_CreatedEvents;

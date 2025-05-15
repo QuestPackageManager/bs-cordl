@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ClickEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a2e35c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a343bc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ClickEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a2e354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a343b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ClickEvent___c* getStaticF___9();
@@ -77,18 +77,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::ClickEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a2e288, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a342e8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ClickEvent* GetPooled(::UnityEngine::UIElements::PointerUpEvent* pointerEvent, int32_t clickCount);
 
-  /// @brief Method Init, addr 0x4a2e1d4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a34234, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a2e228, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a34288, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a2e234, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a34294, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

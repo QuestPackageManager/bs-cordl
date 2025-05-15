@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::*)(::Org::BouncyCastle::Asn1::DerIA5String*)>(
     &::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23ff774;
+  constexpr static std::size_t addrs = 0x2403224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::*)()>(
     &::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::ToString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23ff7ac;
+  constexpr static std::size_t addrs = 0x240325c;
 
   inline static ::MethodInfo const* methodInfo() {
 

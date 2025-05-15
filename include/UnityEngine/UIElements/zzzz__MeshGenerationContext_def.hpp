@@ -125,17 +125,17 @@ public:
 
   constexpr void __cordl_internal_set_painter(::UnityEngine::UIElements::IStylePainter* value);
 
-  /// @brief Method .ctor, addr 0x4a471a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a4d208, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IStylePainter* painter);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_AllocateMarker();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_DrawVectorImageMarker();
 
-  /// @brief Method get_hasPainter2D, addr 0x4a47198, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasPainter2D, addr 0x4a4d1f8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasPainter2D();
 
-  /// @brief Method get_painter2D, addr 0x4a470dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_painter2D, addr 0x4a4d13c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Painter2D* get_painter2D();
 
   static inline void setStaticF_s_AllocateMarker(::Unity::Profiling::ProfilerMarker value);

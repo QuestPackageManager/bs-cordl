@@ -48,13 +48,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a9d4f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa3550, size 0x40, virtual false, abstract: false, final false
   inline int32_t _GetValueFromBag_b__3_0(::StringW s, int32_t i);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x4a9d530, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x4aa3590, size 0x40, virtual false, abstract: false, final false
   inline int32_t _TryGetValueFromBag_b__4_0(::StringW s, int32_t i);
 
-  /// @brief Method .ctor, addr 0x4a9d4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa3548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription___c* getStaticF___9();
@@ -101,18 +101,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlIntAttributeDescription___c;
 
-  /// @brief Method ConvertValueToInt, addr 0x4a9d450, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToInt, addr 0x4aa34b0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ConvertValueToInt(::StringW v, int32_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4a9d1a4, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa3204, size 0x14c, virtual true, abstract: false, final false
   inline int32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* New_ctor();
 
-  /// @brief Method TryGetValueFromBag, addr 0x4a9d2f0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBag, addr 0x4aa3350, size 0x160, virtual false, abstract: false, final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::ByRef<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x4a9d10c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa316c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

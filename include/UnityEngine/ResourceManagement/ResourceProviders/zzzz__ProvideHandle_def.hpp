@@ -62,40 +62,40 @@ public:
   /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Complete(T result, bool status, ::System::Exception* exception);
 
-  /// @brief Method GetDependencies, addr 0x4798a68, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x479d9dc, size 0xb4, virtual false, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* list);
 
   /// @brief Method GetDependency, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDepObject> inline TDepObject GetDependency(int32_t index);
 
-  /// @brief Method SetDownloadProgressCallbacks, addr 0x47955e8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadProgressCallbacks, addr 0x479a55c, size 0xb4, virtual false, abstract: false, final false
   inline void SetDownloadProgressCallbacks(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
 
-  /// @brief Method SetProgressCallback, addr 0x4795534, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetProgressCallback, addr 0x479a4a8, size 0xb4, virtual false, abstract: false, final false
   inline void SetProgressCallback(::System::Func_1<float_t>* callback);
 
-  /// @brief Method SetWaitForCompletionCallback, addr 0x479569c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetWaitForCompletionCallback, addr 0x479a610, size 0xb4, virtual false, abstract: false, final false
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
-  /// @brief Method .ctor, addr 0x4799890, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479e804, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
 
-  /// @brief Method get_DependencyCount, addr 0x4799a54, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_DependencyCount, addr 0x479e9c8, size 0xac, virtual false, abstract: false, final false
   inline int32_t get_DependencyCount();
 
-  /// @brief Method get_InternalOp, addr 0x479994c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_InternalOp, addr 0x479e8c0, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
 
-  /// @brief Method get_IsValid, addr 0x479504c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x4799fc0, size 0xb8, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_Location, addr 0x4794aa0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x4799a14, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_ResourceManager, addr 0x4799a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceManager, addr 0x479e9c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
 
-  /// @brief Method get_Type, addr 0x4797f68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x479cedc, size 0xac, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
   // Ctor Parameters []
@@ -109,7 +109,7 @@ public:
                           ::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15671 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -67,7 +67,7 @@ public:
   static ::Oculus::Platform::LivestreamingStartStatus const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15348 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -57,7 +57,7 @@ public:
                                         materialPropertyNameCouples) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17886 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -94,7 +94,7 @@ public:
   constexpr Noise3DTexturesGenerator_MaterialPropertyNameCouple(::StringW texturePropertyName, ::UnityW<::UnityEngine::Material> material) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -134,10 +134,10 @@ public:
   /// @brief Field _texture, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__texture, put = setStaticF__texture)) ::UnityW<::UnityEngine::Texture3D> _texture;
 
-  /// @brief Method Awake, addr 0x4080ba8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4085b1c, size 0x208, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateNoisePixels, addr 0x4080db0, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CreateNoisePixels, addr 0x4085d24, size 0x318, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> CreateNoisePixels(int32_t width, int32_t height, int32_t depth, float_t scale, int32_t repeat, float_t contrast);
 
   static inline ::GlobalNamespace::Noise3DTexturesGenerator* New_ctor();
@@ -151,7 +151,7 @@ public:
   constexpr void __cordl_internal_set__data(
       ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple, ::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple>*> value);
 
-  /// @brief Method .ctor, addr 0x40810c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408603c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Texture3D> getStaticF__texture();
@@ -173,7 +173,7 @@ public:
   Noise3DTexturesGenerator(Noise3DTexturesGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17888 };
 
   /// @brief Field _data, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple, ::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple>*> ____data;

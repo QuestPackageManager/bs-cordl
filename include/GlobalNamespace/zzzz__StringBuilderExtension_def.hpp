@@ -22,13 +22,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendNumber, addr 0x229c27c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x229fd2c, size 0x14, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
-  /// @brief Method AppendNumber, addr 0x229c2a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x229fd58, size 0xa4, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
-  /// @brief Method Swap, addr 0x229c05c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x229fb0c, size 0x220, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
 protected:
@@ -46,7 +46,7 @@ public:
   StringBuilderExtension(StringBuilderExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16930 };
 
   /// @brief Field kCharZero offset 0xffffffff size 0x2
   static constexpr char16_t kCharZero{ u'0' };

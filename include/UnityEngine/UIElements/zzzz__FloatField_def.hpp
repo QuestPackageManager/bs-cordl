@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::FloatField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498f6e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4995740, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::FloatField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498f728, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4995788, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,24 +127,24 @@ public:
 
   __declspec(property(get = get_parentFloatField)) ::UnityEngine::UIElements::FloatField* parentFloatField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x498f848, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49958a8, size 0x1ac, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue);
 
   static inline ::UnityEngine::UIElements::FloatField_FloatInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x498fa40, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x4995aa0, size 0xa8, virtual true, abstract: false, final false
   inline float_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x498f9f4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x4995a54, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(float_t v);
 
-  /// @brief Method .ctor, addr 0x498f4fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499555c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x498f7f0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x4995850, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentFloatField, addr 0x498f770, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_parentFloatField, addr 0x49957d0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FloatField* get_parentFloatField();
 
 protected:
@@ -194,26 +194,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x498f5b4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x4995614, size 0x5c, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x498f590, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x49955f0, size 0x24, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::FloatField* New_ctor();
 
   static inline ::UnityEngine::UIElements::FloatField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x498f2c4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x4995324, size 0xdc, virtual true, abstract: false, final false
   inline float_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x498f20c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x499526c, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ValueToString(float_t v);
 
-  /// @brief Method .ctor, addr 0x498f3a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4995400, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x498f3ac, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499540c, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -222,7 +222,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_floatInput, addr 0x498f188, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_floatInput, addr 0x49951e8, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FloatField_FloatInput* get_floatInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);

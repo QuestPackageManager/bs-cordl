@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Zenject::PoolExceededFixedSizeException* New_ctor(::StringW errorMessage);
 
-  /// @brief Method .ctor, addr 0x4b19ecc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b1ff2c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMessage);
 
 protected:

@@ -46,24 +46,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x271c2fc, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x271fe60, size 0xc4, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x271be34, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x271f998, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMaskArray* other);
 
-  /// @brief Method GetBits, addr 0x271bf84, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x271fae8, size 0x118, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
   static inline ::GlobalNamespace::BitMaskArray* New_ctor(int32_t bitCount);
 
-  /// @brief Method Serialize, addr 0x271c194, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x271fcf8, size 0x168, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetBits, addr 0x271be98, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x271f9fc, size 0xec, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMaskArray* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method ToString, addr 0x271c09c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x271fc00, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set__data(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x271bdb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271f91c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method get_bitCount, addr 0x271bdb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x271f914, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
   /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>"
@@ -108,7 +108,7 @@ public:
   BitMaskArray(BitMaskArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16976 };
 
   /// @brief Field <bitCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____bitCount_k__BackingField;

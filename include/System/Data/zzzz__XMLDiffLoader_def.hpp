@@ -41,36 +41,36 @@ public:
   /// @brief Field _tables, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tables, put = __cordl_internal_set__tables)) ::System::Collections::ArrayList* _tables;
 
-  /// @brief Method CreateTablesHierarchy, addr 0x418b584, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method CreateTablesHierarchy, addr 0x41904f8, size 0x384, virtual false, abstract: false, final false
   inline void CreateTablesHierarchy(::System::Data::DataTable* dt);
 
-  /// @brief Method GetTable, addr 0x418d1a4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetTable, addr 0x4192118, size 0x1d4, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* GetTable(::StringW tableName, ::StringW ns);
 
-  /// @brief Method LoadDiffGram, addr 0x418ad68, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method LoadDiffGram, addr 0x418fcdc, size 0x1a4, virtual false, abstract: false, final false
   inline void LoadDiffGram(::System::Data::DataSet* ds, ::System::Xml::XmlReader* dataTextReader);
 
-  /// @brief Method LoadDiffGram, addr 0x418b908, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method LoadDiffGram, addr 0x419087c, size 0x1f8, virtual false, abstract: false, final false
   inline void LoadDiffGram(::System::Data::DataTable* dt, ::System::Xml::XmlReader* dataTextReader);
 
   static inline ::System::Data::XMLDiffLoader* New_ctor();
 
-  /// @brief Method ProcessDiffs, addr 0x418af0c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method ProcessDiffs, addr 0x418fe80, size 0x2d8, virtual false, abstract: false, final false
   inline void ProcessDiffs(::System::Data::DataSet* ds, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ProcessDiffs, addr 0x418bb00, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ProcessDiffs, addr 0x4190a74, size 0x2cc, virtual false, abstract: false, final false
   inline void ProcessDiffs(::System::Collections::ArrayList* tableList, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ProcessErrors, addr 0x418b1e4, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method ProcessErrors, addr 0x4190158, size 0x3a0, virtual false, abstract: false, final false
   inline void ProcessErrors(::System::Data::DataSet* ds, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ProcessErrors, addr 0x418bdcc, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method ProcessErrors, addr 0x4190d40, size 0x4b0, virtual false, abstract: false, final false
   inline void ProcessErrors(::System::Collections::ArrayList* dt, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ReadOldRowData, addr 0x418c2dc, size 0xec8, virtual false, abstract: false, final false
+  /// @brief Method ReadOldRowData, addr 0x4191250, size 0xec8, virtual false, abstract: false, final false
   inline int32_t ReadOldRowData(::System::Data::DataSet* ds, ::ByRef<::System::Data::DataTable*> table, ::ByRef<int32_t> pos, ::System::Xml::XmlReader* row);
 
-  /// @brief Method SkipWhitespaces, addr 0x418c27c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespaces, addr 0x41911f0, size 0x60, virtual false, abstract: false, final false
   inline void SkipWhitespaces(::System::Xml::XmlReader* reader);
 
   constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__tables(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x418d378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41922ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

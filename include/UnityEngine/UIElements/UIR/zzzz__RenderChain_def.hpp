@@ -143,17 +143,17 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE RenderChain_DepthOrderedDirtyTracking {
 public:
   // Declarations
-  /// @brief Method ClearDirty, addr 0x49a602c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ClearDirty, addr 0x49ac08c, size 0x198, virtual false, abstract: false, final false
   inline void ClearDirty(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypesInverse);
 
-  /// @brief Method EnsureFits, addr 0x49a7d94, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnsureFits, addr 0x49addf4, size 0x114, virtual false, abstract: false, final false
   inline void EnsureFits(int32_t maxDepth);
 
-  /// @brief Method RegisterDirty, addr 0x49a7744, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method RegisterDirty, addr 0x49ad7a4, size 0x1c4, virtual false, abstract: false, final false
   inline void RegisterDirty(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypes,
                             ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses dirtyTypeClass);
 
-  /// @brief Method Reset, addr 0x49a5500, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49ab560, size 0x78, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -216,13 +216,13 @@ public:
   /// @brief Field renderChains, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_renderChains, put = setStaticF_renderChains)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* renderChains;
 
-  /// @brief Method AccessIndex, addr 0x49a8dac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AccessIndex, addr 0x49aee0c, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChain* AccessIndex(int32_t index);
 
-  /// @brief Method AllocateIndex, addr 0x49a8bdc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AllocateIndex, addr 0x49aec3c, size 0x14c, virtual false, abstract: false, final false
   static inline int32_t AllocateIndex(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method FreeIndex, addr 0x49a8d28, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method FreeIndex, addr 0x49aed88, size 0x84, virtual false, abstract: false, final false
   static inline void FreeIndex(int32_t index);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* getStaticF_renderChains();
@@ -350,13 +350,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::RenderChain___c* New_ctor();
 
-  /// @brief Method <.ctor>b__34_0, addr 0x49a8f20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__34_0, addr 0x49aef80, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* __ctor_b__34_0();
 
-  /// @brief Method <.ctor>b__34_1, addr 0x49a8fb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__34_1, addr 0x49af018, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__34_1(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method .ctor, addr 0x49a8f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49aef78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::RenderChain___c* getStaticF___9();
@@ -564,107 +564,107 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AccessRenderNodeData, addr 0x49a8128, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AccessRenderNodeData, addr 0x49ae188, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData AccessRenderNodeData(::System::IntPtr obj);
 
-  /// @brief Method AllocCommand, addr 0x49a7f5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AllocCommand, addr 0x49adfbc, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* AllocCommand();
 
-  /// @brief Method AppendTexture, addr 0x49a8b34, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AppendTexture, addr 0x49aeb94, size 0xa8, virtual false, abstract: false, final false
   inline void AppendTexture(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::Texture* src, ::UnityEngine::UIElements::TextureId id, bool isAtlas);
 
-  /// @brief Method ChildWillBeRemoved, addr 0x49a7ea8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ChildWillBeRemoved, addr 0x49adf08, size 0xb4, virtual false, abstract: false, final false
   inline void ChildWillBeRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Constructor, addr 0x49a50fc, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method Constructor, addr 0x49ab15c, size 0x404, virtual false, abstract: false, final false
   inline void Constructor(::UnityEngine::UIElements::BaseVisualElementPanel* panelObj, ::UnityEngine::UIElements::UIR::UIRenderDevice* deviceObj, ::UnityEngine::UIElements::AtlasBase* atlas,
                           ::UnityEngine::UIElements::UIR::VectorImageManager* vectorImageMan);
 
-  /// @brief Method Destructor, addr 0x49a5578, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Destructor, addr 0x49ab5d8, size 0x28c, virtual false, abstract: false, final false
   inline void Destructor();
 
-  /// @brief Method Dispose, addr 0x49a596c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49ab9cc, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a59dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49aba3c, size 0x2c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawStats, addr 0x49a65d8, size 0xa84, virtual false, abstract: false, final false
+  /// @brief Method DrawStats, addr 0x49ac638, size 0xa84, virtual false, abstract: false, final false
   inline void DrawStats();
 
-  /// @brief Method EnsureFitsDepth, addr 0x49a7d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnsureFitsDepth, addr 0x49addec, size 0x8, virtual false, abstract: false, final false
   inline void EnsureFitsDepth(int32_t depth);
 
-  /// @brief Method FreeCommand, addr 0x49a7fc4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FreeCommand, addr 0x49ae024, size 0xb0, virtual false, abstract: false, final false
   inline void FreeCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method GetFirstElementInPanel, addr 0x49a5804, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetFirstElementInPanel, addr 0x49ab864, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* GetFirstElementInPanel(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetStandardMaterial, addr 0x49a64ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetStandardMaterial, addr 0x49ac54c, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetStandardMaterial();
 
-  /// @brief Method GetStandardWorldSpaceMaterial, addr 0x49a7ca0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetStandardWorldSpaceMaterial, addr 0x49add00, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetStandardWorldSpaceMaterial();
 
   static inline ::UnityEngine::UIElements::UIR::RenderChain* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method OnRegisterIntermediateRendererMat, addr 0x49a8720, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method OnRegisterIntermediateRendererMat, addr 0x49ae780, size 0x334, virtual false, abstract: false, final false
   static inline void OnRegisterIntermediateRendererMat(::UnityEngine::UIElements::BaseRuntimePanel* rtp, ::UnityEngine::UIElements::UIR::RenderChain* renderChain,
                                                        ::ByRef<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData> rnd, ::UnityEngine::Camera* camera, int32_t sameDistanceSortPriority);
 
-  /// @brief Method OnRegisterIntermediateRenderers, addr 0x49a82a8, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method OnRegisterIntermediateRenderers, addr 0x49ae308, size 0x478, virtual false, abstract: false, final false
   static inline void OnRegisterIntermediateRenderers(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnRenderCommandAdded, addr 0x49a8074, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandAdded, addr 0x49ae0d4, size 0x8c, virtual false, abstract: false, final false
   inline void OnRenderCommandAdded(::UnityEngine::UIElements::UIR::RenderChainCommand* command);
 
-  /// @brief Method OnRenderCommandsRemoved, addr 0x49a8100, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandsRemoved, addr 0x49ae160, size 0x28, virtual false, abstract: false, final false
   inline void OnRenderCommandsRemoved(::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::RenderChainCommand* lastCommand);
 
-  /// @brief Method OnRenderNodeExecute, addr 0x49a8200, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnRenderNodeExecute, addr 0x49ae260, size 0xa8, virtual false, abstract: false, final false
   static inline void OnRenderNodeExecute(::System::IntPtr obj);
 
-  /// @brief Method ProcessChanges, addr 0x49a5a08, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method ProcessChanges, addr 0x49aba68, size 0x624, virtual false, abstract: false, final false
   inline void ProcessChanges();
 
-  /// @brief Method Render, addr 0x49a61c4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x49ac224, size 0x328, virtual false, abstract: false, final false
   inline void Render();
 
-  /// @brief Method RepaintTexturedElements, addr 0x49a8a54, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RepaintTexturedElements, addr 0x49aeab4, size 0xe0, virtual false, abstract: false, final false
   inline void RepaintTexturedElements();
 
-  /// @brief Method ResetTextures, addr 0x49a584c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ResetTextures, addr 0x49ab8ac, size 0x10c, virtual false, abstract: false, final false
   inline void ResetTextures(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildAdded, addr 0x49a705c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildAdded, addr 0x49ad0bc, size 0x1c4, virtual false, abstract: false, final false
   inline void UIEOnChildAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildRemoving, addr 0x49a7574, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildRemoving, addr 0x49ad5d4, size 0xfc, virtual false, abstract: false, final false
   inline void UIEOnChildRemoving(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildrenReordered, addr 0x49a73c4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildrenReordered, addr 0x49ad424, size 0x1b0, virtual false, abstract: false, final false
   inline void UIEOnChildrenReordered(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnClippingChanged, addr 0x49a7220, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UIEOnClippingChanged, addr 0x49ad280, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnClippingChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
-  /// @brief Method UIEOnColorChanged, addr 0x49a7908, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UIEOnColorChanged, addr 0x49ad968, size 0x80, virtual false, abstract: false, final false
   inline void UIEOnColorChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnOpacityChanged, addr 0x49a72ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UIEOnOpacityChanged, addr 0x49ad30c, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnOpacityChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
-  /// @brief Method UIEOnOpacityIdChanged, addr 0x49a7a18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UIEOnOpacityIdChanged, addr 0x49ada78, size 0x80, virtual false, abstract: false, final false
   inline void UIEOnOpacityIdChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnRenderHintsChanged, addr 0x49a7670, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UIEOnRenderHintsChanged, addr 0x49ad6d0, size 0xd4, virtual false, abstract: false, final false
   inline void UIEOnRenderHintsChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnTransformOrSizeChanged, addr 0x49a7988, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method UIEOnTransformOrSizeChanged, addr 0x49ad9e8, size 0x90, virtual false, abstract: false, final false
   inline void UIEOnTransformOrSizeChanged(::UnityEngine::UIElements::VisualElement* ve, bool transformChanged, bool clipRectSizeChanged);
 
-  /// @brief Method UIEOnVisualsChanged, addr 0x49a7338, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UIEOnVisualsChanged, addr 0x49ad398, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnVisualsChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
   constexpr ::UnityEngine::UIElements::AtlasBase* const& __cordl_internal_get__atlas_k__BackingField() const;
@@ -847,7 +847,7 @@ public:
 
   constexpr void __cordl_internal_set_shaderInfoAllocator(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator value);
 
-  /// @brief Method .ctor, addr 0x49a4d9c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49aadfc, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::System::Action* getStaticF_OnPreRender();
@@ -866,40 +866,40 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerVisualsProcessing();
 
-  /// @brief Method get_atlas, addr 0x49a7ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x49adb18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::AtlasBase* get_atlas();
 
-  /// @brief Method get_device, addr 0x49a7aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x49adb08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::UIRenderDevice* get_device();
 
-  /// @brief Method get_disposed, addr 0x49a5958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49ab9b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_drawInCameras, addr 0x49a7b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawInCameras, addr 0x49adb8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawInCameras();
 
-  /// @brief Method get_drawStats, addr 0x49a7b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawStats, addr 0x49adb78, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
-  /// @brief Method get_indicesPool, addr 0x49a7ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indicesPool, addr 0x49adb48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* get_indicesPool();
 
-  /// @brief Method get_jobManager, addr 0x49a7af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jobManager, addr 0x49adb58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::JobManager* get_jobManager();
 
-  /// @brief Method get_opacityIdAccelerator, addr 0x49a4af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opacityIdAccelerator, addr 0x49aab50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* get_opacityIdAccelerator();
 
-  /// @brief Method get_painter, addr 0x49a7b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_painter, addr 0x49adb68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* get_painter();
 
-  /// @brief Method get_panel, addr 0x49a7a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panel, addr 0x49adaf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
-  /// @brief Method get_vectorImageManager, addr 0x49a7ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImageManager, addr 0x49adb28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageManager* get_vectorImageManager();
 
-  /// @brief Method get_vertsPool, addr 0x49a7ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertsPool, addr 0x49adb38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* get_vertsPool();
 
   /// @brief Convert to "::System::IDisposable"
@@ -921,46 +921,46 @@ public:
 
   static inline void setStaticF_s_MarkerVisualsProcessing(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_atlas, addr 0x49a7ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlas, addr 0x49adb20, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::UIElements::AtlasBase* value);
 
-  /// @brief Method set_defaultShader, addr 0x49a7b40, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_defaultShader, addr 0x49adba0, size 0xb0, virtual false, abstract: false, final false
   inline void set_defaultShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_defaultWorldSpaceShader, addr 0x49a7bf0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_defaultWorldSpaceShader, addr 0x49adc50, size 0xb0, virtual false, abstract: false, final false
   inline void set_defaultWorldSpaceShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_device, addr 0x49a7ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x49adb10, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::UIElements::UIR::UIRenderDevice* value);
 
-  /// @brief Method set_disposed, addr 0x49a5960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49ab9c0, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_drawInCameras, addr 0x49a7b34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_drawInCameras, addr 0x49adb94, size 0xc, virtual false, abstract: false, final false
   inline void set_drawInCameras(bool value);
 
-  /// @brief Method set_drawStats, addr 0x49a7b20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_drawStats, addr 0x49adb80, size 0xc, virtual false, abstract: false, final false
   inline void set_drawStats(bool value);
 
-  /// @brief Method set_indicesPool, addr 0x49a7af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_indicesPool, addr 0x49adb50, size 0x8, virtual false, abstract: false, final false
   inline void set_indicesPool(::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* value);
 
-  /// @brief Method set_jobManager, addr 0x49a7b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_jobManager, addr 0x49adb60, size 0x8, virtual false, abstract: false, final false
   inline void set_jobManager(::UnityEngine::UIElements::UIR::JobManager* value);
 
-  /// @brief Method set_opacityIdAccelerator, addr 0x49a4af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_opacityIdAccelerator, addr 0x49aab58, size 0x8, virtual false, abstract: false, final false
   inline void set_opacityIdAccelerator(::UnityEngine::UIElements::UIR::OpacityIdAccelerator* value);
 
-  /// @brief Method set_painter, addr 0x49a7b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_painter, addr 0x49adb70, size 0x8, virtual false, abstract: false, final false
   inline void set_painter(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* value);
 
-  /// @brief Method set_panel, addr 0x49a7aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_panel, addr 0x49adb00, size 0x8, virtual false, abstract: false, final false
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method set_vectorImageManager, addr 0x49a7ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vectorImageManager, addr 0x49adb30, size 0x8, virtual false, abstract: false, final false
   inline void set_vectorImageManager(::UnityEngine::UIElements::UIR::VectorImageManager* value);
 
-  /// @brief Method set_vertsPool, addr 0x49a7ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertsPool, addr 0x49adb40, size 0x8, virtual false, abstract: false, final false
   inline void set_vertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
 protected:

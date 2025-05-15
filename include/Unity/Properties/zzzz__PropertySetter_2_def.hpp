@@ -49,7 +49,7 @@ public:
   PropertySetter_2(PropertySetter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

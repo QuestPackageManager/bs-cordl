@@ -158,51 +158,51 @@ public:
 
   __declspec(property(get = get_songTime)) float_t songTime;
 
-  /// @brief Method Blerp, addr 0x3c29174, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Blerp, addr 0x3c2e0e8, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Blerp(::UnityEngine::Vector3 prevStart, ::UnityEngine::Vector3 prevEnd, ::UnityEngine::Vector3 currStart, ::UnityEngine::Vector3 currEnd, float_t t);
 
-  /// @brief Method Dispose, addr 0x3c26520, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c2b494, size 0x264, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetCutDirection, addr 0x3c28e68, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetCutDirection, addr 0x3c2dddc, size 0x2a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetCutDirection(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method GetNotePosition, addr 0x3c2910c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetNotePosition, addr 0x3c2e080, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetNotePosition(int32_t lineCount, ::GlobalNamespace::MockNoteData* noteData);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x3c29618, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x3c2e58c, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
 
-  /// @brief Method HandleObstacleWasSpawned, addr 0x3c297f0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasSpawned, addr 0x3c2e764, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleObstacleWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
 
-  /// @brief Method HandleSliderWasSpawned, addr 0x3c299c8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x3c2e93c, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
 
-  /// @brief Method Init, addr 0x3c26784, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3c2b6f8, size 0x404, virtual true, abstract: false, final false
   inline void Init(int64_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
 
   static inline ::GlobalNamespace::MockPlayerGamePoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                            ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator,
                                                                            bool leftHanded);
 
-  /// @brief Method ProcessNotes, addr 0x3c27510, size 0xfd0, virtual false, abstract: false, final false
+  /// @brief Method ProcessNotes, addr 0x3c2c484, size 0xfd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose ProcessNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> notes, ::UnityEngine::Vector3 handDirection,
                                           ::ByRef<int32_t> noteIndex, ::ByRef<int32_t> prevHitScore, ::ByRef<int32_t> nextHitScore,
                                           ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> bombs, ::ByRef<int32_t> bombIndex, int32_t lineCount, float_t songTime,
                                           ::ByRef<bool> wasHitOrMiss);
 
-  /// @brief Method ProcessObstacles, addr 0x3c284e0, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ProcessObstacles, addr 0x3c2d454, size 0x354, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose ProcessObstacles(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> obstacles, ::ByRef<int32_t> obstacleIndex,
                                               int32_t lineCount, ::UnityEngine::Pose prevHeadPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose, float_t songTime);
 
-  /// @brief Method SimulateFail, addr 0x3c2945c, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x3c2e3d0, size 0x1bc, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method Tick, addr 0x3c26b88, size 0x988, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x3c2bafc, size 0x988, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method UpdateScore, addr 0x3c28834, size 0x634, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x3c2d7a8, size 0x634, virtual false, abstract: false, final false
   inline void UpdateScore(::ByRef<int32_t> currentScore, ::ByRef<int32_t> currentCombo, ::ByRef<int32_t> currentMultiplier, int32_t hitScore, int32_t lineCount, ::UnityEngine::Pose lastPose,
                           ::UnityEngine::Pose currentPose, float_t lastSongTime, float_t songTime, ::GlobalNamespace::MockNoteData* noteData, ::GlobalNamespace::MockNoteData* nextNoteData);
 
@@ -386,11 +386,11 @@ public:
 
   constexpr void __cordl_internal_set__timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3c262ac, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b220, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator, bool leftHanded);
 
-  /// @brief Method get_songTime, addr 0x3c261e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_songTime, addr 0x3c2b158, size 0xc8, virtual false, abstract: false, final false
   inline float_t get_songTime();
 
 protected:
@@ -408,7 +408,7 @@ public:
   MockPlayerGamePoseGeneratorAI(MockPlayerGamePoseGeneratorAI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18115 };
 
   /// @brief Field _scoreCalculator, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IMockPlayerScoreCalculator* ____scoreCalculator;

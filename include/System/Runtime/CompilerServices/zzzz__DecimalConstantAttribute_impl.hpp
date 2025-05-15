@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)(
     uint8_t, uint8_t, uint32_t, uint32_t, uint32_t)>(&::System::Runtime::CompilerServices::DecimalConstantAttribute::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d13b64;
+  constexpr static std::size_t addrs = 0x3d18ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)()>(
     &::System::Runtime::CompilerServices::DecimalConstantAttribute::get_Value)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d13c00;
+  constexpr static std::size_t addrs = 0x3d18b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

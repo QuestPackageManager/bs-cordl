@@ -19,7 +19,7 @@ namespace SFB {
 struct CORDL_TYPE ExtensionFilter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3b705fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b75570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW filterName, ::ArrayW<::StringW, ::Array<::StringW>*> filterExtensions);
 
   // Ctor Parameters []

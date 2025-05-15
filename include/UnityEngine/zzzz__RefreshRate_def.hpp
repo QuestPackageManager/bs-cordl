@@ -31,16 +31,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::RefreshRate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::RefreshRate>*();
 
-  /// @brief Method CompareTo, addr 0x486efe4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x4875044, size 0x50, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::RefreshRate other);
 
-  /// @brief Method Equals, addr 0x486efa8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4875008, size 0x3c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::RefreshRate other);
 
-  /// @brief Method ToString, addr 0x486f034, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4875094, size 0x9c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_value, addr 0x486ef94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x4874ff4, size 0x14, virtual false, abstract: false, final false
   inline double_t get_value();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::RefreshRate>"

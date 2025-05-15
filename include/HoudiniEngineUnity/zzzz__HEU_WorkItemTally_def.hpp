@@ -38,21 +38,21 @@ public:
   /// @brief Field _waitingWorkItems, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__waitingWorkItems, put = __cordl_internal_set__waitingWorkItems)) int32_t _waitingWorkItems;
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x3a4e214, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x3a53188, size 0x10, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x3a4e27c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x3a531f0, size 0x44, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x3a4e1dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x3a53150, size 0x38, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
   static inline ::HoudiniEngineUnity::HEU_WorkItemTally* New_ctor();
 
-  /// @brief Method ProgressRatio, addr 0x3a4e2c0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ProgressRatio, addr 0x3a53234, size 0xac, virtual false, abstract: false, final false
   inline ::StringW ProgressRatio();
 
-  /// @brief Method ZeroAll, addr 0x3a4d180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ZeroAll, addr 0x3a520f4, size 0xc, virtual false, abstract: false, final false
   inline void ZeroAll();
 
   constexpr int32_t const& __cordl_internal_get__cookedWorkItems() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__waitingWorkItems(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a4e09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a53010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -19,52 +19,52 @@ namespace System::Data::SqlTypes {
 class CORDL_TYPE SQLResource : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvalidOpStreamClosed, addr 0x41b93c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvalidOpStreamClosed, addr 0x41be334, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW InvalidOpStreamClosed(::StringW method);
 
-  /// @brief Method InvalidOpStreamNonReadable, addr 0x41b9458, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvalidOpStreamNonReadable, addr 0x41be3cc, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW InvalidOpStreamNonReadable(::StringW method);
 
-  /// @brief Method InvalidOpStreamNonSeekable, addr 0x41b94a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvalidOpStreamNonSeekable, addr 0x41be418, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW InvalidOpStreamNonSeekable(::StringW method);
 
-  /// @brief Method InvalidOpStreamNonWritable, addr 0x41b940c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvalidOpStreamNonWritable, addr 0x41be380, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW InvalidOpStreamNonWritable(::StringW method);
 
-  /// @brief Method get_ArithOverflowMessage, addr 0x41b9100, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArithOverflowMessage, addr 0x41be074, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArithOverflowMessage();
 
-  /// @brief Method get_CompareDiffCollationMessage, addr 0x41b9280, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_CompareDiffCollationMessage, addr 0x41be1f4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_CompareDiffCollationMessage();
 
-  /// @brief Method get_ConcatDiffCollationMessage, addr 0x41b9240, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ConcatDiffCollationMessage, addr 0x41be1b4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ConcatDiffCollationMessage();
 
-  /// @brief Method get_ConversionOverflowMessage, addr 0x41b92c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ConversionOverflowMessage, addr 0x41be234, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ConversionOverflowMessage();
 
-  /// @brief Method get_DateTimeOverflowMessage, addr 0x41b9200, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeOverflowMessage, addr 0x41be174, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_DateTimeOverflowMessage();
 
-  /// @brief Method get_DivideByZeroMessage, addr 0x41b9140, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_DivideByZeroMessage, addr 0x41be0b4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_DivideByZeroMessage();
 
-  /// @brief Method get_FormatMessage, addr 0x41b9380, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_FormatMessage, addr 0x41be2f4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_FormatMessage();
 
-  /// @brief Method get_InvalidPrecScaleMessage, addr 0x41b9340, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidPrecScaleMessage, addr 0x41be2b4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_InvalidPrecScaleMessage();
 
-  /// @brief Method get_NullString, addr 0x41b90c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_NullString, addr 0x41be034, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_NullString();
 
-  /// @brief Method get_NullValueMessage, addr 0x41b9180, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_NullValueMessage, addr 0x41be0f4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_NullValueMessage();
 
-  /// @brief Method get_TimeZoneSpecifiedMessage, addr 0x41b9300, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_TimeZoneSpecifiedMessage, addr 0x41be274, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_TimeZoneSpecifiedMessage();
 
-  /// @brief Method get_TruncationMessage, addr 0x41b91c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_TruncationMessage, addr 0x41be134, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_TruncationMessage();
 
 protected:

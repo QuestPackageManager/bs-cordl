@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE HandleDragAndDropArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4a147c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1a820, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, ::UnityEngine::UIElements::DragAndDropArgs dragAndDropArgs);
 
   // Ctor Parameters []

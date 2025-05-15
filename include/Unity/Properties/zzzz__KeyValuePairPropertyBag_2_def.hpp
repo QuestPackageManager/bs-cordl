@@ -68,7 +68,7 @@ public:
   KeyValuePairPropertyBag_2___c(KeyValuePairPropertyBag_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -121,7 +121,7 @@ public:
   KeyValuePairPropertyBag_2(KeyValuePairPropertyBag_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

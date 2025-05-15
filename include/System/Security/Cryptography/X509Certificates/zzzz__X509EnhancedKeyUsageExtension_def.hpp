@@ -38,13 +38,13 @@ public:
   /// @brief Field _status, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status)) ::System::Security::Cryptography::AsnDecodeStatus _status;
 
-  /// @brief Method CopyFrom, addr 0x443e060, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x4442fd4, size 0x1c8, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Decode, addr 0x443dafc, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x4442a70, size 0x240, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode, addr 0x443deb8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x4442e2c, size 0xbc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* New_ctor(::System::Security::Cryptography::OidCollection* enhancedKeyUsages, bool critical);
 
-  /// @brief Method ToString, addr 0x443e228, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x444319c, size 0x2d8, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   constexpr ::System::Security::Cryptography::OidCollection* const& __cordl_internal_get__enhKeyUsage() const;
@@ -68,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set__status(::System::Security::Cryptography::AsnDecodeStatus value);
 
-  /// @brief Method .ctor, addr 0x4435434, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443a3a8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44317c4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4436738, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical);
 
-  /// @brief Method .ctor, addr 0x443dd3c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4442cb0, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::OidCollection* enhancedKeyUsages, bool critical);
 
-  /// @brief Method get_EnhancedKeyUsages, addr 0x443df74, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_EnhancedKeyUsages, addr 0x4442ee8, size 0xec, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::OidCollection* get_EnhancedKeyUsages();
 
 protected:

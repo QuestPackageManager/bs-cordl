@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x4161be4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4166b58, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t record);
 
 protected:

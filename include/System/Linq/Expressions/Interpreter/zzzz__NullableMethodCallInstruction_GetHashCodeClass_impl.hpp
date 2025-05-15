@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_GetHashCodeClass::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::NullableMethodCallInstruction_GetHashCodeClass::Run)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x40f4014;
+  constexpr static std::size_t addrs = 0x40f8f88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullableMethodCallInstruction_GetHashCodeClass::*)()>(
     &::GlobalNamespace::NullableMethodCallInstruction_GetHashCodeClass::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f3c7c;
+  constexpr static std::size_t addrs = 0x40f8bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

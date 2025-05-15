@@ -70,19 +70,19 @@ public:
   /// @brief Field width, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) int32_t width;
 
-  /// @brief Method Deserialize, addr 0x271fcc8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x272382c, size 0xe0, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x271fae4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2723648, size 0x80, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration,
                                                                    int32_t width, int32_t height, ::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight, float_t rotation);
 
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x271fa80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x27235e4, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x271fbbc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2723720, size 0x10c, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_duration() const;
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x271fb64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27236c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -175,7 +175,7 @@ public:
   ObstacleSpawnInfoNetSerializable(ObstacleSpawnInfoNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17014 };
 
   /// @brief Field time, offset: 0x14, size: 0x4, def value: None
   float_t ___time;

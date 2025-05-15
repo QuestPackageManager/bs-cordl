@@ -68,7 +68,7 @@ public:
   INetEventListener(INetEventListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,18 +49,18 @@ public:
 
   __declspec(property(get = get_ringPositionStep)) float_t ringPositionStep;
 
-  /// @brief Method FixedUpdate, addr 0x3b9aff4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b9ff68, size 0x9c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x3b9b090, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3ba0004, size 0x9c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TrackLaneRingsManager* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x3b9b12c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x3ba00a0, size 0x284, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method Start, addr 0x3b9ad44, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9fcb8, size 0x2b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingPrefab(::UnityW<::GlobalNamespace::TrackLaneRing> value);
 
-  /// @brief Method .ctor, addr 0x3b9b3b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba0324, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Rings, addr 0x3b9ad3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rings, addr 0x3b9fcb0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> get_Rings();
 
-  /// @brief Method get_ringPositionStep, addr 0x3b9ad34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ringPositionStep, addr 0x3b9fca8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ringPositionStep();
 
 protected:

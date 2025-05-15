@@ -65,7 +65,7 @@ public:
   constexpr SDKBridge_SDKInjection_1(bool active, ::System::Action* action, T data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -115,19 +115,19 @@ public:
   __declspec(property(get = getStaticF__injection_SDKResolution, put = setStaticF__injection_SDKResolution)) ::LIV::SDK::Unity::SDKBridge_SDKInjection_1<::LIV::SDK::Unity::SDKResolution>
       _injection_SDKResolution;
 
-  /// @brief Method AddObjectToChannel, addr 0x3abcbb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddObjectToChannel, addr 0x3ac1b24, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddObjectToChannel(int32_t slot, ::System::IntPtr obj, int32_t objectsize, uint64_t tag);
 
-  /// @brief Method AddObjectToCompositorChannel, addr 0x3abcb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddObjectToCompositorChannel, addr 0x3ac1afc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddObjectToCompositorChannel(int32_t slot, ::System::IntPtr obj, int32_t objectsize, uint64_t tag);
 
-  /// @brief Method AddObjectToFrame, addr 0x3abcb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddObjectToFrame, addr 0x3ac1b04, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddObjectToFrame(::System::IntPtr obj, int32_t objectsize, uint64_t tag);
 
-  /// @brief Method AddString, addr 0x3abcc3c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddString, addr 0x3ac1bb0, size 0xfc, virtual false, abstract: false, final false
   static inline void AddString(::StringW tag, ::StringW value, int32_t slot);
 
-  /// @brief Method AddStringToChannel, addr 0x3abcb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddStringToChannel, addr 0x3ac1ac4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddStringToChannel(int32_t slot, ::System::IntPtr str, int32_t length, uint64_t tag);
 
   /// @brief Method AddStructToFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -139,40 +139,40 @@ public:
   /// @brief Method AddStructToLocalChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t AddStructToLocalChannel(::ByRef<T> mystruct, int32_t channel, uint64_t tag);
 
-  /// @brief Method AddTexture, addr 0x3abd460, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddTexture, addr 0x3ac23d4, size 0x130, virtual false, abstract: false, final false
   static inline void AddTexture(::LIV::SDK::Unity::SDKTexture texture);
 
-  /// @brief Method AddTexture, addr 0x3abcd38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AddTexture, addr 0x3ac1cac, size 0xc4, virtual false, abstract: false, final false
   static inline void AddTexture(::LIV::SDK::Unity::SDKTexture texture, uint64_t tag);
 
-  /// @brief Method CreateFrame, addr 0x3abd590, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateFrame, addr 0x3ac2504, size 0x160, virtual false, abstract: false, final false
   static inline void CreateFrame(::LIV::SDK::Unity::SDKOutputFrame frame);
 
-  /// @brief Method GetChannelObject, addr 0x3abcba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetChannelObject, addr 0x3ac1b1c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetChannelObject(int32_t slot, uint64_t tag, uint64_t timestamp);
 
-  /// @brief Method GetCompositorChannelObject, addr 0x3abcb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCompositorChannelObject, addr 0x3ac1af4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetCompositorChannelObject(int32_t slot, uint64_t tag, uint64_t timestamp);
 
-  /// @brief Method GetCurrentTime, addr 0x3abce58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTime, addr 0x3ac1dcc, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t GetCurrentTime();
 
-  /// @brief Method GetCurrentTimeTicks, addr 0x3abcb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTimeTicks, addr 0x3ac1adc, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetCurrentTimeTicks();
 
-  /// @brief Method GetIsCaptureActive, addr 0x3abcb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIsCaptureActive, addr 0x3ac1ae4, size 0x8, virtual false, abstract: false, final false
   static inline bool GetIsCaptureActive();
 
-  /// @brief Method GetObjectTime, addr 0x3abcdfc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectTime, addr 0x3ac1d70, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t GetObjectTime(::System::IntPtr objectptr);
 
-  /// @brief Method GetObjectTimeStamp, addr 0x3abcb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectTimeStamp, addr 0x3ac1ad4, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetObjectTimeStamp(::System::IntPtr obj);
 
-  /// @brief Method GetRenderEventFunc, addr 0x3abcb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRenderEventFunc, addr 0x3ac1aec, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetRenderEventFunc();
 
-  /// @brief Method GetResolution, addr 0x3abd790, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetResolution, addr 0x3ac2704, size 0x130, virtual false, abstract: false, final false
   static inline bool GetResolution(::ByRef<::LIV::SDK::Unity::SDKResolution> sdkResolution);
 
   /// @brief Method GetStructFromGlobalChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -181,28 +181,28 @@ public:
   /// @brief Method GetStructFromLocalChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool GetStructFromLocalChannel(::ByRef<T> mystruct, int32_t channel, uint64_t tag);
 
-  /// @brief Method GetViewfinderTexture, addr 0x3abd2e0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetViewfinderTexture, addr 0x3ac2254, size 0x16c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTexture GetViewfinderTexture();
 
-  /// @brief Method GetViewportTexture, addr 0x3abcba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetViewportTexture, addr 0x3ac1b14, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetViewportTexture();
 
-  /// @brief Method IssuePluginEvent, addr 0x3abceb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IssuePluginEvent, addr 0x3ac1e28, size 0x80, virtual false, abstract: false, final false
   static inline void IssuePluginEvent();
 
-  /// @brief Method SetGroundPlane, addr 0x3abd6f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetGroundPlane, addr 0x3ac2664, size 0xa0, virtual false, abstract: false, final false
   static inline void SetGroundPlane(::LIV::SDK::Unity::SDKPlane groundPlane);
 
-  /// @brief Method SubmitApplicationOutput, addr 0x3abc64c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SubmitApplicationOutput, addr 0x3ac15c0, size 0x1d0, virtual false, abstract: false, final false
   static inline void SubmitApplicationOutput(::LIV::SDK::Unity::SDKApplicationOutput applicationOutput);
 
-  /// @brief Method Tag, addr 0x3abcbb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Tag, addr 0x3ac1b2c, size 0x84, virtual false, abstract: false, final false
   static inline uint64_t Tag(::StringW str);
 
-  /// @brief Method UpdateInputFrame, addr 0x3abcf34, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method UpdateInputFrame, addr 0x3ac1ea8, size 0x270, virtual false, abstract: false, final false
   static inline bool UpdateInputFrame(::ByRef<::LIV::SDK::Unity::SDKInputFrame> setframe);
 
-  /// @brief Method addtexture, addr 0x3abcb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method addtexture, addr 0x3ac1acc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t addtexture(::System::IntPtr sourcetexture, uint64_t tag);
 
   static inline bool getStaticF__injection_DisableAddTexture();
@@ -219,7 +219,7 @@ public:
 
   static inline ::LIV::SDK::Unity::SDKBridge_SDKInjection_1<::LIV::SDK::Unity::SDKResolution> getStaticF__injection_SDKResolution();
 
-  /// @brief Method get_IsActive, addr 0x3abbe38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x3ac0dac, size 0x98, virtual false, abstract: false, final false
   static inline bool get_IsActive();
 
   static inline void setStaticF__injection_DisableAddTexture(bool value);
@@ -236,7 +236,7 @@ public:
 
   static inline void setStaticF__injection_SDKResolution(::LIV::SDK::Unity::SDKBridge_SDKInjection_1<::LIV::SDK::Unity::SDKResolution> value);
 
-  /// @brief Method updatinputframe, addr 0x3abcb98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method updatinputframe, addr 0x3ac1b0c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr updatinputframe(::System::IntPtr InputFrame);
 
 protected:
@@ -254,7 +254,7 @@ public:
   SDKBridge(SDKBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17316 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

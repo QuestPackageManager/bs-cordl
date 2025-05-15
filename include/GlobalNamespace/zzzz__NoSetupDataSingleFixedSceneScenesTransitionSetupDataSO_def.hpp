@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x229805c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x229bb0c, size 0x8, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2298054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229bb04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO(NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

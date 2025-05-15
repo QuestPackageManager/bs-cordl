@@ -33,13 +33,13 @@ public:
   /// @brief Field <DisplayNameValue>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__DisplayNameValue_k__BackingField, put = __cordl_internal_set__DisplayNameValue_k__BackingField)) ::StringW _DisplayNameValue_k__BackingField;
 
-  /// @brief Method Equals, addr 0x4442c98, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4447c0c, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4442d64, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4447cd8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x4442d8c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x4447d00, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DisplayNameAttribute* New_ctor();
@@ -52,23 +52,23 @@ public:
 
   constexpr void __cordl_internal_set__DisplayNameValue_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4442bfc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4447b70, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4442c58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4447bcc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
   static inline ::System::ComponentModel::DisplayNameAttribute* getStaticF_Default();
 
-  /// @brief Method get_DisplayName, addr 0x4442c80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x4447bf4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_DisplayNameValue, addr 0x4442c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayNameValue, addr 0x4447bfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayNameValue();
 
   static inline void setStaticF_Default(::System::ComponentModel::DisplayNameAttribute* value);
 
-  /// @brief Method set_DisplayNameValue, addr 0x4442c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DisplayNameValue, addr 0x4447c04, size 0x8, virtual false, abstract: false, final false
   inline void set_DisplayNameValue(::StringW value);
 
 protected:

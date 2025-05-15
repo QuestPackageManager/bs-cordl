@@ -30,12 +30,12 @@ namespace System::Net {
 class CORDL_TYPE AuthenticationSchemeSelector : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4499c78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x449ebec, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* httpRequest);
 
   static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4499bdc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449eb50, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

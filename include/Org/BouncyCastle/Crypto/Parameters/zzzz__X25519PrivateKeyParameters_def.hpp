@@ -37,16 +37,16 @@ public:
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  /// @brief Method Encode, addr 0x23bfcb4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x23c3764, size 0x84, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GeneratePublicKey, addr 0x23bfd94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GeneratePublicKey, addr 0x23c3844, size 0xa4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* GeneratePublicKey();
 
-  /// @brief Method GenerateSecret, addr 0x23bfef4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GenerateSecret, addr 0x23c39a4, size 0xf0, virtual false, abstract: false, final false
   inline void GenerateSecret(::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded, addr 0x23bfd38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x23c37e8, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23bfaf4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c35a4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor, addr 0x23bfbb0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3660, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x23bfa50, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3500, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline int32_t getStaticF_KeySize();

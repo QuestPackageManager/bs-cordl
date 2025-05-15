@@ -93,25 +93,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x44d4c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor, addr 0x44d4c28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor, addr 0x44d9b9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method get_highlightedColor, addr 0x44d4c10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedColor, addr 0x44d9b84, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method get_normalColor, addr 0x44d4c04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor, addr 0x44d9b78, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method get_pressedColor, addr 0x44d4c1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor, addr 0x44d9b90, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method get_selectedAndHighlightedColor, addr 0x44d4c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor, addr 0x44d9bb4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor();
 
-  /// @brief Method get_selectedColor, addr 0x44d4c34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor, addr 0x44d9ba8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   ColorTransitionSO(ColorTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18225 };
 
   /// @brief Field _normalColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____normalColor;

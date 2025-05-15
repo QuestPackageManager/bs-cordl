@@ -32,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SetGlobalShaderFloat* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x39e2074, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e6fe8, size 0x20, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x39e2040, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e6fb4, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x39e2060, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39e6fd4, size 0x14, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__propertyId() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e2094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7008, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   SetGlobalShaderFloat(SetGlobalShaderFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16374 };
 
   /// @brief Field _propertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____propertyName;

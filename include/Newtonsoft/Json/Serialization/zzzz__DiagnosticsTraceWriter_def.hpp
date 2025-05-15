@@ -38,12 +38,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
-  /// @brief Method GetTraceEventType, addr 0x3edfb10, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetTraceEventType, addr 0x3ee4a84, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
 
   static inline ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter* New_ctor();
 
-  /// @brief Method Trace, addr 0x3edfb7c, size 0x478, virtual true, abstract: false, final true
+  /// @brief Method Trace, addr 0x3ee4af0, size 0x478, virtual true, abstract: false, final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method .ctor, addr 0x3edfff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee4f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LevelFilter, addr 0x3edfb00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LevelFilter, addr 0x3ee4a74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
-  /// @brief Method set_LevelFilter, addr 0x3edfb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LevelFilter, addr 0x3ee4a7c, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
 protected:

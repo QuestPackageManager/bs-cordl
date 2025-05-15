@@ -35,7 +35,7 @@ public:
   // Declarations
   __declspec(property(get = get_Asn1Object)) ::Org::BouncyCastle::Asn1::Asn1Object* Asn1Object;
 
-  /// @brief Method GetInstance, addr 0x240a79c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x240e24c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID);
@@ -44,19 +44,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x240a940, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x240e3f0, size 0x10c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x240a684, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240e134, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID);
 
-  /// @brief Method .ctor, addr 0x240a6ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240e15c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x240a6d8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240e188, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Asn1Object, addr 0x240a918, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Asn1Object, addr 0x240e3c8, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Asn1Object();
 
 protected:

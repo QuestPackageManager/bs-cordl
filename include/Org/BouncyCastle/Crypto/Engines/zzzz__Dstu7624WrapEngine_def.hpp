@@ -47,15 +47,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method Init, addr 0x2357578, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x235b028, size 0x118, virtual true, abstract: false, final true
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine* New_ctor(int32_t blockSizeBits);
 
-  /// @brief Method Unwrap, addr 0x2357e3c, size 0x890, virtual true, abstract: false, final true
+  /// @brief Method Unwrap, addr 0x235b8ec, size 0x890, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x2357690, size 0x7ac, virtual true, abstract: false, final true
+  /// @brief Method Wrap, addr 0x235b140, size 0x7ac, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr int32_t const& __cordl_internal_get_blockSize() const;
@@ -82,10 +82,10 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x23574b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235af60, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockSizeBits);
 
-  /// @brief Method get_AlgorithmName, addr 0x2357538, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x235afe8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"

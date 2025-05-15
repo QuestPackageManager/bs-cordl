@@ -73,42 +73,42 @@ public:
 
   __declspec(property(get = get_ID)) ::System::Guid _cordl_ID;
 
-  /// @brief Method CreateSslStream, addr 0x410a60c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CreateSslStream, addr 0x410f580, size 0x88, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* CreateSslStream(::System::Net::Security::SslStream* sslStream, ::System::IO::Stream* innerStream, bool leaveInnerStreamOpen,
                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline ::Mono::Unity::UnityTlsProvider* New_ctor();
 
-  /// @brief Method ValidateCertificate, addr 0x410a728, size 0x958, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x410f69c, size 0x958, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper* validator, ::StringW targetHost, bool serverMode,
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ::ByRef<::System::Net::Security::SslPolicyErrors> errors, ::ByRef<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x410b080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410fff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ID, addr 0x410a58c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x410f500, size 0x58, virtual true, abstract: false, final false
   inline ::System::Guid get_ID();
 
-  /// @brief Method get_Name, addr 0x410a54c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x410f4c0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SupportedProtocols, addr 0x410a604, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportedProtocols, addr 0x410f578, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
 
-  /// @brief Method get_SupportsCleanShutdown, addr 0x410a5fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsCleanShutdown, addr 0x410f570, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsCleanShutdown();
 
-  /// @brief Method get_SupportsConnectionInfo, addr 0x410a5f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsConnectionInfo, addr 0x410f568, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsConnectionInfo();
 
-  /// @brief Method get_SupportsMonoExtensions, addr 0x410a5ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsMonoExtensions, addr 0x410f560, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsMonoExtensions();
 
-  /// @brief Method get_SupportsSslStream, addr 0x410a5e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsSslStream, addr 0x410f558, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsSslStream();
 
-  /// @brief Method x509verify_callback, addr 0x410a4e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method x509verify_callback, addr 0x410f45c, size 0x64, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_x509verify_result x509verify_callback(::cordl_internals::Ptr<void> userData, ::Mono::Unity::UnityTls_unitytls_x509_ref cert,
                                                                                        ::Mono::Unity::UnityTls_unitytls_x509verify_result result,
                                                                                        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);

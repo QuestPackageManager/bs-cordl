@@ -33,17 +33,17 @@ public:
   /// @brief Field content, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence* content;
 
-  /// @brief Method GetInstance, addr 0x230e0bc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2311b6c, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> msgs);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x230e448, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2311ef8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToCertReqMsgArray, addr 0x230e2b0, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToCertReqMsgArray, addr 0x2311d60, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> ToCertReqMsgArray();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_content() const;
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x230e23c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2311cec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> msgs);
 
-  /// @brief Method .ctor, addr 0x230e094, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2311b44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

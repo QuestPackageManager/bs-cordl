@@ -61,30 +61,30 @@ public:
   /// @brief Field _tweeningManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Animate, addr 0x3bc7eb0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x3bcce24, size 0x1d4, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method HideInstant, addr 0x3bc7e08, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x3bccd7c, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method InitIfNeeded, addr 0x3bc7bc8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3bccb3c, size 0x1c8, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bc7b40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bccab4, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPositionAndRotation, addr 0x3bc7d90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3bccd04, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method <InitIfNeeded>b__8_0, addr 0x3bc8094, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_0, addr 0x3bcd008, size 0x78, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__8_1, addr 0x3bc810c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_1, addr 0x3bcd080, size 0x78, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__8_2, addr 0x3bc8184, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_2, addr 0x3bcd0f8, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_2();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__avatarTransform() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3bc8084, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bccff8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

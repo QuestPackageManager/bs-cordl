@@ -114,127 +114,127 @@ public:
   /// @brief Field takeCapture, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_takeCapture, put = setStaticF_takeCapture)) ::System::Action* takeCapture;
 
-  /// @brief Method AlignRectToDevice, addr 0x48dc1f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AlignRectToDevice, addr 0x48e2254, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect AlignRectToDevice(::UnityEngine::Rect rect);
 
-  /// @brief Method AlignRectToDevice, addr 0x48db168, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AlignRectToDevice, addr 0x48e11c8, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect AlignRectToDevice(::UnityEngine::Rect rect, ::ByRef<int32_t> widthInPixels, ::ByRef<int32_t> heightInPixels);
 
-  /// @brief Method AlignRectToDevice_Injected, addr 0x48db214, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AlignRectToDevice_Injected, addr 0x48e1274, size 0x5c, virtual false, abstract: false, final false
   static inline void AlignRectToDevice_Injected(::ByRef<::UnityEngine::Rect> rect, ::ByRef<int32_t> widthInPixels, ::ByRef<int32_t> heightInPixels, ::ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method BeginContainer, addr 0x48db014, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginContainer, addr 0x48e1074, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginContainer(::UnityEngine::ObjectGUIState* objectGUIState);
 
-  /// @brief Method BeginContainerFromOwner, addr 0x48dafd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginContainerFromOwner, addr 0x48e1038, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginContainerFromOwner(::UnityEngine::ScriptableObject* owner);
 
-  /// @brief Method BeginGUI, addr 0x48dbafc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method BeginGUI, addr 0x48e1b5c, size 0xac, virtual false, abstract: false, final false
   static inline void BeginGUI(int32_t skinMode, int32_t instanceID, int32_t useGUILayout);
 
-  /// @brief Method CheckForTabEvent, addr 0x48db078, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckForTabEvent, addr 0x48e10d8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t CheckForTabEvent(::UnityEngine::Event* evt);
 
-  /// @brief Method CheckOnGUI, addr 0x48d240c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CheckOnGUI, addr 0x48d846c, size 0xc0, virtual false, abstract: false, final false
   static inline void CheckOnGUI();
 
-  /// @brief Method DestroyGUI, addr 0x48dbcd4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DestroyGUI, addr 0x48e1d34, size 0x58, virtual false, abstract: false, final false
   static inline void DestroyGUI(int32_t instanceID);
 
-  /// @brief Method EndContainer, addr 0x48dba74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EndContainer, addr 0x48e1ad4, size 0x88, virtual false, abstract: false, final false
   static inline void EndContainer();
 
-  /// @brief Method EndContainerGUIFromException, addr 0x48dc020, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method EndContainerGUIFromException, addr 0x48e2080, size 0xa0, virtual false, abstract: false, final false
   static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method EndGUI, addr 0x48dbd2c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method EndGUI, addr 0x48e1d8c, size 0x22c, virtual false, abstract: false, final false
   static inline void EndGUI(int32_t layoutType);
 
-  /// @brief Method EndGUIFromException, addr 0x48dbf58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EndGUIFromException, addr 0x48e1fb8, size 0x74, virtual false, abstract: false, final false
   static inline bool EndGUIFromException(::System::Exception* exception);
 
-  /// @brief Method ExitGUI, addr 0x48db7c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ExitGUI, addr 0x48e1820, size 0x34, virtual false, abstract: false, final false
   static inline void ExitGUI();
 
-  /// @brief Method GetControlID, addr 0x48d3074, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetControlID, addr 0x48d90d4, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t GetControlID(int32_t hint, ::UnityEngine::FocusType focus);
 
-  /// @brief Method GetControlID, addr 0x48daf30, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetControlID, addr 0x48e0f90, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect);
 
-  /// @brief Method GetDefaultSkin, addr 0x48d2614, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultSkin, addr 0x48d8674, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GUISkin> GetDefaultSkin();
 
-  /// @brief Method HasFocusableControls, addr 0x48db104, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasFocusableControls, addr 0x48e1164, size 0x28, virtual false, abstract: false, final false
   static inline bool HasFocusableControls();
 
-  /// @brief Method HasKeyFocus, addr 0x48da9ac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HasKeyFocus, addr 0x48e0a0c, size 0xc0, virtual false, abstract: false, final false
   static inline bool HasKeyFocus(int32_t controlID);
 
-  /// @brief Method HitTest, addr 0x48dc2cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HitTest, addr 0x48e232c, size 0xc0, virtual false, abstract: false, final false
   static inline bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, bool isDirectManipulationDevice);
 
-  /// @brief Method HitTest, addr 0x48dc280, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HitTest, addr 0x48e22e0, size 0x4c, virtual false, abstract: false, final false
   static inline bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, int32_t offset);
 
-  /// @brief Method Internal_EndContainer, addr 0x48db050, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_EndContainer, addr 0x48e10b0, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_EndContainer();
 
-  /// @brief Method Internal_ExitGUI, addr 0x48db48c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_ExitGUI, addr 0x48e14ec, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_ExitGUI();
 
-  /// @brief Method Internal_GetControlID, addr 0x48dae40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetControlID, addr 0x48e0ea0, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Internal_GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect);
 
-  /// @brief Method Internal_GetControlID_Injected, addr 0x48daedc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetControlID_Injected, addr 0x48e0f3c, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Internal_GetControlID_Injected(int32_t hint, ::UnityEngine::FocusType focusType, ::ByRef<::UnityEngine::Rect> rect);
 
-  /// @brief Method Internal_GetDefaultSkin, addr 0x48db450, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetDefaultSkin, addr 0x48e14b0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::Object* Internal_GetDefaultSkin(int32_t skinMode);
 
-  /// @brief Method Internal_GetHotControl, addr 0x48db388, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetHotControl, addr 0x48e13e8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetHotControl();
 
-  /// @brief Method Internal_GetKeyboardControl, addr 0x48db3b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetKeyboardControl, addr 0x48e1410, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetKeyboardControl();
 
-  /// @brief Method Internal_SetHotControl, addr 0x48db3d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetHotControl, addr 0x48e1438, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_SetHotControl(int32_t value);
 
-  /// @brief Method Internal_SetKeyboardControl, addr 0x48db414, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetKeyboardControl, addr 0x48e1474, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_SetKeyboardControl(int32_t value);
 
-  /// @brief Method IsExitGUIException, addr 0x48dc0c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsExitGUIException, addr 0x48e2120, size 0x84, virtual false, abstract: false, final false
   static inline bool IsExitGUIException(::System::Exception* exception);
 
-  /// @brief Method MarkGUIChanged, addr 0x48db4b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MarkGUIChanged, addr 0x48e1514, size 0x74, virtual false, abstract: false, final false
   static inline void MarkGUIChanged();
 
-  /// @brief Method OwnsId, addr 0x48db12c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OwnsId, addr 0x48e118c, size 0x3c, virtual false, abstract: false, final false
   static inline bool OwnsId(int32_t id);
 
-  /// @brief Method ProcessEvent, addr 0x48db8b4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x48e1914, size 0x1c0, virtual false, abstract: false, final false
   static inline void ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr, ::ByRef<bool> result);
 
-  /// @brief Method RemoveCapture, addr 0x48db670, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RemoveCapture, addr 0x48e16d0, size 0x74, virtual false, abstract: false, final false
   static inline void RemoveCapture();
 
-  /// @brief Method ResetGlobalState, addr 0x48dbba8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ResetGlobalState, addr 0x48e1c08, size 0x12c, virtual false, abstract: false, final false
   static inline void ResetGlobalState();
 
-  /// @brief Method RoundToPixelGrid, addr 0x48dc144, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RoundToPixelGrid, addr 0x48e21a4, size 0xb0, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v);
 
-  /// @brief Method SetKeyboardControlToFirstControlId, addr 0x48db0b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardControlToFirstControlId, addr 0x48e1114, size 0x28, virtual false, abstract: false, final false
   static inline void SetKeyboardControlToFirstControlId();
 
-  /// @brief Method SetKeyboardControlToLastControlId, addr 0x48db0dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardControlToLastControlId, addr 0x48e113c, size 0x28, virtual false, abstract: false, final false
   static inline void SetKeyboardControlToLastControlId();
 
-  /// @brief Method ShouldRethrowException, addr 0x48dbfcc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ShouldRethrowException, addr 0x48e202c, size 0x54, virtual false, abstract: false, final false
   static inline bool ShouldRethrowException(::System::Exception* exception);
 
-  /// @brief Method TakeCapture, addr 0x48db5fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TakeCapture, addr 0x48e165c, size 0x74, virtual false, abstract: false, final false
   static inline void TakeCapture();
 
   static inline bool getStaticF__guiIsExiting_k__BackingField();
@@ -263,25 +263,25 @@ public:
 
   static inline ::System::Action* getStaticF_takeCapture();
 
-  /// @brief Method get_compositionString, addr 0x48db270, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x48e12d0, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_compositionString();
 
-  /// @brief Method get_guiDepth, addr 0x48dadb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_guiDepth, addr 0x48e0e14, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_guiDepth();
 
-  /// @brief Method get_hotControl, addr 0x48da944, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_hotControl, addr 0x48e09a4, size 0x68, virtual false, abstract: false, final false
   static inline int32_t get_hotControl();
 
-  /// @brief Method get_keyboardControl, addr 0x48db6e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardControl, addr 0x48e1744, size 0x68, virtual false, abstract: false, final false
   static inline int32_t get_keyboardControl();
 
-  /// @brief Method get_pixelsPerPoint, addr 0x48d6b38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_pixelsPerPoint, addr 0x48dcb98, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_pixelsPerPoint();
 
-  /// @brief Method get_systemCopyBuffer, addr 0x48daddc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_systemCopyBuffer, addr 0x48e0e3c, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_systemCopyBuffer();
 
-  /// @brief Method get_textFieldInput, addr 0x48d1b28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_textFieldInput, addr 0x48d7b88, size 0x28, virtual false, abstract: false, final false
   static inline bool get_textFieldInput();
 
   static inline void setStaticF__guiIsExiting_k__BackingField(bool value);
@@ -310,28 +310,28 @@ public:
 
   static inline void setStaticF_takeCapture(::System::Action* value);
 
-  /// @brief Method set_compositionCursorPos, addr 0x48db2d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_compositionCursorPos, addr 0x48e1334, size 0x78, virtual false, abstract: false, final false
   static inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_compositionCursorPos_Injected, addr 0x48db34c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_compositionCursorPos_Injected, addr 0x48e13ac, size 0x3c, virtual false, abstract: false, final false
   static inline void set_compositionCursorPos_Injected(::ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_guiIsExiting, addr 0x48db528, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_guiIsExiting, addr 0x48e1588, size 0x60, virtual false, abstract: false, final false
   static inline void set_guiIsExiting(bool value);
 
-  /// @brief Method set_hotControl, addr 0x48db588, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_hotControl, addr 0x48e15e8, size 0x74, virtual false, abstract: false, final false
   static inline void set_hotControl(int32_t value);
 
-  /// @brief Method set_imeCompositionMode, addr 0x48db298, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_imeCompositionMode, addr 0x48e12f8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
 
-  /// @brief Method set_keyboardControl, addr 0x48db74c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_keyboardControl, addr 0x48e17ac, size 0x74, virtual false, abstract: false, final false
   static inline void set_keyboardControl(int32_t value);
 
-  /// @brief Method set_mouseUsed, addr 0x48d374c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_mouseUsed, addr 0x48d97ac, size 0x3c, virtual false, abstract: false, final false
   static inline void set_mouseUsed(bool value);
 
-  /// @brief Method set_systemCopyBuffer, addr 0x48dae04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_systemCopyBuffer, addr 0x48e0e64, size 0x3c, virtual false, abstract: false, final false
   static inline void set_systemCopyBuffer(::StringW value);
 
 protected:
@@ -349,7 +349,7 @@ public:
   GUIUtility(GUIUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

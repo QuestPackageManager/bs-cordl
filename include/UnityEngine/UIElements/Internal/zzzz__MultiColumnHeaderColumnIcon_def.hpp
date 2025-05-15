@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* New_ctor();
 
-  /// @brief Method UpdateClassList, addr 0x49e68bc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateClassList, addr 0x49ec91c, size 0x164, virtual false, abstract: false, final false
   inline void UpdateClassList();
 
   constexpr bool const& __cordl_internal_get__isImageInline_k__BackingField() const;
@@ -41,20 +41,20 @@ public:
 
   constexpr void __cordl_internal_set__isImageInline_k__BackingField(bool value);
 
-  /// @brief Method <.ctor>b__5_0, addr 0x49e6ab8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__5_0, addr 0x49ecb18, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__5_0(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt);
 
-  /// @brief Method .ctor, addr 0x49e67b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ec814, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_isImageInline, addr 0x49e67a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isImageInline, addr 0x49ec800, size 0x8, virtual false, abstract: false, final false
   inline bool get_isImageInline();
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_isImageInline, addr 0x49e67a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isImageInline, addr 0x49ec808, size 0xc, virtual false, abstract: false, final false
   inline void set_isImageInline(bool value);
 
 protected:

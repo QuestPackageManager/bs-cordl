@@ -69,7 +69,7 @@ public:
   static ::GlobalNamespace::ScreenCaptureCache_ScreenshotType const Other;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17893 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,12 +99,12 @@ public:
                       put =
                           __cordl_internal_set__cache)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* _cache;
 
-  /// @brief Method GetLastScreenshot, addr 0x408176c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLastScreenshot, addr 0x40866e0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetLastScreenshot(::GlobalNamespace::ScreenCaptureCache_ScreenshotType screenshotType);
 
   static inline ::GlobalNamespace::ScreenCaptureCache* New_ctor();
 
-  /// @brief Method StoreScreenshot, addr 0x408143c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method StoreScreenshot, addr 0x40863b0, size 0xac, virtual false, abstract: false, final false
   inline void StoreScreenshot(::GlobalNamespace::ScreenCaptureCache_ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* const& __cordl_internal_get__cache() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method .ctor, addr 0x40817e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4086758, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,7 +131,7 @@ public:
   ScreenCaptureCache(ScreenCaptureCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17894 };
 
   /// @brief Field _cache, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* ____cache;

@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::TooltipEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a2f40c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a3546c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TooltipEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a2f404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a35464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TooltipEvent___c* getStaticF___9();
@@ -88,10 +88,10 @@ public:
 
   __declspec(property(put = set_tooltip)) ::StringW tooltip;
 
-  /// @brief Method Init, addr 0x4a2f208, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a35268, size 0x90, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a2f298, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a352f8, size 0x5c, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::TooltipEvent* New_ctor();
@@ -108,13 +108,13 @@ public:
 
   constexpr void __cordl_internal_set__tooltip_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a2f2f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a35354, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_rect, addr 0x4a2f1fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rect, addr 0x4a3525c, size 0xc, virtual false, abstract: false, final false
   inline void set_rect(::UnityEngine::Rect value);
 
-  /// @brief Method set_tooltip, addr 0x4a2f1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x4a35254, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:

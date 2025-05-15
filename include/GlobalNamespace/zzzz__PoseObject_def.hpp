@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b14048, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b18fbc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
-  /// @brief Method get_id, addr 0x3b15f18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3b1ae8c, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_objectTransform, addr 0x3b15f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectTransform, addr 0x3b1ae84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_objectTransform();
 
 protected:

@@ -46,29 +46,29 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x485146c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48563e0, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationOffsetPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                           int32_t inputCount);
 
-  /// @brief Method CreateHandle, addr 0x485155c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x48564d0, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                       int32_t inputCount);
 
-  /// @brief Method CreateHandleInternal, addr 0x4851790, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x4856704, size 0xa4, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                           ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x4851974, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x48568e8, size 0x5c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Quaternion> rotation,
                                                    ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x48518c0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4856834, size 0xb4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationOffsetPlayable other);
 
-  /// @brief Method GetHandle, addr 0x4851834, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x48567a8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x48516a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4856614, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationOffsetPlayable getStaticF_m_NullPlayable();
@@ -79,7 +79,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x4851840, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48567b4, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationOffsetPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationOffsetPlayable value);
@@ -92,7 +92,7 @@ public:
   constexpr AnimationOffsetPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

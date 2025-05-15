@@ -52,21 +52,21 @@ public:
   /// @brief Field secure, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_secure, put = __cordl_internal_set_secure)) bool secure;
 
-  /// @brief Method CheckUri, addr 0x43cc9c4, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method CheckUri, addr 0x43d1938, size 0x32c, virtual false, abstract: false, final false
   static inline void CheckUri(::StringW uri);
 
-  /// @brief Method Equals, addr 0x43cc924, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43d1898, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x43cc9a4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43d1918, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::ListenerPrefix* New_ctor(::StringW prefix);
 
-  /// @brief Method Parse, addr 0x43cc614, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x43d1588, size 0x2e8, virtual false, abstract: false, final false
   inline void Parse(::StringW uri);
 
-  /// @brief Method ToString, addr 0x43cc8fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43d1870, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::HttpListener* const& __cordl_internal_get_Listener() const;
@@ -105,19 +105,19 @@ public:
 
   constexpr void __cordl_internal_set_secure(bool value);
 
-  /// @brief Method .ctor, addr 0x43cc5e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d1558, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix);
 
-  /// @brief Method get_Host, addr 0x43cc90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Host, addr 0x43d1880, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_Path, addr 0x43cc91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x43d1890, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_Port, addr 0x43cc914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x43d1888, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Port();
 
-  /// @brief Method get_Secure, addr 0x43cc904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Secure, addr 0x43d1878, size 0x8, virtual false, abstract: false, final false
   inline bool get_Secure();
 
 protected:

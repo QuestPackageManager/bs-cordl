@@ -29,21 +29,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method AddPadding, addr 0x23b460c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method AddPadding, addr 0x23b80bc, size 0x7c, virtual true, abstract: false, final false
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0x23b4608, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23b80b8, size 0x4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::TbcPadding* New_ctor();
 
-  /// @brief Method PadCount, addr 0x23b4688, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method PadCount, addr 0x23b8138, size 0x70, virtual true, abstract: false, final false
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method .ctor, addr 0x23b46f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b81a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PaddingName, addr 0x23b45c8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0x23b8078, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"

@@ -76,7 +76,7 @@ public:
   SyncBackgroundCommand_1(SyncBackgroundCommand_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17121 };
 
   /// @brief Field _taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____taskCompletionSource;

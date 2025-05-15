@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSceneSetupData::*)(
     ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::BeatmapLevel*, bool)>(&::GlobalNamespace::EnvironmentSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b35040;
+  constexpr static std::size_t addrs = 0x3b39fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

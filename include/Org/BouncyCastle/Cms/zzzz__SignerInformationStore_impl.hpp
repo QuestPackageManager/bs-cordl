@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SignerInformationStore::*)(::Org::BouncyCastle::Cms::SignerInformation*)>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x267dc9c;
+  constexpr static std::size_t addrs = 0x268174c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SignerInformationStore::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::_ctor)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x267de28;
+  constexpr static std::size_t addrs = 0x26818d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::SignerInformation* (
     ::Org::BouncyCastle::Cms::SignerInformationStore::*)(::Org::BouncyCastle::Cms::SignerID*)>(&::Org::BouncyCastle::Cms::SignerInformationStore::GetFirstSigner)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x267e3e0;
+  constexpr static std::size_t addrs = 0x2681e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Cms::SignerInformationStore::*)()>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::get_Count)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x267e570;
+  constexpr static std::size_t addrs = 0x2682020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::SignerInformationStore*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Cms::SignerInformationStore::*)()>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::GetSigners)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x267e614;
+  constexpr static std::size_t addrs = 0x26820c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::SignerInformationStore*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (
     ::Org::BouncyCastle::Cms::SignerInformationStore::*)(::Org::BouncyCastle::Cms::SignerID*)>(&::Org::BouncyCastle::Cms::SignerInformationStore::GetSigners)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x267e670;
+  constexpr static std::size_t addrs = 0x2682120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

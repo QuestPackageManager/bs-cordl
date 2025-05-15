@@ -48,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b8c7a4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b91718, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b8c52c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b914a0, size 0x278, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method .ctor, addr 0x3b8c8ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b91860, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

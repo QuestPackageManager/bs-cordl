@@ -45,45 +45,45 @@ public:
   /// @brief Field _stream, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream)) ::System::IO::Stream* _stream;
 
-  /// @brief Method Dispose, addr 0x41d2180, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x41d70f4, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush, addr 0x41d2164, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x41d70d8, size 0x1c, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method IsStreamClosed, addr 0x41d1598, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsStreamClosed, addr 0x41d650c, size 0x70, virtual false, abstract: false, final false
   inline bool IsStreamClosed();
 
   static inline ::System::Data::SqlTypes::SqlXmlStreamWrapper* New_ctor(::System::IO::Stream* stream);
 
-  /// @brief Method Read, addr 0x41d1a60, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x41d69d4, size 0x1bc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x41d1ed0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x41d6e44, size 0x118, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x41d18f8, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x41d686c, size 0x168, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x41d20d0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x41d7044, size 0x94, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method ThrowIfStreamCannotRead, addr 0x41d1c1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamCannotRead, addr 0x41d6b90, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowIfStreamCannotRead(::StringW method);
 
-  /// @brief Method ThrowIfStreamCannotSeek, addr 0x41d174c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamCannotSeek, addr 0x41d66c0, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowIfStreamCannotSeek(::StringW method);
 
-  /// @brief Method ThrowIfStreamCannotWrite, addr 0x41d1e54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamCannotWrite, addr 0x41d6dc8, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowIfStreamCannotWrite(::StringW method);
 
-  /// @brief Method ThrowIfStreamClosed, addr 0x41d16e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamClosed, addr 0x41d6658, size 0x68, virtual false, abstract: false, final false
   inline void ThrowIfStreamClosed(::StringW method);
 
-  /// @brief Method Write, addr 0x41d1c98, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x41d6c0c, size 0x1bc, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x41d1fe8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x41d6f5c, size 0xe8, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   constexpr bool const& __cordl_internal_get__isClosed() const;
@@ -104,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x41d0c8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d5c00, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method get_CanRead, addr 0x41d1560, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x41d64d4, size 0x38, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x41d1608, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x41d657c, size 0x38, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x41d1640, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x41d65b4, size 0x38, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x41d1678, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x41d65ec, size 0x6c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x41d17c8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x41d673c, size 0x5c, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x41d1824, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x41d6798, size 0xd4, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

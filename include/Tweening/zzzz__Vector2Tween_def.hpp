@@ -36,7 +36,7 @@ public:
   __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t,
                                                                                                    ::GlobalNamespace::EaseType, float_t, ::Tweening::Vector2Tween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x44d65ac, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x44db520, size 0x30, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetValue(float_t t);
 
   static inline ::Tweening::Vector2Tween* New_ctor();
@@ -44,10 +44,10 @@ public:
   static inline ::Tweening::Vector2Tween* New_ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration,
                                                    ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x44d64bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44db430, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44d6504, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44db478, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 
@@ -73,7 +73,7 @@ public:
   Vector2Tween(Vector2Tween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

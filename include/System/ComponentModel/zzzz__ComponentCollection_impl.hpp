@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::IComponent* (::System::ComponentModel::ComponentCollection::*)(::StringW)>(
     &::System::ComponentModel::ComponentCollection::get_Item)> {
   constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x4441c94;
+  constexpr static std::size_t addrs = 0x4446c08;
 
   inline static ::MethodInfo const* methodInfo() {
 

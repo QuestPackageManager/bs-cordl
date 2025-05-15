@@ -20,42 +20,42 @@ namespace Org::BouncyCastle::Utilities {
 class CORDL_TYPE Strings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromAsciiByteArray, addr 0x25e51d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FromAsciiByteArray, addr 0x25e8c80, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW FromAsciiByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method FromByteArray, addr 0x25e4f0c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FromByteArray, addr 0x25e89bc, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method FromUtf8ByteArray, addr 0x25e526c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FromUtf8ByteArray, addr 0x25e8d1c, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW FromUtf8ByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method IsOneOf, addr 0x25e4e88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsOneOf, addr 0x25e8938, size 0x84, virtual false, abstract: false, final false
   static inline bool IsOneOf(::StringW s, ::ArrayW<::StringW, ::Array<::StringW>*> candidates);
 
   static inline ::Org::BouncyCastle::Utilities::Strings* New_ctor();
 
-  /// @brief Method ToAsciiByteArray, addr 0x25e520c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToAsciiByteArray, addr 0x25e8cbc, size 0x30, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToAsciiByteArray(::ArrayW<char16_t, ::Array<char16_t>*> cs);
 
-  /// @brief Method ToAsciiByteArray, addr 0x25e523c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToAsciiByteArray, addr 0x25e8cec, size 0x30, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToAsciiByteArray(::StringW s);
 
-  /// @brief Method ToByteArray, addr 0x25e4ffc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToByteArray, addr 0x25e8aac, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::ArrayW<char16_t, ::Array<char16_t>*> cs);
 
-  /// @brief Method ToByteArray, addr 0x25e50e4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToByteArray, addr 0x25e8b94, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::StringW s);
 
-  /// @brief Method ToUpperCase, addr 0x25e4e0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToUpperCase, addr 0x25e88bc, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW ToUpperCase(::StringW original);
 
-  /// @brief Method ToUtf8ByteArray, addr 0x25e52a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToUtf8ByteArray, addr 0x25e8d58, size 0x30, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToUtf8ByteArray(::ArrayW<char16_t, ::Array<char16_t>*> cs);
 
-  /// @brief Method ToUtf8ByteArray, addr 0x25e52d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToUtf8ByteArray, addr 0x25e8d88, size 0x30, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToUtf8ByteArray(::StringW s);
 
-  /// @brief Method .ctor, addr 0x25e5308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e8db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

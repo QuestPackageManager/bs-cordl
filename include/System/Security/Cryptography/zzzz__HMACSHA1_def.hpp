@@ -25,13 +25,13 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
-  /// @brief Method .ctor, addr 0x3c9c3cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca1340, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c9ca74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca19e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x3c9ca7c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca19f0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
 protected:

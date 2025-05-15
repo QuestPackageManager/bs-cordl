@@ -94,25 +94,25 @@ public:
 
   constexpr void __cordl_internal_set__avatarSelectionViewPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
-  /// @brief Method .ctor, addr 0x22519f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22554a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_avatarEditorPrefab, addr 0x22519dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarEditorPrefab, addr 0x225548c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarEditorPrefab();
 
-  /// @brief Method get_avatarForUnityEditorPrefab, addr 0x22519ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarForUnityEditorPrefab, addr 0x225549c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarForUnityEditorPrefab();
 
-  /// @brief Method get_avatarGameplayPrefab, addr 0x22519c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarGameplayPrefab, addr 0x2255474, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarGameplayPrefab();
 
-  /// @brief Method get_avatarHologramPrefab, addr 0x22519d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarHologramPrefab, addr 0x2255484, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarHologramPrefab();
 
-  /// @brief Method get_avatarResultsPrefab, addr 0x22519cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarResultsPrefab, addr 0x225547c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarResultsPrefab();
 
-  /// @brief Method get_avatarSelectionViewPrefab, addr 0x22519e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarSelectionViewPrefab, addr 0x2255494, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarSelectionViewPrefab();
 
 protected:
@@ -130,7 +130,7 @@ public:
   BeatAvatarSystemSettings(BeatAvatarSystemSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17715 };
 
   /// @brief Field _avatarGameplayPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarGameplayPrefab;

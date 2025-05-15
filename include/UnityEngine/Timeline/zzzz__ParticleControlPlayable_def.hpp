@@ -50,28 +50,28 @@ public:
 
   __declspec(property(get = get_particleSystem, put = set_particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> particleSystem;
 
-  /// @brief Method Create, addr 0x4823a90, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4828a04, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::ParticleSystem* component, uint32_t randomSeed);
 
-  /// @brief Method Initialize, addr 0x4823bd0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4828b44, size 0x80, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::ParticleSystem* ps, uint32_t randomSeed);
 
   static inline ::UnityEngine::Timeline::ParticleControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x4824020, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x4828f94, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x4824014, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x4828f88, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method PrepareFrame, addr 0x4823d9c, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x4828d10, size 0x1b4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data);
 
-  /// @brief Method SetRandomSeed, addr 0x4823c60, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetRandomSeed, addr 0x4828bd4, size 0x13c, virtual false, abstract: false, final false
   static inline void SetRandomSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t randomSeed);
 
-  /// @brief Method Simulate, addr 0x4823f50, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x4828ec4, size 0xc4, virtual false, abstract: false, final false
   inline void Simulate(float_t time, bool restart);
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem_k__BackingField() const;
@@ -98,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set_m_RandomSeed(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x482402c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4828fa0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_particleSystem, addr 0x4823c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_particleSystem, addr 0x4828bc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ParticleSystem> get_particleSystem();
 
-  /// @brief Method set_particleSystem, addr 0x4823c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_particleSystem, addr 0x4828bcc, size 0x8, virtual false, abstract: false, final false
   inline void set_particleSystem(::UnityEngine::ParticleSystem* value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   ParticleControlPlayable(ParticleControlPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15874 };
 
   /// @brief Field kUnsetTime offset 0xffffffff size 0x4
   static constexpr float_t kUnsetTime{ static_cast<float_t>(3.4028235e38f) };

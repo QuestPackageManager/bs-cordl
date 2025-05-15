@@ -75,7 +75,7 @@ public:
            bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method Unpack, addr 0x26bc900, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x26c03b0, size 0x4d0, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
                      ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
                      ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
@@ -104,16 +104,16 @@ public:
 
   constexpr void __cordl_internal_set__translationDirection(float_t value);
 
-  /// @brief Method .ctor, addr 0x26bc6d0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c0180, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
                     ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType gapDistributionParamType,
                     bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x26bc6c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x26c0178, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x26bc6c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x26c0170, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:

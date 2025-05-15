@@ -190,7 +190,7 @@ public:
   static ::GlobalNamespace::GameLiftConnectionManager_ConnectionState const Unconnected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14740 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -257,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  /// @brief Method .ctor, addr 0x22c4cb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c8760, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>"
@@ -279,7 +279,7 @@ public:
   GameLiftConnectionManager_GameLiftConnectionManagerParamsBase(GameLiftConnectionManager_GameLiftConnectionManagerParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14741 };
 
   /// @brief Field authenticationTokenProviderTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* ___authenticationTokenProviderTask;
@@ -334,7 +334,7 @@ public:
 
   constexpr void __cordl_internal_set_secret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22c4cf0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c87a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -352,7 +352,7 @@ public:
   GameLiftConnectionManager_ConnectToServerParams(GameLiftConnectionManager_ConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14742 };
 
   /// @brief Field secret, offset: 0x60, size: 0x8, def value: None
   ::StringW ___secret;
@@ -379,7 +379,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GameLiftConnectionManager_StartClientParams* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c4d1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c87cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -397,7 +397,7 @@ public:
   GameLiftConnectionManager_StartClientParams(GameLiftConnectionManager_StartClientParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -416,10 +416,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22c4d48, size 0x634, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22c87f8, size 0x634, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22c537c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22c8e2c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -442,7 +442,7 @@ public:
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14744 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -616,49 +616,49 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Disconnect, addr 0x22c4420, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x22c7ed0, size 0x8, virtual true, abstract: false, final true
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method DisconnectInternal, addr 0x22c468c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DisconnectInternal, addr 0x22c813c, size 0xc, virtual false, abstract: false, final false
   inline void DisconnectInternal(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method DisconnectInternal, addr 0x22c4428, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method DisconnectInternal, addr 0x22c7ed8, size 0x264, virtual false, abstract: false, final false
   inline void DisconnectInternal(::GlobalNamespace::DisconnectedReason disconnectedReason, ::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method Dispose, addr 0x22c4380, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22c7e30, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x22c42dc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x22c7d8c, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
-  /// @brief Method GameLiftConnectToServer, addr 0x22c47d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GameLiftConnectToServer, addr 0x22c8284, size 0xb4, virtual false, abstract: false, final false
   inline void GameLiftConnectToServer(::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetConnection, addr 0x22c4698, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetConnection, addr 0x22c8148, size 0xac, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
 
-  /// @brief Method GetPublicServers, addr 0x22c4c54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetPublicServers, addr 0x22c8704, size 0x5c, virtual false, abstract: false, final false
   inline void GetPublicServers(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration configuration, int32_t offset, int32_t count);
 
-  /// @brief Method HandleConnectToServerSuccess, addr 0x22c4888, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectToServerSuccess, addr 0x22c8338, size 0x3bc, virtual false, abstract: false, final false
   inline void HandleConnectToServerSuccess(::StringW playerSessionId, ::StringW hostName, int32_t port, ::StringW gameSessionId, ::StringW secret, ::StringW code,
                                            ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
-  /// @brief Method HandleConnected, addr 0x22c4744, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleConnected, addr 0x22c81f4, size 0x30, virtual false, abstract: false, final false
   inline void HandleConnected();
 
-  /// @brief Method HandleConnectionConnected, addr 0x22c4774, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionConnected, addr 0x22c8224, size 0x1c, virtual false, abstract: false, final false
   inline void HandleConnectionConnected(::GlobalNamespace::IConnection* connection);
 
-  /// @brief Method HandleConnectionDisconnected, addr 0x22c4790, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionDisconnected, addr 0x22c8240, size 0x1c, virtual false, abstract: false, final false
   inline void HandleConnectionDisconnected(::GlobalNamespace::IConnection* connection, ::GlobalNamespace::DisconnectedReason reason);
 
-  /// @brief Method HandleConnectionFailed, addr 0x22c47ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionFailed, addr 0x22c825c, size 0xc, virtual false, abstract: false, final false
   inline void HandleConnectionFailed(::GlobalNamespace::ConnectionFailedReason failedReason);
 
-  /// @brief Method HandleReceivedData, addr 0x22c47b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleReceivedData, addr 0x22c8268, size 0x1c, virtual false, abstract: false, final false
   inline void HandleReceivedData(::GlobalNamespace::IConnection* connection, ::LiteNetLib::Utils::NetDataReader* reader, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -669,13 +669,13 @@ public:
   static inline ::GlobalNamespace::GameLiftConnectionManager* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                        ::GlobalNamespace::IConnectionManager* connectionManager, ::GlobalNamespace::ICertificateValidator* certificateValidator);
 
-  /// @brief Method PollUpdate, addr 0x22c3bfc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x22c76ac, size 0xa0, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method SendToAll, addr 0x22c3a7c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x22c752c, size 0xbc, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll, addr 0x22c3b38, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x22c75e8, size 0xc4, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* const& __cordl_internal_get__authenticationTokenProviderTask() const;
@@ -798,71 +798,71 @@ public:
 
   constexpr void __cordl_internal_set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method .ctor, addr 0x22c3c9c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c774c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x22c3e40, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c78f0, size 0x49c, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IConnectionManager* connectionManager,
                     ::GlobalNamespace::ICertificateValidator* certificateValidator);
 
-  /// @brief Method add_onConnectedEvent, addr 0x22c2e1c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectedEvent, addr 0x22c68cc, size 0x9c, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method add_onConnectionConnectedEvent, addr 0x22c3214, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionConnectedEvent, addr 0x22c6cc4, size 0xb0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x22c3374, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x22c6e24, size 0xb0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onConnectionFailedEvent, addr 0x22c30b4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionFailedEvent, addr 0x22c6b64, size 0xb0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_onDisconnectedEvent, addr 0x22c2f54, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onDisconnectedEvent, addr 0x22c6a04, size 0xb0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onInitializedEvent, addr 0x22c2ce4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_onInitializedEvent, addr 0x22c6794, size 0x9c, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method add_onReceivedDataEvent, addr 0x22c34d4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onReceivedDataEvent, addr 0x22c6f84, size 0xb0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method get_code, addr 0x22c3a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_code, addr 0x22c751c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_configuration, addr 0x22c3a58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x22c7508, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_connectionCount, addr 0x22c383c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_connectionCount, addr 0x22c72ec, size 0xa4, virtual true, abstract: false, final true
   inline int32_t get_connectionCount();
 
-  /// @brief Method get_isConnected, addr 0x22c380c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x22c72bc, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnecting, addr 0x22c381c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnecting, addr 0x22c72cc, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnecting();
 
-  /// @brief Method get_isConnectionOwner, addr 0x22c38e0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x22c7390, size 0xa4, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDisconnecting, addr 0x22c382c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisconnecting, addr 0x22c72dc, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_isDisposed, addr 0x22c3984, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_isDisposed, addr 0x22c7434, size 0xa4, virtual true, abstract: false, final true
   inline bool get_isDisposed();
 
-  /// @brief Method get_playerSessionId, addr 0x22c3a28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_playerSessionId, addr 0x22c74d8, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_playerSessionId();
 
-  /// @brief Method get_secret, addr 0x22c3a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secret, addr 0x22c7524, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_selectionMask, addr 0x22c3a44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x22c74f4, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method get_userId, addr 0x22c3634, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x22c70e4, size 0xec, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x22c3720, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x22c71d0, size 0xec, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionManager"
@@ -874,25 +874,25 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_onConnectedEvent, addr 0x22c2eb8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectedEvent, addr 0x22c6968, size 0x9c, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method remove_onConnectionConnectedEvent, addr 0x22c32c4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionConnectedEvent, addr 0x22c6d74, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x22c3424, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x22c6ed4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onConnectionFailedEvent, addr 0x22c3164, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionFailedEvent, addr 0x22c6c14, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_onDisconnectedEvent, addr 0x22c3004, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onDisconnectedEvent, addr 0x22c6ab4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onInitializedEvent, addr 0x22c2d80, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_onInitializedEvent, addr 0x22c6830, size 0x9c, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method remove_onReceivedDataEvent, addr 0x22c3584, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onReceivedDataEvent, addr 0x22c7034, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
 protected:
@@ -910,7 +910,7 @@ public:
   GameLiftConnectionManager(GameLiftConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14745 };
 
   /// @brief Field _timeProvider, offset: 0x10, size: 0x8, def value: None
   ::BGNet::Core::ITimeProvider* ____timeProvider;

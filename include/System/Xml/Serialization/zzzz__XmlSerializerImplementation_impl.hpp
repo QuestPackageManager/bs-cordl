@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (
     ::System::Xml::Serialization::XmlSerializerImplementation::*)()>(&::System::Xml::Serialization::XmlSerializerImplementation::get_Writer)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x438a26c;
+  constexpr static std::size_t addrs = 0x438f1e0;
 
   inline static ::MethodInfo const* methodInfo() {
 

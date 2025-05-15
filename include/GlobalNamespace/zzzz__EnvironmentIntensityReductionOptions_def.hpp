@@ -173,13 +173,13 @@ public:
 
   constexpr void __cordl_internal_set__rotateRings(::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType value);
 
-  /// @brief Method .ctor, addr 0x26ac0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26afb6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compressExpand, addr 0x26ac0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compressExpand, addr 0x26afb5c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType get_compressExpand();
 
-  /// @brief Method get_rotateRings, addr 0x26ac0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotateRings, addr 0x26afb64, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType get_rotateRings();
 
 protected:

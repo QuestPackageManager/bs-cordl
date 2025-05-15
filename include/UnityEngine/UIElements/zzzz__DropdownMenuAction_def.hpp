@@ -137,17 +137,17 @@ public:
 
   __declspec(property(put = set_userData)) ::System::Object* userData;
 
-  /// @brief Method AlwaysDisabled, addr 0x4a1bd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AlwaysDisabled, addr 0x4a21ddc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DropdownMenuAction_Status AlwaysDisabled(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method AlwaysEnabled, addr 0x4a1bd74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AlwaysEnabled, addr 0x4a21dd4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DropdownMenuAction_Status AlwaysEnabled(::UnityEngine::UIElements::DropdownMenuAction* a);
 
   static inline ::UnityEngine::UIElements::DropdownMenuAction*
   New_ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method UpdateActionStatus, addr 0x4a1bdc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateActionStatus, addr 0x4a21e28, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateActionStatus(::UnityEngine::UIElements::DropdownMenuEventInfo* eventInfo);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo* const& __cordl_internal_get__eventInfo_k__BackingField() const;
@@ -186,17 +186,17 @@ public:
 
   constexpr void __cordl_internal_set_actionStatusCallback(::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* value);
 
-  /// @brief Method .ctor, addr 0x4a1bd84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a21de4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
                     ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method set_eventInfo, addr 0x4a1bd64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventInfo, addr 0x4a21dc4, size 0x8, virtual false, abstract: false, final false
   inline void set_eventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
-  /// @brief Method set_status, addr 0x4a1bd5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x4a21dbc, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::UIElements::DropdownMenuAction_Status value);
 
-  /// @brief Method set_userData, addr 0x4a1bd6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userData, addr 0x4a21dcc, size 0x8, virtual false, abstract: false, final false
   inline void set_userData(::System::Object* value);
 
 protected:

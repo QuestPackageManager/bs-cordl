@@ -47,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x3bac45c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x3bb13d0, size 0xac, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3bac508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb147c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"

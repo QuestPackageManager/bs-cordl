@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__progressActivities(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> value);
 
-  /// @brief Method .ctor, addr 0x26e7e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_competetiveActivities, addr 0x26e7e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_competetiveActivities, addr 0x26eb8f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> get_competetiveActivities();
 
-  /// @brief Method get_progressActivities, addr 0x26e7e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progressActivities, addr 0x26eb8f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> get_progressActivities();
 
 protected:

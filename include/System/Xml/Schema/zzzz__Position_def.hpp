@@ -22,7 +22,7 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE Position {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4396e20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439bd94, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t symbol, ::System::Object* particle);
 
   // Ctor Parameters []

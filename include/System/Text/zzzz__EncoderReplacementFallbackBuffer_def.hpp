@@ -34,21 +34,21 @@ public:
   /// @brief Field _strDefault, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault)) ::StringW _strDefault;
 
-  /// @brief Method Fallback, addr 0x3c75ce8, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c7ac5c, size 0x140, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x3c75e28, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c7ad9c, size 0x210, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x3c76038, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x3c7afac, size 0x50, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x3c76088, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x3c7affc, size 0x30, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderReplacementFallbackBuffer* New_ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method Reset, addr 0x3c760c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3c7b038, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c75be4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7ab58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method get_Remaining, addr 0x3c760b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x3c7b02c, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

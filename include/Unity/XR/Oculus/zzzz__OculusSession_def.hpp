@@ -18,7 +18,7 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE OculusSession : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x4832ae4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4837a58, size 0x60, virtual false, abstract: false, final false
   static inline void Update();
 
 protected:
@@ -36,7 +36,7 @@ public:
   OculusSession(OculusSession const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17418 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

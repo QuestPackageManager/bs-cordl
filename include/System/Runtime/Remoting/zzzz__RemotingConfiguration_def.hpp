@@ -86,49 +86,49 @@ public:
   /// @brief Field wellKnownServiceEntries, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_wellKnownServiceEntries, put = setStaticF_wellKnownServiceEntries)) ::System::Collections::Hashtable* wellKnownServiceEntries;
 
-  /// @brief Method CustomErrorsEnabled, addr 0x3cc5f64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CustomErrorsEnabled, addr 0x3ccaed8, size 0x94, virtual false, abstract: false, final false
   static inline bool CustomErrorsEnabled(bool isLocalRequest);
 
-  /// @brief Method IsActivationAllowed, addr 0x3cc404c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsActivationAllowed, addr 0x3cc8fc0, size 0x140, virtual false, abstract: false, final false
   static inline bool IsActivationAllowed(::System::Type* svrType);
 
-  /// @brief Method IsRemotelyActivatedClientType, addr 0x3cc418c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method IsRemotelyActivatedClientType, addr 0x3cc9100, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(::System::Type* svrType);
 
-  /// @brief Method IsWellKnownClientType, addr 0x3cc4314, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method IsWellKnownClientType, addr 0x3cc9288, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(::System::Type* svrType);
 
-  /// @brief Method LoadDefaultDelayedChannels, addr 0x3cc3c38, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method LoadDefaultDelayedChannels, addr 0x3cc8bac, size 0x368, virtual false, abstract: false, final false
   static inline void LoadDefaultDelayedChannels();
 
-  /// @brief Method RegisterActivatedClientType, addr 0x3cc449c, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method RegisterActivatedClientType, addr 0x3cc9410, size 0x27c, virtual false, abstract: false, final false
   static inline void RegisterActivatedClientType(::System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
 
-  /// @brief Method RegisterActivatedServiceType, addr 0x3cc4718, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RegisterActivatedServiceType, addr 0x3cc968c, size 0x140, virtual false, abstract: false, final false
   static inline void RegisterActivatedServiceType(::System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
 
-  /// @brief Method RegisterChannelTemplate, addr 0x3cc4c5c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterChannelTemplate, addr 0x3cc9bd0, size 0x7c, virtual false, abstract: false, final false
   static inline void RegisterChannelTemplate(::System::Runtime::Remoting::ChannelData* channel);
 
-  /// @brief Method RegisterChannels, addr 0x3cc4dd0, size 0xc78, virtual false, abstract: false, final false
+  /// @brief Method RegisterChannels, addr 0x3cc9d44, size 0xc78, virtual false, abstract: false, final false
   static inline void RegisterChannels(::System::Collections::ArrayList* channels, bool onlyDelayed);
 
-  /// @brief Method RegisterClientProviderTemplate, addr 0x3cc4cd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterClientProviderTemplate, addr 0x3cc9c4c, size 0x7c, virtual false, abstract: false, final false
   static inline void RegisterClientProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method RegisterServerProviderTemplate, addr 0x3cc4d54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterServerProviderTemplate, addr 0x3cc9cc8, size 0x7c, virtual false, abstract: false, final false
   static inline void RegisterServerProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method RegisterTypes, addr 0x3cc5a48, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method RegisterTypes, addr 0x3cca9bc, size 0x51c, virtual false, abstract: false, final false
   static inline void RegisterTypes(::System::Collections::ArrayList* types);
 
-  /// @brief Method RegisterWellKnownClientType, addr 0x3cc4858, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method RegisterWellKnownClientType, addr 0x3cc97cc, size 0x27c, virtual false, abstract: false, final false
   static inline void RegisterWellKnownClientType(::System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
 
-  /// @brief Method RegisterWellKnownServiceType, addr 0x3cc4ad4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method RegisterWellKnownServiceType, addr 0x3cc9a48, size 0x188, virtual false, abstract: false, final false
   static inline void RegisterWellKnownServiceType(::System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
 
-  /// @brief Method SetCustomErrorsMode, addr 0x3cc5ff8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method SetCustomErrorsMode, addr 0x3ccaf6c, size 0x25c, virtual false, abstract: false, final false
   static inline void SetCustomErrorsMode(::StringW mode);
 
   static inline ::System::Runtime::Remoting::CustomErrorsModes getStaticF__errorMode();
@@ -157,10 +157,10 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_wellKnownServiceEntries();
 
-  /// @brief Method get_ApplicationName, addr 0x3cc3adc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationName, addr 0x3cc8a50, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW get_ApplicationName();
 
-  /// @brief Method get_ProcessId, addr 0x3cc3b90, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessId, addr 0x3cc8b04, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW get_ProcessId();
 
   static inline void setStaticF__errorMode(::System::Runtime::Remoting::CustomErrorsModes value);
@@ -189,7 +189,7 @@ public:
 
   static inline void setStaticF_wellKnownServiceEntries(::System::Collections::Hashtable* value);
 
-  /// @brief Method set_ApplicationName, addr 0x3cc3b34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_ApplicationName, addr 0x3cc8aa8, size 0x5c, virtual false, abstract: false, final false
   static inline void set_ApplicationName(::StringW value);
 
 protected:

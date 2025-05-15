@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::UnityEngine::Bindings::TargetType)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::set_TargetType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4913224;
+  constexpr static std::size_t addrs = 0x4919284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)()>(
     &::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491322c;
+  constexpr static std::size_t addrs = 0x491928c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::NativePropertyAttribute*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4913234;
+  constexpr static std::size_t addrs = 0x4919294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW, bool, ::UnityEngine::Bindings::TargetType)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4913238;
+  constexpr static std::size_t addrs = 0x4919298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW, bool, ::UnityEngine::Bindings::TargetType, bool)>(&::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4913268;
+  constexpr static std::size_t addrs = 0x49192c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

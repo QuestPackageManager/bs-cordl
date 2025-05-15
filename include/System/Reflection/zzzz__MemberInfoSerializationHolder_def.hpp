@@ -64,17 +64,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3d25d5c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d2acd0, size 0x58, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x3d25db4, size 0x800, virtual true, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x3d2ad28, size 0x800, virtual true, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetSerializationInfo, addr 0x3d25734, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x3d2a6a8, size 0x310, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature, ::StringW signature2,
                                           ::System::Reflection::MemberTypes type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> genericArguments);
 
-  /// @brief Method GetSerializationInfo, addr 0x3d25724, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x3d2a698, size 0x10, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature,
                                           ::System::Reflection::MemberTypes type);
 
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_m_signature2(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d25a44, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2a9b8, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"

@@ -73,22 +73,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRAnchor>*();
 
-  /// @brief Method CreateSpatialAnchorAsync, addr 0x3f97524, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorAsync, addr 0x3f9c498, size 0x14c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> CreateSpatialAnchorAsync(::UnityEngine::Pose trackingSpacePose);
 
-  /// @brief Method CreateSpatialAnchorAsync, addr 0x3f97684, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorAsync, addr 0x3f9c5f8, size 0x190, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> CreateSpatialAnchorAsync(::UnityEngine::Transform* transform, ::UnityEngine::Camera* centerEyeCamera);
 
-  /// @brief Method Dispose, addr 0x3f97ce8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3f9cc5c, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Equals, addr 0x3f97a0c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3f9c980, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3f97954, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3f9c8c8, size 0xb8, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRAnchor other);
 
-  /// @brief Method FetchAnchors, addr 0x3f96e40, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchors, addr 0x3f9bdb4, size 0x1ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchors(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors, ::GlobalNamespace::OVRPlugin_SpaceQueryInfo queryInfo);
 
   /// @brief Method FetchAnchorsAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -96,12 +96,12 @@ public:
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x3f96d9c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x3f9bd10, size 0xa4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::GlobalNamespace::OVRPlugin_SpaceComponentType type,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x3f9702c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x3f9bfa0, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, double_t timeout);
@@ -109,38 +109,38 @@ public:
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponent();
 
-  /// @brief Method GetHashCode, addr 0x3f97be8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3f9cb5c, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetQueryInfo, addr 0x3f96c0c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetQueryInfo, addr 0x3f9bb80, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo GetQueryInfo(::GlobalNamespace::OVRPlugin_SpaceComponentType type, ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults,
                                                                          double_t timeout);
 
-  /// @brief Method GetQueryInfo, addr 0x3f96cd8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetQueryInfo, addr 0x3f9bc4c, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo GetQueryInfo(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids, ::GlobalNamespace::OVRSpace_StorageLocation location,
                                                                          double_t timeout);
 
-  /// @brief Method OnSpaceQueryCompleteData, addr 0x3f97130, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceQueryCompleteData, addr 0x3f9c0a4, size 0x3e8, virtual false, abstract: false, final false
   static inline void OnSpaceQueryCompleteData(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData data);
 
   /// @brief Method SupportsComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool SupportsComponent();
 
-  /// @brief Method ToString, addr 0x3f97c7c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3f9cbf0, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method TryGetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryGetComponent(::ByRef<T> component);
 
-  /// @brief Method .ctor, addr 0x3f97518, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9c48c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t handle, ::System::Guid uuid);
 
   static inline ::GlobalNamespace::OVRAnchor getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x3f97940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x3f9c8b4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_Uuid, addr 0x3f97948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Uuid, addr 0x3f9c8bc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
   /// @brief Convert to "::System::IDisposable"
@@ -149,10 +149,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRAnchor>* i___System__IEquatable_1___GlobalNamespace__OVRAnchor_();
 
-  /// @brief Method op_Equality, addr 0x3f97abc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3f9ca30, size 0x94, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRAnchor lhs, ::GlobalNamespace::OVRAnchor rhs);
 
-  /// @brief Method op_Inequality, addr 0x3f97b50, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3f9cac4, size 0x98, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRAnchor lhs, ::GlobalNamespace::OVRAnchor rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRAnchor value);

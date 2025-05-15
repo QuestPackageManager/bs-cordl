@@ -24,18 +24,18 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x473ead0, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4743a44, size 0x19c, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::ProBuilder::TriggerBehaviour* New_ctor();
 
-  /// @brief Method OnEnterPlayMode, addr 0x473ec6c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x4743be0, size 0x78, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded, addr 0x473ece4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x4743c58, size 0x78, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method .ctor, addr 0x473ed5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4743cd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   TriggerBehaviour(TriggerBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor();
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x4361c5c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x4366bd0, size 0xdc, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x4361d38, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x4366cac, size 0x1cc, virtual true, abstract: false, final true
   inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x4361c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4366bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"

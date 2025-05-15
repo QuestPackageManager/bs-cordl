@@ -30,7 +30,7 @@ public:
   /// @brief Field ns, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
-  /// @brief Method AddAnnotation, addr 0x42ba4f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x42bf46c, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaImport* New_ctor();
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_ns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42ba4c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bf43c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Namespace, addr 0x42ba4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x42bf45c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_Namespace, addr 0x42ba4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x42bf464, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:

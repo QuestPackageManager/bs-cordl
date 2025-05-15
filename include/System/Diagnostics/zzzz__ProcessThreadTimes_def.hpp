@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_user(int64_t value);
 
-  /// @brief Method .ctor, addr 0x442a178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442f0ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TotalProcessorTime, addr 0x442a560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TotalProcessorTime, addr 0x442f4d4, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
 protected:

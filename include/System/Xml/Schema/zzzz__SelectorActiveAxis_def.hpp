@@ -43,15 +43,15 @@ public:
 
   __declspec(property(get = get_lastDepth)) int32_t lastDepth;
 
-  /// @brief Method EndElement, addr 0x439429c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EndElement, addr 0x4399210, size 0x48, virtual true, abstract: false, final false
   inline bool EndElement(::StringW localname, ::StringW URN);
 
   static inline ::System::Xml::Schema::SelectorActiveAxis* New_ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs);
 
-  /// @brief Method PopKS, addr 0x43946b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PopKS, addr 0x4399628, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::KeySequence* PopKS();
 
-  /// @brief Method PushKS, addr 0x43942e4, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method PushKS, addr 0x4399258, size 0x2d8, virtual false, abstract: false, final false
   inline int32_t PushKS(int32_t errline, int32_t errcol);
 
   constexpr int32_t const& __cordl_internal_get_KSpointer() const;
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_cs(::System::Xml::Schema::ConstraintStruct* value);
 
-  /// @brief Method .ctor, addr 0x4394130, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43990a4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs);
 
-  /// @brief Method get_lastDepth, addr 0x43941f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_lastDepth, addr 0x4399168, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_lastDepth();
 
 protected:

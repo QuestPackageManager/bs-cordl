@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set__label(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c11844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c167b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_component, addr 0x3c11834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_component, addr 0x3c167a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_component();
 
-  /// @brief Method get_label, addr 0x3c1183c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_label, addr 0x3c167b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshProUGUI> get_label();
 
 protected:
@@ -141,10 +141,10 @@ public:
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController___c* New_ctor();
 
-  /// @brief Method <Init>b__12_0, addr 0x3c118b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__12_0, addr 0x3c16824, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _Init_b__12_0(::System::ValueTuple_2<::StringW, int32_t> e);
 
-  /// @brief Method .ctor, addr 0x3c118a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1681c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController___c* getStaticF___9();
@@ -193,7 +193,7 @@ public:
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x3c118b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x3c1682c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::DropdownDialogPromptViewController> const& __cordl_internal_get___4__this() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c116fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c16670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -284,20 +284,20 @@ public:
 
   __declspec(property(get = get_selectedValue)) int32_t selectedValue;
 
-  /// @brief Method DidActivate, addr 0x3c115cc, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c16540, size 0x130, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c11704, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c16678, size 0xc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x3c11374, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c162e8, size 0x258, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW dropdownLabel,
                    ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*> dropdownValues,
                    ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* didFinishAction, ::ArrayW<::StringW, ::Array<::StringW>*> buttonTexts);
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController* New_ctor();
 
-  /// @brief Method OnButtonClick, addr 0x3c11710, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnButtonClick, addr 0x3c16684, size 0x88, virtual false, abstract: false, final false
   inline void OnButtonClick(int32_t buttonNum);
 
   constexpr ::ArrayW<::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel*, ::Array<::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel*>*> const&
@@ -345,16 +345,16 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c11798, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1670c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add__didFinishAction, addr 0x3c11214, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add__didFinishAction, addr 0x3c16188, size 0xb0, virtual false, abstract: false, final false
   inline void add__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
-  /// @brief Method get_selectedValue, addr 0x3c111d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedValue, addr 0x3c1614c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_selectedValue();
 
-  /// @brief Method remove__didFinishAction, addr 0x3c112c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove__didFinishAction, addr 0x3c16238, size 0xb0, virtual false, abstract: false, final false
   inline void remove__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
 protected:

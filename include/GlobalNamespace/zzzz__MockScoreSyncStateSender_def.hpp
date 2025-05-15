@@ -36,15 +36,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3c25e4c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c2adc0, size 0xbc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleScoreSyncStateUpdate, addr 0x3c2b78c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreSyncStateUpdate, addr 0x3c30700, size 0x4, virtual false, abstract: false, final false
   inline void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   static inline ::GlobalNamespace::MockScoreSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method SendScore, addr 0x3c29238, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SendScore, addr 0x3c2e1ac, size 0x224, virtual false, abstract: false, final false
   inline void SendScore(int32_t modifiedScore, int32_t multipliedScore, int32_t immediateMaxPossibleMultipliedScore, int32_t combo, int32_t multiplier);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x3c25cb0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2ac24, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
   /// @brief Convert to "::System::IDisposable"
@@ -74,7 +74,7 @@ public:
   MockScoreSyncStateSender(MockScoreSyncStateSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

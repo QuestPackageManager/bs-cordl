@@ -36,7 +36,7 @@ public:
   /// @brief Field attr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attr, put = __cordl_internal_set_attr)) ::Org::BouncyCastle::Asn1::X509::AttributeX509* attr;
 
-  /// @brief Method GetValues, addr 0x25ed5a8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x25f1058, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> GetValues();
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
@@ -45,7 +45,7 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method ToAsn1Object, addr 0x25ed6b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25f1168, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AttributeX509* const& __cordl_internal_get_attr() const;
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_attr(::Org::BouncyCastle::Asn1::X509::AttributeX509* value);
 
-  /// @brief Method .ctor, addr 0x25ed398, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f0e48, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
 
-  /// @brief Method .ctor, addr 0x25ed3cc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f0e7c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x25ed4a8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f0f58, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method get_Oid, addr 0x25ed584, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x25f1034, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Oid();
 
 protected:

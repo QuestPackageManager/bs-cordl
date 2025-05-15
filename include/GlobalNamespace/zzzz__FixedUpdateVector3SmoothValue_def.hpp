@@ -23,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x39ba2a8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x39bf21c, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t);
 
   static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t smooth);
 
-  /// @brief Method .ctor, addr 0x39ba250, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf1c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t smooth);
 
 protected:
@@ -46,7 +46,7 @@ public:
   FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16397 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

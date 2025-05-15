@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_mJavaStackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x483d380, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48422f4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace, addr 0x4840918, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x484588c, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
 protected:
@@ -53,7 +53,7 @@ public:
   AndroidJavaException(AndroidJavaException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16767 };
 
   /// @brief Field mJavaStackTrace, offset: 0x90, size: 0x8, def value: None
   ::StringW ___mJavaStackTrace;

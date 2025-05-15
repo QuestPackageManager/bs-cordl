@@ -37,12 +37,12 @@ namespace UnityEngine {
 class CORDL_TYPE CullingGroup_StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4864e80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x486aee0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
   static inline ::UnityEngine::CullingGroup_StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4864df4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486ae54, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -83,7 +83,7 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method SendEvents, addr 0x4864d98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x486adf8, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
   constexpr ::UnityEngine::CullingGroup_StateChanged* const& __cordl_internal_get_m_OnStateChanged() const;

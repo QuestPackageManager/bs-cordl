@@ -26,18 +26,18 @@ public:
   // Declarations
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method Init, addr 0x49779a0, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x497da00, size 0x3dc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method Init, addr 0x4978f84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x497efe4, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4979434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497f494, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x4978f7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x497efdc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:

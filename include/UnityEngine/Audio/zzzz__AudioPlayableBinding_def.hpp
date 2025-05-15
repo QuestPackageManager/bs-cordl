@@ -31,10 +31,10 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x4859620, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x485e594, size 0x12c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAudioOutput, addr 0x485974c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateAudioOutput, addr 0x485e6c0, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAudioOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:
@@ -52,7 +52,7 @@ public:
   AudioPlayableBinding(AudioPlayableBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

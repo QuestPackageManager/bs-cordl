@@ -77,21 +77,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b7b65c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b805d0, size 0xf8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b7b754, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b806c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b7b75c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b806d0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b7b794, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b80708, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b7b658, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b805cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7b538, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b804ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -228,21 +228,21 @@ public:
 
   __declspec(property(get = get_animating, put = set_animating)) bool animating;
 
-  /// @brief Method AnimateCutout, addr 0x3b7526c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x3b7a1e0, size 0x54, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
-  /// @brief Method AnimateToCutoutCoroutine, addr 0x3b7b4b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AnimateToCutoutCoroutine, addr 0x3b80428, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::CutoutAnimateEffect* New_ctor();
 
-  /// @brief Method ResetEffect, addr 0x3b71fc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetEffect, addr 0x3b76f34, size 0x24, virtual false, abstract: false, final false
   inline void ResetEffect();
 
-  /// @brief Method SetCutout, addr 0x3b7b448, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetCutout, addr 0x3b803bc, size 0x6c, virtual false, abstract: false, final false
   inline void SetCutout(float_t cutout);
 
-  /// @brief Method Start, addr 0x3b7b440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b803b4, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__animating_k__BackingField() const;
@@ -263,13 +263,13 @@ public:
 
   constexpr void __cordl_internal_set__transitionCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x3b7b624, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b80598, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animating, addr 0x3b7b42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animating, addr 0x3b803a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_animating();
 
-  /// @brief Method set_animating, addr 0x3b7b434, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_animating, addr 0x3b803a8, size 0xc, virtual false, abstract: false, final false
   inline void set_animating(bool value);
 
 protected:

@@ -140,10 +140,10 @@ public:
 
   __declspec(property(get = get_sfxVolume)) float_t sfxVolume;
 
-  /// @brief Method AreValuesEqual, addr 0x26f5c2c, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method AreValuesEqual, addr 0x26f96fc, size 0x318, virtual false, abstract: false, final false
   inline bool AreValuesEqual(::GlobalNamespace::PlayerSpecificSettings* other);
 
-  /// @brief Method CopyWith, addr 0x26f44f4, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x26f7fc4, size 0x3c4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings*
   CopyWith(::System::Nullable_1<bool> leftHanded, ::System::Nullable_1<float_t> playerHeight, ::System::Nullable_1<bool> automaticPlayerHeight, ::System::Nullable_1<float_t> sfxVolume,
            ::System::Nullable_1<bool> reduceDebris, ::System::Nullable_1<bool> noTextsAndHuds, ::System::Nullable_1<bool> noFailEffects, ::System::Nullable_1<bool> advancedHud,
@@ -153,7 +153,7 @@ public:
            ::System::Nullable_1<::GlobalNamespace::ArcVisibilityType> arcsVisible, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset,
            ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset, ::System::Nullable_1<float_t> headsetHapticIntensity);
 
-  /// @brief Method GetEnvironmentEffectsFilterPreset, addr 0x26f5c14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentEffectsFilterPreset, addr 0x26f96e4, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(::GlobalNamespace::BeatmapDifficulty difficulty);
 
   static inline ::GlobalNamespace::PlayerSpecificSettings* New_ctor();
@@ -286,74 +286,74 @@ public:
 
   constexpr void __cordl_internal_set__sfxVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x26efd84, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f3854, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26f40ec, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f7bbc, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud,
                     bool autoRestart, float_t saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration,
                     float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, ::GlobalNamespace::ArcVisibilityType arcsVisible,
                     ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset,
                     float_t headsetHapticIntensity);
 
-  /// @brief Method get_adaptiveSfx, addr 0x26f5be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_adaptiveSfx, addr 0x26f96b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_adaptiveSfx();
 
-  /// @brief Method get_advancedHud, addr 0x26f5bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_advancedHud, addr 0x26f967c, size 0x8, virtual false, abstract: false, final false
   inline bool get_advancedHud();
 
-  /// @brief Method get_arcVisibility, addr 0x26f5bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arcVisibility, addr 0x26f96c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ArcVisibilityType get_arcVisibility();
 
-  /// @brief Method get_arcsHapticFeedback, addr 0x26f5bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arcsHapticFeedback, addr 0x26f96bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_arcsHapticFeedback();
 
-  /// @brief Method get_autoRestart, addr 0x26f5bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoRestart, addr 0x26f9684, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoRestart();
 
-  /// @brief Method get_automaticPlayerHeight, addr 0x26f5b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_automaticPlayerHeight, addr 0x26f9654, size 0x8, virtual false, abstract: false, final false
   inline bool get_automaticPlayerHeight();
 
-  /// @brief Method get_environmentEffectsFilterDefaultPreset, addr 0x26f5bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentEffectsFilterDefaultPreset, addr 0x26f96cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset();
 
-  /// @brief Method get_environmentEffectsFilterExpertPlusPreset, addr 0x26f5c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentEffectsFilterExpertPlusPreset, addr 0x26f96d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset();
 
-  /// @brief Method get_headsetHapticIntensity, addr 0x26f5c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headsetHapticIntensity, addr 0x26f96dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headsetHapticIntensity();
 
-  /// @brief Method get_hideNoteSpawnEffect, addr 0x26f5bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hideNoteSpawnEffect, addr 0x26f96ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_hideNoteSpawnEffect();
 
-  /// @brief Method get_leftHanded, addr 0x26f5b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHanded, addr 0x26f9644, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftHanded();
 
-  /// @brief Method get_noFailEffects, addr 0x26f5ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noFailEffects, addr 0x26f9674, size 0x8, virtual false, abstract: false, final false
   inline bool get_noFailEffects();
 
-  /// @brief Method get_noTextsAndHuds, addr 0x26f5b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noTextsAndHuds, addr 0x26f966c, size 0x8, virtual false, abstract: false, final false
   inline bool get_noTextsAndHuds();
 
-  /// @brief Method get_noteJumpDurationTypeSettings, addr 0x26f5bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpDurationTypeSettings, addr 0x26f9694, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings();
 
-  /// @brief Method get_noteJumpFixedDuration, addr 0x26f5bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpFixedDuration, addr 0x26f969c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpFixedDuration();
 
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26f5bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26f96a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpStartBeatOffset();
 
-  /// @brief Method get_playerHeight, addr 0x26f5b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeight, addr 0x26f964c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playerHeight();
 
-  /// @brief Method get_reduceDebris, addr 0x26f5b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reduceDebris, addr 0x26f9664, size 0x8, virtual false, abstract: false, final false
   inline bool get_reduceDebris();
 
-  /// @brief Method get_saberTrailIntensity, addr 0x26f5bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberTrailIntensity, addr 0x26f968c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_saberTrailIntensity();
 
-  /// @brief Method get_sfxVolume, addr 0x26f5b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxVolume, addr 0x26f965c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sfxVolume();
 
 protected:

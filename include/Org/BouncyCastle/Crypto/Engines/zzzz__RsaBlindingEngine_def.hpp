@@ -50,26 +50,26 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method BlindMessage, addr 0x2368800, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BlindMessage, addr 0x236c2b0, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* BlindMessage(::Org::BouncyCastle::Math::BigInteger* msg);
 
-  /// @brief Method GetInputBlockSize, addr 0x2368564, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0x236c014, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x2368608, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0x236c0b8, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0x23683f0, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x236bea0, size 0x174, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method ProcessBlock, addr 0x23686ac, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x236c15c, size 0x154, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
-  /// @brief Method UnblindMessage, addr 0x2368864, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method UnblindMessage, addr 0x236c314, size 0x5c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* UnblindMessage(::Org::BouncyCastle::Math::BigInteger* blindedMsg);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_blindingFactor() const;
@@ -96,13 +96,13 @@ public:
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x2368324, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236bdd4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2368388, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236be38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method get_AlgorithmName, addr 0x23683b0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x236be60, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"

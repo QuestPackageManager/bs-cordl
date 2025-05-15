@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x486e49c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48744fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order, addr 0x486e48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x48744ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
-  /// @brief Method set_order, addr 0x486e494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x48744f4, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:

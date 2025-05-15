@@ -58,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller___c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__10_0, addr 0x3bef5ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__10_0, addr 0x3bf4520, size 0x94, virtual false, abstract: false, final false
   inline bool _InstallBindings_b__10_0(::Zenject::BindingId t);
 
-  /// @brief Method .ctor, addr 0x3bef5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf4518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller___c* getStaticF___9();
@@ -143,7 +143,7 @@ public:
 
   __declspec(property(get = get_mirroredGameNoteControllerPrefab)) ::UnityW<::GlobalNamespace::MirroredGameNoteController> mirroredGameNoteControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3bef084, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf3ff8, size 0x4bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
@@ -196,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3bef540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf44b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x3bef07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x3bf3ff0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
 protected:

@@ -37,10 +37,10 @@ public:
   /// @brief Field Signature, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_Signature, put = __cordl_internal_set_Signature)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
 
-  /// @brief Method FormatSignature, addr 0x3e08e5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FormatSignature, addr 0x3e0ddd0, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW FormatSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method GetObjectData, addr 0x3e08d00, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3e0dc74, size 0x15c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::MissingMemberException* New_ctor();
@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_Signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3e088e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0d854, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e08940, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0d8b4, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e08870, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0d7e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x3e08bd8, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3e0db4c, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

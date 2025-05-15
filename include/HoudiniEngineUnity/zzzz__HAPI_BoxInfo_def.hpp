@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_BoxInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3a43864, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a487d8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool initialize_fields);
 
   // Ctor Parameters []

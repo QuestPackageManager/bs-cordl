@@ -38,12 +38,12 @@ public:
   /// @brief Field iface_path, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_iface_path, put = __cordl_internal_set_iface_path)) ::StringW iface_path;
 
-  /// @brief Method GetIPProperties, addr 0x43e8070, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x43ecfe4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method ReadLine, addr 0x43e840c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x43ed380, size 0x2f4, virtual false, abstract: false, final false
   static inline ::StringW ReadLine(::StringW path);
 
   constexpr ::StringW const& __cordl_internal_get_iface_flags_path() const;
@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_iface_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43e7f84, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ecef8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_IfacePath, addr 0x43e8068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfacePath, addr 0x43ecfdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IfacePath();
 
-  /// @brief Method get_OperationalStatus, addr 0x43e80dc, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x43ed050, size 0x330, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
-  /// @brief Method unitydroid_get_network_interface_up_state, addr 0x43e8064, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method unitydroid_get_network_interface_up_state, addr 0x43ecfd8, size 0x4, virtual false, abstract: false, final false
   static inline bool unitydroid_get_network_interface_up_state(::StringW ifname, ::ByRef<bool> is_up);
 
 protected:

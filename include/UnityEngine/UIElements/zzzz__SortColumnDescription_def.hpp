@@ -234,43 +234,43 @@ public:
 
   constexpr void __cordl_internal_set_m_SortDirection(::UnityEngine::UIElements::SortDirection value);
 
-  /// @brief Method .ctor, addr 0x49fb3c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a01428, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49fb3d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a01438, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t columnIndex, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method .ctor, addr 0x49fb468, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a014c8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method add_changed, addr 0x49fb268, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_changed, addr 0x4a012c8, size 0xb0, virtual false, abstract: false, final false
   inline void add_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method get_column, addr 0x49fb21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_column, addr 0x4a0127c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_column();
 
-  /// @brief Method get_columnIndex, addr 0x49fb1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnIndex, addr 0x4a01240, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnIndex();
 
-  /// @brief Method get_columnName, addr 0x49fb184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnName, addr 0x4a011e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_columnName();
 
-  /// @brief Method get_direction, addr 0x49fb22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x4a0128c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SortDirection get_direction();
 
-  /// @brief Method remove_changed, addr 0x49fb318, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_changed, addr 0x4a01378, size 0xb0, virtual false, abstract: false, final false
   inline void remove_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method set_column, addr 0x49fb224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_column, addr 0x4a01284, size 0x8, virtual false, abstract: false, final false
   inline void set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method set_columnIndex, addr 0x49fb1e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_columnIndex, addr 0x4a01248, size 0x34, virtual false, abstract: false, final false
   inline void set_columnIndex(int32_t value);
 
-  /// @brief Method set_columnName, addr 0x49fb18c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_columnName, addr 0x4a011ec, size 0x54, virtual false, abstract: false, final false
   inline void set_columnName(::StringW value);
 
-  /// @brief Method set_direction, addr 0x49fb234, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x4a01294, size 0x34, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SortDirection value);
 
 protected:

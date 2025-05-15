@@ -22,18 +22,18 @@ namespace UnityEngine::InputSystem::Controls {
 class CORDL_TYPE IntegerControl : public ::UnityEngine::InputSystem::InputControl_1<int32_t> {
 public:
   // Declarations
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x455e300, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method CalculateOptimizedControlDataType, addr 0x4563274, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
 
   static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x455e1d0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x4563144, size 0x94, virtual true, abstract: false, final false
   inline int32_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x455e264, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x45631d8, size 0x9c, virtual true, abstract: false, final false
   inline void WriteValueIntoState(int32_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x455e148, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45630bc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

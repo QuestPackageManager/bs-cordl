@@ -59,21 +59,21 @@ public:
   /// @brief Field propertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  /// @brief Method Awake, addr 0x3b9a570, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b9f4e4, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x3b9a600, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x3b9f574, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::SpectrogramRowPropertyAnimator* New_ctor();
 
-  /// @brief Method SetMultiplier, addr 0x3b9a6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplier, addr 0x3b9f648, size 0x8, virtual false, abstract: false, final false
   inline void SetMultiplier(float_t value);
 
-  /// @brief Method SetProperty, addr 0x3b9a53c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x3b9f4b0, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Update, addr 0x3b9a630, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9f5a4, size 0xa4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b9a6dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9f650, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

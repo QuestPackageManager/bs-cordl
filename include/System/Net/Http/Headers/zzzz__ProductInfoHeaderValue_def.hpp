@@ -47,26 +47,26 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x4220fc4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4225f38, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4221084, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4225ff8, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x4220fbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x4225f30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x422144c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42263c0, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x42210b0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4226024, size 0x1b0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductInfoHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x4221260, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x42261d4, size 0x1ec, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::ProductInfoHeaderValue*> parsedValue);
 
   constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
@@ -81,25 +81,25 @@ public:
 
   constexpr void __cordl_internal_set__Product_k__BackingField(::System::Net::Http::Headers::ProductHeaderValue* value);
 
-  /// @brief Method .ctor, addr 0x4220f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4225f08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4220f34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4225ea8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method get_Comment, addr 0x4220f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x4225f10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method get_Product, addr 0x4220fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Product, addr 0x4225f20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::ProductHeaderValue* get_Product();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Comment, addr 0x4220fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x4225f18, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method set_Product, addr 0x4220fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Product, addr 0x4225f28, size 0x8, virtual false, abstract: false, final false
   inline void set_Product(::System::Net::Http::Headers::ProductHeaderValue* value);
 
 protected:
@@ -117,7 +117,7 @@ public:
   ProductInfoHeaderValue(ProductInfoHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16748 };
 
   /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Comment_k__BackingField;

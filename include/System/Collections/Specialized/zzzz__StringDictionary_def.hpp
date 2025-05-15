@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x447f56c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x44844e0, size 0x94, virtual true, abstract: false, final false
   inline void Add(::StringW key, ::StringW value);
 
-  /// @brief Method GetEnumerator, addr 0x447f600, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x4484574, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Specialized::StringDictionary* New_ctor();
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_contents(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x447f50c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4484480, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEnumerable"

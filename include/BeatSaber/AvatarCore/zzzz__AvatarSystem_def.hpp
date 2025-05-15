@@ -144,26 +144,26 @@ public:
 
   constexpr void __cordl_internal_set__typeIdentifier(::BeatSaber::AvatarCore::AvatarSystemIdentifier value);
 
-  /// @brief Method .ctor, addr 0x2249044, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224caf4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                     ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
   /// @brief Method get_avatarCreated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
-  /// @brief Method get_isFallbackSystem, addr 0x22490b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isFallbackSystem, addr 0x224cb64, size 0x8, virtual true, abstract: false, final true
   inline bool get_isFallbackSystem();
 
-  /// @brief Method get_selectableByUser, addr 0x22490ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectableByUser, addr 0x224cb5c, size 0x8, virtual true, abstract: false, final true
   inline bool get_selectableByUser();
 
-  /// @brief Method get_selectionSortOrder, addr 0x22490bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectionSortOrder, addr 0x224cb6c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_selectionSortOrder();
 
-  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x22490c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x224cb74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataTypes();
 
-  /// @brief Method get_typeIdentifier, addr 0x22490a0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeIdentifier, addr 0x224cb50, size 0xc, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier get_typeIdentifier();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystem"
@@ -187,7 +187,7 @@ public:
   AvatarSystem(AvatarSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17571 };
 
   /// @brief Field _typeIdentifier, offset: 0x10, size: 0x10, def value: None
   ::BeatSaber::AvatarCore::AvatarSystemIdentifier ____typeIdentifier;

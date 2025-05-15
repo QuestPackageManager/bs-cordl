@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3b29f80, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b2eef4, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::IRenderingParamsApplicator* const& __cordl_internal_get__applicator() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneType(::GlobalNamespace::SceneType value);
 
-  /// @brief Method .ctor, addr 0x3b2a054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2efc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

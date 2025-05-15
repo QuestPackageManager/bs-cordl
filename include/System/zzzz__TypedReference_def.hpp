@@ -35,23 +35,23 @@ public:
   // Declarations
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method Equals, addr 0x3e298e0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e2e854, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x3e2984c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e2e7c0, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InternalMakeTypedReference, addr 0x3e29848, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalMakeTypedReference, addr 0x3e2e7bc, size 0x4, virtual false, abstract: false, final false
   static inline void InternalMakeTypedReference(::cordl_internals::Ptr<void> result, ::System::Object* target, ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> flds,
                                                 ::System::RuntimeType* lastFieldType);
 
-  /// @brief Method MakeTypedReference, addr 0x3e2941c, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method MakeTypedReference, addr 0x3e2e390, size 0x428, virtual false, abstract: false, final false
   static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> flds);
 
-  /// @brief Method SetTypedReference, addr 0x3e29950, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetTypedReference, addr 0x3e2e8c4, size 0x4c, virtual false, abstract: false, final false
   static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
 
-  /// @brief Method get_IsNull, addr 0x3e29930, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x3e2e8a4, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
   // Ctor Parameters []

@@ -102,7 +102,7 @@ public:
   static ::GlobalNamespace::AuthenticationToken_Platform const Test;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -130,31 +130,31 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*();
 
-  /// @brief Method CreateFromSerializedData, addr 0x22b5e60, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x22b9910, size 0x2c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x22b5e8c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x22b993c, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method FromHex, addr 0x22b5d78, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x22b9828, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromHex(::StringW str);
 
-  /// @brief Method FromUtf8, addr 0x22b5d48, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FromUtf8, addr 0x22b97f8, size 0x30, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromUtf8(::StringW str);
 
-  /// @brief Method GetHexVal, addr 0x22b6020, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetHexVal, addr 0x22b9ad0, size 0xc4, virtual false, abstract: false, final false
   static inline uint8_t GetHexVal(char16_t c);
 
-  /// @brief Method Serialize, addr 0x22b5cb4, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22b9764, size 0x94, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToHex, addr 0x22b5fac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToHex, addr 0x22b9a5c, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method ToUtf8, addr 0x22b5f7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToUtf8, addr 0x22b9a2c, size 0x30, virtual false, abstract: false, final false
   static inline ::StringW ToUtf8(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x22b5ca4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b9754, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AuthenticationToken_Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
@@ -169,7 +169,7 @@ public:
   constexpr AuthenticationToken(::GlobalNamespace::AuthenticationToken_Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

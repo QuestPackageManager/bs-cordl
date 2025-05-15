@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::FrameParity (*)(::Tweening::FrameParity)>(&::Tweening::FrameParityExtensions::GetSwitchedParity)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44d713c;
+  constexpr static std::size_t addrs = 0x44dc0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

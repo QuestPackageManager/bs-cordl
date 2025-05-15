@@ -49,40 +49,40 @@ namespace System::Reflection {
 struct CORDL_TYPE MonoMethodInfo {
 public:
   // Declarations
-  /// @brief Method GetAttributes, addr 0x3d2b31c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x3d30290, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodAttributes GetAttributes(::System::IntPtr handle);
 
-  /// @brief Method GetCallingConvention, addr 0x3d2b320, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCallingConvention, addr 0x3d30294, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::CallingConventions GetCallingConvention(::System::IntPtr handle);
 
-  /// @brief Method GetDeclaringType, addr 0x3d2b2cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeclaringType, addr 0x3d30240, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetDeclaringType(::System::IntPtr handle);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x3d2b348, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x3d302bc, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags(::System::IntPtr handle);
 
-  /// @brief Method GetMethodInfo, addr 0x3d2b29c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x3d30210, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Reflection::MonoMethodInfo GetMethodInfo(::System::IntPtr handle);
 
-  /// @brief Method GetParametersInfo, addr 0x3d2b374, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParametersInfo, addr 0x3d302e8, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersInfo(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method GetReturnParameterInfo, addr 0x3d2b37c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetReturnParameterInfo, addr 0x3d302f0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* GetReturnParameterInfo(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method GetReturnType, addr 0x3d2b2f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetReturnType, addr 0x3d30268, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetReturnType(::System::IntPtr handle);
 
-  /// @brief Method get_method_attributes, addr 0x3d2b298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_method_attributes, addr 0x3d3020c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_method_attributes(::System::IntPtr handle);
 
-  /// @brief Method get_method_info, addr 0x3d2b294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_method_info, addr 0x3d30208, size 0x4, virtual false, abstract: false, final false
   static inline void get_method_info(::System::IntPtr handle, ::ByRef<::System::Reflection::MonoMethodInfo> info);
 
-  /// @brief Method get_parameter_info, addr 0x3d2b370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_parameter_info, addr 0x3d302e4, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> get_parameter_info(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method get_retval_marshal, addr 0x3d2b378, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_retval_marshal, addr 0x3d302ec, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* get_retval_marshal(::System::IntPtr handle);
 
   // Ctor Parameters []

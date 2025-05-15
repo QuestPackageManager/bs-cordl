@@ -331,123 +331,123 @@ public:
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
 
-  /// @brief Method CompareTo, addr 0x3de1c44, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3de6bb8, size 0xe4, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Guid value);
 
-  /// @brief Method CompareTo, addr 0x3de1abc, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3de6a30, size 0x188, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method EatAllWhitespace, addr 0x3de0ec0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method EatAllWhitespace, addr 0x3de5e34, size 0x238, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> EatAllWhitespace(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method Equals, addr 0x3de1a68, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3de69dc, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::System::Guid g);
 
-  /// @brief Method Equals, addr 0x3de19c0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3de6934, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x3de19a8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3de691c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetResult, addr 0x3de1aac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3de6a20, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetResult(uint32_t me, uint32_t them);
 
-  /// @brief Method HexToChar, addr 0x3de1da4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HexToChar, addr 0x3de6d18, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t HexToChar(int32_t a);
 
-  /// @brief Method HexsToChars, addr 0x3de1dc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HexsToChars, addr 0x3de6d34, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t HexsToChars(::cordl_internals::Ptr<char16_t> guidChars, int32_t a, int32_t b);
 
-  /// @brief Method HexsToCharsHexOutput, addr 0x3de1e3c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HexsToCharsHexOutput, addr 0x3de6db0, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t HexsToCharsHexOutput(::cordl_internals::Ptr<char16_t> guidChars, int32_t a, int32_t b);
 
-  /// @brief Method IsHexPrefix, addr 0x3de10f8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsHexPrefix, addr 0x3de606c, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsHexPrefix(::System::ReadOnlySpan_1<char16_t> str, int32_t i);
 
-  /// @brief Method NewGuid, addr 0x3ddf644, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NewGuid, addr 0x3de45b8, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Guid NewGuid();
 
-  /// @brief Method Parse, addr 0x3ddfe58, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3de4dcc, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Guid Parse(::StringW input);
 
-  /// @brief Method Parse, addr 0x3ddfeec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3de4e60, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Guid Parse(::System::ReadOnlySpan_1<char16_t> input);
 
-  /// @brief Method StringToInt, addr 0x3de1390, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method StringToInt, addr 0x3de6304, size 0x1f0, virtual false, abstract: false, final false
   static inline bool StringToInt(::System::ReadOnlySpan_1<char16_t> str, ::ByRef<int32_t> parsePos, int32_t requiredLength, int32_t flags, ::ByRef<int32_t> result,
                                  ::ByRef<::System::Guid_GuidResult> parseResult);
 
-  /// @brief Method StringToInt, addr 0x3de11d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method StringToInt, addr 0x3de6144, size 0x2c, virtual false, abstract: false, final false
   static inline bool StringToInt(::System::ReadOnlySpan_1<char16_t> str, int32_t requiredLength, int32_t flags, ::ByRef<int32_t> result, ::ByRef<::System::Guid_GuidResult> parseResult);
 
-  /// @brief Method StringToLong, addr 0x3de1240, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method StringToLong, addr 0x3de61b4, size 0x150, virtual false, abstract: false, final false
   static inline bool StringToLong(::System::ReadOnlySpan_1<char16_t> str, ::ByRef<int32_t> parsePos, int32_t flags, ::ByRef<int64_t> result, ::ByRef<::System::Guid_GuidResult> parseResult);
 
-  /// @brief Method StringToShort, addr 0x3de1580, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method StringToShort, addr 0x3de64f4, size 0x34, virtual false, abstract: false, final false
   static inline bool StringToShort(::System::ReadOnlySpan_1<char16_t> str, ::ByRef<int32_t> parsePos, int32_t requiredLength, int32_t flags, ::ByRef<int16_t> result,
                                    ::ByRef<::System::Guid_GuidResult> parseResult);
 
-  /// @brief Method StringToShort, addr 0x3de11fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StringToShort, addr 0x3de6170, size 0x44, virtual false, abstract: false, final false
   static inline bool StringToShort(::System::ReadOnlySpan_1<char16_t> str, int32_t requiredLength, int32_t flags, ::ByRef<int16_t> result, ::ByRef<::System::Guid_GuidResult> parseResult);
 
-  /// @brief Method System.ISpanFormattable.TryFormat, addr 0x3de2314, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ISpanFormattable.TryFormat, addr 0x3de7288, size 0x4, virtual true, abstract: false, final true
   inline bool System_ISpanFormattable_TryFormat(::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToByteArray, addr 0x3de16d4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ToByteArray, addr 0x3de6648, size 0x94, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray();
 
-  /// @brief Method ToString, addr 0x3de1768, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3de66dc, size 0x48, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3de1da0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3de6d14, size 0x4, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method ToString, addr 0x3de17b0, size 0x1f8, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x3de6724, size 0x1f8, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
 
-  /// @brief Method TryFormat, addr 0x3de1ed8, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x3de6e4c, size 0x43c, virtual false, abstract: false, final false
   inline bool TryFormat(::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format);
 
-  /// @brief Method TryParse, addr 0x3ddff50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3de4ec4, size 0x8c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Guid> result);
 
-  /// @brief Method TryParse, addr 0x3ddffdc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3de4f50, size 0x4c, virtual false, abstract: false, final false
   static inline bool TryParse(::System::ReadOnlySpan_1<char16_t> input, ::ByRef<::System::Guid> result);
 
-  /// @brief Method TryParseExact, addr 0x3de0028, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x3de4f9c, size 0xc4, virtual false, abstract: false, final false
   static inline bool TryParseExact(::StringW input, ::StringW format, ::ByRef<::System::Guid> result);
 
-  /// @brief Method TryParseExact, addr 0x3de00ec, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x3de5060, size 0x14c, virtual false, abstract: false, final false
   static inline bool TryParseExact(::System::ReadOnlySpan_1<char16_t> input, ::System::ReadOnlySpan_1<char16_t> format, ::ByRef<::System::Guid> result);
 
-  /// @brief Method TryParseGuid, addr 0x3ddfaa0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method TryParseGuid, addr 0x3de4a14, size 0x240, virtual false, abstract: false, final false
   static inline bool TryParseGuid(::System::ReadOnlySpan_1<char16_t> guidString, ::System::Guid_GuidStyles flags, ::ByRef<::System::Guid_GuidResult> result);
 
-  /// @brief Method TryParseGuidWithDashes, addr 0x3de0258, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method TryParseGuidWithDashes, addr 0x3de51cc, size 0x2e8, virtual false, abstract: false, final false
   static inline bool TryParseGuidWithDashes(::System::ReadOnlySpan_1<char16_t> guidString, ::ByRef<::System::Guid_GuidResult> result);
 
-  /// @brief Method TryParseGuidWithHexPrefix, addr 0x3de0540, size 0x63c, virtual false, abstract: false, final false
+  /// @brief Method TryParseGuidWithHexPrefix, addr 0x3de54b4, size 0x63c, virtual false, abstract: false, final false
   static inline bool TryParseGuidWithHexPrefix(::System::ReadOnlySpan_1<char16_t> guidString, ::ByRef<::System::Guid_GuidResult> result);
 
-  /// @brief Method TryParseGuidWithNoStyle, addr 0x3de0b7c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method TryParseGuidWithNoStyle, addr 0x3de5af0, size 0x304, virtual false, abstract: false, final false
   static inline bool TryParseGuidWithNoStyle(::System::ReadOnlySpan_1<char16_t> guidString, ::ByRef<::System::Guid_GuidResult> result);
 
-  /// @brief Method WriteByteHelper, addr 0x3de15c4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method WriteByteHelper, addr 0x3de6538, size 0x110, virtual false, abstract: false, final false
   inline void WriteByteHelper(::System::Span_1<uint8_t> destination);
 
-  /// @brief Method .ctor, addr 0x3ddf848, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de47bc, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(int32_t a, int16_t b, int16_t c, ::ArrayW<uint8_t, ::Array<uint8_t>*> d);
 
-  /// @brief Method .ctor, addr 0x3ddf97c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de48f0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
 
-  /// @brief Method .ctor, addr 0x3ddf690, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de4604, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method .ctor, addr 0x3ddf724, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de4698, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<uint8_t> b);
 
-  /// @brief Method .ctor, addr 0x3ddf9bc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de4930, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW g);
 
   static inline ::System::Guid getStaticF_Empty();
@@ -467,10 +467,10 @@ public:
   /// @brief Convert to "::System::ISpanFormattable"
   constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
-  /// @brief Method op_Equality, addr 0x3de1d28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3de6c9c, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Guid a, ::System::Guid b);
 
-  /// @brief Method op_Inequality, addr 0x3de1d64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3de6cd8, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Guid a, ::System::Guid b);
 
   static inline void setStaticF_Empty(::System::Guid value);
@@ -560,23 +560,23 @@ namespace System {
 struct CORDL_TYPE Guid_GuidResult {
 public:
   // Declarations
-  /// @brief Method GetGuidParseException, addr 0x3ddfce0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetGuidParseException, addr 0x3de4c54, size 0x178, virtual false, abstract: false, final false
   inline ::System::Exception* GetGuidParseException();
 
-  /// @brief Method Init, addr 0x3de2318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3de728c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Guid_GuidParseThrowStyle canThrow);
 
-  /// @brief Method SetFailure, addr 0x3de0248, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3de51bc, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Guid_ParseFailureKind failure, ::StringW failureMessageID);
 
-  /// @brief Method SetFailure, addr 0x3de11c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3de6138, size 0xc, virtual false, abstract: false, final false
   inline void SetFailure(::System::Guid_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x3de0e80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3de5df4, size 0x40, virtual false, abstract: false, final false
   inline void SetFailure(::System::Guid_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName,
                          ::System::Exception* innerException);
 
-  /// @brief Method SetFailure, addr 0x3de15b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3de6528, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* nativeException);
 
   // Ctor Parameters []

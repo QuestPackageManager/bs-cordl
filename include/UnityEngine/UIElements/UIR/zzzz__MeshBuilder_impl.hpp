@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::AllocMeshData_MeshBuilder_Allocator::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::UIR::AllocMeshData_MeshBuilder_Allocator::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x49a4640;
+  constexpr static std::size_t addrs = 0x49aa6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::AllocMeshData_MeshBuilder_Allocator::*)(uint32_t, uint32_t, ::ByRef<::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData>)>(
     &::UnityEngine::UIElements::UIR::AllocMeshData_MeshBuilder_Allocator::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49a46cc;
+  constexpr static std::size_t addrs = 0x49aa72c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteData* (
     ::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData::*)(uint32_t, uint32_t)>(&::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData::Allocate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49a44e4;
+  constexpr static std::size_t addrs = 0x49aa544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::Vertex (*)(::UnityEngine::TextCore::Text::MeshInfo, int32_t, ::UnityEngine::Vector2, ::UnityEngine::UIElements::UIR::VertexFlags, bool)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::ConvertTextVertexToUIRVertex)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x49a3de4;
+  constexpr static std::size_t addrs = 0x49a9e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, bool)>(&::UnityEngine::UIElements::UIR::MeshBuilder::LimitTextVertices)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x49a3ee4;
+  constexpr static std::size_t addrs = 0x49a9f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::TextCore::Text::MeshInfo, ::UnityEngine::Vector2, ::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData, ::UnityEngine::UIElements::UIR::VertexFlags, bool)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::MakeText)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x49a4014;
+  constexpr static std::size_t addrs = 0x49aa074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

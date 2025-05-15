@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__compositionString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45e8efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ede70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compositionString, addr 0x45e8ef4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x45ede68, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_compositionString();
 
 protected:

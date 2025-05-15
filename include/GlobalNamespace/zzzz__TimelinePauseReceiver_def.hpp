@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::TimelinePauseReceiver* New_ctor();
 
-  /// @brief Method OnNotify, addr 0x39c0304, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x39c5278, size 0x94, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr ::System::Action* const& __cordl_internal_get_timelinePauseEvent() const;
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set_timelinePauseEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39c0398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c530c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_timelinePauseEvent, addr 0x39c01cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_timelinePauseEvent, addr 0x39c5140, size 0x9c, virtual false, abstract: false, final false
   inline void add_timelinePauseEvent(::System::Action* value);
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  /// @brief Method remove_timelinePauseEvent, addr 0x39c0268, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_timelinePauseEvent, addr 0x39c51dc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_timelinePauseEvent(::System::Action* value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   TimelinePauseReceiver(TimelinePauseReceiver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16463 };
 
   /// @brief Field timelinePauseEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___timelinePauseEvent;

@@ -46,7 +46,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* New_ctor();
 
-  /// @brief Method SetReflectionObject, addr 0x3ce0d30, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x3ce5ca4, size 0x1bc, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr ::StringW const& __cordl_internal_get__namespace() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  /// @brief Method .ctor, addr 0x3ce0d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce5c8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x3ce0d20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x3ce5c94, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace, addr 0x3ce0d28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x3ce5c9c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
 protected:

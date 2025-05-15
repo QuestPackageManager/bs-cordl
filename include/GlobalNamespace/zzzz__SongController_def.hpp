@@ -35,10 +35,10 @@ public:
   /// @brief Method ResumeSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method SendSongDidFinishEvent, addr 0x3beb08c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendSongDidFinishEvent, addr 0x3bf0000, size 0x1c, virtual false, abstract: false, final false
   inline void SendSongDidFinishEvent();
 
-  /// @brief Method SendSongDidStartEvent, addr 0x3beb0ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendSongDidStartEvent, addr 0x3bf0060, size 0x1c, virtual false, abstract: false, final false
   inline void SendSongDidStartEvent();
 
   /// @brief Method StopSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set_songDidStartEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3beb2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf0234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_songDidFinishEvent, addr 0x3beb430, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songDidFinishEvent, addr 0x3bf03a4, size 0x9c, virtual false, abstract: false, final false
   inline void add_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_songDidStartEvent, addr 0x3beb2f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songDidStartEvent, addr 0x3bf026c, size 0x9c, virtual false, abstract: false, final false
   inline void add_songDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_songDidFinishEvent, addr 0x3beb4cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songDidFinishEvent, addr 0x3bf0440, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_songDidStartEvent, addr 0x3beb394, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songDidStartEvent, addr 0x3bf0308, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songDidStartEvent(::System::Action* value);
 
 protected:

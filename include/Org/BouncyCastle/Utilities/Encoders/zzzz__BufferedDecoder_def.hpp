@@ -33,10 +33,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder* New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
-  /// @brief Method ProcessByte, addr 0x25d3a18, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x25d74c8, size 0x128, virtual false, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x25d3b40, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x25d75f0, size 0x260, virtual false, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   constexpr int32_t const& __cordl_internal_get_bufOff() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_translator(::Org::BouncyCastle::Utilities::Encoders::ITranslator* value);
 
-  /// @brief Method .ctor, addr 0x25d38e0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7390, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
 protected:

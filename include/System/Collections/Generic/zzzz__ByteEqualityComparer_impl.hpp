@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Generic::ByteEqualityComparer::*)(uint8_t, uint8_t)>(
     &::System::Collections::Generic::ByteEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3dc4870;
+  constexpr static std::size_t addrs = 0x3dc97e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)(uint8_t)>(
     &::System::Collections::Generic::ByteEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3dc4880;
+  constexpr static std::size_t addrs = 0x3dc97f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t, int32_t, int32_t)>(&::System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3dc489c;
+  constexpr static std::size_t addrs = 0x3dc9810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t, int32_t, int32_t)>(&::System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dc4a1c;
+  constexpr static std::size_t addrs = 0x3dc9990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Generic::ByteEqualityComparer::*)(::System::Object*)>(
     &::System::Collections::Generic::ByteEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3dc4a74;
+  constexpr static std::size_t addrs = 0x3dc99e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)()>(
     &::System::Collections::Generic::ByteEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3dc4aec;
+  constexpr static std::size_t addrs = 0x3dc9a60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Generic::ByteEqualityComparer::*)()>(
     &::System::Collections::Generic::ByteEqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3dc4b20;
+  constexpr static std::size_t addrs = 0x3dc9a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ByteEqualityComparer*>::get(),

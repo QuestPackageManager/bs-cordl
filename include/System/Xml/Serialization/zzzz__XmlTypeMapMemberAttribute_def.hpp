@@ -72,28 +72,28 @@ public:
 
   constexpr void __cordl_internal_set__namespace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x438b3cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4390340, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttributeName, addr 0x438b418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeName, addr 0x439038c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AttributeName();
 
-  /// @brief Method get_MappedType, addr 0x438b440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MappedType, addr 0x43903b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* get_MappedType();
 
-  /// @brief Method get_Namespace, addr 0x438b428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x439039c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_AttributeName, addr 0x438b420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeName, addr 0x4390394, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeName(::StringW value);
 
-  /// @brief Method set_Form, addr 0x438b438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Form, addr 0x43903ac, size 0x8, virtual false, abstract: false, final false
   inline void set_Form(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_MappedType, addr 0x438b448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MappedType, addr 0x43903bc, size 0x8, virtual false, abstract: false, final false
   inline void set_MappedType(::System::Xml::Serialization::XmlTypeMapping* value);
 
-  /// @brief Method set_Namespace, addr 0x438b430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x43903a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:

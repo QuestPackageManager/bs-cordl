@@ -26,10 +26,10 @@ public:
 
   static inline ::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed* New_ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method .ctor, addr 0x3c83cec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c88c60, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method get_Preamble, addr 0x3c83d54, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Preamble, addr 0x3c88cc8, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<uint8_t> get_Preamble();
 
 protected:

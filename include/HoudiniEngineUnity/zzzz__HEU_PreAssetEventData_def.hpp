@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_AssetType(::HoudiniEngineUnity::HEU_AssetEventType value);
 
-  /// @brief Method .ctor, addr 0x3a01018, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a05f8c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
 
 protected:

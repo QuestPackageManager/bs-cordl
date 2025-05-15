@@ -68,25 +68,25 @@ public:
   /// @brief Field subObjectName, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_subObjectName, put = __cordl_internal_set_subObjectName)) ::StringW subObjectName;
 
-  /// @brief Method ActionComplete, addr 0x4798e7c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ActionComplete, addr 0x479ddf0, size 0x194, virtual false, abstract: false, final false
   inline void ActionComplete(::UnityEngine::AsyncOperation* obj);
 
-  /// @brief Method BeginAssetLoad, addr 0x4798b1c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method BeginAssetLoad, addr 0x479da90, size 0x360, virtual false, abstract: false, final false
   inline void BeginAssetLoad();
 
-  /// @brief Method CompleteOperation, addr 0x47992fc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x479e270, size 0xe8, virtual false, abstract: false, final false
   inline void CompleteOperation();
 
-  /// @brief Method GetArrayResult, addr 0x4799110, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetArrayResult, addr 0x479e084, size 0x30, virtual false, abstract: false, final false
   inline void GetArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method GetAssetResult, addr 0x4799170, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetResult, addr 0x479e0e4, size 0xc0, virtual false, abstract: false, final false
   inline void GetAssetResult(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetSubObjectResult, addr 0x4799230, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAssetSubObjectResult, addr 0x479e1a4, size 0xcc, virtual false, abstract: false, final false
   inline void GetAssetSubObjectResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method GetListResult, addr 0x4799140, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetListResult, addr 0x479e0b4, size 0x30, virtual false, abstract: false, final false
   inline void GetListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -94,16 +94,16 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp* New_ctor();
 
-  /// @brief Method ProgressCallback, addr 0x47993e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ProgressCallback, addr 0x479e358, size 0x18, virtual false, abstract: false, final false
   inline float_t ProgressCallback();
 
-  /// @brief Method Start, addr 0x479869c, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x479d610, size 0x3c4, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x4799010, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x479df84, size 0x100, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method <Start>b__7_0, addr 0x47993fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__7_0, addr 0x479e370, size 0x4, virtual false, abstract: false, final false
   inline void _Start_b__7_0(::UnityEngine::AsyncOperation* operation);
 
   constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_subObjectName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4798694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479d608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
   BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15665 };
 
   /// @brief Field m_AssetBundle, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AssetBundle> ___m_AssetBundle;
@@ -209,10 +209,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x4798604, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x479d578, size 0x90, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method .ctor, addr 0x4798a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479d9d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -230,7 +230,7 @@ public:
   BundledAssetProvider(BundledAssetProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

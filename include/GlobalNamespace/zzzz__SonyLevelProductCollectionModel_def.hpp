@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_sieeDcCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e98ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed37c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set_noEnvironmentKeywordsProductData(::GlobalNamespace::SonyLevelProductCollectionModel_ProductData* value);
 
-  /// @brief Method .ctor, addr 0x26e98b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -306,25 +306,25 @@ public:
 
   constexpr void __cordl_internal_set__sieeDcCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e98ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed3bc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId, ::StringW sieeDcCode, ::StringW sieaAcCode);
 
-  /// @brief Method get_additionalProductData, addr 0x26e98e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalProductData, addr 0x26ed3b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_AdditionalProductData* get_additionalProductData();
 
-  /// @brief Method get_entitlementLabel, addr 0x26e98bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entitlementLabel, addr 0x26ed38c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_entitlementLabel();
 
-  /// @brief Method get_levelId, addr 0x26e98cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelId, addr 0x26ed39c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelId();
 
-  /// @brief Method get_productLabel, addr 0x26e98c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_productLabel, addr 0x26ed394, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_productLabel();
 
-  /// @brief Method get_sieaAcCode, addr 0x26e98dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sieaAcCode, addr 0x26ed3ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sieaAcCode();
 
-  /// @brief Method get_sieeDcCode, addr 0x26e98d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sieeDcCode, addr 0x26ed3a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sieeDcCode();
 
   /// @brief Convert to "::GlobalNamespace::ILevelProductData"
@@ -410,7 +410,7 @@ public:
 
   constexpr void __cordl_internal_set_noEnvironmentKeywordsProductLabel(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e993c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -493,7 +493,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x26e9a50, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x26ed520, size 0x20, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* other);
 
   static inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData*
@@ -540,27 +540,27 @@ public:
 
   constexpr void __cordl_internal_set__productLabel(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e9974, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed444, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul,
                     ::ArrayW<::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData*, ::Array<::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData*>*> levelProductsData,
                     int32_t packIndex);
 
-  /// @brief Method get_additionalPackProductData, addr 0x26e996c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalPackProductData, addr 0x26ed43c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_AdditionalPackProductData* get_additionalPackProductData();
 
-  /// @brief Method get_levelPackId, addr 0x26e994c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackId, addr 0x26ed41c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelPackId();
 
-  /// @brief Method get_levelProductsData, addr 0x26e9964, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelProductsData, addr 0x26ed434, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData*>* get_levelProductsData();
 
-  /// @brief Method get_packIndex, addr 0x26e995c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packIndex, addr 0x26ed42c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_packIndex();
 
-  /// @brief Method get_packLevelPriceDiscountMul, addr 0x26e9954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packLevelPriceDiscountMul, addr 0x26ed424, size 0x8, virtual false, abstract: false, final false
   inline float_t get_packLevelPriceDiscountMul();
 
-  /// @brief Method get_productLabel, addr 0x26e9944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_productLabel, addr 0x26ed414, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_productLabel();
 
   /// @brief Convert to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData*>"
@@ -678,19 +678,19 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e9a90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed560, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW targetLevelPackId, ::StringW shouldOwnLevelPackId, ::StringW redirectedProductLabel, ::StringW validUntilDate);
 
-  /// @brief Method get_redirectedProductLabel, addr 0x26e9a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedProductLabel, addr 0x26ed550, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_redirectedProductLabel();
 
-  /// @brief Method get_shouldOwnLevelPackId, addr 0x26e9a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shouldOwnLevelPackId, addr 0x26ed548, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shouldOwnLevelPackId();
 
-  /// @brief Method get_targetLevelPackId, addr 0x26e9a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetLevelPackId, addr 0x26ed540, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_targetLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x26e9a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x26ed558, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
@@ -768,13 +768,13 @@ public:
   __declspec(property(get = __cordl_internal_get__levelPackRedirectionData, put = __cordl_internal_set__levelPackRedirectionData)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>* _levelPackRedirectionData;
 
-  /// @brief Method GetLevelPackProductData, addr 0x26e97bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackProductData, addr 0x26ed28c, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
 
-  /// @brief Method GetLevelPackRedirectionData, addr 0x26e9834, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackRedirectionData, addr 0x26ed304, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData* GetLevelPackRedirectionData(::StringW levelPackId);
 
-  /// @brief Method GetLevelProductData, addr 0x26e9744, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelProductData, addr 0x26ed214, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW levelId);
 
   static inline ::GlobalNamespace::SonyLevelProductCollectionModel*
@@ -802,7 +802,7 @@ public:
   constexpr void
   __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>* value);
 
-  /// @brief Method .ctor, addr 0x26e8d84, size 0x9c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ec854, size 0x9c0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>* sonyLevelProductPacksSOs);
 
 protected:

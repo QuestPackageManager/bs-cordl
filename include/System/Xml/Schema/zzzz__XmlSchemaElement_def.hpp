@@ -156,24 +156,24 @@ public:
   /// @brief Field typeName, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::System::Xml::XmlQualifiedName* typeName;
 
-  /// @brief Method Clone, addr 0x42b93a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42be314, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
-  /// @brief Method Clone, addr 0x42b3fe4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x42b8f58, size 0x1cc, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone(::System::Xml::Schema::XmlSchema* parentSchema);
 
   static inline ::System::Xml::Schema::XmlSchemaElement* New_ctor();
 
-  /// @brief Method SetBlockResolved, addr 0x42b9318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBlockResolved, addr 0x42be28c, size 0x8, virtual false, abstract: false, final false
   inline void SetBlockResolved(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method SetElementType, addr 0x42b9310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetElementType, addr 0x42be284, size 0x8, virtual false, abstract: false, final false
   inline void SetElementType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method SetFinalResolved, addr 0x42b9320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFinalResolved, addr 0x42be294, size 0x8, virtual false, abstract: false, final false
   inline void SetFinalResolved(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method SetQualifiedName, addr 0x42b9308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x42be27c, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_block() const;
@@ -302,124 +302,124 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x42b93a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42be31c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Block, addr 0x42b9008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Block, addr 0x42bdf7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_Block();
 
-  /// @brief Method get_BlockResolved, addr 0x42b92f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockResolved, addr 0x42be26c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_BlockResolved();
 
-  /// @brief Method get_Constraints, addr 0x42b9284, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Constraints, addr 0x42be1f8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Constraints();
 
-  /// @brief Method get_DefaultValue, addr 0x42b9018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x42bdf8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValue();
 
-  /// @brief Method get_ElementDecl, addr 0x42b9360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementDecl, addr 0x42be2d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* get_ElementDecl();
 
-  /// @brief Method get_ElementSchemaType, addr 0x42b92f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementSchemaType, addr 0x42be264, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_ElementSchemaType();
 
-  /// @brief Method get_Final, addr 0x42b9028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Final, addr 0x42bdf9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_Final();
 
-  /// @brief Method get_FinalResolved, addr 0x42b9300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FinalResolved, addr 0x42be274, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_FinalResolved();
 
-  /// @brief Method get_FixedValue, addr 0x42b9038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FixedValue, addr 0x42bdfac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FixedValue();
 
-  /// @brief Method get_Form, addr 0x42b9048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x42bdfbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_HasAbstractAttribute, addr 0x42b908c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasAbstractAttribute, addr 0x42be000, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasAbstractAttribute();
 
-  /// @brief Method get_HasConstraints, addr 0x42b9328, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasConstraints, addr 0x42be29c, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasConstraints();
 
-  /// @brief Method get_HasNillableAttribute, addr 0x42b9084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasNillableAttribute, addr 0x42bdff8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasNillableAttribute();
 
-  /// @brief Method get_IsAbstract, addr 0x42b8fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAbstract, addr 0x42bdf60, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAbstract();
 
-  /// @brief Method get_IsLocalTypeDerivationChecked, addr 0x42b934c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsLocalTypeDerivationChecked, addr 0x42be2c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsLocalTypeDerivationChecked();
 
-  /// @brief Method get_IsNillable, addr 0x42b9068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNillable, addr 0x42bdfdc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNillable();
 
-  /// @brief Method get_Name, addr 0x42b9058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42bdfcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x42b9370, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x42be2e4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_NameString, addr 0x42b9380, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_NameString, addr 0x42be2f4, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_NameString();
 
-  /// @brief Method get_QualifiedName, addr 0x42b92e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x42be25c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_RefName, addr 0x42b9094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x42be008, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method get_SchemaType, addr 0x42b9274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x42be1e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_SchemaTypeName, addr 0x42b91d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaTypeName, addr 0x42be148, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_SchemaTypeName();
 
-  /// @brief Method get_SubstitutionGroup, addr 0x42b9134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubstitutionGroup, addr 0x42be0a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_SubstitutionGroup();
 
-  /// @brief Method set_Block, addr 0x42b9010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Block, addr 0x42bdf84, size 0x8, virtual false, abstract: false, final false
   inline void set_Block(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method set_DefaultValue, addr 0x42b9020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValue, addr 0x42bdf94, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValue(::StringW value);
 
-  /// @brief Method set_ElementDecl, addr 0x42b9368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ElementDecl, addr 0x42be2dc, size 0x8, virtual false, abstract: false, final false
   inline void set_ElementDecl(::System::Xml::Schema::SchemaElementDecl* value);
 
-  /// @brief Method set_Final, addr 0x42b9030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Final, addr 0x42bdfa4, size 0x8, virtual false, abstract: false, final false
   inline void set_Final(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method set_FixedValue, addr 0x42b9040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FixedValue, addr 0x42bdfb4, size 0x8, virtual false, abstract: false, final false
   inline void set_FixedValue(::StringW value);
 
-  /// @brief Method set_Form, addr 0x42b9050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Form, addr 0x42bdfc4, size 0x8, virtual false, abstract: false, final false
   inline void set_Form(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_IsAbstract, addr 0x42b8ff4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_IsAbstract, addr 0x42bdf68, size 0x14, virtual false, abstract: false, final false
   inline void set_IsAbstract(bool value);
 
-  /// @brief Method set_IsLocalTypeDerivationChecked, addr 0x42b9354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsLocalTypeDerivationChecked, addr 0x42be2c8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsLocalTypeDerivationChecked(bool value);
 
-  /// @brief Method set_IsNillable, addr 0x42b9070, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_IsNillable, addr 0x42bdfe4, size 0x14, virtual false, abstract: false, final false
   inline void set_IsNillable(bool value);
 
-  /// @brief Method set_Name, addr 0x42b9060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x42bdfd4, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x42b9378, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x42be2ec, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_RefName, addr 0x42b909c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x42be010, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_SchemaType, addr 0x42b927c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x42be1f0, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method set_SchemaTypeName, addr 0x42b91dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaTypeName, addr 0x42be150, size 0x98, virtual false, abstract: false, final false
   inline void set_SchemaTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_SubstitutionGroup, addr 0x42b913c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_SubstitutionGroup, addr 0x42be0b0, size 0x98, virtual false, abstract: false, final false
   inline void set_SubstitutionGroup(::System::Xml::XmlQualifiedName* value);
 
 protected:

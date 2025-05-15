@@ -41,13 +41,13 @@ public:
 
   static inline ::System::Dynamic::Utils::TypeUtils___c* New_ctor();
 
-  /// @brief Method <.cctor>b__44_0, addr 0x4102790, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__44_0, addr 0x4107704, size 0x28, virtual false, abstract: false, final false
   inline bool __cctor_b__44_0(::System::Type* i);
 
-  /// @brief Method <.cctor>b__44_1, addr 0x41027b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__44_1, addr 0x410772c, size 0x28, virtual false, abstract: false, final false
   inline ::System::Type* __cctor_b__44_1(::System::Type* i);
 
-  /// @brief Method .ctor, addr 0x4102788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41076fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Dynamic::Utils::TypeUtils___c* getStaticF___9();
@@ -69,7 +69,7 @@ public:
   TypeUtils___c(TypeUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,131 +89,131 @@ public:
   /// @brief Field s_arrayAssignableInterfaces, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_arrayAssignableInterfaces, put = setStaticF_s_arrayAssignableInterfaces)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> s_arrayAssignableInterfaces;
 
-  /// @brief Method AreEquivalent, addr 0x40fcb48, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AreEquivalent, addr 0x4101abc, size 0xa0, virtual false, abstract: false, final false
   static inline bool AreEquivalent(::System::Type* t1, ::System::Type* t2);
 
-  /// @brief Method AreReferenceAssignable, addr 0x40fe654, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AreReferenceAssignable, addr 0x41035c8, size 0xc8, virtual false, abstract: false, final false
   static inline bool AreReferenceAssignable(::System::Type* dest, ::System::Type* src);
 
-  /// @brief Method FindConversionOperator, addr 0x4101b1c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method FindConversionOperator, addr 0x4106a90, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindConversionOperator(::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> methods, ::System::Type* typeFrom,
                                                                          ::System::Type* typeTo);
 
-  /// @brief Method FindGenericType, addr 0x4101ce8, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method FindGenericType, addr 0x4106c5c, size 0x4a0, virtual false, abstract: false, final false
   static inline ::System::Type* FindGenericType(::System::Type* definition, ::System::Type* type);
 
-  /// @brief Method GetBooleanOperator, addr 0x4102188, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetBooleanOperator, addr 0x41070fc, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetBooleanOperator(::System::Type* type, ::StringW name);
 
-  /// @brief Method GetInvokeMethod, addr 0x41024d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetInvokeMethod, addr 0x4107448, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetInvokeMethod(::System::Type* delegateType);
 
-  /// @brief Method GetNonNullableType, addr 0x40ff528, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetNonNullableType, addr 0x410449c, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Type* GetNonNullableType(::System::Type* type);
 
-  /// @brief Method GetNonRefType, addr 0x41022fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetNonRefType, addr 0x4107270, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Type* GetNonRefType(::System::Type* type);
 
-  /// @brief Method GetNullableType, addr 0x40ff684, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetNullableType, addr 0x41045f8, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Type* GetNullableType(::System::Type* type);
 
-  /// @brief Method GetUserDefinedCoercionMethod, addr 0x4101904, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedCoercionMethod, addr 0x4106878, size 0x218, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetUserDefinedCoercionMethod(::System::Type* convertFrom, ::System::Type* convertToType);
 
-  /// @brief Method HasArrayToInterfaceConversion, addr 0x4100d1c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method HasArrayToInterfaceConversion, addr 0x4105c90, size 0x1c0, virtual false, abstract: false, final false
   static inline bool HasArrayToInterfaceConversion(::System::Type* source, ::System::Type* dest);
 
-  /// @brief Method HasBuiltInEqualityOperator, addr 0x41012c0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method HasBuiltInEqualityOperator, addr 0x4106234, size 0x1e4, virtual false, abstract: false, final false
   static inline bool HasBuiltInEqualityOperator(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method HasIdentityPrimitiveOrNullableConversionTo, addr 0x4100248, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method HasIdentityPrimitiveOrNullableConversionTo, addr 0x41051bc, size 0x22c, virtual false, abstract: false, final false
   static inline bool HasIdentityPrimitiveOrNullableConversionTo(::System::Type* source, ::System::Type* dest);
 
-  /// @brief Method HasInterfaceToArrayConversion, addr 0x4100edc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HasInterfaceToArrayConversion, addr 0x4105e50, size 0x1c4, virtual false, abstract: false, final false
   static inline bool HasInterfaceToArrayConversion(::System::Type* source, ::System::Type* dest);
 
-  /// @brief Method HasReferenceConversionTo, addr 0x410052c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method HasReferenceConversionTo, addr 0x41054a0, size 0x1e8, virtual false, abstract: false, final false
   static inline bool HasReferenceConversionTo(::System::Type* source, ::System::Type* dest);
 
-  /// @brief Method HasReferenceEquality, addr 0x41011e0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method HasReferenceEquality, addr 0x4106154, size 0xe0, virtual false, abstract: false, final false
   static inline bool HasReferenceEquality(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method IsArithmetic, addr 0x40ffa70, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsArithmetic, addr 0x41049e4, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsArithmetic(::System::Type* type);
 
-  /// @brief Method IsBool, addr 0x40ff844, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsBool, addr 0x41047b8, size 0xb4, virtual false, abstract: false, final false
   static inline bool IsBool(::System::Type* type);
 
-  /// @brief Method IsContravariant, addr 0x41010f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsContravariant, addr 0x4106068, size 0x28, virtual false, abstract: false, final false
   static inline bool IsContravariant(::System::Type* t);
 
-  /// @brief Method IsConvertible, addr 0x4100474, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsConvertible, addr 0x41053e8, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsConvertible(::System::Type* type);
 
-  /// @brief Method IsCovariant, addr 0x41010cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsCovariant, addr 0x4106040, size 0x28, virtual false, abstract: false, final false
   static inline bool IsCovariant(::System::Type* t);
 
-  /// @brief Method IsDelegate, addr 0x4101148, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsDelegate, addr 0x41060bc, size 0x98, virtual false, abstract: false, final false
   static inline bool IsDelegate(::System::Type* t);
 
-  /// @brief Method IsImplicitBoxingConversion, addr 0x41016ec, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsImplicitBoxingConversion, addr 0x4106660, size 0x170, virtual false, abstract: false, final false
   static inline bool IsImplicitBoxingConversion(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method IsImplicitNullableConversion, addr 0x410185c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsImplicitNullableConversion, addr 0x41067d0, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsImplicitNullableConversion(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method IsImplicitNumericConversion, addr 0x41015b0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsImplicitNumericConversion, addr 0x4106524, size 0x13c, virtual false, abstract: false, final false
   static inline bool IsImplicitNumericConversion(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method IsImplicitReferenceConversion, addr 0x41010a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsImplicitReferenceConversion, addr 0x4106014, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsImplicitReferenceConversion(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method IsImplicitlyConvertibleTo, addr 0x41014a4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method IsImplicitlyConvertibleTo, addr 0x4106418, size 0x10c, virtual false, abstract: false, final false
   static inline bool IsImplicitlyConvertibleTo(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method IsInteger, addr 0x40ff9b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsInteger, addr 0x4104928, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsInteger(::System::Type* type);
 
-  /// @brief Method IsIntegerOrBool, addr 0x40ffbec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsIntegerOrBool, addr 0x4104b60, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsIntegerOrBool(::System::Type* type);
 
-  /// @brief Method IsInvariant, addr 0x410111c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsInvariant, addr 0x4106090, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsInvariant(::System::Type* t);
 
-  /// @brief Method IsLegalExplicitVariantDelegateConversion, addr 0x4100714, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method IsLegalExplicitVariantDelegateConversion, addr 0x4105688, size 0x308, virtual false, abstract: false, final false
   static inline bool IsLegalExplicitVariantDelegateConversion(::System::Type* source, ::System::Type* dest);
 
-  /// @brief Method IsNullableOrReferenceType, addr 0x40ff7c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsNullableOrReferenceType, addr 0x410473c, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsNullableOrReferenceType(::System::Type* type);
 
-  /// @brief Method IsNullableType, addr 0x40ff5b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsNullableType, addr 0x410452c, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsNullableType(::System::Type* type);
 
-  /// @brief Method IsNumeric, addr 0x40ff8f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsNumeric, addr 0x410486c, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsNumeric(::System::Type* type);
 
-  /// @brief Method IsNumericOrBool, addr 0x40ffcb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsNumericOrBool, addr 0x4104c24, size 0x80, virtual false, abstract: false, final false
   static inline bool IsNumericOrBool(::System::Type* type);
 
-  /// @brief Method IsSameOrSubclass, addr 0x40fe848, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsSameOrSubclass, addr 0x41037bc, size 0x9c, virtual false, abstract: false, final false
   static inline bool IsSameOrSubclass(::System::Type* type, ::System::Type* subType);
 
-  /// @brief Method IsUnsignedInt, addr 0x40ffb2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsUnsignedInt, addr 0x4104aa0, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsUnsignedInt(::System::Type* type);
 
-  /// @brief Method IsValidInstanceType, addr 0x40ffd30, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method IsValidInstanceType, addr 0x4104ca4, size 0x518, virtual false, abstract: false, final false
   static inline bool IsValidInstanceType(::System::Reflection::MemberInfo* member, ::System::Type* instanceType);
 
-  /// @brief Method StrictHasReferenceConversionTo, addr 0x4100a1c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method StrictHasReferenceConversionTo, addr 0x4105990, size 0x300, virtual false, abstract: false, final false
   static inline bool StrictHasReferenceConversionTo(::System::Type* source, ::System::Type* dest, bool skipNonArray);
 
-  /// @brief Method ValidateType, addr 0x41023a8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ValidateType, addr 0x410731c, size 0x12c, virtual false, abstract: false, final false
   static inline bool ValidateType(::System::Type* type, ::StringW paramName, int32_t index);
 
-  /// @brief Method ValidateType, addr 0x410233c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ValidateType, addr 0x41072b0, size 0x6c, virtual false, abstract: false, final false
   static inline void ValidateType(::System::Type* type, ::StringW paramName);
 
-  /// @brief Method ValidateType, addr 0x40fe568, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ValidateType, addr 0x41034dc, size 0xec, virtual false, abstract: false, final false
   static inline void ValidateType(::System::Type* type, ::StringW paramName, bool allowByRef, bool allowPointer);
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_s_arrayAssignableInterfaces();
@@ -235,7 +235,7 @@ public:
   TypeUtils(TypeUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14190 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Reflection::TargetParameterCountException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d2397c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d288f0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d239fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d28970, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d239d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2894c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

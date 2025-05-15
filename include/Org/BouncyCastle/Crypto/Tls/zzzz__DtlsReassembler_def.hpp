@@ -53,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set_mStart(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23efecc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f397c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end);
 
-  /// @brief Method get_End, addr 0x23f0690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x23f4140, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_End();
 
-  /// @brief Method get_Start, addr 0x23f0680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x23f4130, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Start();
 
-  /// @brief Method set_End, addr 0x23f0698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_End, addr 0x23f4148, size 0x8, virtual false, abstract: false, final false
   inline void set_End(int32_t value);
 
-  /// @brief Method set_Start, addr 0x23f0688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Start, addr 0x23f4138, size 0x8, virtual false, abstract: false, final false
   inline void set_Start(int32_t value);
 
 protected:
@@ -121,15 +121,15 @@ public:
   /// @brief Field mMsgType, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mMsgType, put = __cordl_internal_set_mMsgType)) uint8_t mMsgType;
 
-  /// @brief Method ContributeFragment, addr 0x23effb8, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method ContributeFragment, addr 0x23f3a68, size 0x57c, virtual false, abstract: false, final false
   inline void ContributeFragment(uint8_t msg_type, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t fragment_offset, int32_t fragment_length);
 
-  /// @brief Method GetBodyIfComplete, addr 0x23eff00, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBodyIfComplete, addr 0x23f39b0, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBodyIfComplete();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReassembler* New_ctor(uint8_t msg_type, int32_t length);
 
-  /// @brief Method Reset, addr 0x23f0534, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x23f3fe4, size 0x14c, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mBody() const;
@@ -150,10 +150,10 @@ public:
 
   constexpr void __cordl_internal_set_mMsgType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23efd84, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f3834, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(uint8_t msg_type, int32_t length);
 
-  /// @brief Method get_MsgType, addr 0x23efef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MsgType, addr 0x23f39a8, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_MsgType();
 
 protected:

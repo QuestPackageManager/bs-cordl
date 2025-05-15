@@ -40,7 +40,7 @@ public:
   New_ctor(::System::Reflection::ConstructorInfo* target, int32_t argumentCount,
            ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> byrefArgs);
 
-  /// @brief Method Run, addr 0x40ea828, size 0x214, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x40ef79c, size 0x214, virtual true, abstract: false, final true
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> const& __cordl_internal_get__byrefArgs() const;
@@ -49,11 +49,11 @@ public:
 
   constexpr void __cordl_internal_set__byrefArgs(::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> value);
 
-  /// @brief Method .ctor, addr 0x40ea7a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ef71c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* target, int32_t argumentCount,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> byrefArgs);
 
-  /// @brief Method get_InstructionName, addr 0x40ea7e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40ef75c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -71,7 +71,7 @@ public:
   ByRefNewInstruction(ByRefNewInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14023 };
 
   /// @brief Field _byrefArgs, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> ____byrefArgs;

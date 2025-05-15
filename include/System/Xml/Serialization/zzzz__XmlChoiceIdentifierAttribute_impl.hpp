@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::XmlChoiceIdentifierAttribute::*)()>(
     &::System::Xml::Serialization::XmlChoiceIdentifierAttribute::get_MemberName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x436c874;
+  constexpr static std::size_t addrs = 0x43717e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlChoiceIdentifierAttribute::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::Serialization::XmlChoiceIdentifierAttribute::AddKeyHash)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x436c3f4;
+  constexpr static std::size_t addrs = 0x4371368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

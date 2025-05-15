@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_fullyLit(bool value);
 
-  /// @brief Method .ctor, addr 0x3b99a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9e99c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,7 +166,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SpawnRotationChevronManager_QueuedDirectionData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3b99a1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9e990, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t duration, int32_t rotation);
 
   // Ctor Parameters []
@@ -278,24 +278,24 @@ public:
   __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
                       put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
-  /// @brief Method HandleBeatmapObjectCallback, addr 0x3b99968, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectCallback, addr 0x3b9e8dc, size 0xb4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b98bc0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b9db34, size 0x148, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b99870, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9e7e4, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SpawnDirectionData, addr 0x3b994f8, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method SpawnDirectionData, addr 0x3b9e46c, size 0x378, virtual false, abstract: false, final false
   inline void SpawnDirectionData(float_t time, float_t duration, int32_t rotation);
 
-  /// @brief Method Start, addr 0x3b98b20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9da94, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b98d08, size 0x7f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9dc7c, size 0x7f0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__activeDirections() const;
@@ -406,7 +406,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3b99a30, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9e9a4, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

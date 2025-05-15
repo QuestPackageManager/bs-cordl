@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_materialHashCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47c1094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c6008, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instanceID, addr 0x47c106c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x47c5fe0, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
 protected:
@@ -83,7 +83,7 @@ public:
   TMP_Asset(TMP_Asset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14449 };
 
   /// @brief Field m_InstanceID, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_InstanceID;

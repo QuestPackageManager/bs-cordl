@@ -55,36 +55,36 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*();
 
-  /// @brief Method Equals, addr 0x49975c8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x499d628, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4997680, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x499d6e0, size 0x158, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::CreationContext other);
 
-  /// @brief Method GetHashCode, addr 0x49977d8, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x499d838, size 0x128, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4997550, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d5b0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides, ::UnityEngine::UIElements::VisualTreeAsset* vta,
                     ::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method .ctor, addr 0x49974d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d530, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints, ::UnityEngine::UIElements::VisualTreeAsset* vta,
                     ::UnityEngine::UIElements::VisualElement* target);
 
   static inline ::UnityEngine::UIElements::CreationContext getStaticF_Default();
 
-  /// @brief Method get_attributeOverrides, addr 0x49974c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x499d520, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_slotInsertionPoints, addr 0x49974b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotInsertionPoints, addr 0x499d510, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* get_slotInsertionPoints();
 
-  /// @brief Method get_target, addr 0x4997490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x499d4f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_target();
 
-  /// @brief Method get_visualTreeAsset, addr 0x49974a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualTreeAsset, addr 0x499d500, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
@@ -92,16 +92,16 @@ public:
 
   static inline void setStaticF_Default(::UnityEngine::UIElements::CreationContext value);
 
-  /// @brief Method set_attributeOverrides, addr 0x49974c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_attributeOverrides, addr 0x499d528, size 0x8, virtual false, abstract: false, final false
   inline void set_attributeOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* value);
 
-  /// @brief Method set_slotInsertionPoints, addr 0x49974b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_slotInsertionPoints, addr 0x499d518, size 0x8, virtual false, abstract: false, final false
   inline void set_slotInsertionPoints(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_target, addr 0x4997498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x499d4f8, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_visualTreeAsset, addr 0x49974a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_visualTreeAsset, addr 0x499d508, size 0x8, virtual false, abstract: false, final false
   inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* value);
 
   // Ctor Parameters []

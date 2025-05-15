@@ -196,7 +196,7 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <WhenInjectedIntoInstance>b__0, addr 0x4afa750, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedIntoInstance>b__0, addr 0x4b007b0, size 0x24, virtual false, abstract: false, final false
   inline bool _WhenInjectedIntoInstance_b__0(::Zenject::InjectContext* r);
 
   constexpr ::System::Object* const& __cordl_internal_get_instance() const;
@@ -205,13 +205,13 @@ public:
 
   constexpr void __cordl_internal_set_instance(::System::Object* value);
 
-  /// @brief Method __zenCreate, addr 0x4afa774, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b007d4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afa7c8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b00828, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4afa680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b006e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -254,7 +254,7 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <WhenInjectedInto>b__0, addr 0x4afa980, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedInto>b__0, addr 0x4b009e0, size 0xf0, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__0(::Zenject::InjectContext* r);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_targets() const;
@@ -263,13 +263,13 @@ public:
 
   constexpr void __cordl_internal_set_targets(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method __zenCreate, addr 0x4afaa78, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b00ad8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afaacc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b00b2c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4afa748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b007a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -312,7 +312,7 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_1* New_ctor();
 
-  /// @brief Method <WhenInjectedInto>b__1, addr 0x4afac84, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedInto>b__1, addr 0x4b00ce4, size 0xc0, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__1(::System::Type* x);
 
   constexpr ::Zenject::InjectContext* const& __cordl_internal_get_r() const;
@@ -321,13 +321,13 @@ public:
 
   constexpr void __cordl_internal_set_r(::Zenject::InjectContext* value);
 
-  /// @brief Method __zenCreate, addr 0x4afad44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b00da4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afad98, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b00df8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4afaa70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b00ad0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -377,22 +377,22 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method When, addr 0x4afa5a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method When, addr 0x4b00604, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* When(::Zenject::BindingCondition* condition);
 
   /// @brief Method WhenInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto();
 
-  /// @brief Method WhenInjectedInto, addr 0x4afa688, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WhenInjectedInto, addr 0x4b006e8, size 0xc0, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayW<::System::Type*, ::Array<::System::Type*>*> targets);
 
-  /// @brief Method WhenInjectedIntoInstance, addr 0x4afa5c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WhenInjectedIntoInstance, addr 0x4b00620, size 0xc0, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::System::Object* instance);
 
   /// @brief Method WhenNotInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenNotInjectedInto();
 
-  /// @brief Method .ctor, addr 0x4afa594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b005f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

@@ -63,21 +63,21 @@ public:
 
   __declspec(property(get = get_multiplayerModeSettings)) ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
 
-  /// @brief Method ButtonPressed, addr 0x3b68390, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x3b6d304, size 0x8c, virtual false, abstract: false, final false
   inline void ButtonPressed(bool success);
 
-  /// @brief Method DidActivate, addr 0x3b68270, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6d1e4, size 0x120, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::JoinQuickPlayViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3b681e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b6d154, size 0x90, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method <DidActivate>b__12_0, addr 0x3b68424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_0, addr 0x3b6d398, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
-  /// @brief Method <DidActivate>b__12_1, addr 0x3b6842c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_1, addr 0x3b6d3a0, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_1();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& __cordl_internal_get__beatmapDifficultyDropdown() const;
@@ -122,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3b6841c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6d390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b68078, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b6cfec, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_multiplayerModeSettings, addr 0x3b681d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x3b6d14c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b68128, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b6d09c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<bool>* value);
 
 protected:

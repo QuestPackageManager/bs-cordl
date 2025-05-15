@@ -41,13 +41,13 @@ public:
 
   __declspec(property(get = get_RemainingMilliseconds)) int32_t RemainingMilliseconds;
 
-  /// @brief Method .ctor, addr 0x4102bd4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4107b48, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t millisecondsTimeout);
 
-  /// @brief Method get_IsExpired, addr 0x4102fec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsExpired, addr 0x4107f60, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsExpired();
 
-  /// @brief Method get_RemainingMilliseconds, addr 0x4103f40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_RemainingMilliseconds, addr 0x4108eb4, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_RemainingMilliseconds();
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   constexpr ReaderWriterLockSlim_TimeoutTracker(int32_t m_total, int32_t m_start) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14200 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -166,122 +166,122 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ClearUpgraderWaiting, addr 0x41040b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearUpgraderWaiting, addr 0x4109024, size 0x10, virtual false, abstract: false, final false
   inline void ClearUpgraderWaiting();
 
-  /// @brief Method ClearWriterAcquired, addr 0x4103d78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearWriterAcquired, addr 0x4108cec, size 0x10, virtual false, abstract: false, final false
   inline void ClearWriterAcquired();
 
-  /// @brief Method ClearWritersWaiting, addr 0x41040a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearWritersWaiting, addr 0x4109014, size 0x10, virtual false, abstract: false, final false
   inline void ClearWritersWaiting();
 
-  /// @brief Method Dispose, addr 0x41041cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4109140, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x41041d4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4109148, size 0x140, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnterMyLock, addr 0x41040c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method EnterMyLock, addr 0x4109034, size 0x34, virtual false, abstract: false, final false
   inline void EnterMyLock();
 
-  /// @brief Method EnterMyLockSpin, addr 0x41040f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method EnterMyLockSpin, addr 0x4109068, size 0xd8, virtual false, abstract: false, final false
   inline void EnterMyLockSpin();
 
-  /// @brief Method EnterReadLock, addr 0x4102ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnterReadLock, addr 0x4107b14, size 0x8, virtual false, abstract: false, final false
   inline void EnterReadLock();
 
-  /// @brief Method EnterUpgradeableReadLock, addr 0x4103700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnterUpgradeableReadLock, addr 0x4108674, size 0x8, virtual false, abstract: false, final false
   inline void EnterUpgradeableReadLock();
 
-  /// @brief Method EnterWriteLock, addr 0x41032bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnterWriteLock, addr 0x4108230, size 0x8, virtual false, abstract: false, final false
   inline void EnterWriteLock();
 
-  /// @brief Method ExitAndWakeUpAppropriateReadWaiters, addr 0x410400c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ExitAndWakeUpAppropriateReadWaiters, addr 0x4108f80, size 0x94, virtual false, abstract: false, final false
   inline void ExitAndWakeUpAppropriateReadWaiters();
 
-  /// @brief Method ExitAndWakeUpAppropriateWaiters, addr 0x4103c04, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ExitAndWakeUpAppropriateWaiters, addr 0x4108b78, size 0x2c, virtual false, abstract: false, final false
   inline void ExitAndWakeUpAppropriateWaiters();
 
-  /// @brief Method ExitAndWakeUpAppropriateWaitersPreferringWriters, addr 0x4103f88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ExitAndWakeUpAppropriateWaitersPreferringWriters, addr 0x4108efc, size 0x84, virtual false, abstract: false, final false
   inline void ExitAndWakeUpAppropriateWaitersPreferringWriters();
 
-  /// @brief Method ExitMyLock, addr 0x4102fd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ExitMyLock, addr 0x4107f48, size 0x18, virtual false, abstract: false, final false
   inline void ExitMyLock();
 
-  /// @brief Method ExitReadLock, addr 0x4103a98, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ExitReadLock, addr 0x4108a0c, size 0x16c, virtual false, abstract: false, final false
   inline void ExitReadLock();
 
-  /// @brief Method ExitUpgradeableReadLock, addr 0x4103d88, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ExitUpgradeableReadLock, addr 0x4108cfc, size 0x198, virtual false, abstract: false, final false
   inline void ExitUpgradeableReadLock();
 
-  /// @brief Method ExitWriteLock, addr 0x4103c30, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ExitWriteLock, addr 0x4108ba4, size 0x148, virtual false, abstract: false, final false
   inline void ExitWriteLock();
 
-  /// @brief Method GetNumReaders, addr 0x41036f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNumReaders, addr 0x4108668, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetNumReaders();
 
-  /// @brief Method GetThreadRWCount, addr 0x4102a74, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetThreadRWCount, addr 0x41079e8, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Threading::ReaderWriterCount* GetThreadRWCount(bool dontAllocate);
 
-  /// @brief Method InitializeThreadCounts, addr 0x4102978, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitializeThreadCounts, addr 0x41078ec, size 0xc, virtual false, abstract: false, final false
   inline void InitializeThreadCounts();
 
-  /// @brief Method IsRWEntryEmpty, addr 0x4102a10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsRWEntryEmpty, addr 0x4107984, size 0x40, virtual false, abstract: false, final false
   static inline bool IsRWEntryEmpty(::System::Threading::ReaderWriterCount* rwc);
 
-  /// @brief Method IsRwHashEntryChanged, addr 0x4102a50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsRwHashEntryChanged, addr 0x41079c4, size 0x24, virtual false, abstract: false, final false
   inline bool IsRwHashEntryChanged(::System::Threading::ReaderWriterCount* lrwc);
 
-  /// @brief Method IsWriterAcquired, addr 0x41036d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsWriterAcquired, addr 0x4108648, size 0x10, virtual false, abstract: false, final false
   inline bool IsWriterAcquired();
 
-  /// @brief Method LazyCreateEvent, addr 0x410309c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LazyCreateEvent, addr 0x4108010, size 0xfc, virtual false, abstract: false, final false
   inline void LazyCreateEvent(::ByRef<::System::Threading::EventWaitHandle*> waitEvent, bool makeAutoResetEvent);
 
   static inline ::System::Threading::ReaderWriterLockSlim* New_ctor();
 
   static inline ::System::Threading::ReaderWriterLockSlim* New_ctor(::System::Threading::LockRecursionPolicy recursionPolicy);
 
-  /// @brief Method SetUpgraderWaiting, addr 0x4103f30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetUpgraderWaiting, addr 0x4108ea4, size 0x10, virtual false, abstract: false, final false
   inline void SetUpgraderWaiting();
 
-  /// @brief Method SetWriterAcquired, addr 0x41036e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetWriterAcquired, addr 0x4108658, size 0x10, virtual false, abstract: false, final false
   inline void SetWriterAcquired();
 
-  /// @brief Method SetWritersWaiting, addr 0x4103f20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetWritersWaiting, addr 0x4108e94, size 0x10, virtual false, abstract: false, final false
   inline void SetWritersWaiting();
 
-  /// @brief Method SpinWait, addr 0x4103004, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SpinWait, addr 0x4107f78, size 0x98, virtual false, abstract: false, final false
   static inline void SpinWait(int32_t SpinCount);
 
-  /// @brief Method TryEnterReadLock, addr 0x4102ba8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryEnterReadLock, addr 0x4107b1c, size 0x2c, virtual false, abstract: false, final false
   inline bool TryEnterReadLock(int32_t millisecondsTimeout);
 
-  /// @brief Method TryEnterReadLock, addr 0x4102c58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryEnterReadLock, addr 0x4107bcc, size 0x4, virtual false, abstract: false, final false
   inline bool TryEnterReadLock(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterReadLockCore, addr 0x4102c5c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method TryEnterReadLockCore, addr 0x4107bd0, size 0x378, virtual false, abstract: false, final false
   inline bool TryEnterReadLockCore(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterUpgradeableReadLock, addr 0x4103708, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryEnterUpgradeableReadLock, addr 0x410867c, size 0x2c, virtual false, abstract: false, final false
   inline bool TryEnterUpgradeableReadLock(int32_t millisecondsTimeout);
 
-  /// @brief Method TryEnterUpgradeableReadLock, addr 0x4103734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryEnterUpgradeableReadLock, addr 0x41086a8, size 0x4, virtual false, abstract: false, final false
   inline bool TryEnterUpgradeableReadLock(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterUpgradeableReadLockCore, addr 0x4103738, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method TryEnterUpgradeableReadLockCore, addr 0x41086ac, size 0x360, virtual false, abstract: false, final false
   inline bool TryEnterUpgradeableReadLockCore(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterWriteLock, addr 0x41032c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryEnterWriteLock, addr 0x4108238, size 0x2c, virtual false, abstract: false, final false
   inline bool TryEnterWriteLock(int32_t millisecondsTimeout);
 
-  /// @brief Method TryEnterWriteLock, addr 0x41032f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryEnterWriteLock, addr 0x4108264, size 0x4, virtual false, abstract: false, final false
   inline bool TryEnterWriteLock(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterWriteLockCore, addr 0x41032f4, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method TryEnterWriteLockCore, addr 0x4108268, size 0x3e0, virtual false, abstract: false, final false
   inline bool TryEnterWriteLockCore(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method WaitOnEvent, addr 0x4103198, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WaitOnEvent, addr 0x410810c, size 0x124, virtual false, abstract: false, final false
   inline bool WaitOnEvent(::System::Threading::EventWaitHandle* waitEvent, ::ByRef<uint32_t> numWaiters, ::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout, bool isWriteWaiter);
 
   constexpr bool const& __cordl_internal_get_fDisposed() const;
@@ -386,41 +386,41 @@ public:
 
   constexpr void __cordl_internal_set_writeLockOwnerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4102984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41078f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x410298c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4107900, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::LockRecursionPolicy recursionPolicy);
 
   static inline int64_t getStaticF_s_nextLockID();
 
   static inline ::System::Threading::ReaderWriterCount* getStaticF_t_rwc();
 
-  /// @brief Method get_IsReadLockHeld, addr 0x4104314, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadLockHeld, addr 0x4109288, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsReadLockHeld();
 
-  /// @brief Method get_IsUpgradeableReadLockHeld, addr 0x410432c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpgradeableReadLockHeld, addr 0x41092a0, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsUpgradeableReadLockHeld();
 
-  /// @brief Method get_IsWriteLockHeld, addr 0x4104344, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsWriteLockHeld, addr 0x41092b8, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsWriteLockHeld();
 
-  /// @brief Method get_RecursiveReadCount, addr 0x410435c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_RecursiveReadCount, addr 0x41092d0, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_RecursiveReadCount();
 
-  /// @brief Method get_RecursiveUpgradeCount, addr 0x41043dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_RecursiveUpgradeCount, addr 0x4109350, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_RecursiveUpgradeCount();
 
-  /// @brief Method get_RecursiveWriteCount, addr 0x410448c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_RecursiveWriteCount, addr 0x4109400, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_RecursiveWriteCount();
 
-  /// @brief Method get_WaitingReadCount, addr 0x410453c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WaitingReadCount, addr 0x41094b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WaitingReadCount();
 
-  /// @brief Method get_WaitingUpgradeCount, addr 0x4104544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WaitingUpgradeCount, addr 0x41094b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WaitingUpgradeCount();
 
-  /// @brief Method get_WaitingWriteCount, addr 0x410454c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_WaitingWriteCount, addr 0x41094c0, size 0x134, virtual false, abstract: false, final false
   inline int32_t get_WaitingWriteCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -445,7 +445,7 @@ public:
   ReaderWriterLockSlim(ReaderWriterLockSlim const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14201 };
 
   /// @brief Field fIsReentrant, offset: 0x10, size: 0x1, def value: None
   bool ___fIsReentrant;

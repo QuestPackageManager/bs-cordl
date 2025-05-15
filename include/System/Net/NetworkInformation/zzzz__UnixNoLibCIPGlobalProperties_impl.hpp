@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::get_DomainName)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x43e9994;
+  constexpr static std::size_t addrs = 0x43ee908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e99dc;
+  constexpr static std::size_t addrs = 0x43ee950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

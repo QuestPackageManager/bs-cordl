@@ -22,10 +22,10 @@ namespace UnityEngine {
 class CORDL_TYPE HashUnsafeUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeHash128, addr 0x4894e58, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash128, addr 0x489aeb8, size 0x40, virtual false, abstract: false, final false
   static inline void ComputeHash128(::cordl_internals::Ptr<void> data, uint64_t dataSize, ::cordl_internals::Ptr<::UnityEngine::Hash128> hash);
 
-  /// @brief Method ComputeHash128, addr 0x4894ad4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash128, addr 0x489ab34, size 0x7c, virtual false, abstract: false, final false
   static inline void ComputeHash128(::cordl_internals::Ptr<void> data, uint64_t dataSize, ::cordl_internals::Ptr<uint64_t> hash1, ::cordl_internals::Ptr<uint64_t> hash2);
 
 protected:

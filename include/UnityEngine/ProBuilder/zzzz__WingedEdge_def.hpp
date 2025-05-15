@@ -80,13 +80,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::WingedEdge___c* New_ctor();
 
-  /// @brief Method <SortCommonIndexesByAdjacency>b__32_1, addr 0x4747b14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortCommonIndexesByAdjacency>b__32_1, addr 0x474ca88, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _SortCommonIndexesByAdjacency_b__32_1(::UnityEngine::ProBuilder::WingedEdge* y);
 
-  /// @brief Method <SortCommonIndexesByAdjacency>b__32_2, addr 0x4747b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SortCommonIndexesByAdjacency>b__32_2, addr 0x474caa0, size 0x8, virtual false, abstract: false, final false
   inline int32_t _SortCommonIndexesByAdjacency_b__32_2(::UnityEngine::ProBuilder::Edge x);
 
-  /// @brief Method .ctor, addr 0x4747b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474ca80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::WingedEdge___c* getStaticF___9();
@@ -116,7 +116,7 @@ public:
   WingedEdge___c(WingedEdge___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14338 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -136,7 +136,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method <SortCommonIndexesByAdjacency>b__0, addr 0x4747b34, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <SortCommonIndexesByAdjacency>b__0, addr 0x474caa8, size 0x84, virtual false, abstract: false, final false
   inline bool _SortCommonIndexesByAdjacency_b__0(::UnityEngine::ProBuilder::WingedEdge* x);
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_common() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_common(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x474721c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474c190, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   WingedEdge___c__DisplayClass32_0(WingedEdge___c__DisplayClass32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14339 };
 
   /// @brief Field common, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___common;
@@ -220,48 +220,48 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>*() noexcept;
 
-  /// @brief Method Count, addr 0x47461a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x474b11c, size 0x34, virtual false, abstract: false, final false
   inline int32_t Count();
 
-  /// @brief Method Equals, addr 0x4746048, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x474afbc, size 0xf4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4745fc0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x474af34, size 0x88, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::WingedEdge* other);
 
-  /// @brief Method GetAdjacentEdgeWithCommonIndex, addr 0x47467a4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAdjacentEdgeWithCommonIndex, addr 0x474b718, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::WingedEdge* GetAdjacentEdgeWithCommonIndex(int32_t common);
 
-  /// @brief Method GetHashCode, addr 0x474613c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x474b0b0, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSpokes, addr 0x4746b1c, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method GetSpokes, addr 0x474ba90, size 0x418, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>*
   GetSpokes(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings);
 
-  /// @brief Method GetWingedEdges, addr 0x4747318, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method GetWingedEdges, addr 0x474c28c, size 0x70c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*
   GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool oneWingPerFace);
 
-  /// @brief Method GetWingedEdges, addr 0x4747224, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetWingedEdges, addr 0x474c198, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, bool oneWingPerFace);
 
-  /// @brief Method MakeQuad, addr 0x47463d0, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method MakeQuad, addr 0x474b344, size 0x3d4, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> MakeQuad(::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right);
 
   static inline ::UnityEngine::ProBuilder::WingedEdge* New_ctor();
 
-  /// @brief Method SortCommonIndexesByAdjacency, addr 0x4746f34, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method SortCommonIndexesByAdjacency, addr 0x474bea8, size 0x2e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* SortCommonIndexesByAdjacency(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings,
                                                                                               ::System::Collections::Generic::HashSet_1<int32_t>* common);
 
-  /// @brief Method SortEdgesByAdjacency, addr 0x4746870, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SortEdgesByAdjacency, addr 0x474b7e4, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* SortEdgesByAdjacency(::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method SortEdgesByAdjacency, addr 0x4746984, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method SortEdgesByAdjacency, addr 0x474b8f8, size 0x198, virtual false, abstract: false, final false
   static inline void SortEdgesByAdjacency(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method ToString, addr 0x47461dc, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x474b150, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __cordl_internal_get__edge_k__BackingField() const;
@@ -294,24 +294,24 @@ public:
 
   constexpr void __cordl_internal_set__previous_k__BackingField(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  /// @brief Method .ctor, addr 0x4745fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474af2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>* getStaticF_k_OppositeEdgeDictionary();
 
-  /// @brief Method get_edge, addr 0x4745f64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_edge, addr 0x474aed8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::EdgeLookup get_edge();
 
-  /// @brief Method get_face, addr 0x4745f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_face, addr 0x474aeec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* get_face();
 
-  /// @brief Method get_next, addr 0x4745f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x474aefc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::WingedEdge* get_next();
 
-  /// @brief Method get_opposite, addr 0x4745fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opposite, addr 0x474af1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::WingedEdge* get_opposite();
 
-  /// @brief Method get_previous, addr 0x4745f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previous, addr 0x474af0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::WingedEdge* get_previous();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>"
@@ -319,19 +319,19 @@ public:
 
   static inline void setStaticF_k_OppositeEdgeDictionary(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>* value);
 
-  /// @brief Method set_edge, addr 0x4745f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_edge, addr 0x474aee4, size 0x8, virtual false, abstract: false, final false
   inline void set_edge(::UnityEngine::ProBuilder::EdgeLookup value);
 
-  /// @brief Method set_face, addr 0x4745f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_face, addr 0x474aef4, size 0x8, virtual false, abstract: false, final false
   inline void set_face(::UnityEngine::ProBuilder::Face* value);
 
-  /// @brief Method set_next, addr 0x4745f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x474af04, size 0x8, virtual false, abstract: false, final false
   inline void set_next(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  /// @brief Method set_opposite, addr 0x4745fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_opposite, addr 0x474af24, size 0x8, virtual false, abstract: false, final false
   inline void set_opposite(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  /// @brief Method set_previous, addr 0x4745fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previous, addr 0x474af14, size 0x8, virtual false, abstract: false, final false
   inline void set_previous(::UnityEngine::ProBuilder::WingedEdge* value);
 
 protected:
@@ -349,7 +349,7 @@ public:
   WingedEdge(WingedEdge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14340 };
 
   /// @brief Field <edge>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::ProBuilder::EdgeLookup ____edge_k__BackingField;

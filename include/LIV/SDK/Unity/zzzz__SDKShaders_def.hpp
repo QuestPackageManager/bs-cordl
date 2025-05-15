@@ -29,22 +29,22 @@ public:
   /// @brief Field LIV_TESSELLATION_PROPERTY, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_LIV_TESSELLATION_PROPERTY, put = setStaticF_LIV_TESSELLATION_PROPERTY)) int32_t LIV_TESSELLATION_PROPERTY;
 
-  /// @brief Method StartBackgroundRendering, addr 0x3abfa6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundRendering, addr 0x3ac49e0, size 0x44, virtual false, abstract: false, final false
   static inline void StartBackgroundRendering();
 
-  /// @brief Method StartForegroundRendering, addr 0x3abfe70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartForegroundRendering, addr 0x3ac4de4, size 0x44, virtual false, abstract: false, final false
   static inline void StartForegroundRendering();
 
-  /// @brief Method StartRendering, addr 0x3abfa28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartRendering, addr 0x3ac499c, size 0x44, virtual false, abstract: false, final false
   static inline void StartRendering();
 
-  /// @brief Method StopBackgroundRendering, addr 0x3abfc14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopBackgroundRendering, addr 0x3ac4b88, size 0x44, virtual false, abstract: false, final false
   static inline void StopBackgroundRendering();
 
-  /// @brief Method StopForegroundRendering, addr 0x3abff24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopForegroundRendering, addr 0x3ac4e98, size 0x44, virtual false, abstract: false, final false
   static inline void StopForegroundRendering();
 
-  /// @brief Method StopRendering, addr 0x3abfc58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopRendering, addr 0x3ac4bcc, size 0x44, virtual false, abstract: false, final false
   static inline void StopRendering();
 
   static inline int32_t getStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY();
@@ -107,7 +107,7 @@ public:
   static constexpr ::ConstString LIV_WRITE_SHADER{ u"Hidden/LIV_Write" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17318 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

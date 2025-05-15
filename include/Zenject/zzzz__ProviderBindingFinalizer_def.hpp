@@ -71,19 +71,19 @@ public:
 
   static inline ::Zenject::ProviderBindingFinalizer___c* New_ctor();
 
-  /// @brief Method <FinalizeBinding>b__8_0, addr 0x4b175e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBinding>b__8_0, addr 0x4b1d644, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _FinalizeBinding_b__8_0(::System::Type* x);
 
-  /// @brief Method <GetScope>b__7_0, addr 0x4b1758c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetScope>b__7_0, addr 0x4b1d5ec, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _GetScope_b__7_0(::System::Type* x);
 
-  /// @brief Method __zenCreate, addr 0x4b1763c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b1d69c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b17690, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b1d6f0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b17584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b1d5e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::ProviderBindingFinalizer___c* getStaticF___9();
@@ -140,10 +140,10 @@ public:
   /// @brief Convert operator to "::Zenject::IBindingFinalizer"
   constexpr operator ::Zenject::IBindingFinalizer*() noexcept;
 
-  /// @brief Method FinalizeBinding, addr 0x4b16728, size 0x35c, virtual true, abstract: false, final true
+  /// @brief Method FinalizeBinding, addr 0x4b1c788, size 0x35c, virtual true, abstract: false, final true
   inline void FinalizeBinding(::Zenject::DiContainer* container);
 
-  /// @brief Method GetScope, addr 0x4b14014, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method GetScope, addr 0x4b1a074, size 0x248, virtual false, abstract: false, final false
   inline ::Zenject::ScopeTypes GetScope();
 
   static inline ::Zenject::ProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo);
@@ -151,27 +151,27 @@ public:
   /// @brief Method OnFinalizeBinding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
-  /// @brief Method RegisterProvider, addr 0x4b16a84, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method RegisterProvider, addr 0x4b1cae4, size 0x258, virtual false, abstract: false, final false
   inline void RegisterProvider(::Zenject::DiContainer* container, ::System::Type* contractType, ::Zenject::IProvider* provider);
 
   /// @brief Method RegisterProvider, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline void RegisterProvider(::Zenject::DiContainer* container, ::Zenject::IProvider* provider);
 
-  /// @brief Method RegisterProviderForAllContracts, addr 0x4b16e94, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method RegisterProviderForAllContracts, addr 0x4b1cef4, size 0x1e8, virtual false, abstract: false, final false
   inline void RegisterProviderForAllContracts(::Zenject::DiContainer* container, ::Zenject::IProvider* provider);
 
-  /// @brief Method RegisterProviderPerContract, addr 0x4b14808, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RegisterProviderPerContract, addr 0x4b1a868, size 0x214, virtual false, abstract: false, final false
   inline void RegisterProviderPerContract(::Zenject::DiContainer* container, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFunc);
 
-  /// @brief Method RegisterProvidersForAllContractsPerConcreteType, addr 0x4b1425c, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method RegisterProvidersForAllContractsPerConcreteType, addr 0x4b1a2bc, size 0x59c, virtual false, abstract: false, final false
   inline void RegisterProvidersForAllContractsPerConcreteType(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes,
                                                               ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFunc);
 
-  /// @brief Method RegisterProvidersPerContractAndConcreteType, addr 0x4b1707c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method RegisterProvidersPerContractAndConcreteType, addr 0x4b1d0dc, size 0x2cc, virtual false, abstract: false, final false
   inline void RegisterProvidersPerContractAndConcreteType(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes,
                                                           ::System::Func_3<::System::Type*, ::System::Type*, ::Zenject::IProvider*>* providerFunc);
 
-  /// @brief Method ValidateBindTypes, addr 0x4b17348, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ValidateBindTypes, addr 0x4b1d3a8, size 0x1e0, virtual false, abstract: false, final false
   inline bool ValidateBindTypes(::System::Type* concreteType, ::System::Type* contractType);
 
   constexpr ::Zenject::BindInfo* const& __cordl_internal_get__BindInfo_k__BackingField() const;
@@ -180,19 +180,19 @@ public:
 
   constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4b13924, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b19984, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_BindInfo, addr 0x4b16718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindInfo, addr 0x4b1c778, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* get_BindInfo();
 
-  /// @brief Method get_BindingInheritanceMethod, addr 0x4b166fc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_BindingInheritanceMethod, addr 0x4b1c75c, size 0x1c, virtual true, abstract: false, final true
   inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
 
   /// @brief Convert to "::Zenject::IBindingFinalizer"
   constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
 
-  /// @brief Method set_BindInfo, addr 0x4b16720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindInfo, addr 0x4b1c780, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::BindInfo* value);
 
 protected:

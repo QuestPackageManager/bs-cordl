@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3d081f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0d168, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,7 +166,7 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectReader_TopLevelAssemblyTypeResolver* New_ctor(::System::Reflection::Assembly* topLevelAssembly);
 
-  /// @brief Method ResolveType, addr 0x3d0845c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ResolveType, addr 0x3d0d3d0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Type* ResolveType(::System::Reflection::Assembly* assembly, ::StringW simpleTypeName, bool ignoreCase);
 
   constexpr ::System::Reflection::Assembly* const& __cordl_internal_get_m_topLevelAssembly() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_m_topLevelAssembly(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x3d0828c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0d200, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* topLevelAssembly);
 
 protected:
@@ -297,44 +297,44 @@ public:
   /// @brief Field valueFixupStack, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_valueFixupStack, put = __cordl_internal_set_valueFixupStack)) ::System::Runtime::Serialization::Formatters::Binary::SerStack* valueFixupStack;
 
-  /// @brief Method Bind, addr 0x3d07a34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x3d0c9a8, size 0x58, virtual false, abstract: false, final false
   inline ::System::Type* Bind(::StringW assemblyString, ::StringW typeString);
 
-  /// @brief Method CheckSerializable, addr 0x3d04e7c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CheckSerializable, addr 0x3d09df0, size 0x130, virtual false, abstract: false, final false
   inline void CheckSerializable(::System::Type* t);
 
-  /// @brief Method CheckTypeForwardedTo, addr 0x3d080b0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CheckTypeForwardedTo, addr 0x3d0d024, size 0x144, virtual false, abstract: false, final false
   static inline void CheckTypeForwardedTo(::System::Reflection::Assembly* sourceAssembly, ::System::Reflection::Assembly* destAssembly, ::System::Type* resolvedType);
 
-  /// @brief Method CreateReadObjectInfo, addr 0x3d050d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CreateReadObjectInfo, addr 0x3d0a048, size 0x30, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(::System::Type* objectType);
 
-  /// @brief Method CreateReadObjectInfo, addr 0x3d05104, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateReadObjectInfo, addr 0x3d0a078, size 0x40, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                                     ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method CrossAppDomainArray, addr 0x3d050a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CrossAppDomainArray, addr 0x3d0a018, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* CrossAppDomainArray(int32_t index);
 
-  /// @brief Method Deserialize, addr 0x3d044f4, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x3d09468, size 0x304, virtual false, abstract: false, final false
   inline ::System::Object* Deserialize(::System::Runtime::Remoting::Messaging::HeaderHandler* handler, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* serParser, bool fCheck);
 
-  /// @brief Method FastBindToType, addr 0x3d07a8c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method FastBindToType, addr 0x3d0ca00, size 0x2e0, virtual false, abstract: false, final false
   inline ::System::Type* FastBindToType(::StringW assemblyName, ::StringW typeName);
 
-  /// @brief Method GetId, addr 0x3d077c0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x3d0c734, size 0xdc, virtual false, abstract: false, final false
   inline int64_t GetId(int64_t objectId);
 
-  /// @brief Method GetSimplyNamedTypeFromAssembly, addr 0x3d07e74, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetSimplyNamedTypeFromAssembly, addr 0x3d0cde8, size 0x23c, virtual false, abstract: false, final false
   static inline void GetSimplyNamedTypeFromAssembly(::System::Reflection::Assembly* assm, ::StringW typeName, ::ByRef<::System::Type*> type);
 
-  /// @brief Method GetType, addr 0x3d082b4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x3d0d228, size 0x1a8, virtual false, abstract: false, final false
   inline ::System::Type* GetType(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::StringW name);
 
-  /// @brief Method HasSurrogate, addr 0x3d04da8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HasSurrogate, addr 0x3d09d1c, size 0xd4, virtual false, abstract: false, final false
   inline bool HasSurrogate(::System::Type* t);
 
-  /// @brief Method InitFullDeserialization, addr 0x3d04fac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitFullDeserialization, addr 0x3d09f20, size 0xf8, virtual false, abstract: false, final false
   inline void InitFullDeserialization();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* New_ctor(::System::IO::Stream* stream, ::System::Runtime::Serialization::ISurrogateSelector* selector,
@@ -342,53 +342,53 @@ public:
                                                                                              ::System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums,
                                                                                              ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method NextRectangleMap, addr 0x3d0695c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method NextRectangleMap, addr 0x3d0b8d0, size 0xc4, virtual false, abstract: false, final false
   inline void NextRectangleMap(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method Parse, addr 0x3d05144, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3d0a0b8, size 0x13c, virtual false, abstract: false, final false
   inline void Parse(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseArray, addr 0x3d05f44, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method ParseArray, addr 0x3d0aeb8, size 0x694, virtual false, abstract: false, final false
   inline void ParseArray(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseArrayMember, addr 0x3d06a20, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method ParseArrayMember, addr 0x3d0b994, size 0x7a0, virtual false, abstract: false, final false
   inline void ParseArrayMember(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseArrayMemberEnd, addr 0x3d07634, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ParseArrayMemberEnd, addr 0x3d0c5a8, size 0x28, virtual false, abstract: false, final false
   inline void ParseArrayMemberEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseError, addr 0x3d05d48, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ParseError, addr 0x3d0acbc, size 0x1fc, virtual false, abstract: false, final false
   inline void ParseError(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* processing, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* onStack);
 
-  /// @brief Method ParseMember, addr 0x3d057cc, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method ParseMember, addr 0x3d0a740, size 0x4c0, virtual false, abstract: false, final false
   inline void ParseMember(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseMemberEnd, addr 0x3d05c8c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ParseMemberEnd, addr 0x3d0ac00, size 0xbc, virtual false, abstract: false, final false
   inline void ParseMemberEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseObject, addr 0x3d052b0, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method ParseObject, addr 0x3d0a224, size 0x304, virtual false, abstract: false, final false
   inline void ParseObject(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseObjectEnd, addr 0x3d055b4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ParseObjectEnd, addr 0x3d0a528, size 0x218, virtual false, abstract: false, final false
   inline void ParseObjectEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseSerializedStreamHeader, addr 0x3d05280, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ParseSerializedStreamHeader, addr 0x3d0a1f4, size 0x18, virtual false, abstract: false, final false
   inline void ParseSerializedStreamHeader(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseSerializedStreamHeaderEnd, addr 0x3d05298, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ParseSerializedStreamHeaderEnd, addr 0x3d0a20c, size 0x18, virtual false, abstract: false, final false
   inline void ParseSerializedStreamHeaderEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseString, addr 0x3d071f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ParseString, addr 0x3d0c168, size 0x40, virtual false, abstract: false, final false
   inline void ParseString(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parentPr);
 
-  /// @brief Method RegisterObject, addr 0x3d06618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RegisterObject, addr 0x3d0b58c, size 0x8, virtual false, abstract: false, final false
   inline void RegisterObject(::System::Object* obj, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr);
 
-  /// @brief Method RegisterObject, addr 0x3d076a0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RegisterObject, addr 0x3d0c614, size 0x120, virtual false, abstract: false, final false
   inline void RegisterObject(::System::Object* obj, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr,
                              bool bIsString);
 
-  /// @brief Method ResolveSimpleAssemblyName, addr 0x3d07e14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ResolveSimpleAssemblyName, addr 0x3d0cd88, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* ResolveSimpleAssemblyName(::System::Reflection::AssemblyName* assemblyName);
 
   constexpr bool const& __cordl_internal_get_bFullDeserialization() const;
@@ -535,17 +535,17 @@ public:
 
   constexpr void __cordl_internal_set_valueFixupStack(::System::Runtime::Serialization::Formatters::Binary::SerStack* value);
 
-  /// @brief Method .ctor, addr 0x3d043e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d09358, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context,
                     ::System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums, ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method get_TopObject, addr 0x3d043c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopObject, addr 0x3d0933c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TopObject();
 
-  /// @brief Method get_ValueFixupStack, addr 0x3d04350, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ValueFixupStack, addr 0x3d092c4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* get_ValueFixupStack();
 
-  /// @brief Method set_TopObject, addr 0x3d043d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_TopObject, addr 0x3d09344, size 0x14, virtual false, abstract: false, final false
   inline void set_TopObject(::System::Object* value);
 
 protected:

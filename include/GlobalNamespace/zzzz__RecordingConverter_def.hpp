@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method SaveToOldFormat, addr 0x3b17c38, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveToOldFormat, addr 0x3b1cbac, size 0xf0, virtual false, abstract: false, final false
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
   constexpr ::GlobalNamespace::IBeatSaberLogger* const& __cordl_internal_get__logger() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  /// @brief Method .ctor, addr 0x3b16a94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1ba08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
 protected:

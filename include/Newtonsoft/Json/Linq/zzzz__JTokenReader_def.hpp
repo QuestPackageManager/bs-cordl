@@ -59,41 +59,41 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method GetEndToken, addr 0x3f25ed8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetEndToken, addr 0x3f2ae4c, size 0x158, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::JsonToken> GetEndToken(::Newtonsoft::Json::Linq::JContainer* c);
 
   static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token);
 
   static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3f26050, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3f2afc4, size 0xb4, virtual true, abstract: false, final true
   inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3f26104, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3f2b078, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3f261bc, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3f2b130, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
-  /// @brief Method Read, addr 0x3f2564c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3f2a5c0, size 0xd0, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadInto, addr 0x3f2571c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadInto, addr 0x3f2a690, size 0x68, virtual false, abstract: false, final false
   inline bool ReadInto(::Newtonsoft::Json::Linq::JContainer* c);
 
-  /// @brief Method ReadOver, addr 0x3f25784, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadOver, addr 0x3f2a6f8, size 0xb4, virtual false, abstract: false, final false
   inline bool ReadOver(::Newtonsoft::Json::Linq::JToken* t);
 
-  /// @brief Method ReadToEnd, addr 0x3f25e34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x3f2ada8, size 0x20, virtual false, abstract: false, final false
   inline bool ReadToEnd();
 
-  /// @brief Method SafeToString, addr 0x3f26030, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SafeToString, addr 0x3f2afa4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW SafeToString(::System::Object* value);
 
-  /// @brief Method SetEnd, addr 0x3f25e54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetEnd, addr 0x3f2adc8, size 0x84, virtual false, abstract: false, final false
   inline bool SetEnd(::Newtonsoft::Json::Linq::JContainer* c);
 
-  /// @brief Method SetToken, addr 0x3f25838, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x3f2a7ac, size 0x5fc, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::Linq::JToken* token);
 
   constexpr ::Newtonsoft::Json::Linq::JToken* const& __cordl_internal_get__current() const;
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set__root(::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method .ctor, addr 0x3f255bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2a530, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method .ctor, addr 0x3f25628, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2a59c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
 
-  /// @brief Method get_CurrentToken, addr 0x3f255b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentToken, addr 0x3f2a528, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
 
-  /// @brief Method get_Path, addr 0x3f26274, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3f2b1e8, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"

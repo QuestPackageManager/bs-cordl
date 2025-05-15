@@ -76,21 +76,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x482d8a0, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4832814, size 0x2c0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x482dbb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4832b24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x482dbb8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4832b2c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x482dbf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4832b64, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x482d884, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x48327f8, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -117,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::List_1_Enumerator<::UnityW<::UnityEngine::XR::Management::XRLoader>> value);
 
-  /// @brief Method <>m__Finally1, addr 0x482db60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4832ad4, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x482d1a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483211c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -147,7 +147,7 @@ public:
   XRManagerSettings__InitializeLoader_d__24(XRManagerSettings__InitializeLoader_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18694 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -226,45 +226,45 @@ public:
   /// @brief Method ActiveLoaderAs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T ActiveLoaderAs();
 
-  /// @brief Method Awake, addr 0x482d5c8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x483253c, size 0x1a0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckGraphicsAPICompatibility, addr 0x482cffc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CheckGraphicsAPICompatibility, addr 0x4831f70, size 0x14c, virtual false, abstract: false, final false
   inline bool CheckGraphicsAPICompatibility(::UnityEngine::XR::Management::XRLoader* loader);
 
-  /// @brief Method DeinitializeLoader, addr 0x482cce0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DeinitializeLoader, addr 0x4831c54, size 0xe4, virtual false, abstract: false, final false
   inline void DeinitializeLoader();
 
-  /// @brief Method InitializeLoader, addr 0x482d148, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InitializeLoader, addr 0x48320bc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* InitializeLoader();
 
-  /// @brief Method InitializeLoaderSync, addr 0x482c828, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method InitializeLoaderSync, addr 0x483179c, size 0x254, virtual false, abstract: false, final false
   inline void InitializeLoaderSync();
 
   static inline ::UnityEngine::XR::Management::XRManagerSettings* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x482d798, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x483270c, size 0x10, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x482d780, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x48326f4, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x482d768, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x48326dc, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSubsystems, addr 0x482ca7c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method StartSubsystems, addr 0x48319f0, size 0xdc, virtual false, abstract: false, final false
   inline void StartSubsystems();
 
-  /// @brief Method StopSubsystems, addr 0x482cc04, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method StopSubsystems, addr 0x4831b78, size 0xdc, virtual false, abstract: false, final false
   inline void StopSubsystems();
 
-  /// @brief Method TryAddLoader, addr 0x482d1d0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method TryAddLoader, addr 0x4832144, size 0x190, virtual false, abstract: false, final false
   inline bool TryAddLoader(::UnityEngine::XR::Management::XRLoader* loader, int32_t index);
 
-  /// @brief Method TryRemoveLoader, addr 0x482d360, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryRemoveLoader, addr 0x48322d4, size 0x94, virtual false, abstract: false, final false
   inline bool TryRemoveLoader(::UnityEngine::XR::Management::XRLoader* loader);
 
-  /// @brief Method TrySetLoaders, addr 0x482d3f4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method TrySetLoaders, addr 0x4832368, size 0x1d4, virtual false, abstract: false, final false
   inline bool TrySetLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* reorderedLoaders);
 
   constexpr ::UnityW<::UnityEngine::XR::Management::XRLoader> const& __cordl_internal_get__activeLoader_k__BackingField() const;
@@ -309,43 +309,43 @@ public:
 
   constexpr void __cordl_internal_set_m_RequiresSettingsUpdate(bool value);
 
-  /// @brief Method .ctor, addr 0x482d7c0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4832734, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeLoader, addr 0x482cfec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeLoader, addr 0x4831f60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::XR::Management::XRLoader> get_activeLoader();
 
-  /// @brief Method get_activeLoaders, addr 0x482cfdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeLoaders, addr 0x4831f50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_activeLoaders();
 
-  /// @brief Method get_automaticLoading, addr 0x482cfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_automaticLoading, addr 0x4831f20, size 0x8, virtual false, abstract: false, final false
   inline bool get_automaticLoading();
 
-  /// @brief Method get_automaticRunning, addr 0x482cfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_automaticRunning, addr 0x4831f34, size 0x8, virtual false, abstract: false, final false
   inline bool get_automaticRunning();
 
-  /// @brief Method get_currentLoaders, addr 0x482d7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentLoaders, addr 0x483271c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_currentLoaders();
 
-  /// @brief Method get_isInitializationComplete, addr 0x482cfe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitializationComplete, addr 0x4831f58, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitializationComplete();
 
-  /// @brief Method get_loaders, addr 0x482cfd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loaders, addr 0x4831f48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_loaders();
 
-  /// @brief Method get_registeredLoaders, addr 0x482d7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_registeredLoaders, addr 0x483272c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_registeredLoaders();
 
-  /// @brief Method set_activeLoader, addr 0x482cff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activeLoader, addr 0x4831f68, size 0x8, virtual false, abstract: false, final false
   inline void set_activeLoader(::UnityEngine::XR::Management::XRLoader* value);
 
-  /// @brief Method set_automaticLoading, addr 0x482cfb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_automaticLoading, addr 0x4831f28, size 0xc, virtual false, abstract: false, final false
   inline void set_automaticLoading(bool value);
 
-  /// @brief Method set_automaticRunning, addr 0x482cfc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_automaticRunning, addr 0x4831f3c, size 0xc, virtual false, abstract: false, final false
   inline void set_automaticRunning(bool value);
 
-  /// @brief Method set_currentLoaders, addr 0x482d7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentLoaders, addr 0x4832724, size 0x8, virtual false, abstract: false, final false
   inline void set_currentLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* value);
 
 protected:
@@ -363,7 +363,7 @@ public:
   XRManagerSettings(XRManagerSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18695 };
 
   /// @brief Field m_InitializationComplete, offset: 0x18, size: 0x1, def value: None
   bool ___m_InitializationComplete;

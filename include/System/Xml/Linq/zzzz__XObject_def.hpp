@@ -63,42 +63,42 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method AddAnnotation, addr 0x42474a8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x424c41c, size 0x218, virtual false, abstract: false, final false
   inline void AddAnnotation(::System::Object* annotation);
 
   /// @brief Method Annotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Annotation();
 
-  /// @brief Method AnnotationForSealedType, addr 0x4249230, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AnnotationForSealedType, addr 0x424e1a4, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Object* AnnotationForSealedType(::System::Type* type);
 
-  /// @brief Method GetSaveOptionsFromAnnotations, addr 0x4248c58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetSaveOptionsFromAnnotations, addr 0x424dbcc, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::SaveOptions GetSaveOptionsFromAnnotations();
 
   static inline ::System::Xml::Linq::XObject* New_ctor();
 
-  /// @brief Method NotifyChanged, addr 0x424139c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NotifyChanged, addr 0x4246310, size 0xa8, virtual false, abstract: false, final false
   inline bool NotifyChanged(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method NotifyChanging, addr 0x42412f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NotifyChanging, addr 0x4246268, size 0xa8, virtual false, abstract: false, final false
   inline bool NotifyChanging(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method SetBaseUri, addr 0x4245484, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetBaseUri, addr 0x424a3f8, size 0x6c, virtual false, abstract: false, final false
   inline void SetBaseUri(::StringW baseUri);
 
-  /// @brief Method SetLineInfo, addr 0x42454f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetLineInfo, addr 0x424a464, size 0x70, virtual false, abstract: false, final false
   inline void SetLineInfo(int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method SkipNotify, addr 0x4242814, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SkipNotify, addr 0x4247788, size 0x70, virtual false, abstract: false, final false
   inline bool SkipNotify();
 
-  /// @brief Method System.Xml.IXmlLineInfo.HasLineInfo, addr 0x424937c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlLineInfo.HasLineInfo, addr 0x424e2f0, size 0x54, virtual true, abstract: false, final true
   inline bool System_Xml_IXmlLineInfo_HasLineInfo();
 
-  /// @brief Method System.Xml.IXmlLineInfo.get_LineNumber, addr 0x42493d0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlLineInfo.get_LineNumber, addr 0x424e344, size 0x54, virtual true, abstract: false, final true
   inline int32_t System_Xml_IXmlLineInfo_get_LineNumber();
 
-  /// @brief Method System.Xml.IXmlLineInfo.get_LinePosition, addr 0x4249424, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlLineInfo.get_LinePosition, addr 0x424e398, size 0x54, virtual true, abstract: false, final true
   inline int32_t System_Xml_IXmlLineInfo_get_LinePosition();
 
   constexpr ::System::Object* const& __cordl_internal_get_annotations() const;
@@ -113,19 +113,19 @@ public:
 
   constexpr void __cordl_internal_set_parent(::System::Xml::Linq::XContainer* value);
 
-  /// @brief Method .ctor, addr 0x4240a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42459b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseUri, addr 0x4245624, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUri, addr 0x424a598, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW get_BaseUri();
 
-  /// @brief Method get_HasBaseUri, addr 0x42455d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_HasBaseUri, addr 0x424a544, size 0x54, virtual false, abstract: false, final false
   inline bool get_HasBaseUri();
 
   /// @brief Method get_NodeType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Parent, addr 0x42491b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x424e128, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XElement* get_Parent();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"
@@ -146,7 +146,7 @@ public:
   XObject(XObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17984 };
 
   /// @brief Field parent, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::XContainer* ___parent;

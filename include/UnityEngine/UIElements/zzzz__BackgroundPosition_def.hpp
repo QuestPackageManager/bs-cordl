@@ -35,34 +35,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>*();
 
-  /// @brief Method Equals, addr 0x496a7f0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4970850, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x496a86c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49708cc, size 0x54, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BackgroundPosition other);
 
-  /// @brief Method GetHashCode, addr 0x496a8c0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4970920, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x496a788, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x49707e8, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundPosition Initial();
 
-  /// @brief Method ToString, addr 0x496a9ac, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4970a0c, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x496a744, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49707a4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundPositionKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x496a77c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49707dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundPositionKeyword keyword, ::UnityEngine::UIElements::Length offset);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundPosition_();
 
-  /// @brief Method op_Equality, addr 0x496a908, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4970968, size 0x50, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::BackgroundPosition style1, ::UnityEngine::UIElements::BackgroundPosition style2);
 
-  /// @brief Method op_Inequality, addr 0x496a958, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x49709b8, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundPosition style1, ::UnityEngine::UIElements::BackgroundPosition style2);
 
   // Ctor Parameters []

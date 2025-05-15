@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EditorBrowsableAttribute::*)(::System::ComponentModel::EditorBrowsableState)>(
     &::System::ComponentModel::EditorBrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4441964;
+  constexpr static std::size_t addrs = 0x44468d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EditorBrowsableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::EditorBrowsableAttribute::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x444198c;
+  constexpr static std::size_t addrs = 0x4446900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EditorBrowsableAttribute::*)()>(
     &::System::ComponentModel::EditorBrowsableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4441a18;
+  constexpr static std::size_t addrs = 0x444698c;
 
   inline static ::MethodInfo const* methodInfo() {
 

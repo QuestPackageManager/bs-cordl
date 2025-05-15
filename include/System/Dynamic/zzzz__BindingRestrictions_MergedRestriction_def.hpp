@@ -30,7 +30,7 @@ public:
   /// @brief Field Right, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right)) ::System::Dynamic::BindingRestrictions* Right;
 
-  /// @brief Method GetExpression, addr 0x40f7064, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40fbfd8, size 0x14c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
   static inline ::GlobalNamespace::BindingRestrictions_MergedRestriction* New_ctor(::System::Dynamic::BindingRestrictions* left, ::System::Dynamic::BindingRestrictions* right);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_Right(::System::Dynamic::BindingRestrictions* value);
 
-  /// @brief Method .ctor, addr 0x40f67dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fb750, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::BindingRestrictions* left, ::System::Dynamic::BindingRestrictions* right);
 
 protected:
@@ -65,7 +65,7 @@ public:
   BindingRestrictions_MergedRestriction(BindingRestrictions_MergedRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14148 };
 
   /// @brief Field Left, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::BindingRestrictions* ___Left;

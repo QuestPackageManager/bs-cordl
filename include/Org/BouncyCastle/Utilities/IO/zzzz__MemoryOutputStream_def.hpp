@@ -22,10 +22,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::MemoryOutputStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d65b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25da064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanRead, addr 0x25d65ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanRead, addr 0x25da05c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanRead();
 
 protected:

@@ -48,13 +48,13 @@ public:
   /// @brief Method WriteJson, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3e76c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7bc00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanRead, addr 0x3e76c7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x3e7bbf0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x3e76c84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x3e7bbf8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
 protected:

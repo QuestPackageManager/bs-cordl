@@ -57,19 +57,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE BurstSliderSpawner_ProcessNoteDataDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ade3f0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ae3364, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ade4bc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ae3430, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ade3d8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ae334c, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote);
 
   static inline ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ade2d4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae3248, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -104,11 +104,11 @@ public:
   // Declarations
   using ProcessNoteDataDelegate = ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate;
 
-  /// @brief Method BezierCurve, addr 0x3adde58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BezierCurve, addr 0x3ae2dcc, size 0x78, virtual false, abstract: false, final false
   static inline void BezierCurve(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t t, ::ByRef<::UnityEngine::Vector2> pos,
                                  ::ByRef<::UnityEngine::Vector2> tangent);
 
-  /// @brief Method ProcessSliderData, addr 0x3added0, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x3ae2e44, size 0x3cc, virtual false, abstract: false, final false
   static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData> sliderSpawnData, bool forceIsFirstNote,
                                        ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* processNoteData);
 

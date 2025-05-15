@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::LiteNetLib::Utils::InvalidTypeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3ab9d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abecc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -39,7 +39,7 @@ public:
   InvalidTypeException(InvalidTypeException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

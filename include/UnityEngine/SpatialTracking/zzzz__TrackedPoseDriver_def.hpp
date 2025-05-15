@@ -100,7 +100,7 @@ public:
   static ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType const GenericXRRemote;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19026 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -191,7 +191,7 @@ public:
   static ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose const RightPose;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19027 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -250,7 +250,7 @@ public:
   static ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType const RotationOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19028 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -309,7 +309,7 @@ public:
   static ::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType const UpdateAndBeforeRender;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19029 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -377,52 +377,52 @@ public:
 
   __declspec(property(get = get_updateType, put = set_updateType)) ::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType updateType;
 
-  /// @brief Method Awake, addr 0x4914960, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x491a9c0, size 0x4, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CacheLocalPosition, addr 0x49148f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CacheLocalPosition, addr 0x491a950, size 0x50, virtual false, abstract: false, final false
   inline void CacheLocalPosition();
 
-  /// @brief Method FixedUpdate, addr 0x4914a98, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x491aaf8, size 0x1c, virtual true, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetPoseData, addr 0x49147c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPoseData, addr 0x491a820, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseData(::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType device,
                                                                    ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose poseSource, ::ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method HasStereoCamera, addr 0x4914c94, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HasStereoCamera, addr 0x491acf4, size 0xb8, virtual false, abstract: false, final false
   inline bool HasStereoCamera();
 
   static inline ::UnityEngine::SpatialTracking::TrackedPoseDriver* New_ctor();
 
-  /// @brief Method OnBeforeRender, addr 0x4914ad0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeRender, addr 0x491ab30, size 0x20, virtual true, abstract: false, final false
   inline void OnBeforeRender();
 
-  /// @brief Method OnDestroy, addr 0x4914964, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x491a9c4, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x49149fc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x491aa5c, size 0x9c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4914968, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x491a9c8, size 0x94, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PerformUpdate, addr 0x4914d4c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method PerformUpdate, addr 0x491adac, size 0x94, virtual true, abstract: false, final false
   inline void PerformUpdate();
 
-  /// @brief Method ResetToCachedLocalPosition, addr 0x4914940, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ResetToCachedLocalPosition, addr 0x491a9a0, size 0x20, virtual false, abstract: false, final false
   inline void ResetToCachedLocalPosition();
 
-  /// @brief Method SetLocalTransform, addr 0x4914af0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method SetLocalTransform, addr 0x491ab50, size 0xe4, virtual true, abstract: false, final false
   inline void SetLocalTransform(::UnityEngine::Vector3 newPosition, ::UnityEngine::Quaternion newRotation, ::UnityEngine::SpatialTracking::PoseDataFlags poseFlags);
 
-  /// @brief Method SetPoseSource, addr 0x491466c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetPoseSource, addr 0x491a6cc, size 0x144, virtual false, abstract: false, final false
   inline bool SetPoseSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType deviceType, ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose pose);
 
-  /// @brief Method TransformPoseByOriginIfNeeded, addr 0x4914bd4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method TransformPoseByOriginIfNeeded, addr 0x491ac34, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose TransformPoseByOriginIfNeeded(::UnityEngine::Pose pose);
 
-  /// @brief Method Update, addr 0x4914ab4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x491ab14, size 0x1c, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType const& __cordl_internal_get_m_Device() const;
@@ -467,49 +467,49 @@ public:
 
   constexpr void __cordl_internal_set_m_UseRelativeTransform(bool value);
 
-  /// @brief Method .ctor, addr 0x4914de0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491ae40, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseRelativeTransform, addr 0x49148ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseRelativeTransform, addr 0x491a90c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseRelativeTransform();
 
-  /// @brief Method get_deviceType, addr 0x491464c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceType, addr 0x491a6ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType get_deviceType();
 
-  /// @brief Method get_originPose, addr 0x49148c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_originPose, addr 0x491a920, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_originPose();
 
-  /// @brief Method get_poseProviderComponent, addr 0x49147b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_poseProviderComponent, addr 0x491a810, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider> get_poseProviderComponent();
 
-  /// @brief Method get_poseSource, addr 0x491465c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_poseSource, addr 0x491a6bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose get_poseSource();
 
-  /// @brief Method get_trackingType, addr 0x491488c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingType, addr 0x491a8ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType get_trackingType();
 
-  /// @brief Method get_updateType, addr 0x491489c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateType, addr 0x491a8fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType get_updateType();
 
-  /// @brief Method set_UseRelativeTransform, addr 0x49148b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseRelativeTransform, addr 0x491a914, size 0xc, virtual false, abstract: false, final false
   inline void set_UseRelativeTransform(bool value);
 
-  /// @brief Method set_deviceType, addr 0x4914654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceType, addr 0x491a6b4, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceType(::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType value);
 
-  /// @brief Method set_originPose, addr 0x49148d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_originPose, addr 0x491a934, size 0x1c, virtual false, abstract: false, final false
   inline void set_originPose(::UnityEngine::Pose value);
 
-  /// @brief Method set_poseProviderComponent, addr 0x49147b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_poseProviderComponent, addr 0x491a818, size 0x8, virtual false, abstract: false, final false
   inline void set_poseProviderComponent(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* value);
 
-  /// @brief Method set_poseSource, addr 0x4914664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_poseSource, addr 0x491a6c4, size 0x8, virtual false, abstract: false, final false
   inline void set_poseSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose value);
 
-  /// @brief Method set_trackingType, addr 0x4914894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingType, addr 0x491a8f4, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingType(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType value);
 
-  /// @brief Method set_updateType, addr 0x49148a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateType, addr 0x491a904, size 0x8, virtual false, abstract: false, final false
   inline void set_updateType(::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType value);
 
 protected:
@@ -527,7 +527,7 @@ public:
   TrackedPoseDriver(TrackedPoseDriver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19030 };
 
   /// @brief Field m_Device, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType ___m_Device;

@@ -33,7 +33,7 @@ public:
 
   static inline ::Zenject::SignalTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method WithTickPriority, addr 0x4af5a60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WithTickPriority, addr 0x4afbac0, size 0x24, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* WithTickPriority(int32_t priority);
 
   constexpr ::Zenject::SignalDeclarationBindInfo* const& __cordl_internal_get__SignalBindInfo_k__BackingField() const;
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__SignalBindInfo_k__BackingField(::Zenject::SignalDeclarationBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4af5500, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afb560, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method get_SignalBindInfo, addr 0x4af5a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalBindInfo, addr 0x4afbab0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
 
-  /// @brief Method set_SignalBindInfo, addr 0x4af5a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalBindInfo, addr 0x4afbab8, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
 
 protected:

@@ -22,10 +22,10 @@ namespace LufsMetering {
 class CORDL_TYPE AudioJobHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHighPassDeManCoefficients, addr 0x3b6e988, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHighPassDeManCoefficients, addr 0x3b738fc, size 0x7c, virtual false, abstract: false, final false
   static inline ::LufsMetering::FilterCoefficients GetHighPassDeManCoefficients(float_t quality, float_t frequency, float_t rate);
 
-  /// @brief Method GetHighShelfDeManCoefficients, addr 0x3b6e8c0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetHighShelfDeManCoefficients, addr 0x3b73834, size 0xc8, virtual false, abstract: false, final false
   static inline ::LufsMetering::FilterCoefficients GetHighShelfDeManCoefficients(float_t gain, float_t quality, float_t frequency, float_t rate);
 
 protected:

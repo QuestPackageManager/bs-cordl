@@ -47,7 +47,7 @@ public:
   // Declarations
   static inline ::Ice::FloorLightTile_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2265f20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22699d0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   FloorLightTile_Pool(FloorLightTile_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,24 +100,24 @@ public:
   /// @brief Field didFinish, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish)) ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* didFinish;
 
-  /// @brief Method Awake, addr 0x2265b24, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22695d4, size 0x1e0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleFadeInTweenOnCompleted, addr 0x2265e70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeInTweenOnCompleted, addr 0x2269920, size 0x28, virtual false, abstract: false, final false
   inline void HandleFadeInTweenOnCompleted();
 
-  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0x2265e98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0x2269948, size 0x20, virtual false, abstract: false, final false
   inline void HandleFadeOutTweenOnCompleted();
 
-  /// @brief Method HighlightWithColor, addr 0x2265da4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HighlightWithColor, addr 0x2269854, size 0xcc, virtual false, abstract: false, final false
   inline void HighlightWithColor(::UnityEngine::Color color, float_t fadeInDuration, float_t fadeOutDuration);
 
   static inline ::Ice::FloorLightTile* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2265d04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22697b4, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x2265eb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x2269968, size 0x60, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__colorSetter() const;
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_didFinish(::System::Action_1<::UnityW<::Ice::FloorLightTile>>* value);
 
-  /// @brief Method .ctor, addr 0x2265f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22699c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -174,7 +174,7 @@ public:
   FloorLightTile(FloorLightTile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18948 };
 
   /// @brief Field _colorSetter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____colorSetter;

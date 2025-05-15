@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::VRPlatformUtils::TriggerValueDefaultImplementation)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39c1930;
+  constexpr static std::size_t addrs = 0x39c68a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::VRPlatformUtils::GetMenuButtonDefaultImplementation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39c1234;
+  constexpr static std::size_t addrs = 0x39c61a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::VRPlatformUtils::GetMenuButtonDownDefaultImplementation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39c12b0;
+  constexpr static std::size_t addrs = 0x39c6224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::IVRPlatformHelper*)>(
     &::GlobalNamespace::VRPlatformUtils::GetAnyJoystickMaxAxisDefaultImplementation)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x39c19b0;
+  constexpr static std::size_t addrs = 0x39c6924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IVerboseLogger*)>(&::GlobalNamespace::VRPlatformUtils::StopXR)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x39c1ae8;
+  constexpr static std::size_t addrs = 0x39c6a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -66,21 +66,21 @@ public:
   /// @brief Field m_zero1PercentFpsText, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_zero1PercentFpsText, put = __cordl_internal_set_m_zero1PercentFpsText)) ::UnityW<::UnityEngine::UI::Text> m_zero1PercentFpsText;
 
-  /// @brief Method Awake, addr 0x44cf554, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x44d44c8, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x44ceebc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d3e30, size 0x144, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsText* New_ctor();
 
-  /// @brief Method SetFpsRelatedTextColor, addr 0x44cf864, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetFpsRelatedTextColor, addr 0x44d47d8, size 0x80, virtual false, abstract: false, final false
   inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
 
-  /// @brief Method Update, addr 0x44cf558, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d44cc, size 0x30c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x44cee9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d3e10, size 0x20, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_avgFpsText() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_m_zero1PercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x44cf8e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d4858, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,7 +173,7 @@ public:
   G_FpsText(G_FpsText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17240 };
 
   /// @brief Field m_msStringFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString m_msStringFormat{ u"0.0" };

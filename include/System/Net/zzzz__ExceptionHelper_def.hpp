@@ -27,19 +27,19 @@ namespace System::Net {
 class CORDL_TYPE ExceptionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_MethodNotImplementedException, addr 0x4499ffc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_MethodNotImplementedException, addr 0x449ef70, size 0x80, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_MethodNotImplementedException();
 
-  /// @brief Method get_PropertyNotImplementedException, addr 0x4499f58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotImplementedException, addr 0x449eecc, size 0x80, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_PropertyNotImplementedException();
 
-  /// @brief Method get_PropertyNotSupportedException, addr 0x4498a38, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotSupportedException, addr 0x449d9ac, size 0x80, virtual false, abstract: false, final false
   static inline ::System::NotSupportedException* get_PropertyNotSupportedException();
 
-  /// @brief Method get_RequestAbortedException, addr 0x4498754, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_RequestAbortedException, addr 0x449d6c8, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_RequestAbortedException();
 
-  /// @brief Method get_TimeoutException, addr 0x449376c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_TimeoutException, addr 0x44986e0, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_TimeoutException();
 
 protected:

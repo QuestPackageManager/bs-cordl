@@ -43,33 +43,33 @@ public:
   /// @brief Field S, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S)) ::ArrayW<uint32_t, ::Array<uint32_t>*> S;
 
-  /// @brief Method CyclicXorKey, addr 0x237cc28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CyclicXorKey, addr 0x23806d8, size 0x88, virtual false, abstract: false, final false
   inline void CyclicXorKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method DeriveRawKey, addr 0x237d1dc, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method DeriveRawKey, addr 0x2380c8c, size 0x318, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveRawKey(int32_t cost, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> psw);
 
-  /// @brief Method EncryptMagicString, addr 0x237ccb0, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method EncryptMagicString, addr 0x2380760, size 0x2d0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptMagicString();
 
-  /// @brief Method F, addr 0x237c970, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0x2380420, size 0x84, virtual false, abstract: false, final false
   inline uint32_t F(uint32_t x);
 
-  /// @brief Method Generate, addr 0x237d564, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2381014, size 0x1b4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method InitState, addr 0x237cb28, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InitState, addr 0x23805d8, size 0x100, virtual false, abstract: false, final false
   inline void InitState();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::BCrypt* New_ctor();
 
-  /// @brief Method PasswordToByteArray, addr 0x237d4f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method PasswordToByteArray, addr 0x2380fa4, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToByteArray(::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method ProcessTable, addr 0x237c9f4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ProcessTable, addr 0x23804a4, size 0x134, virtual false, abstract: false, final false
   inline void ProcessTable(uint32_t xl, uint32_t xr, ::ArrayW<uint32_t, ::Array<uint32_t>*> table);
 
-  /// @brief Method ProcessTableWithSalt, addr 0x237cf80, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTableWithSalt, addr 0x2380a30, size 0x25c, virtual false, abstract: false, final false
   inline void ProcessTableWithSalt(::ArrayW<uint32_t, ::Array<uint32_t>*> table, ::ArrayW<uint32_t, ::Array<uint32_t>*> salt32Bit, uint32_t iv1, uint32_t iv2);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_P() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_S(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x237c904, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23803b4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_KP();

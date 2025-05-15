@@ -25,22 +25,22 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TimelineUndo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PushDestroyUndo, addr 0x4829dec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PushDestroyUndo, addr 0x482ed60, size 0x88, virtual false, abstract: false, final false
   static inline void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset* timeline, ::UnityEngine::Object* thingToDirty, ::UnityEngine::Object* objectToDestroy);
 
-  /// @brief Method PushUndo, addr 0x4829e78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x482edec, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::UnityEngine::Object* thingToDirty, ::StringW operation);
 
-  /// @brief Method PushUndo, addr 0x4829e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x482ede8, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> thingsToDirty, ::StringW operation);
 
-  /// @brief Method RegisterCreatedObjectUndo, addr 0x4829e7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCreatedObjectUndo, addr 0x482edf0, size 0x4, virtual false, abstract: false, final false
   static inline void RegisterCreatedObjectUndo(::UnityEngine::Object* thingCreated, ::StringW operation);
 
-  /// @brief Method UndoName, addr 0x4829e80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UndoName, addr 0x482edf4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UndoName(::StringW name);
 
-  /// @brief Method get_undoEnabled, addr 0x4829de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_undoEnabled, addr 0x482ed58, size 0x8, virtual false, abstract: false, final false
   static inline bool get_undoEnabled();
 
 protected:
@@ -58,7 +58,7 @@ public:
   TimelineUndo(TimelineUndo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

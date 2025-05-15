@@ -53,26 +53,26 @@ public:
   /// @brief Field publicKeyParamSet, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
 
-  /// @brief Method CreateKeyGenerationParameters, addr 0x23b8980, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyGenerationParameters, addr 0x23bc430, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters* CreateKeyGenerationParameters(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Equals, addr 0x23b8844, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x23bc2f4, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x23b88e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x23bc398, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x23b8940, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x23bc3f0, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method LookupParameters, addr 0x23b8408, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LookupParameters, addr 0x23bbeb8, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* LookupParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* New_ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* New_ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method VerifyAlgorithmName, addr 0x23b860c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method VerifyAlgorithmName, addr 0x23bc0bc, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW VerifyAlgorithmName(::StringW algorithm);
 
   constexpr ::StringW const& __cordl_internal_get_algorithm() const;
@@ -93,21 +93,21 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23b8518, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bbfc8, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x23b872c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bc1dc, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_algorithms();
 
-  /// @brief Method get_AlgorithmName, addr 0x23b882c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23bc2dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_Parameters, addr 0x23b8834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x23bc2e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_Parameters();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x23b883c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x23bc2ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
   static inline void setStaticF_algorithms(::ArrayW<::StringW, ::Array<::StringW>*> value);

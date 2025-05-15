@@ -48,10 +48,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlHash128AttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a9e250, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa42b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Hash128 _GetValueFromBag_b__3_0(::StringW s, ::UnityEngine::Hash128 i);
 
-  /// @brief Method .ctor, addr 0x4a9e248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa42a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlHash128AttributeDescription___c* getStaticF___9();
@@ -94,12 +94,12 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlHash128AttributeDescription___c;
 
-  /// @brief Method GetValueFromBag, addr 0x4a9e0a0, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa4100, size 0x14c, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlHash128AttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a9e008, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa4068, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -32,17 +32,17 @@ public:
   /// @brief Field v, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) float_t v;
 
-  /// @brief Method FromRGB, addr 0x4700f7c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x4705ef0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
-  /// @brief Method SqrDistance, addr 0x470128c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SqrDistance, addr 0x4706200, size 0x48, virtual false, abstract: false, final false
   inline float_t SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor);
 
-  /// @brief Method ToString, addr 0x47011c8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x470613c, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_h() const;
@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x4700ef8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4705e6c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v);
 
-  /// @brief Method .ctor, addr 0x4700f34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4705ea8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
 protected:
@@ -84,7 +84,7 @@ public:
   HSVColor(HSVColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14231 };
 
   /// @brief Field h, offset: 0x10, size: 0x4, def value: None
   float_t ___h;

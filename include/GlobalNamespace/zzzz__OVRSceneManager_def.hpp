@@ -140,7 +140,7 @@ public:
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* getStaticF__List_k__BackingField();
 
-  /// @brief Method get_List, addr 0x4008064, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_List, addr 0x400cfd8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_List();
 
   static inline void setStaticF__List_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
@@ -255,7 +255,7 @@ public:
 
   constexpr void __cordl_internal_set_Walls(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
 
-  /// @brief Method .ctor, addr 0x400739c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400c310, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -304,13 +304,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRSceneManager_LogForwarder {
 public:
   // Declarations
-  /// @brief Method Log, addr 0x40057c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x400a73c, size 0xbc, virtual false, abstract: false, final false
   inline void Log(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogError, addr 0x4004adc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x4009a50, size 0xbc, virtual false, abstract: false, final false
   inline void LogError(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogWarning, addr 0x40079dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x400c950, size 0xbc, virtual false, abstract: false, final false
   inline void LogWarning(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
   // Ctor Parameters []
@@ -340,13 +340,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRSceneManager_Development : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Log, addr 0x4008394, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x400d308, size 0xbc, virtual false, abstract: false, final false
   static inline void Log(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogError, addr 0x400850c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x400d480, size 0xbc, virtual false, abstract: false, final false
   static inline void LogError(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogWarning, addr 0x4008450, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x400d3c4, size 0xbc, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
 protected:
@@ -388,7 +388,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSceneManager___c__DisplayClass37_0* New_ctor();
 
-  /// @brief Method <DoesRoomSetupExist>b__0, addr 0x40085c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <DoesRoomSetupExist>b__0, addr 0x400d53c, size 0x18, virtual false, abstract: false, final false
   inline void _DoesRoomSetupExist_b__0(bool result, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* const& __cordl_internal_get_requestedAnchorClassifications() const;
@@ -403,7 +403,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::GlobalNamespace::OVRTask_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x400606c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400afe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -458,7 +458,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSceneManager___c__DisplayClass40_0* New_ctor();
 
-  /// @brief Method <CheckClassificationsInRooms>b__0, addr 0x40085e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CheckClassificationsInRooms>b__0, addr 0x400d554, size 0x14, virtual false, abstract: false, final false
   inline void _CheckClassificationsInRooms_b__0(bool result);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* const& __cordl_internal_get_requestedAnchorClassifications() const;
@@ -479,7 +479,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::GlobalNamespace::OVRTask_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x4006644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400b5b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -530,10 +530,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x40085f4, size 0x648, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x400d568, size 0x648, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4008c3c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x400dbb0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -612,10 +612,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4008c48, size 0x61c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x400dbbc, size 0x61c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4009264, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x400e1d8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -755,86 +755,86 @@ public:
   /// @brief Field _sceneCaptureRequestId, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneCaptureRequestId, put = __cordl_internal_set__sceneCaptureRequestId)) uint64_t _sceneCaptureRequestId;
 
-  /// @brief Method Awake, addr 0x4004970, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x40098e4, size 0x16c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckClassificationsInRooms, addr 0x40061a0, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method CheckClassificationsInRooms, addr 0x400b114, size 0x4a4, virtual false, abstract: false, final false
   static inline void CheckClassificationsInRooms(bool success, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* rooms,
                                                  ::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications, ::GlobalNamespace::OVRTask_1<bool> task);
 
-  /// @brief Method CheckIfAnchorsContainClassifications, addr 0x400664c, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfAnchorsContainClassifications, addr 0x400b5c0, size 0x4d4, virtual false, abstract: false, final false
   static inline void CheckIfAnchorsContainClassifications(bool success, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* roomAnchors,
                                                           ::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications, ::GlobalNamespace::OVRTask_1<bool> task);
 
-  /// @brief Method CheckIfClassificationsAreValid, addr 0x40059f8, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CheckIfClassificationsAreValid, addr 0x400a96c, size 0x408, virtual false, abstract: false, final false
   static inline void CheckIfClassificationsAreValid(::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications);
 
-  /// @brief Method CollectLabelsFromAnchors, addr 0x4006b20, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CollectLabelsFromAnchors, addr 0x400ba94, size 0x180, virtual false, abstract: false, final false
   static inline void CollectLabelsFromAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::List_1<::StringW>* labels);
 
-  /// @brief Method DestroyExistingAnchors, addr 0x4004e00, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method DestroyExistingAnchors, addr 0x4009d74, size 0x1e0, virtual false, abstract: false, final false
   inline void DestroyExistingAnchors();
 
-  /// @brief Method DoesRoomSetupExist, addr 0x4005e00, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method DoesRoomSetupExist, addr 0x400ad74, size 0x26c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> DoesRoomSetupExist(::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications);
 
-  /// @brief Method GetRoomLayoutInformation, addr 0x4005684, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetRoomLayoutInformation, addr 0x400a5f8, size 0x144, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSceneManager_RoomLayoutInformation* GetRoomLayoutInformation();
 
-  /// @brief Method GetUuidsToQuery, addr 0x4006074, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetUuidsToQuery, addr 0x400afe8, size 0x12c, virtual false, abstract: false, final false
   static inline void GetUuidsToQuery(::GlobalNamespace::OVRAnchor anchor, ::System::Collections::Generic::HashSet_1<::System::Guid>* uuidsToQuery);
 
-  /// @brief Method InstantiateSceneAnchor, addr 0x4007a98, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method InstantiateSceneAnchor, addr 0x400ca0c, size 0x540, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRSceneAnchor> InstantiateSceneAnchor(::GlobalNamespace::OVRAnchor anchor, ::GlobalNamespace::OVRSceneAnchor* prefab);
 
-  /// @brief Method InstantiateSceneRooms, addr 0x4005088, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method InstantiateSceneRooms, addr 0x4009ffc, size 0x424, virtual false, abstract: false, final false
   inline void InstantiateSceneRooms(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* roomLayoutAnchors);
 
-  /// @brief Method LoadSceneModel, addr 0x4004cc8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneModel, addr 0x4009c3c, size 0x138, virtual false, abstract: false, final false
   inline bool LoadSceneModel();
 
   static inline ::GlobalNamespace::OVRSceneManager* New_ctor();
 
-  /// @brief Method OVRManager_SceneCaptureComplete, addr 0x40078c4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OVRManager_SceneCaptureComplete, addr 0x400c838, size 0x118, virtual false, abstract: false, final false
   inline void OVRManager_SceneCaptureComplete(uint64_t requestId, bool result);
 
-  /// @brief Method OnAnchorsFetchCompleted, addr 0x4004fe0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnAnchorsFetchCompleted, addr 0x4009f54, size 0xa8, virtual false, abstract: false, final false
   inline void OnAnchorsFetchCompleted(bool success, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* roomLayoutAnchors);
 
-  /// @brief Method OnApplicationPause, addr 0x4004b98, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x4009b0c, size 0xa8, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool isPaused);
 
-  /// @brief Method OnDisable, addr 0x400769c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x400c610, size 0x228, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4007418, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x400c38c, size 0x284, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSceneRoomLoadCompleted, addr 0x40055bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnSceneRoomLoadCompleted, addr 0x400a530, size 0xc8, virtual false, abstract: false, final false
   inline void OnSceneRoomLoadCompleted();
 
-  /// @brief Method OnTrackingSpaceChanged, addr 0x4006ca0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnTrackingSpaceChanged, addr 0x400bc14, size 0x4, virtual false, abstract: false, final false
   static inline void OnTrackingSpaceChanged(::UnityEngine::Transform* trackingSpace);
 
-  /// @brief Method QueryForExistingAnchorsTransform, addr 0x4004c40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method QueryForExistingAnchorsTransform, addr 0x4009bb4, size 0x88, virtual false, abstract: false, final false
   inline void QueryForExistingAnchorsTransform();
 
-  /// @brief Method RequestSceneCapture, addr 0x4005884, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RequestSceneCapture, addr 0x400a7f8, size 0x48, virtual false, abstract: false, final false
   inline bool RequestSceneCapture();
 
-  /// @brief Method RequestSceneCapture, addr 0x40058cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RequestSceneCapture, addr 0x400a840, size 0x98, virtual false, abstract: false, final false
   inline bool RequestSceneCapture(::StringW requestString);
 
-  /// @brief Method RequestSceneCapture, addr 0x4005964, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RequestSceneCapture, addr 0x400a8d8, size 0x94, virtual false, abstract: false, final false
   inline bool RequestSceneCapture(::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications);
 
-  /// @brief Method Update, addr 0x4006ee4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x400be58, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAllSceneAnchors, addr 0x4006ca4, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllSceneAnchors, addr 0x400bc18, size 0x240, virtual false, abstract: false, final false
   static inline void UpdateAllSceneAnchors();
 
-  /// @brief Method UpdateSomeSceneAnchors, addr 0x4006ee8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method UpdateSomeSceneAnchors, addr 0x400be5c, size 0x130, virtual false, abstract: false, final false
   inline void UpdateSomeSceneAnchors();
 
   constexpr int32_t const& __cordl_internal_get_MaxSceneAnchorUpdatesPerFrame() const;
@@ -945,16 +945,16 @@ public:
 
   constexpr void __cordl_internal_set__sceneCaptureRequestId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x4007fd8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400cf4c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InitialAnchorParent, addr 0x40048f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialAnchorParent, addr 0x400986c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_InitialAnchorParent();
 
-  /// @brief Method get_Verbose, addr 0x4004908, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Verbose, addr 0x400987c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::GlobalNamespace::OVRSceneManager_LogForwarder> get_Verbose();
 
-  /// @brief Method set_InitialAnchorParent, addr 0x4004900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialAnchorParent, addr 0x4009874, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialAnchorParent(::UnityEngine::Transform* value);
 
 protected:

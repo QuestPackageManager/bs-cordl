@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::TextMeshProAutosizeGroup* New_ctor();
 
-  /// @brief Method Start, addr 0x39e2284, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e71f8, size 0x104, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get__texts() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> value);
 
-  /// @brief Method .ctor, addr 0x39e2388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e72fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   TextMeshProAutosizeGroup(TextMeshProAutosizeGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16006 };
 
   /// @brief Field _texts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> ____texts;

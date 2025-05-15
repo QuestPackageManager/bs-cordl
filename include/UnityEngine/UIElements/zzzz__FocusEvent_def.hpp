@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a237a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a29808, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a237a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a29800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::FocusEvent___c* getStaticF___9();
@@ -78,10 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x4a23644, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x4a296a4, size 0xb8, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a236fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2975c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

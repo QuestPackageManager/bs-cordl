@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_VoipGroup(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f8d948, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f928bc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -88,7 +88,7 @@ public:
   NetSyncSession(NetSyncSession const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15550 };
 
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;

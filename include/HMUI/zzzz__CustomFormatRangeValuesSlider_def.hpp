@@ -25,7 +25,7 @@ public:
 
   static inline ::HMUI::CustomFormatRangeValuesSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x39ec274, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x39f11e8, size 0x70, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr ::StringW const& __cordl_internal_get__formatString() const;
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__formatString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39ec2e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f1258, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   CustomFormatRangeValuesSlider(CustomFormatRangeValuesSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16057 };
 
   /// @brief Field _formatString, offset: 0x170, size: 0x8, def value: None
   ::StringW ____formatString;

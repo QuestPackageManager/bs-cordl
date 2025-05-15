@@ -27,12 +27,12 @@ namespace System::Xml {
 class CORDL_TYPE OnRemoveWriter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4306bac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x430bb20, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XmlRawWriter* writer);
 
   static inline ::System::Xml::OnRemoveWriter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4306aac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430ba20, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

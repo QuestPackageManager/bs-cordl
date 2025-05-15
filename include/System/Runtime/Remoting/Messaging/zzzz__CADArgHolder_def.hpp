@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ce2ac4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce7a38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t i);
 
 protected:

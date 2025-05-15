@@ -86,103 +86,103 @@ public:
 
   __declspec(property(put = set_width)) float_t width;
 
-  /// @brief Method SetValue, addr 0x49dc2b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x49e2318, size 0x84, virtual false, abstract: false, final false
   inline void SetValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::Color value);
 
-  /// @brief Method SetValue, addr 0x49dc1f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x49e2250, size 0x84, virtual false, abstract: false, final false
   inline void SetValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, float_t value);
 
-  /// @brief Method Values, addr 0x49dc3d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x49e2430, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueCollection* Values();
 
-  /// @brief Method get_paddingTop, addr 0x49dc398, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_paddingTop, addr 0x49e23f8, size 0x38, virtual false, abstract: false, final false
   inline float_t get_paddingTop();
 
-  /// @brief Method set_backgroundColor, addr 0x49dc33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_backgroundColor, addr 0x49e239c, size 0x8, virtual false, abstract: false, final false
   inline void set_backgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method set_borderBottomLeftRadius, addr 0x49dc4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_borderBottomLeftRadius, addr 0x49e2500, size 0x8, virtual false, abstract: false, final false
   inline void set_borderBottomLeftRadius(float_t value);
 
-  /// @brief Method set_borderBottomRightRadius, addr 0x49dc4a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderBottomRightRadius, addr 0x49e2508, size 0xc, virtual false, abstract: false, final false
   inline void set_borderBottomRightRadius(float_t value);
 
-  /// @brief Method set_borderBottomWidth, addr 0x49dc47c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderBottomWidth, addr 0x49e24dc, size 0xc, virtual false, abstract: false, final false
   inline void set_borderBottomWidth(float_t value);
 
-  /// @brief Method set_borderColor, addr 0x49dc350, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderColor, addr 0x49e23b0, size 0xc, virtual false, abstract: false, final false
   inline void set_borderColor(::UnityEngine::Color value);
 
-  /// @brief Method set_borderLeftWidth, addr 0x49dc458, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderLeftWidth, addr 0x49e24b8, size 0xc, virtual false, abstract: false, final false
   inline void set_borderLeftWidth(float_t value);
 
-  /// @brief Method set_borderRightWidth, addr 0x49dc464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderRightWidth, addr 0x49e24c4, size 0xc, virtual false, abstract: false, final false
   inline void set_borderRightWidth(float_t value);
 
-  /// @brief Method set_borderTopLeftRadius, addr 0x49dc488, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderTopLeftRadius, addr 0x49e24e8, size 0xc, virtual false, abstract: false, final false
   inline void set_borderTopLeftRadius(float_t value);
 
-  /// @brief Method set_borderTopRightRadius, addr 0x49dc494, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderTopRightRadius, addr 0x49e24f4, size 0xc, virtual false, abstract: false, final false
   inline void set_borderTopRightRadius(float_t value);
 
-  /// @brief Method set_borderTopWidth, addr 0x49dc470, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_borderTopWidth, addr 0x49e24d0, size 0xc, virtual false, abstract: false, final false
   inline void set_borderTopWidth(float_t value);
 
-  /// @brief Method set_bottom, addr 0x49dc2a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_bottom, addr 0x49e2304, size 0xc, virtual false, abstract: false, final false
   inline void set_bottom(float_t value);
 
-  /// @brief Method set_color, addr 0x49dc2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x49e2310, size 0x8, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_flexGrow, addr 0x49dc4c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_flexGrow, addr 0x49e2520, size 0xc, virtual false, abstract: false, final false
   inline void set_flexGrow(float_t value);
 
-  /// @brief Method set_flexShrink, addr 0x49dc4cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_flexShrink, addr 0x49e252c, size 0xc, virtual false, abstract: false, final false
   inline void set_flexShrink(float_t value);
 
-  /// @brief Method set_height, addr 0x49dc28c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x49e22ec, size 0xc, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_left, addr 0x49dc274, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x49e22d4, size 0xc, virtual false, abstract: false, final false
   inline void set_left(float_t value);
 
-  /// @brief Method set_marginBottom, addr 0x49dc380, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_marginBottom, addr 0x49e23e0, size 0xc, virtual false, abstract: false, final false
   inline void set_marginBottom(float_t value);
 
-  /// @brief Method set_marginLeft, addr 0x49dc35c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_marginLeft, addr 0x49e23bc, size 0xc, virtual false, abstract: false, final false
   inline void set_marginLeft(float_t value);
 
-  /// @brief Method set_marginRight, addr 0x49dc374, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_marginRight, addr 0x49e23d4, size 0xc, virtual false, abstract: false, final false
   inline void set_marginRight(float_t value);
 
-  /// @brief Method set_marginTop, addr 0x49dc368, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_marginTop, addr 0x49e23c8, size 0xc, virtual false, abstract: false, final false
   inline void set_marginTop(float_t value);
 
-  /// @brief Method set_opacity, addr 0x49dc4b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_opacity, addr 0x49e2514, size 0xc, virtual false, abstract: false, final false
   inline void set_opacity(float_t value);
 
-  /// @brief Method set_paddingBottom, addr 0x49dc44c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_paddingBottom, addr 0x49e24ac, size 0xc, virtual false, abstract: false, final false
   inline void set_paddingBottom(float_t value);
 
-  /// @brief Method set_paddingLeft, addr 0x49dc38c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_paddingLeft, addr 0x49e23ec, size 0xc, virtual false, abstract: false, final false
   inline void set_paddingLeft(float_t value);
 
-  /// @brief Method set_paddingRight, addr 0x49dc440, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_paddingRight, addr 0x49e24a0, size 0xc, virtual false, abstract: false, final false
   inline void set_paddingRight(float_t value);
 
-  /// @brief Method set_paddingTop, addr 0x49dc434, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_paddingTop, addr 0x49e2494, size 0xc, virtual false, abstract: false, final false
   inline void set_paddingTop(float_t value);
 
-  /// @brief Method set_right, addr 0x49dc298, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x49e22f8, size 0xc, virtual false, abstract: false, final false
   inline void set_right(float_t value);
 
-  /// @brief Method set_top, addr 0x49dc1e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_top, addr 0x49e2244, size 0xc, virtual false, abstract: false, final false
   inline void set_top(float_t value);
 
-  /// @brief Method set_unityBackgroundImageTintColor, addr 0x49dc344, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_unityBackgroundImageTintColor, addr 0x49e23a4, size 0xc, virtual false, abstract: false, final false
   inline void set_unityBackgroundImageTintColor(::UnityEngine::Color value);
 
-  /// @brief Method set_width, addr 0x49dc280, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x49e22e0, size 0xc, virtual false, abstract: false, final false
   inline void set_width(float_t value);
 
   // Ctor Parameters []

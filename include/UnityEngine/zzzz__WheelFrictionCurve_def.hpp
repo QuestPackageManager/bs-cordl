@@ -29,34 +29,34 @@ public:
 
   __declspec(property(get = get_stiffness, put = set_stiffness)) float_t stiffness;
 
-  /// @brief Method get_asymptoteSlip, addr 0x48ef6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asymptoteSlip, addr 0x48f5738, size 0x8, virtual false, abstract: false, final false
   inline float_t get_asymptoteSlip();
 
-  /// @brief Method get_asymptoteValue, addr 0x48ef6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asymptoteValue, addr 0x48f5748, size 0x8, virtual false, abstract: false, final false
   inline float_t get_asymptoteValue();
 
-  /// @brief Method get_extremumSlip, addr 0x48ef6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extremumSlip, addr 0x48f5718, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extremumSlip();
 
-  /// @brief Method get_extremumValue, addr 0x48ef6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extremumValue, addr 0x48f5728, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extremumValue();
 
-  /// @brief Method get_stiffness, addr 0x48ef6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stiffness, addr 0x48f5758, size 0x8, virtual false, abstract: false, final false
   inline float_t get_stiffness();
 
-  /// @brief Method set_asymptoteSlip, addr 0x48ef6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asymptoteSlip, addr 0x48f5740, size 0x8, virtual false, abstract: false, final false
   inline void set_asymptoteSlip(float_t value);
 
-  /// @brief Method set_asymptoteValue, addr 0x48ef6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asymptoteValue, addr 0x48f5750, size 0x8, virtual false, abstract: false, final false
   inline void set_asymptoteValue(float_t value);
 
-  /// @brief Method set_extremumSlip, addr 0x48ef6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extremumSlip, addr 0x48f5720, size 0x8, virtual false, abstract: false, final false
   inline void set_extremumSlip(float_t value);
 
-  /// @brief Method set_extremumValue, addr 0x48ef6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extremumValue, addr 0x48f5730, size 0x8, virtual false, abstract: false, final false
   inline void set_extremumValue(float_t value);
 
-  /// @brief Method set_stiffness, addr 0x48ef700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stiffness, addr 0x48f5760, size 0x8, virtual false, abstract: false, final false
   inline void set_stiffness(float_t value);
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
   constexpr WheelFrictionCurve(float_t m_ExtremumSlip, float_t m_ExtremumValue, float_t m_AsymptoteSlip, float_t m_AsymptoteValue, float_t m_Stiffness) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15720 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -53,7 +53,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x40330fc, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x4038070, size 0x180, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -146,7 +146,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x403327c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x40381f0, size 0x20, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -247,7 +247,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMeshJobs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x40330f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4038068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

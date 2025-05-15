@@ -23,15 +23,15 @@ public:
   // Declarations
   __declspec(property(get = get_LogicalOperationStack)) ::System::Collections::Stack* LogicalOperationStack;
 
-  /// @brief Method GetLogicalOperationStack, addr 0x44262c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalOperationStack, addr 0x442b23c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* GetLogicalOperationStack();
 
   static inline ::System::Diagnostics::CorrelationManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44262bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442b230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogicalOperationStack, addr 0x44262c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalOperationStack, addr 0x442b238, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
 protected:

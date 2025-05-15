@@ -113,7 +113,7 @@ public:
   DelegateList_1(DelegateList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15591 };
 
   /// @brief Field m_acquireFunc, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* ___m_acquireFunc;

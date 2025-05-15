@@ -181,18 +181,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__LoadRenderModel_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x40656cc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406a640, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::ByRef<::System::IntPtr> ppRenderModel, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4065760, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406a6d4, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr> ppRenderModel, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x40656b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406a62c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(::StringW pchRenderModelName, ::ByRef<::System::IntPtr> ppRenderModel);
 
   static inline ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4065618, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406a58c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -225,18 +225,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__FreeRenderModel : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406582c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406a7a0, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pRenderModel, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x40658b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406a824, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4065818, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406a78c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr pRenderModel);
 
   static inline ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406578c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406a700, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -269,18 +269,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__LoadTexture_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406595c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406a8d0, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, ::ByRef<::System::IntPtr> ppTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4065a18, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406a98c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr> ppTexture, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4065948, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406a8bc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, ::ByRef<::System::IntPtr> ppTexture);
 
   static inline ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40658bc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406a830, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -313,18 +313,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__FreeTexture : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4065ae4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406aa58, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4065b68, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406aadc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4065ad0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406aa44, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr pTexture);
 
   static inline ::OVR::OpenVR::IVRRenderModels__FreeTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4065a44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406a9b8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -357,18 +357,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__LoadTextureD3D11_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4065c14, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406ab88, size 0xd4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, ::System::IntPtr pD3D11Device, ::ByRef<::System::IntPtr> ppD3D11Texture2D, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4065ce8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ac5c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr> ppD3D11Texture2D, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4065c00, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406ab74, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, ::System::IntPtr pD3D11Device, ::ByRef<::System::IntPtr> ppD3D11Texture2D);
 
   static inline ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4065b74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406aae8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -401,18 +401,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__LoadIntoTextureD3D11_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4065db4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406ad28, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, ::System::IntPtr pDstTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4065e6c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ade0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4065da0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406ad14, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, ::System::IntPtr pDstTexture);
 
   static inline ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4065d14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ac88, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -445,18 +445,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__FreeTextureD3D11 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4065f34, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406aea8, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pD3D11Texture2D, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4065fb8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406af2c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4065f20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406ae94, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr pD3D11Texture2D);
 
   static inline ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4065e94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ae08, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -489,19 +489,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetRenderModelName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4066064, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406afd8, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406610c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406b080, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4066050, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406afc4, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4065fc4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406af38, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -534,18 +534,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetRenderModelCount : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x40661d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b144, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x40661f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406b164, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x40661bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406b130, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066134, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b0a8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -578,18 +578,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetComponentCount : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x40662c8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b23c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x40662e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406b25c, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x40662b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406b228, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetComponentCount* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066218, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b18c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -622,19 +622,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetComponentName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x40663c4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b338, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4066478, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406b3ec, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x40663b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406b324, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetComponentName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066310, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b284, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -667,18 +667,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetComponentButtonMask : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4066554, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b4c8, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406657c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406b4f0, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4066540, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406b4b4, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchRenderModelName, ::StringW pchComponentName);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40664a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b414, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -711,19 +711,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetComponentRenderModelName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4066658, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b5cc, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName,
                                              uint32_t unComponentRenderModelNameLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4066700, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406b674, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4066644, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406b5b8, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName, uint32_t unComponentRenderModelNameLen);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40665a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b518, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -756,20 +756,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetComponentStateForDevicePath : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x40667dc, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b750, size 0x108, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
                                              ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x40668e4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406b858, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x40667c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406b73c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
                      ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066728, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b69c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -802,22 +802,22 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetComponentState : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x40669cc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b940, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
                                              ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4066acc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ba40, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
                         ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x40669b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406b92c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
                      ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetComponentState* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066918, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b88c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -850,18 +850,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__RenderModelHasComponent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4066bb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406bb28, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4066bdc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406bb50, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4066ba0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406bb14, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName);
 
   static inline ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066b00, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ba74, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -894,19 +894,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetRenderModelThumbnailURL : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4066cb8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406bc2c, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen,
                                              ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4066d88, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406bcfc, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4066ca4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406bc18, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066c04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406bb78, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -939,19 +939,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetRenderModelOriginalPath : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4066e68, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406bddc, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen,
                                              ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4066f38, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406beac, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4066e54, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406bdc8, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066db4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406bd28, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -984,18 +984,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRRenderModels__GetRenderModelErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4067004, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406bf78, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRRenderModelError error, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4067088, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406bffc, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4066ff0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406bf64, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRRenderModelError error);
 
   static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4066f64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406bed8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

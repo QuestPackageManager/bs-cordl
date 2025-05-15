@@ -19,7 +19,7 @@ namespace UnityEngine::Events {
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TidyAssemblyTypeName, addr 0x48b7e64, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method TidyAssemblyTypeName, addr 0x48bdec4, size 0x22c, virtual false, abstract: false, final false
   static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
 
 protected:

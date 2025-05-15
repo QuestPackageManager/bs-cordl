@@ -114,39 +114,39 @@ public:
   /// @brief Field _tweeningManager, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method DetailsToggleValueChanged, addr 0x3ba8c3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DetailsToggleValueChanged, addr 0x3badbb0, size 0x20, virtual false, abstract: false, final false
   inline void DetailsToggleValueChanged(bool isOn);
 
-  /// @brief Method DisconnectButtonPressed, addr 0x3ba8c08, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectButtonPressed, addr 0x3badb7c, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectButtonPressed();
 
-  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3ba8c5c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3badbd0, size 0xc0, virtual false, abstract: false, final false
   inline void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
 
-  /// @brief Method HandleStateChanged, addr 0x3ba8d1c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3badc90, size 0x1b0, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba8ae0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bada54, size 0x128, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3ba88c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bad834, size 0xb0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3ba8774, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bad6e8, size 0x14c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x3ba8970, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bad8e4, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0, addr 0x3ba8f60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0, addr 0x3baded4, size 0x20, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__22_0();
 
-  /// @brief Method <HandleStateChanged>b__23_0, addr 0x3ba8f80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <HandleStateChanged>b__23_0, addr 0x3badef4, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_0(float_t val);
 
-  /// @brief Method <HandleStateChanged>b__23_1, addr 0x3ba8f9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <HandleStateChanged>b__23_1, addr 0x3badf10, size 0x24, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_1();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3ba8ecc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bade40, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

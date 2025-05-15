@@ -131,7 +131,7 @@ public:
                                              ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> b, ::ByRef<bool> result, ::StringW header,
                                              ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
-  /// @brief Method AssertTrueLogEquivalent, addr 0x3a90e84, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AssertTrueLogEquivalent, addr 0x3a95df8, size 0x140, virtual false, abstract: false, final false
   static inline bool AssertTrueLogEquivalent(::ArrayW<::StringW, ::Array<::StringW>*> a, ::ArrayW<::StringW, ::Array<::StringW>*> b, ::ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
@@ -150,7 +150,7 @@ public:
   static inline bool AssertTrueLogEquivalent(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ::ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
-  /// @brief Method AssertTrueLogEquivalent, addr 0x3a90d94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AssertTrueLogEquivalent, addr 0x3a95d08, size 0x9c, virtual false, abstract: false, final false
   static inline bool AssertTrueLogEquivalent(::StringW a, ::StringW b, ::ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -175,7 +175,7 @@ public:
   static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ::ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::HEU_TestHelpers_RequireStruct_1<T>* _);
 
-  /// @brief Method AssertTrueLogEquivalent, addr 0x3a901b0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AssertTrueLogEquivalent, addr 0x3a95124, size 0x114, virtual false, abstract: false, final false
   static inline bool AssertTrueLogEquivalent(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ::ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1,
                                              ::StringW optional2, ::StringW optional3);
 
@@ -186,7 +186,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_TestHelpers* New_ctor();
 
-  /// @brief Method PrintTestLogAndSetResult, addr 0x3a90c24, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PrintTestLogAndSetResult, addr 0x3a95b98, size 0x170, virtual false, abstract: false, final false
   static inline void PrintTestLogAndSetResult(bool expression, ::ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -201,23 +201,23 @@ public:
   template <typename T>
   static inline bool ShouldBeTested(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ::ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
-  /// @brief Method ShouldBeTested, addr 0x3a90e30, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ShouldBeTested, addr 0x3a95da4, size 0x54, virtual false, abstract: false, final false
   static inline bool ShouldBeTested(::StringW a, ::StringW b, ::ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool ShouldBeTested(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ::ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
-  /// @brief Method ShouldBeTested, addr 0x3a902c4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method ShouldBeTested, addr 0x3a95238, size 0x2bc, virtual false, abstract: false, final false
   static inline bool ShouldBeTested(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ::ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ShouldBeTested(T a, T b, ::ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
-  /// @brief Method TestOutputObjectEquivalence, addr 0x3a90580, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method TestOutputObjectEquivalence, addr 0x3a954f4, size 0x6a4, virtual false, abstract: false, final false
   static inline bool TestOutputObjectEquivalence(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b);
 
-  /// @brief Method .ctor, addr 0x3a911ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a96160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -26,12 +26,12 @@ public:
   /// @brief Field _numberFormatInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__numberFormatInfo, put = setStaticF__numberFormatInfo)) ::System::Globalization::NumberFormatInfo* _numberFormatInfo;
 
-  /// @brief Method Format, addr 0x26fbf74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x26ffad8, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW Format(int32_t score);
 
   static inline ::GlobalNamespace::ScoreFormatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26fbff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ffb58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Globalization::NumberFormatInfo* getStaticF__numberFormatInfo();
@@ -53,7 +53,7 @@ public:
   ScoreFormatter(ScoreFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

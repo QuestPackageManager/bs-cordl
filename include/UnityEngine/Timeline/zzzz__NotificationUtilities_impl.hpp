@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>*, ::UnityEngine::Playables::PlayableDirector*)>(
     &::UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48283b0;
+  constexpr static std::size_t addrs = 0x482d324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>*, ::UnityEngine::Timeline::TimelineAsset*)>(
     &::UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4828c3c;
+  constexpr static std::size_t addrs = 0x482dbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>*, ::UnityEngine::Playables::IPlayableAsset*,
     ::UnityEngine::Playables::PlayableDirector*)>(&::UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable)> {
   constexpr static std::size_t size = 0x880;
-  constexpr static std::size_t addrs = 0x48283bc;
+  constexpr static std::size_t addrs = 0x482d330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::Timeline::NotificationUtilities::TrackTypeSupportsNotifications)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x4828c44;
+  constexpr static std::size_t addrs = 0x482dbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

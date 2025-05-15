@@ -22,13 +22,13 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE Poser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InterpolatePose, addr 0x227880c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePose, addr 0x227c2bc, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(::ByRef<::UnityEngine::Pose> a, ::ByRef<::UnityEngine::Pose> b, float_t t);
 
-  /// @brief Method InvertPose, addr 0x2278a64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InvertPose, addr 0x227c514, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InvertPose(::UnityEngine::Pose pose);
 
-  /// @brief Method MirrorPoseYZ, addr 0x2278acc, size 0x6c4, virtual false, abstract: false, final false
+  /// @brief Method MirrorPoseYZ, addr 0x227c57c, size 0x6c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose MirrorPoseYZ(::UnityEngine::Pose pose);
 
 protected:
@@ -46,7 +46,7 @@ public:
   Poser(Poser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

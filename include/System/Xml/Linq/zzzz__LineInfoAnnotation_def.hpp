@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_linePosition(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4240930, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42458a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -57,7 +57,7 @@ public:
   LineInfoAnnotation(LineInfoAnnotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17957 };
 
   /// @brief Field lineNumber, offset: 0x10, size: 0x4, def value: None
   int32_t ___lineNumber;

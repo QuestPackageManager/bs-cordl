@@ -149,22 +149,22 @@ public:
 
   static inline ::UnityEngine::EnumDataUtility___c* New_ctor();
 
-  /// @brief Method <GetCachedEnumData>b__2_1, addr 0x48a625c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_1, addr 0x48ac2bc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW _GetCachedEnumData_b__2_1(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetCachedEnumData>b__2_2, addr 0x48a62b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_2, addr 0x48ac310, size 0x94, virtual false, abstract: false, final false
   inline ::System::Enum* _GetCachedEnumData_b__2_2(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetCachedEnumData>b__2_3, addr 0x48a6344, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_3, addr 0x48ac3a4, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _GetCachedEnumData_b__2_3(::System::Enum* v);
 
-  /// @brief Method <GetCachedEnumData>b__2_4, addr 0x48a63a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_4, addr 0x48ac400, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _GetCachedEnumData_b__2_4(::System::Enum* v);
 
-  /// @brief Method <GetCachedEnumData>b__2_5, addr 0x48a6234, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_5, addr 0x48ac294, size 0x28, virtual false, abstract: false, final false
   inline int32_t _GetCachedEnumData_b__2_5(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method .ctor, addr 0x48a622c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ac28c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::EnumDataUtility___c* getStaticF___9();
@@ -226,7 +226,7 @@ public:
 
   static inline ::UnityEngine::EnumDataUtility___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <GetCachedEnumData>b__0, addr 0x48a63fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__0, addr 0x48ac45c, size 0x68, virtual false, abstract: false, final false
   inline ::StringW _GetCachedEnumData_b__0(::System::Reflection::FieldInfo* f);
 
   constexpr ::System::Func_2<::StringW, ::StringW>* const& __cordl_internal_get_nicifyName() const;
@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set_nicifyName(::System::Func_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x48a585c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ab8bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -324,22 +324,22 @@ public:
       put =
           setStaticF_s_EnumData)) ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::EnumDataUtility_CachedType, ::System::Type*>, ::UnityEngine::EnumData>* s_EnumData;
 
-  /// @brief Method CheckObsoleteAddition, addr 0x48a5864, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CheckObsoleteAddition, addr 0x48ab8c4, size 0x120, virtual false, abstract: false, final false
   static inline bool CheckObsoleteAddition(::System::Reflection::FieldInfo* field, ::UnityEngine::EnumDataUtility_CachedType cachedType);
 
-  /// @brief Method EnumNameFromEnumField, addr 0x48a5f28, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method EnumNameFromEnumField, addr 0x48abf88, size 0x1cc, virtual false, abstract: false, final false
   static inline ::StringW EnumNameFromEnumField(::System::Reflection::FieldInfo* field, ::System::Func_2<::StringW, ::StringW>* nicifyName);
 
-  /// @brief Method EnumTooltipFromEnumField, addr 0x48a5df0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method EnumTooltipFromEnumField, addr 0x48abe50, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW EnumTooltipFromEnumField(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method GetCachedEnumData, addr 0x48a49b0, size 0xeac, virtual false, abstract: false, final false
+  /// @brief Method GetCachedEnumData, addr 0x48aaa10, size 0xeac, virtual false, abstract: false, final false
   static inline ::UnityEngine::EnumData GetCachedEnumData(::System::Type* enumType, ::UnityEngine::EnumDataUtility_CachedType cachedType, ::System::Func_2<::StringW, ::StringW>* nicifyName);
 
-  /// @brief Method HandleInspectorOrderAttribute, addr 0x48a5984, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method HandleInspectorOrderAttribute, addr 0x48ab9e4, size 0x46c, virtual false, abstract: false, final false
   static inline void HandleInspectorOrderAttribute(::System::Type* enumType, ::ByRef<::UnityEngine::EnumData> enumData);
 
-  /// @brief Method <EnumNameFromEnumField>g__NicifyName|8_0, addr 0x48a60f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <EnumNameFromEnumField>g__NicifyName|8_0, addr 0x48ac154, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW _EnumNameFromEnumField_g__NicifyName_8_0(::ByRef<::UnityEngine::EnumDataUtility___c__DisplayClass8_0> _cordl_fixed_empty_name_whitespace);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::EnumDataUtility_CachedType, ::System::Type*>, ::UnityEngine::EnumData>* getStaticF_s_EnumData();

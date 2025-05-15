@@ -34,7 +34,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PackedPlayModeBuildLogs_RuntimeBuildLog {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x44d7bec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dcb60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LogType type, ::StringW message);
 
   // Ctor Parameters []
@@ -45,7 +45,7 @@ public:
   constexpr PackedPlayModeBuildLogs_RuntimeBuildLog(::UnityEngine::LogType Type, ::StringW Message) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16136 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>* value);
 
-  /// @brief Method .ctor, addr 0x44d7b70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dcae4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeBuildLogs, addr 0x44d7b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimeBuildLogs, addr 0x44dcad4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>* get_RuntimeBuildLogs();
 
-  /// @brief Method set_RuntimeBuildLogs, addr 0x44d7b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RuntimeBuildLogs, addr 0x44dcadc, size 0x8, virtual false, abstract: false, final false
   inline void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>* value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   PackedPlayModeBuildLogs(PackedPlayModeBuildLogs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16137 };
 
   /// @brief Field m_RuntimeBuildLogs, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>* ___m_RuntimeBuildLogs;

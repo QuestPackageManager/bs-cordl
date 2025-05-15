@@ -33,25 +33,25 @@ public:
   /// @brief Field _raw, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__raw, put = __cordl_internal_set__raw)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _raw;
 
-  /// @brief Method BasicConstraintsExtension, addr 0x4430b18, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method BasicConstraintsExtension, addr 0x4435a8c, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW BasicConstraintsExtension(bool multiLine);
 
-  /// @brief Method CopyFrom, addr 0x44306d0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x4435644, size 0xf0, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Default, addr 0x4430850, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Default, addr 0x44357c4, size 0x118, virtual false, abstract: false, final false
   inline ::StringW Default(bool multiLine);
 
-  /// @brief Method EnhancedKeyUsageExtension, addr 0x4430c24, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method EnhancedKeyUsageExtension, addr 0x4435b98, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW EnhancedKeyUsageExtension(bool multiLine);
 
-  /// @brief Method Format, addr 0x44307c0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Format, addr 0x4435734, size 0x90, virtual true, abstract: false, final false
   inline ::StringW Format(bool multiLine);
 
-  /// @brief Method KeyUsageExtension, addr 0x4430d30, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method KeyUsageExtension, addr 0x4435ca4, size 0x110, virtual false, abstract: false, final false
   inline ::StringW KeyUsageExtension(bool multiLine);
 
-  /// @brief Method NetscapeCertType, addr 0x4431318, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method NetscapeCertType, addr 0x443628c, size 0x3d8, virtual false, abstract: false, final false
   inline ::StringW NetscapeCertType(bool multiLine);
 
   static inline ::System::Security::Cryptography::AsnEncodedData* New_ctor();
@@ -62,13 +62,13 @@ public:
 
   static inline ::System::Security::Cryptography::AsnEncodedData* New_ctor(::System::Security::Cryptography::Oid* oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method SubjectAltName, addr 0x4430f50, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method SubjectAltName, addr 0x4435ec4, size 0x3c8, virtual false, abstract: false, final false
   inline ::StringW SubjectAltName(bool multiLine);
 
-  /// @brief Method SubjectKeyIdentifierExtension, addr 0x4430e40, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SubjectKeyIdentifierExtension, addr 0x4435db4, size 0x110, virtual false, abstract: false, final false
   inline ::StringW SubjectKeyIdentifierExtension(bool multiLine);
 
-  /// @brief Method ToString, addr 0x4430968, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x44358dc, size 0x1b0, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   constexpr ::System::Security::Cryptography::Oid* const& __cordl_internal_get__oid() const;
@@ -83,28 +83,28 @@ public:
 
   constexpr void __cordl_internal_set__raw(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x44303c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4435338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44305ec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4435560, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method .ctor, addr 0x44303cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4435340, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method .ctor, addr 0x4430538, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44354ac, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method get_Oid, addr 0x44306c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x4435634, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Oid();
 
-  /// @brief Method get_RawData, addr 0x44306c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawData, addr 0x443563c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
 
-  /// @brief Method set_Oid, addr 0x4430574, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_Oid, addr 0x44354e8, size 0x78, virtual false, abstract: false, final false
   inline void set_Oid(::System::Security::Cryptography::Oid* value);
 
-  /// @brief Method set_RawData, addr 0x4430448, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_RawData, addr 0x44353bc, size 0xf0, virtual false, abstract: false, final false
   inline void set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

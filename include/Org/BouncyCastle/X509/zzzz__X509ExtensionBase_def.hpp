@@ -35,19 +35,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
   constexpr operator ::Org::BouncyCastle::X509::IX509Extension*() noexcept;
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x2518148, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x251bbf8, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids();
 
-  /// @brief Method GetExtensionOids, addr 0x2517d40, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x251b7f0, size 0x3f8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetExtensionOids(bool critical);
 
-  /// @brief Method GetExtensionValue, addr 0x25181cc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionValue, addr 0x251bc7c, size 0x38, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionValue, addr 0x2518158, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetExtensionValue, addr 0x251bc08, size 0x74, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::StringW oid);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x2518138, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x251bbe8, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids();
 
   /// @brief Method GetX509Extensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -55,7 +55,7 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509ExtensionBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2518204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251bcb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"

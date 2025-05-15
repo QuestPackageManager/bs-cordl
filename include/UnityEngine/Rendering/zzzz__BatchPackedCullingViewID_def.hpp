@@ -26,13 +26,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>*();
 
-  /// @brief Method Equals, addr 0x48c4ed0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48caf30, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48c4ec0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48caf20, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchPackedCullingViewID other);
 
-  /// @brief Method GetHashCode, addr 0x48c4eb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48caf18, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>"

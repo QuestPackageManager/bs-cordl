@@ -33,15 +33,15 @@ public:
                       put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
       _missionObjectiveCheckersManager;
 
-  /// @brief Method Awake, addr 0x3b91a48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b969bc, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x3b91b68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x3b96adc, size 0x78, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b91ad8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b96a4c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-  /// @brief Method .ctor, addr 0x3b91be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96b54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

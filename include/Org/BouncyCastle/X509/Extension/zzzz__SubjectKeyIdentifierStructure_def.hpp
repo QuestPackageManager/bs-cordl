@@ -24,17 +24,17 @@ namespace Org::BouncyCastle::X509::Extension {
 class CORDL_TYPE SubjectKeyIdentifierStructure : public ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier {
 public:
   // Declarations
-  /// @brief Method FromPublicKey, addr 0x25e5b00, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method FromPublicKey, addr 0x25e95b0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* FromPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   static inline ::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
   static inline ::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method .ctor, addr 0x25e5a6c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e951c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method .ctor, addr 0x25e5cb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e9760, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
 protected:

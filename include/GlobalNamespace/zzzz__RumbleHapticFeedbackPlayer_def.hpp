@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_strength(float_t value);
 
-  /// @brief Method .ctor, addr 0x39c9b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ceaf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   RumbleHapticFeedbackPlayer_RumbleData(RumbleHapticFeedbackPlayer_RumbleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16492 };
 
   /// @brief Field active, offset: 0x10, size: 0x1, def value: None
   bool ___active;
@@ -160,21 +160,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x39c96b4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x39ce628, size 0x40, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetRumble, addr 0x39c9538, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetRumble, addr 0x39ce4ac, size 0x17c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::System::Object* preset);
 
-  /// @brief Method LateUpdate, addr 0x39c96f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39ce668, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RumbleHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x39c14c0, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x39c6434, size 0xc8, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method UpdateRumbles, addr 0x39c96f8, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method UpdateRumbles, addr 0x39ce66c, size 0x484, virtual false, abstract: false, final false
   inline void UpdateRumbles();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
@@ -195,7 +195,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39c9b84, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ceaf8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -216,7 +216,7 @@ public:
   RumbleHapticFeedbackPlayer(RumbleHapticFeedbackPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16493 };
 
   /// @brief Field kContinuousRumbleFrameDuration offset 0xffffffff size 0x4
   static constexpr float_t kContinuousRumbleFrameDuration{ static_cast<float_t>(0.016666668f) };

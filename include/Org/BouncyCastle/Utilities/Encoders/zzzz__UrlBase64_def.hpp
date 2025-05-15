@@ -29,27 +29,27 @@ public:
   /// @brief Field encoder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_encoder, put = setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::IEncoder* encoder;
 
-  /// @brief Method Decode, addr 0x25d5af8, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d95a8, size 0x228, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decode, addr 0x25d5e14, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d98c4, size 0x210, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
 
-  /// @brief Method Decode, addr 0x25d5d20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d97d0, size 0xf4, virtual false, abstract: false, final false
   static inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
 
-  /// @brief Method Decode, addr 0x25d6024, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d9ad4, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStr);
 
-  /// @brief Method Encode, addr 0x25d57e4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d9294, size 0x224, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Encode, addr 0x25d5a08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d94b8, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d61e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d9c90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::IEncoder* getStaticF_encoder();

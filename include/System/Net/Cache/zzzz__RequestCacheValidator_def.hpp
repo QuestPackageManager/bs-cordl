@@ -21,7 +21,7 @@ namespace System::Net::Cache {
 class CORDL_TYPE RequestCacheValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateValidator, addr 0x43ea788, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CreateValidator, addr 0x43ef6fc, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* CreateValidator();
 
 protected:

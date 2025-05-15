@@ -50,44 +50,44 @@ public:
 
   __declspec(property(get = get_Variables)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* Variables;
 
-  /// @brief Method Accept, addr 0x40a84d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40ad44c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetExpression, addr 0x40a8548, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40ad4bc, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x40a8598, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x40ad50c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
-  /// @brief Method GetOrMakeVariables, addr 0x40a85c0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeVariables, addr 0x40ad534, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* GetOrMakeVariables();
 
   static inline ::System::Linq::Expressions::BlockExpression* New_ctor();
 
-  /// @brief Method ReturnReadOnlyExpressions, addr 0x40a8640, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ReturnReadOnlyExpressions, addr 0x40ad5b4, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ReturnReadOnlyExpressions(::System::Linq::Expressions::BlockExpression* provider,
                                                                                                                                               ::ByRef<::System::Object*> collection);
 
-  /// @brief Method Rewrite, addr 0x40a8618, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40ad58c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
-  /// @brief Method .ctor, addr 0x40a8480, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ad3f4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExpressionCount, addr 0x40a8570, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x40ad4e4, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
-  /// @brief Method get_Expressions, addr 0x40a8464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Expressions, addr 0x40ad3d8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_Expressions();
 
-  /// @brief Method get_NodeType, addr 0x40a8500, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40ad474, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x40a8508, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40ad47c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Variables, addr 0x40a8470, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Variables, addr 0x40ad3e4, size 0x10, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* get_Variables();
 
 protected:
@@ -105,7 +105,7 @@ public:
   BlockExpression(BlockExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

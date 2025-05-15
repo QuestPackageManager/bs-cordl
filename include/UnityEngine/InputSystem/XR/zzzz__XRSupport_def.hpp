@@ -18,7 +18,7 @@ namespace UnityEngine::InputSystem::XR {
 class CORDL_TYPE XRSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x45e3438, size 0x858, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45e83ac, size 0x858, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

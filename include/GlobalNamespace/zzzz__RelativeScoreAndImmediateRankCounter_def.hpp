@@ -61,18 +61,18 @@ public:
   __declspec(property(get = __cordl_internal_get_relativeScoreOrImmediateRankDidChangeEvent,
                       put = __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent)) ::System::Action* relativeScoreOrImmediateRankDidChangeEvent;
 
-  /// @brief Method HandleScoreDidChange, addr 0x3ba4274, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x3ba91e8, size 0x13c, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t scoreWithoutModifiers, int32_t scoreWithModifiers);
 
   static inline ::GlobalNamespace::RelativeScoreAndImmediateRankCounter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba4174, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba90e8, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ba4038, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba8fac, size 0x13c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x3ba43b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x3ba9324, size 0x88, virtual false, abstract: false, final false
   inline void UpdateRelativeScoreAndImmediateRank(int32_t score, int32_t modifiedScore, int32_t maxPossibleScore, int32_t maxPossibleModifiedScore);
 
   constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
@@ -111,25 +111,25 @@ public:
 
   constexpr void __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ba4438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba93ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3ba2bc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3ba7b3c, size 0x9c, virtual false, abstract: false, final false
   inline void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_immediateRank, addr 0x3ba4028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRank, addr 0x3ba8f9c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RankModel_Rank get_immediateRank();
 
-  /// @brief Method get_relativeScore, addr 0x3ba4018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScore, addr 0x3ba8f8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeScore();
 
-  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3ba3f7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3ba8ef0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method set_immediateRank, addr 0x3ba4030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_immediateRank, addr 0x3ba8fa4, size 0x8, virtual false, abstract: false, final false
   inline void set_immediateRank(::GlobalNamespace::RankModel_Rank value);
 
-  /// @brief Method set_relativeScore, addr 0x3ba4020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_relativeScore, addr 0x3ba8f94, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeScore(float_t value);
 
 protected:

@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::BombExecutionRating_Rating value);
 
-  /// @brief Method .ctor, addr 0x26ab054, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aeb04, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::BombExecutionRating_Rating rating);
 
-  /// @brief Method get_rating, addr 0x26ab04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x26aeafc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BombExecutionRating_Rating get_rating();
 
 protected:

@@ -37,19 +37,19 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x40b6f1c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x40bbe90, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InstanceMethodCallExpression0* New_ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance);
 
-  /// @brief Method Rewrite, addr 0x40b6f70, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40bbee4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
-  /// @brief Method .ctor, addr 0x40b6ef8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bbe6c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance);
 
-  /// @brief Method get_ArgumentCount, addr 0x40b6f68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x40bbedc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -70,7 +70,7 @@ public:
   InstanceMethodCallExpression0(InstanceMethodCallExpression0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

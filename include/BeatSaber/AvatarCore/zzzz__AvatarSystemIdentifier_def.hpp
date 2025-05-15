@@ -27,28 +27,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>*();
 
-  /// @brief Method Equals, addr 0x224b0c4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x224eb74, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x224b0b4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x224eb64, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::AvatarCore::AvatarSystemIdentifier other);
 
-  /// @brief Method GetHashCode, addr 0x224b13c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x224ebec, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HashAvatarSystemTypeMultiplier, addr 0x224a124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HashAvatarSystemTypeMultiplier, addr 0x224dbd4, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t HashAvatarSystemTypeMultiplier(::StringW avatarSystemTypeIdentifier);
 
-  /// @brief Method .ctor, addr 0x224b090, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224eb40, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW avatarSystemTypeIdentifier);
 
   /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>"
   constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>* i___System__IEquatable_1___BeatSaber__AvatarCore__AvatarSystemIdentifier_();
 
-  /// @brief Method op_Equality, addr 0x224b144, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x224ebf4, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Equality(::BeatSaber::AvatarCore::AvatarSystemIdentifier obj1, ::BeatSaber::AvatarCore::AvatarSystemIdentifier obj2);
 
-  /// @brief Method op_Inequality, addr 0x224b1bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x224ec6c, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::BeatSaber::AvatarCore::AvatarSystemIdentifier obj1, ::BeatSaber::AvatarCore::AvatarSystemIdentifier obj2);
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr AvatarSystemIdentifier(::StringW value, uint32_t hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17576 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

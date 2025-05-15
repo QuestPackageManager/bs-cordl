@@ -74,7 +74,7 @@ public:
   OverridableData_1(OverridableData_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19189 };
 
   /// @brief Field _override, offset: 0x10, size: 0x1, def value: None
   bool ____override;

@@ -46,7 +46,7 @@ public:
   /// @brief Field seconds, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_seconds, put = __cordl_internal_set_seconds)) ::Org::BouncyCastle::Asn1::DerInteger* seconds;
 
-  /// @brief Method GetInstance, addr 0x24f69d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24fa484, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis,
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x24f6a90, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24fa540, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_micros() const;
@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set_seconds(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x24f65f4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fa0a4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis, ::Org::BouncyCastle::Asn1::DerInteger* micros);
 
-  /// @brief Method .ctor, addr 0x24f66d0, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fa180, size 0x304, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Micros, addr 0x24f6a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Micros, addr 0x24fa538, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Micros();
 
-  /// @brief Method get_Millis, addr 0x24f6a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Millis, addr 0x24fa530, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Millis();
 
-  /// @brief Method get_Seconds, addr 0x24f6a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x24fa528, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Seconds();
 
 protected:

@@ -130,72 +130,72 @@ public:
   /// @brief Field movingChanged, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_movingChanged, put = __cordl_internal_set_movingChanged)) ::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* movingChanged;
 
-  /// @brief Method BeginDragMove, addr 0x49de834, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method BeginDragMove, addr 0x49e4894, size 0x474, virtual false, abstract: false, final false
   inline void BeginDragMove(float_t pos);
 
-  /// @brief Method DragMove, addr 0x49deca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DragMove, addr 0x49e4d08, size 0x8, virtual false, abstract: false, final false
   inline void DragMove(float_t pos);
 
-  /// @brief Method EndDragMove, addr 0x49de6a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method EndDragMove, addr 0x49e4708, size 0x120, virtual false, abstract: false, final false
   inline void EndDragMove(bool cancelled);
 
-  /// @brief Method IsNotMouseEvent, addr 0x49de5d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsNotMouseEvent, addr 0x49e4634, size 0x64, virtual false, abstract: false, final false
   static inline bool IsNotMouseEvent(int32_t pointerId);
 
   static inline ::UnityEngine::UIElements::Internal::ColumnMover* New_ctor();
 
-  /// @brief Method OnKeyDown, addr 0x49de7c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x49e4828, size 0x6c, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* e);
 
-  /// @brief Method OnMouseCaptureOut, addr 0x49de080, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnMouseCaptureOut, addr 0x49e40e0, size 0x7c, virtual false, abstract: false, final false
   inline void OnMouseCaptureOut(::UnityEngine::UIElements::MouseCaptureOutEvent* evt);
 
-  /// @brief Method OnMouseDown, addr 0x49ddaa8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnMouseDown, addr 0x49e3b08, size 0xb4, virtual false, abstract: false, final false
   inline void OnMouseDown(::UnityEngine::UIElements::MouseDownEvent* evt);
 
-  /// @brief Method OnMouseMove, addr 0x49ddd44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnMouseMove, addr 0x49e3da4, size 0x64, virtual false, abstract: false, final false
   inline void OnMouseMove(::UnityEngine::UIElements::MouseMoveEvent* evt);
 
-  /// @brief Method OnMouseUp, addr 0x49ddec0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnMouseUp, addr 0x49e3f20, size 0xa4, virtual false, abstract: false, final false
   inline void OnMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method OnPointerCancel, addr 0x49de550, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCancel, addr 0x49e45b0, size 0x84, virtual false, abstract: false, final false
   inline void OnPointerCancel(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerCaptureOut, addr 0x49de638, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCaptureOut, addr 0x49e4698, size 0x70, virtual false, abstract: false, final false
   inline void OnPointerCaptureOut(::UnityEngine::UIElements::PointerCaptureOutEvent* evt);
 
-  /// @brief Method OnPointerDown, addr 0x49de1e4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x49e4244, size 0x128, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove, addr 0x49de30c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x49e436c, size 0x118, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUp, addr 0x49de424, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x49e4484, size 0x12c, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method ProcessCancelEvent, addr 0x49de0fc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ProcessCancelEvent, addr 0x49e415c, size 0xe8, virtual false, abstract: false, final false
   inline void ProcessCancelEvent(::UnityEngine::UIElements::EventBase* evt, int32_t pointerId);
 
-  /// @brief Method ProcessDownEvent, addr 0x49ddb5c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ProcessDownEvent, addr 0x49e3bbc, size 0x1e8, virtual false, abstract: false, final false
   inline void ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
 
-  /// @brief Method ProcessMoveEvent, addr 0x49ddda8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ProcessMoveEvent, addr 0x49e3e08, size 0x118, virtual false, abstract: false, final false
   inline void ProcessMoveEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::Vector2 localPosition);
 
-  /// @brief Method ProcessUpEvent, addr 0x49ddf64, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ProcessUpEvent, addr 0x49e3fc4, size 0x11c, virtual false, abstract: false, final false
   inline void ProcessUpEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x49dcff0, size 0x55c, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x49e3050, size 0x55c, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x49dd54c, size 0x55c, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x49e35ac, size 0x55c, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method UpdateMoveLocation, addr 0x49decb0, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method UpdateMoveLocation, addr 0x49e4d10, size 0x370, virtual false, abstract: false, final false
   inline void UpdateMoveLocation();
 
-  /// @brief Method UpdatePreviewPosition, addr 0x49df020, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreviewPosition, addr 0x49e5080, size 0x270, virtual false, abstract: false, final false
   inline void UpdatePreviewPosition();
 
   constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get__columnLayout_k__BackingField() const;
@@ -294,37 +294,37 @@ public:
 
   constexpr void __cordl_internal_set_movingChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
-  /// @brief Method .ctor, addr 0x49dcf38, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e2f98, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_activeChanged, addr 0x49dcc78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_activeChanged, addr 0x49e2cd8, size 0xb0, virtual false, abstract: false, final false
   inline void add_activeChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
-  /// @brief Method add_movingChanged, addr 0x49dcdd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_movingChanged, addr 0x49e2e38, size 0xb0, virtual false, abstract: false, final false
   inline void add_movingChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
-  /// @brief Method get_active, addr 0x49dcbf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x49e2c58, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_columnLayout, addr 0x49dcbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnLayout, addr 0x49e2c48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ColumnLayout* get_columnLayout();
 
-  /// @brief Method get_moving, addr 0x49dcc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moving, addr 0x49e2c98, size 0x8, virtual false, abstract: false, final false
   inline bool get_moving();
 
-  /// @brief Method remove_activeChanged, addr 0x49dcd28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_activeChanged, addr 0x49e2d88, size 0xb0, virtual false, abstract: false, final false
   inline void remove_activeChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
-  /// @brief Method remove_movingChanged, addr 0x49dce88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_movingChanged, addr 0x49e2ee8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_movingChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
-  /// @brief Method set_active, addr 0x49dcc00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x49e2c60, size 0x38, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
-  /// @brief Method set_columnLayout, addr 0x49dcbf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columnLayout, addr 0x49e2c50, size 0x8, virtual false, abstract: false, final false
   inline void set_columnLayout(::UnityEngine::UIElements::ColumnLayout* value);
 
-  /// @brief Method set_moving, addr 0x49dcc40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_moving, addr 0x49e2ca0, size 0x38, virtual false, abstract: false, final false
   inline void set_moving(bool value);
 
 protected:

@@ -100,21 +100,21 @@ public:
   /// @brief Field widthStart, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_widthStart, put = __cordl_internal_set_widthStart)) float_t widthStart;
 
-  /// @brief Method Awake, addr 0x39d6010, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39daf84, size 0x28, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x39d6038, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x39dafac, size 0xc4, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::ParametricBoxController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39d611c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39db090, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39d60fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39db070, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x39d613c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x39db0b0, size 0x220, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr float_t const& __cordl_internal_get__collisionHeight_k__BackingField() const;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_widthStart(float_t value);
 
-  /// @brief Method .ctor, addr 0x39d635c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39db2d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaEndID();
@@ -228,10 +228,10 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
-  /// @brief Method get_collisionHeight, addr 0x39d6000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionHeight, addr 0x39daf74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionHeight();
 
-  /// @brief Method get_useCollision, addr 0x39d5fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x39daf60, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
   static inline void setStaticF__alphaEndID(int32_t value);
@@ -246,10 +246,10 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
-  /// @brief Method set_collisionHeight, addr 0x39d6008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_collisionHeight, addr 0x39daf7c, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionHeight(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x39d5ff4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x39daf68, size 0xc, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
 protected:
@@ -267,7 +267,7 @@ public:
   ParametricBoxController(ParametricBoxController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16274 };
 
   /// @brief Field width, offset: 0x20, size: 0x4, def value: None
   float_t ___width;

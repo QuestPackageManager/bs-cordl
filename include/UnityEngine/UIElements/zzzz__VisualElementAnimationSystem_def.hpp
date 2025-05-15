@@ -73,22 +73,22 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementAnimationSystem* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x499bea4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x49a1f04, size 0x4, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method RegisterAnimation, addr 0x499b8d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimation, addr 0x49a1938, size 0x64, virtual false, abstract: false, final false
   inline void RegisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method RegisterAnimations, addr 0x499b93c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimations, addr 0x49a199c, size 0x178, virtual false, abstract: false, final false
   inline void RegisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method UnregisterAnimation, addr 0x499b6fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimation, addr 0x49a175c, size 0x64, virtual false, abstract: false, final false
   inline void UnregisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method UnregisterAnimations, addr 0x499b760, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimations, addr 0x49a17c0, size 0x178, virtual false, abstract: false, final false
   inline void UnregisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method Update, addr 0x499bab4, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x49a1b14, size 0x3e8, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr int64_t const& __cordl_internal_get_lastUpdate() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IterationListDirty(bool value);
 
-  /// @brief Method .ctor, addr 0x499bea8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a1f08, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
@@ -132,10 +132,10 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_StylePropertyAnimationProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x499b64c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x49a16ac, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x499b6a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x49a1704, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarker get_stylePropertyAnimationProfilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);

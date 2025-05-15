@@ -43,33 +43,33 @@ public:
   /// @brief Field _op, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__op, put = __cordl_internal_set__op)) int32_t _op;
 
-  /// @brief Method Bind, addr 0x4179504, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x417e478, size 0x4, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method Eval, addr 0x4179508, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417e47c, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x41795d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417e544, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x41795c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417e538, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x41795ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x417e560, size 0x8, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x41795f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x417e568, size 0x8, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x41795dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x417e550, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x41795e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x417e558, size 0x8, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::ZeroOpNode* New_ctor(int32_t op);
 
-  /// @brief Method Optimize, addr 0x41795fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x417e570, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr int32_t const& __cordl_internal_get__op() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__op(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41794d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417e44c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t op);
 
 protected:

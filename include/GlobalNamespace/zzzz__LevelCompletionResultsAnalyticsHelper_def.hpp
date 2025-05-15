@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResultsAnalyticsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FillEventData, addr 0x3ac6580, size 0x824, virtual false, abstract: false, final false
+  /// @brief Method FillEventData, addr 0x3acb4f4, size 0x824, virtual false, abstract: false, final false
   static inline void FillEventData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
 protected:

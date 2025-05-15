@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a943b8, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9932c, size 0x42c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Mesh* other);
 
-  /// @brief Method IsNull, addr 0x3a94358, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a992cc, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Mesh* New_ctor(::UnityEngine::Mesh* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x3a94330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a992a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Mesh*>"

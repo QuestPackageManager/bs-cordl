@@ -30,19 +30,19 @@ public:
 
   static inline ::System::Xml::BitStack* New_ctor();
 
-  /// @brief Method PeekBit, addr 0x423d118, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PeekBit, addr 0x424208c, size 0xc, virtual false, abstract: false, final false
   inline bool PeekBit();
 
-  /// @brief Method PopBit, addr 0x423d0ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PopBit, addr 0x4242020, size 0x28, virtual false, abstract: false, final false
   inline bool PopBit();
 
-  /// @brief Method PopCurr, addr 0x423d0d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PopCurr, addr 0x4242048, size 0x44, virtual false, abstract: false, final false
   inline void PopCurr();
 
-  /// @brief Method PushBit, addr 0x423cfa4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PushBit, addr 0x4241f18, size 0x38, virtual false, abstract: false, final false
   inline void PushBit(bool bit);
 
-  /// @brief Method PushCurr, addr 0x423cfdc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method PushCurr, addr 0x4241f50, size 0xd0, virtual false, abstract: false, final false
   inline void PushCurr();
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_bitStack() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_stackPos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x423cf84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4241ef8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

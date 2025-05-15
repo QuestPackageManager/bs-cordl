@@ -120,10 +120,10 @@ public:
   // Declarations
   using Capability = ::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability;
 
-  /// @brief Method FromMatcher, addr 0x455b97c, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method FromMatcher, addr 0x45608f0, size 0x318, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson FromMatcher(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
 
-  /// @brief Method ToMatcher, addr 0x455bce8, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ToMatcher, addr 0x4560c5c, size 0x458, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher ToMatcher();
 
   // Ctor Parameters []
@@ -227,10 +227,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher___c* New_ctor();
 
-  /// @brief Method <With>b__11_0, addr 0x455c1a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <With>b__11_0, addr 0x4561118, size 0x88, virtual false, abstract: false, final false
   inline bool _With_b__11_0(char16_t ch);
 
-  /// @brief Method .ctor, addr 0x455c19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4561110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher___c* getStaticF___9();
@@ -299,49 +299,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>*();
 
-  /// @brief Method Equals, addr 0x455b5f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x456056c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x455b4bc, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4560430, size 0x130, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher other);
 
-  /// @brief Method FromDeviceDescription, addr 0x455b18c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method FromDeviceDescription, addr 0x4560100, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher FromDeviceDescription(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
 
-  /// @brief Method GetHashCode, addr 0x455b764, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x45606d8, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNumPropertiesIn, addr 0x455b0c8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetNumPropertiesIn, addr 0x456003c, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t GetNumPropertiesIn(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description);
 
-  /// @brief Method MatchPercentage, addr 0x455a610, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method MatchPercentage, addr 0x455f584, size 0x348, virtual false, abstract: false, final false
   inline float_t MatchPercentage(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
 
-  /// @brief Method MatchSingleProperty, addr 0x455a964, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method MatchSingleProperty, addr 0x455f8d8, size 0xd8, virtual false, abstract: false, final false
   static inline bool MatchSingleProperty(::System::Object* pattern, ::StringW value);
 
-  /// @brief Method ToString, addr 0x455b308, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x456027c, size 0x1b4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method With, addr 0x455a224, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method With, addr 0x455f198, size 0x20c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher With(::UnityEngine::InputSystem::Utilities::InternedString key, ::System::Object* value, bool supportRegex);
 
   /// @brief Method WithCapability, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithCapability(::StringW path, TValue value);
 
-  /// @brief Method WithDeviceClass, addr 0x455a430, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithDeviceClass, addr 0x455f3a4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithDeviceClass(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithInterface, addr 0x455a1ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithInterface, addr 0x455f120, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithInterface(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithManufacturer, addr 0x455a4a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithManufacturer, addr 0x455f41c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithManufacturer(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithProduct, addr 0x455a520, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithProduct, addr 0x455f494, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithProduct(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithVersion, addr 0x455a598, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithVersion, addr 0x455f50c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithVersion(::StringW pattern, bool supportRegex);
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kDeviceClassKey();
@@ -354,19 +354,19 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kVersionKey();
 
-  /// @brief Method get_empty, addr 0x455a0f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x455f068, size 0x10, virtual false, abstract: false, final false
   inline bool get_empty();
 
-  /// @brief Method get_patterns, addr 0x455a104, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_patterns, addr 0x455f078, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* get_patterns();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>* i___System__IEquatable_1___UnityEngine__InputSystem__Layouts__InputDeviceMatcher_();
 
-  /// @brief Method op_Equality, addr 0x455b688, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x45605fc, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher left, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher right);
 
-  /// @brief Method op_Inequality, addr 0x455b6f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4560668, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher left, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher right);
 
   static inline void setStaticF_kDeviceClassKey(::UnityEngine::InputSystem::Utilities::InternedString value);
@@ -460,31 +460,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x455c230, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x45611a4, size 0x15c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher__get_patterns_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x455c42c, size 0x9c, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x45613a0, size 0x9c, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x455c38c, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x4561300, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x455c4c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x456143c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x455c398, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x456130c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x455c3d0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4561344, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x455c22c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x45611a0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -529,7 +529,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
-  /// @brief Method .ctor, addr 0x455a178, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x455f0ec, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"

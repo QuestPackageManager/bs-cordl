@@ -35,78 +35,78 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method GetAxisLength, addr 0x484f188, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAxisLength, addr 0x48540fc, size 0x70, virtual false, abstract: false, final false
   inline float_t GetAxisLength(int32_t humanId);
 
-  /// @brief Method GetLimitSign, addr 0x484f598, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLimitSign, addr 0x485450c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLimitSign(int32_t humanId);
 
-  /// @brief Method GetPostRotation, addr 0x484f2e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPostRotation, addr 0x485425c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetPostRotation(int32_t humanId);
 
-  /// @brief Method GetPreRotation, addr 0x484f23c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPreRotation, addr 0x48541b0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetPreRotation(int32_t humanId);
 
-  /// @brief Method GetZYPostQ, addr 0x484f394, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetZYPostQ, addr 0x4854308, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetZYPostQ(int32_t humanId, ::UnityEngine::Quaternion parentQ, ::UnityEngine::Quaternion q);
 
-  /// @brief Method GetZYRoll, addr 0x484f4b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetZYRoll, addr 0x485442c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetZYRoll(int32_t humanId, ::UnityEngine::Vector3 uvw);
 
-  /// @brief Method Internal_GetAxisLength, addr 0x484f1f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetAxisLength, addr 0x485416c, size 0x44, virtual false, abstract: false, final false
   inline float_t Internal_GetAxisLength(int32_t humanId);
 
-  /// @brief Method Internal_GetLimitSign, addr 0x484f5e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetLimitSign, addr 0x4854558, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Internal_GetLimitSign(int32_t humanId);
 
-  /// @brief Method Internal_GetLimitSign_Injected, addr 0x484f7b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetLimitSign_Injected, addr 0x485472c, size 0x54, virtual false, abstract: false, final false
   inline void Internal_GetLimitSign_Injected(int32_t humanId, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method Internal_GetPostRotation, addr 0x484f334, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPostRotation, addr 0x48542a8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetPostRotation(int32_t humanId);
 
-  /// @brief Method Internal_GetPostRotation_Injected, addr 0x484f69c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPostRotation_Injected, addr 0x4854610, size 0x54, virtual false, abstract: false, final false
   inline void Internal_GetPostRotation_Injected(int32_t humanId, ::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method Internal_GetPreRotation, addr 0x484f288, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPreRotation, addr 0x48541fc, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetPreRotation(int32_t humanId);
 
-  /// @brief Method Internal_GetPreRotation_Injected, addr 0x484f648, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPreRotation_Injected, addr 0x48545bc, size 0x54, virtual false, abstract: false, final false
   inline void Internal_GetPreRotation_Injected(int32_t humanId, ::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method Internal_GetZYPostQ, addr 0x484f440, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetZYPostQ, addr 0x48543b4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetZYPostQ(int32_t humanId, ::UnityEngine::Quaternion parentQ, ::UnityEngine::Quaternion q);
 
-  /// @brief Method Internal_GetZYPostQ_Injected, addr 0x484f6f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetZYPostQ_Injected, addr 0x4854664, size 0x6c, virtual false, abstract: false, final false
   inline void Internal_GetZYPostQ_Injected(int32_t humanId, ::ByRef<::UnityEngine::Quaternion> parentQ, ::ByRef<::UnityEngine::Quaternion> q, ::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method Internal_GetZYRoll, addr 0x484f52c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetZYRoll, addr 0x48544a0, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetZYRoll(int32_t humanId, ::UnityEngine::Vector3 uvw);
 
-  /// @brief Method Internal_GetZYRoll_Injected, addr 0x484f75c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetZYRoll_Injected, addr 0x48546d0, size 0x5c, virtual false, abstract: false, final false
   inline void Internal_GetZYRoll_Injected(int32_t humanId, ::ByRef<::UnityEngine::Vector3> uvw, ::ByRef<::UnityEngine::Quaternion> ret);
 
   static inline ::UnityEngine::Avatar* New_ctor();
 
-  /// @brief Method SetMuscleMinMax, addr 0x484f0d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMuscleMinMax, addr 0x485404c, size 0x5c, virtual false, abstract: false, final false
   inline void SetMuscleMinMax(int32_t muscleId, float_t min, float_t max);
 
-  /// @brief Method SetParameter, addr 0x484f134, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetParameter, addr 0x48540a8, size 0x54, virtual false, abstract: false, final false
   inline void SetParameter(int32_t parameterId, float_t value);
 
-  /// @brief Method .ctor, addr 0x484efd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4853f44, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_humanDescription, addr 0x484f028, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_humanDescription, addr 0x4853f9c, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::HumanDescription get_humanDescription();
 
-  /// @brief Method get_humanDescription_Injected, addr 0x484f094, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_humanDescription_Injected, addr 0x4854008, size 0x44, virtual false, abstract: false, final false
   inline void get_humanDescription_Injected(::ByRef<::UnityEngine::HumanDescription> ret);
 
-  /// @brief Method get_isHuman, addr 0x484db2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isHuman, addr 0x4852aa0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isHuman();
 
-  /// @brief Method get_isValid, addr 0x484daf0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x4852a64, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
 protected:
@@ -124,7 +124,7 @@ public:
   Avatar(Avatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

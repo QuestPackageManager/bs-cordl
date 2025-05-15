@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method AllocateNative, addr 0x4602ec8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AllocateNative, addr 0x4607e3c, size 0xb0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> AllocateNative(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t payloadSize);
 
   constexpr int32_t const& __cordl_internal_get_sizeInBytes() const;
@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method .ctor, addr 0x46029f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4607964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes);
 
-  /// @brief Method get_payloadPtr, addr 0x4602ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_payloadPtr, addr 0x4607e34, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_payloadPtr();
 
-  /// @brief Method get_payloadSizeInBytes, addr 0x4602eb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_payloadSizeInBytes, addr 0x4607e28, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_payloadSizeInBytes();
 
-  /// @brief Method get_typeStatic, addr 0x4602f78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x4607eec, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

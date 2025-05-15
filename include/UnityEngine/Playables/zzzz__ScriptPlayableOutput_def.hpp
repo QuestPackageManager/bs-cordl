@@ -33,22 +33,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method Create, addr 0x48c9374, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48cf3d4, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
-  /// @brief Method GetHandle, addr 0x48c9554, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x48cf5b4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x48c9468, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cf4c8, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
-  /// @brief Method get_Null, addr 0x48c93f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x48cf450, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayableOutput get_Null();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
   constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
-  /// @brief Method op_Implicit, addr 0x48c93ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48cf44c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Playables::ScriptPlayableOutput output);
 
   // Ctor Parameters []

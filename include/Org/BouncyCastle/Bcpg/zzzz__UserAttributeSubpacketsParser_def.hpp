@@ -29,7 +29,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket, addr 0x26482b4, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x264bd64, size 0x2ac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* ReadPacket();
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_input() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x2648184, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264bc34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
 protected:

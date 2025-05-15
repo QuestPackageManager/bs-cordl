@@ -86,7 +86,7 @@ public:
   constexpr GraphAPIClient_PostOptions(int32_t MaxRetries, int32_t MinWaitTimeForRetryMs, bool WithExponentialBackoff) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -153,7 +153,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14775 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -241,7 +241,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -299,7 +299,7 @@ public:
   /// @brief Field _networkConfig, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig)) ::GlobalNamespace::INetworkConfig* _networkConfig;
 
-  /// @brief Method CalculateDelayMsBeforeRetry, addr 0x22c8160, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CalculateDelayMsBeforeRetry, addr 0x22cbc10, size 0x98, virtual false, abstract: false, final false
   static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::GraphAPIClient_PostOptions postOptions);
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig);
@@ -331,7 +331,7 @@ public:
 
   constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  /// @brief Method .ctor, addr 0x22c80ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cbb9c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig);
 
 protected:
@@ -349,7 +349,7 @@ public:
   GraphAPIClient(GraphAPIClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14777 };
 
   /// @brief Field _networkConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;

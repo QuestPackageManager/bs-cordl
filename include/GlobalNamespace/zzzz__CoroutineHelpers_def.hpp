@@ -77,21 +77,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22afed8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b3988, size 0xb0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22aff88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b3a38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22aff90, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b3a40, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22affc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b3a78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22afed4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22b3984, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_timeSeconds(float_t value);
 
-  /// @brief Method .ctor, addr 0x22afca8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b3758, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -145,7 +145,7 @@ public:
   CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0(CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17127 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -202,21 +202,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22affd4, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b3a84, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b0074, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b3b24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b007c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b3b2c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b00b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b3b64, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22affd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22b3a80, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -237,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set_action(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x22afd30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b37e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -264,7 +264,7 @@ public:
   CoroutineHelpers__ExecuteAfterFrameEnd_d__1(CoroutineHelpers__ExecuteAfterFrameEnd_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17128 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -298,16 +298,16 @@ public:
 
   using _ExecuteAfterFrameEnd_d__1 = ::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1;
 
-  /// @brief Method ExecuteAfterDelayCoroutine, addr 0x22afc38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAfterDelayCoroutine, addr 0x22b36e8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(::System::Action* action, float_t timeSeconds);
 
-  /// @brief Method ExecuteAfterFrameEnd, addr 0x22afcd0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAfterFrameEnd, addr 0x22b3780, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* ExecuteAfterFrameEnd(::System::Action* action);
 
-  /// @brief Method StartSingleCoroutine, addr 0x22afd58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method StartSingleCoroutine, addr 0x22b3808, size 0xc4, virtual false, abstract: false, final false
   static inline void StartSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ::ByRef<::UnityEngine::Coroutine*> handle, ::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StopSingleCoroutine, addr 0x22afe1c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method StopSingleCoroutine, addr 0x22b38cc, size 0xb8, virtual false, abstract: false, final false
   static inline void StopSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ::ByRef<::UnityEngine::Coroutine*> handle);
 
 protected:
@@ -325,7 +325,7 @@ public:
   CoroutineHelpers(CoroutineHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

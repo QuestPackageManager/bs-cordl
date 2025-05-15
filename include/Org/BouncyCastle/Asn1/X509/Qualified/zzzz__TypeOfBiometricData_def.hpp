@@ -44,14 +44,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x24fe044, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2501af4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* biometricDataOid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* New_ctor(int32_t predefinedBiometricType);
 
-  /// @brief Method ToAsn1Object, addr 0x24fffc4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2503a74, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_obj() const;
@@ -60,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x24ffe28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25038d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* biometricDataOid);
 
-  /// @brief Method .ctor, addr 0x24ffd3c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25037ec, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t predefinedBiometricType);
 
-  /// @brief Method get_BiometricDataOid, addr 0x24fff4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_BiometricDataOid, addr 0x25039fc, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_BiometricDataOid();
 
-  /// @brief Method get_IsPredefined, addr 0x24ffe50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsPredefined, addr 0x2503900, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsPredefined();
 
-  /// @brief Method get_PredefinedBiometricType, addr 0x24ffecc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_PredefinedBiometricType, addr 0x250397c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_PredefinedBiometricType();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

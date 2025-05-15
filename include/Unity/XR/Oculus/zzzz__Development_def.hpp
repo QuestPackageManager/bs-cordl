@@ -63,7 +63,7 @@ public:
   static ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache const UserSettingTrue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17401 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -91,13 +91,13 @@ public:
   /// @brief Field s_CachedMode, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_CachedMode, put = setStaticF_s_CachedMode)) ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache s_CachedMode;
 
-  /// @brief Method OverrideDeveloperModeStart, addr 0x482e628, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OverrideDeveloperModeStart, addr 0x483359c, size 0xd4, virtual false, abstract: false, final false
   static inline void OverrideDeveloperModeStart();
 
-  /// @brief Method OverrideDeveloperModeStop, addr 0x482e704, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OverrideDeveloperModeStop, addr 0x4833678, size 0x74, virtual false, abstract: false, final false
   static inline void OverrideDeveloperModeStop();
 
-  /// @brief Method TrySetDeveloperMode, addr 0x482e5d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method TrySetDeveloperMode, addr 0x4833544, size 0x58, virtual false, abstract: false, final false
   static inline void TrySetDeveloperMode(bool active);
 
   static inline ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache getStaticF_s_CachedMode();
@@ -119,7 +119,7 @@ public:
   Development(Development const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

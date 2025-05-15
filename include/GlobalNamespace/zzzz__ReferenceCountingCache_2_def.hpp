@@ -96,7 +96,7 @@ public:
   ReferenceCountingCache_2(ReferenceCountingCache_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18604 };
 
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____items;

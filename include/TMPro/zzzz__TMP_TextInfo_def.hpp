@@ -98,28 +98,28 @@ public:
   /// @brief Field wordInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo)) ::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> wordInfo;
 
-  /// @brief Method Clear, addr 0x480198c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4806900, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearAllData, addr 0x48019e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllData, addr 0x480695c, size 0x12c, virtual false, abstract: false, final false
   inline void ClearAllData();
 
-  /// @brief Method ClearAllMeshInfo, addr 0x4801bcc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearAllMeshInfo, addr 0x4806b40, size 0xb0, virtual false, abstract: false, final false
   inline void ClearAllMeshInfo();
 
-  /// @brief Method ClearLineInfo, addr 0x4801de8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x4806d5c, size 0x180, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x4801b14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x4806a88, size 0xb8, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearPageInfo, addr 0x4801f68, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPageInfo, addr 0x4806edc, size 0x98, virtual false, abstract: false, final false
   inline void ClearPageInfo();
 
-  /// @brief Method ClearUnusedVertices, addr 0x4801d38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x4806cac, size 0xb0, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materials);
 
-  /// @brief Method CopyMeshInfoVertexData, addr 0x4802000, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method CopyMeshInfoVertexData, addr 0x4806f74, size 0x3c0, virtual false, abstract: false, final false
   inline ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> CopyMeshInfoVertexData();
 
   static inline ::TMPro::TMP_TextInfo* New_ctor();
@@ -128,7 +128,7 @@ public:
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method ResetVertexLayout, addr 0x4801c7c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ResetVertexLayout, addr 0x4806bf0, size 0xbc, virtual false, abstract: false, final false
   inline void ResetVertexLayout(bool isVolumetric);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -233,13 +233,13 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> value);
 
-  /// @brief Method .ctor, addr 0x48015cc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4806540, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48016f4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4806668, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t characterCount);
 
-  /// @brief Method .ctor, addr 0x4801820, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4806794, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_Text* textComponent);
 
   static inline ::UnityEngine::Vector2 getStaticF_k_InfinityVectorNegative();
@@ -265,7 +265,7 @@ public:
   TMP_TextInfo(TMP_TextInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14572 };
 
   /// @brief Field textComponent, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___textComponent;

@@ -24,7 +24,7 @@ public:
   /// @brief Field _transitionTiming, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__transitionTiming, put = __cordl_internal_set__transitionTiming)) ::UnityW<::GlobalNamespace::TransitionTimingSO> _transitionTiming;
 
-  /// @brief Method GetTransitionTiming, addr 0x44d4bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTransitionTiming, addr 0x44d9b30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::TransitionTimingSO> GetTransitionTiming();
 
   static inline ::GlobalNamespace::BaseTransitionSO* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__transitionTiming(::UnityW<::GlobalNamespace::TransitionTimingSO> value);
 
-  /// @brief Method .ctor, addr 0x44d4bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9b38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   BaseTransitionSO(BaseTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18223 };
 
   /// @brief Field _transitionTiming, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TransitionTimingSO> ____transitionTiming;

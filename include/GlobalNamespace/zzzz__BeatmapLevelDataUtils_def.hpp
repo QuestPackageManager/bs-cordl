@@ -84,7 +84,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ReadAllTextFromPathAsync>b__0, addr 0x26c4de0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <ReadAllTextFromPathAsync>b__0, addr 0x26c8890, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromPathAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26c41fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <ReadAllTextFromUrlAsync>b__0, addr 0x26c4e40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <ReadAllTextFromUrlAsync>b__0, addr 0x26c88f0, size 0x80, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromUrlAsync_b__0();
 
   constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_www() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_www(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x26c4e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c88e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,7 +188,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <ReadAllTextFromDataAsync>b__0, addr 0x26c4ec0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ReadAllTextFromDataAsync>b__0, addr 0x26c8970, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromDataAsync_b__0();
 
   constexpr ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> const& __cordl_internal_get_inputData() const;
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_inputData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x26c42f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7da4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -239,10 +239,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26c4f1c, size 0x494, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c89cc, size 0x494, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c53b0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c8e60, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -334,49 +334,49 @@ public:
   /// @brief Field sha1, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_sha1, put = setStaticF_sha1)) ::System::Security::Cryptography::SHA1* sha1;
 
-  /// @brief Method CalculateAudioContentHash, addr 0x26c4418, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculateAudioContentHash, addr 0x26c7ec8, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW CalculateAudioContentHash(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method CalculateBeatmapDataContentHash, addr 0x26c42fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CalculateBeatmapDataContentHash, addr 0x26c7dac, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW CalculateBeatmapDataContentHash(::StringW beatmapJson);
 
-  /// @brief Method CalculateHashFromData, addr 0x26c4374, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashFromData, addr 0x26c7e24, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW CalculateHashFromData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method CalculateHashFromPath, addr 0x26c4524, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashFromPath, addr 0x26c7fd4, size 0x1fc, virtual false, abstract: false, final false
   static inline ::StringW CalculateHashFromPath(::StringW path);
 
-  /// @brief Method Compress, addr 0x26c4720, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method Compress, addr 0x26c81d0, size 0x47c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compress(::StringW data);
 
-  /// @brief Method Decompress, addr 0x26c3ba0, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method Decompress, addr 0x26c7650, size 0x448, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decompress(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetBytesFromUtf8String, addr 0x26c4b9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetBytesFromUtf8String, addr 0x26c864c, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytesFromUtf8String(::StringW data);
 
-  /// @brief Method GetUtf8String, addr 0x26c3fe8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetUtf8String, addr 0x26c7a98, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW GetUtf8String(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method IsCompressed, addr 0x26c3b60, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsCompressed, addr 0x26c7610, size 0x40, virtual false, abstract: false, final false
   static inline bool IsCompressed(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ReadAllTextFromData, addr 0x26c302c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromData, addr 0x26c6adc, size 0x168, virtual false, abstract: false, final false
   static inline ::StringW ReadAllTextFromData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
 
-  /// @brief Method ReadAllTextFromDataAsync, addr 0x26c29c4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromDataAsync, addr 0x26c6474, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromDataAsync(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
 
-  /// @brief Method ReadAllTextFromPath, addr 0x26c3a14, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromPath, addr 0x26c74c4, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW ReadAllTextFromPath(::StringW path);
 
-  /// @brief Method ReadAllTextFromPathAsync, addr 0x26c40b8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromPathAsync, addr 0x26c7b68, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromPathAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAllTextFromUrlAsync, addr 0x26c4204, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromUrlAsync, addr 0x26c7cb4, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromUrlAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method StartsWithBom, addr 0x26c4c10, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method StartsWithBom, addr 0x26c86c0, size 0x120, virtual false, abstract: false, final false
   static inline bool StartsWithBom(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_kUtf8Bom();

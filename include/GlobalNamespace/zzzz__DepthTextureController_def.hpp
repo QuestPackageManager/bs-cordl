@@ -22,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE DepthTextureController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3b296ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b2e660, size 0xb8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsManager* settingsManager);
 
   static inline ::GlobalNamespace::DepthTextureController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b297a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2e718, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

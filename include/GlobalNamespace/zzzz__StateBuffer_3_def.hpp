@@ -91,7 +91,7 @@ public:
   constexpr StateBuffer_3_TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14993 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -150,7 +150,7 @@ public:
   StateBuffer_3_InterpolationDelegate(StateBuffer_3_InterpolationDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14994 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -194,7 +194,7 @@ public:
   StateBuffer_3_SmoothingDelegate(StateBuffer_3_SmoothingDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -298,7 +298,7 @@ public:
   StateBuffer_3(StateBuffer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14996 };
 
   /// @brief Field _currentIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____currentIndex;

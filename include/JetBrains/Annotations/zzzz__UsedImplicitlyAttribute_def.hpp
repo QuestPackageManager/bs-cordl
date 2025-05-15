@@ -58,28 +58,28 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x4aed4c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3520, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4aed53c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af359c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor, addr 0x4aed510, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3570, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
-  /// @brief Method .ctor, addr 0x4aed4e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3544, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method get_TargetFlags, addr 0x4aed578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetFlags, addr 0x4af35d8, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
 
-  /// @brief Method get_UseKindFlags, addr 0x4aed568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseKindFlags, addr 0x4af35c8, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
 
-  /// @brief Method set_TargetFlags, addr 0x4aed580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetFlags, addr 0x4af35e0, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
 
-  /// @brief Method set_UseKindFlags, addr 0x4aed570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UseKindFlags, addr 0x4af35d0, size 0x8, virtual false, abstract: false, final false
   inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   UsedImplicitlyAttribute(UsedImplicitlyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18465 };
 
   /// @brief Field <UseKindFlags>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseKindFlags ____UseKindFlags_k__BackingField;

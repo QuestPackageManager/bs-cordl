@@ -35,27 +35,27 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Tokens,
                       put = __cordl_internal_set_m_Tokens)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* m_Tokens;
 
-  /// @brief Method GlobCharacter, addr 0x49dac08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GlobCharacter, addr 0x49e0c68, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GlobCharacter(::StringW s, int32_t index, char16_t c);
 
-  /// @brief Method IsNextCharacter, addr 0x49dac44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsNextCharacter, addr 0x49e0ca4, size 0x44, virtual false, abstract: false, final false
   static inline bool IsNextCharacter(::StringW s, int32_t index, char16_t c);
 
-  /// @brief Method IsNextLetterOrDash, addr 0x49dad20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsNextLetterOrDash, addr 0x49e0d80, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsNextLetterOrDash(::StringW s, int32_t index);
 
-  /// @brief Method IsNextNumber, addr 0x49dac88, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsNextNumber, addr 0x49e0ce8, size 0x98, virtual false, abstract: false, final false
   static inline bool IsNextNumber(::StringW s, int32_t index);
 
-  /// @brief Method MoveNext, addr 0x49da194, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x49e01f4, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken MoveNext();
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* New_ctor();
 
-  /// @brief Method PeekNext, addr 0x49da40c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PeekNext, addr 0x49e046c, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken PeekNext();
 
-  /// @brief Method Tokenize, addr 0x49d8648, size 0xc70, virtual false, abstract: false, final false
+  /// @brief Method Tokenize, addr 0x49de6a8, size 0xc70, virtual false, abstract: false, final false
   inline void Tokenize(::StringW syntax);
 
   constexpr int32_t const& __cordl_internal_get_m_CurrentTokenIndex() const;
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Tokens(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* value);
 
-  /// @brief Method .ctor, addr 0x49d85c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49de624, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_current, addr 0x49d9530, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x49df590, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current();
 
 protected:

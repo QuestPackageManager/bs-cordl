@@ -40,16 +40,16 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3cee978, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf38ec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ceea34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf39a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cee9ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf3960, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3ceea10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf3984, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::StringW getStaticF_s_nullMessage();

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::GlobalNamespace::GameplayServerFiniteStateMachine* (*)(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams)>(&::GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22c8054;
+  constexpr static std::size_t addrs = 0x22cbb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

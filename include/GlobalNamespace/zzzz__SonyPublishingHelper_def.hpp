@@ -22,28 +22,28 @@ namespace GlobalNamespace {
 class CORDL_TYPE SonyPublishingHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetContentId, addr 0x26ed44c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetContentId, addr 0x26f0f1c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetContentId(::StringW serviceId, ::StringW productLabel);
 
-  /// @brief Method GetContentId, addr 0x26ed3f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetContentId, addr 0x26f0ec8, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetContentId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetContentIdFromNpTitleId, addr 0x26ed4a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromNpTitleId, addr 0x26f0f78, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW GetContentIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId, ::StringW productLabel);
 
-  /// @brief Method GetContentIdFromTitleId, addr 0x26ed418, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromTitleId, addr 0x26f0ee8, size 0x34, virtual false, abstract: false, final false
   static inline ::StringW GetContentIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId, ::StringW productLabel);
 
-  /// @brief Method GetNpTitleId, addr 0x26ed51c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetNpTitleId, addr 0x26f0fec, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetNpTitleId(::StringW titleId);
 
-  /// @brief Method GetServiceId, addr 0x26ed3b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetServiceId, addr 0x26f0e84, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW GetServiceId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetServiceIdFromNpTitleId, addr 0x26ed4c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetServiceIdFromNpTitleId, addr 0x26f0f90, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetServiceIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId);
 
-  /// @brief Method GetServiceIdFromTitleId, addr 0x26ed3d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetServiceIdFromTitleId, addr 0x26f0ea8, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetServiceIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId);
 
 protected:

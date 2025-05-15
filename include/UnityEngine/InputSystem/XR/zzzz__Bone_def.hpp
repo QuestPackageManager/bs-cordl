@@ -33,22 +33,22 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
-  /// @brief Method get_parentBoneIndex, addr 0x45e2b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentBoneIndex, addr 0x45e7a80, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_parentBoneIndex();
 
-  /// @brief Method get_position, addr 0x45e2b1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x45e7a90, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x45e2b34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x45e7aa8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_parentBoneIndex, addr 0x45e2b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentBoneIndex, addr 0x45e7a88, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(uint32_t value);
 
-  /// @brief Method set_position, addr 0x45e2b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x45e7a9c, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x45e2b40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x45e7ab4, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []

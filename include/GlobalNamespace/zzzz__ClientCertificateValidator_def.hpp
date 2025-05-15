@@ -31,15 +31,15 @@ public:
 
   static inline ::GlobalNamespace::ClientCertificateValidator* New_ctor();
 
-  /// @brief Method ValidateCertificateChain, addr 0x22b6e60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ValidateCertificateChain, addr 0x22ba910, size 0x4, virtual true, abstract: false, final true
   inline void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                        ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainInternal, addr 0x22b6e64, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChainInternal, addr 0x22ba914, size 0x1bc, virtual false, abstract: false, final false
   inline void ValidateCertificateChainInternal(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method .ctor, addr 0x22b7020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22baad0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICertificateValidator"
@@ -60,7 +60,7 @@ public:
   ClientCertificateValidator(ClientCertificateValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -60,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set__objectiveValueFormater(::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> value);
 
-  /// @brief Method .ctor, addr 0x26d341c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_noConditionValue, addr 0x26d340c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noConditionValue, addr 0x26d6edc, size 0x8, virtual false, abstract: false, final false
   inline bool get_noConditionValue();
 
-  /// @brief Method get_objectiveName, addr 0x26d33f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveName, addr 0x26d6ec8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_objectiveName();
 
-  /// @brief Method get_objectiveNameLocalized, addr 0x26d3400, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveNameLocalized, addr 0x26d6ed0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_objectiveNameLocalized();
 
-  /// @brief Method get_objectiveValueFormater, addr 0x26d3414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveValueFormater, addr 0x26d6ee4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> get_objectiveValueFormater();
 
 protected:

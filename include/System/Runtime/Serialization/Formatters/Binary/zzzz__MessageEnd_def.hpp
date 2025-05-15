@@ -27,21 +27,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class CORDL_TYPE MessageEnd : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Dump, addr 0x3cfd5c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3d02534, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
-  /// @brief Method Dump, addr 0x3cfd5c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3d02538, size 0x4, virtual false, abstract: false, final false
   inline void Dump(::System::IO::Stream* sout);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MessageEnd* New_ctor();
 
-  /// @brief Method Read, addr 0x3cfd5bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3d02530, size 0x4, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Write, addr 0x3cfd594, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3d02508, size 0x28, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method .ctor, addr 0x3cfd58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d02500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

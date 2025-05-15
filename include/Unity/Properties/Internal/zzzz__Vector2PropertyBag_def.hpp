@@ -40,10 +40,10 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2PropertyBag_XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4910818, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916878, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49108a8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4916908, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -61,7 +61,7 @@ public:
   Vector2PropertyBag_XProperty(Vector2PropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,10 +80,10 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2PropertyBag_YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4910860, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49168c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49108e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4916948, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -101,7 +101,7 @@ public:
   Vector2PropertyBag_YProperty(Vector2PropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17503 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,7 +122,7 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x490fa60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4915ac0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   Vector2PropertyBag(Vector2PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17504 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

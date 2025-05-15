@@ -37,22 +37,22 @@ public:
   /// @brief Field _targetThis, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__targetThis, put = __cordl_internal_set__targetThis)) ::System::MarshalByRefObject* _targetThis;
 
-  /// @brief Method AsyncObjectProcessMessage, addr 0x3cd0e00, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x3cd5d74, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method GetServerObject, addr 0x3cd0b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetServerObject, addr 0x3cd5a80, size 0x8, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* GetServerObject();
 
   static inline ::System::Runtime::Remoting::ClientActivatedIdentity* New_ctor(::StringW objectUri, ::System::Type* objectType);
 
-  /// @brief Method OnLifetimeExpired, addr 0x3cd0b1c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnLifetimeExpired, addr 0x3cd5a90, size 0x5c, virtual true, abstract: false, final false
   inline void OnLifetimeExpired();
 
-  /// @brief Method SetClientProxy, addr 0x3cd0b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetClientProxy, addr 0x3cd5a88, size 0x8, virtual false, abstract: false, final false
   inline void SetClientProxy(::System::MarshalByRefObject* obj);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x3cd0b78, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x3cd5aec, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::MarshalByRefObject* const& __cordl_internal_get__targetThis() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__targetThis(::System::MarshalByRefObject* value);
 
-  /// @brief Method .ctor, addr 0x3cceda8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd3d1c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Type* objectType);
 
 protected:

@@ -83,7 +83,7 @@ public:
   FastAction_2(FastAction_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14421 };
 
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action_2<A, B>*>* ___delegates;

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(
     &::GlobalNamespace::LightmappingSongController::StopSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3beb2e4;
+  constexpr static std::size_t addrs = 0x3bf0258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(
     &::GlobalNamespace::LightmappingSongController::PauseSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3beb2e8;
+  constexpr static std::size_t addrs = 0x3bf025c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(
     &::GlobalNamespace::LightmappingSongController::ResumeSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3beb2ec;
+  constexpr static std::size_t addrs = 0x3bf0260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(&::GlobalNamespace::LightmappingSongController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3beb2f0;
+  constexpr static std::size_t addrs = 0x3bf0264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmappingSongController*>::get(), ".ctor",

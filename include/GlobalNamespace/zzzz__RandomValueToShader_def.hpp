@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
 
-  /// @brief Method SetRandomSeed, addr 0x39d8270, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRandomSeed, addr 0x39dd1e4, size 0x68, virtual false, abstract: false, final false
   inline void SetRandomSeed(int32_t seed);
 
-  /// @brief Method SetRandomValueToShaders, addr 0x39d841c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetRandomValueToShaders, addr 0x39dd390, size 0xa0, virtual false, abstract: false, final false
   inline void SetRandomValueToShaders();
 
   constexpr int32_t const& __cordl_internal_get__lastFrameNum() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x39d84c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dd438, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__randomValueID();
@@ -73,7 +73,7 @@ public:
   RandomValueToShader(RandomValueToShader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16283 };
 
   /// @brief Field _random, offset: 0x18, size: 0x8, def value: None
   ::System::Random* ____random;

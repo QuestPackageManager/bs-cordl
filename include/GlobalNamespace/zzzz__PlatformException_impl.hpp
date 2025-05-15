@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::PlatformException::*)(::GlobalNamespace::PlatformException_ErrorType, ::StringW, ::System::Exception*)>(&::GlobalNamespace::PlatformException::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x407bbc4;
+  constexpr static std::size_t addrs = 0x4080b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformException::*)(
     ::GlobalNamespace::PlatformException_ErrorType, int32_t, int32_t, ::StringW, ::System::Exception*)>(&::GlobalNamespace::PlatformException::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x407bbd8;
+  constexpr static std::size_t addrs = 0x4080b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

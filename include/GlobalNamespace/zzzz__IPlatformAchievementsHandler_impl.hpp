@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler::*)(
     ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26a034c;
+  constexpr static std::size_t addrs = 0x26a3dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler::*)(
     ::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementResult)>(&::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26a0748;
+  constexpr static std::size_t addrs = 0x26a41f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                                                 ::System::AsyncCallback*, ::System::Object*)>(
         &::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26a075c;
+  constexpr static std::size_t addrs = 0x26a420c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler::*)(
     ::System::IAsyncResult*)>(&::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a07e0;
+  constexpr static std::size_t addrs = 0x26a4290;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler::*)(
     ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26a02b8;
+  constexpr static std::size_t addrs = 0x26a3d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsResult, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26a07ec;
+  constexpr static std::size_t addrs = 0x26a429c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                  ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26a0800;
+  constexpr static std::size_t addrs = 0x26a42b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler::*)(
     ::System::IAsyncResult*)>(&::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a0894;
+  constexpr static std::size_t addrs = 0x26a4344;
 
   inline static ::MethodInfo const* methodInfo() {
 

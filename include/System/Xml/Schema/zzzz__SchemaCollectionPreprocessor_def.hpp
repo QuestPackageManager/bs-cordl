@@ -195,104 +195,104 @@ public:
   /// @brief Field xmlResolver, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver)) ::System::Xml::XmlResolver* xmlResolver;
 
-  /// @brief Method BuildRefNamespaces, addr 0x4287d5c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method BuildRefNamespaces, addr 0x428ccd0, size 0x204, virtual false, abstract: false, final false
   inline void BuildRefNamespaces(::System::Xml::Schema::XmlSchema* schema);
 
-  /// @brief Method CheckRefinedAttributeGroup, addr 0x428a950, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckRefinedAttributeGroup, addr 0x428f8c4, size 0x168, virtual false, abstract: false, final false
   inline void CheckRefinedAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup);
 
-  /// @brief Method CheckRefinedComplexType, addr 0x428aab8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method CheckRefinedComplexType, addr 0x428fa2c, size 0x314, virtual false, abstract: false, final false
   inline void CheckRefinedComplexType(::System::Xml::Schema::XmlSchemaComplexType* ctype);
 
-  /// @brief Method CheckRefinedGroup, addr 0x428a8b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckRefinedGroup, addr 0x428f82c, size 0x98, virtual false, abstract: false, final false
   inline void CheckRefinedGroup(::System::Xml::Schema::XmlSchemaGroup* group);
 
-  /// @brief Method CheckRefinedSimpleType, addr 0x428adcc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CheckRefinedSimpleType, addr 0x428fd40, size 0x10c, virtual false, abstract: false, final false
   inline void CheckRefinedSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* stype);
 
-  /// @brief Method Cleanup, addr 0x4284878, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x42897ec, size 0x21c, virtual false, abstract: false, final false
   inline void Cleanup(::System::Xml::Schema::XmlSchema* schema);
 
-  /// @brief Method CountGroupSelfReference, addr 0x428aed8, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CountGroupSelfReference, addr 0x428fe4c, size 0x2cc, virtual false, abstract: false, final false
   inline int32_t CountGroupSelfReference(::System::Xml::Schema::XmlSchemaObjectCollection* items, ::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method Execute, addr 0x4284658, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x42895cc, size 0x220, virtual false, abstract: false, final false
   inline bool Execute(::System::Xml::Schema::XmlSchema* schema, ::StringW targetNamespace, bool loadExternals, ::System::Xml::Schema::XmlSchemaCollection* xsc);
 
-  /// @brief Method GetSchemaEntity, addr 0x4287c48, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaEntity, addr 0x428cbbc, size 0x114, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetSchemaEntity(::System::Uri* ruri);
 
-  /// @brief Method LoadExternals, addr 0x4284a94, size 0x960, virtual false, abstract: false, final false
+  /// @brief Method LoadExternals, addr 0x4289a08, size 0x960, virtual false, abstract: false, final false
   inline void LoadExternals(::System::Xml::Schema::XmlSchema* schema, ::System::Xml::Schema::XmlSchemaCollection* xsc);
 
   static inline ::System::Xml::Schema::SchemaCollectionPreprocessor* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                                               ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method Preprocess, addr 0x4285650, size 0x2544, virtual false, abstract: false, final false
+  /// @brief Method Preprocess, addr 0x428a5c4, size 0x2544, virtual false, abstract: false, final false
   inline void Preprocess(::System::Xml::Schema::XmlSchema* schema, ::StringW targetNamespace, ::System::Xml::Schema::SchemaCollectionPreprocessor_Compositor compositor);
 
-  /// @brief Method PreprocessAnnotation, addr 0x4287f78, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PreprocessAnnotation, addr 0x428ceec, size 0xd4, virtual false, abstract: false, final false
   inline void PreprocessAnnotation(::System::Xml::Schema::XmlSchemaObject* schemaObject);
 
-  /// @brief Method PreprocessAttribute, addr 0x4289194, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method PreprocessAttribute, addr 0x428e108, size 0x164, virtual false, abstract: false, final false
   inline void PreprocessAttribute(::System::Xml::Schema::XmlSchemaAttribute* attribute);
 
-  /// @brief Method PreprocessAttributeContent, addr 0x428b44c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method PreprocessAttributeContent, addr 0x42903c0, size 0x238, virtual false, abstract: false, final false
   inline void PreprocessAttributeContent(::System::Xml::Schema::XmlSchemaAttribute* attribute);
 
-  /// @brief Method PreprocessAttributeGroup, addr 0x42892f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PreprocessAttributeGroup, addr 0x428e26c, size 0xf4, virtual false, abstract: false, final false
   inline void PreprocessAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup);
 
-  /// @brief Method PreprocessAttributes, addr 0x428b9e4, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method PreprocessAttributes, addr 0x4290958, size 0x310, virtual false, abstract: false, final false
   inline void PreprocessAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* attributes, ::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute,
                                    ::System::Xml::Schema::XmlSchemaObject* parent);
 
-  /// @brief Method PreprocessComplexType, addr 0x42893ec, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method PreprocessComplexType, addr 0x428e360, size 0x880, virtual false, abstract: false, final false
   inline void PreprocessComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType, bool local);
 
-  /// @brief Method PreprocessElement, addr 0x428a210, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method PreprocessElement, addr 0x428f184, size 0x248, virtual false, abstract: false, final false
   inline void PreprocessElement(::System::Xml::Schema::XmlSchemaElement* element);
 
-  /// @brief Method PreprocessElementContent, addr 0x428bcf4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method PreprocessElementContent, addr 0x4290c68, size 0x348, virtual false, abstract: false, final false
   inline void PreprocessElementContent(::System::Xml::Schema::XmlSchemaElement* element);
 
-  /// @brief Method PreprocessGroup, addr 0x428a458, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method PreprocessGroup, addr 0x428f3cc, size 0x1c0, virtual false, abstract: false, final false
   inline void PreprocessGroup(::System::Xml::Schema::XmlSchemaGroup* group);
 
-  /// @brief Method PreprocessIdentityConstraint, addr 0x428c3c8, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method PreprocessIdentityConstraint, addr 0x429133c, size 0x340, virtual false, abstract: false, final false
   inline void PreprocessIdentityConstraint(::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint);
 
-  /// @brief Method PreprocessLocalAttribute, addr 0x428b684, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method PreprocessLocalAttribute, addr 0x42905f8, size 0x1d8, virtual false, abstract: false, final false
   inline void PreprocessLocalAttribute(::System::Xml::Schema::XmlSchemaAttribute* attribute);
 
-  /// @brief Method PreprocessLocalElement, addr 0x428c03c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method PreprocessLocalElement, addr 0x4290fb0, size 0x38c, virtual false, abstract: false, final false
   inline void PreprocessLocalElement(::System::Xml::Schema::XmlSchemaElement* element);
 
-  /// @brief Method PreprocessNotation, addr 0x428a618, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method PreprocessNotation, addr 0x428f58c, size 0x2a0, virtual false, abstract: false, final false
   inline void PreprocessNotation(::System::Xml::Schema::XmlSchemaNotation* notation);
 
-  /// @brief Method PreprocessParticle, addr 0x428c708, size 0x84c, virtual false, abstract: false, final false
+  /// @brief Method PreprocessParticle, addr 0x429167c, size 0x84c, virtual false, abstract: false, final false
   inline void PreprocessParticle(::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method PreprocessRedefine, addr 0x428804c, size 0x1148, virtual false, abstract: false, final false
+  /// @brief Method PreprocessRedefine, addr 0x428cfc0, size 0x1148, virtual false, abstract: false, final false
   inline void PreprocessRedefine(::System::Xml::Schema::XmlSchemaRedefine* redefine);
 
-  /// @brief Method PreprocessSimpleType, addr 0x4289c6c, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method PreprocessSimpleType, addr 0x428ebe0, size 0x5a4, virtual false, abstract: false, final false
   inline void PreprocessSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* simpleType, bool local);
 
-  /// @brief Method ResolveSchemaLocationUri, addr 0x4287b9c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ResolveSchemaLocationUri, addr 0x428cb10, size 0xac, virtual false, abstract: false, final false
   inline ::System::Uri* ResolveSchemaLocationUri(::System::Xml::Schema::XmlSchema* enclosingSchema, ::StringW location);
 
-  /// @brief Method SetParent, addr 0x4287f60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetParent, addr 0x428ced4, size 0x18, virtual false, abstract: false, final false
   inline void SetParent(::System::Xml::Schema::XmlSchemaObject* child, ::System::Xml::Schema::XmlSchemaObject* parent);
 
-  /// @brief Method ValidateIdAttribute, addr 0x42853f4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ValidateIdAttribute, addr 0x428a368, size 0x25c, virtual false, abstract: false, final false
   inline void ValidateIdAttribute(::System::Xml::Schema::XmlSchemaObject* xso);
 
-  /// @brief Method ValidateNameAttribute, addr 0x428b1a4, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method ValidateNameAttribute, addr 0x4290118, size 0x2a8, virtual false, abstract: false, final false
   inline void ValidateNameAttribute(::System::Xml::Schema::XmlSchemaObject* xso);
 
-  /// @brief Method ValidateQNameAttribute, addr 0x428b85c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ValidateQNameAttribute, addr 0x42907d0, size 0x188, virtual false, abstract: false, final false
   inline void ValidateQNameAttribute(::System::Xml::Schema::XmlSchemaObject* xso, ::StringW attributeName, ::System::Xml::XmlQualifiedName* value);
 
   constexpr ::StringW const& __cordl_internal_get_Xmlns() const;
@@ -361,10 +361,10 @@ public:
 
   constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method .ctor, addr 0x4284650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42895c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method set_XmlResolver, addr 0x4287b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x428cb08, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:

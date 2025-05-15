@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::*)()>(
     &::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b1490c;
+  constexpr static std::size_t addrs = 0x3b19880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::*)()>(
     &::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b14910;
+  constexpr static std::size_t addrs = 0x3b19884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

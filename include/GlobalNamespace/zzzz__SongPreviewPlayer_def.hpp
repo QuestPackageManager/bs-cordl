@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_ambientVolumeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad0540, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad54b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t ambientVolumeScale);
 
 protected:
@@ -172,19 +172,19 @@ public:
 
   constexpr void __cordl_internal_set__spread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad058c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad5500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_position, addr 0x3ad0568, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x3ad54dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_reverbZoneMix, addr 0x3ad0574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reverbZoneMix, addr 0x3ad54e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_reverbZoneMix();
 
-  /// @brief Method get_spatialBlend, addr 0x3ad057c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spatialBlend, addr 0x3ad54f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spatialBlend();
 
-  /// @brief Method get_spread, addr 0x3ad0584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spread, addr 0x3ad54f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spread();
 
 protected:
@@ -270,19 +270,19 @@ public:
 
   constexpr void __cordl_internal_set_audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method .ctor, addr 0x3acf8c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad4838, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audioSource);
 
-  /// @brief Method get_maxVolume, addr 0x3ad059c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x3ad5510, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_volume, addr 0x3ad0594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x3ad5508, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volume();
 
-  /// @brief Method set_maxVolume, addr 0x3ad05a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxVolume, addr 0x3ad5518, size 0x8, virtual false, abstract: false, final false
   inline void set_maxVolume(float_t value);
 
-  /// @brief Method set_volume, addr 0x3acfcf8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x3ad4c6c, size 0x34, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
 protected:
@@ -355,21 +355,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3ad05b0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ad5524, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ad0658, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ad55cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ad0660, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ad55d4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ad0698, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ad560c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3ad05ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3ad5520, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -396,7 +396,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3acfa78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad49ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -536,51 +536,51 @@ public:
 
   __declspec(property(get = get_defaultAudioClip)) ::UnityW<::UnityEngine::AudioClip> defaultAudioClip;
 
-  /// @brief Method Awake, addr 0x3acf6f4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ad4668, size 0x1d0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CrossFadeAfterDelayCoroutine, addr 0x3acfa08, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeAfterDelayCoroutine, addr 0x3ad497c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CrossFadeAfterDelayCoroutine(float_t delay);
 
-  /// @brief Method CrossfadeTo, addr 0x3acfdb4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeTo, addr 0x3ad4d28, size 0x2f8, virtual false, abstract: false, final false
   inline void CrossfadeTo(::UnityEngine::AudioClip* audioClip, float_t musicVolume, float_t startTime, float_t duration, bool isDefault, ::System::Action* onFadeOutCallback);
 
-  /// @brief Method CrossfadeTo, addr 0x3ad0304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeTo, addr 0x3ad5278, size 0xc, virtual false, abstract: false, final false
   inline void CrossfadeTo(::UnityEngine::AudioClip* audioClip, float_t musicVolume, float_t startTime, float_t duration, ::System::Action* onFadeOutCallback);
 
-  /// @brief Method CrossfadeToDefault, addr 0x3ad00ac, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeToDefault, addr 0x3ad5020, size 0x178, virtual false, abstract: false, final false
   inline void CrossfadeToDefault();
 
-  /// @brief Method CrossfadeToNewDefault, addr 0x3ad0224, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeToNewDefault, addr 0x3ad5198, size 0xe0, virtual false, abstract: false, final false
   inline void CrossfadeToNewDefault(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method FadeOut, addr 0x3ad048c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x3ad5400, size 0x1c, virtual true, abstract: false, final false
   inline void FadeOut(float_t duration);
 
   static inline ::GlobalNamespace::SongPreviewPlayer* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3acfaa0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ad4a14, size 0xd4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3acf914, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ad4888, size 0xf4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PauseCurrentChannel, addr 0x3ad03a8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method PauseCurrentChannel, addr 0x3ad531c, size 0x74, virtual true, abstract: false, final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method ReportChannelDidFadeOut, addr 0x3acfd2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReportChannelDidFadeOut, addr 0x3ad4ca0, size 0x88, virtual false, abstract: false, final false
   inline void ReportChannelDidFadeOut(int32_t channel);
 
-  /// @brief Method Start, addr 0x3acf8f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad4868, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopCurrentChannel, addr 0x3ad0310, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method StopCurrentChannel, addr 0x3ad5284, size 0x98, virtual false, abstract: false, final false
   inline void StopCurrentChannel();
 
-  /// @brief Method UnPauseCurrentChannel, addr 0x3ad041c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnPauseCurrentChannel, addr 0x3ad5390, size 0x70, virtual true, abstract: false, final false
   inline void UnPauseCurrentChannel();
 
-  /// @brief Method Update, addr 0x3acfb74, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad4ae8, size 0x184, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__activeChannel() const;
@@ -706,13 +706,13 @@ public:
 
   constexpr void __cordl_internal_set__volumeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad04a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad541c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeAudioClip, addr 0x3acf698, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_activeAudioClip, addr 0x3ad460c, size 0x54, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
-  /// @brief Method get_defaultAudioClip, addr 0x3acf6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultAudioClip, addr 0x3ad4660, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_defaultAudioClip();
 
 protected:

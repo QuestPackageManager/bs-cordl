@@ -26,24 +26,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem"
   constexpr operator ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() noexcept;
 
-  /// @brief Method BuiltinUpdate, addr 0x48cb27c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method BuiltinUpdate, addr 0x48d12dc, size 0x28, virtual false, abstract: false, final false
   static inline bool BuiltinUpdate();
 
-  /// @brief Method Dispose, addr 0x48cb2a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x48d1304, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x48cb2a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x48d1308, size 0x4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New, addr 0x48cb2ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New, addr 0x48d130c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* Internal_BuiltinRuntimeReflectionSystem_New();
 
   static inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* New_ctor();
 
-  /// @brief Method TickRealtimeProbes, addr 0x48cb254, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method TickRealtimeProbes, addr 0x48d12b4, size 0x28, virtual true, abstract: false, final true
   inline bool TickRealtimeProbes();
 
-  /// @brief Method .ctor, addr 0x48cb300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d1360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

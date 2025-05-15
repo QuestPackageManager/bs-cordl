@@ -35,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifierInfoListItem* New_ctor();
 
-  /// @brief Method SetModifier, addr 0x3c23efc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetModifier, addr 0x3c28e70, size 0x190, virtual false, abstract: false, final false
   inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
 
   constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__iconImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3c2408c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c29000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   GameplayModifierInfoListItem(GameplayModifierInfoListItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19206 };
 
   /// @brief Field _hoverHint, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;

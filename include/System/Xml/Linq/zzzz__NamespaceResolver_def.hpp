@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_scope(int32_t value);
 
-  /// @brief Method .ctor, addr 0x42480c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424d034, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   NamespaceResolver_NamespaceDeclaration(NamespaceResolver_NamespaceDeclaration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17976 };
 
   /// @brief Field prefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___prefix;
@@ -124,19 +124,19 @@ public:
   // Declarations
   using NamespaceDeclaration = ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration;
 
-  /// @brief Method Add, addr 0x4247fc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x424cf38, size 0x9c, virtual false, abstract: false, final false
   inline void Add(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method AddFirst, addr 0x4247e48, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddFirst, addr 0x424cdbc, size 0x98, virtual false, abstract: false, final false
   inline void AddFirst(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x4247d6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x424cce0, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
-  /// @brief Method PopScope, addr 0x4248060, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PopScope, addr 0x424cfd4, size 0x60, virtual false, abstract: false, final false
   inline void PopScope();
 
-  /// @brief Method PushScope, addr 0x4247fb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PushScope, addr 0x424cf28, size 0x10, virtual false, abstract: false, final false
   inline void PushScope();
 
   // Ctor Parameters []
@@ -148,7 +148,7 @@ public:
   constexpr NamespaceResolver(int32_t _scope, ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _declaration, ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _rover) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

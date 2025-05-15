@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadPreview)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26c0a24;
+  constexpr static std::size_t addrs = 0x26c44d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadPreview)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26c0acc;
+  constexpr static std::size_t addrs = 0x26c457c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadSong)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x26c0b74;
+  constexpr static std::size_t addrs = 0x26c4624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadSong)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x26bf334;
+  constexpr static std::size_t addrs = 0x26c2de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

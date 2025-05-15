@@ -40,63 +40,63 @@ public:
 
   __declspec(property(get = get_Padding, put = set_Padding)) ::System::Security::Cryptography::PaddingMode Padding;
 
-  /// @brief Method CreateDecryptor, addr 0x4087f64, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x408ced8, size 0x50, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
 
-  /// @brief Method CreateDecryptor, addr 0x40875e4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x408c558, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method CreateEncryptor, addr 0x4087fb4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x408cf28, size 0x50, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
 
-  /// @brief Method CreateEncryptor, addr 0x4087dc8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x408cd3c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method Dispose, addr 0x4088004, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x408cf78, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GenerateIV, addr 0x408759c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x408c510, size 0x24, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x40875c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x408c534, size 0x24, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::AesCryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4087538, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408c4ac, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FeedbackSize, addr 0x4087ee8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FeedbackSize, addr 0x408ce5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FeedbackSize();
 
-  /// @brief Method get_IV, addr 0x4087eb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IV, addr 0x408ce2c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IV();
 
-  /// @brief Method get_Key, addr 0x4087ec8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x408ce3c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method get_KeySize, addr 0x4087ed8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x408ce4c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_Mode, addr 0x4087ef0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x408ce64, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::CipherMode get_Mode();
 
-  /// @brief Method get_Padding, addr 0x4087f54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Padding, addr 0x408cec8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::PaddingMode get_Padding();
 
-  /// @brief Method set_IV, addr 0x4087ec0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IV, addr 0x408ce34, size 0x8, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Key, addr 0x4087ed0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x408ce44, size 0x8, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_KeySize, addr 0x4087ee0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x408ce54, size 0x8, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
-  /// @brief Method set_Mode, addr 0x4087ef8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method set_Mode, addr 0x408ce6c, size 0x5c, virtual true, abstract: false, final false
   inline void set_Mode(::System::Security::Cryptography::CipherMode value);
 
-  /// @brief Method set_Padding, addr 0x4087f5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Padding, addr 0x408ced0, size 0x8, virtual true, abstract: false, final false
   inline void set_Padding(::System::Security::Cryptography::PaddingMode value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   AesCryptoServiceProvider(AesCryptoServiceProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::StackGuard::*)()>(
     &::System::Linq::Expressions::StackGuard::TryEnterOnCurrentStack)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x40b8124;
+  constexpr static std::size_t addrs = 0x40bd098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::StackGuard*>::get(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::StackGuard::*)()>(&::System::Linq::Expressions::StackGuard::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40b8184;
+  constexpr static std::size_t addrs = 0x40bd0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::StackGuard*>::get(), ".ctor",

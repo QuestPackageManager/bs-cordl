@@ -36,7 +36,7 @@ public:
                       put = __cordl_internal_set__scenesTransitionSetupData)) ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO>
       _scenesTransitionSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3b33e3c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b38db0, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::HealthWarningNoTransitionInstaller* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b33e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b38dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

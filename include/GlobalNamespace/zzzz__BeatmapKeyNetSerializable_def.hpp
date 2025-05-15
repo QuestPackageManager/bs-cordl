@@ -57,26 +57,26 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapKeyNetSerializable*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapKeyNetSerializable*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x271a854, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x271e3b8, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x271a7e4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x271e348, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapKeyNetSerializable* other);
 
-  /// @brief Method GetHashCode, addr 0x271a960, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x271e4c4, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0x271a730, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0x271e294, size 0x50, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0x271a790, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0x271e2f4, size 0x4c, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   static inline ::GlobalNamespace::BeatmapKeyNetSerializable* New_ctor();
 
   static inline ::GlobalNamespace::BeatmapKeyNetSerializable* New_ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method ToString, addr 0x271a9c4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x271e528, size 0x90, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__beatmapCharacteristicSerializedName_k__BackingField() const;
@@ -97,19 +97,19 @@ public:
 
   constexpr void __cordl_internal_set__levelID_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x271a6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271e250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x271a6f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271e258, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method get_beatmapCharacteristicSerializedName, addr 0x271a6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristicSerializedName, addr 0x271e230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapCharacteristicSerializedName();
 
-  /// @brief Method get_difficulty, addr 0x271a6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x271e240, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
 
-  /// @brief Method get_levelID, addr 0x271a6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x271e220, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -118,13 +118,13 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapKeyNetSerializable*>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapKeyNetSerializable*>* i___System__IEquatable_1___GlobalNamespace__BeatmapKeyNetSerializable__() noexcept;
 
-  /// @brief Method set_beatmapCharacteristicSerializedName, addr 0x271a6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapCharacteristicSerializedName, addr 0x271e238, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapCharacteristicSerializedName(::StringW value);
 
-  /// @brief Method set_difficulty, addr 0x271a6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_difficulty, addr 0x271e248, size 0x8, virtual false, abstract: false, final false
   inline void set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method set_levelID, addr 0x271a6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelID, addr 0x271e228, size 0x8, virtual false, abstract: false, final false
   inline void set_levelID(::StringW value);
 
 protected:
@@ -142,7 +142,7 @@ public:
   BeatmapKeyNetSerializable(BeatmapKeyNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16972 };
 
   /// @brief Field <levelID>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelID_k__BackingField;

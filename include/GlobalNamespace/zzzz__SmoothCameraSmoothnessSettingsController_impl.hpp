@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::GetInitValues)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3c0f5a4;
+  constexpr static std::size_t addrs = 0x3c14518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)(int32_t)>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::ApplyValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c0f6b4;
+  constexpr static std::size_t addrs = 0x3c14628;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)(int32_t)>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3c0f758;
+  constexpr static std::size_t addrs = 0x3c146cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)()>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0f84c;
+  constexpr static std::size_t addrs = 0x3c147c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

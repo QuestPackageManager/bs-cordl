@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_updateAllocID(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x49af72c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b578c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__promoBannerInfo(::UnityW<::GlobalNamespace::PromoBannerInfoSO> value);
 
-  /// @brief Method .ctor, addr 0x26d08c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelID, addr 0x26d08b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x26d4388, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_promoBannerInfo, addr 0x26d08c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoBannerInfo, addr 0x26d4390, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_promoBannerInfo();
 
 protected:
@@ -113,6 +113,8 @@ public:
   /// @brief Field _promoBannerInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__promoBannerInfo, put = __cordl_internal_set__promoBannerInfo)) ::UnityW<::GlobalNamespace::PromoBannerInfoSO> _promoBannerInfo;
 
+  __declspec(property(get = get_hasLevelPromos)) bool hasLevelPromos;
+
   __declspec(property(get = get_levelPromoInfos)) ::ArrayW<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*, ::Array<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>*> levelPromoInfos;
 
   __declspec(property(get = get_promoBannerInfo)) ::UnityW<::GlobalNamespace::PromoBannerInfoSO> promoBannerInfo;
@@ -131,13 +133,16 @@ public:
 
   constexpr void __cordl_internal_set__promoBannerInfo(::UnityW<::GlobalNamespace::PromoBannerInfoSO> value);
 
-  /// @brief Method .ctor, addr 0x26d08b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPromoInfos, addr 0x26d08a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasLevelPromos, addr 0x26d4360, size 0x20, virtual false, abstract: false, final false
+  inline bool get_hasLevelPromos();
+
+  /// @brief Method get_levelPromoInfos, addr 0x26d4358, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*, ::Array<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>*> get_levelPromoInfos();
 
-  /// @brief Method get_promoBannerInfo, addr 0x26d08a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoBannerInfo, addr 0x26d4350, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_promoBannerInfo();
 
 protected:

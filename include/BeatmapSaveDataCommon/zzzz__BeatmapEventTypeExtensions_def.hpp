@@ -24,12 +24,12 @@ namespace BeatmapSaveDataCommon {
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSpecialEventTypes, addr 0x2707804, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetSpecialEventTypes, addr 0x270b368, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* GetSpecialEventTypes();
 
   static inline ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27078c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b42c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

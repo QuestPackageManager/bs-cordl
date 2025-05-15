@@ -37,16 +37,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x47923b4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4797328, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4792448, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x47973bc, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x4792364, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x47972d8, size 0x30, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IdCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x4792394, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4797308, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::IdCacheKey* New_ctor(::StringW id);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x479233c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47972b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -81,7 +81,7 @@ public:
   IdCacheKey(IdCacheKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15633 };
 
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   ::StringW ____cordl_ID;

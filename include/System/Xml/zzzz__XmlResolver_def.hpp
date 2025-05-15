@@ -34,18 +34,18 @@ public:
   /// @brief Method GetEntity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method GetEntityAsync, addr 0x435eb4c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x4363ac0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlResolver* New_ctor();
 
-  /// @brief Method ResolveUri, addr 0x435e83c, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x43637b0, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method SupportsType, addr 0x435ea08, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method SupportsType, addr 0x436397c, size 0x144, virtual true, abstract: false, final false
   inline bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x435eb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4363af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

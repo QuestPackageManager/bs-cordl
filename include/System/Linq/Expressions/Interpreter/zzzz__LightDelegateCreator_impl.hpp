@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LightDelegateCreator::*)(
     ::System::Linq::Expressions::Interpreter::Interpreter*, ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Interpreter::LightDelegateCreator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x40e187c;
+  constexpr static std::size_t addrs = 0x40e67f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Interpreter* (
     ::System::Linq::Expressions::Interpreter::LightDelegateCreator::*)()>(&::System::Linq::Expressions::Interpreter::LightDelegateCreator::get_Interpreter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e18a8;
+  constexpr static std::size_t addrs = 0x40e681c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (::System::Linq::Expressions::Interpreter::LightDelegateCreator::*)()>(
     &::System::Linq::Expressions::Interpreter::LightDelegateCreator::CreateDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e18b0;
+  constexpr static std::size_t addrs = 0x40e6824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::LightDelegateCreator::*)(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*>)>(
     &::System::Linq::Expressions::Interpreter::LightDelegateCreator::CreateDelegate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x40e18b8;
+  constexpr static std::size_t addrs = 0x40e682c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

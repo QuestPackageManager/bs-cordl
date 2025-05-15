@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e5354;
+  constexpr static std::size_t addrs = 0x40ea2c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e535c;
+  constexpr static std::size_t addrs = 0x40ea2d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40e5364;
+  constexpr static std::size_t addrs = 0x40ea2d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::Run)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x40e53a4;
+  constexpr static std::size_t addrs = 0x40ea318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e53e8;
+  constexpr static std::size_t addrs = 0x40ea35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

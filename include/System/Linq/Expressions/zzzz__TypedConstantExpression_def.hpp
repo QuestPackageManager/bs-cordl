@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40aa500, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40af474, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method get_Type, addr 0x40aa524, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40af498, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -58,7 +58,7 @@ public:
   TypedConstantExpression(TypedConstantExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13667 };
 
   /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;

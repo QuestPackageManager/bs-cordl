@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Predicate(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x48ad9f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b3a54, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method get_keepWaiting, addr 0x48ad9d0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x48b3a30, size 0x24, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:

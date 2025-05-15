@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::EnhancedTouch::Finger*, ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*, int32_t, int32_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x45fbf9c;
+  constexpr static std::size_t addrs = 0x4600f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>* (
     ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::*)()>(&::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::GetEnumerator)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45fec70;
+  constexpr static std::size_t addrs = 0x4603be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45fed1c;
+  constexpr static std::size_t addrs = 0x4603c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45fed20;
+  constexpr static std::size_t addrs = 0x4603c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::*)(
     int32_t)>(&::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::get_Item)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x45fed28;
+  constexpr static std::size_t addrs = 0x4603c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::CheckValid)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x45fee60;
+  constexpr static std::size_t addrs = 0x4603dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory>::get(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::*)(
     ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory)>(&::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x45fece8;
+  constexpr static std::size_t addrs = 0x4603c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x45feef4;
+  constexpr static std::size_t addrs = 0x4603e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45fef1c;
+  constexpr static std::size_t addrs = 0x4603e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (
     ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::*)()>(&::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x45fef28;
+  constexpr static std::size_t addrs = 0x4603e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x45fef68;
+  constexpr static std::size_t addrs = 0x4603edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45fefe4;
+  constexpr static std::size_t addrs = 0x4603f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

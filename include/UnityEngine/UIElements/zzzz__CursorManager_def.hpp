@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CursorManager* New_ctor();
 
-  /// @brief Method ResetCursor, addr 0x4a0e8e0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method ResetCursor, addr 0x4a14940, size 0x68, virtual true, abstract: false, final true
   inline void ResetCursor();
 
-  /// @brief Method SetCursor, addr 0x4a0e7f0, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method SetCursor, addr 0x4a14850, size 0xf0, virtual true, abstract: false, final true
   inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
 
   constexpr bool const& __cordl_internal_get__isCursorOverriden_k__BackingField() const;
@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__isCursorOverriden_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4a0e948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a149a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isCursorOverriden, addr 0x4a0e7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isCursorOverriden, addr 0x4a1483c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isCursorOverriden();
 
   /// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
   constexpr ::UnityEngine::UIElements::ICursorManager* i___UnityEngine__UIElements__ICursorManager() noexcept;
 
-  /// @brief Method set_isCursorOverriden, addr 0x4a0e7e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isCursorOverriden, addr 0x4a14844, size 0xc, virtual false, abstract: false, final false
   inline void set_isCursorOverriden(bool value);
 
 protected:

@@ -37,10 +37,10 @@ public:
   /// @brief Field m_ForcedMinHeight, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ForcedMinHeight, put = __cordl_internal_set_m_ForcedMinHeight)) float_t m_ForcedMinHeight;
 
-  /// @brief Method CalcHeight, addr 0x48dcf3c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x48e2f9c, size 0xa0, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x48dced4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x48e2f34, size 0x68, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content,
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ForcedMinHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x48d7bf0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ddc50, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
 protected:
@@ -82,7 +82,7 @@ public:
   GUIWordWrapSizer(GUIWordWrapSizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16662 };
 
   /// @brief Field m_Content, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::GUIContent* ___m_Content;

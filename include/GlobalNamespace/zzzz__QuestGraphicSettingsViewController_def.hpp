@@ -39,16 +39,16 @@ public:
                       put = __cordl_internal_set__stinsonOnlyEntries)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _stinsonOnlyEntries;
 
-  /// @brief Method DidActivate, addr 0x3af4910, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af9884, size 0x24c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3af4b5c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3af9ad0, size 0x108, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Handle120HzToggleValueChanged, addr 0x3af4c80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Handle120HzToggleValueChanged, addr 0x3af9bf4, size 0x40, virtual false, abstract: false, final false
   inline void Handle120HzToggleValueChanged(bool newState);
 
-  /// @brief Method HandleMirrorChanged, addr 0x3af4c64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x3af9bd8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController* New_ctor();
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__stinsonOnlyEntries(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3af4cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af9c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -24,13 +24,13 @@ public:
   // Declarations
   static inline ::LiteNetLib::Layers::Crc32cLayer* New_ctor();
 
-  /// @brief Method ProcessInboundPacket, addr 0x3abb270, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x3ac01e4, size 0x170, virtual true, abstract: false, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ::ByRef<int32_t> offset, ::ByRef<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0x3abb3e0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x3ac0354, size 0xa0, virtual true, abstract: false, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ::ByRef<int32_t> offset, ::ByRef<int32_t> length);
 
-  /// @brief Method .ctor, addr 0x3abb228, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac019c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   Crc32cLayer(Crc32cLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

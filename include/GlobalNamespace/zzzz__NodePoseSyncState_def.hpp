@@ -79,7 +79,7 @@ public:
   static ::GlobalNamespace::NodePoseSyncState_NodePose const RightController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14983 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,37 +113,37 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method ApplyDelta, addr 0x22e62c8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0x22e9d78, size 0x110, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NodePoseSyncState ApplyDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> delta);
 
-  /// @brief Method Deserialize, addr 0x22e6048, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x22e9af8, size 0x40, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x22e6124, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x22e9bd4, size 0x94, virtual false, abstract: false, final false
   inline bool Equals(::ByRef<::GlobalNamespace::NodePoseSyncState> other);
 
-  /// @brief Method GetDelta, addr 0x22e61b8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetDelta, addr 0x22e9c68, size 0x110, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NodePoseSyncState GetDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> latest);
 
-  /// @brief Method GetSize, addr 0x22e63d8, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method GetSize, addr 0x22e9e88, size 0x48, virtual true, abstract: false, final true
   inline int32_t GetSize();
 
-  /// @brief Method GetState, addr 0x22e60d8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method GetState, addr 0x22e9b88, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PoseSerializable GetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose);
 
-  /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0x22e6480, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0x22e9f30, size 0x4, virtual true, abstract: false, final true
   inline bool IEquatableByReference_NodePoseSyncState__Equals(::ByRef<::GlobalNamespace::NodePoseSyncState> other);
 
-  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0x22e6450, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0x22e9f00, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> delta);
 
-  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0x22e6420, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0x22e9ed0, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> stateTable);
 
-  /// @brief Method Serialize, addr 0x22e6008, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22e9ab8, size 0x40, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetState, addr 0x22e6088, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x22e9b38, size 0x50, virtual true, abstract: false, final true
   inline void SetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose, ::GlobalNamespace::PoseSerializable pose);
 
   /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>"
@@ -165,7 +165,7 @@ public:
   constexpr NodePoseSyncState(::GlobalNamespace::PoseSerializable _head, ::GlobalNamespace::PoseSerializable _leftController, ::GlobalNamespace::PoseSerializable _rightController) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

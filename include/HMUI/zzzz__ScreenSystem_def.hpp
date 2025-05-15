@@ -75,18 +75,18 @@ public:
 
   __declspec(property(get = get_topScreen)) ::UnityW<::HMUI::Screen> topScreen;
 
-  /// @brief Method Awake, addr 0x2287af4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x228b5a4, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::ScreenSystem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2287bb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x228b664, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetBackButton, addr 0x22837d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBackButton, addr 0x2287280, size 0x30, virtual false, abstract: false, final false
   inline void SetBackButton(bool visible, bool animated);
 
-  /// @brief Method <Awake>b__24_0, addr 0x2287bd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_0, addr 0x228b688, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backButton() const;
@@ -149,31 +149,31 @@ public:
 
   constexpr void __cordl_internal_set_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2287bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228b680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_backButtonWasPressedEvent, addr 0x2284d8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_backButtonWasPressedEvent, addr 0x228883c, size 0x9c, virtual false, abstract: false, final false
   inline void add_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_bottomScreen, addr 0x2287ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottomScreen, addr 0x228b594, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_bottomScreen();
 
-  /// @brief Method get_leftScreen, addr 0x2287ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftScreen, addr 0x228b584, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_leftScreen();
 
-  /// @brief Method get_mainScreen, addr 0x2287acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainScreen, addr 0x228b57c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_mainScreen();
 
-  /// @brief Method get_rightScreen, addr 0x2287adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightScreen, addr 0x228b58c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_rightScreen();
 
-  /// @brief Method get_titleViewController, addr 0x2287ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleViewController, addr 0x228b574, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TitleViewController> get_titleViewController();
 
-  /// @brief Method get_topScreen, addr 0x2287aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_topScreen, addr 0x228b59c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_topScreen();
 
-  /// @brief Method remove_backButtonWasPressedEvent, addr 0x2284e28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_backButtonWasPressedEvent, addr 0x22888d8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_backButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -191,7 +191,7 @@ public:
   ScreenSystem(ScreenSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16820 };
 
   /// @brief Field _mainScreen, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____mainScreen;

@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4426b20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442ba94, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* switchLevelType);
 
-  /// @brief Method set_SwitchLevelType, addr 0x4426b4c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_SwitchLevelType, addr 0x442bac0, size 0xbc, virtual false, abstract: false, final false
   inline void set_SwitchLevelType(::System::Type* value);
 
 protected:

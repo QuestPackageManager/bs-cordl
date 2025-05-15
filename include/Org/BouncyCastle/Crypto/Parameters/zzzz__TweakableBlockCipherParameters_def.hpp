@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set_tweak(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23bf9b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3464, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak);
 
-  /// @brief Method get_Key, addr 0x23bfa34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x23c34e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_Tweak, addr 0x23bfa3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0x23c34ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Tweak();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

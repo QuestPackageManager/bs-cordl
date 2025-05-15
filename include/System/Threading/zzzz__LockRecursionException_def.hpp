@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Threading::LockRecursionException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e483d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4d344, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e48490, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4d404, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e48428, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4d39c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

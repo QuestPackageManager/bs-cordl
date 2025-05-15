@@ -38,10 +38,10 @@ public:
 
   static inline ::UnityEngine::Timeline::Marker* New_ctor();
 
-  /// @brief Method OnInitialize, addr 0x4820de8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitialize, addr 0x4825d5c, size 0x4, virtual true, abstract: false, final false
   inline void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
 
-  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x4820c9c, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x4825c10, size 0x14c, virtual true, abstract: false, final true
   inline void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
 
   constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset> const& __cordl_internal_get__parent_k__BackingField() const;
@@ -56,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(double_t value);
 
-  /// @brief Method .ctor, addr 0x4820dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4825d60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parent, addr 0x4820c14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_parent, addr 0x4825b88, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parent();
 
-  /// @brief Method get_time, addr 0x4820c24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x4825b98, size 0x8, virtual true, abstract: false, final true
   inline double_t get_time();
 
   /// @brief Convert to "::UnityEngine::Timeline::IMarker"
   constexpr ::UnityEngine::Timeline::IMarker* i___UnityEngine__Timeline__IMarker() noexcept;
 
-  /// @brief Method set_parent, addr 0x4820c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parent, addr 0x4825b90, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Timeline::TrackAsset* value);
 
-  /// @brief Method set_time, addr 0x4820c2c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0x4825ba0, size 0x70, virtual true, abstract: false, final true
   inline void set_time(double_t value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   Marker(Marker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15855 };
 
   /// @brief Field m_Time, offset: 0x18, size: 0x8, def value: None
   double_t ___m_Time;

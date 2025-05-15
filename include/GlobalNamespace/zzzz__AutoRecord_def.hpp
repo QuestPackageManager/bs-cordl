@@ -109,24 +109,24 @@ public:
   /// @brief Field kCutStartOffset, offset 0xffffffff, size 0x1c
   __declspec(property(get = getStaticF_kCutStartOffset, put = setStaticF_kCutStartOffset)) ::UnityEngine::Pose kCutStartOffset;
 
-  /// @brief Method AddNoteHandFrames, addr 0x3b2253c, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method AddNoteHandFrames, addr 0x3b274b0, size 0x504, virtual false, abstract: false, final false
   static inline void
   AddNoteHandFrames(::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
                     ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames,
                     ::ArrayW<::GlobalNamespace::NoteCutDirection, ::Array<::GlobalNamespace::NoteCutDirection>*> lastCutDirections);
 
-  /// @brief Method AddSliderHandFrames, addr 0x3b22a40, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method AddSliderHandFrames, addr 0x3b279b4, size 0x600, virtual false, abstract: false, final false
   static inline void AddSliderHandFrames(
       ::GlobalNamespace::SliderData* slider, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
       ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames);
 
-  /// @brief Method CreatePlayerPoseFrames, addr 0x3b21c24, size 0x8d8, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayerPoseFrames, addr 0x3b26b98, size 0x8d8, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(::ByRef<::GlobalNamespace::AutoRecord_Beatmap> beatmap);
 
-  /// @brief Method LocateCutPosition, addr 0x3b224fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LocateCutPosition, addr 0x3b27470, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer);
 
-  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3b23040, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3b27fb4, size 0x88, virtual false, abstract: false, final false
   static inline int32_t _CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames);
 
   static inline ::UnityEngine::Pose getStaticF_kCutEndOffset();

@@ -24,12 +24,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE SavePersistentViewData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4a3e15c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4a441bc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4a3e0d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a44134, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

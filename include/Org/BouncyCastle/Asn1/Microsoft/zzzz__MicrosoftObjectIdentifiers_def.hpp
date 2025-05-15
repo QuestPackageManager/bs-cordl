@@ -44,7 +44,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23fe0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2401b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Microsoft();

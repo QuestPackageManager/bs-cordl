@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::MaterialReference::*)(int32_t, ::TMPro::TMP_FontAsset*, ::TMPro::TMP_SpriteAsset*, ::UnityEngine::Material*, float_t)>(&::TMPro::MaterialReference::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47b0c50;
+  constexpr static std::size_t addrs = 0x47b5bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>, ::TMPro::TMP_FontAsset*)>(
     &::TMPro::MaterialReference::Contains)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47b0ccc;
+  constexpr static std::size_t addrs = 0x47b5c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::UnityEngine::Material*, ::TMPro::TMP_FontAsset*, ::ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>>,
                             ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::TMPro::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x47b0dc8;
+  constexpr static std::size_t addrs = 0x47b5d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::UnityEngine::Material*, ::TMPro::TMP_SpriteAsset*, ::ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>>,
                             ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::TMPro::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x47b0fd4;
+  constexpr static std::size_t addrs = 0x47b5f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::LingerOption::*)(bool, int32_t)>(&::System::Net::Sockets::LingerOption::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43fb7cc;
+  constexpr static std::size_t addrs = 0x4400740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::LingerOption::*)(bool)>(&::System::Net::Sockets::LingerOption::set_Enabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43fb800;
+  constexpr static std::size_t addrs = 0x4400774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::LingerOption::*)(int32_t)>(&::System::Net::Sockets::LingerOption::set_LingerTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43fb80c;
+  constexpr static std::size_t addrs = 0x4400780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
